@@ -1,0 +1,10 @@
+{
+  "name": "jsctags",
+  "version": "0.0.1",
+  "main": "parser.js",
+  "dependencies": {
+    "tern": "git://github.com/marijnh/tern.git",
+    "deepmerge": "0.2.x",
+    "tryor": "0.1.x"
+  }
+}
