@@ -2,4 +2,14 @@
 
 jsctags generator using [tern](https://github.com/marijnh/tern)
 
-*not ready*
+## install
+
+```sh
+npm install [-g] [--save/--save-dev] git://git@github.com:ramitos/jsctags.git
+```
+
+## examples
+
+## license
+
+MIT
