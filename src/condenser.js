@@ -1,67 +1,66 @@
-var interpolate = require('util').format,
-    cp = require('child_process'),
+var condense = require('tern/lib/condense'),
+    interpolate = require('util').format,
     merge = require('deepmerge'),
     tryor = require('tryor'),
-    path = require('path')
-
-var condense = path.join(__dirname, '..', 'node_modules/tern/bin/condense')
-var present = {
-  libs: ['browser', 'ecma5'],
-  loadEagerly: false,
-  plugins: {
-    doc_comment: true
-  }
-}
+    path = require('path'),
+    tern = require('tern'),
+    fs = require('fs')
 
 var config = function (dir) {
   var config = tryor(function() {
       return fs.readFileSync(path.join(dir, '.tern-project'), 'utf8')
   }, "{}")
   
-  var merged = merge(JSON.parse(config), present)
-  
-  merged.libs = unique(merged.libs)
-  
-  if(Array.isArray(config.libs) && config.libs.indexOf('browser') < 0)
-    merged.libs.splice(merged.libs.indexOf('browser'), 1)
-  
-  return merged
+  return merge(JSON.parse(config), {
+    libs: ['browser', 'ecma5'],
+    loadEagerly: false,
+    plugins: {
+      doc_comment: true
+    }
+  })
 }
 
-var unique = function (ar) {
-  var values = {}
+var defs = function (libs) {
+  var base = path.resolve(__dirname, '../node_modules/tern/defs')
   
-  ar.forEach(function (el) {
-    values[el] = true
+  return libs.map(function (lib) {
+    if(!/\.json$/.test(lib)) lib = lib + '.json';
+    var file = path.join(base, lib)
+    if(fs.existsSync(file)) return require(file)
+  }).filter(function (lib) {
+    return !!lib
+  })
+}
+
+var server = function (config, dir) {
+  var base = path.resolve(__dirname, '../node_modules/tern/defs')
+  
+  Object.keys(config.plugins).forEach(function (plugin) {
+    var file = path.join(base, interpolate('%s.js', plugin))
+    if(fs.existsSync(file)) return require(file)
   })
   
-  return Object.keys(values)
+  return new tern.Server({
+    async: false,
+    defs: defs(config.libs),
+    plugins: config.plugins,
+    projectDir: dir
+  })
 }
 
-
-var condenser = module.exports = function (file, dir, callback) {
-  var cfg = config(dir)
-
-  var cmd = interpolate('node %s --name %s', condense, file)
-  cmd += ' ' + condenser.defs(cfg)
-  cmd += ' ' + condenser.plugins(cfg)
-  cmd += ' ' + file
+module.exports = function (dir, file, content, callback) {
+  var self = server(config(dir), dir)
   
-  cp.exec(cmd, function (e, stdout, stderr) {
+  self.request({files: [{
+    name: file,
+    text: content,
+    type: 'full'
+  }]}, function (e) {
+    if(e) throw e
+  })
+  
+  self.flush(function (e) {
     if(e) return callback(e)
-    if(stderr.length) return callback(new Error(stderr))
-    callback(e, JSON.parse(stdout))
+    callback(null, condense.condense(file, file, {spans: true}))
   })
-}
-
-condenser.defs = function (config) {
-  return config.libs.map(function (def) {
-    return interpolate('--def %s', def)
-  }).join(' ')
-}
-
-condenser.plugins = function (config) {
-  return Object.keys(config.plugins).map(function (plugin) {
-    return interpolate('--plugin %s=%s', plugin, JSON.stringify(config.plugins[plugin]))
-  }).join(' ')
 }

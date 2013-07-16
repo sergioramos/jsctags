@@ -3,10 +3,9 @@ var interpolate = require('util').format,
     path = require('path'),
     fs = require('fs')
 
-module.exports = function (file, dir, callback) {
-  condense(file, dir, function (e, condense) {
+module.exports = function (file, dir, content, callback) {
+  condense(dir, file, content, function (e, condense) {
     if(e) throw e
-    var content = fs.readFileSync(file, 'utf8')
     var types = {}
     var tags = []
     
@@ -43,9 +42,13 @@ var typeFn = function (type, define) {
   if(args) args = args.pop().split(',').map(function (arg) {
     var type = arg.match(/^.*?\: (.*?)$/)
     if(type) type = type.pop()
-    
-    if(define[type]) return typeFn(define[type]['!type'], define)
-    if(type && type.match(/^\[/)) return 'Array'.concat(type)
+
+    if(define[type] && define[type]['!type'])
+      return typeFn(define[type]['!type'], define)
+      
+    if(type && type.match(/^\[/))
+      return 'Array'.concat(type)
+
     else return type
   }).filter(function (type) {
     return !!type
@@ -93,7 +96,7 @@ var tagger = function (file, condense, tags, types, parent, root) {
 
     var tag = {
       name: name,
-      addr: addr(_span, file),
+      addr: addr(_span, file).toString(),
       kind: kind(_type),
       type: type(_type, define),
       lineno: lineno(_span),

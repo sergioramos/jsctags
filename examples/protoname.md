@@ -1,0 +1,61 @@
+```js
+function Base() {}
+Base.prototype = {};
+
+Base.prototype; //: Base.prototype
+new Base; //: Base
+
+function Sub1() {}
+Sub1.prototype = new Base();
+new Sub1(); //: Sub1
+
+function Sub2() {}
+Sub2.prototype = Object.create(Base.prototype);
+new Sub2(); //: Sub2
+
+function Base2() {}
+
+function Sub3() {}
+Sub3.prototype = new Base2();
+
+new Sub3(); //: Sub3
+```
+```json
+[
+  {
+    "name": "Base",
+    "addr": "/function Base\(\) \{\}/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 1
+  },
+  {
+    "name": "Sub1",
+    "addr": "/function Sub1\(\) \{\}/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 7
+  },
+  {
+    "name": "Sub2",
+    "addr": "/function Sub2\(\) \{\}/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 11
+  },
+  {
+    "name": "Base2",
+    "addr": "/function Base2\(\) \{\}/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 15
+  },
+  {
+    "name": "Sub3",
+    "addr": "/function Sub3\(\) \{\}/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 17
+  }
+]
+```

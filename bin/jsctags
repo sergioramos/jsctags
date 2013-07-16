@@ -1,0 +1,43 @@
+#!/usr/bin/env node
+
+var interpolate = require('util').format,
+    argv = require('optimist').argv,
+    jsctags = require('../'),
+    path = require('path'),
+    fs = require('fs')
+
+var dir = (function () {
+  if(argv.dir) return path.resolve(argv.dir)
+  if(argv.file) return path.dirname(argv.file)
+  if(argv._.length) return path.dirname(argv._[0])
+  return '///null'
+})()
+
+var file = (function () {
+  if(argv.file) return path.resolve(process.cwd(), argv.file)
+  if(argv._.length) return path.resolve(process.cwd(), argv._[0])
+  return interpolate('///null/%s', Math.floor(Math.random()*100))
+})()
+
+var content = ''
+
+if(!argv._.length) {
+  process.stdin.resume()
+  
+  process.stdin.on('data', function (data) {
+    content += data
+  })
+  
+  process.stdin.on('end', function () {
+    jsctags(file, dir, content, function (e, tags) {
+      if(e) throw e
+      console.log(JSON.stringify(tags, null, 2))
+    })
+  })
+} else {
+  content = fs.readFileSync(file, 'utf8')
+  jsctags(file, dir, content, function (e, tags) {
+    if(e) throw e
+    console.log(JSON.stringify(tags, null, 2))
+  })
+}

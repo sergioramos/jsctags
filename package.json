@@ -1,10 +1,35 @@
 {
   "name": "jsctags",
-  "version": "0.0.1",
+  "version": "0.1.0",
+  "description": "jsctags generator",
+  "keywords": [
+    "ctags",
+    "jscatgs",
+    "tern"
+  ],
+  "homepage": "https://github.com/ramitos/jsctags",
+  "bugs": {
+    "url": "http://github.com/ramitos/jsctags/issues",
+    "email": "mail@sergioramos.me"
+  },
+  "license": "MIT",
   "main": "src/parser.js",
+  "bin": "bin/jscatgs",
+  "directories": {
+    "lib": "src",
+    "bin": "bin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ramitos/jsctags.git"
+  },
+  "scripts": {
+    "test": "node test/runner.js"
+  },
   "dependencies": {
     "tern": "git://github.com/marijnh/tern.git",
     "deepmerge": "0.2.x",
+    "optimist": "0.6.x",
     "tryor": "0.1.x"
   }
 }
