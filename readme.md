@@ -22,40 +22,44 @@ $ cat /path/to/file.js | jsctags [--dir=/path/to] [--file=/path/to/file.js]
 var jsctags = require('jsctags'),
     fs = require('fs')
 
-jsctags('/path/to/file.js', '/path/to/', fs.readFileSync('/path/to/file.js', 'utf8'), function (e, tags) {
+var file = '/path/to/file.js'
+var dir = '/path/to/'
+var content = fs.readFileSync(file, 'utf8')
+
+jsctags(file, dir, content, function (e, tags) {
   console.log(tags)
 })
 ```
 
 ## examples
 
- * [arguments](examples/arguments.json)
- * [autothis](examples/autothis.json)
- * [browser](examples/browser.json)
- * [builtins](examples/builtins.json)
- * [cautiouspropagation](examples/cautiouspropagation.json)
- * [copyprops](examples/copyprops.json)
- * [ctorpattern](examples/ctorpattern.json)
- * [docstrings](examples/docstrings.json)
- * [effects](examples/effects.json)
- * [extends](examples/extends.json)
- * [finddef](examples/finddef.json)
- * [fn_arguments](examples/fn_arguments.json)
- * [generic_each](examples/generic_each.json)
- * [global_this](examples/global_this.json)
- * [infinite-expansion](examples/infinite-expansion.json)
- * [jsdoc](examples/jsdoc.json)
- * [merge](examples/merge.json)
- * [new_array](examples/new_array.json)
- * [new_to_prototype](examples/new_to_prototype.json)
- * [object_create](examples/object_create.json)
- * [objnames](examples/objnames.json)
- * [plus](examples/plus.json)
- * [proto](examples/proto.json)
- * [protoname](examples/protoname.json)
- * [replace_bogus_prop](examples/replace_bogus_prop.json)
- * [simple_generic](examples/simple_generic.json)
- * [simple](examples/simple.json)
+ * [arguments](examples/arguments.md)
+ * [autothis](examples/autothis.md)
+ * [browser](examples/browser.md)
+ * [builtins](examples/builtins.md)
+ * [cautiouspropagation](examples/cautiouspropagation.md)
+ * [copyprops](examples/copyprops.md)
+ * [ctorpattern](examples/ctorpattern.md)
+ * [docstrings](examples/docstrings.md)
+ * [effects](examples/effects.md)
+ * [extends](examples/extends.md)
+ * [finddef](examples/finddef.md)
+ * [fn_arguments](examples/fn_arguments.md)
+ * [generic_each](examples/generic_each.md)
+ * [global_this](examples/global_this.md)
+ * [infinite-expansion](examples/infinite-expansion.md)
+ * [jsdoc](examples/jsdoc.md)
+ * [merge](examples/merge.md)
+ * [new_array](examples/new_array.md)
+ * [new_to_prototype](examples/new_to_prototype.md)
+ * [object_create](examples/object_create.md)
+ * [objnames](examples/objnames.md)
+ * [plus](examples/plus.md)
+ * [proto](examples/proto.md)
+ * [protoname](examples/protoname.md)
+ * [replace_bogus_prop](examples/replace_bogus_prop.md)
+ * [simple_generic](examples/simple_generic.md)
+ * [simple](examples/simple.md)
 
 
 ## license
