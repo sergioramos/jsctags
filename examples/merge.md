@@ -19,3 +19,6 @@ sum; //:: fn(a: {x: number, y: number}) -> number
   }
 ]
 ```
+```ctags
+sum		/function sum\(a\) \{/;'	f	lineno:1	type:number function(sum.!0)
+```

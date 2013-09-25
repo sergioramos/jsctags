@@ -29,3 +29,8 @@ foo; //: ?
   }
 ]
 ```
+```ctags
+Ctor		/function Ctor\(\) \{/;'	f	lineno:4	type:+Ctor function()
+
+foo		/foo/;'	v	lineno:6	namespace:Ctor.prototype	type:number
+```

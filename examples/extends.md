@@ -163,3 +163,30 @@ two.methodEleven; //: ?
   }
 ]
 ```
+```ctags
+__extends		/function\(child, parent\) \{/;'	f	lineno:3	type:void function(SubEleven, SubOne)
+
+Top		/function Top\(\) \{\}/;'	f	lineno:11	type:void function()
+
+topMethod		/function\(\) \{return "hey";\}/;'	f	lineno:12	namespace:Top.prototype	type:string function()
+
+topStatic		/topStatic/;'	v	lineno:13	namespace:Top	type:number
+
+argOne		/argOne/;'	v	lineno:18	namespace:SubEleven.prototype	type:boolean
+
+argOne		/argOne/;'	v	lineno:18	namespace:SubOne.prototype	type:boolean
+
+SubOne		/function SubOne\(arg\) \{ this\.argOne = arg; \}/;'	f	lineno:18	type:void function(bool)
+
+methodOne		/function\(\) \{return 11;\}/;'	f	lineno:20	namespace:SubOne.prototype	type:number function()
+
+argTwo		/argTwo/;'	v	lineno:25	namespace:SubTwo.prototype	type:boolean
+
+SubTwo		/function SubTwo\(arg\) \{ this\.argTwo = arg; \}/;'	f	lineno:25	type:void function(bool)
+
+methodTwo		/function\(\) \{return null;\}/;'	f	lineno:27	namespace:SubTwo.prototype	type:void function()
+
+SubEleven		/function SubEleven\(arg\) \{ SubOne\.call\(this, arg\); \}/;'	f	lineno:32	type:void function(bool)
+
+methodEleven		/function\(\) \{return "blah";\}/;'	f	lineno:34	namespace:SubEleven.prototype	type:string function()
+```

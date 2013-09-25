@@ -59,3 +59,14 @@ new Sub3(); //: Sub3
   }
 ]
 ```
+```ctags
+Base		/function Base\(\) \{\}/;'	f	lineno:1	type:void function()
+
+Sub1		/function Sub1\(\) \{\}/;'	f	lineno:7	type:void function()
+
+Sub2		/function Sub2\(\) \{\}/;'	f	lineno:11	type:void function()
+
+Base2		/function Base2\(\) \{\}/;'	f	lineno:15	type:void function()
+
+Sub3		/function Sub3\(\) \{\}/;'	f	lineno:17	type:void function()
+```

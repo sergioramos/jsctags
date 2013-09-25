@@ -18,3 +18,6 @@ buildCopy({xx: 10, yy: 20}); //:: {xx: number, yy: number}
   }
 ]
 ```
+```ctags
+buildCopy		/function buildCopy\(o\) \{/;'	f	lineno:1	type:buildCopy.!ret function(buildCopy.!0)
+```

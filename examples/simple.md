@@ -49,3 +49,12 @@ x; //:: {bar: number, foo: number}
   }
 ]
 ```
+```ctags
+foo		/foo/;'	v	lineno:1	type:number
+
+init		/function init\(v\) \{/;'	f	lineno:8	type:void function(x)
+
+foo		/foo/;'	v	lineno:9	namespace:x	type:number
+
+bar		/bar/;'	v	lineno:10	namespace:x	type:number
+```

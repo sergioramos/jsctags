@@ -22,3 +22,6 @@ e_which; //: number
   }
 ]
 ```
+```ctags
+e_which		/e_which/;'	v	lineno:9	type:number
+```

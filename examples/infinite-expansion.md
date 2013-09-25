@@ -44,3 +44,10 @@ goop(1)(goop);
   }
 ]
 ```
+```ctags
+f		/function\(n\) \{/;'	f	lineno:3	type:void function(f)
+
+x		/x/;'	v	lineno:10	type:[[?]]
+
+goop		/function goop\(n\) \{/;'	f	lineno:15	type:goop.!ret function(number)
+```

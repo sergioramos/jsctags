@@ -16,3 +16,6 @@ var foo = 10;
   }
 ]
 ```
+```ctags
+foo		/foo/;'	v	lineno:1	type:number
+```

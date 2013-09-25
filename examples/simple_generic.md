@@ -31,3 +31,8 @@ map([1, 2, 3], function() { return true; }); //: [bool]
   }
 ]
 ```
+```ctags
+last		/function last\(arr\) \{ return arr\[arr\.length \- 1\]; \}/;'	f	lineno:1	type:!0.<i> function(Array[string])
+
+map		/function map\(arr, f\) \{/;'	f	lineno:6	type:Array function(Array[number], bool function())
+```

@@ -63,3 +63,16 @@ C.prototype.prop_C = 3;
   }
 ]
 ```
+```ctags
+A		/function A\(\) \{\}/;'	f	lineno:1	type:void function()
+
+prop_A		/prop_A/;'	v	lineno:2	namespace:A.prototype	type:number
+
+B		/function B\(\) \{\}/;'	f	lineno:3	type:void function()
+
+prop_B		/prop_B/;'	v	lineno:5	namespace:B.prototype	type:number
+
+C		/function C\(\) \{\}/;'	f	lineno:6	type:void function()
+
+prop_C		/prop_C/;'	v	lineno:8	namespace:C.prototype	type:number
+```

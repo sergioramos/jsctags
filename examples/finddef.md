@@ -83,3 +83,18 @@ function another(arg) {
   }
 ]
 ```
+```ctags
+blah		/function blah\(\) \{\}/;'	f	lineno:1	type:void function()
+
+jaja		/jaja/;'	v	lineno:3	type:number
+
+prop1		/prop1/;'	v	lineno:6	namespace:obj	type:number
+
+prop2		/function\(foo\) \{\}/;'	f	lineno:7	namespace:obj	type:void function(?)
+
+prop3		/prop3/;'	v	lineno:10	namespace:obj	type:string
+
+hide		/function hide\(\) \{ return obj\.prop2; \}/;'	f	lineno:19	type:obj.prop2 function()
+
+another		/function another\(arg\) \{/;'	f	lineno:23	type:void function(?)
+```

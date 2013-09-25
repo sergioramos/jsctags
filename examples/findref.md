@@ -55,3 +55,12 @@ obj.z; //refs: 17,4 20,4
   }
 ]
 ```
+```ctags
+hello		/function hello\(a, b\) \{/;'	f	lineno:1	type:void function(?, ?)
+
+x		/x/;'	v	lineno:11	namespace:obj	type:number
+
+y		/y/;'	v	lineno:13	namespace:obj	type:number
+
+z		/z/;'	v	lineno:17	namespace:obj	type:string
+```

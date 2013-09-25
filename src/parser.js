@@ -15,6 +15,8 @@ module.exports = function (file, dir, content, callback) {
   })
 }
 
+module.exports.ctags = require('./ctags')
+
 
 var parse = function (file, condense, tags, types) {
   Object.keys(condense).forEach(function (name) {

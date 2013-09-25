@@ -7,4 +7,5 @@ do
 	filename="${filename%.*}"
 	echo "\`\`\`js\n$(cat $f)\n\`\`\`" > $DIR/$filename.md
 	echo "\`\`\`json\n$($DIR/../bin/jsctags $f)\n\`\`\`" >> $DIR/$filename.md
+	echo "\`\`\`ctags\n$($DIR/../bin/jsctags $f -c)\n\`\`\`" >> $DIR/$filename.md
 done

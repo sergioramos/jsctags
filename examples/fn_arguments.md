@@ -16,3 +16,6 @@ abc(1, 2, 3); //: number
   }
 ]
 ```
+```ctags
+abc		/function abc\(\) \{/;'	f	lineno:1	type:number function()
+```

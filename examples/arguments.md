@@ -14,3 +14,6 @@ var arguments = 1; //: number
   }
 ]
 ```
+```ctags
+arguments		/arguments/;'	v	lineno:1	type:number
+```

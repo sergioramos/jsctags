@@ -76,3 +76,12 @@ o.prop3; //: fn() -> string
   }
 ]
 ```
+```ctags
+foo		/function foo\(a, b\) \{ return hohoho\(\); \}/;'	f	lineno:17	type:void function(?, ?)
+
+bar		/function\(a, b\) \{ return goop\(\); \}/;'	f	lineno:25	type:void function(?, number)
+
+prop2		/function\(\) \{ return anything\(\); \}/;'	f	lineno:34	namespace:o	type:void function()
+
+prop3		/function\(\) \{ return something\(\); \}/;'	f	lineno:38	namespace:o	type:void function()
+```

@@ -51,3 +51,14 @@ new Ctor2(); //: Ctor2
   }
 ]
 ```
+```ctags
+Ctor1		/function Ctor1\(\) \{ this\.x = 10; \}/;'	f	lineno:1	type:void function()
+
+a		/a/;'	v	lineno:2	namespace:Ctor1.prototype	type:number
+
+Ctor2		/function Ctor2\(\) \{\}/;'	f	lineno:4	type:void function()
+
+a		/a/;'	v	lineno:6	namespace:singleton	type:number
+
+b		/b/;'	v	lineno:6	namespace:singleton	type:number
+```

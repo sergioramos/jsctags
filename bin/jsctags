@@ -21,13 +21,19 @@ var file = (function () {
 
 var content = ''
 
+var to_ctags = function (tags) {
+  jsctags.ctags(tags).map(function (tag) {
+    console.log(tag)
+  })
+}
+
 if(!argv._.length) {
   process.stdin.resume()
-  
+
   process.stdin.on('data', function (data) {
     content += data
   })
-  
+
   process.stdin.on('end', function () {
     jsctags(file, dir, content, function (e, tags) {
       if(e) throw e
@@ -38,6 +44,7 @@ if(!argv._.length) {
   content = fs.readFileSync(file, 'utf8')
   jsctags(file, dir, content, function (e, tags) {
     if(e) throw e
+    if(argv.c) return to_ctags(tags)
     console.log(JSON.stringify(tags, null, 2))
   })
 }

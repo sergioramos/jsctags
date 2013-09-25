@@ -59,3 +59,14 @@ z.bar; //: number
   }
 ]
 ```
+```ctags
+Foo		/function Foo\(x\) \{/;'	f	lineno:1	type:void function(bool)
+
+x		/x/;'	v	lineno:2	namespace:Foo.prototype	type:boolean
+
+y		/y/;'	v	lineno:3	namespace:Foo.prototype	type:[number]
+
+makeString		/function\(\) \{ return "hi"; \}/;'	f	lineno:8	namespace:Foo.prototype	type:string function()
+
+bar		/bar/;'	v	lineno:9	namespace:Foo.prototype	type:number
+```

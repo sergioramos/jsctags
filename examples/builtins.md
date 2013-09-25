@@ -53,3 +53,8 @@ String.prototype.indexOf.bind("abcde", "a"); //: fn(from?: number) -> number
   }
 ]
 ```
+```ctags
+x		/x/;'	v	lineno:1	type:number
+
+a		/a/;'	v	lineno:4	type:[number]
+```

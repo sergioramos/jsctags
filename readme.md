@@ -24,7 +24,7 @@ $ jsctags [--dir=/path/to] /path/to/file.js
 ```
 
 ```sh
-$ cat /path/to/file.js | jsctags [--dir=/path/to] [--file=/path/to/file.js]
+$ cat /path/to/file.js | jsctags [--dir=/path/to] [--file=/path/to/file.js] [-c]
 ```
 
 ```js

@@ -25,3 +25,8 @@ x + y; //: string
   }
 ]
 ```
+```ctags
+x		/x/;'	v	lineno:1	type:number
+
+y		/y/;'	v	lineno:2	type:string
+```

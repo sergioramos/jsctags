@@ -25,3 +25,8 @@ Type.prototype.foo = "hi";
   }
 ]
 ```
+```ctags
+Type		/function Type\(\) \{\}/;'	f	lineno:5	type:void function()
+
+foo		/foo/;'	v	lineno:6	namespace:Type.prototype	type:string
+```

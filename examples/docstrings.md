@@ -119,3 +119,20 @@ o.foo; //doc: The string "foo".
   }
 ]
 ```
+```ctags
+foo		/foo/;'	v	lineno:9	type:number
+
+makeMonkey		/function makeMonkey\(\) \{ return "monkey"; \}/;'	f	lineno:14	type:string function()
+
+abc		/abc/;'	v	lineno:26	type:number
+
+Quux		/function Quux\(\) \{\}/;'	f	lineno:33	type:void function()
+
+baz		/baz/;'	v	lineno:40	type:string
+
+getName		/function\(\) \{ return this\.name; \}/;'	f	lineno:46	namespace:o	type:!this.name function()
+
+name		/name/;'	v	lineno:48	namespace:o	type:string
+
+foo		/foo/;'	v	lineno:52	namespace:o	type:string
+```

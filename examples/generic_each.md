@@ -31,3 +31,6 @@ each([{x: 10}], function(o) {
   }
 ]
 ```
+```ctags
+each		/function\(obj, iterator, context\) \{/;'	f	lineno:2	type:void function(Array[each.!0.<i>], void function(each.!0.<i>), +String)
+```

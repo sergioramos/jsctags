@@ -31,3 +31,8 @@ simple[quux()]; //: string
   }
 ]
 ```
+```ctags
+inner		/inner/;'	v	lineno:5	type:number
+
+<i>		/foo\(\)/;'	v	lineno:9	namespace:simple	type:string
+```

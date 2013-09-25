@@ -47,3 +47,12 @@ d; //: number
   }
 ]
 ```
+```ctags
+b		/b/;'	v	lineno:3	type:[bool]
+
+c		/c/;'	v	lineno:7	type:[?]
+
+d		/d/;'	v	lineno:12	type:number
+
+setD		/function setD\(a\) \{ d = a; \}/;'	f	lineno:13	type:void function(number)
+```
