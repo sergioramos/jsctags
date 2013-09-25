@@ -13,7 +13,7 @@ npm install -g git://github.com/ramitos/jsctags.git
 Otherwise, add to your project's package.json under dependencies or
 dev-dependencies:
 
-```
+```json
 "jsctags": "git://github.com/ramitos/jsctags.git"
 ```
 
