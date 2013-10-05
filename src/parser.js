@@ -1,7 +1,5 @@
 var interpolate = require('util').format,
-    condense = require('./condenser'),
-    path = require('path'),
-    fs = require('fs')
+    condense = require('./condenser')
 
 module.exports = function (file, dir, content, callback) {
   condense(dir, file, content, function (e, condense) {
@@ -101,7 +99,7 @@ var tagger = function (file, condense, tags, types, parent, root) {
       addr: addr(_span, file).toString(),
       kind: kind(_type),
       type: type(_type, define),
-      lineno: lineno(_span),
+      lineno: lineno(_span)
     }
     
     if(parent.length) tag.namespace = parent.join('.')
