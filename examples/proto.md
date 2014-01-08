@@ -20,7 +20,7 @@ z.bar; //: number
 [
   {
     "name": "Foo",
-    "addr": "/function Foo\(x\) \{/",
+    "addr": "/Foo/",
     "kind": "f",
     "type": "void function(bool)",
     "lineno": 1
@@ -31,7 +31,7 @@ z.bar; //: number
     "kind": "v",
     "type": "boolean",
     "lineno": 2,
-    "namespace": "Foo.prototype"
+    "namespace": "Foo"
   },
   {
     "name": "y",
@@ -39,11 +39,11 @@ z.bar; //: number
     "kind": "v",
     "type": "[number]",
     "lineno": 3,
-    "namespace": "Foo.prototype"
+    "namespace": "Foo"
   },
   {
     "name": "makeString",
-    "addr": "/function\(\) \{ return \"hi\"; \}/",
+    "addr": "/makeString/",
     "kind": "f",
     "type": "string function()",
     "lineno": 8,
@@ -56,17 +56,26 @@ z.bar; //: number
     "type": "number",
     "lineno": 9,
     "namespace": "Foo.prototype"
+  },
+  {
+    "name": "z",
+    "addr": "/z/",
+    "kind": "v",
+    "type": "+Foo",
+    "lineno": 12
   }
 ]
 ```
 ```ctags
-Foo		/function Foo\(x\) \{/;'	f	lineno:1	type:void function(bool)
+Foo		/Foo/;"	f	lineno:1	type:void function(bool)
 
-x		/x/;'	v	lineno:2	namespace:Foo.prototype	type:boolean
+x		/x/;"	v	lineno:2	namespace:Foo	type:boolean
 
-y		/y/;'	v	lineno:3	namespace:Foo.prototype	type:[number]
+y		/y/;"	v	lineno:3	namespace:Foo	type:[number]
 
-makeString		/function\(\) \{ return "hi"; \}/;'	f	lineno:8	namespace:Foo.prototype	type:string function()
+makeString		/makeString/;"	f	lineno:8	namespace:Foo.prototype	type:string function()
 
-bar		/bar/;'	v	lineno:9	namespace:Foo.prototype	type:number
+bar		/bar/;"	v	lineno:9	namespace:Foo.prototype	type:number
+
+z		/z/;"	v	lineno:12	type:+Foo
 ```

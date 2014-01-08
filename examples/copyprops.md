@@ -11,13 +11,13 @@ buildCopy({xx: 10, yy: 20}); //:: {xx: number, yy: number}
 [
   {
     "name": "buildCopy",
-    "addr": "/function buildCopy\(o\) \{/",
+    "addr": "/buildCopy/",
     "kind": "f",
-    "type": "buildCopy.!ret function(buildCopy.!0)",
+    "type": "? function(buildCopy.!0)",
     "lineno": 1
   }
 ]
 ```
 ```ctags
-buildCopy		/function buildCopy\(o\) \{/;'	f	lineno:1	type:buildCopy.!ret function(buildCopy.!0)
+buildCopy		/buildCopy/;"	f	lineno:1	type:? function(buildCopy.!0)
 ```

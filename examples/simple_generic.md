@@ -17,22 +17,22 @@ map([1, 2, 3], function() { return true; }); //: [bool]
 [
   {
     "name": "last",
-    "addr": "/function last\(arr\) \{ return arr\[arr\.length \- 1\]; \}/",
+    "addr": "/last/",
     "kind": "f",
     "type": "!0.<i> function(Array[string])",
     "lineno": 1
   },
   {
     "name": "map",
-    "addr": "/function map\(arr, f\) \{/",
+    "addr": "/map/",
     "kind": "f",
-    "type": "Array function(Array[number], bool function())",
+    "type": "bool) -> [?] function(Array[number], fn()",
     "lineno": 6
   }
 ]
 ```
 ```ctags
-last		/function last\(arr\) \{ return arr\[arr\.length \- 1\]; \}/;'	f	lineno:1	type:!0.<i> function(Array[string])
+last		/last/;"	f	lineno:1	type:!0.<i> function(Array[string])
 
-map		/function map\(arr, f\) \{/;'	f	lineno:6	type:Array function(Array[number], bool function())
+map		/map/;"	f	lineno:6	type:bool) -> [?] function(Array[number], fn()
 ```

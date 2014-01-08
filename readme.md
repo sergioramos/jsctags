@@ -20,11 +20,11 @@ dev-dependencies:
 ## usage
 
 ```sh
-$ jsctags [--dir=/path/to] /path/to/file.js
+$ jsctags [--dir=/path/to] /path/to/file.js [-f]
 ```
 
 ```sh
-$ cat /path/to/file.js | jsctags [--dir=/path/to] [--file=/path/to/file.js] [-c]
+$ cat /path/to/file.js | jsctags [--dir=/path/to] [--file=/path/to/file.js] [-f]
 ```
 
 ```js

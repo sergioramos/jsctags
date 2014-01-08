@@ -64,21 +64,21 @@ two.methodEleven; //: ?
 [
   {
     "name": "__extends",
-    "addr": "/function\(child, parent\) \{/",
+    "addr": "/__extends/",
     "kind": "f",
-    "type": "void function(SubEleven, SubOne)",
+    "type": "void function(fn(arg: bool)",
     "lineno": 3
   },
   {
     "name": "Top",
-    "addr": "/function Top\(\) \{\}/",
+    "addr": "/Top/",
     "kind": "f",
     "type": "void function()",
-    "lineno": 11
+    "lineno": 10
   },
   {
     "name": "topMethod",
-    "addr": "/function\(\) \{return \"hey\";\}/",
+    "addr": "/topMethod/",
     "kind": "f",
     "type": "string function()",
     "lineno": 12,
@@ -93,35 +93,42 @@ two.methodEleven; //: ?
     "namespace": "Top"
   },
   {
-    "name": "argOne",
-    "addr": "/argOne/",
-    "kind": "v",
-    "type": "boolean",
-    "lineno": 18,
-    "namespace": "SubEleven.prototype"
-  },
-  {
-    "name": "argOne",
-    "addr": "/argOne/",
-    "kind": "v",
-    "type": "boolean",
-    "lineno": 18,
-    "namespace": "SubOne.prototype"
-  },
-  {
     "name": "SubOne",
-    "addr": "/function SubOne\(arg\) \{ this\.argOne = arg; \}/",
+    "addr": "/SubOne/",
     "kind": "f",
     "type": "void function(bool)",
-    "lineno": 18
+    "lineno": 17
+  },
+  {
+    "name": "argOne",
+    "addr": "/argOne/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 18,
+    "namespace": "SubOne"
+  },
+  {
+    "name": "argOne",
+    "addr": "/argOne/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 18,
+    "namespace": "SubEleven"
   },
   {
     "name": "methodOne",
-    "addr": "/function\(\) \{return 11;\}/",
+    "addr": "/methodOne/",
     "kind": "f",
     "type": "number function()",
     "lineno": 20,
     "namespace": "SubOne.prototype"
+  },
+  {
+    "name": "SubTwo",
+    "addr": "/SubTwo/",
+    "kind": "f",
+    "type": "void function(bool)",
+    "lineno": 24
   },
   {
     "name": "argTwo",
@@ -129,18 +136,11 @@ two.methodEleven; //: ?
     "kind": "v",
     "type": "boolean",
     "lineno": 25,
-    "namespace": "SubTwo.prototype"
-  },
-  {
-    "name": "SubTwo",
-    "addr": "/function SubTwo\(arg\) \{ this\.argTwo = arg; \}/",
-    "kind": "f",
-    "type": "void function(bool)",
-    "lineno": 25
+    "namespace": "SubTwo"
   },
   {
     "name": "methodTwo",
-    "addr": "/function\(\) \{return null;\}/",
+    "addr": "/methodTwo/",
     "kind": "f",
     "type": "void function()",
     "lineno": 27,
@@ -148,45 +148,72 @@ two.methodEleven; //: ?
   },
   {
     "name": "SubEleven",
-    "addr": "/function SubEleven\(arg\) \{ SubOne\.call\(this, arg\); \}/",
+    "addr": "/SubEleven/",
     "kind": "f",
     "type": "void function(bool)",
-    "lineno": 32
+    "lineno": 31
   },
   {
     "name": "methodEleven",
-    "addr": "/function\(\) \{return \"blah\";\}/",
+    "addr": "/methodEleven/",
     "kind": "f",
     "type": "string function()",
     "lineno": 34,
     "namespace": "SubEleven.prototype"
+  },
+  {
+    "name": "one",
+    "addr": "/one/",
+    "kind": "v",
+    "type": "+SubOne",
+    "lineno": 38
+  },
+  {
+    "name": "two",
+    "addr": "/two/",
+    "kind": "v",
+    "type": "+SubTwo",
+    "lineno": 38
+  },
+  {
+    "name": "elf",
+    "addr": "/elf/",
+    "kind": "v",
+    "type": "+SubEleven",
+    "lineno": 38
   }
 ]
 ```
 ```ctags
-__extends		/function\(child, parent\) \{/;'	f	lineno:3	type:void function(SubEleven, SubOne)
+__extends		/__extends/;"	f	lineno:3	type:void function(fn(arg: bool)
 
-Top		/function Top\(\) \{\}/;'	f	lineno:11	type:void function()
+Top		/Top/;"	f	lineno:10	type:void function()
 
-topMethod		/function\(\) \{return "hey";\}/;'	f	lineno:12	namespace:Top.prototype	type:string function()
+topMethod		/topMethod/;"	f	lineno:12	namespace:Top.prototype	type:string function()
 
-topStatic		/topStatic/;'	v	lineno:13	namespace:Top	type:number
+topStatic		/topStatic/;"	v	lineno:13	namespace:Top	type:number
 
-argOne		/argOne/;'	v	lineno:18	namespace:SubEleven.prototype	type:boolean
+SubOne		/SubOne/;"	f	lineno:17	type:void function(bool)
 
-argOne		/argOne/;'	v	lineno:18	namespace:SubOne.prototype	type:boolean
+argOne		/argOne/;"	v	lineno:18	namespace:SubOne	type:boolean
 
-SubOne		/function SubOne\(arg\) \{ this\.argOne = arg; \}/;'	f	lineno:18	type:void function(bool)
+argOne		/argOne/;"	v	lineno:18	namespace:SubEleven	type:boolean
 
-methodOne		/function\(\) \{return 11;\}/;'	f	lineno:20	namespace:SubOne.prototype	type:number function()
+methodOne		/methodOne/;"	f	lineno:20	namespace:SubOne.prototype	type:number function()
 
-argTwo		/argTwo/;'	v	lineno:25	namespace:SubTwo.prototype	type:boolean
+SubTwo		/SubTwo/;"	f	lineno:24	type:void function(bool)
 
-SubTwo		/function SubTwo\(arg\) \{ this\.argTwo = arg; \}/;'	f	lineno:25	type:void function(bool)
+argTwo		/argTwo/;"	v	lineno:25	namespace:SubTwo	type:boolean
 
-methodTwo		/function\(\) \{return null;\}/;'	f	lineno:27	namespace:SubTwo.prototype	type:void function()
+methodTwo		/methodTwo/;"	f	lineno:27	namespace:SubTwo.prototype	type:void function()
 
-SubEleven		/function SubEleven\(arg\) \{ SubOne\.call\(this, arg\); \}/;'	f	lineno:32	type:void function(bool)
+SubEleven		/SubEleven/;"	f	lineno:31	type:void function(bool)
 
-methodEleven		/function\(\) \{return "blah";\}/;'	f	lineno:34	namespace:SubEleven.prototype	type:string function()
+methodEleven		/methodEleven/;"	f	lineno:34	namespace:SubEleven.prototype	type:string function()
+
+one		/one/;"	v	lineno:38	type:+SubOne
+
+two		/two/;"	v	lineno:38	type:+SubTwo
+
+elf		/elf/;"	v	lineno:38	type:+SubEleven
 ```

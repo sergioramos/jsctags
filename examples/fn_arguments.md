@@ -9,7 +9,7 @@ abc(1, 2, 3); //: number
 [
   {
     "name": "abc",
-    "addr": "/function abc\(\) \{/",
+    "addr": "/abc/",
     "kind": "f",
     "type": "number function()",
     "lineno": 1
@@ -17,5 +17,5 @@ abc(1, 2, 3); //: number
 ]
 ```
 ```ctags
-abc		/function abc\(\) \{/;'	f	lineno:1	type:number function()
+abc		/abc/;"	f	lineno:1	type:number function()
 ```

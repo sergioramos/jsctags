@@ -20,19 +20,9 @@ simple[quux()]; //: string
     "kind": "v",
     "type": "number",
     "lineno": 5
-  },
-  {
-    "name": "<i>",
-    "addr": "/foo\(\)/",
-    "kind": "v",
-    "type": "string",
-    "lineno": 9,
-    "namespace": "simple"
   }
 ]
 ```
 ```ctags
-inner		/inner/;'	v	lineno:5	type:number
-
-<i>		/foo\(\)/;'	v	lineno:9	namespace:simple	type:string
+inner		/inner/;"	v	lineno:5	type:number
 ```

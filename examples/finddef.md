@@ -31,7 +31,7 @@ function another(arg) {
 [
   {
     "name": "blah",
-    "addr": "/function blah\(\) \{\}/",
+    "addr": "/blah/",
     "kind": "f",
     "type": "void function()",
     "lineno": 1
@@ -53,7 +53,7 @@ function another(arg) {
   },
   {
     "name": "prop2",
-    "addr": "/function\(foo\) \{\}/",
+    "addr": "/prop2/",
     "kind": "f",
     "type": "void function(?)",
     "lineno": 7,
@@ -69,14 +69,14 @@ function another(arg) {
   },
   {
     "name": "hide",
-    "addr": "/function hide\(\) \{ return obj\.prop2; \}/",
+    "addr": "/hide/",
     "kind": "f",
-    "type": "obj.prop2 function()",
+    "type": "fn(foo: ?) function()",
     "lineno": 19
   },
   {
     "name": "another",
-    "addr": "/function another\(arg\) \{/",
+    "addr": "/another/",
     "kind": "f",
     "type": "void function(?)",
     "lineno": 23
@@ -84,17 +84,17 @@ function another(arg) {
 ]
 ```
 ```ctags
-blah		/function blah\(\) \{\}/;'	f	lineno:1	type:void function()
+blah		/blah/;"	f	lineno:1	type:void function()
 
-jaja		/jaja/;'	v	lineno:3	type:number
+jaja		/jaja/;"	v	lineno:3	type:number
 
-prop1		/prop1/;'	v	lineno:6	namespace:obj	type:number
+prop1		/prop1/;"	v	lineno:6	namespace:obj	type:number
 
-prop2		/function\(foo\) \{\}/;'	f	lineno:7	namespace:obj	type:void function(?)
+prop2		/prop2/;"	f	lineno:7	namespace:obj	type:void function(?)
 
-prop3		/prop3/;'	v	lineno:10	namespace:obj	type:string
+prop3		/prop3/;"	v	lineno:10	namespace:obj	type:string
 
-hide		/function hide\(\) \{ return obj\.prop2; \}/;'	f	lineno:19	type:obj.prop2 function()
+hide		/hide/;"	f	lineno:19	type:fn(foo: ?) function()
 
-another		/function another\(arg\) \{/;'	f	lineno:23	type:void function(?)
+another		/another/;"	f	lineno:23	type:void function(?)
 ```

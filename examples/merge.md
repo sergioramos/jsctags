@@ -12,7 +12,7 @@ sum; //:: fn(a: {x: number, y: number}) -> number
 [
   {
     "name": "sum",
-    "addr": "/function sum\(a\) \{/",
+    "addr": "/sum/",
     "kind": "f",
     "type": "number function(sum.!0)",
     "lineno": 1
@@ -20,5 +20,5 @@ sum; //:: fn(a: {x: number, y: number}) -> number
 ]
 ```
 ```ctags
-sum		/function sum\(a\) \{/;'	f	lineno:1	type:number function(sum.!0)
+sum		/sum/;"	f	lineno:1	type:number function(sum.!0)
 ```

@@ -50,11 +50,20 @@ String.prototype.indexOf.bind("abcde", "a"); //: fn(from?: number) -> number
     "kind": "v",
     "type": "[number]",
     "lineno": 4
+  },
+  {
+    "name": "num",
+    "addr": "/num/",
+    "kind": "v",
+    "type": "+Number",
+    "lineno": 26
   }
 ]
 ```
 ```ctags
-x		/x/;'	v	lineno:1	type:number
+x		/x/;"	v	lineno:1	type:number
 
-a		/a/;'	v	lineno:4	type:[number]
+a		/a/;"	v	lineno:4	type:[number]
+
+num		/num/;"	v	lineno:26	type:+Number
 ```

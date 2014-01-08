@@ -40,7 +40,7 @@ d; //: number
   },
   {
     "name": "setD",
-    "addr": "/function setD\(a\) \{ d = a; \}/",
+    "addr": "/setD/",
     "kind": "f",
     "type": "void function(number)",
     "lineno": 13
@@ -48,11 +48,11 @@ d; //: number
 ]
 ```
 ```ctags
-b		/b/;'	v	lineno:3	type:[bool]
+b		/b/;"	v	lineno:3	type:[bool]
 
-c		/c/;'	v	lineno:7	type:[?]
+c		/c/;"	v	lineno:7	type:[?]
 
-d		/d/;'	v	lineno:12	type:number
+d		/d/;"	v	lineno:12	type:number
 
-setD		/function setD\(a\) \{ d = a; \}/;'	f	lineno:13	type:void function(number)
+setD		/setD/;"	f	lineno:13	type:void function(number)
 ```

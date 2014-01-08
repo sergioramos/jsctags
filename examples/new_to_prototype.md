@@ -18,7 +18,7 @@ C.prototype.prop_C = 3;
 [
   {
     "name": "A",
-    "addr": "/function A\(\) \{\}/",
+    "addr": "/A/",
     "kind": "f",
     "type": "void function()",
     "lineno": 1
@@ -33,7 +33,7 @@ C.prototype.prop_C = 3;
   },
   {
     "name": "B",
-    "addr": "/function B\(\) \{\}/",
+    "addr": "/B/",
     "kind": "f",
     "type": "void function()",
     "lineno": 3
@@ -48,7 +48,7 @@ C.prototype.prop_C = 3;
   },
   {
     "name": "C",
-    "addr": "/function C\(\) \{\}/",
+    "addr": "/C/",
     "kind": "f",
     "type": "void function()",
     "lineno": 6
@@ -64,15 +64,15 @@ C.prototype.prop_C = 3;
 ]
 ```
 ```ctags
-A		/function A\(\) \{\}/;'	f	lineno:1	type:void function()
+A		/A/;"	f	lineno:1	type:void function()
 
-prop_A		/prop_A/;'	v	lineno:2	namespace:A.prototype	type:number
+prop_A		/prop_A/;"	v	lineno:2	namespace:A.prototype	type:number
 
-B		/function B\(\) \{\}/;'	f	lineno:3	type:void function()
+B		/B/;"	f	lineno:3	type:void function()
 
-prop_B		/prop_B/;'	v	lineno:5	namespace:B.prototype	type:number
+prop_B		/prop_B/;"	v	lineno:5	namespace:B.prototype	type:number
 
-C		/function C\(\) \{\}/;'	f	lineno:6	type:void function()
+C		/C/;"	f	lineno:6	type:void function()
 
-prop_C		/prop_C/;'	v	lineno:8	namespace:C.prototype	type:number
+prop_C		/prop_C/;"	v	lineno:8	namespace:C.prototype	type:number
 ```

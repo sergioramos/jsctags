@@ -16,14 +16,14 @@ new Date().fn2();
 [
   {
     "name": "Bar",
-    "addr": "/function Bar\(\) \{ this\.prop = 10; \}/",
+    "addr": "/Bar/",
     "kind": "f",
     "type": "void function()",
     "lineno": 1
   },
   {
     "name": "hallo",
-    "addr": "/function\(\) \{/",
+    "addr": "/hallo/",
     "kind": "f",
     "type": "void function()",
     "lineno": 2,
@@ -31,18 +31,18 @@ new Date().fn2();
   },
   {
     "name": "fn2",
-    "addr": "/function\(\) \{/",
+    "addr": "/fn2/",
     "kind": "f",
     "type": "void function()",
-    "lineno": 7,
+    "lineno": 11,
     "namespace": "Date.prototype"
   }
 ]
 ```
 ```ctags
-Bar		/function Bar\(\) \{ this\.prop = 10; \}/;'	f	lineno:1	type:void function()
+Bar		/Bar/;"	f	lineno:1	type:void function()
 
-hallo		/function\(\) \{/;'	f	lineno:2	namespace:Bar.prototype	type:void function()
+hallo		/hallo/;"	f	lineno:2	namespace:Bar.prototype	type:void function()
 
-fn2		/function\(\) \{/;'	f	lineno:7	namespace:Date.prototype	type:void function()
+fn2		/fn2/;"	f	lineno:11	namespace:Date.prototype	type:void function()
 ```
