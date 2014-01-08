@@ -9,8 +9,15 @@ Type.prototype.foo = "hi";
 ```json
 [
   {
+    "name": "x",
+    "addr": "/x/",
+    "kind": "v",
+    "type": "+Type",
+    "lineno": 1
+  },
+  {
     "name": "Type",
-    "addr": "/function Type\(\) \{\}/",
+    "addr": "/Type/",
     "kind": "f",
     "type": "void function()",
     "lineno": 5
@@ -26,7 +33,9 @@ Type.prototype.foo = "hi";
 ]
 ```
 ```ctags
-Type		/function Type\(\) \{\}/;'	f	lineno:5	type:void function()
+x		/x/;"	v	lineno:1	type:+Type
 
-foo		/foo/;'	v	lineno:6	namespace:Type.prototype	type:string
+Type		/Type/;"	f	lineno:5	type:void function()
+
+foo		/foo/;"	v	lineno:6	namespace:Type.prototype	type:string
 ```

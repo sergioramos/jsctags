@@ -14,7 +14,7 @@ foo; //: ?
 [
   {
     "name": "Ctor",
-    "addr": "/function Ctor\(\) \{/",
+    "addr": "/Ctor/",
     "kind": "f",
     "type": "+Ctor function()",
     "lineno": 4
@@ -25,12 +25,12 @@ foo; //: ?
     "kind": "v",
     "type": "number",
     "lineno": 6,
-    "namespace": "Ctor.prototype"
+    "namespace": "Ctor"
   }
 ]
 ```
 ```ctags
-Ctor		/function Ctor\(\) \{/;'	f	lineno:4	type:+Ctor function()
+Ctor		/Ctor/;"	f	lineno:4	type:+Ctor function()
 
-foo		/foo/;'	v	lineno:6	namespace:Ctor.prototype	type:number
+foo		/foo/;"	v	lineno:6	namespace:Ctor	type:number
 ```

@@ -24,13 +24,13 @@ each([{x: 10}], function(o) {
 [
   {
     "name": "each",
-    "addr": "/function\(obj, iterator, context\) \{/",
+    "addr": "/each/",
     "kind": "f",
-    "type": "void function(Array[each.!0.<i>], void function(each.!0.<i>), +String)",
+    "type": "void function(Array[each.!0.<i>], fn(o: each.!0.<i>)",
     "lineno": 2
   }
 ]
 ```
 ```ctags
-each		/function\(obj, iterator, context\) \{/;'	f	lineno:2	type:void function(Array[each.!0.<i>], void function(each.!0.<i>), +String)
+each		/each/;"	f	lineno:2	type:void function(Array[each.!0.<i>], fn(o: each.!0.<i>)
 ```

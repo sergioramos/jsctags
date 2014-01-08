@@ -86,15 +86,15 @@ empty.prop1; //: string
 ]
 ```
 ```ctags
-foo		/foo/;'	v	lineno:1	namespace:base	type:number
+foo		/foo/;"	v	lineno:1	namespace:base	type:number
 
-bar		/bar/;'	v	lineno:1	namespace:base	type:number
+bar		/bar/;"	v	lineno:1	namespace:base	type:number
 
-baz		/baz/;'	v	lineno:5	namespace:base	type:number
+baz		/baz/;"	v	lineno:5	namespace:base	type:number
 
-quux		/quux/;'	v	lineno:6	namespace:gen1	type:number
+quux		/quux/;"	v	lineno:6	namespace:gen1	type:number
 
-kaka		/kaka/;'	v	lineno:7	namespace:gen2	type:number
+kaka		/kaka/;"	v	lineno:7	namespace:gen2	type:number
 
-prop1		/prop1/;'	v	lineno:30	namespace:empty	type:string
+prop1		/prop1/;"	v	lineno:30	namespace:empty	type:string
 ```

@@ -31,7 +31,7 @@ module.exports = function (tags) {
       return buf.join('')
     }
     
-    buf.push(';\'')
+    buf.push(';\"')
     
     if(tag.kind !== undefined) buf.push('\t', tag.kind)
     

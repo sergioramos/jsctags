@@ -46,21 +46,21 @@ o.prop3; //: fn() -> string
 [
   {
     "name": "foo",
-    "addr": "/function foo\(a, b\) \{ return hohoho\(\); \}/",
+    "addr": "/foo/",
     "kind": "f",
     "type": "void function(?, ?)",
     "lineno": 17
   },
   {
     "name": "bar",
-    "addr": "/function\(a, b\) \{ return goop\(\); \}/",
+    "addr": "/bar/",
     "kind": "f",
     "type": "void function(?, number)",
     "lineno": 25
   },
   {
     "name": "prop2",
-    "addr": "/function\(\) \{ return anything\(\); \}/",
+    "addr": "/prop2/",
     "kind": "f",
     "type": "void function()",
     "lineno": 34,
@@ -68,7 +68,7 @@ o.prop3; //: fn() -> string
   },
   {
     "name": "prop3",
-    "addr": "/function\(\) \{ return something\(\); \}/",
+    "addr": "/prop3/",
     "kind": "f",
     "type": "void function()",
     "lineno": 38,
@@ -77,11 +77,11 @@ o.prop3; //: fn() -> string
 ]
 ```
 ```ctags
-foo		/function foo\(a, b\) \{ return hohoho\(\); \}/;'	f	lineno:17	type:void function(?, ?)
+foo		/foo/;"	f	lineno:17	type:void function(?, ?)
 
-bar		/function\(a, b\) \{ return goop\(\); \}/;'	f	lineno:25	type:void function(?, number)
+bar		/bar/;"	f	lineno:25	type:void function(?, number)
 
-prop2		/function\(\) \{ return anything\(\); \}/;'	f	lineno:34	namespace:o	type:void function()
+prop2		/prop2/;"	f	lineno:34	namespace:o	type:void function()
 
-prop3		/function\(\) \{ return something\(\); \}/;'	f	lineno:38	namespace:o	type:void function()
+prop3		/prop3/;"	f	lineno:38	namespace:o	type:void function()
 ```

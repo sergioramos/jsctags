@@ -24,7 +24,7 @@ obj.z; //refs: 17,4 20,4
 [
   {
     "name": "hello",
-    "addr": "/function hello\(a, b\) \{/",
+    "addr": "/hello/",
     "kind": "f",
     "type": "void function(?, ?)",
     "lineno": 1
@@ -56,11 +56,11 @@ obj.z; //refs: 17,4 20,4
 ]
 ```
 ```ctags
-hello		/function hello\(a, b\) \{/;'	f	lineno:1	type:void function(?, ?)
+hello		/hello/;"	f	lineno:1	type:void function(?, ?)
 
-x		/x/;'	v	lineno:11	namespace:obj	type:number
+x		/x/;"	v	lineno:11	namespace:obj	type:number
 
-y		/y/;'	v	lineno:13	namespace:obj	type:number
+y		/y/;"	v	lineno:13	namespace:obj	type:number
 
-z		/z/;'	v	lineno:17	namespace:obj	type:string
+z		/z/;"	v	lineno:17	namespace:obj	type:string
 ```

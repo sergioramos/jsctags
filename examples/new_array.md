@@ -45,11 +45,11 @@ d[0]; //: string
 ]
 ```
 ```ctags
-a		/a/;'	v	lineno:1	type:[string]
+a		/a/;"	v	lineno:1	type:[string]
 
-b		/b/;'	v	lineno:5	type:[bool]
+b		/b/;"	v	lineno:5	type:[bool]
 
-c		/c/;'	v	lineno:8	type:[?]
+c		/c/;"	v	lineno:8	type:[?]
 
-d		/d/;'	v	lineno:11	type:[string]
+d		/d/;"	v	lineno:11	type:[string]
 ```
