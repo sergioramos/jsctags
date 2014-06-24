@@ -45,9 +45,10 @@ if(!argv._.length) {
   jsctags(file, dir, content, function (e, tags) {
     if(e) throw e
     if(argv.f) {
-		tags.tagfile = file;
-		return to_ctags(tags)
-	}
+      tags.tagfile = file;
+      return to_ctags(tags)
+    }
+
     console.log(JSON.stringify(tags, null, 2))
   })
 }
