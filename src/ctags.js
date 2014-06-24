@@ -16,7 +16,7 @@ var SPECIAL_FIELDS = {
 
 module.exports = function (tags) {
   return tags.map(function (tag) {
-    var buf = [tag.name, '\t', tag.tagfile, '\t']
+    var buf = [tag.name, '\t', tags.tagfile, '\t']
     buf.push(tag.addr !== undefined ? tag.addr : '//')
     var tagfields = []
     
