@@ -44,7 +44,10 @@ if(!argv._.length) {
   content = fs.readFileSync(file, 'utf8')
   jsctags(file, dir, content, function (e, tags) {
     if(e) throw e
-    if(argv.f) return to_ctags(tags)
+    if(argv.f) {
+		tags.tagfile = file;
+		return to_ctags(tags)
+	}
     console.log(JSON.stringify(tags, null, 2))
   })
 }
