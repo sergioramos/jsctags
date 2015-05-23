@@ -30,9 +30,9 @@
     "test": "node test/runner.js"
   },
   "dependencies": {
-    "tern": "git://github.com/marijnh/tern.git",
     "deepmerge": "0.2.x",
     "optimist": "0.6.x",
+    "tern": "latest",
     "tryor": "0.1.x"
   }
 }
