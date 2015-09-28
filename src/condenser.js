@@ -33,7 +33,7 @@ var defs = function (libs) {
 }
 
 var server = function (config, dir) {
-  var base = path.resolve(__dirname, '../node_modules/tern/defs')
+  var base = path.resolve(__dirname, '../node_modules/tern/plugin')
   
   Object.keys(config.plugins).forEach(function (plugin) {
     var file = path.join(base, interpolate('%s.js', plugin))
