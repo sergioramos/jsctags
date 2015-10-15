@@ -32,10 +32,10 @@
   },
   "dependencies": {
     "async": "^1.4.2",
-    "deepmerge": "0.2.x",
-    "optimist": "0.6.x",
-    "tern": "latest",
-    "tryor": "0.1.x"
+    "deepmerge": "^0.2.10",
+    "optimist": "^0.6.1",
+    "tern": "^0.15.0",
+    "tryor": "^0.1.2"
   },
   "devDependencies": {
     "semistandard": "^7.0.2",
