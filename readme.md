@@ -1,4 +1,5 @@
 # jsctags
+[![js-semistandard-style](https://cdn.rawgit.com/flet/semistandard/master/badge.svg)](https://github.com/Flet/semistandard)
 
 jsctags generator using [tern](https://github.com/marijnh/tern)
 
