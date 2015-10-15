@@ -1,0 +1,8 @@
+another	__DIR__/finddef.js	/another/;"	f	lineno:23	type:void function(?)
+blah	__DIR__/finddef.js	/blah/;"	f	lineno:1	type:void function()
+hide	__DIR__/finddef.js	/hide/;"	f	lineno:19	type:fn(foo: ?) function()
+jaja	__DIR__/finddef.js	/jaja/;"	v	lineno:3	type:number
+prop1	__DIR__/finddef.js	/prop1/;"	v	lineno:6	namespace:obj	type:number
+prop2	__DIR__/finddef.js	/prop2/;"	f	lineno:7	namespace:obj	type:void function(?)
+prop3	__DIR__/finddef.js	/prop3/;"	v	lineno:10	namespace:obj	type:string
+

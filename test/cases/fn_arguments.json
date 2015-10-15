@@ -1,0 +1,10 @@
+[
+  {
+    "name": "abc",
+    "addr": "/abc/",
+    "kind": "f",
+    "type": "number function()",
+    "lineno": 1,
+    "tagfile": "__DIR__/fn_arguments.js"
+  }
+]

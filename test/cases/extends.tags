@@ -1,0 +1,17 @@
+SubEleven	__DIR__/extends.js	/SubEleven/;"	f	lineno:31	type:void function(bool)
+SubOne	__DIR__/extends.js	/SubOne/;"	f	lineno:17	type:void function(bool)
+SubTwo	__DIR__/extends.js	/SubTwo/;"	f	lineno:24	type:void function(bool)
+Top	__DIR__/extends.js	/Top/;"	f	lineno:10	type:void function()
+__extends	__DIR__/extends.js	/__extends/;"	f	lineno:3	type:void function(fn(arg: bool)
+argOne	__DIR__/extends.js	/argOne/;"	v	lineno:18	namespace:SubEleven	type:boolean
+argOne	__DIR__/extends.js	/argOne/;"	v	lineno:18	namespace:SubOne	type:boolean
+argTwo	__DIR__/extends.js	/argTwo/;"	v	lineno:25	namespace:SubTwo	type:boolean
+elf	__DIR__/extends.js	/elf/;"	v	lineno:38	type:+SubEleven
+methodEleven	__DIR__/extends.js	/methodEleven/;"	f	lineno:34	namespace:SubEleven.prototype	type:string function()
+methodOne	__DIR__/extends.js	/methodOne/;"	f	lineno:20	namespace:SubOne.prototype	type:number function()
+methodTwo	__DIR__/extends.js	/methodTwo/;"	f	lineno:27	namespace:SubTwo.prototype	type:void function()
+one	__DIR__/extends.js	/one/;"	v	lineno:38	type:+SubOne
+topMethod	__DIR__/extends.js	/topMethod/;"	f	lineno:12	namespace:Top.prototype	type:string function()
+topStatic	__DIR__/extends.js	/topStatic/;"	v	lineno:13	namespace:Top	type:number
+two	__DIR__/extends.js	/two/;"	v	lineno:38	type:+SubTwo
+

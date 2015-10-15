@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Ctor",
+    "addr": "/Ctor/",
+    "kind": "f",
+    "type": "+Ctor function()",
+    "lineno": 4,
+    "tagfile": "__DIR__/ctorpattern.js"
+  },
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 6,
+    "namespace": "Ctor",
+    "tagfile": "__DIR__/ctorpattern.js"
+  }
+]

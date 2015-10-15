@@ -1,0 +1,7 @@
+a	__DIR__/jsdoc.js	/a/;"	v	lineno:2	type:+Date
+bar	__DIR__/jsdoc.js	/bar/;"	f	lineno:25	type:string function(number, number)
+foo	__DIR__/jsdoc.js	/foo/;"	f	lineno:17	type:Array function(number, string)
+prop1	__DIR__/jsdoc.js	/prop1/;"	v	lineno:31	namespace:o	type:string
+prop2	__DIR__/jsdoc.js	/prop2/;"	f	lineno:34	namespace:o	type:number function()
+prop3	__DIR__/jsdoc.js	/prop3/;"	f	lineno:38	namespace:o	type:string function()
+

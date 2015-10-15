@@ -1,0 +1,10 @@
+[
+  {
+    "name": "each",
+    "addr": "/each/",
+    "kind": "f",
+    "type": "void function(Array[number]|[each.!0.<i>], fn(n: number)",
+    "lineno": 2,
+    "tagfile": "__DIR__/generic_each.js"
+  }
+]

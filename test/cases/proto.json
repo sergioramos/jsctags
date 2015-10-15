@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Foo",
+    "addr": "/Foo/",
+    "kind": "f",
+    "type": "void function(bool)",
+    "lineno": 1,
+    "tagfile": "__DIR__/proto.js"
+  },
+  {
+    "name": "x",
+    "addr": "/x/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 2,
+    "namespace": "Foo",
+    "tagfile": "__DIR__/proto.js"
+  },
+  {
+    "name": "y",
+    "addr": "/y/",
+    "kind": "v",
+    "type": "[number]",
+    "lineno": 3,
+    "namespace": "Foo",
+    "tagfile": "__DIR__/proto.js"
+  },
+  {
+    "name": "makeString",
+    "addr": "/makeString/",
+    "kind": "f",
+    "type": "string function()",
+    "lineno": 8,
+    "namespace": "Foo.prototype",
+    "tagfile": "__DIR__/proto.js"
+  },
+  {
+    "name": "bar",
+    "addr": "/bar/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 9,
+    "namespace": "Foo.prototype",
+    "tagfile": "__DIR__/proto.js"
+  },
+  {
+    "name": "z",
+    "addr": "/z/",
+    "kind": "v",
+    "type": "+Foo",
+    "lineno": 12,
+    "tagfile": "__DIR__/proto.js"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "name": "arguments",
+    "addr": "/arguments/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 1,
+    "tagfile": "__DIR__/arguments.js"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Bar",
+    "addr": "/Bar/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 1,
+    "tagfile": "__DIR__/autothis.js"
+  },
+  {
+    "name": "hallo",
+    "addr": "/hallo/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 2,
+    "namespace": "Bar.prototype",
+    "tagfile": "__DIR__/autothis.js"
+  },
+  {
+    "name": "fn2",
+    "addr": "/fn2/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 11,
+    "namespace": "Date.prototype",
+    "tagfile": "__DIR__/autothis.js"
+  }
+]

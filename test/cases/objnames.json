@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Ctor1",
+    "addr": "/Ctor1/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 1,
+    "tagfile": "__DIR__/objnames.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 2,
+    "namespace": "Ctor1.prototype",
+    "tagfile": "__DIR__/objnames.js"
+  },
+  {
+    "name": "Ctor2",
+    "addr": "/Ctor2/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 4,
+    "tagfile": "__DIR__/objnames.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 6,
+    "namespace": "singleton",
+    "tagfile": "__DIR__/objnames.js"
+  },
+  {
+    "name": "b",
+    "addr": "/b/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 6,
+    "namespace": "singleton",
+    "tagfile": "__DIR__/objnames.js"
+  }
+]

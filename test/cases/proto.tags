@@ -1,0 +1,7 @@
+Foo	__DIR__/proto.js	/Foo/;"	f	lineno:1	type:void function(bool)
+bar	__DIR__/proto.js	/bar/;"	v	lineno:9	namespace:Foo.prototype	type:number
+makeString	__DIR__/proto.js	/makeString/;"	f	lineno:8	namespace:Foo.prototype	type:string function()
+x	__DIR__/proto.js	/x/;"	v	lineno:2	namespace:Foo	type:boolean
+y	__DIR__/proto.js	/y/;"	v	lineno:3	namespace:Foo	type:[number]
+z	__DIR__/proto.js	/z/;"	v	lineno:12	type:+Foo
+

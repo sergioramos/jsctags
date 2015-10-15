@@ -1,0 +1,34 @@
+[
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "[string]",
+    "lineno": 1,
+    "tagfile": "__DIR__/new_array.js"
+  },
+  {
+    "name": "b",
+    "addr": "/b/",
+    "kind": "v",
+    "type": "[bool]",
+    "lineno": 5,
+    "tagfile": "__DIR__/new_array.js"
+  },
+  {
+    "name": "c",
+    "addr": "/c/",
+    "kind": "v",
+    "type": "[?]",
+    "lineno": 8,
+    "tagfile": "__DIR__/new_array.js"
+  },
+  {
+    "name": "d",
+    "addr": "/d/",
+    "kind": "v",
+    "type": "[string]",
+    "lineno": 11,
+    "tagfile": "__DIR__/new_array.js"
+  }
+]

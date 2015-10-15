@@ -1,0 +1,10 @@
+[
+  {
+    "name": "sum",
+    "addr": "/sum/",
+    "kind": "f",
+    "type": "number function(?)",
+    "lineno": 1,
+    "tagfile": "__DIR__/merge.js"
+  }
+]

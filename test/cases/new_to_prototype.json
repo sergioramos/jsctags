@@ -1,0 +1,53 @@
+[
+  {
+    "name": "A",
+    "addr": "/A/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 1,
+    "tagfile": "__DIR__/new_to_prototype.js"
+  },
+  {
+    "name": "prop_A",
+    "addr": "/prop_A/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 2,
+    "namespace": "A.prototype",
+    "tagfile": "__DIR__/new_to_prototype.js"
+  },
+  {
+    "name": "B",
+    "addr": "/B/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 3,
+    "tagfile": "__DIR__/new_to_prototype.js"
+  },
+  {
+    "name": "prop_B",
+    "addr": "/prop_B/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 5,
+    "namespace": "B.prototype",
+    "tagfile": "__DIR__/new_to_prototype.js"
+  },
+  {
+    "name": "C",
+    "addr": "/C/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 6,
+    "tagfile": "__DIR__/new_to_prototype.js"
+  },
+  {
+    "name": "prop_C",
+    "addr": "/prop_C/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 8,
+    "namespace": "C.prototype",
+    "tagfile": "__DIR__/new_to_prototype.js"
+  }
+]

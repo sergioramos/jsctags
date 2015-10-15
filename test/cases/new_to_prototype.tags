@@ -1,0 +1,7 @@
+A	__DIR__/new_to_prototype.js	/A/;"	f	lineno:1	type:void function()
+B	__DIR__/new_to_prototype.js	/B/;"	f	lineno:3	type:void function()
+C	__DIR__/new_to_prototype.js	/C/;"	f	lineno:6	type:void function()
+prop_A	__DIR__/new_to_prototype.js	/prop_A/;"	v	lineno:2	namespace:A.prototype	type:number
+prop_B	__DIR__/new_to_prototype.js	/prop_B/;"	v	lineno:5	namespace:B.prototype	type:number
+prop_C	__DIR__/new_to_prototype.js	/prop_C/;"	v	lineno:8	namespace:C.prototype	type:number
+
