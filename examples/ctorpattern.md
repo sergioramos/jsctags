@@ -17,7 +17,8 @@ foo; //: ?
     "addr": "/Ctor/",
     "kind": "f",
     "type": "+Ctor function()",
-    "lineno": 4
+    "lineno": 4,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/ctorpattern.js"
   },
   {
     "name": "foo",
@@ -25,12 +26,12 @@ foo; //: ?
     "kind": "v",
     "type": "number",
     "lineno": 6,
-    "namespace": "Ctor"
+    "namespace": "Ctor",
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/ctorpattern.js"
   }
 ]
 ```
 ```ctags
-Ctor		/Ctor/;"	f	lineno:4	type:+Ctor function()
-
-foo		/foo/;"	v	lineno:6	namespace:Ctor	type:number
+Ctor	/usr/local/lib/node_modules/jsctags/test/cases/ctorpattern.js	/Ctor/;"	f	lineno:4	type:+Ctor function()
+foo	/usr/local/lib/node_modules/jsctags/test/cases/ctorpattern.js	/foo/;"	v	lineno:6	namespace:Ctor	type:number
 ```

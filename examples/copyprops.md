@@ -14,10 +14,11 @@ buildCopy({xx: 10, yy: 20}); //:: {xx: number, yy: number}
     "addr": "/buildCopy/",
     "kind": "f",
     "type": "? function(buildCopy.!0)",
-    "lineno": 1
+    "lineno": 1,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/copyprops.js"
   }
 ]
 ```
 ```ctags
-buildCopy		/buildCopy/;"	f	lineno:1	type:? function(buildCopy.!0)
+buildCopy	/usr/local/lib/node_modules/jsctags/test/cases/copyprops.js	/buildCopy/;"	f	lineno:1	type:? function(buildCopy.!0)
 ```
