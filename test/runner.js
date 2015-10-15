@@ -26,6 +26,7 @@ async.series([
       runTestCase({
         input: file,
         dir: casesDir,
+        label: path.basename(file),
         expected: {
           json: expectedJson,
           ctags: expectedCtags
@@ -43,6 +44,7 @@ async.series([
     runTestCase({
       input: input,
       dir: casesDir,
+      label: interpolate('%s files', files.length),
       expected: {
         json: expectedJson,
         ctags: expectedCtags
@@ -52,7 +54,7 @@ async.series([
 ], function (e) {
   if (e) throw e;
   var elapsed = Date.now() - start;
-  console.log(successText(interpolate('\nTests %s in %ss', e ? 'failed' : 'passed', elapsed / 1000)));
+  console.log(successText(interpolate('\nTests passed in %ss', elapsed / 1000)));
 });
 
 function replaceFileExtension (file, extension) {
@@ -61,7 +63,7 @@ function replaceFileExtension (file, extension) {
 
 function runTestCase (options, callback) {
   var file = options.input;
-  var filename = path.basename(file);
+  var label = options.label;
   var dir = options.dir;
   var expectedJson = options.expected.json.replace(/__DIR__/g, dir);
   var expectedCtags = options.expected.ctags.replace(/__DIR__/g, dir);
@@ -72,8 +74,8 @@ function runTestCase (options, callback) {
           file: file,
           stdin: null
         },
-        filename: filename,
         args: null,
+        label: label,
         expected: expectedJson
       }, callback);
     },
@@ -83,8 +85,8 @@ function runTestCase (options, callback) {
           file: file,
           stdin: null
         },
-        filename: filename,
         args: ['-f'],
+        label: label,
         expected: expectedCtags
       }, callback);
     }
@@ -98,8 +100,8 @@ function runTestCase (options, callback) {
             file: null,
             stdin: content
           },
-          filename: filename,
           args: ['--file', file],
+          label: label,
           expected: expectedJson
         }, callback);
       },
@@ -110,8 +112,8 @@ function runTestCase (options, callback) {
             file: null,
             stdin: content
           },
-          filename: filename,
           args: ['-f', '--file', file],
+          label: label,
           expected: expectedCtags
         }, callback);
       }
@@ -123,10 +125,10 @@ function runTestCase (options, callback) {
 function testCommandOutput (options, callback) {
   var file = options.input.file;
   var stdin = options.input.stdin;
-  var filename = options.filename;
+  var label = options.label;
   var args = options.args || [];
   var expected = options.expected;
-  process.stdout.write(interpolate('%;%s%s...', filename, file ? '' : ' (STDIN)', args.indexOf('-f') !== -1 ? ' (-f)' : ''));
+  process.stdout.write(interpolate('%s%s%s...', label, file ? '' : ' (STDIN)', args.indexOf('-f') !== -1 ? ' (-f)' : ''));
   var command = file ? interpolate('%s %s %s', cmd, file, args.join(' ')) : interpolate('%s %s', cmd, args.join(' '));
   var child = cp.exec(command, function (e, stdout, stderr) {
     if (e) return callback(e);
