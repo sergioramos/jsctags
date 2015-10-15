@@ -34,7 +34,15 @@ if(!argv._.length) {
   process.stdin.on('end', function () {
     jsctags(file, dir, content, function (e, tags) {
       if(e) throw e
-      console.log(JSON.stringify(tags, null, 2))
+      tags.tagfile = file
+      tags.forEach(function (tag) {
+        tag.tagfile = file
+      })
+	  if (argv.f) {
+        console.log(jsctags.ctags(tags).sort().join(''))
+      } else {
+        console.log(JSON.stringify(tags, null, 2))
+      }
     })
   })
 } else {
