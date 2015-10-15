@@ -18,19 +18,20 @@ e_which; //: number
     "addr": "/newElt/",
     "kind": "v",
     "type": "+Element",
-    "lineno": 5
+    "lineno": 5,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/browser.js"
   },
   {
     "name": "e_which",
     "addr": "/e_which/",
     "kind": "v",
     "type": "number",
-    "lineno": 9
+    "lineno": 9,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/browser.js"
   }
 ]
 ```
 ```ctags
-newElt		/newElt/;"	v	lineno:5	type:+Element
-
-e_which		/e_which/;"	v	lineno:9	type:number
+e_which	/usr/local/lib/node_modules/jsctags/test/cases/browser.js	/e_which/;"	v	lineno:9	type:number
+newElt	/usr/local/lib/node_modules/jsctags/test/cases/browser.js	/newElt/;"	v	lineno:5	type:+Element
 ```

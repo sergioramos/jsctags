@@ -27,7 +27,8 @@ obj.z; //refs: 17,4 20,4
     "addr": "/hello/",
     "kind": "f",
     "type": "void function(?, ?)",
-    "lineno": 1
+    "lineno": 1,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/findref.js"
   },
   {
     "name": "x",
@@ -35,7 +36,8 @@ obj.z; //refs: 17,4 20,4
     "kind": "v",
     "type": "number",
     "lineno": 11,
-    "namespace": "obj"
+    "namespace": "obj",
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/findref.js"
   },
   {
     "name": "y",
@@ -43,7 +45,8 @@ obj.z; //refs: 17,4 20,4
     "kind": "v",
     "type": "number",
     "lineno": 13,
-    "namespace": "obj"
+    "namespace": "obj",
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/findref.js"
   },
   {
     "name": "z",
@@ -51,16 +54,14 @@ obj.z; //refs: 17,4 20,4
     "kind": "v",
     "type": "string",
     "lineno": 17,
-    "namespace": "obj"
+    "namespace": "obj",
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/findref.js"
   }
 ]
 ```
 ```ctags
-hello		/hello/;"	f	lineno:1	type:void function(?, ?)
-
-x		/x/;"	v	lineno:11	namespace:obj	type:number
-
-y		/y/;"	v	lineno:13	namespace:obj	type:number
-
-z		/z/;"	v	lineno:17	namespace:obj	type:string
+hello	/usr/local/lib/node_modules/jsctags/test/cases/findref.js	/hello/;"	f	lineno:1	type:void function(?, ?)
+x	/usr/local/lib/node_modules/jsctags/test/cases/findref.js	/x/;"	v	lineno:11	namespace:obj	type:number
+y	/usr/local/lib/node_modules/jsctags/test/cases/findref.js	/y/;"	v	lineno:13	namespace:obj	type:number
+z	/usr/local/lib/node_modules/jsctags/test/cases/findref.js	/z/;"	v	lineno:17	namespace:obj	type:string
 ```

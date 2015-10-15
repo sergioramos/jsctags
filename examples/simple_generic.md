@@ -19,20 +19,21 @@ map([1, 2, 3], function() { return true; }); //: [bool]
     "name": "last",
     "addr": "/last/",
     "kind": "f",
-    "type": "!0.<i> function(Array[string])",
-    "lineno": 1
+    "type": "!0.<i> function(Array[number]|[string])",
+    "lineno": 1,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/simple_generic.js"
   },
   {
     "name": "map",
     "addr": "/map/",
     "kind": "f",
-    "type": "bool) -> [?] function(Array[number], fn()",
-    "lineno": 6
+    "type": "string|fn() -> bool) -> [?] function(Array[number], fn()",
+    "lineno": 6,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/simple_generic.js"
   }
 ]
 ```
 ```ctags
-last		/last/;"	f	lineno:1	type:!0.<i> function(Array[string])
-
-map		/map/;"	f	lineno:6	type:bool) -> [?] function(Array[number], fn()
+last	/usr/local/lib/node_modules/jsctags/test/cases/simple_generic.js	/last/;"	f	lineno:1	type:!0.<i> function(Array[number]|[string])
+map	/usr/local/lib/node_modules/jsctags/test/cases/simple_generic.js	/map/;"	f	lineno:6	type:string|fn() -> bool) -> [?] function(Array[number], fn()
 ```

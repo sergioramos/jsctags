@@ -41,7 +41,8 @@ empty.prop1; //: string
     "kind": "v",
     "type": "number",
     "lineno": 1,
-    "namespace": "base"
+    "namespace": "base",
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/object_create.js"
   },
   {
     "name": "bar",
@@ -49,7 +50,8 @@ empty.prop1; //: string
     "kind": "v",
     "type": "number",
     "lineno": 1,
-    "namespace": "base"
+    "namespace": "base",
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/object_create.js"
   },
   {
     "name": "baz",
@@ -57,7 +59,8 @@ empty.prop1; //: string
     "kind": "v",
     "type": "number",
     "lineno": 5,
-    "namespace": "base"
+    "namespace": "base",
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/object_create.js"
   },
   {
     "name": "quux",
@@ -65,7 +68,8 @@ empty.prop1; //: string
     "kind": "v",
     "type": "number",
     "lineno": 6,
-    "namespace": "gen1"
+    "namespace": "gen1",
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/object_create.js"
   },
   {
     "name": "kaka",
@@ -73,7 +77,8 @@ empty.prop1; //: string
     "kind": "v",
     "type": "number",
     "lineno": 7,
-    "namespace": "gen2"
+    "namespace": "gen2",
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/object_create.js"
   },
   {
     "name": "prop1",
@@ -81,20 +86,16 @@ empty.prop1; //: string
     "kind": "v",
     "type": "string",
     "lineno": 30,
-    "namespace": "empty"
+    "namespace": "empty",
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/object_create.js"
   }
 ]
 ```
 ```ctags
-foo		/foo/;"	v	lineno:1	namespace:base	type:number
-
-bar		/bar/;"	v	lineno:1	namespace:base	type:number
-
-baz		/baz/;"	v	lineno:5	namespace:base	type:number
-
-quux		/quux/;"	v	lineno:6	namespace:gen1	type:number
-
-kaka		/kaka/;"	v	lineno:7	namespace:gen2	type:number
-
-prop1		/prop1/;"	v	lineno:30	namespace:empty	type:string
+bar	/usr/local/lib/node_modules/jsctags/test/cases/object_create.js	/bar/;"	v	lineno:1	namespace:base	type:number
+baz	/usr/local/lib/node_modules/jsctags/test/cases/object_create.js	/baz/;"	v	lineno:5	namespace:base	type:number
+foo	/usr/local/lib/node_modules/jsctags/test/cases/object_create.js	/foo/;"	v	lineno:1	namespace:base	type:number
+kaka	/usr/local/lib/node_modules/jsctags/test/cases/object_create.js	/kaka/;"	v	lineno:7	namespace:gen2	type:number
+prop1	/usr/local/lib/node_modules/jsctags/test/cases/object_create.js	/prop1/;"	v	lineno:30	namespace:empty	type:string
+quux	/usr/local/lib/node_modules/jsctags/test/cases/object_create.js	/quux/;"	v	lineno:6	namespace:gen1	type:number
 ```

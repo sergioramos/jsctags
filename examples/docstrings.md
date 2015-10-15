@@ -63,35 +63,40 @@ o.foo; //doc: The string "foo".
     "addr": "/foo/",
     "kind": "v",
     "type": "number",
-    "lineno": 9
+    "lineno": 9,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js"
   },
   {
     "name": "makeMonkey",
     "addr": "/makeMonkey/",
     "kind": "f",
     "type": "string function()",
-    "lineno": 14
+    "lineno": 14,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js"
   },
   {
     "name": "abc",
     "addr": "/abc/",
     "kind": "v",
     "type": "number",
-    "lineno": 26
+    "lineno": 26,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js"
   },
   {
     "name": "Quux",
     "addr": "/Quux/",
     "kind": "f",
     "type": "void function()",
-    "lineno": 33
+    "lineno": 33,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js"
   },
   {
     "name": "baz",
     "addr": "/baz/",
     "kind": "v",
     "type": "string",
-    "lineno": 40
+    "lineno": 40,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js"
   },
   {
     "name": "getName",
@@ -99,7 +104,8 @@ o.foo; //doc: The string "foo".
     "kind": "f",
     "type": "!this.name function()",
     "lineno": 46,
-    "namespace": "o"
+    "namespace": "o",
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js"
   },
   {
     "name": "name",
@@ -107,7 +113,8 @@ o.foo; //doc: The string "foo".
     "kind": "v",
     "type": "string",
     "lineno": 48,
-    "namespace": "o"
+    "namespace": "o",
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js"
   },
   {
     "name": "foo",
@@ -115,24 +122,18 @@ o.foo; //doc: The string "foo".
     "kind": "v",
     "type": "string",
     "lineno": 52,
-    "namespace": "o"
+    "namespace": "o",
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js"
   }
 ]
 ```
 ```ctags
-foo		/foo/;"	v	lineno:9	type:number
-
-makeMonkey		/makeMonkey/;"	f	lineno:14	type:string function()
-
-abc		/abc/;"	v	lineno:26	type:number
-
-Quux		/Quux/;"	f	lineno:33	type:void function()
-
-baz		/baz/;"	v	lineno:40	type:string
-
-getName		/getName/;"	f	lineno:46	namespace:o	type:!this.name function()
-
-name		/name/;"	v	lineno:48	namespace:o	type:string
-
-foo		/foo/;"	v	lineno:52	namespace:o	type:string
+Quux	/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js	/Quux/;"	f	lineno:33	type:void function()
+abc	/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js	/abc/;"	v	lineno:26	type:number
+baz	/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js	/baz/;"	v	lineno:40	type:string
+foo	/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js	/foo/;"	v	lineno:52	namespace:o	type:string
+foo	/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js	/foo/;"	v	lineno:9	type:number
+getName	/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js	/getName/;"	f	lineno:46	namespace:o	type:!this.name function()
+makeMonkey	/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js	/makeMonkey/;"	f	lineno:14	type:string function()
+name	/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js	/name/;"	v	lineno:48	namespace:o	type:string
 ```

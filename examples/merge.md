@@ -14,11 +14,12 @@ sum; //:: fn(a: {x: number, y: number}) -> number
     "name": "sum",
     "addr": "/sum/",
     "kind": "f",
-    "type": "number function(sum.!0)",
-    "lineno": 1
+    "type": "number function(?)",
+    "lineno": 1,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/merge.js"
   }
 ]
 ```
 ```ctags
-sum		/sum/;"	f	lineno:1	type:number function(sum.!0)
+sum	/usr/local/lib/node_modules/jsctags/test/cases/merge.js	/sum/;"	f	lineno:1	type:number function(?)
 ```

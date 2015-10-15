@@ -19,10 +19,21 @@ simple[quux()]; //: string
     "addr": "/inner/",
     "kind": "v",
     "type": "number",
-    "lineno": 5
+    "lineno": 5,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/cautiouspropagation.js"
+  },
+  {
+    "name": "<i>",
+    "addr": "/foo\(\)/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 9,
+    "namespace": "simple",
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/cautiouspropagation.js"
   }
 ]
 ```
 ```ctags
-inner		/inner/;"	v	lineno:5	type:number
+<i>	/usr/local/lib/node_modules/jsctags/test/cases/cautiouspropagation.js	/foo\(\)/;"	v	lineno:9	namespace:simple	type:string
+inner	/usr/local/lib/node_modules/jsctags/test/cases/cautiouspropagation.js	/inner/;"	v	lineno:5	type:number
 ```

@@ -26,11 +26,12 @@ each([{x: 10}], function(o) {
     "name": "each",
     "addr": "/each/",
     "kind": "f",
-    "type": "void function(Array[each.!0.<i>], fn(o: each.!0.<i>)",
-    "lineno": 2
+    "type": "void function(Array[number]|[each.!0.<i>], fn(n: number)",
+    "lineno": 2,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/generic_each.js"
   }
 ]
 ```
 ```ctags
-each		/each/;"	f	lineno:2	type:void function(Array[each.!0.<i>], fn(o: each.!0.<i>)
+each	/usr/local/lib/node_modules/jsctags/test/cases/generic_each.js	/each/;"	f	lineno:2	type:void function(Array[number]|[each.!0.<i>], fn(n: number)
 ```

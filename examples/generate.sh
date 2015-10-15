@@ -1,5 +1,5 @@
-#!/bin/sh
-FILES=test/cases/*
+#!/bin/bash
+FILES=test/cases/*.js
 DIR="$(cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd)"
 
 for f in $FILES

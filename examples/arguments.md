@@ -10,10 +10,11 @@ var arguments = 1; //: number
     "addr": "/arguments/",
     "kind": "v",
     "type": "number",
-    "lineno": 1
+    "lineno": 1,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/arguments.js"
   }
 ]
 ```
 ```ctags
-arguments		/arguments/;"	v	lineno:1	type:number
+arguments	/usr/local/lib/node_modules/jsctags/test/cases/arguments.js	/arguments/;"	v	lineno:1	type:number
 ```

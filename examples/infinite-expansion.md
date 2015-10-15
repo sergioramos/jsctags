@@ -26,28 +26,29 @@ goop(1)(goop);
     "addr": "/f/",
     "kind": "f",
     "type": "void function(f)",
-    "lineno": 3
+    "lineno": 3,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/infinite-expansion.js"
   },
   {
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "[x]",
-    "lineno": 10
+    "lineno": 10,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/infinite-expansion.js"
   },
   {
     "name": "goop",
     "addr": "/goop/",
     "kind": "f",
     "type": "fn(f: ?) function(number)",
-    "lineno": 15
+    "lineno": 15,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/infinite-expansion.js"
   }
 ]
 ```
 ```ctags
-f		/f/;"	f	lineno:3	type:void function(f)
-
-x		/x/;"	v	lineno:10	type:[x]
-
-goop		/goop/;"	f	lineno:15	type:fn(f: ?) function(number)
+f	/usr/local/lib/node_modules/jsctags/test/cases/infinite-expansion.js	/f/;"	f	lineno:3	type:void function(f)
+goop	/usr/local/lib/node_modules/jsctags/test/cases/infinite-expansion.js	/goop/;"	f	lineno:15	type:fn(f: ?) function(number)
+x	/usr/local/lib/node_modules/jsctags/test/cases/infinite-expansion.js	/x/;"	v	lineno:10	type:[x]
 ```

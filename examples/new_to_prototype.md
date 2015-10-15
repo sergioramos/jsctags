@@ -21,7 +21,8 @@ C.prototype.prop_C = 3;
     "addr": "/A/",
     "kind": "f",
     "type": "void function()",
-    "lineno": 1
+    "lineno": 1,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js"
   },
   {
     "name": "prop_A",
@@ -29,14 +30,16 @@ C.prototype.prop_C = 3;
     "kind": "v",
     "type": "number",
     "lineno": 2,
-    "namespace": "A.prototype"
+    "namespace": "A.prototype",
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js"
   },
   {
     "name": "B",
     "addr": "/B/",
     "kind": "f",
     "type": "void function()",
-    "lineno": 3
+    "lineno": 3,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js"
   },
   {
     "name": "prop_B",
@@ -44,14 +47,16 @@ C.prototype.prop_C = 3;
     "kind": "v",
     "type": "number",
     "lineno": 5,
-    "namespace": "B.prototype"
+    "namespace": "B.prototype",
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js"
   },
   {
     "name": "C",
     "addr": "/C/",
     "kind": "f",
     "type": "void function()",
-    "lineno": 6
+    "lineno": 6,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js"
   },
   {
     "name": "prop_C",
@@ -59,20 +64,16 @@ C.prototype.prop_C = 3;
     "kind": "v",
     "type": "number",
     "lineno": 8,
-    "namespace": "C.prototype"
+    "namespace": "C.prototype",
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js"
   }
 ]
 ```
 ```ctags
-A		/A/;"	f	lineno:1	type:void function()
-
-prop_A		/prop_A/;"	v	lineno:2	namespace:A.prototype	type:number
-
-B		/B/;"	f	lineno:3	type:void function()
-
-prop_B		/prop_B/;"	v	lineno:5	namespace:B.prototype	type:number
-
-C		/C/;"	f	lineno:6	type:void function()
-
-prop_C		/prop_C/;"	v	lineno:8	namespace:C.prototype	type:number
+A	/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js	/A/;"	f	lineno:1	type:void function()
+B	/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js	/B/;"	f	lineno:3	type:void function()
+C	/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js	/C/;"	f	lineno:6	type:void function()
+prop_A	/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js	/prop_A/;"	v	lineno:2	namespace:A.prototype	type:number
+prop_B	/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js	/prop_B/;"	v	lineno:5	namespace:B.prototype	type:number
+prop_C	/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js	/prop_C/;"	v	lineno:8	namespace:C.prototype	type:number
 ```

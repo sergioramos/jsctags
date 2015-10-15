@@ -22,14 +22,16 @@ x; //:: {bar: number, foo: number}
     "addr": "/foo/",
     "kind": "v",
     "type": "number",
-    "lineno": 1
+    "lineno": 1,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/simple.js"
   },
   {
     "name": "init",
     "addr": "/init/",
     "kind": "f",
     "type": "void function(x)",
-    "lineno": 8
+    "lineno": 8,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/simple.js"
   },
   {
     "name": "foo",
@@ -37,7 +39,8 @@ x; //:: {bar: number, foo: number}
     "kind": "v",
     "type": "number",
     "lineno": 9,
-    "namespace": "x"
+    "namespace": "x",
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/simple.js"
   },
   {
     "name": "bar",
@@ -45,16 +48,14 @@ x; //:: {bar: number, foo: number}
     "kind": "v",
     "type": "number",
     "lineno": 10,
-    "namespace": "x"
+    "namespace": "x",
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/simple.js"
   }
 ]
 ```
 ```ctags
-foo		/foo/;"	v	lineno:1	type:number
-
-init		/init/;"	f	lineno:8	type:void function(x)
-
-foo		/foo/;"	v	lineno:9	namespace:x	type:number
-
-bar		/bar/;"	v	lineno:10	namespace:x	type:number
+bar	/usr/local/lib/node_modules/jsctags/test/cases/simple.js	/bar/;"	v	lineno:10	namespace:x	type:number
+foo	/usr/local/lib/node_modules/jsctags/test/cases/simple.js	/foo/;"	v	lineno:1	type:number
+foo	/usr/local/lib/node_modules/jsctags/test/cases/simple.js	/foo/;"	v	lineno:9	namespace:x	type:number
+init	/usr/local/lib/node_modules/jsctags/test/cases/simple.js	/init/;"	f	lineno:8	type:void function(x)
 ```

@@ -16,7 +16,8 @@ new Ctor2(); //: Ctor2
     "addr": "/Ctor1/",
     "kind": "f",
     "type": "void function()",
-    "lineno": 1
+    "lineno": 1,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/objnames.js"
   },
   {
     "name": "a",
@@ -24,14 +25,16 @@ new Ctor2(); //: Ctor2
     "kind": "v",
     "type": "number",
     "lineno": 2,
-    "namespace": "Ctor1.prototype"
+    "namespace": "Ctor1.prototype",
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/objnames.js"
   },
   {
     "name": "Ctor2",
     "addr": "/Ctor2/",
     "kind": "f",
     "type": "void function()",
-    "lineno": 4
+    "lineno": 4,
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/objnames.js"
   },
   {
     "name": "a",
@@ -39,7 +42,8 @@ new Ctor2(); //: Ctor2
     "kind": "v",
     "type": "number",
     "lineno": 6,
-    "namespace": "singleton"
+    "namespace": "singleton",
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/objnames.js"
   },
   {
     "name": "b",
@@ -47,18 +51,15 @@ new Ctor2(); //: Ctor2
     "kind": "v",
     "type": "number",
     "lineno": 6,
-    "namespace": "singleton"
+    "namespace": "singleton",
+    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/objnames.js"
   }
 ]
 ```
 ```ctags
-Ctor1		/Ctor1/;"	f	lineno:1	type:void function()
-
-a		/a/;"	v	lineno:2	namespace:Ctor1.prototype	type:number
-
-Ctor2		/Ctor2/;"	f	lineno:4	type:void function()
-
-a		/a/;"	v	lineno:6	namespace:singleton	type:number
-
-b		/b/;"	v	lineno:6	namespace:singleton	type:number
+Ctor1	/usr/local/lib/node_modules/jsctags/test/cases/objnames.js	/Ctor1/;"	f	lineno:1	type:void function()
+Ctor2	/usr/local/lib/node_modules/jsctags/test/cases/objnames.js	/Ctor2/;"	f	lineno:4	type:void function()
+a	/usr/local/lib/node_modules/jsctags/test/cases/objnames.js	/a/;"	v	lineno:2	namespace:Ctor1.prototype	type:number
+a	/usr/local/lib/node_modules/jsctags/test/cases/objnames.js	/a/;"	v	lineno:6	namespace:singleton	type:number
+b	/usr/local/lib/node_modules/jsctags/test/cases/objnames.js	/b/;"	v	lineno:6	namespace:singleton	type:number
 ```
