@@ -1,0 +1,917 @@
+[
+  {
+    "name": "arguments",
+    "addr": "/arguments/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 1,
+    "tagfile": "__DIR__/arguments.js"
+  },
+  {
+    "name": "Bar",
+    "addr": "/Bar/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 1,
+    "tagfile": "__DIR__/autothis.js"
+  },
+  {
+    "name": "hallo",
+    "addr": "/hallo/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 2,
+    "namespace": "Bar.prototype",
+    "tagfile": "__DIR__/autothis.js"
+  },
+  {
+    "name": "fn2",
+    "addr": "/fn2/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 11,
+    "namespace": "Date.prototype",
+    "tagfile": "__DIR__/autothis.js"
+  },
+  {
+    "name": "newElt",
+    "addr": "/newElt/",
+    "kind": "v",
+    "type": "+Element",
+    "lineno": 5,
+    "tagfile": "__DIR__/browser.js"
+  },
+  {
+    "name": "e_which",
+    "addr": "/e_which/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 9,
+    "tagfile": "__DIR__/browser.js"
+  },
+  {
+    "name": "x",
+    "addr": "/x/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 1,
+    "tagfile": "__DIR__/builtins.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "[number]",
+    "lineno": 4,
+    "tagfile": "__DIR__/builtins.js"
+  },
+  {
+    "name": "num",
+    "addr": "/num/",
+    "kind": "v",
+    "type": "+Number",
+    "lineno": 26,
+    "tagfile": "__DIR__/builtins.js"
+  },
+  {
+    "name": "inner",
+    "addr": "/inner/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 5,
+    "tagfile": "__DIR__/cautiouspropagation.js"
+  },
+  {
+    "name": "<i>",
+    "addr": "/foo\\(\\)/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 9,
+    "namespace": "simple",
+    "tagfile": "__DIR__/cautiouspropagation.js"
+  },
+  {
+    "name": "buildCopy",
+    "addr": "/buildCopy/",
+    "kind": "f",
+    "type": "? function(buildCopy.!0)",
+    "lineno": 1,
+    "tagfile": "__DIR__/copyprops.js"
+  },
+  {
+    "name": "Ctor",
+    "addr": "/Ctor/",
+    "kind": "f",
+    "type": "+Ctor function()",
+    "lineno": 4,
+    "tagfile": "__DIR__/ctorpattern.js"
+  },
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 6,
+    "namespace": "Ctor",
+    "tagfile": "__DIR__/ctorpattern.js"
+  },
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 9,
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "makeMonkey",
+    "addr": "/makeMonkey/",
+    "kind": "f",
+    "type": "string function()",
+    "lineno": 14,
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "abc",
+    "addr": "/abc/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 26,
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "Quux",
+    "addr": "/Quux/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 33,
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "baz",
+    "addr": "/baz/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 40,
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "getName",
+    "addr": "/getName/",
+    "kind": "f",
+    "type": "!this.name function()",
+    "lineno": 46,
+    "namespace": "o",
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "name",
+    "addr": "/name/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 48,
+    "namespace": "o",
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 52,
+    "namespace": "o",
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "b",
+    "addr": "/b/",
+    "kind": "v",
+    "type": "[bool]",
+    "lineno": 3,
+    "tagfile": "__DIR__/effects.js"
+  },
+  {
+    "name": "c",
+    "addr": "/c/",
+    "kind": "v",
+    "type": "[string|number]",
+    "lineno": 7,
+    "tagfile": "__DIR__/effects.js"
+  },
+  {
+    "name": "d",
+    "addr": "/d/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 12,
+    "tagfile": "__DIR__/effects.js"
+  },
+  {
+    "name": "setD",
+    "addr": "/setD/",
+    "kind": "f",
+    "type": "void function(number)",
+    "lineno": 13,
+    "tagfile": "__DIR__/effects.js"
+  },
+  {
+    "name": "__extends",
+    "addr": "/__extends/",
+    "kind": "f",
+    "type": "void function(fn(arg: bool)",
+    "lineno": 3,
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "Top",
+    "addr": "/Top/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 10,
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "topMethod",
+    "addr": "/topMethod/",
+    "kind": "f",
+    "type": "string function()",
+    "lineno": 12,
+    "namespace": "Top.prototype",
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "topStatic",
+    "addr": "/topStatic/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 13,
+    "namespace": "Top",
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "SubOne",
+    "addr": "/SubOne/",
+    "kind": "f",
+    "type": "void function(bool)",
+    "lineno": 17,
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "argOne",
+    "addr": "/argOne/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 18,
+    "namespace": "SubOne",
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "argOne",
+    "addr": "/argOne/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 18,
+    "namespace": "SubEleven",
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "methodOne",
+    "addr": "/methodOne/",
+    "kind": "f",
+    "type": "number function()",
+    "lineno": 20,
+    "namespace": "SubOne.prototype",
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "SubTwo",
+    "addr": "/SubTwo/",
+    "kind": "f",
+    "type": "void function(bool)",
+    "lineno": 24,
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "argTwo",
+    "addr": "/argTwo/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 25,
+    "namespace": "SubTwo",
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "methodTwo",
+    "addr": "/methodTwo/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 27,
+    "namespace": "SubTwo.prototype",
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "SubEleven",
+    "addr": "/SubEleven/",
+    "kind": "f",
+    "type": "void function(bool)",
+    "lineno": 31,
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "methodEleven",
+    "addr": "/methodEleven/",
+    "kind": "f",
+    "type": "string function()",
+    "lineno": 34,
+    "namespace": "SubEleven.prototype",
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "one",
+    "addr": "/one/",
+    "kind": "v",
+    "type": "+SubOne",
+    "lineno": 38,
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "two",
+    "addr": "/two/",
+    "kind": "v",
+    "type": "+SubTwo",
+    "lineno": 38,
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "elf",
+    "addr": "/elf/",
+    "kind": "v",
+    "type": "+SubEleven",
+    "lineno": 38,
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "blah",
+    "addr": "/blah/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 1,
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "jaja",
+    "addr": "/jaja/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 3,
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "prop1",
+    "addr": "/prop1/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 6,
+    "namespace": "obj",
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "prop2",
+    "addr": "/prop2/",
+    "kind": "f",
+    "type": "void function(?)",
+    "lineno": 7,
+    "namespace": "obj",
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "prop3",
+    "addr": "/prop3/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 10,
+    "namespace": "obj",
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "hide",
+    "addr": "/hide/",
+    "kind": "f",
+    "type": "fn(foo: ?) function()",
+    "lineno": 19,
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "another",
+    "addr": "/another/",
+    "kind": "f",
+    "type": "void function(?)",
+    "lineno": 23,
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "hello",
+    "addr": "/hello/",
+    "kind": "f",
+    "type": "void function(?, ?)",
+    "lineno": 1,
+    "tagfile": "__DIR__/findref.js"
+  },
+  {
+    "name": "x",
+    "addr": "/x/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 11,
+    "namespace": "obj",
+    "tagfile": "__DIR__/findref.js"
+  },
+  {
+    "name": "y",
+    "addr": "/y/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 13,
+    "namespace": "obj",
+    "tagfile": "__DIR__/findref.js"
+  },
+  {
+    "name": "z",
+    "addr": "/z/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 17,
+    "namespace": "obj",
+    "tagfile": "__DIR__/findref.js"
+  },
+  {
+    "name": "abc",
+    "addr": "/abc/",
+    "kind": "f",
+    "type": "number function()",
+    "lineno": 1,
+    "tagfile": "__DIR__/fn_arguments.js"
+  },
+  {
+    "name": "each",
+    "addr": "/each/",
+    "kind": "f",
+    "type": "void function(Array[number]|[each.!0.<i>], fn(n: number)",
+    "lineno": 2,
+    "tagfile": "__DIR__/generic_each.js"
+  },
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 1,
+    "tagfile": "__DIR__/global_this.js"
+  },
+  {
+    "name": "f",
+    "addr": "/f/",
+    "kind": "f",
+    "type": "void function(f)",
+    "lineno": 3,
+    "tagfile": "__DIR__/infinite-expansion.js"
+  },
+  {
+    "name": "x",
+    "addr": "/x/",
+    "kind": "v",
+    "type": "[x]",
+    "lineno": 10,
+    "tagfile": "__DIR__/infinite-expansion.js"
+  },
+  {
+    "name": "goop",
+    "addr": "/goop/",
+    "kind": "f",
+    "type": "fn(f: ?) function(number)",
+    "lineno": 15,
+    "tagfile": "__DIR__/infinite-expansion.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "+Date",
+    "lineno": 2,
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "f",
+    "type": "Array function(number, string)",
+    "lineno": 17,
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "bar",
+    "addr": "/bar/",
+    "kind": "f",
+    "type": "string function(number, number)",
+    "lineno": 25,
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "prop1",
+    "addr": "/prop1/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 31,
+    "namespace": "o",
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "prop2",
+    "addr": "/prop2/",
+    "kind": "f",
+    "type": "number function()",
+    "lineno": 34,
+    "namespace": "o",
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "prop3",
+    "addr": "/prop3/",
+    "kind": "f",
+    "type": "string function()",
+    "lineno": 38,
+    "namespace": "o",
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "sum",
+    "addr": "/sum/",
+    "kind": "f",
+    "type": "number function(?)",
+    "lineno": 1,
+    "tagfile": "__DIR__/merge.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "[string]",
+    "lineno": 1,
+    "tagfile": "__DIR__/new_array.js"
+  },
+  {
+    "name": "b",
+    "addr": "/b/",
+    "kind": "v",
+    "type": "[bool]",
+    "lineno": 5,
+    "tagfile": "__DIR__/new_array.js"
+  },
+  {
+    "name": "c",
+    "addr": "/c/",
+    "kind": "v",
+    "type": "[?]",
+    "lineno": 8,
+    "tagfile": "__DIR__/new_array.js"
+  },
+  {
+    "name": "d",
+    "addr": "/d/",
+    "kind": "v",
+    "type": "[string]",
+    "lineno": 11,
+    "tagfile": "__DIR__/new_array.js"
+  },
+  {
+    "name": "A",
+    "addr": "/A/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 1,
+    "tagfile": "__DIR__/new_to_prototype.js"
+  },
+  {
+    "name": "prop_A",
+    "addr": "/prop_A/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 2,
+    "namespace": "A.prototype",
+    "tagfile": "__DIR__/new_to_prototype.js"
+  },
+  {
+    "name": "B",
+    "addr": "/B/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 3,
+    "tagfile": "__DIR__/new_to_prototype.js"
+  },
+  {
+    "name": "prop_B",
+    "addr": "/prop_B/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 5,
+    "namespace": "B.prototype",
+    "tagfile": "__DIR__/new_to_prototype.js"
+  },
+  {
+    "name": "C",
+    "addr": "/C/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 6,
+    "tagfile": "__DIR__/new_to_prototype.js"
+  },
+  {
+    "name": "prop_C",
+    "addr": "/prop_C/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 8,
+    "namespace": "C.prototype",
+    "tagfile": "__DIR__/new_to_prototype.js"
+  },
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 1,
+    "namespace": "base",
+    "tagfile": "__DIR__/object_create.js"
+  },
+  {
+    "name": "bar",
+    "addr": "/bar/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 1,
+    "namespace": "base",
+    "tagfile": "__DIR__/object_create.js"
+  },
+  {
+    "name": "baz",
+    "addr": "/baz/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 5,
+    "namespace": "base",
+    "tagfile": "__DIR__/object_create.js"
+  },
+  {
+    "name": "quux",
+    "addr": "/quux/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 6,
+    "namespace": "gen1",
+    "tagfile": "__DIR__/object_create.js"
+  },
+  {
+    "name": "kaka",
+    "addr": "/kaka/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 7,
+    "namespace": "gen2",
+    "tagfile": "__DIR__/object_create.js"
+  },
+  {
+    "name": "prop1",
+    "addr": "/prop1/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 30,
+    "namespace": "empty",
+    "tagfile": "__DIR__/object_create.js"
+  },
+  {
+    "name": "Ctor1",
+    "addr": "/Ctor1/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 1,
+    "tagfile": "__DIR__/objnames.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 2,
+    "namespace": "Ctor1.prototype",
+    "tagfile": "__DIR__/objnames.js"
+  },
+  {
+    "name": "Ctor2",
+    "addr": "/Ctor2/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 4,
+    "tagfile": "__DIR__/objnames.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 6,
+    "namespace": "singleton",
+    "tagfile": "__DIR__/objnames.js"
+  },
+  {
+    "name": "b",
+    "addr": "/b/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 6,
+    "namespace": "singleton",
+    "tagfile": "__DIR__/objnames.js"
+  },
+  {
+    "name": "x",
+    "addr": "/x/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 1,
+    "tagfile": "__DIR__/plus.js"
+  },
+  {
+    "name": "y",
+    "addr": "/y/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 2,
+    "tagfile": "__DIR__/plus.js"
+  },
+  {
+    "name": "Foo",
+    "addr": "/Foo/",
+    "kind": "f",
+    "type": "void function(bool)",
+    "lineno": 1,
+    "tagfile": "__DIR__/proto.js"
+  },
+  {
+    "name": "x",
+    "addr": "/x/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 2,
+    "namespace": "Foo",
+    "tagfile": "__DIR__/proto.js"
+  },
+  {
+    "name": "y",
+    "addr": "/y/",
+    "kind": "v",
+    "type": "[number]",
+    "lineno": 3,
+    "namespace": "Foo",
+    "tagfile": "__DIR__/proto.js"
+  },
+  {
+    "name": "makeString",
+    "addr": "/makeString/",
+    "kind": "f",
+    "type": "string function()",
+    "lineno": 8,
+    "namespace": "Foo.prototype",
+    "tagfile": "__DIR__/proto.js"
+  },
+  {
+    "name": "bar",
+    "addr": "/bar/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 9,
+    "namespace": "Foo.prototype",
+    "tagfile": "__DIR__/proto.js"
+  },
+  {
+    "name": "z",
+    "addr": "/z/",
+    "kind": "v",
+    "type": "+Foo",
+    "lineno": 12,
+    "tagfile": "__DIR__/proto.js"
+  },
+  {
+    "name": "Base",
+    "addr": "/Base/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 1,
+    "tagfile": "__DIR__/protoname.js"
+  },
+  {
+    "name": "Sub1",
+    "addr": "/Sub1/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 7,
+    "tagfile": "__DIR__/protoname.js"
+  },
+  {
+    "name": "Sub2",
+    "addr": "/Sub2/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 11,
+    "tagfile": "__DIR__/protoname.js"
+  },
+  {
+    "name": "Base2",
+    "addr": "/Base2/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 15,
+    "tagfile": "__DIR__/protoname.js"
+  },
+  {
+    "name": "Sub3",
+    "addr": "/Sub3/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 17,
+    "tagfile": "__DIR__/protoname.js"
+  },
+  {
+    "name": "x",
+    "addr": "/x/",
+    "kind": "v",
+    "type": "+Type",
+    "lineno": 1,
+    "tagfile": "__DIR__/replace_bogus_prop.js"
+  },
+  {
+    "name": "Type",
+    "addr": "/Type/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 5,
+    "tagfile": "__DIR__/replace_bogus_prop.js"
+  },
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 6,
+    "namespace": "Type.prototype",
+    "tagfile": "__DIR__/replace_bogus_prop.js"
+  },
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 1,
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "init",
+    "addr": "/init/",
+    "kind": "f",
+    "type": "void function(x)",
+    "lineno": 8,
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 9,
+    "namespace": "x",
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "bar",
+    "addr": "/bar/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 10,
+    "namespace": "x",
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "last",
+    "addr": "/last/",
+    "kind": "f",
+    "type": "!0.<i> function(Array[number]|[string])",
+    "lineno": 1,
+    "tagfile": "__DIR__/simple_generic.js"
+  },
+  {
+    "name": "map",
+    "addr": "/map/",
+    "kind": "f",
+    "type": "string|fn() -> bool) -> [?] function(Array[number], fn()",
+    "lineno": 6,
+    "tagfile": "__DIR__/simple_generic.js"
+  }
+]

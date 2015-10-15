@@ -1,0 +1,37 @@
+[
+  {
+    "name": "hello",
+    "addr": "/hello/",
+    "kind": "f",
+    "type": "void function(?, ?)",
+    "lineno": 1,
+    "tagfile": "__DIR__/findref.js"
+  },
+  {
+    "name": "x",
+    "addr": "/x/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 11,
+    "namespace": "obj",
+    "tagfile": "__DIR__/findref.js"
+  },
+  {
+    "name": "y",
+    "addr": "/y/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 13,
+    "namespace": "obj",
+    "tagfile": "__DIR__/findref.js"
+  },
+  {
+    "name": "z",
+    "addr": "/z/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 17,
+    "namespace": "obj",
+    "tagfile": "__DIR__/findref.js"
+  }
+]

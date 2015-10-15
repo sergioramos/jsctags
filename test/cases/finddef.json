@@ -1,0 +1,61 @@
+[
+  {
+    "name": "blah",
+    "addr": "/blah/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 1,
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "jaja",
+    "addr": "/jaja/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 3,
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "prop1",
+    "addr": "/prop1/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 6,
+    "namespace": "obj",
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "prop2",
+    "addr": "/prop2/",
+    "kind": "f",
+    "type": "void function(?)",
+    "lineno": 7,
+    "namespace": "obj",
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "prop3",
+    "addr": "/prop3/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 10,
+    "namespace": "obj",
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "hide",
+    "addr": "/hide/",
+    "kind": "f",
+    "type": "fn(foo: ?) function()",
+    "lineno": 19,
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "another",
+    "addr": "/another/",
+    "kind": "f",
+    "type": "void function(?)",
+    "lineno": 23,
+    "tagfile": "__DIR__/finddef.js"
+  }
+]

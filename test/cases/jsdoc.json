@@ -1,0 +1,53 @@
+[
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "+Date",
+    "lineno": 2,
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "f",
+    "type": "Array function(number, string)",
+    "lineno": 17,
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "bar",
+    "addr": "/bar/",
+    "kind": "f",
+    "type": "string function(number, number)",
+    "lineno": 25,
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "prop1",
+    "addr": "/prop1/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 31,
+    "namespace": "o",
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "prop2",
+    "addr": "/prop2/",
+    "kind": "f",
+    "type": "number function()",
+    "lineno": 34,
+    "namespace": "o",
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "prop3",
+    "addr": "/prop3/",
+    "kind": "f",
+    "type": "string function()",
+    "lineno": 38,
+    "namespace": "o",
+    "tagfile": "__DIR__/jsdoc.js"
+  }
+]

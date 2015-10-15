@@ -4,7 +4,8 @@ var interpolate = require('util').format,
     argv = require('optimist').argv,
     jsctags = require('../'),
     path = require('path'),
-    fs = require('fs')
+    fs = require('fs'),
+    async = require('async')
 
 var dir = (function () {
   if(argv.dir) return path.resolve(argv.dir)
@@ -15,19 +16,15 @@ var dir = (function () {
 
 var file = (function () {
   if(argv.file) return path.resolve(process.cwd(), argv.file)
-  if(argv._.length) return path.resolve(process.cwd(), argv._[0])
+  if(argv._.length) return argv._.map(function (file) {
+    return path.resolve(process.cwd(), file)
+  })
   return interpolate('///null/%s', Math.floor(Math.random()*100))
 })()
 
-var content = ''
-
-var to_ctags = function (tags) {
-  jsctags.ctags(tags).map(function (tag) {
-    console.log(tag)
-  })
-}
-
 if(!argv._.length) {
+  var content = ''
+
   process.stdin.resume()
 
   process.stdin.on('data', function (data) {
@@ -37,18 +34,39 @@ if(!argv._.length) {
   process.stdin.on('end', function () {
     jsctags(file, dir, content, function (e, tags) {
       if(e) throw e
-      console.log(JSON.stringify(tags, null, 2))
+      tags.tagfile = file
+      tags.forEach(function (tag) {
+        tag.tagfile = file
+      })
+	  if (argv.f) {
+        console.log(jsctags.ctags(tags).sort().join(''))
+      } else {
+        console.log(JSON.stringify(tags, null, 2))
+      }
     })
   })
 } else {
-  content = fs.readFileSync(file, 'utf8')
-  jsctags(file, dir, content, function (e, tags) {
+  var files = Array.isArray(file) ? file : [file]
+  async.map(files, function (file, callback) {
+    fs.readFile(file, 'utf8', function (e, content) {
+      if(e) return callback(e)
+      jsctags(file, dir, content, function (e, tags) {
+        if(e) return callback(e)
+        tags.tagfile = file
+        tags.forEach(function (tag) {
+          tag.tagfile = file
+        })
+        return callback(null, tags)
+      })
+    })
+  }, function (e, results) {
     if(e) throw e
     if(argv.f) {
-      tags.tagfile = file;
-      return to_ctags(tags)
+      var ctags = Array.prototype.concat.apply([], results.map(jsctags.ctags))
+      console.log(ctags.sort().join(''))
+    } else {
+      var tags = Array.prototype.concat.apply([], results)
+      console.log(JSON.stringify(tags, null, 2))
     }
-
-    console.log(JSON.stringify(tags, null, 2))
   })
 }

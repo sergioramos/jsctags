@@ -1,0 +1,9 @@
+Quux	__DIR__/docstrings.js	/Quux/;"	f	lineno:33	type:void function()
+abc	__DIR__/docstrings.js	/abc/;"	v	lineno:26	type:number
+baz	__DIR__/docstrings.js	/baz/;"	v	lineno:40	type:string
+foo	__DIR__/docstrings.js	/foo/;"	v	lineno:52	namespace:o	type:string
+foo	__DIR__/docstrings.js	/foo/;"	v	lineno:9	type:number
+getName	__DIR__/docstrings.js	/getName/;"	f	lineno:46	namespace:o	type:!this.name function()
+makeMonkey	__DIR__/docstrings.js	/makeMonkey/;"	f	lineno:14	type:string function()
+name	__DIR__/docstrings.js	/name/;"	v	lineno:48	namespace:o	type:string
+

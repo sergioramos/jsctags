@@ -1,0 +1,36 @@
+[
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 1,
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "init",
+    "addr": "/init/",
+    "kind": "f",
+    "type": "void function(x)",
+    "lineno": 8,
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 9,
+    "namespace": "x",
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "bar",
+    "addr": "/bar/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 10,
+    "namespace": "x",
+    "tagfile": "__DIR__/simple.js"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 1,
+    "tagfile": "__DIR__/global_this.js"
+  }
+]

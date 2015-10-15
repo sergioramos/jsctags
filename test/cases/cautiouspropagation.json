@@ -1,0 +1,19 @@
+[
+  {
+    "name": "inner",
+    "addr": "/inner/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 5,
+    "tagfile": "__DIR__/cautiouspropagation.js"
+  },
+  {
+    "name": "<i>",
+    "addr": "/foo\\(\\)/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 9,
+    "namespace": "simple",
+    "tagfile": "__DIR__/cautiouspropagation.js"
+  }
+]

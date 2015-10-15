@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Base",
+    "addr": "/Base/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 1,
+    "tagfile": "__DIR__/protoname.js"
+  },
+  {
+    "name": "Sub1",
+    "addr": "/Sub1/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 7,
+    "tagfile": "__DIR__/protoname.js"
+  },
+  {
+    "name": "Sub2",
+    "addr": "/Sub2/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 11,
+    "tagfile": "__DIR__/protoname.js"
+  },
+  {
+    "name": "Base2",
+    "addr": "/Base2/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 15,
+    "tagfile": "__DIR__/protoname.js"
+  },
+  {
+    "name": "Sub3",
+    "addr": "/Sub3/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 17,
+    "tagfile": "__DIR__/protoname.js"
+  }
+]

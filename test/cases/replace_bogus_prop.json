@@ -1,0 +1,27 @@
+[
+  {
+    "name": "x",
+    "addr": "/x/",
+    "kind": "v",
+    "type": "+Type",
+    "lineno": 1,
+    "tagfile": "__DIR__/replace_bogus_prop.js"
+  },
+  {
+    "name": "Type",
+    "addr": "/Type/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 5,
+    "tagfile": "__DIR__/replace_bogus_prop.js"
+  },
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 6,
+    "namespace": "Type.prototype",
+    "tagfile": "__DIR__/replace_bogus_prop.js"
+  }
+]

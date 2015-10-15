@@ -1,0 +1,6 @@
+Ctor1	__DIR__/objnames.js	/Ctor1/;"	f	lineno:1	type:void function()
+Ctor2	__DIR__/objnames.js	/Ctor2/;"	f	lineno:4	type:void function()
+a	__DIR__/objnames.js	/a/;"	v	lineno:2	namespace:Ctor1.prototype	type:number
+a	__DIR__/objnames.js	/a/;"	v	lineno:6	namespace:singleton	type:number
+b	__DIR__/objnames.js	/b/;"	v	lineno:6	namespace:singleton	type:number
+

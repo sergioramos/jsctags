@@ -1,0 +1,10 @@
+[
+  {
+    "name": "buildCopy",
+    "addr": "/buildCopy/",
+    "kind": "f",
+    "type": "? function(buildCopy.!0)",
+    "lineno": 1,
+    "tagfile": "__DIR__/copyprops.js"
+  }
+]

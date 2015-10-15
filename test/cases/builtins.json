@@ -1,0 +1,26 @@
+[
+  {
+    "name": "x",
+    "addr": "/x/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 1,
+    "tagfile": "__DIR__/builtins.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "[number]",
+    "lineno": 4,
+    "tagfile": "__DIR__/builtins.js"
+  },
+  {
+    "name": "num",
+    "addr": "/num/",
+    "kind": "v",
+    "type": "+Number",
+    "lineno": 26,
+    "tagfile": "__DIR__/builtins.js"
+  }
+]

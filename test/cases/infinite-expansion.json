@@ -1,0 +1,26 @@
+[
+  {
+    "name": "f",
+    "addr": "/f/",
+    "kind": "f",
+    "type": "void function(f)",
+    "lineno": 3,
+    "tagfile": "__DIR__/infinite-expansion.js"
+  },
+  {
+    "name": "x",
+    "addr": "/x/",
+    "kind": "v",
+    "type": "[x]",
+    "lineno": 10,
+    "tagfile": "__DIR__/infinite-expansion.js"
+  },
+  {
+    "name": "goop",
+    "addr": "/goop/",
+    "kind": "f",
+    "type": "fn(f: ?) function(number)",
+    "lineno": 15,
+    "tagfile": "__DIR__/infinite-expansion.js"
+  }
+]

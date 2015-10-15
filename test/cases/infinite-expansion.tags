@@ -1,0 +1,4 @@
+f	__DIR__/infinite-expansion.js	/f/;"	f	lineno:3	type:void function(f)
+goop	__DIR__/infinite-expansion.js	/goop/;"	f	lineno:15	type:fn(f: ?) function(number)
+x	__DIR__/infinite-expansion.js	/x/;"	v	lineno:10	type:[x]
+

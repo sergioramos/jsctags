@@ -30,6 +30,7 @@
     "test": "node test/runner.js"
   },
   "dependencies": {
+    "async": "^1.4.2",
     "deepmerge": "0.2.x",
     "optimist": "0.6.x",
     "tern": "latest",

@@ -1,0 +1,3 @@
+<i>	__DIR__/cautiouspropagation.js	/foo\(\)/;"	v	lineno:9	namespace:simple	type:string
+inner	__DIR__/cautiouspropagation.js	/inner/;"	v	lineno:5	type:number
+

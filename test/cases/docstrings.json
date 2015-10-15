@@ -1,0 +1,69 @@
+[
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 9,
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "makeMonkey",
+    "addr": "/makeMonkey/",
+    "kind": "f",
+    "type": "string function()",
+    "lineno": 14,
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "abc",
+    "addr": "/abc/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 26,
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "Quux",
+    "addr": "/Quux/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 33,
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "baz",
+    "addr": "/baz/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 40,
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "getName",
+    "addr": "/getName/",
+    "kind": "f",
+    "type": "!this.name function()",
+    "lineno": 46,
+    "namespace": "o",
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "name",
+    "addr": "/name/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 48,
+    "namespace": "o",
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 52,
+    "namespace": "o",
+    "tagfile": "__DIR__/docstrings.js"
+  }
+]

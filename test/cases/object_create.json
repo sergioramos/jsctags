@@ -1,0 +1,56 @@
+[
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 1,
+    "namespace": "base",
+    "tagfile": "__DIR__/object_create.js"
+  },
+  {
+    "name": "bar",
+    "addr": "/bar/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 1,
+    "namespace": "base",
+    "tagfile": "__DIR__/object_create.js"
+  },
+  {
+    "name": "baz",
+    "addr": "/baz/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 5,
+    "namespace": "base",
+    "tagfile": "__DIR__/object_create.js"
+  },
+  {
+    "name": "quux",
+    "addr": "/quux/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 6,
+    "namespace": "gen1",
+    "tagfile": "__DIR__/object_create.js"
+  },
+  {
+    "name": "kaka",
+    "addr": "/kaka/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 7,
+    "namespace": "gen2",
+    "tagfile": "__DIR__/object_create.js"
+  },
+  {
+    "name": "prop1",
+    "addr": "/prop1/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 30,
+    "namespace": "empty",
+    "tagfile": "__DIR__/object_create.js"
+  }
+]
