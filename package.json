@@ -27,7 +27,8 @@
     "url": "git://github.com/ramitos/jsctags.git"
   },
   "scripts": {
-    "test": "node test/runner.js"
+    "test": "node test/runner.js",
+    "lint": "node_modules/.bin/semistandard | node_modules/.bin/snazzy"
   },
   "dependencies": {
     "async": "^1.4.2",
@@ -35,5 +36,14 @@
     "optimist": "0.6.x",
     "tern": "latest",
     "tryor": "0.1.x"
+  },
+  "devDependencies": {
+    "semistandard": "^7.0.2",
+    "snazzy": "^2.0.1"
+  },
+  "semistandard": {
+      "ignore": [
+          "test/cases/"
+      ]
   }
 }
