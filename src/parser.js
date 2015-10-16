@@ -8,10 +8,10 @@ module.exports = function (file, dir, content, callback) {
     var tags = [];
 
     parse(content, condense, tags, types);
-    tags = tags.sort(function (tag1, tag2) {
+
+    callback(null, tags.sort(function (tag1, tag2) {
       return tag1.lineno - tag2.lineno;
-    });
-    callback(null, tags);
+    }));
   });
 };
 

@@ -6,17 +6,29 @@ var path = require('path');
 var tern = require('tern');
 var fs = require('fs');
 
-var config = function (dir) {
+require('tern-react');
+
+var config = function (dir, file) {
   var config = tryor(function () {
     return fs.readFileSync(path.join(dir, '.tern-project'), 'utf8');
   }, '{}');
 
+  var extname = path.extname(file).replace(/^\./, '');
+  var confs = {
+    jsx: {
+      jsx: {}
+    },
+    js: {}
+  };
+
+  var plugins = {
+    doc_comment: true
+  };
+
   return merge(JSON.parse(config), {
     libs: ['browser', 'ecma5'],
     loadEagerly: false,
-    plugins: {
-      doc_comment: true
-    }
+    plugins: merge(plugins, confs[extname])
   });
 };
 
@@ -49,7 +61,7 @@ var server = function (config, dir) {
 };
 
 module.exports = function (dir, file, content, callback) {
-  var self = server(config(dir), dir);
+  var self = server(config(dir, file), dir);
 
   self.request({files: [{
     name: file,
@@ -61,6 +73,8 @@ module.exports = function (dir, file, content, callback) {
 
   self.flush(function (e) {
     if (e) return callback(e);
-    callback(null, condense.condense(file, file, {spans: true}));
+    callback(null, condense.condense(file, file, {
+      spans: true
+    }));
   });
 };

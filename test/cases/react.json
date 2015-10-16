@@ -1,0 +1,258 @@
+[
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 1,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 3,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "e",
+    "addr": "/e/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 5,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "test",
+    "addr": "/test/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 7,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "g",
+    "addr": "/g/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 7,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "h",
+    "addr": "/h/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 8,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "i",
+    "addr": "/i/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 9,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "j",
+    "addr": "/j/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 10,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "k",
+    "addr": "/k/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 11,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "l",
+    "addr": "/l/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 12,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "m",
+    "addr": "/m/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 13,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "left",
+    "addr": "/left/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 13,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "n",
+    "addr": "/n/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 14,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "o",
+    "addr": "/o/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 15,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "p",
+    "addr": "/p/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 16,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "q",
+    "addr": "/q/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 17,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "post",
+    "addr": "/post/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 18,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "r",
+    "addr": "/r/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 18,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "pre2",
+    "addr": "/pre2/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 19,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "pre",
+    "addr": "/pre/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 19,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "s",
+    "addr": "/s/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 19,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "bb",
+    "addr": "/bb/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 20,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "t",
+    "addr": "/t/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 20,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "href",
+    "addr": "/href/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 21,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "u",
+    "addr": "/u/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 21,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "v",
+    "addr": "/v/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 22,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "x",
+    "addr": "/x/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 23,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "w",
+    "addr": "/w/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 24,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "y",
+    "addr": "/y/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 25,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "z",
+    "addr": "/z/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 26,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "ç",
+    "addr": "/ç/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 27,
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "name": "arr",
+    "addr": "/arr/",
+    "kind": "v",
+    "type": "[bool]",
+    "lineno": 29,
+    "tagfile": "__DIR__/react.jsx"
+  }
+]
