@@ -1,72 +1,110 @@
 #!/usr/bin/env node
 
-var interpolate = require('util').format,
-    argv = require('optimist').argv,
-    jsctags = require('../'),
-    path = require('path'),
-    fs = require('fs'),
-    async = require('async')
+var format = require('util').format;
+var argv = require('optimist').argv;
+var jsctags = require('../');
+var path = require('path');
+var collect = require('collect-stream');
+var async = require('async');
+var fs = require('fs');
 
 var dir = (function () {
-  if(argv.dir) return path.resolve(argv.dir)
-  if(argv.file) return path.dirname(argv.file)
-  if(argv._.length) return path.dirname(argv._[0])
-  return '///null'
-})()
+  if (argv.dir) {
+    return path.resolve(argv.dir);
+  }
+
+  if (argv.file) {
+    return path.dirname(argv.file);
+  }
+
+  if (argv._.length) {
+    return path.dirname(argv._[0]);
+  }
+
+  return '///null';
+})();
 
 var file = (function () {
-  if(argv.file) return path.resolve(process.cwd(), argv.file)
-  if(argv._.length) return argv._.map(function (file) {
-    return path.resolve(process.cwd(), file)
-  })
-  return interpolate('///null/%s', Math.floor(Math.random()*100))
-})()
+  if (argv.file) {
+    return path.resolve(process.cwd(), argv.file);
+  }
 
-if(!argv._.length) {
-  var content = ''
+  if (argv._.length) {
+    return argv._.map(function (file) {
+      return path.resolve(process.cwd(), file);
+    });
+  }
 
-  process.stdin.resume()
+  return format('///null/%s', Math.floor(Math.random() * 100));
+})();
 
-  process.stdin.on('data', function (data) {
-    content += data
-  })
-
-  process.stdin.on('end', function () {
-    jsctags(file, dir, content, function (e, tags) {
-      if(e) throw e
-      tags.tagfile = file
-      tags.forEach(function (tag) {
-        tag.tagfile = file
-      })
-	  if (argv.f) {
-        console.log(jsctags.ctags(tags).sort().join(''))
-      } else {
-        console.log(JSON.stringify(tags, null, 2))
-      }
-    })
-  })
-} else {
-  var files = Array.isArray(file) ? file : [file]
-  async.map(files, function (file, callback) {
-    fs.readFile(file, 'utf8', function (e, content) {
-      if(e) return callback(e)
-      jsctags(file, dir, content, function (e, tags) {
-        if(e) return callback(e)
-        tags.tagfile = file
-        tags.forEach(function (tag) {
-          tag.tagfile = file
-        })
-        return callback(null, tags)
-      })
-    })
-  }, function (e, results) {
-    if(e) throw e
-    if(argv.f) {
-      var ctags = Array.prototype.concat.apply([], results.map(jsctags.ctags))
-      console.log(ctags.sort().join(''))
-    } else {
-      var tags = Array.prototype.concat.apply([], results)
-      console.log(JSON.stringify(tags, null, 2))
+if (!argv._.length) {
+  collect(process.stdin, function (err, content) {
+    if (err) {
+      throw err;
     }
-  })
+
+    if (Buffer.isBuffer(content)) {
+      content = content.toString();
+    }
+
+    jsctags({
+      file: file,
+      dir: dir,
+      content: content
+    }, function (err, tags) {
+      if (err) {
+        throw err;
+      }
+
+      tags.tagfile = file;
+      tags.forEach(function (tag) {
+        tag.tagfile = file;
+      });
+
+      if (argv.f) {
+        console.log(jsctags.ctags(tags).join(''));
+      } else {
+        console.log(JSON.stringify(tags, null, 2));
+      }
+    });
+  });
+} else {
+  var files = Array.isArray(file) ? file : [file];
+  async.map(files, function (file, callback) {
+    fs.readFile(file, 'utf8', function (err, content) {
+      if (err) {
+        return callback(err);
+      }
+
+      jsctags({
+        file: file,
+        dir: dir,
+        content: content
+      }, function (err, tags) {
+        if (err) {
+          throw err;
+        }
+
+        tags.tagfile = file;
+        tags.forEach(function (tag) {
+          tag.tagfile = file;
+        });
+
+        callback(null, tags);
+      });
+    });
+  }, function (err, results) {
+    if (err) {
+      throw err;
+    }
+
+    if (argv.f) {
+      var ctags = Array.prototype.concat.apply([], results.map(jsctags.ctags));
+      console.log(ctags.join(''));
+    } else {
+      var tags = Array.prototype.concat.apply([], results);
+      console.log(JSON.stringify(tags, null, 2));
+    }
+  });
 }

@@ -5,6 +5,10 @@
     "kind": "v",
     "type": "[string]",
     "lineno": 1,
+    "origin": {
+      "!span": "4[0:4]-5[0:5]",
+      "!type": "[string]"
+    },
     "tagfile": "__DIR__/new_array.js"
   },
   {
@@ -13,6 +17,10 @@
     "kind": "v",
     "type": "[bool]",
     "lineno": 5,
+    "origin": {
+      "!span": "57[4:4]-58[4:5]",
+      "!type": "[bool]"
+    },
     "tagfile": "__DIR__/new_array.js"
   },
   {
@@ -21,6 +29,10 @@
     "kind": "v",
     "type": "[?]",
     "lineno": 8,
+    "origin": {
+      "!span": "111[7:4]-112[7:5]",
+      "!type": "[?]"
+    },
     "tagfile": "__DIR__/new_array.js"
   },
   {
@@ -29,6 +41,10 @@
     "kind": "v",
     "type": "[string]",
     "lineno": 11,
+    "origin": {
+      "!span": "146[10:4]-147[10:5]",
+      "!type": "[string]"
+    },
     "tagfile": "__DIR__/new_array.js"
   }
 ]

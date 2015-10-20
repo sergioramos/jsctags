@@ -15,7 +15,11 @@ x + y; //: string
     "kind": "v",
     "type": "number",
     "lineno": 1,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/plus.js"
+    "origin": {
+      "!span": "4[0:4]-5[0:5]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/plus.js"
   },
   {
     "name": "y",
@@ -23,11 +27,15 @@ x + y; //: string
     "kind": "v",
     "type": "string",
     "lineno": 2,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/plus.js"
+    "origin": {
+      "!span": "16[1:4]-17[1:5]",
+      "!type": "string"
+    },
+    "tagfile": "__DIR__/plus.js"
   }
 ]
 ```
 ```ctags
-x	/usr/local/lib/node_modules/jsctags/test/cases/plus.js	/x/;"	v	lineno:1	type:number
-y	/usr/local/lib/node_modules/jsctags/test/cases/plus.js	/y/;"	v	lineno:2	type:string
+x	__DIR__/plus.js	/x/;"	v	lineno:1	type:number
+y	__DIR__/plus.js	/y/;"	v	lineno:2	type:string
 ```

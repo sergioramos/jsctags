@@ -1,10 +1,38 @@
 [
   {
+    "name": "myalias",
+    "addr": "/myalias/",
+    "kind": "f",
+    "type": "void function(number)",
+    "lineno": 4,
+    "origin": {
+      "!span": "185[3:4]-192[3:11]",
+      "!type": "fn(ms: number)"
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
     "type": "number",
     "lineno": 9,
+    "origin": {
+      "!span": "323[8:4]-326[8:7]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "monkeyAlias",
+    "addr": "/makeMonkey/",
+    "kind": "f",
+    "type": "string function()",
+    "lineno": 14,
+    "origin": {
+      "!span": "413[13:9]-423[13:19]",
+      "!type": "fn() -> string"
+    },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
@@ -13,6 +41,22 @@
     "kind": "f",
     "type": "string function()",
     "lineno": 14,
+    "origin": {
+      "!span": "413[13:9]-423[13:19]",
+      "!type": "fn() -> string"
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "monkeyAlias",
+    "addr": "/monkeyAlias/",
+    "kind": "f",
+    "type": "string function()",
+    "lineno": 18,
+    "origin": {
+      "!span": "504[17:4]-515[17:15]",
+      "!type": "fn() -> string"
+    },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
@@ -21,6 +65,10 @@
     "kind": "v",
     "type": "number",
     "lineno": 26,
+    "origin": {
+      "!span": "647[25:4]-650[25:7]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
@@ -29,6 +77,10 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 33,
+    "origin": {
+      "!span": "870[32:9]-874[32:13]",
+      "!type": "fn()"
+    },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
@@ -37,6 +89,20 @@
     "kind": "v",
     "type": "string",
     "lineno": 40,
+    "origin": {
+      "!span": "971[39:4]-974[39:7]",
+      "!type": "string"
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "o",
+    "addr": "/o/",
+    "kind": "v",
+    "lineno": 44,
+    "origin": {
+      "!span": "1042[43:4]-1043[43:5]"
+    },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
@@ -46,6 +112,10 @@
     "type": "!this.name function()",
     "lineno": 46,
     "namespace": "o",
+    "origin": {
+      "!span": "1069[45:2]-1076[45:9]",
+      "!type": "fn() -> !this.name"
+    },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
@@ -55,6 +125,10 @@
     "type": "string",
     "lineno": 48,
     "namespace": "o",
+    "origin": {
+      "!span": "1128[47:2]-1132[47:6]",
+      "!type": "string"
+    },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
@@ -64,6 +138,10 @@
     "type": "string",
     "lineno": 52,
     "namespace": "o",
+    "origin": {
+      "!span": "1170[51:2]-1173[51:5]",
+      "!type": "string"
+    },
     "tagfile": "__DIR__/docstrings.js"
   }
 ]

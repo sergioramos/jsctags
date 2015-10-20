@@ -20,7 +20,11 @@ d[0]; //: string
     "kind": "v",
     "type": "[string]",
     "lineno": 1,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/new_array.js"
+    "origin": {
+      "!span": "4[0:4]-5[0:5]",
+      "!type": "[string]"
+    },
+    "tagfile": "__DIR__/new_array.js"
   },
   {
     "name": "b",
@@ -28,7 +32,11 @@ d[0]; //: string
     "kind": "v",
     "type": "[bool]",
     "lineno": 5,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/new_array.js"
+    "origin": {
+      "!span": "57[4:4]-58[4:5]",
+      "!type": "[bool]"
+    },
+    "tagfile": "__DIR__/new_array.js"
   },
   {
     "name": "c",
@@ -36,7 +44,11 @@ d[0]; //: string
     "kind": "v",
     "type": "[?]",
     "lineno": 8,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/new_array.js"
+    "origin": {
+      "!span": "111[7:4]-112[7:5]",
+      "!type": "[?]"
+    },
+    "tagfile": "__DIR__/new_array.js"
   },
   {
     "name": "d",
@@ -44,13 +56,17 @@ d[0]; //: string
     "kind": "v",
     "type": "[string]",
     "lineno": 11,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/new_array.js"
+    "origin": {
+      "!span": "146[10:4]-147[10:5]",
+      "!type": "[string]"
+    },
+    "tagfile": "__DIR__/new_array.js"
   }
 ]
 ```
 ```ctags
-a	/usr/local/lib/node_modules/jsctags/test/cases/new_array.js	/a/;"	v	lineno:1	type:[string]
-b	/usr/local/lib/node_modules/jsctags/test/cases/new_array.js	/b/;"	v	lineno:5	type:[bool]
-c	/usr/local/lib/node_modules/jsctags/test/cases/new_array.js	/c/;"	v	lineno:8	type:[?]
-d	/usr/local/lib/node_modules/jsctags/test/cases/new_array.js	/d/;"	v	lineno:11	type:[string]
+a	__DIR__/new_array.js	/a/;"	v	lineno:1	type:[string]
+b	__DIR__/new_array.js	/b/;"	v	lineno:5	type:[bool]
+c	__DIR__/new_array.js	/c/;"	v	lineno:8	type:[?]
+d	__DIR__/new_array.js	/d/;"	v	lineno:11	type:[string]
 ```

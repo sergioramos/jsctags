@@ -1,4 +1,18 @@
-a	__DIR__/builtins.js	/a/;"	v	lineno:4	type:[number]
-num	__DIR__/builtins.js	/num/;"	v	lineno:26	type:+Number
 x	__DIR__/builtins.js	/x/;"	v	lineno:1	type:number
+a	__DIR__/builtins.js	/a/;"	v	lineno:4	type:[number]
+num	__DIR__/builtins.js	/num/;"	v	lineno:26	type:number
+regexp	__DIR__/builtins.js	/regexp/;"	v	lineno:37	type:regexp
+obj	__DIR__/builtins.js	/obj/;"	v	lineno:38
+arr	__DIR__/builtins.js	/arr/;"	v	lineno:39	type:[?]
+str	__DIR__/builtins.js	/str/;"	v	lineno:40	type:string
+fn	__DIR__/builtins.js	/fn/;"	f	lineno:41	type:void function()
+sym	__DIR__/builtins.js	/sym/;"	v	lineno:42
+num2	__DIR__/builtins.js	/num2/;"	v	lineno:43	type:number
+str2	__DIR__/builtins.js	/str2/;"	v	lineno:44	type:string
+gen	__DIR__/builtins.js	/gen/;"	f	lineno:45	type:number function(?)
+a	__DIR__/builtins.js	/a/;"	v	lineno:45	namespace:gen
+obj2	__DIR__/builtins.js	/obj2/;"	v	lineno:49
+a	__DIR__/builtins.js	/a/;"	v	lineno:50	namespace:obj2
+b	__DIR__/builtins.js	/b/;"	v	lineno:51	namespace:obj2.a
+c	__DIR__/builtins.js	/c/;"	v	lineno:52	namespace:obj2.a.b	type:number
 

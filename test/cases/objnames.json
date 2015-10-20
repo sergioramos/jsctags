@@ -5,6 +5,21 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 1,
+    "origin": {
+      "!span": "9[0:9]-14[0:14]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/objnames.js"
+  },
+  {
+    "name": "prototype",
+    "addr": "/prototype/",
+    "kind": "v",
+    "lineno": 2,
+    "namespace": "Ctor1",
+    "origin": {
+      "!span": "40[1:6]-49[1:15]"
+    },
     "tagfile": "__DIR__/objnames.js"
   },
   {
@@ -14,6 +29,10 @@
     "type": "number",
     "lineno": 2,
     "namespace": "Ctor1.prototype",
+    "origin": {
+      "!span": "53[1:19]-54[1:20]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/objnames.js"
   },
   {
@@ -22,6 +41,20 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 4,
+    "origin": {
+      "!span": "70[3:9]-75[3:14]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/objnames.js"
+  },
+  {
+    "name": "singleton",
+    "addr": "/singleton/",
+    "kind": "v",
+    "lineno": 6,
+    "origin": {
+      "!span": "86[5:4]-95[5:13]"
+    },
     "tagfile": "__DIR__/objnames.js"
   },
   {
@@ -31,6 +64,10 @@
     "type": "number",
     "lineno": 6,
     "namespace": "singleton",
+    "origin": {
+      "!span": "99[5:17]-100[5:18]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/objnames.js"
   },
   {
@@ -40,6 +77,10 @@
     "type": "number",
     "lineno": 6,
     "namespace": "singleton",
+    "origin": {
+      "!span": "106[5:24]-107[5:25]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/objnames.js"
   }
 ]

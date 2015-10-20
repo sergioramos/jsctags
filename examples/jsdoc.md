@@ -48,17 +48,61 @@ o.prop3; //: fn() -> string
     "name": "a",
     "addr": "/a/",
     "kind": "v",
-    "type": "+Date",
+    "type": "Date",
     "lineno": 2,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/jsdoc.js"
+    "origin": {
+      "!span": "24[1:4]-25[1:5]",
+      "!type": "+Date"
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "c",
+    "addr": "/c/",
+    "kind": "v",
+    "lineno": 8,
+    "origin": {
+      "!span": "133[7:4]-134[7:5]"
+    },
+    "tagfile": "__DIR__/jsdoc.js"
   },
   {
     "name": "foo",
     "addr": "/foo/",
     "kind": "f",
-    "type": "Array function(number, string)",
+    "type": "[number] function(number, string)",
     "lineno": 17,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/jsdoc.js"
+    "origin": {
+      "!span": "291[16:9]-294[16:12]",
+      "!type": "fn(a: number, b: string) -> [number]"
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 17,
+    "namespace": "foo",
+    "origin": {
+      "!span": "295[16:13]-296[16:14]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "b",
+    "addr": "/b/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 17,
+    "namespace": "foo",
+    "origin": {
+      "!span": "298[16:16]-299[16:17]",
+      "!type": "string"
+    },
+    "tagfile": "__DIR__/jsdoc.js"
   },
   {
     "name": "bar",
@@ -66,7 +110,47 @@ o.prop3; //: fn() -> string
     "kind": "f",
     "type": "string function(number, number)",
     "lineno": 25,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/jsdoc.js"
+    "origin": {
+      "!span": "448[24:4]-451[24:7]",
+      "!type": "fn(a: number, b: number) -> string"
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 25,
+    "namespace": "bar",
+    "origin": {
+      "!span": "463[24:19]-464[24:20]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "b",
+    "addr": "/b/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 25,
+    "namespace": "bar",
+    "origin": {
+      "!span": "466[24:22]-467[24:23]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "o",
+    "addr": "/o/",
+    "kind": "v",
+    "lineno": 29,
+    "origin": {
+      "!span": "555[28:4]-556[28:5]"
+    },
+    "tagfile": "__DIR__/jsdoc.js"
   },
   {
     "name": "prop1",
@@ -75,7 +159,11 @@ o.prop3; //: fn() -> string
     "type": "string",
     "lineno": 31,
     "namespace": "o",
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/jsdoc.js"
+    "origin": {
+      "!span": "587[30:2]-592[30:7]",
+      "!type": "string"
+    },
+    "tagfile": "__DIR__/jsdoc.js"
   },
   {
     "name": "prop2",
@@ -84,7 +172,11 @@ o.prop3; //: fn() -> string
     "type": "number function()",
     "lineno": 34,
     "namespace": "o",
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/jsdoc.js"
+    "origin": {
+      "!span": "635[33:2]-640[33:7]",
+      "!type": "fn() -> number"
+    },
+    "tagfile": "__DIR__/jsdoc.js"
   },
   {
     "name": "prop3",
@@ -93,15 +185,25 @@ o.prop3; //: fn() -> string
     "type": "string function()",
     "lineno": 38,
     "namespace": "o",
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/jsdoc.js"
+    "origin": {
+      "!span": "707[37:2]-712[37:7]",
+      "!type": "fn() -> string"
+    },
+    "tagfile": "__DIR__/jsdoc.js"
   }
 ]
 ```
 ```ctags
-a	/usr/local/lib/node_modules/jsctags/test/cases/jsdoc.js	/a/;"	v	lineno:2	type:+Date
-bar	/usr/local/lib/node_modules/jsctags/test/cases/jsdoc.js	/bar/;"	f	lineno:25	type:string function(number, number)
-foo	/usr/local/lib/node_modules/jsctags/test/cases/jsdoc.js	/foo/;"	f	lineno:17	type:Array function(number, string)
-prop1	/usr/local/lib/node_modules/jsctags/test/cases/jsdoc.js	/prop1/;"	v	lineno:31	namespace:o	type:string
-prop2	/usr/local/lib/node_modules/jsctags/test/cases/jsdoc.js	/prop2/;"	f	lineno:34	namespace:o	type:number function()
-prop3	/usr/local/lib/node_modules/jsctags/test/cases/jsdoc.js	/prop3/;"	f	lineno:38	namespace:o	type:string function()
+a	__DIR__/jsdoc.js	/a/;"	v	lineno:2	type:Date
+c	__DIR__/jsdoc.js	/c/;"	v	lineno:8
+foo	__DIR__/jsdoc.js	/foo/;"	f	lineno:17	type:[number] function(number, string)
+a	__DIR__/jsdoc.js	/a/;"	v	lineno:17	namespace:foo	type:number
+b	__DIR__/jsdoc.js	/b/;"	v	lineno:17	namespace:foo	type:string
+bar	__DIR__/jsdoc.js	/bar/;"	f	lineno:25	type:string function(number, number)
+a	__DIR__/jsdoc.js	/a/;"	v	lineno:25	namespace:bar	type:number
+b	__DIR__/jsdoc.js	/b/;"	v	lineno:25	namespace:bar	type:number
+o	__DIR__/jsdoc.js	/o/;"	v	lineno:29
+prop1	__DIR__/jsdoc.js	/prop1/;"	v	lineno:31	namespace:o	type:string
+prop2	__DIR__/jsdoc.js	/prop2/;"	f	lineno:34	namespace:o	type:number function()
+prop3	__DIR__/jsdoc.js	/prop3/;"	f	lineno:38	namespace:o	type:string function()
 ```

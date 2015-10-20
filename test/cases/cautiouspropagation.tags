@@ -1,3 +1,5 @@
-<i>	__DIR__/cautiouspropagation.js	/foo\(\)/;"	v	lineno:9	namespace:simple	type:string
+grabbag	__DIR__/cautiouspropagation.js	/grabbag/;"	v	lineno:1
 inner	__DIR__/cautiouspropagation.js	/inner/;"	v	lineno:5	type:number
+simple	__DIR__/cautiouspropagation.js	/simple/;"	v	lineno:8
+<i>	__DIR__/cautiouspropagation.js	/foo\(\)/;"	v	lineno:9	namespace:simple	type:string
 

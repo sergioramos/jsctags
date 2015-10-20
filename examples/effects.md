@@ -23,7 +23,11 @@ d; //: number
     "kind": "v",
     "type": "[bool]",
     "lineno": 3,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/effects.js"
+    "origin": {
+      "!span": "79[2:4]-80[2:5]",
+      "!type": "[bool]"
+    },
+    "tagfile": "__DIR__/effects.js"
   },
   {
     "name": "c",
@@ -31,7 +35,11 @@ d; //: number
     "kind": "v",
     "type": "[string|number]",
     "lineno": 7,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/effects.js"
+    "origin": {
+      "!span": "120[6:4]-121[6:5]",
+      "!type": "[string|number]"
+    },
+    "tagfile": "__DIR__/effects.js"
   },
   {
     "name": "d",
@@ -39,7 +47,11 @@ d; //: number
     "kind": "v",
     "type": "number",
     "lineno": 12,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/effects.js"
+    "origin": {
+      "!span": "170[11:4]-171[11:5]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/effects.js"
   },
   {
     "name": "setD",
@@ -47,13 +59,31 @@ d; //: number
     "kind": "f",
     "type": "void function(number)",
     "lineno": 13,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/effects.js"
+    "origin": {
+      "!span": "182[12:9]-186[12:13]",
+      "!type": "fn(a: number)"
+    },
+    "tagfile": "__DIR__/effects.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 13,
+    "namespace": "setD",
+    "origin": {
+      "!span": "187[12:14]-188[12:15]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/effects.js"
   }
 ]
 ```
 ```ctags
-b	/usr/local/lib/node_modules/jsctags/test/cases/effects.js	/b/;"	v	lineno:3	type:[bool]
-c	/usr/local/lib/node_modules/jsctags/test/cases/effects.js	/c/;"	v	lineno:7	type:[string|number]
-d	/usr/local/lib/node_modules/jsctags/test/cases/effects.js	/d/;"	v	lineno:12	type:number
-setD	/usr/local/lib/node_modules/jsctags/test/cases/effects.js	/setD/;"	f	lineno:13	type:void function(number)
+b	__DIR__/effects.js	/b/;"	v	lineno:3	type:[bool]
+c	__DIR__/effects.js	/c/;"	v	lineno:7	type:[string|number]
+d	__DIR__/effects.js	/d/;"	v	lineno:12	type:number
+setD	__DIR__/effects.js	/setD/;"	f	lineno:13	type:void function(number)
+a	__DIR__/effects.js	/a/;"	v	lineno:13	namespace:setD	type:number
 ```

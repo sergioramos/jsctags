@@ -1,4 +1,7 @@
-# jsctags [![Build Status](https://travis-ci.org/ramitos/jsctags.svg?branch=master)](https://travis-ci.org/ramitos/jsctags)
+# jsctags 
+
+![](https://img.shields.io/travis/ramitos/force-array.svg) ![](https://img.shields.io/coveralls/ramitos/force-array.svg) ![](https://img.shields.io/npm/v/force-array.svg) ![](https://img.shields.io/david/ramitos/force-array.svg) [![](https://img.shields.io/codeclimate/github/ramitos/force-array.svg)](https://codeclimate.com/github/ramitos/jsctags) ![](https://img.shields.io/npm/l/force-array.svg)
+
 [![js-semistandard-style](https://cdn.rawgit.com/flet/semistandard/master/badge.svg)](https://github.com/Flet/semistandard)
 
 jsctags generator using [tern](https://github.com/marijnh/tern)

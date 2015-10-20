@@ -1,6 +1,12 @@
-a	__DIR__/jsdoc.js	/a/;"	v	lineno:2	type:+Date
+a	__DIR__/jsdoc.js	/a/;"	v	lineno:2	type:Date
+c	__DIR__/jsdoc.js	/c/;"	v	lineno:8
+foo	__DIR__/jsdoc.js	/foo/;"	f	lineno:17	type:[number] function(number, string)
+a	__DIR__/jsdoc.js	/a/;"	v	lineno:17	namespace:foo	type:number
+b	__DIR__/jsdoc.js	/b/;"	v	lineno:17	namespace:foo	type:string
 bar	__DIR__/jsdoc.js	/bar/;"	f	lineno:25	type:string function(number, number)
-foo	__DIR__/jsdoc.js	/foo/;"	f	lineno:17	type:Array function(number, string)
+a	__DIR__/jsdoc.js	/a/;"	v	lineno:25	namespace:bar	type:number
+b	__DIR__/jsdoc.js	/b/;"	v	lineno:25	namespace:bar	type:number
+o	__DIR__/jsdoc.js	/o/;"	v	lineno:29
 prop1	__DIR__/jsdoc.js	/prop1/;"	v	lineno:31	namespace:o	type:string
 prop2	__DIR__/jsdoc.js	/prop2/;"	f	lineno:34	namespace:o	type:number function()
 prop3	__DIR__/jsdoc.js	/prop3/;"	f	lineno:38	namespace:o	type:string function()

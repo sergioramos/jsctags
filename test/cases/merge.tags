@@ -1,2 +1,3 @@
 sum	__DIR__/merge.js	/sum/;"	f	lineno:1	type:number function(?)
+a	__DIR__/merge.js	/a/;"	v	lineno:1	namespace:sum
 

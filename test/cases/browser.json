@@ -3,8 +3,12 @@
     "name": "newElt",
     "addr": "/newElt/",
     "kind": "v",
-    "type": "+Element",
+    "type": "Element",
     "lineno": 5,
+    "origin": {
+      "!span": "63[4:4]-69[4:10]",
+      "!type": "+Element"
+    },
     "tagfile": "__DIR__/browser.js"
   },
   {
@@ -13,6 +17,10 @@
     "kind": "v",
     "type": "number",
     "lineno": 9,
+    "origin": {
+      "!span": "153[8:4]-160[8:11]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/browser.js"
   }
 ]

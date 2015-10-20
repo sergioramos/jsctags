@@ -1,110 +1,207 @@
-<i>	__DIR__/cautiouspropagation.js	/foo\(\)/;"	v	lineno:9	namespace:simple	type:string
-A	__DIR__/new_to_prototype.js	/A/;"	f	lineno:1	type:void function()
-B	__DIR__/new_to_prototype.js	/B/;"	f	lineno:3	type:void function()
-Bar	__DIR__/autothis.js	/Bar/;"	f	lineno:1	type:void function()
-Base	__DIR__/protoname.js	/Base/;"	f	lineno:1	type:void function()
-Base2	__DIR__/protoname.js	/Base2/;"	f	lineno:15	type:void function()
-C	__DIR__/new_to_prototype.js	/C/;"	f	lineno:6	type:void function()
-Ctor	__DIR__/ctorpattern.js	/Ctor/;"	f	lineno:4	type:+Ctor function()
-Ctor1	__DIR__/objnames.js	/Ctor1/;"	f	lineno:1	type:void function()
-Ctor2	__DIR__/objnames.js	/Ctor2/;"	f	lineno:4	type:void function()
-Foo	__DIR__/proto.js	/Foo/;"	f	lineno:1	type:void function(bool)
-Quux	__DIR__/docstrings.js	/Quux/;"	f	lineno:33	type:void function()
-Sub1	__DIR__/protoname.js	/Sub1/;"	f	lineno:7	type:void function()
-Sub2	__DIR__/protoname.js	/Sub2/;"	f	lineno:11	type:void function()
-Sub3	__DIR__/protoname.js	/Sub3/;"	f	lineno:17	type:void function()
-SubEleven	__DIR__/extends.js	/SubEleven/;"	f	lineno:31	type:void function(bool)
-SubOne	__DIR__/extends.js	/SubOne/;"	f	lineno:17	type:void function(bool)
-SubTwo	__DIR__/extends.js	/SubTwo/;"	f	lineno:24	type:void function(bool)
-Top	__DIR__/extends.js	/Top/;"	f	lineno:10	type:void function()
-Type	__DIR__/replace_bogus_prop.js	/Type/;"	f	lineno:5	type:void function()
-__extends	__DIR__/extends.js	/__extends/;"	f	lineno:3	type:void function(fn(arg: bool)
-a	__DIR__/builtins.js	/a/;"	v	lineno:4	type:[number]
-a	__DIR__/jsdoc.js	/a/;"	v	lineno:2	type:+Date
-a	__DIR__/new_array.js	/a/;"	v	lineno:1	type:[string]
-a	__DIR__/objnames.js	/a/;"	v	lineno:2	namespace:Ctor1.prototype	type:number
-a	__DIR__/objnames.js	/a/;"	v	lineno:6	namespace:singleton	type:number
-abc	__DIR__/docstrings.js	/abc/;"	v	lineno:26	type:number
-abc	__DIR__/fn_arguments.js	/abc/;"	f	lineno:1	type:number function()
-another	__DIR__/finddef.js	/another/;"	f	lineno:23	type:void function(?)
-argOne	__DIR__/extends.js	/argOne/;"	v	lineno:18	namespace:SubEleven	type:boolean
-argOne	__DIR__/extends.js	/argOne/;"	v	lineno:18	namespace:SubOne	type:boolean
-argTwo	__DIR__/extends.js	/argTwo/;"	v	lineno:25	namespace:SubTwo	type:boolean
 arguments	__DIR__/arguments.js	/arguments/;"	v	lineno:1	type:number
-b	__DIR__/effects.js	/b/;"	v	lineno:3	type:[bool]
-b	__DIR__/new_array.js	/b/;"	v	lineno:5	type:[bool]
-b	__DIR__/objnames.js	/b/;"	v	lineno:6	namespace:singleton	type:number
-bar	__DIR__/jsdoc.js	/bar/;"	f	lineno:25	type:string function(number, number)
-bar	__DIR__/object_create.js	/bar/;"	v	lineno:1	namespace:base	type:number
-bar	__DIR__/proto.js	/bar/;"	v	lineno:9	namespace:Foo.prototype	type:number
-bar	__DIR__/simple.js	/bar/;"	v	lineno:10	namespace:x	type:number
-baz	__DIR__/docstrings.js	/baz/;"	v	lineno:40	type:string
-baz	__DIR__/object_create.js	/baz/;"	v	lineno:5	namespace:base	type:number
-blah	__DIR__/finddef.js	/blah/;"	f	lineno:1	type:void function()
-buildCopy	__DIR__/copyprops.js	/buildCopy/;"	f	lineno:1	type:? function(buildCopy.!0)
-c	__DIR__/effects.js	/c/;"	v	lineno:7	type:[string|number]
-c	__DIR__/new_array.js	/c/;"	v	lineno:8	type:[?]
-d	__DIR__/effects.js	/d/;"	v	lineno:12	type:number
-d	__DIR__/new_array.js	/d/;"	v	lineno:11	type:[string]
-e_which	__DIR__/browser.js	/e_which/;"	v	lineno:9	type:number
-each	__DIR__/generic_each.js	/each/;"	f	lineno:2	type:void function(Array[number]|[each.!0.<i>], fn(n: number)
-elf	__DIR__/extends.js	/elf/;"	v	lineno:38	type:+SubEleven
-f	__DIR__/infinite-expansion.js	/f/;"	f	lineno:3	type:void function(f)
-fn2	__DIR__/autothis.js	/fn2/;"	f	lineno:11	namespace:Date.prototype	type:void function()
-foo	__DIR__/ctorpattern.js	/foo/;"	v	lineno:6	namespace:Ctor	type:number
-foo	__DIR__/docstrings.js	/foo/;"	v	lineno:52	namespace:o	type:string
-foo	__DIR__/docstrings.js	/foo/;"	v	lineno:9	type:number
-foo	__DIR__/global_this.js	/foo/;"	v	lineno:1	type:number
-foo	__DIR__/jsdoc.js	/foo/;"	f	lineno:17	type:Array function(number, string)
-foo	__DIR__/object_create.js	/foo/;"	v	lineno:1	namespace:base	type:number
-foo	__DIR__/replace_bogus_prop.js	/foo/;"	v	lineno:6	namespace:Type.prototype	type:string
-foo	__DIR__/simple.js	/foo/;"	v	lineno:1	type:number
-foo	__DIR__/simple.js	/foo/;"	v	lineno:9	namespace:x	type:number
-getName	__DIR__/docstrings.js	/getName/;"	f	lineno:46	namespace:o	type:!this.name function()
-goop	__DIR__/infinite-expansion.js	/goop/;"	f	lineno:15	type:fn(f: ?) function(number)
+Bar	__DIR__/autothis.js	/Bar/;"	f	lineno:1	type:void function()
 hallo	__DIR__/autothis.js	/hallo/;"	f	lineno:2	namespace:Bar.prototype	type:void function()
-hello	__DIR__/findref.js	/hello/;"	f	lineno:1	type:void function(?, ?)
-hide	__DIR__/finddef.js	/hide/;"	f	lineno:19	type:fn(foo: ?) function()
-init	__DIR__/simple.js	/init/;"	f	lineno:8	type:void function(x)
+fn2	__DIR__/autothis.js	/fn2/;"	f	lineno:11	namespace:Date.prototype	type:void function()
+fn2	__DIR__/autothis.js	/fn2/;"	f	lineno:11	namespace:Bar.prototype	type:void function()
+newElt	__DIR__/browser.js	/newElt/;"	v	lineno:5	type:Element
+e_which	__DIR__/browser.js	/e_which/;"	v	lineno:9	type:number
+x	__DIR__/builtins.js	/x/;"	v	lineno:1	type:number
+a	__DIR__/builtins.js	/a/;"	v	lineno:4	type:[number]
+num	__DIR__/builtins.js	/num/;"	v	lineno:26	type:number
+regexp	__DIR__/builtins.js	/regexp/;"	v	lineno:37	type:regexp
+obj	__DIR__/builtins.js	/obj/;"	v	lineno:38
+arr	__DIR__/builtins.js	/arr/;"	v	lineno:39	type:[?]
+str	__DIR__/builtins.js	/str/;"	v	lineno:40	type:string
+fn	__DIR__/builtins.js	/fn/;"	f	lineno:41	type:void function()
+sym	__DIR__/builtins.js	/sym/;"	v	lineno:42
+num2	__DIR__/builtins.js	/num2/;"	v	lineno:43	type:number
+str2	__DIR__/builtins.js	/str2/;"	v	lineno:44	type:string
+gen	__DIR__/builtins.js	/gen/;"	f	lineno:45	type:number function(?)
+a	__DIR__/builtins.js	/a/;"	v	lineno:45	namespace:gen
+obj2	__DIR__/builtins.js	/obj2/;"	v	lineno:49
+a	__DIR__/builtins.js	/a/;"	v	lineno:50	namespace:obj2
+b	__DIR__/builtins.js	/b/;"	v	lineno:51	namespace:obj2.a
+c	__DIR__/builtins.js	/c/;"	v	lineno:52	namespace:obj2.a.b	type:number
+grabbag	__DIR__/cautiouspropagation.js	/grabbag/;"	v	lineno:1
 inner	__DIR__/cautiouspropagation.js	/inner/;"	v	lineno:5	type:number
-jaja	__DIR__/finddef.js	/jaja/;"	v	lineno:3	type:number
-kaka	__DIR__/object_create.js	/kaka/;"	v	lineno:7	namespace:gen2	type:number
-last	__DIR__/simple_generic.js	/last/;"	f	lineno:1	type:!0.<i> function(Array[number]|[string])
+simple	__DIR__/cautiouspropagation.js	/simple/;"	v	lineno:8
+<i>	__DIR__/cautiouspropagation.js	/foo\(\)/;"	v	lineno:9	namespace:simple	type:string
+buildCopy	__DIR__/copyprops.js	/buildCopy/;"	f	lineno:1	type:? function(buildCopy.!0)
+oo	__DIR__/copyprops.js	/oo/;"	v	lineno:2	namespace:buildCopy
+prop	__DIR__/copyprops.js	/prop/;"	v	lineno:3	namespace:buildCopy
+Ctor	__DIR__/ctorpattern.js	/Ctor/;"	f	lineno:4	type:Ctor function()
+foo	__DIR__/ctorpattern.js	/foo/;"	v	lineno:6	namespace:Ctor	type:number
+myalias	__DIR__/docstrings.js	/myalias/;"	f	lineno:4	type:void function(number)
+foo	__DIR__/docstrings.js	/foo/;"	v	lineno:9	type:number
+monkeyAlias	__DIR__/docstrings.js	/makeMonkey/;"	f	lineno:14	type:string function()
 makeMonkey	__DIR__/docstrings.js	/makeMonkey/;"	f	lineno:14	type:string function()
-makeString	__DIR__/proto.js	/makeString/;"	f	lineno:8	namespace:Foo.prototype	type:string function()
-map	__DIR__/simple_generic.js	/map/;"	f	lineno:6	type:string|fn() -> bool) -> [?] function(Array[number], fn()
-methodEleven	__DIR__/extends.js	/methodEleven/;"	f	lineno:34	namespace:SubEleven.prototype	type:string function()
-methodOne	__DIR__/extends.js	/methodOne/;"	f	lineno:20	namespace:SubOne.prototype	type:number function()
-methodTwo	__DIR__/extends.js	/methodTwo/;"	f	lineno:27	namespace:SubTwo.prototype	type:void function()
+monkeyAlias	__DIR__/docstrings.js	/monkeyAlias/;"	f	lineno:18	type:string function()
+abc	__DIR__/docstrings.js	/abc/;"	v	lineno:26	type:number
+Quux	__DIR__/docstrings.js	/Quux/;"	f	lineno:33	type:void function()
+baz	__DIR__/docstrings.js	/baz/;"	v	lineno:40	type:string
+o	__DIR__/docstrings.js	/o/;"	v	lineno:44
+getName	__DIR__/docstrings.js	/getName/;"	f	lineno:46	namespace:o	type:!this.name function()
 name	__DIR__/docstrings.js	/name/;"	v	lineno:48	namespace:o	type:string
-newElt	__DIR__/browser.js	/newElt/;"	v	lineno:5	type:+Element
-num	__DIR__/builtins.js	/num/;"	v	lineno:26	type:+Number
-one	__DIR__/extends.js	/one/;"	v	lineno:38	type:+SubOne
-prop1	__DIR__/finddef.js	/prop1/;"	v	lineno:6	namespace:obj	type:number
-prop1	__DIR__/jsdoc.js	/prop1/;"	v	lineno:31	namespace:o	type:string
-prop1	__DIR__/object_create.js	/prop1/;"	v	lineno:30	namespace:empty	type:string
-prop2	__DIR__/finddef.js	/prop2/;"	f	lineno:7	namespace:obj	type:void function(?)
-prop2	__DIR__/jsdoc.js	/prop2/;"	f	lineno:34	namespace:o	type:number function()
-prop3	__DIR__/finddef.js	/prop3/;"	v	lineno:10	namespace:obj	type:string
-prop3	__DIR__/jsdoc.js	/prop3/;"	f	lineno:38	namespace:o	type:string function()
-prop_A	__DIR__/new_to_prototype.js	/prop_A/;"	v	lineno:2	namespace:A.prototype	type:number
-prop_B	__DIR__/new_to_prototype.js	/prop_B/;"	v	lineno:5	namespace:B.prototype	type:number
-prop_C	__DIR__/new_to_prototype.js	/prop_C/;"	v	lineno:8	namespace:C.prototype	type:number
-quux	__DIR__/object_create.js	/quux/;"	v	lineno:6	namespace:gen1	type:number
+foo	__DIR__/docstrings.js	/foo/;"	v	lineno:52	namespace:o	type:string
+b	__DIR__/effects.js	/b/;"	v	lineno:3	type:[bool]
+c	__DIR__/effects.js	/c/;"	v	lineno:7	type:[string|number]
+d	__DIR__/effects.js	/d/;"	v	lineno:12	type:number
 setD	__DIR__/effects.js	/setD/;"	f	lineno:13	type:void function(number)
-sum	__DIR__/merge.js	/sum/;"	f	lineno:1	type:number function(?)
+a	__DIR__/effects.js	/a/;"	v	lineno:13	namespace:setD	type:number
+__extends	__DIR__/extends.js	/__extends/;"	f	lineno:3	type:void function(fn(arg: bool)
+parent	__DIR__/extends.js	/parent/;"	f	lineno:3	namespace:__extends	type:void function(bool)
+child	__DIR__/extends.js	/child/;"	f	lineno:3	namespace:__extends	type:void function(bool)
+key	__DIR__/extends.js	/key/;"	v	lineno:4	namespace:__extends
+ctor	__DIR__/extends.js	/ctor/;"	f	lineno:5	namespace:__extends	type:void function()
+prototype	__DIR__/extends.js	/prototype/;"	v	lineno:7	namespace:SubTwo.prototype.constructor
+prototype	__DIR__/extends.js	/prototype/;"	v	lineno:7	namespace:SubEleven.prototype.constructor
+prototype	__DIR__/extends.js	/prototype/;"	v	lineno:7	namespace:SubTwo
+prototype	__DIR__/extends.js	/prototype/;"	v	lineno:7	namespace:SubOne
+prototype	__DIR__/extends.js	/prototype/;"	v	lineno:7	namespace:SubEleven
+prototype	__DIR__/extends.js	/prototype/;"	v	lineno:7	namespace:SubOne.prototype.constructor
+Top	__DIR__/extends.js	/Top/;"	f	lineno:10	type:void function()
 topMethod	__DIR__/extends.js	/topMethod/;"	f	lineno:12	namespace:Top.prototype	type:string function()
 topStatic	__DIR__/extends.js	/topStatic/;"	v	lineno:13	namespace:Top	type:number
-two	__DIR__/extends.js	/two/;"	v	lineno:38	type:+SubTwo
-x	__DIR__/builtins.js	/x/;"	v	lineno:1	type:number
+constructor	__DIR__/extends.js	/SubOne/;"	f	lineno:17	namespace:SubOne.prototype	type:void function(bool)
+SubOne	__DIR__/extends.js	/SubOne/;"	f	lineno:17	type:void function(bool)
+arg	__DIR__/extends.js	/arg/;"	v	lineno:18	namespace:SubOne	type:boolean
+argOne	__DIR__/extends.js	/argOne/;"	v	lineno:18	namespace:SubOne	type:boolean
+argOne	__DIR__/extends.js	/argOne/;"	v	lineno:18	namespace:SubOne.prototype.constructor	type:boolean
+arg	__DIR__/extends.js	/arg/;"	v	lineno:18	namespace:SubOne.prototype.constructor	type:boolean
+argOne	__DIR__/extends.js	/argOne/;"	v	lineno:18	namespace:SubEleven	type:boolean
+argOne	__DIR__/extends.js	/argOne/;"	v	lineno:18	namespace:SubEleven.prototype.constructor	type:boolean
+methodOne	__DIR__/extends.js	/methodOne/;"	f	lineno:20	namespace:SubOne.prototype.constructor.prototype	type:number function()
+methodOne	__DIR__/extends.js	/methodOne/;"	f	lineno:20	namespace:SubOne.prototype	type:number function()
+SubTwo	__DIR__/extends.js	/SubTwo/;"	f	lineno:24	type:void function(bool)
+constructor	__DIR__/extends.js	/SubTwo/;"	f	lineno:24	namespace:SubTwo.prototype	type:void function(bool)
+argTwo	__DIR__/extends.js	/argTwo/;"	v	lineno:25	namespace:SubTwo.prototype.constructor	type:boolean
+arg	__DIR__/extends.js	/arg/;"	v	lineno:25	namespace:SubTwo.prototype.constructor	type:boolean
+argTwo	__DIR__/extends.js	/argTwo/;"	v	lineno:25	namespace:SubTwo	type:boolean
+arg	__DIR__/extends.js	/arg/;"	v	lineno:25	namespace:SubTwo	type:boolean
+methodTwo	__DIR__/extends.js	/methodTwo/;"	f	lineno:27	namespace:SubTwo.prototype	type:void function()
+methodTwo	__DIR__/extends.js	/methodTwo/;"	f	lineno:27	namespace:SubTwo.prototype.constructor.prototype	type:void function()
+constructor	__DIR__/extends.js	/SubEleven/;"	f	lineno:31	namespace:SubEleven.prototype	type:void function(bool)
+SubEleven	__DIR__/extends.js	/SubEleven/;"	f	lineno:31	type:void function(bool)
+arg	__DIR__/extends.js	/arg/;"	v	lineno:32	namespace:SubEleven.prototype.constructor	type:boolean
+arg	__DIR__/extends.js	/arg/;"	v	lineno:32	namespace:SubEleven	type:boolean
+methodEleven	__DIR__/extends.js	/methodEleven/;"	f	lineno:34	namespace:SubEleven.prototype.constructor.prototype	type:string function()
+methodEleven	__DIR__/extends.js	/methodEleven/;"	f	lineno:34	namespace:SubEleven.prototype	type:string function()
+one	__DIR__/extends.js	/one/;"	v	lineno:38	type:SubOne
+two	__DIR__/extends.js	/two/;"	v	lineno:38	type:SubTwo
+elf	__DIR__/extends.js	/elf/;"	v	lineno:38	type:SubEleven
+blah	__DIR__/finddef.js	/blah/;"	f	lineno:1	type:void function()
+jaja	__DIR__/finddef.js	/jaja/;"	v	lineno:3	type:number
+obj	__DIR__/finddef.js	/obj/;"	v	lineno:5
+prop1	__DIR__/finddef.js	/prop1/;"	v	lineno:6	namespace:obj	type:number
+prop2	__DIR__/finddef.js	/prop2/;"	f	lineno:7	namespace:obj	type:void function(?)
+foo	__DIR__/finddef.js	/foo/;"	v	lineno:7	namespace:obj.prop2
+prop3	__DIR__/finddef.js	/prop3/;"	v	lineno:10	namespace:obj	type:string
+hide	__DIR__/finddef.js	/hide/;"	f	lineno:19	type:void function(?) function()
+another	__DIR__/finddef.js	/another/;"	f	lineno:23	type:void function(?)
+arg	__DIR__/finddef.js	/arg/;"	v	lineno:23	namespace:another
+local	__DIR__/finddef.js	/local/;"	v	lineno:24	namespace:another	type:number
+hello	__DIR__/findref.js	/hello/;"	f	lineno:1	type:void function(?, ?)
+a	__DIR__/findref.js	/a/;"	v	lineno:1	namespace:hello
+b	__DIR__/findref.js	/b/;"	v	lineno:1	namespace:hello
+c	__DIR__/findref.js	/c/;"	v	lineno:2	namespace:hello
+obj	__DIR__/findref.js	/obj/;"	v	lineno:10
 x	__DIR__/findref.js	/x/;"	v	lineno:11	namespace:obj	type:number
-x	__DIR__/infinite-expansion.js	/x/;"	v	lineno:10	type:[x]
-x	__DIR__/plus.js	/x/;"	v	lineno:1	type:number
-x	__DIR__/proto.js	/x/;"	v	lineno:2	namespace:Foo	type:boolean
-x	__DIR__/replace_bogus_prop.js	/x/;"	v	lineno:1	type:+Type
 y	__DIR__/findref.js	/y/;"	v	lineno:13	namespace:obj	type:number
-y	__DIR__/plus.js	/y/;"	v	lineno:2	type:string
-y	__DIR__/proto.js	/y/;"	v	lineno:3	namespace:Foo	type:[number]
 z	__DIR__/findref.js	/z/;"	v	lineno:17	namespace:obj	type:string
-z	__DIR__/proto.js	/z/;"	v	lineno:12	type:+Foo
+abc	__DIR__/fn_arguments.js	/abc/;"	f	lineno:1	type:number function()
+arguments	__DIR__/fn_arguments.js	/function abc\(\) \{/;"	v	lineno:1	namespace:abc	type:[number]
+each	__DIR__/generic_each.js	/each/;"	f	lineno:2	type:void function(Array[number]|[each.!0.<i>], fn(n: number)
+context	__DIR__/generic_each.js	/context/;"	v	lineno:2	namespace:each	type:string
+iterator	__DIR__/generic_each.js	/iterator/;"	f	lineno:2	namespace:each	type:void function(each.!0.<i>)
+obj	__DIR__/generic_each.js	/obj/;"	v	lineno:2	namespace:each	type:[each.!0.<i>]
+i	__DIR__/generic_each.js	/i/;"	v	lineno:7	namespace:each	type:number
+l	__DIR__/generic_each.js	/l/;"	v	lineno:7	namespace:each	type:number
+foo	__DIR__/global_this.js	/foo/;"	v	lineno:1	type:number
+f	__DIR__/infinite-expansion.js	/f/;"	f	lineno:3	type:void function(f)
+n	__DIR__/infinite-expansion.js	/n/;"	f	lineno:3	namespace:f	type:void function(f)
+x	__DIR__/infinite-expansion.js	/x/;"	v	lineno:10	type:[x]
+goop	__DIR__/infinite-expansion.js	/goop/;"	f	lineno:15	type:void function(?) function(number)
+n	__DIR__/infinite-expansion.js	/n/;"	v	lineno:15	namespace:goop	type:number
+a	__DIR__/jsdoc.js	/a/;"	v	lineno:2	type:Date
+c	__DIR__/jsdoc.js	/c/;"	v	lineno:8
+foo	__DIR__/jsdoc.js	/foo/;"	f	lineno:17	type:[number] function(number, string)
+a	__DIR__/jsdoc.js	/a/;"	v	lineno:17	namespace:foo	type:number
+b	__DIR__/jsdoc.js	/b/;"	v	lineno:17	namespace:foo	type:string
+bar	__DIR__/jsdoc.js	/bar/;"	f	lineno:25	type:string function(number, number)
+a	__DIR__/jsdoc.js	/a/;"	v	lineno:25	namespace:bar	type:number
+b	__DIR__/jsdoc.js	/b/;"	v	lineno:25	namespace:bar	type:number
+o	__DIR__/jsdoc.js	/o/;"	v	lineno:29
+prop1	__DIR__/jsdoc.js	/prop1/;"	v	lineno:31	namespace:o	type:string
+prop2	__DIR__/jsdoc.js	/prop2/;"	f	lineno:34	namespace:o	type:number function()
+prop3	__DIR__/jsdoc.js	/prop3/;"	f	lineno:38	namespace:o	type:string function()
+sum	__DIR__/merge.js	/sum/;"	f	lineno:1	type:number function(?)
+a	__DIR__/merge.js	/a/;"	v	lineno:1	namespace:sum
+a	__DIR__/new_array.js	/a/;"	v	lineno:1	type:[string]
+b	__DIR__/new_array.js	/b/;"	v	lineno:5	type:[bool]
+c	__DIR__/new_array.js	/c/;"	v	lineno:8	type:[?]
+d	__DIR__/new_array.js	/d/;"	v	lineno:11	type:[string]
+A	__DIR__/new_to_prototype.js	/A/;"	f	lineno:1	type:void function()
+prop_A	__DIR__/new_to_prototype.js	/prop_A/;"	v	lineno:2	namespace:A.prototype	type:number
+B	__DIR__/new_to_prototype.js	/B/;"	f	lineno:3	type:void function()
+prototype	__DIR__/new_to_prototype.js	/prototype/;"	v	lineno:4	namespace:B
+prop_B	__DIR__/new_to_prototype.js	/prop_B/;"	v	lineno:5	namespace:B.prototype	type:number
+C	__DIR__/new_to_prototype.js	/C/;"	f	lineno:6	type:void function()
+prototype	__DIR__/new_to_prototype.js	/prototype/;"	v	lineno:7	namespace:C
+prop_C	__DIR__/new_to_prototype.js	/prop_C/;"	v	lineno:8	namespace:C.prototype	type:number
+base	__DIR__/object_create.js	/base/;"	v	lineno:1
+bar	__DIR__/object_create.js	/bar/;"	v	lineno:1	namespace:base	type:number
+foo	__DIR__/object_create.js	/foo/;"	v	lineno:1	namespace:base	type:number
+gen1	__DIR__/object_create.js	/gen1/;"	v	lineno:2
+gen2	__DIR__/object_create.js	/gen2/;"	v	lineno:3
+baz	__DIR__/object_create.js	/baz/;"	v	lineno:5	namespace:base	type:number
+quux	__DIR__/object_create.js	/quux/;"	v	lineno:6	namespace:gen1	type:number
+kaka	__DIR__/object_create.js	/kaka/;"	v	lineno:7	namespace:gen2	type:number
+extend	__DIR__/object_create.js	/extend/;"	v	lineno:23
+empty	__DIR__/object_create.js	/empty/;"	v	lineno:29
+prop1	__DIR__/object_create.js	/prop1/;"	v	lineno:30	namespace:empty	type:string
+Ctor1	__DIR__/objnames.js	/Ctor1/;"	f	lineno:1	type:void function()
+prototype	__DIR__/objnames.js	/prototype/;"	v	lineno:2	namespace:Ctor1
+a	__DIR__/objnames.js	/a/;"	v	lineno:2	namespace:Ctor1.prototype	type:number
+Ctor2	__DIR__/objnames.js	/Ctor2/;"	f	lineno:4	type:void function()
+singleton	__DIR__/objnames.js	/singleton/;"	v	lineno:6
+a	__DIR__/objnames.js	/a/;"	v	lineno:6	namespace:singleton	type:number
+b	__DIR__/objnames.js	/b/;"	v	lineno:6	namespace:singleton	type:number
+x	__DIR__/plus.js	/x/;"	v	lineno:1	type:number
+y	__DIR__/plus.js	/y/;"	v	lineno:2	type:string
+Foo	__DIR__/proto.js	/Foo/;"	f	lineno:1	type:void function(bool)
+x	__DIR__/proto.js	/x/;"	v	lineno:1	namespace:Foo	type:boolean
+y	__DIR__/proto.js	/y/;"	v	lineno:3	namespace:Foo	type:[number]
+prototype	__DIR__/proto.js	/prototype/;"	v	lineno:7	namespace:Foo
+makeString	__DIR__/proto.js	/makeString/;"	f	lineno:8	namespace:Foo.prototype	type:string function()
+bar	__DIR__/proto.js	/bar/;"	v	lineno:9	namespace:Foo.prototype	type:number
+z	__DIR__/proto.js	/z/;"	v	lineno:12	type:Foo
+Base	__DIR__/protoname.js	/Base/;"	f	lineno:1	type:void function()
+Sub1	__DIR__/protoname.js	/Sub1/;"	f	lineno:7	type:void function()
+Sub2	__DIR__/protoname.js	/Sub2/;"	f	lineno:11	type:void function()
+Base2	__DIR__/protoname.js	/Base2/;"	f	lineno:15	type:void function()
+Sub3	__DIR__/protoname.js	/Sub3/;"	f	lineno:17	type:void function()
+x	__DIR__/replace_bogus_prop.js	/x/;"	v	lineno:1	type:Type
+Type	__DIR__/replace_bogus_prop.js	/Type/;"	f	lineno:5	type:void function()
+foo	__DIR__/replace_bogus_prop.js	/foo/;"	v	lineno:6	namespace:Type.prototype	type:string
+foo	__DIR__/simple.js	/foo/;"	v	lineno:1	type:number
+x	__DIR__/simple.js	/x/;"	v	lineno:6
+baz	__DIR__/simple.js	/baz/;"	v	lineno:7	namespace:x
+haz	__DIR__/simple.js	/haz/;"	v	lineno:8	namespace:x.baz	type:number
+laz	__DIR__/simple.js	/laz/;"	v	lineno:9	namespace:x.baz	type:number
+init	__DIR__/simple.js	/init/;"	f	lineno:13	type:void function(x)
+foo	__DIR__/simple.js	/foo/;"	v	lineno:14	namespace:x	type:number
+bar	__DIR__/simple.js	/bar/;"	v	lineno:15	namespace:x	type:number
+a	__DIR__/simple.js	/a/;"	f	lineno:16	namespace:init	type:void function()
+t	__DIR__/simple.js	/t/;"	f	lineno:17	namespace:init.a	type:void function()
+g	__DIR__/simple.js	/g/;"	f	lineno:18	namespace:init.a.t	type:void function()
+y	__DIR__/simple.js	/y/;"	v	lineno:19	namespace:init.a.t.g	type:number
+m	__DIR__/simple.js	/m/;"	f	lineno:22	namespace:init.a.t	type:void function()
+w	__DIR__/simple.js	/w/;"	v	lineno:23	namespace:init.a.t.m	type:number
+last	__DIR__/simple_generic.js	/last/;"	f	lineno:1	type:!0.<i> function(Array[number]|[string])
+arr	__DIR__/simple_generic.js	/arr/;"	v	lineno:1	namespace:last	type:[number]|[string]
+map	__DIR__/simple_generic.js	/map/;"	f	lineno:6	type:string|fn() -> bool) -> [?] function(Array[number], fn()
+arr	__DIR__/simple_generic.js	/arr/;"	v	lineno:6	namespace:map	type:[number]
+f	__DIR__/simple_generic.js	/f/;"	f	lineno:6	namespace:map	type:boolean function()
+res	__DIR__/simple_generic.js	/res/;"	v	lineno:7	namespace:map	type:[bool]
+i	__DIR__/simple_generic.js	/i/;"	v	lineno:8	namespace:map	type:number
 

@@ -35,7 +35,11 @@ function another(arg) {
     "kind": "f",
     "type": "void function()",
     "lineno": 1,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/finddef.js"
+    "origin": {
+      "!span": "9[0:9]-13[0:13]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/finddef.js"
   },
   {
     "name": "jaja",
@@ -43,7 +47,21 @@ function another(arg) {
     "kind": "v",
     "type": "number",
     "lineno": 3,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/finddef.js"
+    "origin": {
+      "!span": "24[2:4]-28[2:8]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "obj",
+    "addr": "/obj/",
+    "kind": "v",
+    "lineno": 5,
+    "origin": {
+      "!span": "40[4:4]-43[4:7]"
+    },
+    "tagfile": "__DIR__/finddef.js"
   },
   {
     "name": "prop1",
@@ -52,7 +70,11 @@ function another(arg) {
     "type": "number",
     "lineno": 6,
     "namespace": "obj",
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/finddef.js"
+    "origin": {
+      "!span": "50[5:2]-55[5:7]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/finddef.js"
   },
   {
     "name": "prop2",
@@ -61,7 +83,22 @@ function another(arg) {
     "type": "void function(?)",
     "lineno": 7,
     "namespace": "obj",
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/finddef.js"
+    "origin": {
+      "!span": "63[6:2]-68[6:7]",
+      "!type": "fn(foo: ?)"
+    },
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "v",
+    "lineno": 7,
+    "namespace": "obj.prop2",
+    "origin": {
+      "!span": "79[6:18]-82[6:21]"
+    },
+    "tagfile": "__DIR__/finddef.js"
   },
   {
     "name": "prop3",
@@ -70,15 +107,23 @@ function another(arg) {
     "type": "string",
     "lineno": 10,
     "namespace": "obj",
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/finddef.js"
+    "origin": {
+      "!span": "95[9:4]-100[9:9]",
+      "!type": "string"
+    },
+    "tagfile": "__DIR__/finddef.js"
   },
   {
     "name": "hide",
     "addr": "/hide/",
     "kind": "f",
-    "type": "fn(foo: ?) function()",
+    "type": "void function(?) function()",
     "lineno": 19,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/finddef.js"
+    "origin": {
+      "!span": "243[18:9]-247[18:13]",
+      "!type": "fn() -> fn(foo: ?)"
+    },
+    "tagfile": "__DIR__/finddef.js"
   },
   {
     "name": "another",
@@ -86,16 +131,48 @@ function another(arg) {
     "kind": "f",
     "type": "void function(?)",
     "lineno": 23,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/finddef.js"
+    "origin": {
+      "!span": "303[22:9]-310[22:16]",
+      "!type": "fn(arg: ?)"
+    },
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "arg",
+    "addr": "/arg/",
+    "kind": "v",
+    "lineno": 23,
+    "namespace": "another",
+    "origin": {
+      "!span": "311[22:17]-314[22:20]"
+    },
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "local",
+    "addr": "/local/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 24,
+    "namespace": "another",
+    "origin": {
+      "!span": "324[23:6]-329[23:11]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/finddef.js"
   }
 ]
 ```
 ```ctags
-another	/usr/local/lib/node_modules/jsctags/test/cases/finddef.js	/another/;"	f	lineno:23	type:void function(?)
-blah	/usr/local/lib/node_modules/jsctags/test/cases/finddef.js	/blah/;"	f	lineno:1	type:void function()
-hide	/usr/local/lib/node_modules/jsctags/test/cases/finddef.js	/hide/;"	f	lineno:19	type:fn(foo: ?) function()
-jaja	/usr/local/lib/node_modules/jsctags/test/cases/finddef.js	/jaja/;"	v	lineno:3	type:number
-prop1	/usr/local/lib/node_modules/jsctags/test/cases/finddef.js	/prop1/;"	v	lineno:6	namespace:obj	type:number
-prop2	/usr/local/lib/node_modules/jsctags/test/cases/finddef.js	/prop2/;"	f	lineno:7	namespace:obj	type:void function(?)
-prop3	/usr/local/lib/node_modules/jsctags/test/cases/finddef.js	/prop3/;"	v	lineno:10	namespace:obj	type:string
+blah	__DIR__/finddef.js	/blah/;"	f	lineno:1	type:void function()
+jaja	__DIR__/finddef.js	/jaja/;"	v	lineno:3	type:number
+obj	__DIR__/finddef.js	/obj/;"	v	lineno:5
+prop1	__DIR__/finddef.js	/prop1/;"	v	lineno:6	namespace:obj	type:number
+prop2	__DIR__/finddef.js	/prop2/;"	f	lineno:7	namespace:obj	type:void function(?)
+foo	__DIR__/finddef.js	/foo/;"	v	lineno:7	namespace:obj.prop2
+prop3	__DIR__/finddef.js	/prop3/;"	v	lineno:10	namespace:obj	type:string
+hide	__DIR__/finddef.js	/hide/;"	f	lineno:19	type:void function(?) function()
+another	__DIR__/finddef.js	/another/;"	f	lineno:23	type:void function(?)
+arg	__DIR__/finddef.js	/arg/;"	v	lineno:23	namespace:another
+local	__DIR__/finddef.js	/local/;"	v	lineno:24	namespace:another	type:number
 ```

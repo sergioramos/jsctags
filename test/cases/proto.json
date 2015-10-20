@@ -5,6 +5,10 @@
     "kind": "f",
     "type": "void function(bool)",
     "lineno": 1,
+    "origin": {
+      "!span": "9[0:9]-12[0:12]",
+      "!type": "fn(x: bool)"
+    },
     "tagfile": "__DIR__/proto.js"
   },
   {
@@ -12,8 +16,12 @@
     "addr": "/x/",
     "kind": "v",
     "type": "boolean",
-    "lineno": 2,
+    "lineno": 1,
     "namespace": "Foo",
+    "origin": {
+      "!span": "13[0:13]-14[0:14]",
+      "!type": "bool"
+    },
     "tagfile": "__DIR__/proto.js"
   },
   {
@@ -23,6 +31,21 @@
     "type": "[number]",
     "lineno": 3,
     "namespace": "Foo",
+    "origin": {
+      "!span": "39[2:7]-40[2:8]",
+      "!type": "[number]"
+    },
+    "tagfile": "__DIR__/proto.js"
+  },
+  {
+    "name": "prototype",
+    "addr": "/prototype/",
+    "kind": "v",
+    "lineno": 7,
+    "namespace": "Foo",
+    "origin": {
+      "!span": "76[6:4]-85[6:13]"
+    },
     "tagfile": "__DIR__/proto.js"
   },
   {
@@ -32,6 +55,10 @@
     "type": "string function()",
     "lineno": 8,
     "namespace": "Foo.prototype",
+    "origin": {
+      "!span": "92[7:2]-102[7:12]",
+      "!type": "fn() -> string"
+    },
     "tagfile": "__DIR__/proto.js"
   },
   {
@@ -41,14 +68,22 @@
     "type": "number",
     "lineno": 9,
     "namespace": "Foo.prototype",
+    "origin": {
+      "!span": "135[8:2]-138[8:5]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/proto.js"
   },
   {
     "name": "z",
     "addr": "/z/",
     "kind": "v",
-    "type": "+Foo",
+    "type": "Foo",
     "lineno": 12,
+    "origin": {
+      "!span": "151[11:4]-152[11:5]",
+      "!type": "+Foo"
+    },
     "tagfile": "__DIR__/proto.js"
   }
 ]

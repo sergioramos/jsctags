@@ -1,4 +1,5 @@
-var interpolate = require('util').format;
+require('longjohn');
+var format = require('util').format;
 var cp = require('child_process');
 var fs = require('fs');
 var path = require('path');
@@ -44,7 +45,7 @@ async.series([
     runTestCase({
       input: input,
       dir: casesDir,
-      label: interpolate('%s files', files.length),
+      label: format('%s files', files.length),
       expected: {
         json: expectedJson,
         ctags: expectedCtags
@@ -54,7 +55,7 @@ async.series([
 ], function (e) {
   if (e) throw e;
   var elapsed = Date.now() - start;
-  console.log(successText(interpolate('\nTests passed in %ss', elapsed / 1000)));
+  console.log(successText(format('\nTests passed in %ss', elapsed / 1000)));
 });
 
 function replaceFileExtension (file, extension) {
@@ -128,8 +129,8 @@ function testCommandOutput (options, callback) {
   var label = options.label;
   var args = options.args || [];
   var expected = options.expected;
-  process.stdout.write(interpolate('%s%s%s...', label, file ? '' : ' (STDIN)', args.indexOf('-f') !== -1 ? ' (-f)' : ''));
-  var command = file ? interpolate('%s %s %s', cmd, file, args.join(' ')) : interpolate('%s %s', cmd, args.join(' '));
+  process.stdout.write(format('%s%s%s...', label, file ? '' : ' (STDIN)', args.indexOf('-f') !== -1 ? ' (-f)' : ''));
+  var command = file ? format('%s %s %s', cmd, file, args.join(' ')) : format('%s %s', cmd, args.join(' '));
   var child = cp.exec(command, function (e, stdout, stderr) {
     if (e) return callback(e);
 
