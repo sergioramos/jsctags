@@ -51,4 +51,3 @@ module.exports = function (tags) {
     return buf.join('');
   });
 };
-
