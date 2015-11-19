@@ -1,6 +1,6 @@
 # jsctags 
 
-![](https://img.shields.io/travis/ramitos/force-array.svg) ![](https://img.shields.io/coveralls/ramitos/force-array.svg) ![](https://img.shields.io/npm/v/force-array.svg) ![](https://img.shields.io/david/ramitos/force-array.svg) [![](https://img.shields.io/codeclimate/github/ramitos/force-array.svg)](https://codeclimate.com/github/ramitos/jsctags) ![](https://img.shields.io/npm/l/force-array.svg)
+[![](https://img.shields.io/travis/ramitos/jsctags.svg)](https://travis-ci.org/ramitos/jsctags) [![](https://img.shields.io/codeclimate/coverage/github/ramitos/jsctags.svg)](https://codeclimate.com/github/ramitos/jsctags/coverage) [![](https://img.shields.io/npm/v/jsctags.svg)](https://www.npmjs.com/package/jsctags) [![](https://img.shields.io/david/ramitos/jsctags.svg)](https://david-dm.org/ramitos/jsctags) [![](https://img.shields.io/codeclimate/github/ramitos/jsctags.svg)](https://codeclimate.com/github/ramitos/jsctags) [![](https://img.shields.io/npm/l/jsctags.svg)](https://www.npmjs.com/package/jsctags)
 
 [![js-semistandard-style](https://cdn.rawgit.com/flet/semistandard/master/badge.svg)](https://github.com/Flet/semistandard)
 
