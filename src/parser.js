@@ -77,7 +77,7 @@ Parser.prototype.parse = function (fn) {
   var self = this;
 
   if (Object.keys(self.condense).length) {
-    return self.hasCondense(self.condense, fn);
+    return self.hasCondense(fn);
   }
 
   condense(self.ctx, function (err, condense) {
