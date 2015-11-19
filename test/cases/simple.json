@@ -5,6 +5,57 @@
     "kind": "v",
     "type": "number",
     "lineno": 1,
+    "origin": {
+      "!span": "4[0:4]-7[0:7]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "x",
+    "addr": "/x/",
+    "kind": "v",
+    "lineno": 6,
+    "origin": {
+      "!span": "64[5:4]-65[5:5]"
+    },
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "baz",
+    "addr": "/baz/",
+    "kind": "v",
+    "lineno": 7,
+    "namespace": "x",
+    "origin": {
+      "!span": "72[6:2]-75[6:5]"
+    },
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "haz",
+    "addr": "/haz/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 8,
+    "namespace": "x.baz",
+    "origin": {
+      "!span": "83[7:4]-86[7:7]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "laz",
+    "addr": "/laz/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 9,
+    "namespace": "x.baz",
+    "origin": {
+      "!span": "95[8:4]-98[8:7]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/simple.js"
   },
   {
@@ -12,7 +63,11 @@
     "addr": "/init/",
     "kind": "f",
     "type": "void function(x)",
-    "lineno": 8,
+    "lineno": 13,
+    "origin": {
+      "!span": "119[12:9]-123[12:13]",
+      "!type": "fn(v: x)"
+    },
     "tagfile": "__DIR__/simple.js"
   },
   {
@@ -20,8 +75,12 @@
     "addr": "/foo/",
     "kind": "v",
     "type": "number",
-    "lineno": 9,
+    "lineno": 14,
     "namespace": "x",
+    "origin": {
+      "!span": "133[13:4]-136[13:7]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/simple.js"
   },
   {
@@ -29,8 +88,90 @@
     "addr": "/bar/",
     "kind": "v",
     "type": "number",
-    "lineno": 10,
+    "lineno": 15,
     "namespace": "x",
+    "origin": {
+      "!span": "147[14:4]-150[14:7]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 16,
+    "namespace": "init",
+    "origin": {
+      "!span": "166[15:6]-167[15:7]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "t",
+    "addr": "/t/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 17,
+    "namespace": "init.a",
+    "origin": {
+      "!span": "191[16:8]-192[16:9]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "g",
+    "addr": "/g/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 18,
+    "namespace": "init.a.t",
+    "origin": {
+      "!span": "218[17:10]-219[17:11]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "y",
+    "addr": "/y/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 19,
+    "namespace": "init.a.t.g",
+    "origin": {
+      "!span": "247[18:12]-248[18:13]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "m",
+    "addr": "/m/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 22,
+    "namespace": "init.a.t",
+    "origin": {
+      "!span": "274[21:10]-275[21:11]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "w",
+    "addr": "/w/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 23,
+    "namespace": "init.a.t.m",
+    "origin": {
+      "!span": "303[22:12]-304[22:13]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/simple.js"
   }
 ]

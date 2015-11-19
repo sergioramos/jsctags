@@ -13,10 +13,14 @@ var foo = 10;
     "kind": "v",
     "type": "number",
     "lineno": 1,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/global_this.js"
+    "origin": {
+      "!span": "4[0:4]-7[0:7]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/global_this.js"
   }
 ]
 ```
 ```ctags
-foo	/usr/local/lib/node_modules/jsctags/test/cases/global_this.js	/foo/;"	v	lineno:1	type:number
+foo	__DIR__/global_this.js	/foo/;"	v	lineno:1	type:number
 ```

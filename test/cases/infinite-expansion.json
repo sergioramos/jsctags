@@ -5,6 +5,23 @@
     "kind": "f",
     "type": "void function(f)",
     "lineno": 3,
+    "origin": {
+      "!span": "18[2:4]-19[2:5]",
+      "!type": "fn(n: f)"
+    },
+    "tagfile": "__DIR__/infinite-expansion.js"
+  },
+  {
+    "name": "n",
+    "addr": "/n/",
+    "kind": "f",
+    "type": "void function(f)",
+    "lineno": 3,
+    "namespace": "f",
+    "origin": {
+      "!span": "31[2:17]-32[2:18]",
+      "!type": "fn(n: f)"
+    },
     "tagfile": "__DIR__/infinite-expansion.js"
   },
   {
@@ -13,14 +30,35 @@
     "kind": "v",
     "type": "[x]",
     "lineno": 10,
+    "origin": {
+      "!span": "210[9:4]-211[9:5]",
+      "!type": "[x]"
+    },
     "tagfile": "__DIR__/infinite-expansion.js"
   },
   {
     "name": "goop",
     "addr": "/goop/",
     "kind": "f",
-    "type": "fn(f: ?) function(number)",
+    "type": "void function(?) function(number)",
     "lineno": 15,
+    "origin": {
+      "!span": "262[14:9]-266[14:13]",
+      "!type": "fn(n: number) -> fn(f: ?)"
+    },
+    "tagfile": "__DIR__/infinite-expansion.js"
+  },
+  {
+    "name": "n",
+    "addr": "/n/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 15,
+    "namespace": "goop",
+    "origin": {
+      "!span": "267[14:14]-268[14:15]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/infinite-expansion.js"
   }
 ]

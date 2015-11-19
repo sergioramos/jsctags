@@ -5,6 +5,10 @@
     "kind": "v",
     "type": "number",
     "lineno": 1,
+    "origin": {
+      "!span": "4[0:4]-13[0:13]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/arguments.js"
   },
   {
@@ -13,6 +17,10 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 1,
+    "origin": {
+      "!span": "9[0:9]-12[0:12]",
+      "!type": "fn()"
+    },
     "tagfile": "__DIR__/autothis.js"
   },
   {
@@ -22,6 +30,10 @@
     "type": "void function()",
     "lineno": 2,
     "namespace": "Bar.prototype",
+    "origin": {
+      "!span": "49[1:14]-54[1:19]",
+      "!type": "fn()"
+    },
     "tagfile": "__DIR__/autothis.js"
   },
   {
@@ -31,14 +43,35 @@
     "type": "void function()",
     "lineno": 11,
     "namespace": "Date.prototype",
+    "origin": {
+      "!span": "183[10:15]-186[10:18]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/autothis.js"
+  },
+  {
+    "name": "fn2",
+    "addr": "/fn2/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 11,
+    "namespace": "Bar.prototype",
+    "origin": {
+      "!span": "183[10:15]-186[10:18]",
+      "!type": "fn()"
+    },
     "tagfile": "__DIR__/autothis.js"
   },
   {
     "name": "newElt",
     "addr": "/newElt/",
     "kind": "v",
-    "type": "+Element",
+    "type": "Element",
     "lineno": 5,
+    "origin": {
+      "!span": "63[4:4]-69[4:10]",
+      "!type": "+Element"
+    },
     "tagfile": "__DIR__/browser.js"
   },
   {
@@ -47,6 +80,10 @@
     "kind": "v",
     "type": "number",
     "lineno": 9,
+    "origin": {
+      "!span": "153[8:4]-160[8:11]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/browser.js"
   },
   {
@@ -55,6 +92,10 @@
     "kind": "v",
     "type": "number",
     "lineno": 1,
+    "origin": {
+      "!span": "4[0:4]-5[0:5]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/builtins.js"
   },
   {
@@ -63,15 +104,193 @@
     "kind": "v",
     "type": "[number]",
     "lineno": 4,
+    "origin": {
+      "!span": "57[3:4]-58[3:5]",
+      "!type": "[number]"
+    },
     "tagfile": "__DIR__/builtins.js"
   },
   {
     "name": "num",
     "addr": "/num/",
     "kind": "v",
-    "type": "+Number",
+    "type": "number",
     "lineno": 26,
+    "origin": {
+      "!span": "518[25:4]-521[25:7]",
+      "!type": "+Number"
+    },
     "tagfile": "__DIR__/builtins.js"
+  },
+  {
+    "name": "regexp",
+    "addr": "/regexp/",
+    "kind": "v",
+    "type": "regexp",
+    "lineno": 37,
+    "origin": {
+      "!span": "783[36:4]-789[36:10]",
+      "!type": "+RegExp"
+    },
+    "tagfile": "__DIR__/builtins.js"
+  },
+  {
+    "name": "obj",
+    "addr": "/obj/",
+    "kind": "v",
+    "lineno": 38,
+    "origin": {
+      "!span": "810[37:4]-813[37:7]"
+    },
+    "tagfile": "__DIR__/builtins.js"
+  },
+  {
+    "name": "arr",
+    "addr": "/arr/",
+    "kind": "v",
+    "type": "[?]",
+    "lineno": 39,
+    "origin": {
+      "!span": "839[38:4]-842[38:7]",
+      "!type": "[?]"
+    },
+    "tagfile": "__DIR__/builtins.js"
+  },
+  {
+    "name": "str",
+    "addr": "/str/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 40,
+    "origin": {
+      "!span": "862[39:4]-865[39:7]",
+      "!type": "+String"
+    },
+    "tagfile": "__DIR__/builtins.js"
+  },
+  {
+    "name": "fn",
+    "addr": "/fn/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 41,
+    "origin": {
+      "!span": "886[40:4]-888[40:6]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/builtins.js"
+  },
+  {
+    "name": "sym",
+    "addr": "/sym/",
+    "kind": "v",
+    "lineno": 42,
+    "origin": {
+      "!span": "911[41:4]-914[41:7]"
+    },
+    "tagfile": "__DIR__/builtins.js"
+  },
+  {
+    "name": "num2",
+    "addr": "/num2/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 43,
+    "origin": {
+      "!span": "935[42:4]-939[42:8]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/builtins.js"
+  },
+  {
+    "name": "str2",
+    "addr": "/str2/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 44,
+    "origin": {
+      "!span": "959[43:4]-963[43:8]",
+      "!type": "string"
+    },
+    "tagfile": "__DIR__/builtins.js"
+  },
+  {
+    "name": "gen",
+    "addr": "/gen/",
+    "kind": "f",
+    "type": "number function(?)",
+    "lineno": 45,
+    "origin": {
+      "!span": "981[44:4]-984[44:7]",
+      "!type": "fn*(a: ?) -> number"
+    },
+    "tagfile": "__DIR__/builtins.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "lineno": 45,
+    "namespace": "gen",
+    "origin": {
+      "!span": "998[44:21]-999[44:22]"
+    },
+    "tagfile": "__DIR__/builtins.js"
+  },
+  {
+    "name": "obj2",
+    "addr": "/obj2/",
+    "kind": "v",
+    "lineno": 49,
+    "origin": {
+      "!span": "1027[48:4]-1031[48:8]"
+    },
+    "tagfile": "__DIR__/builtins.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "lineno": 50,
+    "namespace": "obj2",
+    "origin": {
+      "!span": "1038[49:2]-1039[49:3]"
+    },
+    "tagfile": "__DIR__/builtins.js"
+  },
+  {
+    "name": "b",
+    "addr": "/b/",
+    "kind": "v",
+    "lineno": 51,
+    "namespace": "obj2.a",
+    "origin": {
+      "!span": "1047[50:4]-1048[50:5]"
+    },
+    "tagfile": "__DIR__/builtins.js"
+  },
+  {
+    "name": "c",
+    "addr": "/c/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 52,
+    "namespace": "obj2.a.b",
+    "origin": {
+      "!span": "1058[51:6]-1059[51:7]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/builtins.js"
+  },
+  {
+    "name": "grabbag",
+    "addr": "/grabbag/",
+    "kind": "v",
+    "lineno": 1,
+    "origin": {
+      "!span": "4[0:4]-11[0:11]"
+    },
+    "tagfile": "__DIR__/cautiouspropagation.js"
   },
   {
     "name": "inner",
@@ -79,6 +298,20 @@
     "kind": "v",
     "type": "number",
     "lineno": 5,
+    "origin": {
+      "!span": "101[4:4]-106[4:9]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/cautiouspropagation.js"
+  },
+  {
+    "name": "simple",
+    "addr": "/simple/",
+    "kind": "v",
+    "lineno": 8,
+    "origin": {
+      "!span": "155[7:4]-161[7:10]"
+    },
     "tagfile": "__DIR__/cautiouspropagation.js"
   },
   {
@@ -88,6 +321,10 @@
     "type": "string",
     "lineno": 9,
     "namespace": "simple",
+    "origin": {
+      "!span": "175[8:7]-180[8:12]",
+      "!type": "string"
+    },
     "tagfile": "__DIR__/cautiouspropagation.js"
   },
   {
@@ -96,14 +333,44 @@
     "kind": "f",
     "type": "? function(buildCopy.!0)",
     "lineno": 1,
+    "origin": {
+      "!span": "9[0:9]-18[0:18]",
+      "!type": "fn(o: buildCopy.!0) -> ?"
+    },
+    "tagfile": "__DIR__/copyprops.js"
+  },
+  {
+    "name": "oo",
+    "addr": "/oo/",
+    "kind": "v",
+    "lineno": 2,
+    "namespace": "buildCopy",
+    "origin": {
+      "!span": "30[1:6]-32[1:8]"
+    },
+    "tagfile": "__DIR__/copyprops.js"
+  },
+  {
+    "name": "prop",
+    "addr": "/prop/",
+    "kind": "v",
+    "lineno": 3,
+    "namespace": "buildCopy",
+    "origin": {
+      "!span": "50[2:11]-54[2:15]"
+    },
     "tagfile": "__DIR__/copyprops.js"
   },
   {
     "name": "Ctor",
     "addr": "/Ctor/",
     "kind": "f",
-    "type": "+Ctor function()",
+    "type": "Ctor function()",
     "lineno": 4,
+    "origin": {
+      "!span": "112[3:9]-116[3:13]",
+      "!type": "fn() -> +Ctor"
+    },
     "tagfile": "__DIR__/ctorpattern.js"
   },
   {
@@ -113,7 +380,23 @@
     "type": "number",
     "lineno": 6,
     "namespace": "Ctor",
+    "origin": {
+      "!span": "178[5:7]-181[5:10]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/ctorpattern.js"
+  },
+  {
+    "name": "myalias",
+    "addr": "/myalias/",
+    "kind": "f",
+    "type": "void function(number)",
+    "lineno": 4,
+    "origin": {
+      "!span": "185[3:4]-192[3:11]",
+      "!type": "fn(ms: number)"
+    },
+    "tagfile": "__DIR__/docstrings.js"
   },
   {
     "name": "foo",
@@ -121,6 +404,22 @@
     "kind": "v",
     "type": "number",
     "lineno": 9,
+    "origin": {
+      "!span": "323[8:4]-326[8:7]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "monkeyAlias",
+    "addr": "/makeMonkey/",
+    "kind": "f",
+    "type": "string function()",
+    "lineno": 14,
+    "origin": {
+      "!span": "413[13:9]-423[13:19]",
+      "!type": "fn() -> string"
+    },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
@@ -129,6 +428,22 @@
     "kind": "f",
     "type": "string function()",
     "lineno": 14,
+    "origin": {
+      "!span": "413[13:9]-423[13:19]",
+      "!type": "fn() -> string"
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "monkeyAlias",
+    "addr": "/monkeyAlias/",
+    "kind": "f",
+    "type": "string function()",
+    "lineno": 18,
+    "origin": {
+      "!span": "504[17:4]-515[17:15]",
+      "!type": "fn() -> string"
+    },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
@@ -137,6 +452,10 @@
     "kind": "v",
     "type": "number",
     "lineno": 26,
+    "origin": {
+      "!span": "647[25:4]-650[25:7]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
@@ -145,6 +464,10 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 33,
+    "origin": {
+      "!span": "870[32:9]-874[32:13]",
+      "!type": "fn()"
+    },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
@@ -153,6 +476,20 @@
     "kind": "v",
     "type": "string",
     "lineno": 40,
+    "origin": {
+      "!span": "971[39:4]-974[39:7]",
+      "!type": "string"
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "o",
+    "addr": "/o/",
+    "kind": "v",
+    "lineno": 44,
+    "origin": {
+      "!span": "1042[43:4]-1043[43:5]"
+    },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
@@ -162,6 +499,10 @@
     "type": "!this.name function()",
     "lineno": 46,
     "namespace": "o",
+    "origin": {
+      "!span": "1069[45:2]-1076[45:9]",
+      "!type": "fn() -> !this.name"
+    },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
@@ -171,6 +512,10 @@
     "type": "string",
     "lineno": 48,
     "namespace": "o",
+    "origin": {
+      "!span": "1128[47:2]-1132[47:6]",
+      "!type": "string"
+    },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
@@ -180,6 +525,10 @@
     "type": "string",
     "lineno": 52,
     "namespace": "o",
+    "origin": {
+      "!span": "1170[51:2]-1173[51:5]",
+      "!type": "string"
+    },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
@@ -188,6 +537,10 @@
     "kind": "v",
     "type": "[bool]",
     "lineno": 3,
+    "origin": {
+      "!span": "79[2:4]-80[2:5]",
+      "!type": "[bool]"
+    },
     "tagfile": "__DIR__/effects.js"
   },
   {
@@ -196,6 +549,10 @@
     "kind": "v",
     "type": "[string|number]",
     "lineno": 7,
+    "origin": {
+      "!span": "120[6:4]-121[6:5]",
+      "!type": "[string|number]"
+    },
     "tagfile": "__DIR__/effects.js"
   },
   {
@@ -204,6 +561,10 @@
     "kind": "v",
     "type": "number",
     "lineno": 12,
+    "origin": {
+      "!span": "170[11:4]-171[11:5]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/effects.js"
   },
   {
@@ -212,6 +573,23 @@
     "kind": "f",
     "type": "void function(number)",
     "lineno": 13,
+    "origin": {
+      "!span": "182[12:9]-186[12:13]",
+      "!type": "fn(a: number)"
+    },
+    "tagfile": "__DIR__/effects.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 13,
+    "namespace": "setD",
+    "origin": {
+      "!span": "187[12:14]-188[12:15]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/effects.js"
   },
   {
@@ -220,6 +598,126 @@
     "kind": "f",
     "type": "void function(fn(arg: bool)",
     "lineno": 3,
+    "origin": {
+      "!span": "65[2:4]-74[2:13]",
+      "!type": "fn(child: fn(arg: bool)|fn(arg: bool), parent: fn()|fn(arg: bool))"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "parent",
+    "addr": "/parent/",
+    "kind": "f",
+    "type": "void function(bool)",
+    "lineno": 3,
+    "namespace": "__extends",
+    "origin": {
+      "!span": "93[2:32]-99[2:38]",
+      "!type": "fn(arg: bool)"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "child",
+    "addr": "/child/",
+    "kind": "f",
+    "type": "void function(bool)",
+    "lineno": 3,
+    "namespace": "__extends",
+    "origin": {
+      "!span": "86[2:25]-91[2:30]",
+      "!type": "fn(arg: bool)"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "key",
+    "addr": "/key/",
+    "kind": "v",
+    "lineno": 4,
+    "namespace": "__extends",
+    "origin": {
+      "!span": "114[3:11]-117[3:14]"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "ctor",
+    "addr": "/ctor/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 5,
+    "namespace": "__extends",
+    "origin": {
+      "!span": "170[4:11]-174[4:15]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "prototype",
+    "addr": "/prototype/",
+    "kind": "v",
+    "lineno": 7,
+    "namespace": "SubTwo.prototype.constructor",
+    "origin": {
+      "!span": "252[6:8]-261[6:17]"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "prototype",
+    "addr": "/prototype/",
+    "kind": "v",
+    "lineno": 7,
+    "namespace": "SubEleven.prototype.constructor",
+    "origin": {
+      "!span": "252[6:8]-261[6:17]"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "prototype",
+    "addr": "/prototype/",
+    "kind": "v",
+    "lineno": 7,
+    "namespace": "SubTwo",
+    "origin": {
+      "!span": "252[6:8]-261[6:17]"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "prototype",
+    "addr": "/prototype/",
+    "kind": "v",
+    "lineno": 7,
+    "namespace": "SubOne",
+    "origin": {
+      "!span": "252[6:8]-261[6:17]"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "prototype",
+    "addr": "/prototype/",
+    "kind": "v",
+    "lineno": 7,
+    "namespace": "SubEleven",
+    "origin": {
+      "!span": "252[6:8]-261[6:17]"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "prototype",
+    "addr": "/prototype/",
+    "kind": "v",
+    "lineno": 7,
+    "namespace": "SubOne.prototype.constructor",
+    "origin": {
+      "!span": "252[6:8]-261[6:17]"
+    },
     "tagfile": "__DIR__/extends.js"
   },
   {
@@ -228,6 +726,10 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 10,
+    "origin": {
+      "!span": "284[9:4]-287[9:7]",
+      "!type": "fn()"
+    },
     "tagfile": "__DIR__/extends.js"
   },
   {
@@ -237,6 +739,10 @@
     "type": "string function()",
     "lineno": 12,
     "namespace": "Top.prototype",
+    "origin": {
+      "!span": "340[11:16]-349[11:25]",
+      "!type": "fn() -> string"
+    },
     "tagfile": "__DIR__/extends.js"
   },
   {
@@ -246,6 +752,23 @@
     "type": "number",
     "lineno": 13,
     "namespace": "Top",
+    "origin": {
+      "!span": "386[12:6]-395[12:15]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "constructor",
+    "addr": "/SubOne/",
+    "kind": "f",
+    "type": "void function(bool)",
+    "lineno": 17,
+    "namespace": "SubOne.prototype",
+    "origin": {
+      "!span": "427[16:4]-433[16:10]",
+      "!type": "fn(arg: bool)"
+    },
     "tagfile": "__DIR__/extends.js"
   },
   {
@@ -254,6 +777,23 @@
     "kind": "f",
     "type": "void function(bool)",
     "lineno": 17,
+    "origin": {
+      "!span": "427[16:4]-433[16:10]",
+      "!type": "fn(arg: bool)"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "arg",
+    "addr": "/arg/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 18,
+    "namespace": "SubOne",
+    "origin": {
+      "!span": "474[17:18]-477[17:21]",
+      "!type": "bool"
+    },
     "tagfile": "__DIR__/extends.js"
   },
   {
@@ -263,6 +803,36 @@
     "type": "boolean",
     "lineno": 18,
     "namespace": "SubOne",
+    "origin": {
+      "!span": "486[17:30]-492[17:36]",
+      "!type": "bool"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "argOne",
+    "addr": "/argOne/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 18,
+    "namespace": "SubOne.prototype.constructor",
+    "origin": {
+      "!span": "486[17:30]-492[17:36]",
+      "!type": "bool"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "arg",
+    "addr": "/arg/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 18,
+    "namespace": "SubOne.prototype.constructor",
+    "origin": {
+      "!span": "474[17:18]-477[17:21]",
+      "!type": "bool"
+    },
     "tagfile": "__DIR__/extends.js"
   },
   {
@@ -272,6 +842,36 @@
     "type": "boolean",
     "lineno": 18,
     "namespace": "SubEleven",
+    "origin": {
+      "!span": "486[17:30]-492[17:36]",
+      "!type": "bool"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "argOne",
+    "addr": "/argOne/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 18,
+    "namespace": "SubEleven.prototype.constructor",
+    "origin": {
+      "!span": "486[17:30]-492[17:36]",
+      "!type": "bool"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "methodOne",
+    "addr": "/methodOne/",
+    "kind": "f",
+    "type": "number function()",
+    "lineno": 20,
+    "namespace": "SubOne.prototype.constructor.prototype",
+    "origin": {
+      "!span": "550[19:19]-559[19:28]",
+      "!type": "fn() -> number"
+    },
     "tagfile": "__DIR__/extends.js"
   },
   {
@@ -281,6 +881,10 @@
     "type": "number function()",
     "lineno": 20,
     "namespace": "SubOne.prototype",
+    "origin": {
+      "!span": "550[19:19]-559[19:28]",
+      "!type": "fn() -> number"
+    },
     "tagfile": "__DIR__/extends.js"
   },
   {
@@ -289,6 +893,49 @@
     "kind": "f",
     "type": "void function(bool)",
     "lineno": 24,
+    "origin": {
+      "!span": "618[23:4]-624[23:10]",
+      "!type": "fn(arg: bool)"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "constructor",
+    "addr": "/SubTwo/",
+    "kind": "f",
+    "type": "void function(bool)",
+    "lineno": 24,
+    "namespace": "SubTwo.prototype",
+    "origin": {
+      "!span": "618[23:4]-624[23:10]",
+      "!type": "fn(arg: bool)"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "argTwo",
+    "addr": "/argTwo/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 25,
+    "namespace": "SubTwo.prototype.constructor",
+    "origin": {
+      "!span": "677[24:30]-683[24:36]",
+      "!type": "bool"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "arg",
+    "addr": "/arg/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 25,
+    "namespace": "SubTwo.prototype.constructor",
+    "origin": {
+      "!span": "665[24:18]-668[24:21]",
+      "!type": "bool"
+    },
     "tagfile": "__DIR__/extends.js"
   },
   {
@@ -298,6 +945,23 @@
     "type": "boolean",
     "lineno": 25,
     "namespace": "SubTwo",
+    "origin": {
+      "!span": "677[24:30]-683[24:36]",
+      "!type": "bool"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "arg",
+    "addr": "/arg/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 25,
+    "namespace": "SubTwo",
+    "origin": {
+      "!span": "665[24:18]-668[24:21]",
+      "!type": "bool"
+    },
     "tagfile": "__DIR__/extends.js"
   },
   {
@@ -307,6 +971,36 @@
     "type": "void function()",
     "lineno": 27,
     "namespace": "SubTwo.prototype",
+    "origin": {
+      "!span": "741[26:19]-750[26:28]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "methodTwo",
+    "addr": "/methodTwo/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 27,
+    "namespace": "SubTwo.prototype.constructor.prototype",
+    "origin": {
+      "!span": "741[26:19]-750[26:28]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "constructor",
+    "addr": "/SubEleven/",
+    "kind": "f",
+    "type": "void function(bool)",
+    "lineno": 31,
+    "namespace": "SubEleven.prototype",
+    "origin": {
+      "!span": "811[30:4]-820[30:13]",
+      "!type": "fn(arg: bool)"
+    },
     "tagfile": "__DIR__/extends.js"
   },
   {
@@ -315,6 +1009,49 @@
     "kind": "f",
     "type": "void function(bool)",
     "lineno": 31,
+    "origin": {
+      "!span": "811[30:4]-820[30:13]",
+      "!type": "fn(arg: bool)"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "arg",
+    "addr": "/arg/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 32,
+    "namespace": "SubEleven.prototype.constructor",
+    "origin": {
+      "!span": "864[31:21]-867[31:24]",
+      "!type": "bool"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "arg",
+    "addr": "/arg/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 32,
+    "namespace": "SubEleven",
+    "origin": {
+      "!span": "864[31:21]-867[31:24]",
+      "!type": "bool"
+    },
+    "tagfile": "__DIR__/extends.js"
+  },
+  {
+    "name": "methodEleven",
+    "addr": "/methodEleven/",
+    "kind": "f",
+    "type": "string function()",
+    "lineno": 34,
+    "namespace": "SubEleven.prototype.constructor.prototype",
+    "origin": {
+      "!span": "951[33:22]-963[33:34]",
+      "!type": "fn() -> string"
+    },
     "tagfile": "__DIR__/extends.js"
   },
   {
@@ -324,30 +1061,46 @@
     "type": "string function()",
     "lineno": 34,
     "namespace": "SubEleven.prototype",
+    "origin": {
+      "!span": "951[33:22]-963[33:34]",
+      "!type": "fn() -> string"
+    },
     "tagfile": "__DIR__/extends.js"
   },
   {
     "name": "one",
     "addr": "/one/",
     "kind": "v",
-    "type": "+SubOne",
+    "type": "SubOne",
     "lineno": 38,
+    "origin": {
+      "!span": "1047[37:19]-1050[37:22]",
+      "!type": "+SubOne"
+    },
     "tagfile": "__DIR__/extends.js"
   },
   {
     "name": "two",
     "addr": "/two/",
     "kind": "v",
-    "type": "+SubTwo",
+    "type": "SubTwo",
     "lineno": 38,
+    "origin": {
+      "!span": "1071[37:43]-1074[37:46]",
+      "!type": "+SubTwo"
+    },
     "tagfile": "__DIR__/extends.js"
   },
   {
     "name": "elf",
     "addr": "/elf/",
     "kind": "v",
-    "type": "+SubEleven",
+    "type": "SubEleven",
     "lineno": 38,
+    "origin": {
+      "!span": "1096[37:68]-1099[37:71]",
+      "!type": "+SubEleven"
+    },
     "tagfile": "__DIR__/extends.js"
   },
   {
@@ -356,6 +1109,10 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 1,
+    "origin": {
+      "!span": "9[0:9]-13[0:13]",
+      "!type": "fn()"
+    },
     "tagfile": "__DIR__/finddef.js"
   },
   {
@@ -364,6 +1121,20 @@
     "kind": "v",
     "type": "number",
     "lineno": 3,
+    "origin": {
+      "!span": "24[2:4]-28[2:8]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "obj",
+    "addr": "/obj/",
+    "kind": "v",
+    "lineno": 5,
+    "origin": {
+      "!span": "40[4:4]-43[4:7]"
+    },
     "tagfile": "__DIR__/finddef.js"
   },
   {
@@ -373,6 +1144,10 @@
     "type": "number",
     "lineno": 6,
     "namespace": "obj",
+    "origin": {
+      "!span": "50[5:2]-55[5:7]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/finddef.js"
   },
   {
@@ -382,6 +1157,21 @@
     "type": "void function(?)",
     "lineno": 7,
     "namespace": "obj",
+    "origin": {
+      "!span": "63[6:2]-68[6:7]",
+      "!type": "fn(foo: ?)"
+    },
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "v",
+    "lineno": 7,
+    "namespace": "obj.prop2",
+    "origin": {
+      "!span": "79[6:18]-82[6:21]"
+    },
     "tagfile": "__DIR__/finddef.js"
   },
   {
@@ -391,14 +1181,22 @@
     "type": "string",
     "lineno": 10,
     "namespace": "obj",
+    "origin": {
+      "!span": "95[9:4]-100[9:9]",
+      "!type": "string"
+    },
     "tagfile": "__DIR__/finddef.js"
   },
   {
     "name": "hide",
     "addr": "/hide/",
     "kind": "f",
-    "type": "fn(foo: ?) function()",
+    "type": "void function(?) function()",
     "lineno": 19,
+    "origin": {
+      "!span": "243[18:9]-247[18:13]",
+      "!type": "fn() -> fn(foo: ?)"
+    },
     "tagfile": "__DIR__/finddef.js"
   },
   {
@@ -407,6 +1205,34 @@
     "kind": "f",
     "type": "void function(?)",
     "lineno": 23,
+    "origin": {
+      "!span": "303[22:9]-310[22:16]",
+      "!type": "fn(arg: ?)"
+    },
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "arg",
+    "addr": "/arg/",
+    "kind": "v",
+    "lineno": 23,
+    "namespace": "another",
+    "origin": {
+      "!span": "311[22:17]-314[22:20]"
+    },
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "local",
+    "addr": "/local/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 24,
+    "namespace": "another",
+    "origin": {
+      "!span": "324[23:6]-329[23:11]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/finddef.js"
   },
   {
@@ -415,6 +1241,53 @@
     "kind": "f",
     "type": "void function(?, ?)",
     "lineno": 1,
+    "origin": {
+      "!span": "9[0:9]-14[0:14]",
+      "!type": "fn(a: ?, b: ?)"
+    },
+    "tagfile": "__DIR__/findref.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "lineno": 1,
+    "namespace": "hello",
+    "origin": {
+      "!span": "15[0:15]-16[0:16]"
+    },
+    "tagfile": "__DIR__/findref.js"
+  },
+  {
+    "name": "b",
+    "addr": "/b/",
+    "kind": "v",
+    "lineno": 1,
+    "namespace": "hello",
+    "origin": {
+      "!span": "18[0:18]-19[0:19]"
+    },
+    "tagfile": "__DIR__/findref.js"
+  },
+  {
+    "name": "c",
+    "addr": "/c/",
+    "kind": "v",
+    "lineno": 2,
+    "namespace": "hello",
+    "origin": {
+      "!span": "29[1:6]-30[1:7]"
+    },
+    "tagfile": "__DIR__/findref.js"
+  },
+  {
+    "name": "obj",
+    "addr": "/obj/",
+    "kind": "v",
+    "lineno": 10,
+    "origin": {
+      "!span": "148[9:4]-151[9:7]"
+    },
     "tagfile": "__DIR__/findref.js"
   },
   {
@@ -424,6 +1297,10 @@
     "type": "number",
     "lineno": 11,
     "namespace": "obj",
+    "origin": {
+      "!span": "158[10:2]-159[10:3]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/findref.js"
   },
   {
@@ -433,6 +1310,10 @@
     "type": "number",
     "lineno": 13,
     "namespace": "obj",
+    "origin": {
+      "!span": "194[12:2]-195[12:3]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/findref.js"
   },
   {
@@ -442,6 +1323,10 @@
     "type": "string",
     "lineno": 17,
     "namespace": "obj",
+    "origin": {
+      "!span": "220[16:4]-221[16:5]",
+      "!type": "string"
+    },
     "tagfile": "__DIR__/findref.js"
   },
   {
@@ -450,6 +1335,23 @@
     "kind": "f",
     "type": "number function()",
     "lineno": 1,
+    "origin": {
+      "!span": "9[0:9]-12[0:12]",
+      "!type": "fn() -> number"
+    },
+    "tagfile": "__DIR__/fn_arguments.js"
+  },
+  {
+    "name": "arguments",
+    "addr": "/function abc\\(\\) \\{/",
+    "kind": "v",
+    "type": "[number]",
+    "lineno": 1,
+    "namespace": "abc",
+    "origin": {
+      "!span": "0[0:0]-41[2:1]",
+      "!type": "[number]"
+    },
     "tagfile": "__DIR__/fn_arguments.js"
   },
   {
@@ -458,6 +1360,75 @@
     "kind": "f",
     "type": "void function(Array[number]|[each.!0.<i>], fn(n: number)",
     "lineno": 2,
+    "origin": {
+      "!span": "44[1:4]-48[1:8]",
+      "!type": "fn(obj: [number]|[each.!0.<i>], iterator: fn(n: number)|fn(o: each.!0.<i>), context: ?)"
+    },
+    "tagfile": "__DIR__/generic_each.js"
+  },
+  {
+    "name": "context",
+    "addr": "/context/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 2,
+    "namespace": "each",
+    "origin": {
+      "!span": "75[1:35]-82[1:42]",
+      "!type": "+String"
+    },
+    "tagfile": "__DIR__/generic_each.js"
+  },
+  {
+    "name": "iterator",
+    "addr": "/iterator/",
+    "kind": "f",
+    "type": "void function(each.!0.<i>)",
+    "lineno": 2,
+    "namespace": "each",
+    "origin": {
+      "!span": "65[1:25]-73[1:33]",
+      "!type": "fn(o: each.!0.<i>)"
+    },
+    "tagfile": "__DIR__/generic_each.js"
+  },
+  {
+    "name": "obj",
+    "addr": "/obj/",
+    "kind": "v",
+    "type": "[each.!0.<i>]",
+    "lineno": 2,
+    "namespace": "each",
+    "origin": {
+      "!span": "60[1:20]-63[1:23]",
+      "!type": "[each.!0.<i>]"
+    },
+    "tagfile": "__DIR__/generic_each.js"
+  },
+  {
+    "name": "i",
+    "addr": "/i/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 7,
+    "namespace": "each",
+    "origin": {
+      "!span": "281[6:13]-282[6:14]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/generic_each.js"
+  },
+  {
+    "name": "l",
+    "addr": "/l/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 7,
+    "namespace": "each",
+    "origin": {
+      "!span": "288[6:20]-289[6:21]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/generic_each.js"
   },
   {
@@ -466,6 +1437,10 @@
     "kind": "v",
     "type": "number",
     "lineno": 1,
+    "origin": {
+      "!span": "4[0:4]-7[0:7]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/global_this.js"
   },
   {
@@ -474,6 +1449,23 @@
     "kind": "f",
     "type": "void function(f)",
     "lineno": 3,
+    "origin": {
+      "!span": "18[2:4]-19[2:5]",
+      "!type": "fn(n: f)"
+    },
+    "tagfile": "__DIR__/infinite-expansion.js"
+  },
+  {
+    "name": "n",
+    "addr": "/n/",
+    "kind": "f",
+    "type": "void function(f)",
+    "lineno": 3,
+    "namespace": "f",
+    "origin": {
+      "!span": "31[2:17]-32[2:18]",
+      "!type": "fn(n: f)"
+    },
     "tagfile": "__DIR__/infinite-expansion.js"
   },
   {
@@ -482,30 +1474,95 @@
     "kind": "v",
     "type": "[x]",
     "lineno": 10,
+    "origin": {
+      "!span": "210[9:4]-211[9:5]",
+      "!type": "[x]"
+    },
     "tagfile": "__DIR__/infinite-expansion.js"
   },
   {
     "name": "goop",
     "addr": "/goop/",
     "kind": "f",
-    "type": "fn(f: ?) function(number)",
+    "type": "void function(?) function(number)",
     "lineno": 15,
+    "origin": {
+      "!span": "262[14:9]-266[14:13]",
+      "!type": "fn(n: number) -> fn(f: ?)"
+    },
+    "tagfile": "__DIR__/infinite-expansion.js"
+  },
+  {
+    "name": "n",
+    "addr": "/n/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 15,
+    "namespace": "goop",
+    "origin": {
+      "!span": "267[14:14]-268[14:15]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/infinite-expansion.js"
   },
   {
     "name": "a",
     "addr": "/a/",
     "kind": "v",
-    "type": "+Date",
+    "type": "Date",
     "lineno": 2,
+    "origin": {
+      "!span": "24[1:4]-25[1:5]",
+      "!type": "+Date"
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "c",
+    "addr": "/c/",
+    "kind": "v",
+    "lineno": 8,
+    "origin": {
+      "!span": "133[7:4]-134[7:5]"
+    },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
     "name": "foo",
     "addr": "/foo/",
     "kind": "f",
-    "type": "Array function(number, string)",
+    "type": "[number] function(number, string)",
     "lineno": 17,
+    "origin": {
+      "!span": "291[16:9]-294[16:12]",
+      "!type": "fn(a: number, b: string) -> [number]"
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 17,
+    "namespace": "foo",
+    "origin": {
+      "!span": "295[16:13]-296[16:14]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "b",
+    "addr": "/b/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 17,
+    "namespace": "foo",
+    "origin": {
+      "!span": "298[16:16]-299[16:17]",
+      "!type": "string"
+    },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
@@ -514,6 +1571,46 @@
     "kind": "f",
     "type": "string function(number, number)",
     "lineno": 25,
+    "origin": {
+      "!span": "448[24:4]-451[24:7]",
+      "!type": "fn(a: number, b: number) -> string"
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 25,
+    "namespace": "bar",
+    "origin": {
+      "!span": "463[24:19]-464[24:20]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "b",
+    "addr": "/b/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 25,
+    "namespace": "bar",
+    "origin": {
+      "!span": "466[24:22]-467[24:23]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "o",
+    "addr": "/o/",
+    "kind": "v",
+    "lineno": 29,
+    "origin": {
+      "!span": "555[28:4]-556[28:5]"
+    },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
@@ -523,6 +1620,10 @@
     "type": "string",
     "lineno": 31,
     "namespace": "o",
+    "origin": {
+      "!span": "587[30:2]-592[30:7]",
+      "!type": "string"
+    },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
@@ -532,6 +1633,10 @@
     "type": "number function()",
     "lineno": 34,
     "namespace": "o",
+    "origin": {
+      "!span": "635[33:2]-640[33:7]",
+      "!type": "fn() -> number"
+    },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
@@ -541,6 +1646,10 @@
     "type": "string function()",
     "lineno": 38,
     "namespace": "o",
+    "origin": {
+      "!span": "707[37:2]-712[37:7]",
+      "!type": "fn() -> string"
+    },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
@@ -549,6 +1658,21 @@
     "kind": "f",
     "type": "number function(?)",
     "lineno": 1,
+    "origin": {
+      "!span": "9[0:9]-12[0:12]",
+      "!type": "fn(a: ?) -> number"
+    },
+    "tagfile": "__DIR__/merge.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "lineno": 1,
+    "namespace": "sum",
+    "origin": {
+      "!span": "13[0:13]-14[0:14]"
+    },
     "tagfile": "__DIR__/merge.js"
   },
   {
@@ -557,6 +1681,10 @@
     "kind": "v",
     "type": "[string]",
     "lineno": 1,
+    "origin": {
+      "!span": "4[0:4]-5[0:5]",
+      "!type": "[string]"
+    },
     "tagfile": "__DIR__/new_array.js"
   },
   {
@@ -565,6 +1693,10 @@
     "kind": "v",
     "type": "[bool]",
     "lineno": 5,
+    "origin": {
+      "!span": "57[4:4]-58[4:5]",
+      "!type": "[bool]"
+    },
     "tagfile": "__DIR__/new_array.js"
   },
   {
@@ -573,6 +1705,10 @@
     "kind": "v",
     "type": "[?]",
     "lineno": 8,
+    "origin": {
+      "!span": "111[7:4]-112[7:5]",
+      "!type": "[?]"
+    },
     "tagfile": "__DIR__/new_array.js"
   },
   {
@@ -581,6 +1717,10 @@
     "kind": "v",
     "type": "[string]",
     "lineno": 11,
+    "origin": {
+      "!span": "146[10:4]-147[10:5]",
+      "!type": "[string]"
+    },
     "tagfile": "__DIR__/new_array.js"
   },
   {
@@ -589,6 +1729,10 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 1,
+    "origin": {
+      "!span": "9[0:9]-10[0:10]",
+      "!type": "fn()"
+    },
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
@@ -598,6 +1742,10 @@
     "type": "number",
     "lineno": 2,
     "namespace": "A.prototype",
+    "origin": {
+      "!span": "28[1:12]-34[1:18]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
@@ -606,6 +1754,21 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 3,
+    "origin": {
+      "!span": "49[2:9]-50[2:10]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/new_to_prototype.js"
+  },
+  {
+    "name": "prototype",
+    "addr": "/prototype/",
+    "kind": "v",
+    "lineno": 4,
+    "namespace": "B",
+    "origin": {
+      "!span": "58[3:2]-67[3:11]"
+    },
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
@@ -615,6 +1778,10 @@
     "type": "number",
     "lineno": 5,
     "namespace": "B.prototype",
+    "origin": {
+      "!span": "89[4:12]-95[4:18]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
@@ -623,6 +1790,21 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 6,
+    "origin": {
+      "!span": "110[5:9]-111[5:10]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/new_to_prototype.js"
+  },
+  {
+    "name": "prototype",
+    "addr": "/prototype/",
+    "kind": "v",
+    "lineno": 7,
+    "namespace": "C",
+    "origin": {
+      "!span": "119[6:2]-128[6:11]"
+    },
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
@@ -632,15 +1814,20 @@
     "type": "number",
     "lineno": 8,
     "namespace": "C.prototype",
+    "origin": {
+      "!span": "150[7:12]-156[7:18]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
-    "name": "foo",
-    "addr": "/foo/",
+    "name": "base",
+    "addr": "/base/",
     "kind": "v",
-    "type": "number",
     "lineno": 1,
-    "namespace": "base",
+    "origin": {
+      "!span": "4[0:4]-8[0:8]"
+    },
     "tagfile": "__DIR__/object_create.js"
   },
   {
@@ -650,6 +1837,43 @@
     "type": "number",
     "lineno": 1,
     "namespace": "base",
+    "origin": {
+      "!span": "21[0:21]-24[0:24]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/object_create.js"
+  },
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 1,
+    "namespace": "base",
+    "origin": {
+      "!span": "12[0:12]-15[0:15]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/object_create.js"
+  },
+  {
+    "name": "gen1",
+    "addr": "/gen1/",
+    "kind": "v",
+    "lineno": 2,
+    "origin": {
+      "!span": "35[1:4]-39[1:8]"
+    },
+    "tagfile": "__DIR__/object_create.js"
+  },
+  {
+    "name": "gen2",
+    "addr": "/gen2/",
+    "kind": "v",
+    "lineno": 3,
+    "origin": {
+      "!span": "67[2:4]-71[2:8]"
+    },
     "tagfile": "__DIR__/object_create.js"
   },
   {
@@ -659,6 +1883,10 @@
     "type": "number",
     "lineno": 5,
     "namespace": "base",
+    "origin": {
+      "!span": "101[4:5]-104[4:8]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/object_create.js"
   },
   {
@@ -668,6 +1896,10 @@
     "type": "number",
     "lineno": 6,
     "namespace": "gen1",
+    "origin": {
+      "!span": "116[5:5]-120[5:9]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/object_create.js"
   },
   {
@@ -677,6 +1909,30 @@
     "type": "number",
     "lineno": 7,
     "namespace": "gen2",
+    "origin": {
+      "!span": "132[6:5]-136[6:9]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/object_create.js"
+  },
+  {
+    "name": "extend",
+    "addr": "/extend/",
+    "kind": "v",
+    "lineno": 23,
+    "origin": {
+      "!span": "300[22:4]-306[22:10]"
+    },
+    "tagfile": "__DIR__/object_create.js"
+  },
+  {
+    "name": "empty",
+    "addr": "/empty/",
+    "kind": "v",
+    "lineno": 29,
+    "origin": {
+      "!span": "420[28:4]-425[28:9]"
+    },
     "tagfile": "__DIR__/object_create.js"
   },
   {
@@ -686,6 +1942,10 @@
     "type": "string",
     "lineno": 30,
     "namespace": "empty",
+    "origin": {
+      "!span": "455[29:6]-460[29:11]",
+      "!type": "string"
+    },
     "tagfile": "__DIR__/object_create.js"
   },
   {
@@ -694,6 +1954,21 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 1,
+    "origin": {
+      "!span": "9[0:9]-14[0:14]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/objnames.js"
+  },
+  {
+    "name": "prototype",
+    "addr": "/prototype/",
+    "kind": "v",
+    "lineno": 2,
+    "namespace": "Ctor1",
+    "origin": {
+      "!span": "40[1:6]-49[1:15]"
+    },
     "tagfile": "__DIR__/objnames.js"
   },
   {
@@ -703,6 +1978,10 @@
     "type": "number",
     "lineno": 2,
     "namespace": "Ctor1.prototype",
+    "origin": {
+      "!span": "53[1:19]-54[1:20]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/objnames.js"
   },
   {
@@ -711,6 +1990,20 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 4,
+    "origin": {
+      "!span": "70[3:9]-75[3:14]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/objnames.js"
+  },
+  {
+    "name": "singleton",
+    "addr": "/singleton/",
+    "kind": "v",
+    "lineno": 6,
+    "origin": {
+      "!span": "86[5:4]-95[5:13]"
+    },
     "tagfile": "__DIR__/objnames.js"
   },
   {
@@ -720,6 +2013,10 @@
     "type": "number",
     "lineno": 6,
     "namespace": "singleton",
+    "origin": {
+      "!span": "99[5:17]-100[5:18]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/objnames.js"
   },
   {
@@ -729,6 +2026,10 @@
     "type": "number",
     "lineno": 6,
     "namespace": "singleton",
+    "origin": {
+      "!span": "106[5:24]-107[5:25]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/objnames.js"
   },
   {
@@ -737,6 +2038,10 @@
     "kind": "v",
     "type": "number",
     "lineno": 1,
+    "origin": {
+      "!span": "4[0:4]-5[0:5]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/plus.js"
   },
   {
@@ -745,6 +2050,10 @@
     "kind": "v",
     "type": "string",
     "lineno": 2,
+    "origin": {
+      "!span": "16[1:4]-17[1:5]",
+      "!type": "string"
+    },
     "tagfile": "__DIR__/plus.js"
   },
   {
@@ -753,6 +2062,10 @@
     "kind": "f",
     "type": "void function(bool)",
     "lineno": 1,
+    "origin": {
+      "!span": "9[0:9]-12[0:12]",
+      "!type": "fn(x: bool)"
+    },
     "tagfile": "__DIR__/proto.js"
   },
   {
@@ -760,8 +2073,12 @@
     "addr": "/x/",
     "kind": "v",
     "type": "boolean",
-    "lineno": 2,
+    "lineno": 1,
     "namespace": "Foo",
+    "origin": {
+      "!span": "13[0:13]-14[0:14]",
+      "!type": "bool"
+    },
     "tagfile": "__DIR__/proto.js"
   },
   {
@@ -771,6 +2088,21 @@
     "type": "[number]",
     "lineno": 3,
     "namespace": "Foo",
+    "origin": {
+      "!span": "39[2:7]-40[2:8]",
+      "!type": "[number]"
+    },
+    "tagfile": "__DIR__/proto.js"
+  },
+  {
+    "name": "prototype",
+    "addr": "/prototype/",
+    "kind": "v",
+    "lineno": 7,
+    "namespace": "Foo",
+    "origin": {
+      "!span": "76[6:4]-85[6:13]"
+    },
     "tagfile": "__DIR__/proto.js"
   },
   {
@@ -780,6 +2112,10 @@
     "type": "string function()",
     "lineno": 8,
     "namespace": "Foo.prototype",
+    "origin": {
+      "!span": "92[7:2]-102[7:12]",
+      "!type": "fn() -> string"
+    },
     "tagfile": "__DIR__/proto.js"
   },
   {
@@ -789,14 +2125,22 @@
     "type": "number",
     "lineno": 9,
     "namespace": "Foo.prototype",
+    "origin": {
+      "!span": "135[8:2]-138[8:5]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/proto.js"
   },
   {
     "name": "z",
     "addr": "/z/",
     "kind": "v",
-    "type": "+Foo",
+    "type": "Foo",
     "lineno": 12,
+    "origin": {
+      "!span": "151[11:4]-152[11:5]",
+      "!type": "+Foo"
+    },
     "tagfile": "__DIR__/proto.js"
   },
   {
@@ -805,6 +2149,10 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 1,
+    "origin": {
+      "!span": "9[0:9]-13[0:13]",
+      "!type": "fn()"
+    },
     "tagfile": "__DIR__/protoname.js"
   },
   {
@@ -813,6 +2161,10 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 7,
+    "origin": {
+      "!span": "105[6:9]-109[6:13]",
+      "!type": "fn()"
+    },
     "tagfile": "__DIR__/protoname.js"
   },
   {
@@ -821,6 +2173,10 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 11,
+    "origin": {
+      "!span": "175[10:9]-179[10:13]",
+      "!type": "fn()"
+    },
     "tagfile": "__DIR__/protoname.js"
   },
   {
@@ -829,6 +2185,10 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 15,
+    "origin": {
+      "!span": "264[14:9]-269[14:14]",
+      "!type": "fn()"
+    },
     "tagfile": "__DIR__/protoname.js"
   },
   {
@@ -837,14 +2197,22 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 17,
+    "origin": {
+      "!span": "285[16:9]-289[16:13]",
+      "!type": "fn()"
+    },
     "tagfile": "__DIR__/protoname.js"
   },
   {
     "name": "x",
     "addr": "/x/",
     "kind": "v",
-    "type": "+Type",
+    "type": "Type",
     "lineno": 1,
+    "origin": {
+      "!span": "4[0:4]-5[0:5]",
+      "!type": "+Type"
+    },
     "tagfile": "__DIR__/replace_bogus_prop.js"
   },
   {
@@ -853,6 +2221,10 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 5,
+    "origin": {
+      "!span": "49[4:9]-53[4:13]",
+      "!type": "fn()"
+    },
     "tagfile": "__DIR__/replace_bogus_prop.js"
   },
   {
@@ -862,6 +2234,10 @@
     "type": "string",
     "lineno": 6,
     "namespace": "Type.prototype",
+    "origin": {
+      "!span": "74[5:15]-77[5:18]",
+      "!type": "string"
+    },
     "tagfile": "__DIR__/replace_bogus_prop.js"
   },
   {
@@ -870,6 +2246,57 @@
     "kind": "v",
     "type": "number",
     "lineno": 1,
+    "origin": {
+      "!span": "4[0:4]-7[0:7]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "x",
+    "addr": "/x/",
+    "kind": "v",
+    "lineno": 6,
+    "origin": {
+      "!span": "64[5:4]-65[5:5]"
+    },
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "baz",
+    "addr": "/baz/",
+    "kind": "v",
+    "lineno": 7,
+    "namespace": "x",
+    "origin": {
+      "!span": "72[6:2]-75[6:5]"
+    },
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "haz",
+    "addr": "/haz/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 8,
+    "namespace": "x.baz",
+    "origin": {
+      "!span": "83[7:4]-86[7:7]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "laz",
+    "addr": "/laz/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 9,
+    "namespace": "x.baz",
+    "origin": {
+      "!span": "95[8:4]-98[8:7]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/simple.js"
   },
   {
@@ -877,7 +2304,11 @@
     "addr": "/init/",
     "kind": "f",
     "type": "void function(x)",
-    "lineno": 8,
+    "lineno": 13,
+    "origin": {
+      "!span": "119[12:9]-123[12:13]",
+      "!type": "fn(v: x)"
+    },
     "tagfile": "__DIR__/simple.js"
   },
   {
@@ -885,8 +2316,12 @@
     "addr": "/foo/",
     "kind": "v",
     "type": "number",
-    "lineno": 9,
+    "lineno": 14,
     "namespace": "x",
+    "origin": {
+      "!span": "133[13:4]-136[13:7]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/simple.js"
   },
   {
@@ -894,8 +2329,90 @@
     "addr": "/bar/",
     "kind": "v",
     "type": "number",
-    "lineno": 10,
+    "lineno": 15,
     "namespace": "x",
+    "origin": {
+      "!span": "147[14:4]-150[14:7]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 16,
+    "namespace": "init",
+    "origin": {
+      "!span": "166[15:6]-167[15:7]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "t",
+    "addr": "/t/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 17,
+    "namespace": "init.a",
+    "origin": {
+      "!span": "191[16:8]-192[16:9]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "g",
+    "addr": "/g/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 18,
+    "namespace": "init.a.t",
+    "origin": {
+      "!span": "218[17:10]-219[17:11]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "y",
+    "addr": "/y/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 19,
+    "namespace": "init.a.t.g",
+    "origin": {
+      "!span": "247[18:12]-248[18:13]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "m",
+    "addr": "/m/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 22,
+    "namespace": "init.a.t",
+    "origin": {
+      "!span": "274[21:10]-275[21:11]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/simple.js"
+  },
+  {
+    "name": "w",
+    "addr": "/w/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 23,
+    "namespace": "init.a.t.m",
+    "origin": {
+      "!span": "303[22:12]-304[22:13]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/simple.js"
   },
   {
@@ -904,6 +2421,23 @@
     "kind": "f",
     "type": "!0.<i> function(Array[number]|[string])",
     "lineno": 1,
+    "origin": {
+      "!span": "9[0:9]-13[0:13]",
+      "!type": "fn(arr: [number]|[string]) -> !0.<i>"
+    },
+    "tagfile": "__DIR__/simple_generic.js"
+  },
+  {
+    "name": "arr",
+    "addr": "/arr/",
+    "kind": "v",
+    "type": "[number]|[string]",
+    "lineno": 1,
+    "namespace": "last",
+    "origin": {
+      "!span": "14[0:14]-17[0:17]",
+      "!type": "[number]|[string]"
+    },
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
@@ -912,6 +2446,62 @@
     "kind": "f",
     "type": "string|fn() -> bool) -> [?] function(Array[number], fn()",
     "lineno": 6,
+    "origin": {
+      "!span": "124[5:9]-127[5:12]",
+      "!type": "fn(arr: [number], f: fn() -> string|fn() -> bool) -> [?]"
+    },
+    "tagfile": "__DIR__/simple_generic.js"
+  },
+  {
+    "name": "arr",
+    "addr": "/arr/",
+    "kind": "v",
+    "type": "[number]",
+    "lineno": 6,
+    "namespace": "map",
+    "origin": {
+      "!span": "128[5:13]-131[5:16]",
+      "!type": "[number]"
+    },
+    "tagfile": "__DIR__/simple_generic.js"
+  },
+  {
+    "name": "f",
+    "addr": "/f/",
+    "kind": "f",
+    "type": "boolean function()",
+    "lineno": 6,
+    "namespace": "map",
+    "origin": {
+      "!span": "133[5:18]-134[5:19]",
+      "!type": "fn() -> bool"
+    },
+    "tagfile": "__DIR__/simple_generic.js"
+  },
+  {
+    "name": "res",
+    "addr": "/res/",
+    "kind": "v",
+    "type": "[bool]",
+    "lineno": 7,
+    "namespace": "map",
+    "origin": {
+      "!span": "144[6:6]-147[6:9]",
+      "!type": "[bool]"
+    },
+    "tagfile": "__DIR__/simple_generic.js"
+  },
+  {
+    "name": "i",
+    "addr": "/i/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 8,
+    "namespace": "map",
+    "origin": {
+      "!span": "165[7:11]-166[7:12]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/simple_generic.js"
   }
 ]

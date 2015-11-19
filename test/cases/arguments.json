@@ -5,6 +5,10 @@
     "kind": "v",
     "type": "number",
     "lineno": 1,
+    "origin": {
+      "!span": "4[0:4]-13[0:13]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/arguments.js"
   }
 ]

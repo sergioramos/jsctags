@@ -1,9 +1,13 @@
-Quux	__DIR__/docstrings.js	/Quux/;"	f	lineno:33	type:void function()
-abc	__DIR__/docstrings.js	/abc/;"	v	lineno:26	type:number
-baz	__DIR__/docstrings.js	/baz/;"	v	lineno:40	type:string
-foo	__DIR__/docstrings.js	/foo/;"	v	lineno:52	namespace:o	type:string
+myalias	__DIR__/docstrings.js	/myalias/;"	f	lineno:4	type:void function(number)
 foo	__DIR__/docstrings.js	/foo/;"	v	lineno:9	type:number
-getName	__DIR__/docstrings.js	/getName/;"	f	lineno:46	namespace:o	type:!this.name function()
+monkeyAlias	__DIR__/docstrings.js	/makeMonkey/;"	f	lineno:14	type:string function()
 makeMonkey	__DIR__/docstrings.js	/makeMonkey/;"	f	lineno:14	type:string function()
+monkeyAlias	__DIR__/docstrings.js	/monkeyAlias/;"	f	lineno:18	type:string function()
+abc	__DIR__/docstrings.js	/abc/;"	v	lineno:26	type:number
+Quux	__DIR__/docstrings.js	/Quux/;"	f	lineno:33	type:void function()
+baz	__DIR__/docstrings.js	/baz/;"	v	lineno:40	type:string
+o	__DIR__/docstrings.js	/o/;"	v	lineno:44
+getName	__DIR__/docstrings.js	/getName/;"	f	lineno:46	namespace:o	type:!this.name function()
 name	__DIR__/docstrings.js	/name/;"	v	lineno:48	namespace:o	type:string
+foo	__DIR__/docstrings.js	/foo/;"	v	lineno:52	namespace:o	type:string
 

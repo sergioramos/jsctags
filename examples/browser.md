@@ -17,9 +17,13 @@ e_which; //: number
     "name": "newElt",
     "addr": "/newElt/",
     "kind": "v",
-    "type": "+Element",
+    "type": "Element",
     "lineno": 5,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/browser.js"
+    "origin": {
+      "!span": "63[4:4]-69[4:10]",
+      "!type": "+Element"
+    },
+    "tagfile": "__DIR__/browser.js"
   },
   {
     "name": "e_which",
@@ -27,11 +31,15 @@ e_which; //: number
     "kind": "v",
     "type": "number",
     "lineno": 9,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/browser.js"
+    "origin": {
+      "!span": "153[8:4]-160[8:11]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/browser.js"
   }
 ]
 ```
 ```ctags
-e_which	/usr/local/lib/node_modules/jsctags/test/cases/browser.js	/e_which/;"	v	lineno:9	type:number
-newElt	/usr/local/lib/node_modules/jsctags/test/cases/browser.js	/newElt/;"	v	lineno:5	type:+Element
+newElt	__DIR__/browser.js	/newElt/;"	v	lineno:5	type:Element
+e_which	__DIR__/browser.js	/e_which/;"	v	lineno:9	type:number
 ```

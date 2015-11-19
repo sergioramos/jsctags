@@ -5,6 +5,10 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 1,
+    "origin": {
+      "!span": "9[0:9]-13[0:13]",
+      "!type": "fn()"
+    },
     "tagfile": "__DIR__/protoname.js"
   },
   {
@@ -13,6 +17,10 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 7,
+    "origin": {
+      "!span": "105[6:9]-109[6:13]",
+      "!type": "fn()"
+    },
     "tagfile": "__DIR__/protoname.js"
   },
   {
@@ -21,6 +29,10 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 11,
+    "origin": {
+      "!span": "175[10:9]-179[10:13]",
+      "!type": "fn()"
+    },
     "tagfile": "__DIR__/protoname.js"
   },
   {
@@ -29,6 +41,10 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 15,
+    "origin": {
+      "!span": "264[14:9]-269[14:14]",
+      "!type": "fn()"
+    },
     "tagfile": "__DIR__/protoname.js"
   },
   {
@@ -37,6 +53,10 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 17,
+    "origin": {
+      "!span": "285[16:9]-289[16:13]",
+      "!type": "fn()"
+    },
     "tagfile": "__DIR__/protoname.js"
   }
 ]

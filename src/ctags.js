@@ -11,7 +11,8 @@ var SPECIAL_FIELDS = {
   addr: true,
   kind: true,
   name: true,
-  tagfile: true
+  tagfile: true,
+  origin: true
 };
 
 module.exports = function (tags) {
@@ -38,9 +39,14 @@ module.exports = function (tags) {
     if (tag.kind !== undefined) buf.push('\t', tag.kind);
 
     tagfields.forEach(function (tagfield) {
+      if (!tag[tagfield]) {
+        return;
+      }
+
       if (typeof tag[tagfield] !== 'string') {
         tag[tagfield] = tag[tagfield].toString();
       }
+
       buf.push('\t', tagfield, ':');
       buf.push(tag[tagfield].replace('[\\\n\r\t]', function (str) {
         return ESCAPES[str];

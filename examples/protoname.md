@@ -28,7 +28,11 @@ new Sub3(); //: Sub3
     "kind": "f",
     "type": "void function()",
     "lineno": 1,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/protoname.js"
+    "origin": {
+      "!span": "9[0:9]-13[0:13]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/protoname.js"
   },
   {
     "name": "Sub1",
@@ -36,7 +40,11 @@ new Sub3(); //: Sub3
     "kind": "f",
     "type": "void function()",
     "lineno": 7,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/protoname.js"
+    "origin": {
+      "!span": "105[6:9]-109[6:13]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/protoname.js"
   },
   {
     "name": "Sub2",
@@ -44,7 +52,11 @@ new Sub3(); //: Sub3
     "kind": "f",
     "type": "void function()",
     "lineno": 11,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/protoname.js"
+    "origin": {
+      "!span": "175[10:9]-179[10:13]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/protoname.js"
   },
   {
     "name": "Base2",
@@ -52,7 +64,11 @@ new Sub3(); //: Sub3
     "kind": "f",
     "type": "void function()",
     "lineno": 15,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/protoname.js"
+    "origin": {
+      "!span": "264[14:9]-269[14:14]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/protoname.js"
   },
   {
     "name": "Sub3",
@@ -60,14 +76,18 @@ new Sub3(); //: Sub3
     "kind": "f",
     "type": "void function()",
     "lineno": 17,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/protoname.js"
+    "origin": {
+      "!span": "285[16:9]-289[16:13]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/protoname.js"
   }
 ]
 ```
 ```ctags
-Base	/usr/local/lib/node_modules/jsctags/test/cases/protoname.js	/Base/;"	f	lineno:1	type:void function()
-Base2	/usr/local/lib/node_modules/jsctags/test/cases/protoname.js	/Base2/;"	f	lineno:15	type:void function()
-Sub1	/usr/local/lib/node_modules/jsctags/test/cases/protoname.js	/Sub1/;"	f	lineno:7	type:void function()
-Sub2	/usr/local/lib/node_modules/jsctags/test/cases/protoname.js	/Sub2/;"	f	lineno:11	type:void function()
-Sub3	/usr/local/lib/node_modules/jsctags/test/cases/protoname.js	/Sub3/;"	f	lineno:17	type:void function()
+Base	__DIR__/protoname.js	/Base/;"	f	lineno:1	type:void function()
+Sub1	__DIR__/protoname.js	/Sub1/;"	f	lineno:7	type:void function()
+Sub2	__DIR__/protoname.js	/Sub2/;"	f	lineno:11	type:void function()
+Base2	__DIR__/protoname.js	/Base2/;"	f	lineno:15	type:void function()
+Sub3	__DIR__/protoname.js	/Sub3/;"	f	lineno:17	type:void function()
 ```

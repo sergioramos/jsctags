@@ -59,12 +59,40 @@ o.foo; //doc: The string "foo".
 ```json
 [
   {
+    "name": "myalias",
+    "addr": "/myalias/",
+    "kind": "f",
+    "type": "void function(number)",
+    "lineno": 4,
+    "origin": {
+      "!span": "185[3:4]-192[3:11]",
+      "!type": "fn(ms: number)"
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
     "type": "number",
     "lineno": 9,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js"
+    "origin": {
+      "!span": "323[8:4]-326[8:7]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "monkeyAlias",
+    "addr": "/makeMonkey/",
+    "kind": "f",
+    "type": "string function()",
+    "lineno": 14,
+    "origin": {
+      "!span": "413[13:9]-423[13:19]",
+      "!type": "fn() -> string"
+    },
+    "tagfile": "__DIR__/docstrings.js"
   },
   {
     "name": "makeMonkey",
@@ -72,7 +100,23 @@ o.foo; //doc: The string "foo".
     "kind": "f",
     "type": "string function()",
     "lineno": 14,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js"
+    "origin": {
+      "!span": "413[13:9]-423[13:19]",
+      "!type": "fn() -> string"
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "monkeyAlias",
+    "addr": "/monkeyAlias/",
+    "kind": "f",
+    "type": "string function()",
+    "lineno": 18,
+    "origin": {
+      "!span": "504[17:4]-515[17:15]",
+      "!type": "fn() -> string"
+    },
+    "tagfile": "__DIR__/docstrings.js"
   },
   {
     "name": "abc",
@@ -80,7 +124,11 @@ o.foo; //doc: The string "foo".
     "kind": "v",
     "type": "number",
     "lineno": 26,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js"
+    "origin": {
+      "!span": "647[25:4]-650[25:7]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/docstrings.js"
   },
   {
     "name": "Quux",
@@ -88,7 +136,11 @@ o.foo; //doc: The string "foo".
     "kind": "f",
     "type": "void function()",
     "lineno": 33,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js"
+    "origin": {
+      "!span": "870[32:9]-874[32:13]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/docstrings.js"
   },
   {
     "name": "baz",
@@ -96,7 +148,21 @@ o.foo; //doc: The string "foo".
     "kind": "v",
     "type": "string",
     "lineno": 40,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js"
+    "origin": {
+      "!span": "971[39:4]-974[39:7]",
+      "!type": "string"
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "name": "o",
+    "addr": "/o/",
+    "kind": "v",
+    "lineno": 44,
+    "origin": {
+      "!span": "1042[43:4]-1043[43:5]"
+    },
+    "tagfile": "__DIR__/docstrings.js"
   },
   {
     "name": "getName",
@@ -105,7 +171,11 @@ o.foo; //doc: The string "foo".
     "type": "!this.name function()",
     "lineno": 46,
     "namespace": "o",
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js"
+    "origin": {
+      "!span": "1069[45:2]-1076[45:9]",
+      "!type": "fn() -> !this.name"
+    },
+    "tagfile": "__DIR__/docstrings.js"
   },
   {
     "name": "name",
@@ -114,7 +184,11 @@ o.foo; //doc: The string "foo".
     "type": "string",
     "lineno": 48,
     "namespace": "o",
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js"
+    "origin": {
+      "!span": "1128[47:2]-1132[47:6]",
+      "!type": "string"
+    },
+    "tagfile": "__DIR__/docstrings.js"
   },
   {
     "name": "foo",
@@ -123,17 +197,25 @@ o.foo; //doc: The string "foo".
     "type": "string",
     "lineno": 52,
     "namespace": "o",
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js"
+    "origin": {
+      "!span": "1170[51:2]-1173[51:5]",
+      "!type": "string"
+    },
+    "tagfile": "__DIR__/docstrings.js"
   }
 ]
 ```
 ```ctags
-Quux	/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js	/Quux/;"	f	lineno:33	type:void function()
-abc	/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js	/abc/;"	v	lineno:26	type:number
-baz	/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js	/baz/;"	v	lineno:40	type:string
-foo	/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js	/foo/;"	v	lineno:52	namespace:o	type:string
-foo	/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js	/foo/;"	v	lineno:9	type:number
-getName	/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js	/getName/;"	f	lineno:46	namespace:o	type:!this.name function()
-makeMonkey	/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js	/makeMonkey/;"	f	lineno:14	type:string function()
-name	/usr/local/lib/node_modules/jsctags/test/cases/docstrings.js	/name/;"	v	lineno:48	namespace:o	type:string
+myalias	__DIR__/docstrings.js	/myalias/;"	f	lineno:4	type:void function(number)
+foo	__DIR__/docstrings.js	/foo/;"	v	lineno:9	type:number
+monkeyAlias	__DIR__/docstrings.js	/makeMonkey/;"	f	lineno:14	type:string function()
+makeMonkey	__DIR__/docstrings.js	/makeMonkey/;"	f	lineno:14	type:string function()
+monkeyAlias	__DIR__/docstrings.js	/monkeyAlias/;"	f	lineno:18	type:string function()
+abc	__DIR__/docstrings.js	/abc/;"	v	lineno:26	type:number
+Quux	__DIR__/docstrings.js	/Quux/;"	f	lineno:33	type:void function()
+baz	__DIR__/docstrings.js	/baz/;"	v	lineno:40	type:string
+o	__DIR__/docstrings.js	/o/;"	v	lineno:44
+getName	__DIR__/docstrings.js	/getName/;"	f	lineno:46	namespace:o	type:!this.name function()
+name	__DIR__/docstrings.js	/name/;"	v	lineno:48	namespace:o	type:string
+foo	__DIR__/docstrings.js	/foo/;"	v	lineno:52	namespace:o	type:string
 ```

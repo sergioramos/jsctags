@@ -36,13 +36,14 @@ empty.prop1; //: string
 ```json
 [
   {
-    "name": "foo",
-    "addr": "/foo/",
+    "name": "base",
+    "addr": "/base/",
     "kind": "v",
-    "type": "number",
     "lineno": 1,
-    "namespace": "base",
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/object_create.js"
+    "origin": {
+      "!span": "4[0:4]-8[0:8]"
+    },
+    "tagfile": "__DIR__/object_create.js"
   },
   {
     "name": "bar",
@@ -51,7 +52,44 @@ empty.prop1; //: string
     "type": "number",
     "lineno": 1,
     "namespace": "base",
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/object_create.js"
+    "origin": {
+      "!span": "21[0:21]-24[0:24]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/object_create.js"
+  },
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 1,
+    "namespace": "base",
+    "origin": {
+      "!span": "12[0:12]-15[0:15]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/object_create.js"
+  },
+  {
+    "name": "gen1",
+    "addr": "/gen1/",
+    "kind": "v",
+    "lineno": 2,
+    "origin": {
+      "!span": "35[1:4]-39[1:8]"
+    },
+    "tagfile": "__DIR__/object_create.js"
+  },
+  {
+    "name": "gen2",
+    "addr": "/gen2/",
+    "kind": "v",
+    "lineno": 3,
+    "origin": {
+      "!span": "67[2:4]-71[2:8]"
+    },
+    "tagfile": "__DIR__/object_create.js"
   },
   {
     "name": "baz",
@@ -60,7 +98,11 @@ empty.prop1; //: string
     "type": "number",
     "lineno": 5,
     "namespace": "base",
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/object_create.js"
+    "origin": {
+      "!span": "101[4:5]-104[4:8]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/object_create.js"
   },
   {
     "name": "quux",
@@ -69,7 +111,11 @@ empty.prop1; //: string
     "type": "number",
     "lineno": 6,
     "namespace": "gen1",
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/object_create.js"
+    "origin": {
+      "!span": "116[5:5]-120[5:9]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/object_create.js"
   },
   {
     "name": "kaka",
@@ -78,7 +124,31 @@ empty.prop1; //: string
     "type": "number",
     "lineno": 7,
     "namespace": "gen2",
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/object_create.js"
+    "origin": {
+      "!span": "132[6:5]-136[6:9]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/object_create.js"
+  },
+  {
+    "name": "extend",
+    "addr": "/extend/",
+    "kind": "v",
+    "lineno": 23,
+    "origin": {
+      "!span": "300[22:4]-306[22:10]"
+    },
+    "tagfile": "__DIR__/object_create.js"
+  },
+  {
+    "name": "empty",
+    "addr": "/empty/",
+    "kind": "v",
+    "lineno": 29,
+    "origin": {
+      "!span": "420[28:4]-425[28:9]"
+    },
+    "tagfile": "__DIR__/object_create.js"
   },
   {
     "name": "prop1",
@@ -87,15 +157,24 @@ empty.prop1; //: string
     "type": "string",
     "lineno": 30,
     "namespace": "empty",
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/object_create.js"
+    "origin": {
+      "!span": "455[29:6]-460[29:11]",
+      "!type": "string"
+    },
+    "tagfile": "__DIR__/object_create.js"
   }
 ]
 ```
 ```ctags
-bar	/usr/local/lib/node_modules/jsctags/test/cases/object_create.js	/bar/;"	v	lineno:1	namespace:base	type:number
-baz	/usr/local/lib/node_modules/jsctags/test/cases/object_create.js	/baz/;"	v	lineno:5	namespace:base	type:number
-foo	/usr/local/lib/node_modules/jsctags/test/cases/object_create.js	/foo/;"	v	lineno:1	namespace:base	type:number
-kaka	/usr/local/lib/node_modules/jsctags/test/cases/object_create.js	/kaka/;"	v	lineno:7	namespace:gen2	type:number
-prop1	/usr/local/lib/node_modules/jsctags/test/cases/object_create.js	/prop1/;"	v	lineno:30	namespace:empty	type:string
-quux	/usr/local/lib/node_modules/jsctags/test/cases/object_create.js	/quux/;"	v	lineno:6	namespace:gen1	type:number
+base	__DIR__/object_create.js	/base/;"	v	lineno:1
+bar	__DIR__/object_create.js	/bar/;"	v	lineno:1	namespace:base	type:number
+foo	__DIR__/object_create.js	/foo/;"	v	lineno:1	namespace:base	type:number
+gen1	__DIR__/object_create.js	/gen1/;"	v	lineno:2
+gen2	__DIR__/object_create.js	/gen2/;"	v	lineno:3
+baz	__DIR__/object_create.js	/baz/;"	v	lineno:5	namespace:base	type:number
+quux	__DIR__/object_create.js	/quux/;"	v	lineno:6	namespace:gen1	type:number
+kaka	__DIR__/object_create.js	/kaka/;"	v	lineno:7	namespace:gen2	type:number
+extend	__DIR__/object_create.js	/extend/;"	v	lineno:23
+empty	__DIR__/object_create.js	/empty/;"	v	lineno:29
+prop1	__DIR__/object_create.js	/prop1/;"	v	lineno:30	namespace:empty	type:string
 ```

@@ -1,17 +1,25 @@
 #!/usr/bin/env node
 
-var path = require('path'),
-    cp = require('child_process')
+var path = require('path');
+var cp = require('child_process');
 
-var jsctags = path.join(__dirname, 'jsctags')
+var jsctags = path.join(__dirname, 'jsctags');
 
 var bin = cp.execFile(jsctags, process.argv.shift(), {
   cwd: process.cwd(),
-  env: process.env,
-}, function (e, stderr, stdout) {
-  if(e) throw e
-  if(stderr) console.error(stderr)
-  if(stdout) console.log(stdout)
-})
+  env: process.env
+}, function (err, stderr, stdout) {
+  if (err) {
+    throw err;
+  }
 
-bin.stdin = process.stdin
+  if (stderr) {
+    console.error(stderr);
+  }
+
+  if (stdout) {
+    console.log(stdout);
+  }
+});
+
+bin.stdin = process.stdin;

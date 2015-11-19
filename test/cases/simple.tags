@@ -1,5 +1,15 @@
-bar	__DIR__/simple.js	/bar/;"	v	lineno:10	namespace:x	type:number
 foo	__DIR__/simple.js	/foo/;"	v	lineno:1	type:number
-foo	__DIR__/simple.js	/foo/;"	v	lineno:9	namespace:x	type:number
-init	__DIR__/simple.js	/init/;"	f	lineno:8	type:void function(x)
+x	__DIR__/simple.js	/x/;"	v	lineno:6
+baz	__DIR__/simple.js	/baz/;"	v	lineno:7	namespace:x
+haz	__DIR__/simple.js	/haz/;"	v	lineno:8	namespace:x.baz	type:number
+laz	__DIR__/simple.js	/laz/;"	v	lineno:9	namespace:x.baz	type:number
+init	__DIR__/simple.js	/init/;"	f	lineno:13	type:void function(x)
+foo	__DIR__/simple.js	/foo/;"	v	lineno:14	namespace:x	type:number
+bar	__DIR__/simple.js	/bar/;"	v	lineno:15	namespace:x	type:number
+a	__DIR__/simple.js	/a/;"	f	lineno:16	namespace:init	type:void function()
+t	__DIR__/simple.js	/t/;"	f	lineno:17	namespace:init.a	type:void function()
+g	__DIR__/simple.js	/g/;"	f	lineno:18	namespace:init.a.t	type:void function()
+y	__DIR__/simple.js	/y/;"	v	lineno:19	namespace:init.a.t.g	type:number
+m	__DIR__/simple.js	/m/;"	f	lineno:22	namespace:init.a.t	type:void function()
+w	__DIR__/simple.js	/w/;"	v	lineno:23	namespace:init.a.t.m	type:number
 

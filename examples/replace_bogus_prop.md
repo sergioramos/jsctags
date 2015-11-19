@@ -12,9 +12,13 @@ Type.prototype.foo = "hi";
     "name": "x",
     "addr": "/x/",
     "kind": "v",
-    "type": "+Type",
+    "type": "Type",
     "lineno": 1,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/replace_bogus_prop.js"
+    "origin": {
+      "!span": "4[0:4]-5[0:5]",
+      "!type": "+Type"
+    },
+    "tagfile": "__DIR__/replace_bogus_prop.js"
   },
   {
     "name": "Type",
@@ -22,7 +26,11 @@ Type.prototype.foo = "hi";
     "kind": "f",
     "type": "void function()",
     "lineno": 5,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/replace_bogus_prop.js"
+    "origin": {
+      "!span": "49[4:9]-53[4:13]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/replace_bogus_prop.js"
   },
   {
     "name": "foo",
@@ -31,12 +39,16 @@ Type.prototype.foo = "hi";
     "type": "string",
     "lineno": 6,
     "namespace": "Type.prototype",
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/replace_bogus_prop.js"
+    "origin": {
+      "!span": "74[5:15]-77[5:18]",
+      "!type": "string"
+    },
+    "tagfile": "__DIR__/replace_bogus_prop.js"
   }
 ]
 ```
 ```ctags
-Type	/usr/local/lib/node_modules/jsctags/test/cases/replace_bogus_prop.js	/Type/;"	f	lineno:5	type:void function()
-foo	/usr/local/lib/node_modules/jsctags/test/cases/replace_bogus_prop.js	/foo/;"	v	lineno:6	namespace:Type.prototype	type:string
-x	/usr/local/lib/node_modules/jsctags/test/cases/replace_bogus_prop.js	/x/;"	v	lineno:1	type:+Type
+x	__DIR__/replace_bogus_prop.js	/x/;"	v	lineno:1	type:Type
+Type	__DIR__/replace_bogus_prop.js	/Type/;"	f	lineno:5	type:void function()
+foo	__DIR__/replace_bogus_prop.js	/foo/;"	v	lineno:6	namespace:Type.prototype	type:string
 ```

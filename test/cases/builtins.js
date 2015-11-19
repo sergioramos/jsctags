@@ -33,3 +33,23 @@ Array.prototype.slice.call([1, 2, 3], 1); //: [number]
 Array.prototype.slice.apply([1, 2, 3], [1]); //: [number]
 
 String.prototype.indexOf.bind("abcde", "a"); //: fn(from?: number) -> number
+
+var regexp = new RegExp();
+var obj = Object.create({});
+var arr = new Array();
+var str = new String();
+var fn = new Function();
+var sym = new Symbol();
+var num2 = Number('2');
+var str2 = String(2);
+var gen = function *(a) {
+  return a * 2;
+};
+
+var obj2 = {
+  a: {
+    b: {
+      c: 3
+    }
+  }
+}

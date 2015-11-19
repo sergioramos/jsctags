@@ -3,8 +3,12 @@
     "name": "Ctor",
     "addr": "/Ctor/",
     "kind": "f",
-    "type": "+Ctor function()",
+    "type": "Ctor function()",
     "lineno": 4,
+    "origin": {
+      "!span": "112[3:9]-116[3:13]",
+      "!type": "fn() -> +Ctor"
+    },
     "tagfile": "__DIR__/ctorpattern.js"
   },
   {
@@ -14,6 +18,10 @@
     "type": "number",
     "lineno": 6,
     "namespace": "Ctor",
+    "origin": {
+      "!span": "178[5:7]-181[5:10]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/ctorpattern.js"
   }
 ]

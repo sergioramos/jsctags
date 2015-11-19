@@ -22,7 +22,11 @@ C.prototype.prop_C = 3;
     "kind": "f",
     "type": "void function()",
     "lineno": 1,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js"
+    "origin": {
+      "!span": "9[0:9]-10[0:10]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
     "name": "prop_A",
@@ -31,7 +35,11 @@ C.prototype.prop_C = 3;
     "type": "number",
     "lineno": 2,
     "namespace": "A.prototype",
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js"
+    "origin": {
+      "!span": "28[1:12]-34[1:18]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
     "name": "B",
@@ -39,7 +47,22 @@ C.prototype.prop_C = 3;
     "kind": "f",
     "type": "void function()",
     "lineno": 3,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js"
+    "origin": {
+      "!span": "49[2:9]-50[2:10]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/new_to_prototype.js"
+  },
+  {
+    "name": "prototype",
+    "addr": "/prototype/",
+    "kind": "v",
+    "lineno": 4,
+    "namespace": "B",
+    "origin": {
+      "!span": "58[3:2]-67[3:11]"
+    },
+    "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
     "name": "prop_B",
@@ -48,7 +71,11 @@ C.prototype.prop_C = 3;
     "type": "number",
     "lineno": 5,
     "namespace": "B.prototype",
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js"
+    "origin": {
+      "!span": "89[4:12]-95[4:18]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
     "name": "C",
@@ -56,7 +83,22 @@ C.prototype.prop_C = 3;
     "kind": "f",
     "type": "void function()",
     "lineno": 6,
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js"
+    "origin": {
+      "!span": "110[5:9]-111[5:10]",
+      "!type": "fn()"
+    },
+    "tagfile": "__DIR__/new_to_prototype.js"
+  },
+  {
+    "name": "prototype",
+    "addr": "/prototype/",
+    "kind": "v",
+    "lineno": 7,
+    "namespace": "C",
+    "origin": {
+      "!span": "119[6:2]-128[6:11]"
+    },
+    "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
     "name": "prop_C",
@@ -65,15 +107,21 @@ C.prototype.prop_C = 3;
     "type": "number",
     "lineno": 8,
     "namespace": "C.prototype",
-    "tagfile": "/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js"
+    "origin": {
+      "!span": "150[7:12]-156[7:18]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/new_to_prototype.js"
   }
 ]
 ```
 ```ctags
-A	/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js	/A/;"	f	lineno:1	type:void function()
-B	/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js	/B/;"	f	lineno:3	type:void function()
-C	/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js	/C/;"	f	lineno:6	type:void function()
-prop_A	/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js	/prop_A/;"	v	lineno:2	namespace:A.prototype	type:number
-prop_B	/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js	/prop_B/;"	v	lineno:5	namespace:B.prototype	type:number
-prop_C	/usr/local/lib/node_modules/jsctags/test/cases/new_to_prototype.js	/prop_C/;"	v	lineno:8	namespace:C.prototype	type:number
+A	__DIR__/new_to_prototype.js	/A/;"	f	lineno:1	type:void function()
+prop_A	__DIR__/new_to_prototype.js	/prop_A/;"	v	lineno:2	namespace:A.prototype	type:number
+B	__DIR__/new_to_prototype.js	/B/;"	f	lineno:3	type:void function()
+prototype	__DIR__/new_to_prototype.js	/prototype/;"	v	lineno:4	namespace:B
+prop_B	__DIR__/new_to_prototype.js	/prop_B/;"	v	lineno:5	namespace:B.prototype	type:number
+C	__DIR__/new_to_prototype.js	/C/;"	f	lineno:6	type:void function()
+prototype	__DIR__/new_to_prototype.js	/prototype/;"	v	lineno:7	namespace:C
+prop_C	__DIR__/new_to_prototype.js	/prop_C/;"	v	lineno:8	namespace:C.prototype	type:number
 ```

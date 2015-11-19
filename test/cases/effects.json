@@ -5,6 +5,10 @@
     "kind": "v",
     "type": "[bool]",
     "lineno": 3,
+    "origin": {
+      "!span": "79[2:4]-80[2:5]",
+      "!type": "[bool]"
+    },
     "tagfile": "__DIR__/effects.js"
   },
   {
@@ -13,6 +17,10 @@
     "kind": "v",
     "type": "[string|number]",
     "lineno": 7,
+    "origin": {
+      "!span": "120[6:4]-121[6:5]",
+      "!type": "[string|number]"
+    },
     "tagfile": "__DIR__/effects.js"
   },
   {
@@ -21,6 +29,10 @@
     "kind": "v",
     "type": "number",
     "lineno": 12,
+    "origin": {
+      "!span": "170[11:4]-171[11:5]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/effects.js"
   },
   {
@@ -29,6 +41,23 @@
     "kind": "f",
     "type": "void function(number)",
     "lineno": 13,
+    "origin": {
+      "!span": "182[12:9]-186[12:13]",
+      "!type": "fn(a: number)"
+    },
+    "tagfile": "__DIR__/effects.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 13,
+    "namespace": "setD",
+    "origin": {
+      "!span": "187[12:14]-188[12:15]",
+      "!type": "number"
+    },
     "tagfile": "__DIR__/effects.js"
   }
 ]

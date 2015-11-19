@@ -3,8 +3,12 @@
     "name": "x",
     "addr": "/x/",
     "kind": "v",
-    "type": "+Type",
+    "type": "Type",
     "lineno": 1,
+    "origin": {
+      "!span": "4[0:4]-5[0:5]",
+      "!type": "+Type"
+    },
     "tagfile": "__DIR__/replace_bogus_prop.js"
   },
   {
@@ -13,6 +17,10 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 5,
+    "origin": {
+      "!span": "49[4:9]-53[4:13]",
+      "!type": "fn()"
+    },
     "tagfile": "__DIR__/replace_bogus_prop.js"
   },
   {
@@ -22,6 +30,10 @@
     "type": "string",
     "lineno": 6,
     "namespace": "Type.prototype",
+    "origin": {
+      "!span": "74[5:15]-77[5:18]",
+      "!type": "string"
+    },
     "tagfile": "__DIR__/replace_bogus_prop.js"
   }
 ]
