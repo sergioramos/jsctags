@@ -136,7 +136,11 @@ function testCommandOutput (options, callback) {
 
     try {
       if (args.indexOf('-f') === -1) {
-        assert.deepEqual(JSON.parse(stdout), JSON.parse(expected));
+        assert.deepEqual(JSON.parse(stdout).map(function(tag) {
+          delete tag.id;
+          delete tag.parent;
+          return tag;
+        }), JSON.parse(expected));
       } else {
         assert.equal(stdout, expected);
       }

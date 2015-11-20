@@ -6,6 +6,7 @@ var isObject = require('lodash.isplainobject');
 var get = require('lodash.get');
 var objectHash = require('object-hash');
 var clone = require('lodash.clonedeep');
+var uuid = require('node-uuid');
 
 var condense = require('./condenser');
 
@@ -42,7 +43,9 @@ const TYPE_MAPPING = {
 
 var hashNode = function (n) {
   var node = clone(n);
+  node.id = undefined;
   node.namespace = undefined;
+  node.parent = undefined;
   return objectHash(node);
 };
 
@@ -275,12 +278,14 @@ Parser.prototype.onNode = function (name, node, parent) {
   }
 
   var tag = {
+    id: uuid.v1(),
     name: name,
     addr: this.addr(node),
     kind: this.kind(node),
     type: this.type(node),
     lineno: this.lineno(node),
     namespace: this.namespace(node, parent),
+    parent: parent ? parent.id : undefined,
     origin: {
       '!span': node['!span'],
       '!type': node['!type']

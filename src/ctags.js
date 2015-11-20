@@ -12,7 +12,9 @@ var SPECIAL_FIELDS = {
   kind: true,
   name: true,
   tagfile: true,
-  origin: true
+  origin: true,
+  id: true,
+  parent: true
 };
 
 module.exports = function (tags) {
