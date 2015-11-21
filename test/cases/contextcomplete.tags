@@ -1,0 +1,3 @@
+whoAmI	/Users/ramitos/dev/jsctags/test/cases/contextcomplete.js	/whoAmI/;"	f	lineno:1	type:void function(?, ?)
+a	/Users/ramitos/dev/jsctags/test/cases/contextcomplete.js	/a/;"	v	lineno:1	namespace:whoAmI
+i	/Users/ramitos/dev/jsctags/test/cases/contextcomplete.js	/i/;"	v	lineno:1	namespace:whoAmI

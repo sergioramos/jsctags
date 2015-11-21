@@ -1,13 +1,29 @@
-a	__DIR__/jsdoc.js	/a/;"	v	lineno:2	type:Date
-c	__DIR__/jsdoc.js	/c/;"	v	lineno:8
-foo	__DIR__/jsdoc.js	/foo/;"	f	lineno:17	type:[number] function(number, string)
-a	__DIR__/jsdoc.js	/a/;"	v	lineno:17	namespace:foo	type:number
-b	__DIR__/jsdoc.js	/b/;"	v	lineno:17	namespace:foo	type:string
-bar	__DIR__/jsdoc.js	/bar/;"	f	lineno:25	type:string function(number, number)
-a	__DIR__/jsdoc.js	/a/;"	v	lineno:25	namespace:bar	type:number
-b	__DIR__/jsdoc.js	/b/;"	v	lineno:25	namespace:bar	type:number
-o	__DIR__/jsdoc.js	/o/;"	v	lineno:29
-prop1	__DIR__/jsdoc.js	/prop1/;"	v	lineno:31	namespace:o	type:string
-prop2	__DIR__/jsdoc.js	/prop2/;"	f	lineno:34	namespace:o	type:number function()
-prop3	__DIR__/jsdoc.js	/prop3/;"	f	lineno:38	namespace:o	type:string function()
-
+a	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/a/;"	v	lineno:2	type:Date
+c	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/c/;"	v	lineno:8
+a	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/a/;"	v	lineno:17	namespace:foo	type:number
+foo	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/foo/;"	f	lineno:17	type:[number] function(number, string)
+b	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/b/;"	v	lineno:17	namespace:foo	type:string
+abc	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/abc/;"	f	lineno:21	type:void function()
+a	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/a/;"	v	lineno:30	namespace:bar	type:number
+b	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/b/;"	v	lineno:30	namespace:bar	type:number
+bar	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/bar/;"	f	lineno:30	type:string function(number, number)
+o	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/o/;"	v	lineno:34
+prop1	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/prop1/;"	v	lineno:36	namespace:o	type:string
+prop2	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/prop2/;"	f	lineno:39	namespace:o	type:number function()
+prop3	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/prop3/;"	f	lineno:43	namespace:o	type:string function()
+closureArray	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/closureArray/;"	v	lineno:50	type:[string]
+closureMap	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/closureMap/;"	v	lineno:54
+takesOpt	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/takesOpt/;"	f	lineno:58	type:void function(number)
+a	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/a/;"	v	lineno:58	namespace:takesOpt	type:number
+myBitset	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/myBitset/;"	v	lineno:73	type:[bool]
+myObj	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/myObj/;"	v	lineno:78
+NonAscïį	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/NonAscïį/;"	f	lineno:84	type:void function()
+length	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/length/;"	v	lineno:84	namespace:NonAscïį	type:string
+inst	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/inst/;"	v	lineno:87	type:NonAscïį
+bogus	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/bogus/;"	v	lineno:92
+again	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/again/;"	v	lineno:97	type:number
+functionBogus	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/functionBogus/;"	f	lineno:105	type:? function(?)
+a	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/a/;"	v	lineno:105	namespace:functionBogus
+unionFunction	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/unionFunction/;"	f	lineno:118	type:[?|number] function(string)
+a	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/a/;"	v	lineno:118	namespace:unionFunction	type:string
+ui	/Users/ramitos/dev/jsctags/test/cases/jsdoc.js	/ui/;"	f	lineno:125	type:string function()

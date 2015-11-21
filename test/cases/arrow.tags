@@ -1,0 +1,6 @@
+f	/Users/ramitos/dev/jsctags/test/cases/arrow.js	/f/;"	f	lineno:1	type:f.!ret function(number, Array[bool])
+a	/Users/ramitos/dev/jsctags/test/cases/arrow.js	/a/;"	v	lineno:1	namespace:f	type:number
+b	/Users/ramitos/dev/jsctags/test/cases/arrow.js	/b/;"	v	lineno:1	namespace:f	type:boolean
+wrap	/Users/ramitos/dev/jsctags/test/cases/arrow.js	/wrap/;"	f	lineno:5	type:wrap.!ret.!ret function() function()
+Obj	/Users/ramitos/dev/jsctags/test/cases/arrow.js	/Obj/;"	f	lineno:10	type:void function()
+map	/Users/ramitos/dev/jsctags/test/cases/arrow.js	/map/;"	f	lineno:13	namespace:Obj.prototype	type:[!this.x] function()

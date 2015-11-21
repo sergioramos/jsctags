@@ -1,0 +1,4 @@
+mySym	/Users/ramitos/dev/jsctags/test/cases/symbol.js	/mySym/;"	v	lineno:1
+obj	/Users/ramitos/dev/jsctags/test/cases/symbol.js	/obj/;"	v	lineno:3
+:my_sym	/Users/ramitos/dev/jsctags/test/cases/symbol.js	/mySym/;"	v	lineno:4	namespace:obj	type:number
+iterator	/Users/ramitos/dev/jsctags/test/cases/symbol.js	/Symbol\.iterator/;"	v	lineno:8	namespace:obj.:Symbol	type:string

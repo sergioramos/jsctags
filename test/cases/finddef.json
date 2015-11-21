@@ -137,7 +137,7 @@
       "!span": "324[23:6]-329[23:11]",
       "!type": "number",
       "!data": {
-        "scoped": true,
+        "scoped": false,
         "isArg": false
       }
     },

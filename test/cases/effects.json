@@ -30,7 +30,7 @@
     "type": "number",
     "lineno": 12,
     "origin": {
-      "!span": "170[11:4]-171[11:5]",
+      "!span": "182[11:4]-183[11:5]",
       "!type": "number"
     },
     "tagfile": "__DIR__/effects.js"
@@ -42,7 +42,7 @@
     "type": "void function(number)",
     "lineno": 13,
     "origin": {
-      "!span": "182[12:9]-186[12:13]",
+      "!span": "194[12:9]-198[12:13]",
       "!type": "fn(a: number)"
     },
     "tagfile": "__DIR__/effects.js"
@@ -55,7 +55,7 @@
     "lineno": 13,
     "namespace": "setD",
     "origin": {
-      "!span": "187[12:14]-188[12:15]",
+      "!span": "199[12:14]-200[12:15]",
       "!type": "number",
       "!data": {
         "scoped": true,

@@ -22,7 +22,7 @@
       "!span": "75[1:35]-82[1:42]",
       "!type": "+String",
       "!data": {
-        "scoped": true,
+        "scoped": false,
         "isArg": false
       }
     },
@@ -39,7 +39,7 @@
       "!span": "65[1:25]-73[1:33]",
       "!type": "fn(o: each.!0.<i>)",
       "!data": {
-        "scoped": true,
+        "scoped": false,
         "isArg": false
       }
     },
@@ -56,7 +56,7 @@
       "!span": "60[1:20]-63[1:23]",
       "!type": "[each.!0.<i>]",
       "!data": {
-        "scoped": true,
+        "scoped": false,
         "isArg": false
       }
     },
@@ -73,7 +73,7 @@
       "!span": "281[6:13]-282[6:14]",
       "!type": "number",
       "!data": {
-        "scoped": true,
+        "scoped": false,
         "isArg": false
       }
     },
@@ -90,7 +90,7 @@
       "!span": "288[6:20]-289[6:21]",
       "!type": "number",
       "!data": {
-        "scoped": true,
+        "scoped": false,
         "isArg": false
       }
     },

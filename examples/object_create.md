@@ -36,6 +36,7 @@ empty.prop1; //: string
 ```json
 [
   {
+    "id": "c48e0c60-9082-11e5-8bff-dd82eb728f70",
     "name": "base",
     "addr": "/base/",
     "kind": "v",
@@ -46,12 +47,14 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
+    "id": "c48e3371-9082-11e5-8bff-dd82eb728f70",
     "name": "bar",
     "addr": "/bar/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "base",
+    "parent": "c48e0c60-9082-11e5-8bff-dd82eb728f70",
     "origin": {
       "!span": "21[0:21]-24[0:24]",
       "!type": "number"
@@ -59,12 +62,14 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
+    "id": "c48e3370-9082-11e5-8bff-dd82eb728f70",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "base",
+    "parent": "c48e0c60-9082-11e5-8bff-dd82eb728f70",
     "origin": {
       "!span": "12[0:12]-15[0:15]",
       "!type": "number"
@@ -72,6 +77,7 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
+    "id": "c48e5a81-9082-11e5-8bff-dd82eb728f70",
     "name": "gen1",
     "addr": "/gen1/",
     "kind": "v",
@@ -82,6 +88,7 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
+    "id": "c48e5a83-9082-11e5-8bff-dd82eb728f70",
     "name": "gen2",
     "addr": "/gen2/",
     "kind": "v",
@@ -92,12 +99,14 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
+    "id": "c48e5a80-9082-11e5-8bff-dd82eb728f70",
     "name": "baz",
     "addr": "/baz/",
     "kind": "v",
     "type": "number",
     "lineno": 5,
     "namespace": "base",
+    "parent": "c48e0c60-9082-11e5-8bff-dd82eb728f70",
     "origin": {
       "!span": "101[4:5]-104[4:8]",
       "!type": "number"
@@ -105,12 +114,14 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
+    "id": "c48e5a82-9082-11e5-8bff-dd82eb728f70",
     "name": "quux",
     "addr": "/quux/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
     "namespace": "gen1",
+    "parent": "c48e5a81-9082-11e5-8bff-dd82eb728f70",
     "origin": {
       "!span": "116[5:5]-120[5:9]",
       "!type": "number"
@@ -118,12 +129,14 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
+    "id": "c48e5a84-9082-11e5-8bff-dd82eb728f70",
     "name": "kaka",
     "addr": "/kaka/",
     "kind": "v",
     "type": "number",
     "lineno": 7,
     "namespace": "gen2",
+    "parent": "c48e5a83-9082-11e5-8bff-dd82eb728f70",
     "origin": {
       "!span": "132[6:5]-136[6:9]",
       "!type": "number"
@@ -131,6 +144,7 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
+    "id": "c48e5a85-9082-11e5-8bff-dd82eb728f70",
     "name": "extend",
     "addr": "/extend/",
     "kind": "v",
@@ -141,6 +155,7 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
+    "id": "c48ecfb0-9082-11e5-8bff-dd82eb728f70",
     "name": "empty",
     "addr": "/empty/",
     "kind": "v",
@@ -151,12 +166,14 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
+    "id": "c48ecfb1-9082-11e5-8bff-dd82eb728f70",
     "name": "prop1",
     "addr": "/prop1/",
     "kind": "v",
     "type": "string",
     "lineno": 30,
     "namespace": "empty",
+    "parent": "c48ecfb0-9082-11e5-8bff-dd82eb728f70",
     "origin": {
       "!span": "455[29:6]-460[29:11]",
       "!type": "string"

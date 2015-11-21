@@ -7,7 +7,10 @@
     "lineno": 1,
     "origin": {
       "!span": "9[0:9]-14[0:14]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true
+      }
     },
     "tagfile": "__DIR__/objnames.js"
   },
@@ -43,7 +46,10 @@
     "lineno": 4,
     "origin": {
       "!span": "70[3:9]-75[3:14]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true
+      }
     },
     "tagfile": "__DIR__/objnames.js"
   },

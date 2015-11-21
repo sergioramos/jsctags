@@ -1,4 +1,3 @@
-x	__DIR__/replace_bogus_prop.js	/x/;"	v	lineno:1	type:Type
-Type	__DIR__/replace_bogus_prop.js	/Type/;"	f	lineno:5	type:void function()
-foo	__DIR__/replace_bogus_prop.js	/foo/;"	v	lineno:6	namespace:Type.prototype	type:string
-
+x	/Users/ramitos/dev/jsctags/test/cases/replace_bogus_prop.js	/x/;"	v	lineno:1	type:Type
+Type	/Users/ramitos/dev/jsctags/test/cases/replace_bogus_prop.js	/Type/;"	f	lineno:5	type:void function()
+foo	/Users/ramitos/dev/jsctags/test/cases/replace_bogus_prop.js	/foo/;"	v	lineno:6	namespace:Type.prototype	type:string

@@ -1,5 +1,4 @@
-grabbag	__DIR__/cautiouspropagation.js	/grabbag/;"	v	lineno:1
-inner	__DIR__/cautiouspropagation.js	/inner/;"	v	lineno:5	type:number
-simple	__DIR__/cautiouspropagation.js	/simple/;"	v	lineno:8
-<i>	__DIR__/cautiouspropagation.js	/foo\(\)/;"	v	lineno:9	namespace:simple	type:string
-
+grabbag	/Users/ramitos/dev/jsctags/test/cases/cautiouspropagation.js	/grabbag/;"	v	lineno:1
+inner	/Users/ramitos/dev/jsctags/test/cases/cautiouspropagation.js	/inner/;"	v	lineno:5	type:number
+simple	/Users/ramitos/dev/jsctags/test/cases/cautiouspropagation.js	/simple/;"	v	lineno:8
+<i>	/Users/ramitos/dev/jsctags/test/cases/cautiouspropagation.js	/foo\(\)/;"	v	lineno:9	namespace:simple	type:string

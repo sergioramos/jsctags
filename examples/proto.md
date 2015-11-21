@@ -19,6 +19,7 @@ z.bar; //: number
 ```json
 [
   {
+    "id": "c6f26230-9082-11e5-ace9-dd31d20ee936",
     "name": "Foo",
     "addr": "/Foo/",
     "kind": "f",
@@ -26,30 +27,41 @@ z.bar; //: number
     "lineno": 1,
     "origin": {
       "!span": "9[0:9]-12[0:12]",
-      "!type": "fn(x: bool)"
+      "!type": "fn(x: bool)",
+      "!data": {
+        "isConstructor": true
+      }
     },
     "tagfile": "__DIR__/proto.js"
   },
   {
+    "id": "c6f2b052-9082-11e5-ace9-dd31d20ee936",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "boolean",
     "lineno": 1,
     "namespace": "Foo",
+    "parent": "c6f26230-9082-11e5-ace9-dd31d20ee936",
     "origin": {
       "!span": "13[0:13]-14[0:14]",
-      "!type": "bool"
+      "!type": "bool",
+      "!data": {
+        "scoped": true,
+        "isArg": true
+      }
     },
     "tagfile": "__DIR__/proto.js"
   },
   {
+    "id": "c6f2b053-9082-11e5-ace9-dd31d20ee936",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
     "type": "[number]",
     "lineno": 3,
     "namespace": "Foo",
+    "parent": "c6f26230-9082-11e5-ace9-dd31d20ee936",
     "origin": {
       "!span": "39[2:7]-40[2:8]",
       "!type": "[number]"
@@ -57,23 +69,27 @@ z.bar; //: number
     "tagfile": "__DIR__/proto.js"
   },
   {
+    "id": "c6f28940-9082-11e5-ace9-dd31d20ee936",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "Foo",
+    "parent": "c6f26230-9082-11e5-ace9-dd31d20ee936",
     "origin": {
       "!span": "76[6:4]-85[6:13]"
     },
     "tagfile": "__DIR__/proto.js"
   },
   {
+    "id": "c6f2b050-9082-11e5-ace9-dd31d20ee936",
     "name": "makeString",
     "addr": "/makeString/",
     "kind": "f",
     "type": "string function()",
     "lineno": 8,
     "namespace": "Foo.prototype",
+    "parent": "c6f28940-9082-11e5-ace9-dd31d20ee936",
     "origin": {
       "!span": "92[7:2]-102[7:12]",
       "!type": "fn() -> string"
@@ -81,12 +97,14 @@ z.bar; //: number
     "tagfile": "__DIR__/proto.js"
   },
   {
+    "id": "c6f2b051-9082-11e5-ace9-dd31d20ee936",
     "name": "bar",
     "addr": "/bar/",
     "kind": "v",
     "type": "number",
     "lineno": 9,
     "namespace": "Foo.prototype",
+    "parent": "c6f28940-9082-11e5-ace9-dd31d20ee936",
     "origin": {
       "!span": "135[8:2]-138[8:5]",
       "!type": "number"
@@ -94,6 +112,7 @@ z.bar; //: number
     "tagfile": "__DIR__/proto.js"
   },
   {
+    "id": "c6f2b054-9082-11e5-ace9-dd31d20ee936",
     "name": "z",
     "addr": "/z/",
     "kind": "v",

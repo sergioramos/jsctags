@@ -28,25 +28,65 @@ var abc = 20;
 
 abc; //doc: This describes abc.
 
-// Quux is a thing. And here are a bunch more sentences that would
-// make the docstring too long, and are thus wisely stripped by Tern's
-// brain-dead heuristics. Ayay.
+// Quux is a thing.
+// Two lines.
 function Quux() {}
 
-Quux; //doc: Quux is a thing.
+Quux; //doc+: Quux is a thing.
+Two lines.
 
-/*  Extra bogus 
- *  	whitespace is also stripped.
+/*
+ *  Extra bogus 
+ *  whitespace is also stripped.
  */
 var baz = "hi";
 
 baz; //doc: Extra bogus whitespace is also stripped.
 
+/* starry format
+ * with first line text
+ */
+var oy = 1;
+
+oy; //doc: starry format with first line text
+
+// Block of text
+// With some
+//  * indented
+//  * pieces
+//
+// And a blank line
+var arr = 6;
+
+arr; //doc+: Block of text
+With some
+ * indented
+ * pieces
+
+And a blank line
+
+// Split off sentences after the first 100 characters. If our pattern
+// happens to match. Here we are at about 90 so this one goes over and
+// would be removed.
+var aha = "";
+
+aha; //doc: Split off sentences after the first 100 characters. If our pattern happens to match.
+
+// Also ignore JSDoc-y stuff
+// @type {zoink}
+var xyzzy = false;
+
+xyzzy; //doc: Also ignore JSDoc-y stuff
+
 var o = {
   // Get the name.
   getName: function() { return this.name; },
   // The name
-  name: "Harold"
+  name: "Harold",
+  // A computed property
+  [1 + 1]: "OK",
+  // A string property
+  'bar': 4
 };
 
 // The string "foo".
@@ -55,22 +95,42 @@ o.foo = "foo";
 o.getName; //doc: Get the name.
 o.name; //doc: The name
 o.foo; //doc: The string "foo".
+o.bar //doc: A string property
+
+class C {
+  // The method
+  method() { return 10 },
+  // The something
+  get something() { return 20 }
+}
+
+var c = new C
+
+c.method //doc: The method
+c.something //doc: The something
 ```
 ```json
 [
   {
+    "id": "ba8e3be8-9082-11e5-9b56-f7f38ac54924",
     "name": "myalias",
     "addr": "/myalias/",
     "kind": "f",
     "type": "void function(number)",
     "lineno": 4,
+    "parent": "ba8e3be6-9082-11e5-9b56-f7f38ac54924",
     "origin": {
       "!span": "185[3:4]-192[3:11]",
-      "!type": "fn(ms: number)"
+      "!type": "fn(ms: number)",
+      "!data": {
+        "scoped": false,
+        "isArg": false
+      }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
+    "id": "ba8d7890-9082-11e5-9b56-f7f38ac54924",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
@@ -83,6 +143,7 @@ o.foo; //doc: The string "foo".
     "tagfile": "__DIR__/docstrings.js"
   },
   {
+    "id": "ba8e3be9-9082-11e5-9b56-f7f38ac54924",
     "name": "monkeyAlias",
     "addr": "/makeMonkey/",
     "kind": "f",
@@ -95,6 +156,7 @@ o.foo; //doc: The string "foo".
     "tagfile": "__DIR__/docstrings.js"
   },
   {
+    "id": "ba8d9fa0-9082-11e5-9b56-f7f38ac54924",
     "name": "makeMonkey",
     "addr": "/makeMonkey/",
     "kind": "f",
@@ -107,18 +169,25 @@ o.foo; //doc: The string "foo".
     "tagfile": "__DIR__/docstrings.js"
   },
   {
+    "id": "ba8e3be7-9082-11e5-9b56-f7f38ac54924",
     "name": "monkeyAlias",
     "addr": "/monkeyAlias/",
     "kind": "f",
     "type": "string function()",
     "lineno": 18,
+    "parent": "ba8e3be6-9082-11e5-9b56-f7f38ac54924",
     "origin": {
       "!span": "504[17:4]-515[17:15]",
-      "!type": "fn() -> string"
+      "!type": "fn() -> string",
+      "!data": {
+        "scoped": false,
+        "isArg": false
+      }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
+    "id": "ba8e14d0-9082-11e5-9b56-f7f38ac54924",
     "name": "abc",
     "addr": "/abc/",
     "kind": "v",
@@ -131,75 +200,223 @@ o.foo; //doc: The string "foo".
     "tagfile": "__DIR__/docstrings.js"
   },
   {
+    "id": "ba8e14d1-9082-11e5-9b56-f7f38ac54924",
     "name": "Quux",
     "addr": "/Quux/",
     "kind": "f",
     "type": "void function()",
-    "lineno": 33,
+    "lineno": 32,
     "origin": {
-      "!span": "870[32:9]-874[32:13]",
+      "!span": "734[31:9]-738[31:13]",
       "!type": "fn()"
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
+    "id": "ba8e14d2-9082-11e5-9b56-f7f38ac54924",
     "name": "baz",
     "addr": "/baz/",
     "kind": "v",
     "type": "string",
     "lineno": 40,
     "origin": {
-      "!span": "971[39:4]-974[39:7]",
+      "!span": "850[39:4]-853[39:7]",
       "!type": "string"
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "name": "o",
-    "addr": "/o/",
+    "id": "ba8e14d3-9082-11e5-9b56-f7f38ac54924",
+    "name": "oy",
+    "addr": "/oy/",
     "kind": "v",
-    "lineno": 44,
+    "type": "number",
+    "lineno": 47,
     "origin": {
-      "!span": "1042[43:4]-1043[43:5]"
+      "!span": "966[46:4]-968[46:6]",
+      "!type": "number"
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
+    "id": "ba8e14d4-9082-11e5-9b56-f7f38ac54924",
+    "name": "arr",
+    "addr": "/arr/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 57,
+    "origin": {
+      "!span": "1107[56:4]-1110[56:7]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "id": "ba8e14d5-9082-11e5-9b56-f7f38ac54924",
+    "name": "aha",
+    "addr": "/aha/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 64,
+    "origin": {
+      "!span": "1366[63:4]-1369[63:7]",
+      "!type": "string"
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "id": "ba8e14d6-9082-11e5-9b56-f7f38ac54924",
+    "name": "xyzzy",
+    "addr": "/xyzzy/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 70,
+    "origin": {
+      "!span": "1525[69:4]-1530[69:9]",
+      "!type": "bool"
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "id": "ba8e14d7-9082-11e5-9b56-f7f38ac54924",
+    "name": "o",
+    "addr": "/o/",
+    "kind": "v",
+    "lineno": 74,
+    "origin": {
+      "!span": "1586[73:4]-1587[73:5]"
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "id": "ba8e14d8-9082-11e5-9b56-f7f38ac54924",
     "name": "getName",
     "addr": "/getName/",
     "kind": "f",
     "type": "!this.name function()",
-    "lineno": 46,
+    "lineno": 76,
     "namespace": "o",
+    "parent": "ba8e14d7-9082-11e5-9b56-f7f38ac54924",
     "origin": {
-      "!span": "1069[45:2]-1076[45:9]",
+      "!span": "1613[75:2]-1620[75:9]",
       "!type": "fn() -> !this.name"
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
+    "id": "ba8e14d9-9082-11e5-9b56-f7f38ac54924",
     "name": "name",
     "addr": "/name/",
     "kind": "v",
     "type": "string",
-    "lineno": 48,
+    "lineno": 78,
     "namespace": "o",
+    "parent": "ba8e14d7-9082-11e5-9b56-f7f38ac54924",
     "origin": {
-      "!span": "1128[47:2]-1132[47:6]",
+      "!span": "1672[77:2]-1676[77:6]",
       "!type": "string"
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
+    "id": "ba8e14da-9082-11e5-9b56-f7f38ac54924",
+    "name": "bar",
+    "addr": "/'bar'/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 82,
+    "namespace": "o",
+    "parent": "ba8e14d7-9082-11e5-9b56-f7f38ac54924",
+    "origin": {
+      "!span": "1755[81:2]-1760[81:7]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "id": "ba8e3be0-9082-11e5-9b56-f7f38ac54924",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
     "type": "string",
-    "lineno": 52,
+    "lineno": 86,
     "namespace": "o",
+    "parent": "ba8e14d7-9082-11e5-9b56-f7f38ac54924",
     "origin": {
-      "!span": "1170[51:2]-1173[51:5]",
+      "!span": "1791[85:2]-1794[85:5]",
       "!type": "string"
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "id": "ba8e3be2-9082-11e5-9b56-f7f38ac54924",
+    "name": "prototype",
+    "addr": "/class C \{/",
+    "kind": "v",
+    "lineno": 93,
+    "namespace": "C",
+    "parent": "ba8e3be1-9082-11e5-9b56-f7f38ac54924",
+    "origin": {
+      "!span": "1925[92:0]-2029[97:1]"
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "id": "ba8e3be1-9082-11e5-9b56-f7f38ac54924",
+    "name": "C",
+    "addr": "/C/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 93,
+    "origin": {
+      "!span": "1931[92:6]-1932[92:7]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true
+      }
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "id": "ba8e3be3-9082-11e5-9b56-f7f38ac54924",
+    "name": "method",
+    "addr": "/method/",
+    "kind": "f",
+    "type": "number function()",
+    "lineno": 95,
+    "namespace": "C.prototype",
+    "parent": "ba8e3be2-9082-11e5-9b56-f7f38ac54924",
+    "origin": {
+      "!span": "1953[94:2]-1959[94:8]",
+      "!type": "fn() -> number"
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "id": "ba8e3be4-9082-11e5-9b56-f7f38ac54924",
+    "name": "something",
+    "addr": "/something/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 97,
+    "namespace": "C.prototype",
+    "parent": "ba8e3be2-9082-11e5-9b56-f7f38ac54924",
+    "origin": {
+      "!span": "2002[96:6]-2011[96:15]",
+      "!type": "number"
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "id": "ba8e3be5-9082-11e5-9b56-f7f38ac54924",
+    "name": "c",
+    "addr": "/c/",
+    "kind": "v",
+    "type": "C",
+    "lineno": 100,
+    "origin": {
+      "!span": "2035[99:4]-2036[99:5]",
+      "!type": "+C"
     },
     "tagfile": "__DIR__/docstrings.js"
   }
@@ -212,10 +429,20 @@ monkeyAlias	__DIR__/docstrings.js	/makeMonkey/;"	f	lineno:14	type:string functio
 makeMonkey	__DIR__/docstrings.js	/makeMonkey/;"	f	lineno:14	type:string function()
 monkeyAlias	__DIR__/docstrings.js	/monkeyAlias/;"	f	lineno:18	type:string function()
 abc	__DIR__/docstrings.js	/abc/;"	v	lineno:26	type:number
-Quux	__DIR__/docstrings.js	/Quux/;"	f	lineno:33	type:void function()
+Quux	__DIR__/docstrings.js	/Quux/;"	f	lineno:32	type:void function()
 baz	__DIR__/docstrings.js	/baz/;"	v	lineno:40	type:string
-o	__DIR__/docstrings.js	/o/;"	v	lineno:44
-getName	__DIR__/docstrings.js	/getName/;"	f	lineno:46	namespace:o	type:!this.name function()
-name	__DIR__/docstrings.js	/name/;"	v	lineno:48	namespace:o	type:string
-foo	__DIR__/docstrings.js	/foo/;"	v	lineno:52	namespace:o	type:string
+oy	__DIR__/docstrings.js	/oy/;"	v	lineno:47	type:number
+arr	__DIR__/docstrings.js	/arr/;"	v	lineno:57	type:number
+aha	__DIR__/docstrings.js	/aha/;"	v	lineno:64	type:string
+xyzzy	__DIR__/docstrings.js	/xyzzy/;"	v	lineno:70	type:boolean
+o	__DIR__/docstrings.js	/o/;"	v	lineno:74
+getName	__DIR__/docstrings.js	/getName/;"	f	lineno:76	namespace:o	type:!this.name function()
+name	__DIR__/docstrings.js	/name/;"	v	lineno:78	namespace:o	type:string
+bar	__DIR__/docstrings.js	/'bar'/;"	v	lineno:82	namespace:o	type:number
+foo	__DIR__/docstrings.js	/foo/;"	v	lineno:86	namespace:o	type:string
+prototype	__DIR__/docstrings.js	/class C \{/;"	v	lineno:93	namespace:C
+C	__DIR__/docstrings.js	/C/;"	f	lineno:93	type:void function()
+method	__DIR__/docstrings.js	/method/;"	f	lineno:95	namespace:C.prototype	type:number function()
+something	__DIR__/docstrings.js	/something/;"	v	lineno:97	namespace:C.prototype	type:number
+c	__DIR__/docstrings.js	/c/;"	v	lineno:100	type:C
 ```

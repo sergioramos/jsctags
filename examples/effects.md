@@ -8,7 +8,7 @@ b; //: [bool]
 var c = [];
 c.push("hi");
 c.push(10);
-c; //: [?]
+c; //: [string|number]
 
 var d;
 function setD(a) { d = a; }
@@ -18,6 +18,7 @@ d; //: number
 ```json
 [
   {
+    "id": "baf5fe60-9082-11e5-b91c-93a5bc661604",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
@@ -30,6 +31,7 @@ d; //: number
     "tagfile": "__DIR__/effects.js"
   },
   {
+    "id": "baf62570-9082-11e5-b91c-93a5bc661604",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
@@ -42,39 +44,47 @@ d; //: number
     "tagfile": "__DIR__/effects.js"
   },
   {
+    "id": "baf62571-9082-11e5-b91c-93a5bc661604",
     "name": "d",
     "addr": "/d/",
     "kind": "v",
     "type": "number",
     "lineno": 12,
     "origin": {
-      "!span": "170[11:4]-171[11:5]",
+      "!span": "182[11:4]-183[11:5]",
       "!type": "number"
     },
     "tagfile": "__DIR__/effects.js"
   },
   {
+    "id": "baf62572-9082-11e5-b91c-93a5bc661604",
     "name": "setD",
     "addr": "/setD/",
     "kind": "f",
     "type": "void function(number)",
     "lineno": 13,
     "origin": {
-      "!span": "182[12:9]-186[12:13]",
+      "!span": "194[12:9]-198[12:13]",
       "!type": "fn(a: number)"
     },
     "tagfile": "__DIR__/effects.js"
   },
   {
+    "id": "baf64c80-9082-11e5-b91c-93a5bc661604",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 13,
     "namespace": "setD",
+    "parent": "baf62572-9082-11e5-b91c-93a5bc661604",
     "origin": {
-      "!span": "187[12:14]-188[12:15]",
-      "!type": "number"
+      "!span": "199[12:14]-200[12:15]",
+      "!type": "number",
+      "!data": {
+        "scoped": true,
+        "isArg": true
+      }
     },
     "tagfile": "__DIR__/effects.js"
   }

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "[number]|number",
+    "lineno": 6,
+    "origin": {
+      "!span": "134[5:4]-135[5:5]",
+      "!type": "[number]|number",
+      "!data": {
+        "scoped": false,
+        "isArg": false
+      }
+    },
+    "tagfile": "__DIR__/hint_simple.js"
+  }
+]

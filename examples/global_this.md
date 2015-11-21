@@ -8,6 +8,7 @@ var foo = 10;
 ```json
 [
   {
+    "id": "bef95e30-9082-11e5-b0b3-f5b025dab322",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",

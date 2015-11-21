@@ -12,6 +12,7 @@ new Ctor2(); //: Ctor2
 ```json
 [
   {
+    "id": "c53d3820-9082-11e5-b2a2-fbc46b4723d1",
     "name": "Ctor1",
     "addr": "/Ctor1/",
     "kind": "f",
@@ -19,28 +20,35 @@ new Ctor2(); //: Ctor2
     "lineno": 1,
     "origin": {
       "!span": "9[0:9]-14[0:14]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true
+      }
     },
     "tagfile": "__DIR__/objnames.js"
   },
   {
+    "id": "c53d5f30-9082-11e5-b2a2-fbc46b4723d1",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 2,
     "namespace": "Ctor1",
+    "parent": "c53d3820-9082-11e5-b2a2-fbc46b4723d1",
     "origin": {
       "!span": "40[1:6]-49[1:15]"
     },
     "tagfile": "__DIR__/objnames.js"
   },
   {
+    "id": "c53d8640-9082-11e5-b2a2-fbc46b4723d1",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "Ctor1.prototype",
+    "parent": "c53d5f30-9082-11e5-b2a2-fbc46b4723d1",
     "origin": {
       "!span": "53[1:19]-54[1:20]",
       "!type": "number"
@@ -48,6 +56,7 @@ new Ctor2(); //: Ctor2
     "tagfile": "__DIR__/objnames.js"
   },
   {
+    "id": "c53d8641-9082-11e5-b2a2-fbc46b4723d1",
     "name": "Ctor2",
     "addr": "/Ctor2/",
     "kind": "f",
@@ -55,11 +64,15 @@ new Ctor2(); //: Ctor2
     "lineno": 4,
     "origin": {
       "!span": "70[3:9]-75[3:14]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true
+      }
     },
     "tagfile": "__DIR__/objnames.js"
   },
   {
+    "id": "c53d8642-9082-11e5-b2a2-fbc46b4723d1",
     "name": "singleton",
     "addr": "/singleton/",
     "kind": "v",
@@ -70,12 +83,14 @@ new Ctor2(); //: Ctor2
     "tagfile": "__DIR__/objnames.js"
   },
   {
+    "id": "c53d8643-9082-11e5-b2a2-fbc46b4723d1",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
     "namespace": "singleton",
+    "parent": "c53d8642-9082-11e5-b2a2-fbc46b4723d1",
     "origin": {
       "!span": "99[5:17]-100[5:18]",
       "!type": "number"
@@ -83,12 +98,14 @@ new Ctor2(); //: Ctor2
     "tagfile": "__DIR__/objnames.js"
   },
   {
+    "id": "c53d8644-9082-11e5-b2a2-fbc46b4723d1",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
     "namespace": "singleton",
+    "parent": "c53d8642-9082-11e5-b2a2-fbc46b4723d1",
     "origin": {
       "!span": "106[5:24]-107[5:25]",
       "!type": "number"

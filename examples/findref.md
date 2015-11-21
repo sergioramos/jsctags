@@ -23,6 +23,7 @@ obj.z; //refs: 17,4 20,4
 ```json
 [
   {
+    "id": "bcd7b6b0-9082-11e5-b367-a5c08e2a595d",
     "name": "hello",
     "addr": "/hello/",
     "kind": "f",
@@ -35,39 +36,58 @@ obj.z; //refs: 17,4 20,4
     "tagfile": "__DIR__/findref.js"
   },
   {
+    "id": "bcd804d0-9082-11e5-b367-a5c08e2a595d",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "lineno": 1,
     "namespace": "hello",
+    "parent": "bcd7b6b0-9082-11e5-b367-a5c08e2a595d",
     "origin": {
-      "!span": "15[0:15]-16[0:16]"
+      "!span": "15[0:15]-16[0:16]",
+      "!data": {
+        "scoped": true,
+        "isArg": true
+      }
     },
     "tagfile": "__DIR__/findref.js"
   },
   {
+    "id": "bcd804d1-9082-11e5-b367-a5c08e2a595d",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "lineno": 1,
     "namespace": "hello",
+    "parent": "bcd7b6b0-9082-11e5-b367-a5c08e2a595d",
     "origin": {
-      "!span": "18[0:18]-19[0:19]"
+      "!span": "18[0:18]-19[0:19]",
+      "!data": {
+        "scoped": true,
+        "isArg": true
+      }
     },
     "tagfile": "__DIR__/findref.js"
   },
   {
+    "id": "bcd804d2-9082-11e5-b367-a5c08e2a595d",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
     "lineno": 2,
     "namespace": "hello",
+    "parent": "bcd7b6b0-9082-11e5-b367-a5c08e2a595d",
     "origin": {
-      "!span": "29[1:6]-30[1:7]"
+      "!span": "29[1:6]-30[1:7]",
+      "!data": {
+        "scoped": false,
+        "isArg": false
+      }
     },
     "tagfile": "__DIR__/findref.js"
   },
   {
+    "id": "bcd804d3-9082-11e5-b367-a5c08e2a595d",
     "name": "obj",
     "addr": "/obj/",
     "kind": "v",
@@ -78,12 +98,14 @@ obj.z; //refs: 17,4 20,4
     "tagfile": "__DIR__/findref.js"
   },
   {
+    "id": "bcd804d4-9082-11e5-b367-a5c08e2a595d",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 11,
     "namespace": "obj",
+    "parent": "bcd804d3-9082-11e5-b367-a5c08e2a595d",
     "origin": {
       "!span": "158[10:2]-159[10:3]",
       "!type": "number"
@@ -91,12 +113,14 @@ obj.z; //refs: 17,4 20,4
     "tagfile": "__DIR__/findref.js"
   },
   {
+    "id": "bcd804d5-9082-11e5-b367-a5c08e2a595d",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 13,
     "namespace": "obj",
+    "parent": "bcd804d3-9082-11e5-b367-a5c08e2a595d",
     "origin": {
       "!span": "194[12:2]-195[12:3]",
       "!type": "number"
@@ -104,12 +128,14 @@ obj.z; //refs: 17,4 20,4
     "tagfile": "__DIR__/findref.js"
   },
   {
+    "id": "bcd804d6-9082-11e5-b367-a5c08e2a595d",
     "name": "z",
     "addr": "/z/",
     "kind": "v",
     "type": "string",
     "lineno": 17,
     "namespace": "obj",
+    "parent": "bcd804d3-9082-11e5-b367-a5c08e2a595d",
     "origin": {
       "!span": "220[16:4]-221[16:5]",
       "!type": "string"

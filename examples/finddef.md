@@ -30,6 +30,7 @@ function another(arg) {
 ```json
 [
   {
+    "id": "bc7683e0-9082-11e5-a0d9-338320a1381d",
     "name": "blah",
     "addr": "/blah/",
     "kind": "f",
@@ -42,6 +43,7 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
+    "id": "bc76aaf0-9082-11e5-a0d9-338320a1381d",
     "name": "jaja",
     "addr": "/jaja/",
     "kind": "v",
@@ -54,6 +56,7 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
+    "id": "bc76d200-9082-11e5-a0d9-338320a1381d",
     "name": "obj",
     "addr": "/obj/",
     "kind": "v",
@@ -64,12 +67,14 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
+    "id": "bc76d201-9082-11e5-a0d9-338320a1381d",
     "name": "prop1",
     "addr": "/prop1/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
     "namespace": "obj",
+    "parent": "bc76d200-9082-11e5-a0d9-338320a1381d",
     "origin": {
       "!span": "50[5:2]-55[5:7]",
       "!type": "number"
@@ -77,12 +82,14 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
+    "id": "bc76d202-9082-11e5-a0d9-338320a1381d",
     "name": "prop2",
     "addr": "/prop2/",
     "kind": "f",
     "type": "void function(?)",
     "lineno": 7,
     "namespace": "obj",
+    "parent": "bc76d200-9082-11e5-a0d9-338320a1381d",
     "origin": {
       "!span": "63[6:2]-68[6:7]",
       "!type": "fn(foo: ?)"
@@ -90,23 +97,31 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
+    "id": "bc76d203-9082-11e5-a0d9-338320a1381d",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
     "lineno": 7,
     "namespace": "obj.prop2",
+    "parent": "bc76d202-9082-11e5-a0d9-338320a1381d",
     "origin": {
-      "!span": "79[6:18]-82[6:21]"
+      "!span": "79[6:18]-82[6:21]",
+      "!data": {
+        "scoped": true,
+        "isArg": true
+      }
     },
     "tagfile": "__DIR__/finddef.js"
   },
   {
+    "id": "bc76d204-9082-11e5-a0d9-338320a1381d",
     "name": "prop3",
     "addr": "/prop3/",
     "kind": "v",
     "type": "string",
     "lineno": 10,
     "namespace": "obj",
+    "parent": "bc76d200-9082-11e5-a0d9-338320a1381d",
     "origin": {
       "!span": "95[9:4]-100[9:9]",
       "!type": "string"
@@ -114,6 +129,7 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
+    "id": "bc76d205-9082-11e5-a0d9-338320a1381d",
     "name": "hide",
     "addr": "/hide/",
     "kind": "f",
@@ -126,6 +142,7 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
+    "id": "bc76d206-9082-11e5-a0d9-338320a1381d",
     "name": "another",
     "addr": "/another/",
     "kind": "f",
@@ -138,26 +155,38 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
+    "id": "bc76d207-9082-11e5-a0d9-338320a1381d",
     "name": "arg",
     "addr": "/arg/",
     "kind": "v",
     "lineno": 23,
     "namespace": "another",
+    "parent": "bc76d206-9082-11e5-a0d9-338320a1381d",
     "origin": {
-      "!span": "311[22:17]-314[22:20]"
+      "!span": "311[22:17]-314[22:20]",
+      "!data": {
+        "scoped": true,
+        "isArg": true
+      }
     },
     "tagfile": "__DIR__/finddef.js"
   },
   {
+    "id": "bc76d208-9082-11e5-a0d9-338320a1381d",
     "name": "local",
     "addr": "/local/",
     "kind": "v",
     "type": "number",
     "lineno": 24,
     "namespace": "another",
+    "parent": "bc76d206-9082-11e5-a0d9-338320a1381d",
     "origin": {
       "!span": "324[23:6]-329[23:11]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "scoped": false,
+        "isArg": false
+      }
     },
     "tagfile": "__DIR__/finddef.js"
   }

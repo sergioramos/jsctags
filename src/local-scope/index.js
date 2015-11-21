@@ -75,6 +75,18 @@ var postCondenseReach = function (server, options, state) {
     });
   };
 
+  var isScoped = function (state, av) {
+    if (av.path === '<top>') {
+      return false;
+    }
+
+    if (get(av, 'propertyOf.isBlock')) {
+      return true;
+    }
+
+    return isArg(state, av);
+  };
+
   var visitAVal = function (state, av, path) {
     if (av._localScopeCondenseSeen) {
       return;
@@ -103,13 +115,9 @@ var postCondenseReach = function (server, options, state) {
     seenSpans[span] = true;
 
     var data = {
-      scoped: true,
+      scoped: isScoped(state, av),
       isArg: isArg(state, av)
     };
-
-    if (isUndefined(av.propertyOf.isBlock)) {
-      data.scoped = false;
-    }
 
     state.types[path] = {
       type: av,
@@ -133,8 +141,9 @@ var postCondenseReach = function (server, options, state) {
     } catch (err) {}
 
     if (get(type, 'props.prototype')) {
-      data.isConstructor = true;
-      state.types[path].data = defaults(data, av.metaData);
+      state.types[path].data = defaults({
+        isConstructor: true
+      }, state.types[path].data);
     }
 
     forceArray(av.types).forEach(function (type) {
@@ -155,6 +164,13 @@ var postCondenseReach = function (server, options, state) {
   Object.keys(state.types).sort().forEach(function (path) {
     var data = state.types[path];
     seenSpans[data.span] = true;
+
+    if (get(data, 'type.props.prototype')) {
+      data.data = defaults({
+        isConstructor: true
+      }, data.data);
+    }
+
     if (data.type.originNode) {
       visitNode(state, data.type.originNode, path);
     }

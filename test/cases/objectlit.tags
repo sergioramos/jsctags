@@ -1,0 +1,6 @@
+bar	/Users/ramitos/dev/jsctags/test/cases/objectlit.js	/bar/;"	v	lineno:1	type:number
+foo	/Users/ramitos/dev/jsctags/test/cases/objectlit.js	/foo/;"	v	lineno:3
+a	/Users/ramitos/dev/jsctags/test/cases/objectlit.js	/a/;"	v	lineno:6	namespace:foo	type:boolean
+method	/Users/ramitos/dev/jsctags/test/cases/objectlit.js	/method/;"	f	lineno:7	namespace:foo	type:string function()
+baz	/Users/ramitos/dev/jsctags/test/cases/objectlit.js	/baz/;"	v	lineno:10
+b	/Users/ramitos/dev/jsctags/test/cases/objectlit.js	/b/;"	v	lineno:12	namespace:baz	type:string

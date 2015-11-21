@@ -29,7 +29,7 @@ var config = function (dir, file) {
   };
 
   return merge(JSON.parse(config), {
-    libs: ['browser', 'ecma5'],
+    libs: ['browser', 'ecma5', 'ecma6'],
     loadEagerly: false,
     plugins: merge(plugins, confs[extname])
   });

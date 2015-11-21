@@ -16,6 +16,7 @@ map([1, 2, 3], function() { return true; }); //: [bool]
 ```json
 [
   {
+    "id": "c8b288c0-9082-11e5-8cbf-8da3984fccff",
     "name": "last",
     "addr": "/last/",
     "kind": "f",
@@ -28,19 +29,26 @@ map([1, 2, 3], function() { return true; }); //: [bool]
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
+    "id": "c8b2afd0-9082-11e5-8cbf-8da3984fccff",
     "name": "arr",
     "addr": "/arr/",
     "kind": "v",
     "type": "[number]|[string]",
     "lineno": 1,
     "namespace": "last",
+    "parent": "c8b288c0-9082-11e5-8cbf-8da3984fccff",
     "origin": {
       "!span": "14[0:14]-17[0:17]",
-      "!type": "[number]|[string]"
+      "!type": "[number]|[string]",
+      "!data": {
+        "scoped": true,
+        "isArg": true
+      }
     },
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
+    "id": "c8b2afd1-9082-11e5-8cbf-8da3984fccff",
     "name": "map",
     "addr": "/map/",
     "kind": "f",
@@ -53,54 +61,78 @@ map([1, 2, 3], function() { return true; }); //: [bool]
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
+    "id": "c8b2afd2-9082-11e5-8cbf-8da3984fccff",
     "name": "arr",
     "addr": "/arr/",
     "kind": "v",
     "type": "[number]",
     "lineno": 6,
     "namespace": "map",
+    "parent": "c8b2afd1-9082-11e5-8cbf-8da3984fccff",
     "origin": {
       "!span": "128[5:13]-131[5:16]",
-      "!type": "[number]"
+      "!type": "[number]",
+      "!data": {
+        "scoped": false,
+        "isArg": false
+      }
     },
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
+    "id": "c8b2afd3-9082-11e5-8cbf-8da3984fccff",
     "name": "f",
     "addr": "/f/",
     "kind": "f",
     "type": "boolean function()",
     "lineno": 6,
     "namespace": "map",
+    "parent": "c8b2afd1-9082-11e5-8cbf-8da3984fccff",
     "origin": {
       "!span": "133[5:18]-134[5:19]",
-      "!type": "fn() -> bool"
+      "!type": "fn() -> bool",
+      "!data": {
+        "scoped": false,
+        "isArg": false
+      }
     },
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
+    "id": "c8b2afd5-9082-11e5-8cbf-8da3984fccff",
     "name": "res",
     "addr": "/res/",
     "kind": "v",
     "type": "[bool]",
     "lineno": 7,
     "namespace": "map",
+    "parent": "c8b2afd1-9082-11e5-8cbf-8da3984fccff",
     "origin": {
       "!span": "144[6:6]-147[6:9]",
-      "!type": "[bool]"
+      "!type": "[bool]",
+      "!data": {
+        "scoped": false,
+        "isArg": false
+      }
     },
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
+    "id": "c8b2afd4-9082-11e5-8cbf-8da3984fccff",
     "name": "i",
     "addr": "/i/",
     "kind": "v",
     "type": "number",
     "lineno": 8,
     "namespace": "map",
+    "parent": "c8b2afd1-9082-11e5-8cbf-8da3984fccff",
     "origin": {
       "!span": "165[7:11]-166[7:12]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "scoped": false,
+        "isArg": false
+      }
     },
     "tagfile": "__DIR__/simple_generic.js"
   }

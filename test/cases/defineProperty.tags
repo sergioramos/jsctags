@@ -1,0 +1,6 @@
+o	/Users/ramitos/dev/jsctags/test/cases/defineProperty.js	/o/;"	v	lineno:1
+prop1	/Users/ramitos/dev/jsctags/test/cases/defineProperty.js	/"prop1"/;"	v	lineno:4	namespace:o	type:string
+prop2	/Users/ramitos/dev/jsctags/test/cases/defineProperty.js	/"prop2"/;"	v	lineno:8	namespace:o	type:number
+o2	/Users/ramitos/dev/jsctags/test/cases/defineProperty.js	/o2/;"	v	lineno:17
+prop1	/Users/ramitos/dev/jsctags/test/cases/defineProperty.js	/\{/;"	v	lineno:19	namespace:o2	type:number
+prop2	/Users/ramitos/dev/jsctags/test/cases/defineProperty.js	/\{/;"	v	lineno:19	namespace:o2	type:boolean

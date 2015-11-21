@@ -50,7 +50,7 @@
     "origin": {
       "!span": "29[1:6]-30[1:7]",
       "!data": {
-        "scoped": true,
+        "scoped": false,
         "isArg": false
       }
     },

@@ -15,6 +15,7 @@ simple[quux()]; //: string
 ```json
 [
   {
+    "id": "b6922f10-9082-11e5-a068-b5b8a272b527",
     "name": "grabbag",
     "addr": "/grabbag/",
     "kind": "v",
@@ -25,6 +26,7 @@ simple[quux()]; //: string
     "tagfile": "__DIR__/cautiouspropagation.js"
   },
   {
+    "id": "b6925620-9082-11e5-a068-b5b8a272b527",
     "name": "inner",
     "addr": "/inner/",
     "kind": "v",
@@ -37,6 +39,7 @@ simple[quux()]; //: string
     "tagfile": "__DIR__/cautiouspropagation.js"
   },
   {
+    "id": "b6925621-9082-11e5-a068-b5b8a272b527",
     "name": "simple",
     "addr": "/simple/",
     "kind": "v",
@@ -47,12 +50,14 @@ simple[quux()]; //: string
     "tagfile": "__DIR__/cautiouspropagation.js"
   },
   {
+    "id": "b6925622-9082-11e5-a068-b5b8a272b527",
     "name": "<i>",
     "addr": "/foo\(\)/",
     "kind": "v",
     "type": "string",
     "lineno": 9,
     "namespace": "simple",
+    "parent": "b6925621-9082-11e5-a068-b5b8a272b527",
     "origin": {
       "!span": "175[8:7]-180[8:12]",
       "!type": "string"

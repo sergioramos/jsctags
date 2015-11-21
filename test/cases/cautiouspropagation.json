@@ -33,7 +33,7 @@
   },
   {
     "name": "<i>",
-    "addr": "/foo\\(\\)/",
+    "addr": "/foo\(\)/",
     "kind": "v",
     "type": "string",
     "lineno": 9,

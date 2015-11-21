@@ -22,7 +22,7 @@
       "!span": "93[2:32]-99[2:38]",
       "!type": "fn(arg: bool)",
       "!data": {
-        "scoped": true,
+        "scoped": false,
         "isArg": false
       }
     },
@@ -39,7 +39,7 @@
       "!span": "86[2:25]-91[2:30]",
       "!type": "fn(arg: bool)",
       "!data": {
-        "scoped": true,
+        "scoped": false,
         "isArg": false
       }
     },
@@ -54,7 +54,7 @@
     "origin": {
       "!span": "114[3:11]-117[3:14]",
       "!data": {
-        "scoped": true,
+        "scoped": false,
         "isArg": false
       }
     },
@@ -71,7 +71,7 @@
       "!span": "170[4:11]-174[4:15]",
       "!type": "fn()",
       "!data": {
-        "scoped": true,
+        "scoped": false,
         "isArg": false
       }
     },
@@ -151,7 +151,10 @@
     "lineno": 10,
     "origin": {
       "!span": "284[9:4]-287[9:7]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true
+      }
     },
     "tagfile": "__DIR__/extends.js"
   },
@@ -190,7 +193,10 @@
     "namespace": "SubOne.prototype",
     "origin": {
       "!span": "427[16:4]-433[16:10]",
-      "!type": "fn(arg: bool)"
+      "!type": "fn(arg: bool)",
+      "!data": {
+        "isConstructor": true
+      }
     },
     "tagfile": "__DIR__/extends.js"
   },
@@ -202,7 +208,10 @@
     "lineno": 17,
     "origin": {
       "!span": "427[16:4]-433[16:10]",
-      "!type": "fn(arg: bool)"
+      "!type": "fn(arg: bool)",
+      "!data": {
+        "isConstructor": true
+      }
     },
     "tagfile": "__DIR__/extends.js"
   },
@@ -326,7 +335,10 @@
     "lineno": 24,
     "origin": {
       "!span": "618[23:4]-624[23:10]",
-      "!type": "fn(arg: bool)"
+      "!type": "fn(arg: bool)",
+      "!data": {
+        "isConstructor": true
+      }
     },
     "tagfile": "__DIR__/extends.js"
   },
@@ -339,7 +351,10 @@
     "namespace": "SubTwo.prototype",
     "origin": {
       "!span": "618[23:4]-624[23:10]",
-      "!type": "fn(arg: bool)"
+      "!type": "fn(arg: bool)",
+      "!data": {
+        "isConstructor": true
+      }
     },
     "tagfile": "__DIR__/extends.js"
   },
@@ -438,7 +453,10 @@
     "namespace": "SubEleven.prototype",
     "origin": {
       "!span": "811[30:4]-820[30:13]",
-      "!type": "fn(arg: bool)"
+      "!type": "fn(arg: bool)",
+      "!data": {
+        "isConstructor": true
+      }
     },
     "tagfile": "__DIR__/extends.js"
   },
@@ -450,7 +468,10 @@
     "lineno": 31,
     "origin": {
       "!span": "811[30:4]-820[30:13]",
-      "!type": "fn(arg: bool)"
+      "!type": "fn(arg: bool)",
+      "!data": {
+        "isConstructor": true
+      }
     },
     "tagfile": "__DIR__/extends.js"
   },

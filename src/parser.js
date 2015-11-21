@@ -4,6 +4,7 @@ var includes = require('lodash.includes');
 var isUndefined = require('lodash.isundefined');
 var isObject = require('lodash.isplainobject');
 var isArray = require('lodash.isarray');
+var isFunction = require('lodash.isfunction');
 var sortBy = require('lodash.sortby');
 var without = require('lodash.without');
 var get = require('lodash.get');
@@ -55,6 +56,10 @@ var hashNode = function (n) {
 var isDefaultType = function (type) {
   // nested object
   if (isUndefined(type)) {
+    return true;
+  }
+
+  if (isFunction(type)) {
     return true;
   }
 
@@ -243,13 +248,14 @@ Parser.prototype.type = function (node) {
     return this.typeFn(node);
   }
 
-  var type = node['!type'].replace(/^\+/, '');
+  var clean = node['!type'].replace(/^\+/, '');
+  var mapped = TYPE_MAPPING[clean];
 
-  if (TYPE_MAPPING[type]) {
-    return TYPE_MAPPING[type];
+  if (mapped) {
+    return mapped;
   }
 
-  return type;
+  return this.ctx.preserveType ? node['!type'] : clean;
 };
 
 Parser.prototype.kind = function (node) {

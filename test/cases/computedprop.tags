@@ -1,0 +1,7 @@
+x	/Users/ramitos/dev/jsctags/test/cases/computedprop.js	/x/;"	v	lineno:1
+<i>	/Users/ramitos/dev/jsctags/test/cases/computedprop.js	/foo\(\)/;"	v	lineno:2	namespace:x
+a	/Users/ramitos/dev/jsctags/test/cases/computedprop.js	/a/;"	v	lineno:2	namespace:x.<i>	type:number
+b	/Users/ramitos/dev/jsctags/test/cases/computedprop.js	/b/;"	v	lineno:2	namespace:x.<i>	type:number
+obj	/Users/ramitos/dev/jsctags/test/cases/computedprop.js	/obj/;"	v	lineno:6
+a	/Users/ramitos/dev/jsctags/test/cases/computedprop.js	/a/;"	v	lineno:6	namespace:obj	type:string
+b	/Users/ramitos/dev/jsctags/test/cases/computedprop.js	/b/;"	v	lineno:6	namespace:obj	type:string

@@ -7,7 +7,10 @@
     "lineno": 4,
     "origin": {
       "!span": "112[3:9]-116[3:13]",
-      "!type": "fn() -> +Ctor"
+      "!type": "fn() -> +Ctor",
+      "!data": {
+        "isConstructor": true
+      }
     },
     "tagfile": "__DIR__/ctorpattern.js"
   },

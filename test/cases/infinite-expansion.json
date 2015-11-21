@@ -7,7 +7,10 @@
     "lineno": 3,
     "origin": {
       "!span": "18[2:4]-19[2:5]",
-      "!type": "fn(n: f)"
+      "!type": "fn(n: f)",
+      "!data": {
+        "isConstructor": true
+      }
     },
     "tagfile": "__DIR__/infinite-expansion.js"
   },
@@ -22,7 +25,7 @@
       "!span": "31[2:17]-32[2:18]",
       "!type": "fn(n: f)",
       "!data": {
-        "scoped": true,
+        "scoped": false,
         "isArg": false
       }
     },
@@ -78,7 +81,7 @@
       "!span": "267[14:14]-268[14:15]",
       "!type": "number",
       "!data": {
-        "scoped": true,
+        "scoped": false,
         "isArg": false
       }
     },

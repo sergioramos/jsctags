@@ -14,6 +14,7 @@ e_which; //: number
 ```json
 [
   {
+    "id": "b57dd8e0-9082-11e5-a090-bd13e9536dc5",
     "name": "newElt",
     "addr": "/newElt/",
     "kind": "v",
@@ -26,6 +27,7 @@ e_which; //: number
     "tagfile": "__DIR__/browser.js"
   },
   {
+    "id": "b57dfff0-9082-11e5-a090-bd13e9536dc5",
     "name": "e_which",
     "addr": "/e_which/",
     "kind": "v",

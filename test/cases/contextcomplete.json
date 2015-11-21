@@ -1,0 +1,44 @@
+[
+  {
+    "name": "whoAmI",
+    "addr": "/whoAmI/",
+    "kind": "f",
+    "type": "void function(?, ?)",
+    "lineno": 1,
+    "origin": {
+      "!span": "9[0:9]-15[0:15]",
+      "!type": "fn(a: ?, i: ?)"
+    },
+    "tagfile": "__DIR__/contextcomplete.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "lineno": 1,
+    "namespace": "whoAmI",
+    "origin": {
+      "!span": "16[0:16]-17[0:17]",
+      "!data": {
+        "scoped": true,
+        "isArg": true
+      }
+    },
+    "tagfile": "__DIR__/contextcomplete.js"
+  },
+  {
+    "name": "i",
+    "addr": "/i/",
+    "kind": "v",
+    "lineno": 1,
+    "namespace": "whoAmI",
+    "origin": {
+      "!span": "19[0:19]-20[0:20]",
+      "!data": {
+        "scoped": true,
+        "isArg": true
+      }
+    },
+    "tagfile": "__DIR__/contextcomplete.js"
+  }
+]

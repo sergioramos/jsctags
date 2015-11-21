@@ -1,8 +1,7 @@
-Ctor1	__DIR__/objnames.js	/Ctor1/;"	f	lineno:1	type:void function()
-prototype	__DIR__/objnames.js	/prototype/;"	v	lineno:2	namespace:Ctor1
-a	__DIR__/objnames.js	/a/;"	v	lineno:2	namespace:Ctor1.prototype	type:number
-Ctor2	__DIR__/objnames.js	/Ctor2/;"	f	lineno:4	type:void function()
-singleton	__DIR__/objnames.js	/singleton/;"	v	lineno:6
-a	__DIR__/objnames.js	/a/;"	v	lineno:6	namespace:singleton	type:number
-b	__DIR__/objnames.js	/b/;"	v	lineno:6	namespace:singleton	type:number
-
+Ctor1	/Users/ramitos/dev/jsctags/test/cases/objnames.js	/Ctor1/;"	f	lineno:1	type:void function()
+prototype	/Users/ramitos/dev/jsctags/test/cases/objnames.js	/prototype/;"	v	lineno:2	namespace:Ctor1
+a	/Users/ramitos/dev/jsctags/test/cases/objnames.js	/a/;"	v	lineno:2	namespace:Ctor1.prototype	type:number
+Ctor2	/Users/ramitos/dev/jsctags/test/cases/objnames.js	/Ctor2/;"	f	lineno:4	type:void function()
+singleton	/Users/ramitos/dev/jsctags/test/cases/objnames.js	/singleton/;"	v	lineno:6
+a	/Users/ramitos/dev/jsctags/test/cases/objnames.js	/a/;"	v	lineno:6	namespace:singleton	type:number
+b	/Users/ramitos/dev/jsctags/test/cases/objnames.js	/b/;"	v	lineno:6	namespace:singleton	type:number

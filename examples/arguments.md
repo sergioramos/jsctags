@@ -6,6 +6,7 @@ var arguments = 1; //: number
 ```json
 [
   {
+    "id": "b2eb9540-9082-11e5-907c-a7e485afc8bd",
     "name": "arguments",
     "addr": "/arguments/",
     "kind": "v",

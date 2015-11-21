@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Class",
+    "addr": "/Class/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 1,
+    "origin": {
+      "!span": "9[0:9]-14[0:14]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true
+      }
+    },
+    "tagfile": "__DIR__/empty_overridden_prop.js"
+  },
+  {
+    "name": "hello",
+    "addr": "/hello/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 2,
+    "namespace": "Class.prototype",
+    "origin": {
+      "!span": "36[1:16]-41[1:21]",
+      "!type": "string"
+    },
+    "tagfile": "__DIR__/empty_overridden_prop.js"
+  },
+  {
+    "name": "c",
+    "addr": "/c/",
+    "kind": "v",
+    "type": "Class",
+    "lineno": 4,
+    "origin": {
+      "!span": "59[3:4]-60[3:5]",
+      "!type": "+Class"
+    },
+    "tagfile": "__DIR__/empty_overridden_prop.js"
+  }
+]

@@ -10,6 +10,7 @@ buildCopy({xx: 10, yy: 20}); //:: {xx: number, yy: number}
 ```json
 [
   {
+    "id": "b884fe60-9082-11e5-9abd-a13df5e52bf3",
     "name": "buildCopy",
     "addr": "/buildCopy/",
     "kind": "f",
@@ -22,24 +23,36 @@ buildCopy({xx: 10, yy: 20}); //:: {xx: number, yy: number}
     "tagfile": "__DIR__/copyprops.js"
   },
   {
+    "id": "b8852570-9082-11e5-9abd-a13df5e52bf3",
     "name": "oo",
     "addr": "/oo/",
     "kind": "v",
     "lineno": 2,
     "namespace": "buildCopy",
+    "parent": "b884fe60-9082-11e5-9abd-a13df5e52bf3",
     "origin": {
-      "!span": "30[1:6]-32[1:8]"
+      "!span": "30[1:6]-32[1:8]",
+      "!data": {
+        "scoped": false,
+        "isArg": false
+      }
     },
     "tagfile": "__DIR__/copyprops.js"
   },
   {
+    "id": "b8852571-9082-11e5-9abd-a13df5e52bf3",
     "name": "prop",
     "addr": "/prop/",
     "kind": "v",
     "lineno": 3,
     "namespace": "buildCopy",
+    "parent": "b884fe60-9082-11e5-9abd-a13df5e52bf3",
     "origin": {
-      "!span": "50[2:11]-54[2:15]"
+      "!span": "50[2:11]-54[2:15]",
+      "!data": {
+        "scoped": false,
+        "isArg": false
+      }
     },
     "tagfile": "__DIR__/copyprops.js"
   }

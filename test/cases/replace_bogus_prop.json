@@ -19,7 +19,10 @@
     "lineno": 5,
     "origin": {
       "!span": "49[4:9]-53[4:13]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true
+      }
     },
     "tagfile": "__DIR__/replace_bogus_prop.js"
   },

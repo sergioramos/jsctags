@@ -13,7 +13,7 @@
   },
   {
     "name": "arguments",
-    "addr": "/function abc\\(\\) \\{/",
+    "addr": "/function abc\(\) \{/",
     "kind": "v",
     "type": "[number]",
     "lineno": 1,
@@ -22,7 +22,7 @@
       "!span": "0[0:0]-41[2:1]",
       "!type": "[number]",
       "!data": {
-        "scoped": true,
+        "scoped": false,
         "isArg": false
       }
     },

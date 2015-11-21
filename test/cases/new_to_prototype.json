@@ -7,7 +7,10 @@
     "lineno": 1,
     "origin": {
       "!span": "9[0:9]-10[0:10]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true
+      }
     },
     "tagfile": "__DIR__/new_to_prototype.js"
   },
@@ -32,7 +35,10 @@
     "lineno": 3,
     "origin": {
       "!span": "49[2:9]-50[2:10]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true
+      }
     },
     "tagfile": "__DIR__/new_to_prototype.js"
   },
@@ -68,7 +74,10 @@
     "lineno": 6,
     "origin": {
       "!span": "110[5:9]-111[5:10]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true
+      }
     },
     "tagfile": "__DIR__/new_to_prototype.js"
   },
