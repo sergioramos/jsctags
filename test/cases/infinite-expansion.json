@@ -25,7 +25,7 @@
         "scoped": true
       }
     },
-    "tagfile": "/Users/ramitos/dev/jsctags/test/cases/infinite-expansion.js"
+    "tagfile": "__DIR__/infinite-expansion.js"
   },
   {
     "name": "prototype",
