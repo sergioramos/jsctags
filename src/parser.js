@@ -118,20 +118,20 @@ Parser.prototype.clean = function () {
     return;
   }
 
-  var onSpan = function(span) {
+  var onSpan = function (span) {
     var tags = this.bySpan[span];
 
     if (tags.length < 2) {
       return;
     }
 
-    this.tags = without(this.tags, sortBy(tags, function(tag) {
+    this.tags = without(this.tags, sortBy(tags, function (tag) {
       return (tag.namespace || '').split(/\./).length;
     }).pop());
   };
 
   Object.keys(this.bySpan).forEach(onSpan, this);
-}
+};
 
 Parser.prototype.fromTree = function (tree, parent) {
   if (!isObject(tree)) {
@@ -292,7 +292,7 @@ Parser.prototype.push = function (tag) {
   var hasSpan = (
     tag.origin &&
     tag.origin['!span']
-  )
+  );
 
   if (!hasSpan) {
     return;
@@ -305,7 +305,7 @@ Parser.prototype.push = function (tag) {
   }
 
   this.bySpan[span].push(tag);
-}
+};
 
 Parser.prototype.onNode = function (name, node, parent) {
   if (!node) {

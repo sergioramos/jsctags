@@ -12,7 +12,7 @@ var infer = require('tern/lib/infer');
 var defnode = require('./defnode');
 var walkall = require('./walkall');
 
-var joinPaths = function(a, b) {
+var joinPaths = function (a, b) {
   if (a) {
     return a + '.' + b;
   }
@@ -24,7 +24,7 @@ var getId = function (n) {
   return format('%d-%d', n.start, n.end);
 };
 
-var postCondenseReach = function(server, options, state) {
+var postCondenseReach = function (server, options, state) {
   var seenSpans = {};
 
   function visitScope (state, scope, path) {
@@ -121,15 +121,15 @@ var postCondenseReach = function(server, options, state) {
       type = infer.expressionType({
         node: defNode,
         state: state
-      })
-    } catch(err) {}
+      });
+    } catch (err) {}
 
     if (((type || {}).props || {}).prototype) {
       data.isConstructor = true;
       state.types[path].data = defaults(data, av.metaData);
     }
 
-    forceArray(av.types).forEach(function(type) {
+    forceArray(av.types).forEach(function (type) {
       visitScope(state, type, path);
     });
 
@@ -139,7 +139,7 @@ var postCondenseReach = function(server, options, state) {
       return;
     }
 
-    visitNode(state, defNode, path)
+    visitNode(state, defNode, path);
   }
 
   // Traverse accessible types first so we name things with reachable path
@@ -160,7 +160,7 @@ var postCondenseReach = function(server, options, state) {
       visitNode(state, file.ast, path);
     }
   });
-}
+};
 
 tern.registerPlugin('local-scope', function (server, options) {
   return {
