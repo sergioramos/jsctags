@@ -22,7 +22,8 @@
       "!span": "13[0:13]-14[0:14]",
       "!type": "bool",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/proto.js"

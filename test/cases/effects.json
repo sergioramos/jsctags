@@ -58,7 +58,8 @@
       "!span": "187[12:14]-188[12:15]",
       "!type": "number",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/effects.js"

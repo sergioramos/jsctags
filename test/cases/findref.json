@@ -20,7 +20,8 @@
     "origin": {
       "!span": "15[0:15]-16[0:16]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/findref.js"
@@ -34,7 +35,8 @@
     "origin": {
       "!span": "18[0:18]-19[0:19]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/findref.js"
@@ -48,7 +50,8 @@
     "origin": {
       "!span": "29[1:6]-30[1:7]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/findref.js"

@@ -20,7 +20,8 @@
     "origin": {
       "!span": "30[1:6]-32[1:8]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/copyprops.js"
@@ -34,7 +35,8 @@
     "origin": {
       "!span": "50[2:11]-54[2:15]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/copyprops.js"

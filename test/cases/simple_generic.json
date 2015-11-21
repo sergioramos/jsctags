@@ -22,7 +22,8 @@
       "!span": "14[0:14]-17[0:17]",
       "!type": "[number]|[string]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/simple_generic.js"
@@ -50,7 +51,8 @@
       "!span": "128[5:13]-131[5:16]",
       "!type": "[number]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/simple_generic.js"
@@ -66,7 +68,8 @@
       "!span": "133[5:18]-134[5:19]",
       "!type": "fn() -> bool",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/simple_generic.js"
@@ -82,7 +85,8 @@
       "!span": "144[6:6]-147[6:9]",
       "!type": "[bool]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/simple_generic.js"
@@ -98,7 +102,8 @@
       "!span": "165[7:11]-166[7:12]",
       "!type": "number",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/simple_generic.js"

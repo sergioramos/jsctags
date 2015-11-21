@@ -9,7 +9,8 @@
       "!span": "185[3:4]-192[3:11]",
       "!type": "fn(ms: number)",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -60,7 +61,8 @@
       "!span": "504[17:4]-515[17:15]",
       "!type": "fn() -> string",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/docstrings.js"

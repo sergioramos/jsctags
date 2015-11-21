@@ -4,6 +4,7 @@ var tern = require('tern');
 var includes = require('lodash.includes');
 var defaults = require('lodash.defaults');
 var isUndefined = require('lodash.isundefined');
+var get = require('lodash.get');
 var walk = require('acorn/dist/walk');
 var format = require('util').format;
 var forceArray = require('force-array');
@@ -27,7 +28,7 @@ var getId = function (n) {
 var postCondenseReach = function (server, options, state) {
   var seenSpans = {};
 
-  function visitScope (state, scope, path) {
+  var visitScope = function(state, scope, path) {
     // detect cycles
     if (scope._localScopeCondenseSeen) {
       return;
@@ -35,12 +36,12 @@ var postCondenseReach = function (server, options, state) {
 
     scope._localScopeCondenseSeen = true;
 
-    Object.keys((scope.props || {})).sort().forEach(function (prop) {
+    Object.keys(get(scope, 'props', {})).sort().forEach(function (prop) {
       visitAVal(state, scope.props[prop], joinPaths(path, prop));
     });
   }
 
-  function visitNode (state, node, path) {
+  var visitNode = function(state, node, path) {
     if (!node) {
       return;
     }
@@ -68,7 +69,13 @@ var postCondenseReach = function (server, options, state) {
     }));
   }
 
-  function visitAVal (state, av, path) {
+  var isArg = function(state, av) {
+    return get(av, 'propertyOf.fnType.args', []).some(function(arg) {
+      return arg.propertyName === av.propertyName;
+    });
+  };
+
+  var visitAVal = function (state, av, path) {
     if (av._localScopeCondenseSeen) {
       return;
     }
@@ -96,7 +103,8 @@ var postCondenseReach = function (server, options, state) {
     seenSpans[span] = true;
 
     var data = {
-      scoped: true
+      scoped: true,
+      isArg: isArg(state, av)
     };
 
     if (isUndefined(av.propertyOf.isBlock)) {
@@ -124,7 +132,7 @@ var postCondenseReach = function (server, options, state) {
       });
     } catch (err) {}
 
-    if (((type || {}).props || {}).prototype) {
+    if (get(type, 'props.prototype')) {
       data.isConstructor = true;
       state.types[path].data = defaults(data, av.metaData);
     }

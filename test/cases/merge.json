@@ -20,7 +20,8 @@
     "origin": {
       "!span": "13[0:13]-14[0:14]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/merge.js"
@@ -36,7 +37,8 @@
       "!span": "66[5:5]-67[5:6]",
       "!type": "number",
       "!data": {
-        "scoped": false
+        "scoped": false,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/merge.js"
@@ -52,7 +54,8 @@
       "!span": "73[5:12]-74[5:13]",
       "!type": "number",
       "!data": {
-        "scoped": false
+        "scoped": false,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/merge.js"

@@ -44,7 +44,8 @@
       "!span": "295[16:13]-296[16:14]",
       "!type": "number",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -60,7 +61,8 @@
       "!span": "298[16:16]-299[16:17]",
       "!type": "string",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -88,7 +90,8 @@
       "!span": "463[24:19]-464[24:20]",
       "!type": "number",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -104,7 +107,8 @@
       "!span": "466[24:22]-467[24:23]",
       "!type": "number",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/jsdoc.js"

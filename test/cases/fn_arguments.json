@@ -22,7 +22,8 @@
       "!span": "0[0:0]-41[2:1]",
       "!type": "[number]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/fn_arguments.js"

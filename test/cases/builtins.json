@@ -55,7 +55,8 @@
     "origin": {
       "!span": "810[37:4]-813[37:7]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/builtins.js"
@@ -104,7 +105,8 @@
     "origin": {
       "!span": "911[41:4]-914[41:7]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/builtins.js"
@@ -154,7 +156,8 @@
     "origin": {
       "!span": "998[44:21]-999[44:22]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/builtins.js"

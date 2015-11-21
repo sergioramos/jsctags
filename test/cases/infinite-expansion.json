@@ -22,7 +22,8 @@
       "!span": "31[2:17]-32[2:18]",
       "!type": "fn(n: f)",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/infinite-expansion.js"
@@ -36,7 +37,8 @@
     "origin": {
       "!span": "40[3:4]-49[3:13]",
       "!data": {
-        "scoped": false
+        "scoped": false,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/infinite-expansion.js"
@@ -76,7 +78,8 @@
       "!span": "267[14:14]-268[14:15]",
       "!type": "number",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/infinite-expansion.js"

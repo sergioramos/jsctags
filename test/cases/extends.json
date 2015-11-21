@@ -22,7 +22,8 @@
       "!span": "93[2:32]-99[2:38]",
       "!type": "fn(arg: bool)",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -38,7 +39,8 @@
       "!span": "86[2:25]-91[2:30]",
       "!type": "fn(arg: bool)",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -52,7 +54,8 @@
     "origin": {
       "!span": "114[3:11]-117[3:14]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -68,7 +71,8 @@
       "!span": "170[4:11]-174[4:15]",
       "!type": "fn()",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -213,7 +217,8 @@
       "!span": "474[17:18]-477[17:21]",
       "!type": "bool",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -255,7 +260,8 @@
       "!span": "474[17:18]-477[17:21]",
       "!type": "bool",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -361,7 +367,8 @@
       "!span": "665[24:18]-668[24:21]",
       "!type": "bool",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -390,7 +397,8 @@
       "!span": "665[24:18]-668[24:21]",
       "!type": "bool",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -457,7 +465,8 @@
       "!span": "864[31:21]-867[31:24]",
       "!type": "bool",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -473,7 +482,8 @@
       "!span": "864[31:21]-867[31:24]",
       "!type": "bool",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/extends.js"
