@@ -28,7 +28,7 @@ var getId = function (n) {
 var postCondenseReach = function (server, options, state) {
   var seenSpans = {};
 
-  var visitScope = function(state, scope, path) {
+  var visitScope = function (state, scope, path) {
     // detect cycles
     if (scope._localScopeCondenseSeen) {
       return;
@@ -39,9 +39,9 @@ var postCondenseReach = function (server, options, state) {
     Object.keys(get(scope, 'props', {})).sort().forEach(function (prop) {
       visitAVal(state, scope.props[prop], joinPaths(path, prop));
     });
-  }
+  };
 
-  var visitNode = function(state, node, path) {
+  var visitNode = function (state, node, path) {
     if (!node) {
       return;
     }
@@ -67,10 +67,10 @@ var postCondenseReach = function (server, options, state) {
         path: st.path
       });
     }));
-  }
+  };
 
-  var isArg = function(state, av) {
-    return get(av, 'propertyOf.fnType.args', []).some(function(arg) {
+  var isArg = function (state, av) {
+    return get(av, 'propertyOf.fnType.args', []).some(function (arg) {
       return arg.propertyName === av.propertyName;
     });
   };
@@ -148,7 +148,7 @@ var postCondenseReach = function (server, options, state) {
     }
 
     visitNode(state, defNode, path);
-  }
+  };
 
   // Traverse accessible types first so we name things with reachable path
   // prefixes if possible.
