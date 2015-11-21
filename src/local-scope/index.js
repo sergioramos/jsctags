@@ -165,7 +165,7 @@ var postCondenseReach = function (server, options, state) {
 tern.registerPlugin('local-scope', function (server, options) {
   return {
     passes: {
-      postCondenseReach: function(state) {
+      postCondenseReach: function (state) {
         postCondenseReach(server, options, state);
       }
     }
