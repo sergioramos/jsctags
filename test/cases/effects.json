@@ -56,7 +56,10 @@
     "namespace": "setD",
     "origin": {
       "!span": "187[12:14]-188[12:15]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/effects.js"
   }

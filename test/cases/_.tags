@@ -119,6 +119,7 @@ l	__DIR__/generic_each.js	/l/;"	v	lineno:7	namespace:each	type:number
 foo	__DIR__/global_this.js	/foo/;"	v	lineno:1	type:number
 f	__DIR__/infinite-expansion.js	/f/;"	f	lineno:3	type:void function(f)
 n	__DIR__/infinite-expansion.js	/n/;"	f	lineno:3	namespace:f	type:void function(f)
+prototype	__DIR__/infinite-expansion.js	/prototype/;"	v	lineno:4	namespace:f.n
 x	__DIR__/infinite-expansion.js	/x/;"	v	lineno:10	type:[x]
 goop	__DIR__/infinite-expansion.js	/goop/;"	f	lineno:15	type:void function(?) function(number)
 n	__DIR__/infinite-expansion.js	/n/;"	v	lineno:15	namespace:goop	type:number
@@ -136,6 +137,8 @@ prop2	__DIR__/jsdoc.js	/prop2/;"	f	lineno:34	namespace:o	type:number function()
 prop3	__DIR__/jsdoc.js	/prop3/;"	f	lineno:38	namespace:o	type:string function()
 sum	__DIR__/merge.js	/sum/;"	f	lineno:1	type:number function(?)
 a	__DIR__/merge.js	/a/;"	v	lineno:1	namespace:sum
+x	__DIR__/merge.js	/x/;"	v	lineno:6	namespace:sum.a	type:number
+y	__DIR__/merge.js	/y/;"	v	lineno:6	namespace:sum.a	type:number
 a	__DIR__/new_array.js	/a/;"	v	lineno:1	type:[string]
 b	__DIR__/new_array.js	/b/;"	v	lineno:5	type:[bool]
 c	__DIR__/new_array.js	/c/;"	v	lineno:8	type:[?]

@@ -20,7 +20,10 @@
     "namespace": "Foo",
     "origin": {
       "!span": "13[0:13]-14[0:14]",
-      "!type": "bool"
+      "!type": "bool",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/proto.js"
   },

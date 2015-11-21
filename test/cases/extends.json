@@ -20,7 +20,10 @@
     "namespace": "__extends",
     "origin": {
       "!span": "93[2:32]-99[2:38]",
-      "!type": "fn(arg: bool)"
+      "!type": "fn(arg: bool)",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/extends.js"
   },
@@ -33,7 +36,10 @@
     "namespace": "__extends",
     "origin": {
       "!span": "86[2:25]-91[2:30]",
-      "!type": "fn(arg: bool)"
+      "!type": "fn(arg: bool)",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/extends.js"
   },
@@ -44,7 +50,10 @@
     "lineno": 4,
     "namespace": "__extends",
     "origin": {
-      "!span": "114[3:11]-117[3:14]"
+      "!span": "114[3:11]-117[3:14]",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/extends.js"
   },
@@ -57,7 +66,10 @@
     "namespace": "__extends",
     "origin": {
       "!span": "170[4:11]-174[4:15]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/extends.js"
   },
@@ -199,7 +211,10 @@
     "namespace": "SubOne",
     "origin": {
       "!span": "474[17:18]-477[17:21]",
-      "!type": "bool"
+      "!type": "bool",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/extends.js"
   },
@@ -238,7 +253,10 @@
     "namespace": "SubOne.prototype.constructor",
     "origin": {
       "!span": "474[17:18]-477[17:21]",
-      "!type": "bool"
+      "!type": "bool",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/extends.js"
   },
@@ -341,7 +359,10 @@
     "namespace": "SubTwo.prototype.constructor",
     "origin": {
       "!span": "665[24:18]-668[24:21]",
-      "!type": "bool"
+      "!type": "bool",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/extends.js"
   },
@@ -367,7 +388,10 @@
     "namespace": "SubTwo",
     "origin": {
       "!span": "665[24:18]-668[24:21]",
-      "!type": "bool"
+      "!type": "bool",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/extends.js"
   },
@@ -431,7 +455,10 @@
     "namespace": "SubEleven.prototype.constructor",
     "origin": {
       "!span": "864[31:21]-867[31:24]",
-      "!type": "bool"
+      "!type": "bool",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/extends.js"
   },
@@ -444,7 +471,10 @@
     "namespace": "SubEleven",
     "origin": {
       "!span": "864[31:21]-867[31:24]",
-      "!type": "bool"
+      "!type": "bool",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/extends.js"
   },

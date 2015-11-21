@@ -2,24 +2,30 @@
 
 var tern = require('tern');
 var includes = require('lodash.includes');
+var defaults = require('lodash.defaults');
+var isUndefined = require('lodash.isundefined');
 var walk = require('acorn/dist/walk');
 var format = require('util').format;
+var forceArray = require('force-array');
+var infer = require('tern/lib/infer');
 
 var defnode = require('./defnode');
 var walkall = require('./walkall');
 
-function joinPaths (a, b) {
+var joinPaths = function(a, b) {
   if (a) {
     return a + '.' + b;
   }
 
   return b;
-}
+};
 
-tern.registerPlugin('local-scope', function (server, options) {
-  var getId = function (n) {
-    return format('%d-%d', n.start, n.end);
-  };
+var getId = function (n) {
+  return format('%d-%d', n.start, n.end);
+};
+
+var postCondenseReach = function(server, options, state) {
+  var seenSpans = {};
 
   function visitScope (state, scope, path) {
     // detect cycles
@@ -29,12 +35,16 @@ tern.registerPlugin('local-scope', function (server, options) {
 
     scope._localScopeCondenseSeen = true;
 
-    Object.keys(scope.props).sort().forEach(function (prop) {
+    Object.keys((scope.props || {})).sort().forEach(function (prop) {
       visitAVal(state, scope.props[prop], joinPaths(path, prop));
     });
   }
 
   function visitNode (state, node, path) {
+    if (!node) {
+      return;
+    }
+
     walk.recursive(node, {
       path: path,
       ids: []
@@ -75,15 +85,28 @@ tern.registerPlugin('local-scope', function (server, options) {
 
     var span = state.getSpan(av);
 
+    if (!span) {
+      return;
+    }
+
     if (seenSpans[span]) {
       return;
+    }
+
+    seenSpans[span] = true;
+
+    var data = {
+      scoped: true
+    };
+
+    if (isUndefined(av.propertyOf.isBlock)) {
+      data.scoped = false;
     }
 
     state.types[path] = {
       type: av,
       span: span,
-      doc: av.doc,
-      data: av.metaData
+      data: defaults(data, av.metaData)
     };
 
     if (!av.originNode) {
@@ -92,42 +115,58 @@ tern.registerPlugin('local-scope', function (server, options) {
 
     var node = av.originNode;
     var ast = node.sourceFile.ast;
-    var defNode;
+    var defNode, type;
+
+    try {
+      type = infer.expressionType({
+        node: defNode,
+        state: state
+      })
+    } catch(err) {}
+
+    if (((type || {}).props || {}).prototype) {
+      data.isConstructor = true;
+      state.types[path].data = defaults(data, av.metaData);
+    }
+
+    forceArray(av.types).forEach(function(type) {
+      visitScope(state, type, path);
+    });
 
     try {
       defNode = defnode.findDefinitionNode(ast, node.start, node.end);
     } catch (err) {
-      console.error('warning: findDefinitionNode failed:', err, 'at', node.type, 'in', node.sourceFile.name, node.start + '-' + node.end, 'for path', path);
+      return;
     }
 
-    if (defNode) {
-      visitNode(state, defNode, path);
-    }
+    visitNode(state, defNode, path)
   }
 
-  var seenSpans = {};
+  // Traverse accessible types first so we name things with reachable path
+  // prefixes if possible.
+  Object.keys(state.types).sort().forEach(function (path) {
+    var data = state.types[path];
+    seenSpans[data.span] = true;
+    if (data.type.originNode) {
+      visitNode(state, data.type.originNode, path);
+    }
+  });
 
+  // Assume that file scope is not reachable.
+  state.cx.parent.files.forEach(function (file) {
+    var path = file.name.replace(/\./g, '`');
+    visitScope(state, file.scope, path);
+    if (state.isTarget(file.name)) {
+      visitNode(state, file.ast, path);
+    }
+  });
+}
+
+tern.registerPlugin('local-scope', function (server, options) {
   return {
     passes: {
-      postCondenseReach: function (state) {
-        // Traverse accessible types first so we name things with reachable path
-        // prefixes if possible.
-        Object.keys(state.types).sort().forEach(function (path) {
-          var data = state.types[path];
-          seenSpans[data.span] = true;
-          if (data.type.originNode) {
-            visitNode(state, data.type.originNode, path);
-          }
-        });
-
-        // Assume that file scope is not reachable.
-        state.cx.parent.files.forEach(function (file) {
-          var path = file.name.replace(/\./g, '`');
-          visitScope(state, file.scope, path);
-          if (state.isTarget(file.name)) {
-            visitNode(state, file.ast, path);
-          }
-        });
+      postCondenseReach: function(state) {
+        postCondenseReach(server, options, state);
       }
     }
   };

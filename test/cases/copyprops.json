@@ -18,7 +18,10 @@
     "lineno": 2,
     "namespace": "buildCopy",
     "origin": {
-      "!span": "30[1:6]-32[1:8]"
+      "!span": "30[1:6]-32[1:8]",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/copyprops.js"
   },
@@ -29,7 +32,10 @@
     "lineno": 3,
     "namespace": "buildCopy",
     "origin": {
-      "!span": "50[2:11]-54[2:15]"
+      "!span": "50[2:11]-54[2:15]",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/copyprops.js"
   }

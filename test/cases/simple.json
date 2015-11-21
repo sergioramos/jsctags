@@ -105,7 +105,10 @@
     "namespace": "init",
     "origin": {
       "!span": "166[15:6]-167[15:7]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/simple.js"
   },
@@ -118,7 +121,10 @@
     "namespace": "init.a",
     "origin": {
       "!span": "191[16:8]-192[16:9]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/simple.js"
   },
@@ -131,7 +137,10 @@
     "namespace": "init.a.t",
     "origin": {
       "!span": "218[17:10]-219[17:11]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/simple.js"
   },
@@ -144,7 +153,10 @@
     "namespace": "init.a.t.g",
     "origin": {
       "!span": "247[18:12]-248[18:13]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/simple.js"
   },
@@ -157,7 +169,10 @@
     "namespace": "init.a.t",
     "origin": {
       "!span": "274[21:10]-275[21:11]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/simple.js"
   },
@@ -170,7 +185,10 @@
     "namespace": "init.a.t.m",
     "origin": {
       "!span": "303[22:12]-304[22:13]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/simple.js"
   }

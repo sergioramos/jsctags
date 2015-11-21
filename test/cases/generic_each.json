@@ -20,7 +20,10 @@
     "namespace": "each",
     "origin": {
       "!span": "75[1:35]-82[1:42]",
-      "!type": "+String"
+      "!type": "+String",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/generic_each.js"
   },
@@ -33,7 +36,10 @@
     "namespace": "each",
     "origin": {
       "!span": "65[1:25]-73[1:33]",
-      "!type": "fn(o: each.!0.<i>)"
+      "!type": "fn(o: each.!0.<i>)",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/generic_each.js"
   },
@@ -46,7 +52,10 @@
     "namespace": "each",
     "origin": {
       "!span": "60[1:20]-63[1:23]",
-      "!type": "[each.!0.<i>]"
+      "!type": "[each.!0.<i>]",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/generic_each.js"
   },
@@ -59,7 +68,10 @@
     "namespace": "each",
     "origin": {
       "!span": "281[6:13]-282[6:14]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/generic_each.js"
   },
@@ -72,7 +84,10 @@
     "namespace": "each",
     "origin": {
       "!span": "288[6:20]-289[6:21]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/generic_each.js"
   }

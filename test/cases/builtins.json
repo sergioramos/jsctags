@@ -53,7 +53,10 @@
     "kind": "v",
     "lineno": 38,
     "origin": {
-      "!span": "810[37:4]-813[37:7]"
+      "!span": "810[37:4]-813[37:7]",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/builtins.js"
   },
@@ -99,7 +102,10 @@
     "kind": "v",
     "lineno": 42,
     "origin": {
-      "!span": "911[41:4]-914[41:7]"
+      "!span": "911[41:4]-914[41:7]",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/builtins.js"
   },
@@ -146,7 +152,10 @@
     "lineno": 45,
     "namespace": "gen",
     "origin": {
-      "!span": "998[44:21]-999[44:22]"
+      "!span": "998[44:21]-999[44:22]",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/builtins.js"
   },

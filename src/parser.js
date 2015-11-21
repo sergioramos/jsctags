@@ -3,6 +3,9 @@ var isString = require('is-string');
 var includes = require('lodash.includes');
 var isUndefined = require('lodash.isundefined');
 var isObject = require('lodash.isplainobject');
+var isArray = require('lodash.isarray');
+var sortBy = require('lodash.sortby');
+var without = require('lodash.without');
 var get = require('lodash.get');
 var objectHash = require('object-hash');
 var clone = require('lodash.clonedeep');
@@ -74,6 +77,7 @@ var Parser = function (ctx) {
   this.tags = [];
   this.define = {};
   this.walked = [];
+  this.bySpan = {};
 };
 
 Parser.prototype.parse = function (fn) {
@@ -100,12 +104,34 @@ Parser.prototype.hasCondense = function (fn) {
 
   this.fromTree(this.condense);
 
+  this.clean();
+
   this.tags = this.tags.sort(function (a, b) {
     return a.lineno - b.lineno;
   });
 
   fn(null, this.tags);
 };
+
+Parser.prototype.clean = function () {
+  if (!this.ctx.clean) {
+    return;
+  }
+
+  var onSpan = function(span) {
+    var tags = this.bySpan[span];
+
+    if (tags.length < 2) {
+      return;
+    }
+
+    this.tags = without(this.tags, sortBy(tags, function(tag) {
+      return (tag.namespace || '').split(/\./).length;
+    }).pop());
+  };
+
+  Object.keys(this.bySpan).forEach(onSpan, this);
+}
 
 Parser.prototype.fromTree = function (tree, parent) {
   if (!isObject(tree)) {
@@ -260,6 +286,27 @@ Parser.prototype.walk = function (node, parent) {
   return get(this.condense, node, node);
 };
 
+Parser.prototype.push = function (tag) {
+  this.tags.push(tag);
+
+  var hasSpan = (
+    tag.origin &&
+    tag.origin['!span']
+  )
+
+  if (!hasSpan) {
+    return;
+  }
+
+  var span = tag.origin['!span'];
+
+  if (!isArray(this.bySpan[span])) {
+    this.bySpan[span] = [];
+  }
+
+  this.bySpan[span].push(tag);
+}
+
 Parser.prototype.onNode = function (name, node, parent) {
   if (!node) {
     return false;
@@ -288,12 +335,13 @@ Parser.prototype.onNode = function (name, node, parent) {
     parent: parent ? parent.id : undefined,
     origin: {
       '!span': node['!span'],
-      '!type': node['!type']
+      '!type': node['!type'],
+      '!data': node['!data']
     }
   };
 
   if (node['!type'] || node['!span']) {
-    this.tags.push(tag);
+    this.push(tag);
   }
 
   this.fromTree(node, tag);

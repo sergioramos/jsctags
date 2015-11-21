@@ -9,7 +9,7 @@
       "!span": "24[1:4]-25[1:5]",
       "!type": "+Date"
     },
-    "tagfile": "__DIR__/jsdoc.js"
+    "tagfile": "/Users/ramitos/dev/jsctags/test/cases/jsdoc.js"
   },
   {
     "name": "c",
@@ -19,7 +19,7 @@
     "origin": {
       "!span": "133[7:4]-134[7:5]"
     },
-    "tagfile": "__DIR__/jsdoc.js"
+    "tagfile": "/Users/ramitos/dev/jsctags/test/cases/jsdoc.js"
   },
   {
     "name": "foo",
@@ -42,7 +42,10 @@
     "namespace": "foo",
     "origin": {
       "!span": "295[16:13]-296[16:14]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
@@ -55,7 +58,10 @@
     "namespace": "foo",
     "origin": {
       "!span": "298[16:16]-299[16:17]",
-      "!type": "string"
+      "!type": "string",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
@@ -80,7 +86,10 @@
     "namespace": "bar",
     "origin": {
       "!span": "463[24:19]-464[24:20]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
@@ -93,7 +102,10 @@
     "namespace": "bar",
     "origin": {
       "!span": "466[24:22]-467[24:23]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },

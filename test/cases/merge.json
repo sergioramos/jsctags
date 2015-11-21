@@ -18,7 +18,42 @@
     "lineno": 1,
     "namespace": "sum",
     "origin": {
-      "!span": "13[0:13]-14[0:14]"
+      "!span": "13[0:13]-14[0:14]",
+      "!data": {
+        "scoped": true
+      }
+    },
+    "tagfile": "__DIR__/merge.js"
+  },
+  {
+    "name": "x",
+    "addr": "/x/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 6,
+    "namespace": "sum.a",
+    "origin": {
+      "!span": "66[5:5]-67[5:6]",
+      "!type": "number",
+      "!data": {
+        "scoped": false
+      }
+    },
+    "tagfile": "__DIR__/merge.js"
+  },
+  {
+    "name": "y",
+    "addr": "/y/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 6,
+    "namespace": "sum.a",
+    "origin": {
+      "!span": "73[5:12]-74[5:13]",
+      "!type": "number",
+      "!data": {
+        "scoped": false
+      }
     },
     "tagfile": "__DIR__/merge.js"
   }

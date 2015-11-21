@@ -18,7 +18,10 @@
     "lineno": 1,
     "namespace": "hello",
     "origin": {
-      "!span": "15[0:15]-16[0:16]"
+      "!span": "15[0:15]-16[0:16]",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/findref.js"
   },
@@ -29,7 +32,10 @@
     "lineno": 1,
     "namespace": "hello",
     "origin": {
-      "!span": "18[0:18]-19[0:19]"
+      "!span": "18[0:18]-19[0:19]",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/findref.js"
   },
@@ -40,7 +46,10 @@
     "lineno": 2,
     "namespace": "hello",
     "origin": {
-      "!span": "29[1:6]-30[1:7]"
+      "!span": "29[1:6]-30[1:7]",
+      "!data": {
+        "scoped": true
+      }
     },
     "tagfile": "__DIR__/findref.js"
   },
