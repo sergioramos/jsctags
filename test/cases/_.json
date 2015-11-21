@@ -142,7 +142,8 @@
     "origin": {
       "!span": "810[37:4]-813[37:7]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/builtins.js"
@@ -191,7 +192,8 @@
     "origin": {
       "!span": "911[41:4]-914[41:7]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/builtins.js"
@@ -241,7 +243,8 @@
     "origin": {
       "!span": "998[44:21]-999[44:22]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/builtins.js"
@@ -357,7 +360,8 @@
     "origin": {
       "!span": "30[1:6]-32[1:8]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/copyprops.js"
@@ -371,7 +375,8 @@
     "origin": {
       "!span": "50[2:11]-54[2:15]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/copyprops.js"
@@ -411,7 +416,8 @@
       "!span": "185[3:4]-192[3:11]",
       "!type": "fn(ms: number)",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -462,7 +468,8 @@
       "!span": "504[17:4]-515[17:15]",
       "!type": "fn() -> string",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -611,7 +618,8 @@
       "!span": "187[12:14]-188[12:15]",
       "!type": "number",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/effects.js"
@@ -639,7 +647,8 @@
       "!span": "93[2:32]-99[2:38]",
       "!type": "fn(arg: bool)",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -655,7 +664,8 @@
       "!span": "86[2:25]-91[2:30]",
       "!type": "fn(arg: bool)",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -669,7 +679,8 @@
     "origin": {
       "!span": "114[3:11]-117[3:14]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -685,7 +696,8 @@
       "!span": "170[4:11]-174[4:15]",
       "!type": "fn()",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -830,7 +842,8 @@
       "!span": "474[17:18]-477[17:21]",
       "!type": "bool",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -872,7 +885,8 @@
       "!span": "474[17:18]-477[17:21]",
       "!type": "bool",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -978,7 +992,8 @@
       "!span": "665[24:18]-668[24:21]",
       "!type": "bool",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -1007,7 +1022,8 @@
       "!span": "665[24:18]-668[24:21]",
       "!type": "bool",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -1074,7 +1090,8 @@
       "!span": "864[31:21]-867[31:24]",
       "!type": "bool",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -1090,7 +1107,8 @@
       "!span": "864[31:21]-867[31:24]",
       "!type": "bool",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -1226,7 +1244,8 @@
     "origin": {
       "!span": "79[6:18]-82[6:21]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/finddef.js"
@@ -1277,7 +1296,8 @@
     "origin": {
       "!span": "311[22:17]-314[22:20]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/finddef.js"
@@ -1293,7 +1313,8 @@
       "!span": "324[23:6]-329[23:11]",
       "!type": "number",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/finddef.js"
@@ -1319,7 +1340,8 @@
     "origin": {
       "!span": "15[0:15]-16[0:16]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/findref.js"
@@ -1333,7 +1355,8 @@
     "origin": {
       "!span": "18[0:18]-19[0:19]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/findref.js"
@@ -1347,7 +1370,8 @@
     "origin": {
       "!span": "29[1:6]-30[1:7]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/findref.js"
@@ -1424,7 +1448,8 @@
       "!span": "0[0:0]-41[2:1]",
       "!type": "[number]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/fn_arguments.js"
@@ -1452,7 +1477,8 @@
       "!span": "75[1:35]-82[1:42]",
       "!type": "+String",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/generic_each.js"
@@ -1468,7 +1494,8 @@
       "!span": "65[1:25]-73[1:33]",
       "!type": "fn(o: each.!0.<i>)",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/generic_each.js"
@@ -1484,7 +1511,8 @@
       "!span": "60[1:20]-63[1:23]",
       "!type": "[each.!0.<i>]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/generic_each.js"
@@ -1500,7 +1528,8 @@
       "!span": "281[6:13]-282[6:14]",
       "!type": "number",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/generic_each.js"
@@ -1516,7 +1545,8 @@
       "!span": "288[6:20]-289[6:21]",
       "!type": "number",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/generic_each.js"
@@ -1556,7 +1586,8 @@
       "!span": "31[2:17]-32[2:18]",
       "!type": "fn(n: f)",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/infinite-expansion.js"
@@ -1570,7 +1601,8 @@
     "origin": {
       "!span": "40[3:4]-49[3:13]",
       "!data": {
-        "scoped": false
+        "scoped": false,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/infinite-expansion.js"
@@ -1610,7 +1642,8 @@
       "!span": "267[14:14]-268[14:15]",
       "!type": "number",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/infinite-expansion.js"
@@ -1660,7 +1693,8 @@
       "!span": "295[16:13]-296[16:14]",
       "!type": "number",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -1676,7 +1710,8 @@
       "!span": "298[16:16]-299[16:17]",
       "!type": "string",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -1704,7 +1739,8 @@
       "!span": "463[24:19]-464[24:20]",
       "!type": "number",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -1720,7 +1756,8 @@
       "!span": "466[24:22]-467[24:23]",
       "!type": "number",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -1795,7 +1832,8 @@
     "origin": {
       "!span": "13[0:13]-14[0:14]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/merge.js"
@@ -1811,7 +1849,8 @@
       "!span": "66[5:5]-67[5:6]",
       "!type": "number",
       "!data": {
-        "scoped": false
+        "scoped": false,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/merge.js"
@@ -1827,7 +1866,8 @@
       "!span": "73[5:12]-74[5:13]",
       "!type": "number",
       "!data": {
-        "scoped": false
+        "scoped": false,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/merge.js"
@@ -2236,7 +2276,8 @@
       "!span": "13[0:13]-14[0:14]",
       "!type": "bool",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/proto.js"
@@ -2508,7 +2549,8 @@
       "!span": "166[15:6]-167[15:7]",
       "!type": "fn()",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/simple.js"
@@ -2524,7 +2566,8 @@
       "!span": "191[16:8]-192[16:9]",
       "!type": "fn()",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/simple.js"
@@ -2540,7 +2583,8 @@
       "!span": "218[17:10]-219[17:11]",
       "!type": "fn()",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/simple.js"
@@ -2556,7 +2600,8 @@
       "!span": "247[18:12]-248[18:13]",
       "!type": "number",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/simple.js"
@@ -2572,7 +2617,8 @@
       "!span": "274[21:10]-275[21:11]",
       "!type": "fn()",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/simple.js"
@@ -2588,7 +2634,8 @@
       "!span": "303[22:12]-304[22:13]",
       "!type": "number",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/simple.js"
@@ -2616,7 +2663,8 @@
       "!span": "14[0:14]-17[0:17]",
       "!type": "[number]|[string]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/simple_generic.js"
@@ -2644,7 +2692,8 @@
       "!span": "128[5:13]-131[5:16]",
       "!type": "[number]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/simple_generic.js"
@@ -2660,7 +2709,8 @@
       "!span": "133[5:18]-134[5:19]",
       "!type": "fn() -> bool",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/simple_generic.js"
@@ -2676,7 +2726,8 @@
       "!span": "144[6:6]-147[6:9]",
       "!type": "[bool]",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/simple_generic.js"
@@ -2692,7 +2743,8 @@
       "!span": "165[7:11]-166[7:12]",
       "!type": "number",
       "!data": {
-        "scoped": true
+        "scoped": true,
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/simple_generic.js"
