@@ -18,7 +18,7 @@ d; //: number
 ```json
 [
   {
-    "id": "baf5fe60-9082-11e5-b91c-93a5bc661604",
+    "id": "635b2a70-9084-11e5-840e-0d01e8c3255b",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
@@ -31,7 +31,7 @@ d; //: number
     "tagfile": "__DIR__/effects.js"
   },
   {
-    "id": "baf62570-9082-11e5-b91c-93a5bc661604",
+    "id": "635b5180-9084-11e5-840e-0d01e8c3255b",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
@@ -44,7 +44,7 @@ d; //: number
     "tagfile": "__DIR__/effects.js"
   },
   {
-    "id": "baf62571-9082-11e5-b91c-93a5bc661604",
+    "id": "635b7890-9084-11e5-840e-0d01e8c3255b",
     "name": "d",
     "addr": "/d/",
     "kind": "v",
@@ -57,7 +57,7 @@ d; //: number
     "tagfile": "__DIR__/effects.js"
   },
   {
-    "id": "baf62572-9082-11e5-b91c-93a5bc661604",
+    "id": "635b7891-9084-11e5-840e-0d01e8c3255b",
     "name": "setD",
     "addr": "/setD/",
     "kind": "f",
@@ -70,14 +70,14 @@ d; //: number
     "tagfile": "__DIR__/effects.js"
   },
   {
-    "id": "baf64c80-9082-11e5-b91c-93a5bc661604",
+    "id": "635b7892-9084-11e5-840e-0d01e8c3255b",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 13,
     "namespace": "setD",
-    "parent": "baf62572-9082-11e5-b91c-93a5bc661604",
+    "parent": "635b7891-9084-11e5-840e-0d01e8c3255b",
     "origin": {
       "!span": "199[12:14]-200[12:15]",
       "!type": "number",

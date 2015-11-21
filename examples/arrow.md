@@ -20,7 +20,7 @@ Obj.prototype.map = function() {
 ```json
 [
   {
-    "id": "b3a7e060-9082-11e5-b63c-477ae541ea92",
+    "id": "5be33d50-9084-11e5-b277-6d6491f8724c",
     "name": "f",
     "addr": "/f/",
     "kind": "f",
@@ -33,14 +33,14 @@ Obj.prototype.map = function() {
     "tagfile": "__DIR__/arrow.js"
   },
   {
-    "id": "b3a80770-9082-11e5-b63c-477ae541ea92",
+    "id": "5be38b70-9084-11e5-b277-6d6491f8724c",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "f",
-    "parent": "b3a7e060-9082-11e5-b63c-477ae541ea92",
+    "parent": "5be33d50-9084-11e5-b277-6d6491f8724c",
     "origin": {
       "!span": "9[0:9]-10[0:10]",
       "!type": "number",
@@ -52,14 +52,14 @@ Obj.prototype.map = function() {
     "tagfile": "__DIR__/arrow.js"
   },
   {
-    "id": "b3a82e80-9082-11e5-b63c-477ae541ea92",
+    "id": "5be38b71-9084-11e5-b277-6d6491f8724c",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "boolean",
     "lineno": 1,
     "namespace": "f",
-    "parent": "b3a7e060-9082-11e5-b63c-477ae541ea92",
+    "parent": "5be33d50-9084-11e5-b277-6d6491f8724c",
     "origin": {
       "!span": "13[0:13]-14[0:14]",
       "!type": "bool",
@@ -71,7 +71,7 @@ Obj.prototype.map = function() {
     "tagfile": "__DIR__/arrow.js"
   },
   {
-    "id": "b3a82e81-9082-11e5-b63c-477ae541ea92",
+    "id": "5be38b72-9084-11e5-b277-6d6491f8724c",
     "name": "wrap",
     "addr": "/wrap/",
     "kind": "f",
@@ -84,7 +84,7 @@ Obj.prototype.map = function() {
     "tagfile": "__DIR__/arrow.js"
   },
   {
-    "id": "b3a82e82-9082-11e5-b63c-477ae541ea92",
+    "id": "5be38b73-9084-11e5-b277-6d6491f8724c",
     "name": "Obj",
     "addr": "/Obj/",
     "kind": "f",
@@ -100,14 +100,14 @@ Obj.prototype.map = function() {
     "tagfile": "__DIR__/arrow.js"
   },
   {
-    "id": "b3a82e84-9082-11e5-b63c-477ae541ea92",
+    "id": "5be38b75-9084-11e5-b277-6d6491f8724c",
     "name": "map",
     "addr": "/map/",
     "kind": "f",
     "type": "[!this.x] function()",
     "lineno": 13,
     "namespace": "Obj.prototype",
-    "parent": "b3a82e83-9082-11e5-b63c-477ae541ea92",
+    "parent": "5be38b74-9084-11e5-b277-6d6491f8724c",
     "origin": {
       "!span": "212[12:14]-215[12:17]",
       "!type": "fn() -> [!this.x]"

@@ -18,7 +18,7 @@ foo.bar = {baz: baz};
 ```json
 [
   {
-    "id": "c59717f0-9082-11e5-b96f-993d41938ea9",
+    "id": "6ee1e910-9084-11e5-a834-d536098e7aa5",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
@@ -29,7 +29,7 @@ foo.bar = {baz: baz};
     "tagfile": "__DIR__/order_of_definition.js"
   },
   {
-    "id": "c5973f01-9082-11e5-b96f-993d41938ea9",
+    "id": "6ee21023-9084-11e5-a834-d536098e7aa5",
     "name": "baz",
     "addr": "/baz/",
     "kind": "v",
@@ -40,14 +40,14 @@ foo.bar = {baz: baz};
     "tagfile": "__DIR__/order_of_definition.js"
   },
   {
-    "id": "c5973f02-9082-11e5-b96f-993d41938ea9",
+    "id": "6ee23730-9084-11e5-a834-d536098e7aa5",
     "name": "bug",
     "addr": "/bug/",
     "kind": "f",
     "type": "void function(baz.bug.!0)",
     "lineno": 9,
     "namespace": "baz",
-    "parent": "c5973f01-9082-11e5-b96f-993d41938ea9",
+    "parent": "6ee21023-9084-11e5-a834-d536098e7aa5",
     "origin": {
       "!span": "95[8:11]-98[8:14]",
       "!type": "fn(o: baz.bug.!0)"
@@ -55,14 +55,14 @@ foo.bar = {baz: baz};
     "tagfile": "__DIR__/order_of_definition.js"
   },
   {
-    "id": "c5973f03-9082-11e5-b96f-993d41938ea9",
+    "id": "6ee23731-9084-11e5-a834-d536098e7aa5",
     "name": "x",
     "addr": "/x/",
     "kind": "f",
     "type": "void function()",
     "lineno": 10,
     "namespace": "baz.bug",
-    "parent": "c5973f02-9082-11e5-b96f-993d41938ea9",
+    "parent": "6ee23730-9084-11e5-a834-d536098e7aa5",
     "origin": {
       "!span": "125[9:11]-126[9:12]",
       "!type": "fn()",
@@ -74,13 +74,13 @@ foo.bar = {baz: baz};
     "tagfile": "__DIR__/order_of_definition.js"
   },
   {
-    "id": "c59717f1-9082-11e5-b96f-993d41938ea9",
+    "id": "6ee21020-9084-11e5-a834-d536098e7aa5",
     "name": "bar",
     "addr": "/bar/",
     "kind": "v",
     "lineno": 15,
     "namespace": "foo",
-    "parent": "c59717f0-9082-11e5-b96f-993d41938ea9",
+    "parent": "6ee1e910-9084-11e5-a834-d536098e7aa5",
     "origin": {
       "!span": "192[14:4]-195[14:7]"
     },

@@ -22,7 +22,7 @@ k(); //:: {a: bool}
 ```json
 [
   {
-    "id": "b463b650-9082-11e5-88f3-512d8b379477",
+    "id": "5caa0fc0-9084-11e5-b15c-ab9ec944df60",
     "name": "f",
     "addr": "/f/",
     "kind": "f",
@@ -35,14 +35,14 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "b463dd61-9082-11e5-88f3-512d8b379477",
+    "id": "5caa5de0-9084-11e5-b15c-ab9ec944df60",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "f",
-    "parent": "b463b650-9082-11e5-88f3-512d8b379477",
+    "parent": "5caa0fc0-9084-11e5-b15c-ab9ec944df60",
     "origin": {
       "!span": "14[0:14]-15[0:15]",
       "!type": "number",
@@ -54,14 +54,14 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "b4640470-9082-11e5-88f3-512d8b379477",
+    "id": "5caa5de1-9084-11e5-b15c-ab9ec944df60",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "f",
-    "parent": "b463b650-9082-11e5-88f3-512d8b379477",
+    "parent": "5caa0fc0-9084-11e5-b15c-ab9ec944df60",
     "origin": {
       "!span": "17[0:17]-18[0:18]",
       "!type": "number",
@@ -73,14 +73,14 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "b4640471-9082-11e5-88f3-512d8b379477",
+    "id": "5caa5de2-9084-11e5-b15c-ab9ec944df60",
     "name": "d",
     "addr": "/d/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "f",
-    "parent": "b463b650-9082-11e5-88f3-512d8b379477",
+    "parent": "5caa0fc0-9084-11e5-b15c-ab9ec944df60",
     "origin": {
       "!span": "20[0:20]-21[0:21]",
       "!type": "number",
@@ -92,14 +92,14 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "b463dd60-9082-11e5-88f3-512d8b379477",
+    "id": "5caa36d0-9084-11e5-b15c-ab9ec944df60",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "f",
-    "parent": "b463b650-9082-11e5-88f3-512d8b379477",
+    "parent": "5caa0fc0-9084-11e5-b15c-ab9ec944df60",
     "origin": {
       "!span": "11[0:11]-12[0:12]",
       "!type": "number",
@@ -111,7 +111,7 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "b4640472-9082-11e5-88f3-512d8b379477",
+    "id": "5caa5de3-9084-11e5-b15c-ab9ec944df60",
     "name": "g",
     "addr": "/g/",
     "kind": "f",
@@ -124,7 +124,7 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "b4640473-9082-11e5-88f3-512d8b379477",
+    "id": "5caa5de4-9084-11e5-b15c-ab9ec944df60",
     "name": "h",
     "addr": "/h/",
     "kind": "f",
@@ -137,14 +137,14 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "b4640474-9082-11e5-88f3-512d8b379477",
+    "id": "5caa5de5-9084-11e5-b15c-ab9ec944df60",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 7,
     "namespace": "h",
-    "parent": "b4640473-9082-11e5-88f3-512d8b379477",
+    "parent": "5caa5de4-9084-11e5-b15c-ab9ec944df60",
     "origin": {
       "!span": "152[6:11]-153[6:12]",
       "!type": "number",
@@ -156,7 +156,7 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "b4640475-9082-11e5-88f3-512d8b379477",
+    "id": "5caa5de6-9084-11e5-b15c-ab9ec944df60",
     "name": "i",
     "addr": "/i/",
     "kind": "f",
@@ -169,14 +169,14 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "b464a0b0-9082-11e5-88f3-512d8b379477",
+    "id": "5cab2130-9084-11e5-b15c-ab9ec944df60",
     "name": "i",
     "addr": "/i/",
     "kind": "f",
     "type": "h.!ret function()",
     "lineno": 8,
     "namespace": "o",
-    "parent": "b4640476-9082-11e5-88f3-512d8b379477",
+    "parent": "5caa5de7-9084-11e5-b15c-ab9ec944df60",
     "origin": {
       "!span": "188[7:4]-189[7:5]",
       "!type": "fn() -> h.!ret"
@@ -184,7 +184,7 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "b4640476-9082-11e5-88f3-512d8b379477",
+    "id": "5caa5de7-9084-11e5-b15c-ab9ec944df60",
     "name": "o",
     "addr": "/o/",
     "kind": "v",
@@ -195,7 +195,7 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "b464a0b1-9082-11e5-88f3-512d8b379477",
+    "id": "5cab2131-9084-11e5-b15c-ab9ec944df60",
     "name": "j",
     "addr": "/j/",
     "kind": "f",
@@ -208,7 +208,7 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "b464a0b2-9082-11e5-88f3-512d8b379477",
+    "id": "5cab2132-9084-11e5-b15c-ab9ec944df60",
     "name": "k",
     "addr": "/k/",
     "kind": "f",

@@ -19,7 +19,7 @@ z.bar; //: number
 ```json
 [
   {
-    "id": "c6f26230-9082-11e5-ace9-dd31d20ee936",
+    "id": "706099d0-9084-11e5-8b78-4920a143f17f",
     "name": "Foo",
     "addr": "/Foo/",
     "kind": "f",
@@ -35,14 +35,14 @@ z.bar; //: number
     "tagfile": "__DIR__/proto.js"
   },
   {
-    "id": "c6f2b052-9082-11e5-ace9-dd31d20ee936",
+    "id": "7060e7f2-9084-11e5-8b78-4920a143f17f",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "boolean",
     "lineno": 1,
     "namespace": "Foo",
-    "parent": "c6f26230-9082-11e5-ace9-dd31d20ee936",
+    "parent": "706099d0-9084-11e5-8b78-4920a143f17f",
     "origin": {
       "!span": "13[0:13]-14[0:14]",
       "!type": "bool",
@@ -54,14 +54,14 @@ z.bar; //: number
     "tagfile": "__DIR__/proto.js"
   },
   {
-    "id": "c6f2b053-9082-11e5-ace9-dd31d20ee936",
+    "id": "7060e7f3-9084-11e5-8b78-4920a143f17f",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
     "type": "[number]",
     "lineno": 3,
     "namespace": "Foo",
-    "parent": "c6f26230-9082-11e5-ace9-dd31d20ee936",
+    "parent": "706099d0-9084-11e5-8b78-4920a143f17f",
     "origin": {
       "!span": "39[2:7]-40[2:8]",
       "!type": "[number]"
@@ -69,27 +69,27 @@ z.bar; //: number
     "tagfile": "__DIR__/proto.js"
   },
   {
-    "id": "c6f28940-9082-11e5-ace9-dd31d20ee936",
+    "id": "7060c0e0-9084-11e5-8b78-4920a143f17f",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "Foo",
-    "parent": "c6f26230-9082-11e5-ace9-dd31d20ee936",
+    "parent": "706099d0-9084-11e5-8b78-4920a143f17f",
     "origin": {
       "!span": "76[6:4]-85[6:13]"
     },
     "tagfile": "__DIR__/proto.js"
   },
   {
-    "id": "c6f2b050-9082-11e5-ace9-dd31d20ee936",
+    "id": "7060e7f0-9084-11e5-8b78-4920a143f17f",
     "name": "makeString",
     "addr": "/makeString/",
     "kind": "f",
     "type": "string function()",
     "lineno": 8,
     "namespace": "Foo.prototype",
-    "parent": "c6f28940-9082-11e5-ace9-dd31d20ee936",
+    "parent": "7060c0e0-9084-11e5-8b78-4920a143f17f",
     "origin": {
       "!span": "92[7:2]-102[7:12]",
       "!type": "fn() -> string"
@@ -97,14 +97,14 @@ z.bar; //: number
     "tagfile": "__DIR__/proto.js"
   },
   {
-    "id": "c6f2b051-9082-11e5-ace9-dd31d20ee936",
+    "id": "7060e7f1-9084-11e5-8b78-4920a143f17f",
     "name": "bar",
     "addr": "/bar/",
     "kind": "v",
     "type": "number",
     "lineno": 9,
     "namespace": "Foo.prototype",
-    "parent": "c6f28940-9082-11e5-ace9-dd31d20ee936",
+    "parent": "7060c0e0-9084-11e5-8b78-4920a143f17f",
     "origin": {
       "!span": "135[8:2]-138[8:5]",
       "!type": "number"
@@ -112,7 +112,7 @@ z.bar; //: number
     "tagfile": "__DIR__/proto.js"
   },
   {
-    "id": "c6f2b054-9082-11e5-ace9-dd31d20ee936",
+    "id": "7060e7f4-9084-11e5-8b78-4920a143f17f",
     "name": "z",
     "addr": "/z/",
     "kind": "v",

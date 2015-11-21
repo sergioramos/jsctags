@@ -15,7 +15,7 @@ simple[quux()]; //: string
 ```json
 [
   {
-    "id": "b6922f10-9082-11e5-a068-b5b8a272b527",
+    "id": "5f01e270-9084-11e5-a029-ef6600bc60d8",
     "name": "grabbag",
     "addr": "/grabbag/",
     "kind": "v",
@@ -26,7 +26,7 @@ simple[quux()]; //: string
     "tagfile": "__DIR__/cautiouspropagation.js"
   },
   {
-    "id": "b6925620-9082-11e5-a068-b5b8a272b527",
+    "id": "5f020980-9084-11e5-a029-ef6600bc60d8",
     "name": "inner",
     "addr": "/inner/",
     "kind": "v",
@@ -39,7 +39,7 @@ simple[quux()]; //: string
     "tagfile": "__DIR__/cautiouspropagation.js"
   },
   {
-    "id": "b6925621-9082-11e5-a068-b5b8a272b527",
+    "id": "5f020981-9084-11e5-a029-ef6600bc60d8",
     "name": "simple",
     "addr": "/simple/",
     "kind": "v",
@@ -50,14 +50,14 @@ simple[quux()]; //: string
     "tagfile": "__DIR__/cautiouspropagation.js"
   },
   {
-    "id": "b6925622-9082-11e5-a068-b5b8a272b527",
+    "id": "5f020982-9084-11e5-a029-ef6600bc60d8",
     "name": "<i>",
     "addr": "/foo\(\)/",
     "kind": "v",
     "type": "string",
     "lineno": 9,
     "namespace": "simple",
-    "parent": "b6925621-9082-11e5-a068-b5b8a272b527",
+    "parent": "5f020981-9084-11e5-a029-ef6600bc60d8",
     "origin": {
       "!span": "175[8:7]-180[8:12]",
       "!type": "string"

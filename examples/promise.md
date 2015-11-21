@@ -31,7 +31,7 @@ p3.then(function(value) {
 ```json
 [
   {
-    "id": "c6996cc0-9082-11e5-af48-bfadd4b38f7d",
+    "id": "70024d30-9084-11e5-8f41-099b75ae0abc",
     "name": "p",
     "addr": "/p/",
     "kind": "v",
@@ -44,7 +44,7 @@ p3.then(function(value) {
     "tagfile": "__DIR__/promise.js"
   },
   {
-    "id": "c6996cc1-9082-11e5-af48-bfadd4b38f7d",
+    "id": "70024d31-9084-11e5-8f41-099b75ae0abc",
     "name": "p2",
     "addr": "/p2/",
     "kind": "v",
@@ -57,7 +57,7 @@ p3.then(function(value) {
     "tagfile": "__DIR__/promise.js"
   },
   {
-    "id": "c69993d0-9082-11e5-af48-bfadd4b38f7d",
+    "id": "70027440-9084-11e5-8f41-099b75ae0abc",
     "name": "p3",
     "addr": "/p3/",
     "kind": "v",
@@ -70,26 +70,26 @@ p3.then(function(value) {
     "tagfile": "__DIR__/promise.js"
   },
   {
-    "id": "c69993d2-9082-11e5-af48-bfadd4b38f7d",
+    "id": "70027442-9084-11e5-8f41-099b75ae0abc",
     "name": ":t",
     "kind": "v",
     "type": "number",
     "namespace": "Promise",
-    "parent": "c69993d1-9082-11e5-af48-bfadd4b38f7d",
+    "parent": "70027441-9084-11e5-8f41-099b75ae0abc",
     "origin": {
       "!type": "number"
     },
     "tagfile": "__DIR__/promise.js"
   },
   {
-    "id": "c69993d3-9082-11e5-af48-bfadd4b38f7d",
+    "id": "70027443-9084-11e5-8f41-099b75ae0abc",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 3,
     "namespace": "Promise.:t",
-    "parent": "c69993d2-9082-11e5-af48-bfadd4b38f7d",
+    "parent": "70027442-9084-11e5-8f41-099b75ae0abc",
     "origin": {
       "!span": "85[2:10]-86[2:11]",
       "!type": "number"

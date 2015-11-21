@@ -15,7 +15,7 @@ new Date().fn2();
 ```json
 [
   {
-    "id": "b40828d0-9082-11e5-8c0a-e76440358de3",
+    "id": "5c4867c1-9084-11e5-8ba3-93b66d8960c5",
     "name": "Bar",
     "addr": "/Bar/",
     "kind": "f",
@@ -31,14 +31,14 @@ new Date().fn2();
     "tagfile": "__DIR__/autothis.js"
   },
   {
-    "id": "b40828d2-9082-11e5-8c0a-e76440358de3",
+    "id": "5c4867c3-9084-11e5-8ba3-93b66d8960c5",
     "name": "hallo",
     "addr": "/hallo/",
     "kind": "f",
     "type": "void function()",
     "lineno": 2,
     "namespace": "Bar.prototype",
-    "parent": "b40828d1-9082-11e5-8c0a-e76440358de3",
+    "parent": "5c4867c2-9084-11e5-8ba3-93b66d8960c5",
     "origin": {
       "!span": "49[1:14]-54[1:19]",
       "!type": "fn()"
@@ -46,14 +46,14 @@ new Date().fn2();
     "tagfile": "__DIR__/autothis.js"
   },
   {
-    "id": "b40801c1-9082-11e5-8c0a-e76440358de3",
+    "id": "5c4867c0-9084-11e5-8ba3-93b66d8960c5",
     "name": "fn2",
     "addr": "/fn2/",
     "kind": "f",
     "type": "void function()",
     "lineno": 11,
     "namespace": "Date.prototype",
-    "parent": "b40801c0-9082-11e5-8c0a-e76440358de3",
+    "parent": "5c4840b1-9084-11e5-8ba3-93b66d8960c5",
     "origin": {
       "!span": "183[10:15]-186[10:18]",
       "!type": "fn()"
@@ -61,14 +61,14 @@ new Date().fn2();
     "tagfile": "__DIR__/autothis.js"
   },
   {
-    "id": "b408c510-9082-11e5-8c0a-e76440358de3",
+    "id": "5c490400-9084-11e5-8ba3-93b66d8960c5",
     "name": "fn2",
     "addr": "/fn2/",
     "kind": "f",
     "type": "void function()",
     "lineno": 11,
     "namespace": "Bar.prototype",
-    "parent": "b40828d1-9082-11e5-8c0a-e76440358de3",
+    "parent": "5c4867c2-9084-11e5-8ba3-93b66d8960c5",
     "origin": {
       "!span": "183[10:15]-186[10:18]",
       "!type": "fn()"

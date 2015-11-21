@@ -26,7 +26,7 @@ Ext.extend = function(subclass, superclass) {
 ```json
 [
   {
-    "id": "b5218810-9082-11e5-bd43-d5241a223040",
+    "id": "5d748bb0-9084-11e5-be5a-5d46f03ce58f",
     "name": "Ext",
     "addr": "/Ext/",
     "kind": "v",
@@ -37,14 +37,14 @@ Ext.extend = function(subclass, superclass) {
     "tagfile": "__DIR__/blowup.js"
   },
   {
-    "id": "b521af20-9082-11e5-bd43-d5241a223040",
+    "id": "5d74b2c0-9084-11e5-be5a-5d46f03ce58f",
     "name": "extend",
     "addr": "/extend/",
     "kind": "f",
     "type": "void function(fn()",
     "lineno": 2,
     "namespace": "Ext",
-    "parent": "b5218810-9082-11e5-bd43-d5241a223040",
+    "parent": "5d748bb0-9084-11e5-be5a-5d46f03ce58f",
     "origin": {
       "!span": "25[1:4]-31[1:10]",
       "!type": "fn(subclass: fn(), superclass: ?)"
@@ -52,13 +52,13 @@ Ext.extend = function(subclass, superclass) {
     "tagfile": "__DIR__/blowup.js"
   },
   {
-    "id": "b521d631-9082-11e5-bd43-d5241a223040",
+    "id": "5d74d9d3-9084-11e5-be5a-5d46f03ce58f",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 8,
     "namespace": "Ext.extend.subclass",
-    "parent": "b521af23-9082-11e5-bd43-d5241a223040",
+    "parent": "5d74d9d0-9084-11e5-be5a-5d46f03ce58f",
     "origin": {
       "!span": "231[7:11]-240[7:20]",
       "!data": {
@@ -69,14 +69,14 @@ Ext.extend = function(subclass, superclass) {
     "tagfile": "__DIR__/blowup.js"
   },
   {
-    "id": "b521af24-9082-11e5-bd43-d5241a223040",
+    "id": "5d74d9d1-9084-11e5-be5a-5d46f03ce58f",
     "name": "extend",
     "addr": "/extend/",
     "kind": "f",
     "type": "void function(?)",
     "lineno": 10,
     "namespace": "Ext.extend.subclass",
-    "parent": "b521af23-9082-11e5-bd43-d5241a223040",
+    "parent": "5d74d9d0-9084-11e5-be5a-5d46f03ce58f",
     "origin": {
       "!span": "264[9:11]-270[9:17]",
       "!type": "fn(o: ?)",
@@ -88,13 +88,13 @@ Ext.extend = function(subclass, superclass) {
     "tagfile": "__DIR__/blowup.js"
   },
   {
-    "id": "b521d630-9082-11e5-bd43-d5241a223040",
+    "id": "5d74d9d2-9084-11e5-be5a-5d46f03ce58f",
     "name": "o",
     "addr": "/o/",
     "kind": "v",
     "lineno": 10,
     "namespace": "Ext.extend.subclass.extend",
-    "parent": "b521af24-9082-11e5-bd43-d5241a223040",
+    "parent": "5d74d9d1-9084-11e5-be5a-5d46f03ce58f",
     "origin": {
       "!span": "282[9:29]-283[9:30]",
       "!data": {
@@ -105,14 +105,14 @@ Ext.extend = function(subclass, superclass) {
     "tagfile": "__DIR__/blowup.js"
   },
   {
-    "id": "b521af23-9082-11e5-bd43-d5241a223040",
+    "id": "5d74d9d0-9084-11e5-be5a-5d46f03ce58f",
     "name": "subclass",
     "addr": "/subclass/",
     "kind": "f",
     "type": "void function()",
     "lineno": 14,
     "namespace": "Ext.extend",
-    "parent": "b521af20-9082-11e5-bd43-d5241a223040",
+    "parent": "5d74b2c0-9084-11e5-be5a-5d46f03ce58f",
     "origin": {
       "!span": "369[13:22]-377[13:30]",
       "!type": "fn()",
@@ -124,14 +124,14 @@ Ext.extend = function(subclass, superclass) {
     "tagfile": "__DIR__/blowup.js"
   },
   {
-    "id": "b521d632-9082-11e5-bd43-d5241a223040",
+    "id": "5d74d9d4-9084-11e5-be5a-5d46f03ce58f",
     "name": "superclass",
     "addr": "/superclass/",
     "kind": "f",
     "type": "void function()",
     "lineno": 14,
     "namespace": "Ext.extend",
-    "parent": "b521af20-9082-11e5-bd43-d5241a223040",
+    "parent": "5d74b2c0-9084-11e5-be5a-5d46f03ce58f",
     "origin": {
       "!span": "379[13:32]-389[13:42]",
       "!type": "fn()",
@@ -143,14 +143,14 @@ Ext.extend = function(subclass, superclass) {
     "tagfile": "__DIR__/blowup.js"
   },
   {
-    "id": "b521af21-9082-11e5-bd43-d5241a223040",
+    "id": "5d74b2c1-9084-11e5-be5a-5d46f03ce58f",
     "name": "F",
     "addr": "/F/",
     "kind": "f",
     "type": "void function()",
     "lineno": 18,
     "namespace": "Ext.extend",
-    "parent": "b521af20-9082-11e5-bd43-d5241a223040",
+    "parent": "5d74b2c0-9084-11e5-be5a-5d46f03ce58f",
     "origin": {
       "!span": "489[17:6]-490[17:7]",
       "!type": "fn()",
@@ -162,13 +162,13 @@ Ext.extend = function(subclass, superclass) {
     "tagfile": "__DIR__/blowup.js"
   },
   {
-    "id": "b521af22-9082-11e5-bd43-d5241a223040",
+    "id": "5d74b2c2-9084-11e5-be5a-5d46f03ce58f",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 19,
     "namespace": "Ext.extend.F",
-    "parent": "b521af21-9082-11e5-bd43-d5241a223040",
+    "parent": "5d74b2c1-9084-11e5-be5a-5d46f03ce58f",
     "origin": {
       "!span": "512[18:4]-521[18:13]",
       "!data": {

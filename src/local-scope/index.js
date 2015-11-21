@@ -76,15 +76,12 @@ var postCondenseReach = function (server, options, state) {
   };
 
   var isScoped = function (state, av) {
-    if (av.path === '<top>') {
-      return false;
-    }
+    var g = (
+      (av.path === '<top>') ||
+      isUndefined(get(av, 'propertyOf.isBlock'))
+    );
 
-    if (get(av, 'propertyOf.isBlock')) {
-      return true;
-    }
-
-    return isArg(state, av);
+    return g ? false : isArg(state, av);
   };
 
   var visitAVal = function (state, av, path) {

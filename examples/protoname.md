@@ -23,7 +23,7 @@ new Sub3(); //: Sub3
 ```json
 [
   {
-    "id": "c74c9020-9082-11e5-b8fa-c51c0cf9c5e5",
+    "id": "70be7140-9084-11e5-9241-351ecf7fe2fe",
     "name": "Base",
     "addr": "/Base/",
     "kind": "f",
@@ -39,7 +39,7 @@ new Sub3(); //: Sub3
     "tagfile": "__DIR__/protoname.js"
   },
   {
-    "id": "c74cb730-9082-11e5-b8fa-c51c0cf9c5e5",
+    "id": "70be9850-9084-11e5-9241-351ecf7fe2fe",
     "name": "Sub1",
     "addr": "/Sub1/",
     "kind": "f",
@@ -55,7 +55,7 @@ new Sub3(); //: Sub3
     "tagfile": "__DIR__/protoname.js"
   },
   {
-    "id": "c74cb731-9082-11e5-b8fa-c51c0cf9c5e5",
+    "id": "70be9851-9084-11e5-9241-351ecf7fe2fe",
     "name": "Sub2",
     "addr": "/Sub2/",
     "kind": "f",
@@ -71,7 +71,7 @@ new Sub3(); //: Sub3
     "tagfile": "__DIR__/protoname.js"
   },
   {
-    "id": "c74cb732-9082-11e5-b8fa-c51c0cf9c5e5",
+    "id": "70be9852-9084-11e5-9241-351ecf7fe2fe",
     "name": "Base2",
     "addr": "/Base2/",
     "kind": "f",
@@ -87,7 +87,7 @@ new Sub3(); //: Sub3
     "tagfile": "__DIR__/protoname.js"
   },
   {
-    "id": "c74cb733-9082-11e5-b8fa-c51c0cf9c5e5",
+    "id": "70be9853-9084-11e5-9241-351ecf7fe2fe",
     "name": "Sub3",
     "addr": "/Sub3/",
     "kind": "f",

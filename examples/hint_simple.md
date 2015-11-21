@@ -13,13 +13,13 @@ Object.crea //+ create @8
 ```json
 [
   {
-    "id": "c070bbf0-9082-11e5-8d22-37fab96694a5",
+    "id": "69193291-9084-11e5-ba9c-839e23460790",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "[number]|number",
     "lineno": 6,
-    "parent": "c07094e0-9082-11e5-8d22-37fab96694a5",
+    "parent": "69193290-9084-11e5-ba9c-839e23460790",
     "origin": {
       "!span": "134[5:4]-135[5:5]",
       "!type": "[number]|number",

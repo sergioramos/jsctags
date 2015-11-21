@@ -17,7 +17,7 @@ g2().next().value //: bool
 ```json
 [
   {
-    "id": "bdf1b230-9082-11e5-9f61-cf6a78b9d5fd",
+    "id": "665e3140-9084-11e5-a6ee-f11ef60aae1c",
     "name": "foo",
     "addr": "/foo/",
     "kind": "f",
@@ -30,14 +30,14 @@ g2().next().value //: bool
     "tagfile": "__DIR__/generator.js"
   },
   {
-    "id": "bdf1d940-9082-11e5-9f61-cf6a78b9d5fd",
+    "id": "665e5850-9084-11e5-a6ee-f11ef60aae1c",
     "name": "index",
     "addr": "/index/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "foo",
-    "parent": "bdf1b230-9082-11e5-9f61-cf6a78b9d5fd",
+    "parent": "665e3140-9084-11e5-a6ee-f11ef60aae1c",
     "origin": {
       "!span": "24[1:6]-29[1:11]",
       "!type": "number",
@@ -49,14 +49,14 @@ g2().next().value //: bool
     "tagfile": "__DIR__/generator.js"
   },
   {
-    "id": "bdf1d941-9082-11e5-9f61-cf6a78b9d5fd",
+    "id": "665e5851-9084-11e5-a6ee-f11ef60aae1c",
     "name": "out",
     "addr": "/out/",
     "kind": "v",
     "type": "string",
     "lineno": 2,
     "namespace": "foo",
-    "parent": "bdf1b230-9082-11e5-9f61-cf6a78b9d5fd",
+    "parent": "665e3140-9084-11e5-a6ee-f11ef60aae1c",
     "origin": {
       "!span": "35[1:17]-38[1:20]",
       "!type": "string",
@@ -68,7 +68,7 @@ g2().next().value //: bool
     "tagfile": "__DIR__/generator.js"
   },
   {
-    "id": "bdf1d942-9082-11e5-9f61-cf6a78b9d5fd",
+    "id": "665e5852-9084-11e5-a6ee-f11ef60aae1c",
     "name": "it",
     "addr": "/it/",
     "kind": "v",
@@ -79,7 +79,7 @@ g2().next().value //: bool
     "tagfile": "__DIR__/generator.js"
   },
   {
-    "id": "bdf27580-9082-11e5-9f61-cf6a78b9d5fd",
+    "id": "665ef490-9084-11e5-a6ee-f11ef60aae1c",
     "name": "g1",
     "addr": "/g1/",
     "kind": "f",
@@ -92,7 +92,7 @@ g2().next().value //: bool
     "tagfile": "__DIR__/generator.js"
   },
   {
-    "id": "bdf27581-9082-11e5-9f61-cf6a78b9d5fd",
+    "id": "665ef491-9084-11e5-a6ee-f11ef60aae1c",
     "name": "g2",
     "addr": "/g2/",
     "kind": "f",

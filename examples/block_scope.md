@@ -18,7 +18,7 @@ x("hello")
 ```json
 [
   {
-    "id": "b4c2ed50-9082-11e5-ad78-a59cce86b786",
+    "id": "5d110ef0-9084-11e5-9370-73f15c43484b",
     "name": "x",
     "addr": "/x/",
     "kind": "f",
@@ -31,14 +31,14 @@ x("hello")
     "tagfile": "__DIR__/block_scope.js"
   },
   {
-    "id": "b4c31460-9082-11e5-ad78-a59cce86b786",
+    "id": "5d113600-9084-11e5-9370-73f15c43484b",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "string",
     "lineno": 1,
     "namespace": "x",
-    "parent": "b4c2ed50-9082-11e5-ad78-a59cce86b786",
+    "parent": "5d110ef0-9084-11e5-9370-73f15c43484b",
     "origin": {
       "!span": "11[0:11]-12[0:12]",
       "!type": "string",
@@ -50,14 +50,14 @@ x("hello")
     "tagfile": "__DIR__/block_scope.js"
   },
   {
-    "id": "b4c31461-9082-11e5-ad78-a59cce86b786",
+    "id": "5d113601-9084-11e5-9370-73f15c43484b",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
     "type": "boolean",
     "lineno": 5,
     "namespace": "x",
-    "parent": "b4c2ed50-9082-11e5-ad78-a59cce86b786",
+    "parent": "5d110ef0-9084-11e5-9370-73f15c43484b",
     "origin": {
       "!span": "57[4:8]-58[4:9]",
       "!type": "bool",

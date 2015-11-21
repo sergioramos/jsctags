@@ -20,7 +20,7 @@ var Mine = makeClass({
 ```json
 [
   {
-    "id": "c1195800-9082-11e5-8178-6533da63b1a0",
+    "id": "69cfff70-9084-11e5-8e69-b99d63a0a713",
     "name": "sup",
     "addr": "/sup/",
     "kind": "v",
@@ -31,14 +31,14 @@ var Mine = makeClass({
     "tagfile": "__DIR__/indirect_class.js"
   },
   {
-    "id": "c1197f10-9082-11e5-8178-6533da63b1a0",
+    "id": "69d02680-9084-11e5-8e69-b99d63a0a713",
     "name": "foo",
     "addr": "/foo/",
     "kind": "f",
     "type": "number function()",
     "lineno": 2,
     "namespace": "sup",
-    "parent": "c1195800-9082-11e5-8178-6533da63b1a0",
+    "parent": "69cfff70-9084-11e5-8e69-b99d63a0a713",
     "origin": {
       "!span": "14[1:2]-17[1:5]",
       "!type": "fn() -> number"
@@ -46,7 +46,7 @@ var Mine = makeClass({
     "tagfile": "__DIR__/indirect_class.js"
   },
   {
-    "id": "c1197f11-9082-11e5-8178-6533da63b1a0",
+    "id": "69d04d90-9084-11e5-8e69-b99d63a0a713",
     "name": "makeClass",
     "addr": "/makeClass/",
     "kind": "f",
@@ -59,14 +59,14 @@ var Mine = makeClass({
     "tagfile": "__DIR__/indirect_class.js"
   },
   {
-    "id": "c1197f12-9082-11e5-8178-6533da63b1a0",
+    "id": "69d04d91-9084-11e5-8e69-b99d63a0a713",
     "name": "Ctor",
     "addr": "/Ctor/",
     "kind": "f",
     "type": "void function()",
     "lineno": 6,
     "namespace": "makeClass",
-    "parent": "c1197f11-9082-11e5-8178-6533da63b1a0",
+    "parent": "69d04d90-9084-11e5-8e69-b99d63a0a713",
     "origin": {
       "!span": "89[5:11]-93[5:15]",
       "!type": "fn()",
@@ -78,13 +78,13 @@ var Mine = makeClass({
     "tagfile": "__DIR__/indirect_class.js"
   },
   {
-    "id": "c119a620-9082-11e5-8178-6533da63b1a0",
+    "id": "69d04d92-9084-11e5-8e69-b99d63a0a713",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "makeClass.Ctor",
-    "parent": "c1197f12-9082-11e5-8178-6533da63b1a0",
+    "parent": "69d04d91-9084-11e5-8e69-b99d63a0a713",
     "origin": {
       "!span": "106[6:7]-115[6:16]",
       "!data": {
@@ -95,13 +95,13 @@ var Mine = makeClass({
     "tagfile": "__DIR__/indirect_class.js"
   },
   {
-    "id": "c119a621-9082-11e5-8178-6533da63b1a0",
+    "id": "69d04d93-9084-11e5-8e69-b99d63a0a713",
     "name": "m",
     "addr": "/m/",
     "kind": "v",
     "lineno": 8,
     "namespace": "makeClass",
-    "parent": "c1197f11-9082-11e5-8178-6533da63b1a0",
+    "parent": "69d04d90-9084-11e5-8e69-b99d63a0a713",
     "origin": {
       "!span": "149[7:11]-150[7:12]",
       "!data": {
@@ -112,12 +112,12 @@ var Mine = makeClass({
     "tagfile": "__DIR__/indirect_class.js"
   },
   {
-    "id": "c119a623-9082-11e5-8178-6533da63b1a0",
+    "id": "69d04d95-9084-11e5-8e69-b99d63a0a713",
     "name": "Mine",
     "addr": "/Mine/",
     "kind": "v",
     "lineno": 11,
-    "parent": "c119a622-9082-11e5-8178-6533da63b1a0",
+    "parent": "69d04d94-9084-11e5-8e69-b99d63a0a713",
     "origin": {
       "!span": "202[10:4]-206[10:8]",
       "!data": {

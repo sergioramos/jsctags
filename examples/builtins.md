@@ -38,7 +38,7 @@ String.prototype.indexOf.bind("abcde", "a"); //: fn(from?: number) -> number
 ```json
 [
   {
-    "id": "b5d6f560-9082-11e5-8b51-392a5dd180de",
+    "id": "5e49dd10-9084-11e5-889d-e79e46cecc31",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
@@ -51,7 +51,7 @@ String.prototype.indexOf.bind("abcde", "a"); //: fn(from?: number) -> number
     "tagfile": "__DIR__/builtins.js"
   },
   {
-    "id": "b5d71c70-9082-11e5-8b51-392a5dd180de",
+    "id": "5e4a0420-9084-11e5-889d-e79e46cecc31",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
@@ -64,7 +64,7 @@ String.prototype.indexOf.bind("abcde", "a"); //: fn(from?: number) -> number
     "tagfile": "__DIR__/builtins.js"
   },
   {
-    "id": "b5d71c71-9082-11e5-8b51-392a5dd180de",
+    "id": "5e4a0421-9084-11e5-889d-e79e46cecc31",
     "name": "num",
     "addr": "/num/",
     "kind": "v",

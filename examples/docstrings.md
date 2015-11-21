@@ -112,13 +112,13 @@ c.something //doc: The something
 ```json
 [
   {
-    "id": "ba8e3be8-9082-11e5-9b56-f7f38ac54924",
+    "id": "62f9f7a4-9084-11e5-bbaa-05e26ea7eb30",
     "name": "myalias",
     "addr": "/myalias/",
     "kind": "f",
     "type": "void function(number)",
     "lineno": 4,
-    "parent": "ba8e3be6-9082-11e5-9b56-f7f38ac54924",
+    "parent": "62f9f7a2-9084-11e5-bbaa-05e26ea7eb30",
     "origin": {
       "!span": "185[3:4]-192[3:11]",
       "!type": "fn(ms: number)",
@@ -130,7 +130,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "ba8d7890-9082-11e5-9b56-f7f38ac54924",
+    "id": "62f98270-9084-11e5-bbaa-05e26ea7eb30",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
@@ -143,7 +143,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "ba8e3be9-9082-11e5-9b56-f7f38ac54924",
+    "id": "62f9f7a5-9084-11e5-bbaa-05e26ea7eb30",
     "name": "monkeyAlias",
     "addr": "/makeMonkey/",
     "kind": "f",
@@ -156,7 +156,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "ba8d9fa0-9082-11e5-9b56-f7f38ac54924",
+    "id": "62f9a980-9084-11e5-bbaa-05e26ea7eb30",
     "name": "makeMonkey",
     "addr": "/makeMonkey/",
     "kind": "f",
@@ -169,13 +169,13 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "ba8e3be7-9082-11e5-9b56-f7f38ac54924",
+    "id": "62f9f7a3-9084-11e5-bbaa-05e26ea7eb30",
     "name": "monkeyAlias",
     "addr": "/monkeyAlias/",
     "kind": "f",
     "type": "string function()",
     "lineno": 18,
-    "parent": "ba8e3be6-9082-11e5-9b56-f7f38ac54924",
+    "parent": "62f9f7a2-9084-11e5-bbaa-05e26ea7eb30",
     "origin": {
       "!span": "504[17:4]-515[17:15]",
       "!type": "fn() -> string",
@@ -187,7 +187,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "ba8e14d0-9082-11e5-9b56-f7f38ac54924",
+    "id": "62f9d090-9084-11e5-bbaa-05e26ea7eb30",
     "name": "abc",
     "addr": "/abc/",
     "kind": "v",
@@ -200,7 +200,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "ba8e14d1-9082-11e5-9b56-f7f38ac54924",
+    "id": "62f9d091-9084-11e5-bbaa-05e26ea7eb30",
     "name": "Quux",
     "addr": "/Quux/",
     "kind": "f",
@@ -213,7 +213,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "ba8e14d2-9082-11e5-9b56-f7f38ac54924",
+    "id": "62f9d092-9084-11e5-bbaa-05e26ea7eb30",
     "name": "baz",
     "addr": "/baz/",
     "kind": "v",
@@ -226,7 +226,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "ba8e14d3-9082-11e5-9b56-f7f38ac54924",
+    "id": "62f9d093-9084-11e5-bbaa-05e26ea7eb30",
     "name": "oy",
     "addr": "/oy/",
     "kind": "v",
@@ -239,7 +239,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "ba8e14d4-9082-11e5-9b56-f7f38ac54924",
+    "id": "62f9d094-9084-11e5-bbaa-05e26ea7eb30",
     "name": "arr",
     "addr": "/arr/",
     "kind": "v",
@@ -252,7 +252,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "ba8e14d5-9082-11e5-9b56-f7f38ac54924",
+    "id": "62f9d095-9084-11e5-bbaa-05e26ea7eb30",
     "name": "aha",
     "addr": "/aha/",
     "kind": "v",
@@ -265,7 +265,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "ba8e14d6-9082-11e5-9b56-f7f38ac54924",
+    "id": "62f9d096-9084-11e5-bbaa-05e26ea7eb30",
     "name": "xyzzy",
     "addr": "/xyzzy/",
     "kind": "v",
@@ -278,7 +278,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "ba8e14d7-9082-11e5-9b56-f7f38ac54924",
+    "id": "62f9d097-9084-11e5-bbaa-05e26ea7eb30",
     "name": "o",
     "addr": "/o/",
     "kind": "v",
@@ -289,14 +289,14 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "ba8e14d8-9082-11e5-9b56-f7f38ac54924",
+    "id": "62f9d098-9084-11e5-bbaa-05e26ea7eb30",
     "name": "getName",
     "addr": "/getName/",
     "kind": "f",
     "type": "!this.name function()",
     "lineno": 76,
     "namespace": "o",
-    "parent": "ba8e14d7-9082-11e5-9b56-f7f38ac54924",
+    "parent": "62f9d097-9084-11e5-bbaa-05e26ea7eb30",
     "origin": {
       "!span": "1613[75:2]-1620[75:9]",
       "!type": "fn() -> !this.name"
@@ -304,14 +304,14 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "ba8e14d9-9082-11e5-9b56-f7f38ac54924",
+    "id": "62f9d099-9084-11e5-bbaa-05e26ea7eb30",
     "name": "name",
     "addr": "/name/",
     "kind": "v",
     "type": "string",
     "lineno": 78,
     "namespace": "o",
-    "parent": "ba8e14d7-9082-11e5-9b56-f7f38ac54924",
+    "parent": "62f9d097-9084-11e5-bbaa-05e26ea7eb30",
     "origin": {
       "!span": "1672[77:2]-1676[77:6]",
       "!type": "string"
@@ -319,14 +319,14 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "ba8e14da-9082-11e5-9b56-f7f38ac54924",
+    "id": "62f9d09a-9084-11e5-bbaa-05e26ea7eb30",
     "name": "bar",
     "addr": "/'bar'/",
     "kind": "v",
     "type": "number",
     "lineno": 82,
     "namespace": "o",
-    "parent": "ba8e14d7-9082-11e5-9b56-f7f38ac54924",
+    "parent": "62f9d097-9084-11e5-bbaa-05e26ea7eb30",
     "origin": {
       "!span": "1755[81:2]-1760[81:7]",
       "!type": "number"
@@ -334,14 +334,14 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "ba8e3be0-9082-11e5-9b56-f7f38ac54924",
+    "id": "62f9d09b-9084-11e5-bbaa-05e26ea7eb30",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
     "type": "string",
     "lineno": 86,
     "namespace": "o",
-    "parent": "ba8e14d7-9082-11e5-9b56-f7f38ac54924",
+    "parent": "62f9d097-9084-11e5-bbaa-05e26ea7eb30",
     "origin": {
       "!span": "1791[85:2]-1794[85:5]",
       "!type": "string"
@@ -349,20 +349,20 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "ba8e3be2-9082-11e5-9b56-f7f38ac54924",
+    "id": "62f9d09d-9084-11e5-bbaa-05e26ea7eb30",
     "name": "prototype",
     "addr": "/class C \{/",
     "kind": "v",
     "lineno": 93,
     "namespace": "C",
-    "parent": "ba8e3be1-9082-11e5-9b56-f7f38ac54924",
+    "parent": "62f9d09c-9084-11e5-bbaa-05e26ea7eb30",
     "origin": {
       "!span": "1925[92:0]-2029[97:1]"
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "ba8e3be1-9082-11e5-9b56-f7f38ac54924",
+    "id": "62f9d09c-9084-11e5-bbaa-05e26ea7eb30",
     "name": "C",
     "addr": "/C/",
     "kind": "f",
@@ -378,14 +378,14 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "ba8e3be3-9082-11e5-9b56-f7f38ac54924",
+    "id": "62f9d09e-9084-11e5-bbaa-05e26ea7eb30",
     "name": "method",
     "addr": "/method/",
     "kind": "f",
     "type": "number function()",
     "lineno": 95,
     "namespace": "C.prototype",
-    "parent": "ba8e3be2-9082-11e5-9b56-f7f38ac54924",
+    "parent": "62f9d09d-9084-11e5-bbaa-05e26ea7eb30",
     "origin": {
       "!span": "1953[94:2]-1959[94:8]",
       "!type": "fn() -> number"
@@ -393,14 +393,14 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "ba8e3be4-9082-11e5-9b56-f7f38ac54924",
+    "id": "62f9f7a0-9084-11e5-bbaa-05e26ea7eb30",
     "name": "something",
     "addr": "/something/",
     "kind": "v",
     "type": "number",
     "lineno": 97,
     "namespace": "C.prototype",
-    "parent": "ba8e3be2-9082-11e5-9b56-f7f38ac54924",
+    "parent": "62f9d09d-9084-11e5-bbaa-05e26ea7eb30",
     "origin": {
       "!span": "2002[96:6]-2011[96:15]",
       "!type": "number"
@@ -408,7 +408,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "ba8e3be5-9082-11e5-9b56-f7f38ac54924",
+    "id": "62f9f7a1-9084-11e5-bbaa-05e26ea7eb30",
     "name": "c",
     "addr": "/c/",
     "kind": "v",

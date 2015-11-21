@@ -414,7 +414,7 @@ varInCatch. //+
 ```json
 [
   {
-    "id": "c00c54d0-9082-11e5-94db-dbc0921ec694",
+    "id": "68b1e540-9084-11e5-83d3-55c8738ddc3f",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
@@ -427,7 +427,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00e0292-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3e11a-9084-11e5-83d3-55c8738ddc3f",
     "name": "y",
     "addr": "/a/",
     "kind": "v",
@@ -440,7 +440,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00c7be0-9082-11e5-94db-dbc0921ec694",
+    "id": "68b20c50-9084-11e5-83d3-55c8738ddc3f",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
@@ -453,13 +453,13 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00e0291-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3e119-9084-11e5-83d3-55c8738ddc3f",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
     "type": "[number]",
     "lineno": 11,
-    "parent": "c00e0288-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b3e110-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "206[10:4]-207[10:5]",
       "!type": "[number]",
@@ -471,7 +471,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00c7be1-9082-11e5-94db-dbc0921ec694",
+    "id": "68b20c51-9084-11e5-83d3-55c8738ddc3f",
     "name": "z",
     "addr": "/z/",
     "kind": "v",
@@ -484,7 +484,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00c7be2-9082-11e5-94db-dbc0921ec694",
+    "id": "68b20c52-9084-11e5-83d3-55c8738ddc3f",
     "name": "n",
     "addr": "/n/",
     "kind": "v",
@@ -497,7 +497,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00c7be3-9082-11e5-94db-dbc0921ec694",
+    "id": "68b20c53-9084-11e5-83d3-55c8738ddc3f",
     "name": "m",
     "addr": "/m/",
     "kind": "v",
@@ -510,7 +510,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00c7be4-9082-11e5-94db-dbc0921ec694",
+    "id": "68b20c54-9084-11e5-83d3-55c8738ddc3f",
     "name": "k",
     "addr": "/k/",
     "kind": "v",
@@ -523,7 +523,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00c7be5-9082-11e5-94db-dbc0921ec694",
+    "id": "68b20c55-9084-11e5-83d3-55c8738ddc3f",
     "name": "l",
     "addr": "/l/",
     "kind": "v",
@@ -536,7 +536,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00c7be6-9082-11e5-94db-dbc0921ec694",
+    "id": "68b20c56-9084-11e5-83d3-55c8738ddc3f",
     "name": "a2",
     "addr": "/a2/",
     "kind": "v",
@@ -549,7 +549,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00c7be7-9082-11e5-94db-dbc0921ec694",
+    "id": "68b20c57-9084-11e5-83d3-55c8738ddc3f",
     "name": "a3",
     "addr": "/a3/",
     "kind": "v",
@@ -562,7 +562,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00c7be8-9082-11e5-94db-dbc0921ec694",
+    "id": "68b20c58-9084-11e5-83d3-55c8738ddc3f",
     "name": "a4",
     "addr": "/a4/",
     "kind": "v",
@@ -575,7 +575,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00c7be9-9082-11e5-94db-dbc0921ec694",
+    "id": "68b20c59-9084-11e5-83d3-55c8738ddc3f",
     "name": "a5",
     "addr": "/a5/",
     "kind": "v",
@@ -588,7 +588,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ca2f0-9082-11e5-94db-dbc0921ec694",
+    "id": "68b20c5a-9084-11e5-83d3-55c8738ddc3f",
     "name": "b1",
     "addr": "/b1/",
     "kind": "v",
@@ -601,7 +601,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ca2f1-9082-11e5-94db-dbc0921ec694",
+    "id": "68b20c5b-9084-11e5-83d3-55c8738ddc3f",
     "name": "reg",
     "addr": "/reg/",
     "kind": "v",
@@ -614,13 +614,13 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00e028c-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3e114-9084-11e5-83d3-55c8738ddc3f",
     "name": "pattern1",
     "addr": "/pattern1/",
     "kind": "v",
     "type": "regexp",
     "lineno": 54,
-    "parent": "c00e0288-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b3e110-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "1394[53:4]-1402[53:12]",
       "!type": "+RegExp",
@@ -632,7 +632,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ca2f2-9082-11e5-94db-dbc0921ec694",
+    "id": "68b23360-9084-11e5-83d3-55c8738ddc3f",
     "name": "car",
     "addr": "/car/",
     "kind": "v",
@@ -645,7 +645,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ca2f3-9082-11e5-94db-dbc0921ec694",
+    "id": "68b23361-9084-11e5-83d3-55c8738ddc3f",
     "name": "s1",
     "addr": "/s1/",
     "kind": "v",
@@ -658,7 +658,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ca2f4-9082-11e5-94db-dbc0921ec694",
+    "id": "68b23362-9084-11e5-83d3-55c8738ddc3f",
     "name": "s2",
     "addr": "/s2/",
     "kind": "v",
@@ -671,7 +671,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ca2f5-9082-11e5-94db-dbc0921ec694",
+    "id": "68b23363-9084-11e5-83d3-55c8738ddc3f",
     "name": "s3",
     "addr": "/s3/",
     "kind": "v",
@@ -684,7 +684,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ca2f6-9082-11e5-94db-dbc0921ec694",
+    "id": "68b23364-9084-11e5-83d3-55c8738ddc3f",
     "name": "s4",
     "addr": "/s4/",
     "kind": "v",
@@ -697,7 +697,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ca2f7-9082-11e5-94db-dbc0921ec694",
+    "id": "68b23365-9084-11e5-83d3-55c8738ddc3f",
     "name": "person",
     "addr": "/person/",
     "kind": "v",
@@ -708,14 +708,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ca2f8-9082-11e5-94db-dbc0921ec694",
+    "id": "68b23366-9084-11e5-83d3-55c8738ddc3f",
     "name": "firstname",
     "addr": "/firstname/",
     "kind": "v",
     "type": "string",
     "lineno": 87,
     "namespace": "person",
-    "parent": "c00ca2f7-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b23365-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "2058[86:7]-2067[86:16]",
       "!type": "string"
@@ -723,14 +723,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ca2f9-9082-11e5-94db-dbc0921ec694",
+    "id": "68b23367-9084-11e5-83d3-55c8738ddc3f",
     "name": "lastname",
     "addr": "/lastname/",
     "kind": "v",
     "type": "string",
     "lineno": 88,
     "namespace": "person",
-    "parent": "c00ca2f7-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b23365-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "2085[87:7]-2093[87:15]",
       "!type": "string"
@@ -738,14 +738,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ca2fa-9082-11e5-94db-dbc0921ec694",
+    "id": "68b23368-9084-11e5-83d3-55c8738ddc3f",
     "name": "age",
     "addr": "/age/",
     "kind": "v",
     "type": "number",
     "lineno": 89,
     "namespace": "person",
-    "parent": "c00ca2f7-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b23365-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "2110[88:7]-2113[88:10]",
       "!type": "number"
@@ -753,14 +753,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ca2fb-9082-11e5-94db-dbc0921ec694",
+    "id": "68b23369-9084-11e5-83d3-55c8738ddc3f",
     "name": "eyecolor",
     "addr": "/eyecolor/",
     "kind": "v",
     "type": "string",
     "lineno": 90,
     "namespace": "person",
-    "parent": "c00ca2f7-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b23365-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "2127[89:7]-2135[89:15]",
       "!type": "string"
@@ -768,14 +768,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ca2ff-9082-11e5-94db-dbc0921ec694",
+    "id": "68b2336d-9084-11e5-83d3-55c8738ddc3f",
     "name": "age",
     "addr": "/age/",
     "kind": "v",
     "type": "number",
     "lineno": 95,
     "namespace": "personType",
-    "parent": "c00ca2fc-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b2336a-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "2350[94:41]-2353[94:44]",
       "!type": "number",
@@ -787,14 +787,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ca300-9082-11e5-94db-dbc0921ec694",
+    "id": "68b2336e-9084-11e5-83d3-55c8738ddc3f",
     "name": "eyecolor",
     "addr": "/eyecolor/",
     "kind": "v",
     "type": "string",
     "lineno": 95,
     "namespace": "personType",
-    "parent": "c00ca2fc-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b2336a-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "2355[94:46]-2363[94:54]",
       "!type": "string",
@@ -806,14 +806,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ca2fe-9082-11e5-94db-dbc0921ec694",
+    "id": "68b2336c-9084-11e5-83d3-55c8738ddc3f",
     "name": "lastname",
     "addr": "/lastname/",
     "kind": "v",
     "type": "string",
     "lineno": 95,
     "namespace": "personType",
-    "parent": "c00ca2fc-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b2336a-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "2340[94:31]-2348[94:39]",
       "!type": "string",
@@ -825,14 +825,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ca2fd-9082-11e5-94db-dbc0921ec694",
+    "id": "68b2336b-9084-11e5-83d3-55c8738ddc3f",
     "name": "firstname",
     "addr": "/firstname/",
     "kind": "v",
     "type": "string",
     "lineno": 95,
     "namespace": "personType",
-    "parent": "c00ca2fc-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b2336a-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "2329[94:20]-2338[94:29]",
       "!type": "string",
@@ -844,7 +844,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ca2fc-9082-11e5-94db-dbc0921ec694",
+    "id": "68b2336a-9084-11e5-83d3-55c8738ddc3f",
     "name": "personType",
     "addr": "/personType/",
     "kind": "f",
@@ -860,14 +860,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ca301-9082-11e5-94db-dbc0921ec694",
+    "id": "68b25a70-9084-11e5-83d3-55c8738ddc3f",
     "name": "changeName",
     "addr": "/changeName/",
     "kind": "f",
     "type": "!this.lastname function(?)",
     "lineno": 100,
     "namespace": "personType",
-    "parent": "c00ca2fc-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b2336a-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "2478[99:7]-2488[99:17]",
       "!type": "fn(name: ?) -> !this.lastname"
@@ -875,13 +875,13 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ca302-9082-11e5-94db-dbc0921ec694",
+    "id": "68b25a71-9084-11e5-83d3-55c8738ddc3f",
     "name": "name",
     "addr": "/name/",
     "kind": "v",
     "lineno": 104,
     "namespace": "personType.changeName",
-    "parent": "c00ca301-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b25a70-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "2644[103:22]-2648[103:26]",
       "!data": {
@@ -892,7 +892,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ca303-9082-11e5-94db-dbc0921ec694",
+    "id": "68b25a72-9084-11e5-83d3-55c8738ddc3f",
     "name": "friend",
     "addr": "/friend/",
     "kind": "v",
@@ -905,14 +905,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00cca04-9082-11e5-94db-dbc0921ec694",
+    "id": "68b25a77-9084-11e5-83d3-55c8738ddc3f",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 119,
     "namespace": "base.foo2",
-    "parent": "c00cca03-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b25a76-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "3086[118:38]-3087[118:39]",
       "!type": "number"
@@ -920,14 +920,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00cca05-9082-11e5-94db-dbc0921ec694",
+    "id": "68b25a78-9084-11e5-83d3-55c8738ddc3f",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "string",
     "lineno": 119,
     "namespace": "base.foo2",
-    "parent": "c00cca03-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b25a76-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "3093[118:45]-3094[118:46]",
       "!type": "string"
@@ -935,7 +935,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00cca00-9082-11e5-94db-dbc0921ec694",
+    "id": "68b25a73-9084-11e5-83d3-55c8738ddc3f",
     "name": "base",
     "addr": "/base/",
     "kind": "v",
@@ -946,14 +946,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00cca01-9082-11e5-94db-dbc0921ec694",
+    "id": "68b25a74-9084-11e5-83d3-55c8738ddc3f",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
     "type": "number",
     "lineno": 119,
     "namespace": "base",
-    "parent": "c00cca00-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b25a73-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "3060[118:12]-3063[118:15]",
       "!type": "number"
@@ -961,14 +961,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00cca02-9082-11e5-94db-dbc0921ec694",
+    "id": "68b25a75-9084-11e5-83d3-55c8738ddc3f",
     "name": "bar",
     "addr": "/bar/",
     "kind": "v",
     "type": "number",
     "lineno": 119,
     "namespace": "base",
-    "parent": "c00cca00-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b25a73-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "3069[118:21]-3072[118:24]",
       "!type": "number"
@@ -976,27 +976,27 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00cca03-9082-11e5-94db-dbc0921ec694",
+    "id": "68b25a76-9084-11e5-83d3-55c8738ddc3f",
     "name": "foo2",
     "addr": "/foo2/",
     "kind": "v",
     "lineno": 119,
     "namespace": "base",
-    "parent": "c00cca00-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b25a73-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "3078[118:30]-3082[118:34]"
     },
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00cca06-9082-11e5-94db-dbc0921ec694",
+    "id": "68b25a79-9084-11e5-83d3-55c8738ddc3f",
     "name": "baz",
     "addr": "/baz/",
     "kind": "v",
     "type": "number",
     "lineno": 129,
     "namespace": "base",
-    "parent": "c00cca00-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b25a73-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "3399[128:5]-3402[128:8]",
       "!type": "number"
@@ -1004,7 +1004,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00cca07-9082-11e5-94db-dbc0921ec694",
+    "id": "68b25a7a-9084-11e5-83d3-55c8738ddc3f",
     "name": "gen1",
     "addr": "/gen1/",
     "kind": "v",
@@ -1015,7 +1015,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00cca09-9082-11e5-94db-dbc0921ec694",
+    "id": "68b28181-9084-11e5-83d3-55c8738ddc3f",
     "name": "gen2",
     "addr": "/gen2/",
     "kind": "v",
@@ -1026,14 +1026,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00cca08-9082-11e5-94db-dbc0921ec694",
+    "id": "68b28180-9084-11e5-83d3-55c8738ddc3f",
     "name": "quux",
     "addr": "/quux/",
     "kind": "v",
     "type": "number",
     "lineno": 134,
     "namespace": "gen1",
-    "parent": "c00cca07-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b25a7a-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "3509[133:5]-3513[133:9]",
       "!type": "number"
@@ -1041,14 +1041,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00cca0a-9082-11e5-94db-dbc0921ec694",
+    "id": "68b28182-9084-11e5-83d3-55c8738ddc3f",
     "name": "kaka",
     "addr": "/kaka/",
     "kind": "v",
     "type": "number",
     "lineno": 135,
     "namespace": "gen2",
-    "parent": "c00cca09-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b28181-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "3525[134:5]-3529[134:9]",
       "!type": "number"
@@ -1056,7 +1056,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00cca0b-9082-11e5-94db-dbc0921ec694",
+    "id": "68b28183-9084-11e5-83d3-55c8738ddc3f",
     "name": "extend",
     "addr": "/extend/",
     "kind": "v",
@@ -1067,7 +1067,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00d6640-9082-11e5-94db-dbc0921ec694",
+    "id": "68b344d0-9084-11e5-83d3-55c8738ddc3f",
     "name": "empty",
     "addr": "/empty/",
     "kind": "v",
@@ -1078,14 +1078,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00d6641-9082-11e5-94db-dbc0921ec694",
+    "id": "68b344d1-9084-11e5-83d3-55c8738ddc3f",
     "name": "prop1",
     "addr": "/prop1/",
     "kind": "v",
     "type": "string",
     "lineno": 151,
     "namespace": "empty",
-    "parent": "c00d6640-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b344d0-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "4225[150:6]-4230[150:11]",
       "!type": "string"
@@ -1093,7 +1093,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00d6642-9082-11e5-94db-dbc0921ec694",
+    "id": "68b344d2-9084-11e5-83d3-55c8738ddc3f",
     "name": "Ctor1",
     "addr": "/Ctor1/",
     "kind": "f",
@@ -1109,14 +1109,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00d6644-9082-11e5-94db-dbc0921ec694",
+    "id": "68b344d4-9084-11e5-83d3-55c8738ddc3f",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 156,
     "namespace": "Ctor1.prototype",
-    "parent": "c00d6643-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b344d3-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "4369[155:19]-4370[155:20]",
       "!type": "number"
@@ -1124,20 +1124,20 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00d6643-9082-11e5-94db-dbc0921ec694",
+    "id": "68b344d3-9084-11e5-83d3-55c8738ddc3f",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 156,
     "namespace": "Ctor1",
-    "parent": "c00d6642-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b344d2-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "4356[155:6]-4365[155:15]"
     },
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00d6645-9082-11e5-94db-dbc0921ec694",
+    "id": "68b344d5-9084-11e5-83d3-55c8738ddc3f",
     "name": "Ctor2",
     "addr": "/Ctor2/",
     "kind": "f",
@@ -1153,12 +1153,12 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00e028d-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3e115-9084-11e5-83d3-55c8738ddc3f",
     "name": "singleton",
     "addr": "/singleton/",
     "kind": "v",
     "lineno": 164,
-    "parent": "c00e0288-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b3e110-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "4483[163:4]-4492[163:13]",
       "!data": {
@@ -1169,14 +1169,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00d664a-9082-11e5-94db-dbc0921ec694",
+    "id": "68b344da-9084-11e5-83d3-55c8738ddc3f",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "boolean",
     "lineno": 166,
     "namespace": "Foo",
-    "parent": "c00d6646-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b344d6-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "4535[165:13]-4536[165:14]",
       "!type": "bool",
@@ -1188,7 +1188,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00d6646-9082-11e5-94db-dbc0921ec694",
+    "id": "68b344d6-9084-11e5-83d3-55c8738ddc3f",
     "name": "Foo",
     "addr": "/Foo/",
     "kind": "f",
@@ -1204,14 +1204,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00d664b-9082-11e5-94db-dbc0921ec694",
+    "id": "68b344db-9084-11e5-83d3-55c8738ddc3f",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
     "type": "[number]",
     "lineno": 168,
     "namespace": "Foo",
-    "parent": "c00d6646-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b344d6-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "4561[167:7]-4562[167:8]",
       "!type": "[number]"
@@ -1219,27 +1219,27 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00d6647-9082-11e5-94db-dbc0921ec694",
+    "id": "68b344d7-9084-11e5-83d3-55c8738ddc3f",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 171,
     "namespace": "Foo",
-    "parent": "c00d6646-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b344d6-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "4577[170:4]-4586[170:13]"
     },
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00d6648-9082-11e5-94db-dbc0921ec694",
+    "id": "68b344d8-9084-11e5-83d3-55c8738ddc3f",
     "name": "makeString",
     "addr": "/makeString/",
     "kind": "f",
     "type": "string function()",
     "lineno": 172,
     "namespace": "Foo.prototype",
-    "parent": "c00d6647-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b344d7-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "4593[171:2]-4603[171:12]",
       "!type": "fn() -> string"
@@ -1247,14 +1247,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00d6649-9082-11e5-94db-dbc0921ec694",
+    "id": "68b344d9-9084-11e5-83d3-55c8738ddc3f",
     "name": "bar",
     "addr": "/bar/",
     "kind": "v",
     "type": "number",
     "lineno": 173,
     "namespace": "Foo.prototype",
-    "parent": "c00d6647-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b344d7-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "4636[172:2]-4639[172:5]",
       "!type": "number"
@@ -1262,7 +1262,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00d664c-9082-11e5-94db-dbc0921ec694",
+    "id": "68b344dc-9084-11e5-83d3-55c8738ddc3f",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
@@ -1275,7 +1275,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb88-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3ba07-9084-11e5-83d3-55c8738ddc3f",
     "name": "config",
     "addr": "/config/",
     "kind": "v",
@@ -1286,40 +1286,40 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb89-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3ba08-9084-11e5-83d3-55c8738ddc3f",
     "name": "CSS",
     "addr": "/CSS/",
     "kind": "v",
     "lineno": 183,
     "namespace": "config",
-    "parent": "c00ddb88-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b3ba07-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "4838[182:2]-4841[182:5]"
     },
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00e0280-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3ba09-9084-11e5-83d3-55c8738ddc3f",
     "name": "IDs",
     "addr": "/IDs/",
     "kind": "v",
     "lineno": 184,
     "namespace": "config.CSS",
-    "parent": "c00ddb89-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b3ba08-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "4849[183:4]-4852[183:7]"
     },
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00e0281-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3ba0a-9084-11e5-83d3-55c8738ddc3f",
     "name": "container",
     "addr": "/container/",
     "kind": "v",
     "type": "string",
     "lineno": 185,
     "namespace": "config.CSS.IDs",
-    "parent": "c00e0280-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b3ba09-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "4862[184:6]-4871[184:15]",
       "!type": "string"
@@ -1327,14 +1327,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00e0282-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3ba0b-9084-11e5-83d3-55c8738ddc3f",
     "name": "canvas",
     "addr": "/canvas/",
     "kind": "v",
     "type": "string",
     "lineno": 186,
     "namespace": "config.CSS.IDs",
-    "parent": "c00e0280-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b3ba09-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "4901[185:6]-4907[185:12]",
       "!type": "string"
@@ -1342,14 +1342,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00e0283-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3ba0c-9084-11e5-83d3-55c8738ddc3f",
     "name": "player",
     "addr": "/player/",
     "kind": "v",
     "type": "string",
     "lineno": 187,
     "namespace": "config.CSS.IDs",
-    "parent": "c00e0280-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b3ba09-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "4936[186:6]-4942[186:12]",
       "!type": "string"
@@ -1357,14 +1357,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00e0284-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3ba0d-9084-11e5-83d3-55c8738ddc3f",
     "name": "controls",
     "addr": "/controls/",
     "kind": "v",
     "type": "string",
     "lineno": 188,
     "namespace": "config.CSS.IDs",
-    "parent": "c00e0280-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b3ba09-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "4965[187:6]-4973[187:14]",
       "!type": "string"
@@ -1372,7 +1372,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00d664d-9082-11e5-94db-dbc0921ec694",
+    "id": "68b344dd-9084-11e5-83d3-55c8738ddc3f",
     "name": "years",
     "addr": "/years/",
     "kind": "v",
@@ -1385,7 +1385,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00d8d50-9082-11e5-94db-dbc0921ec694",
+    "id": "68b344de-9084-11e5-83d3-55c8738ddc3f",
     "name": "arr1",
     "addr": "/arr1/",
     "kind": "v",
@@ -1398,7 +1398,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00d8d51-9082-11e5-94db-dbc0921ec694",
+    "id": "68b344df-9084-11e5-83d3-55c8738ddc3f",
     "name": "arr2",
     "addr": "/arr2/",
     "kind": "v",
@@ -1411,7 +1411,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00d8d52-9082-11e5-94db-dbc0921ec694",
+    "id": "68b344e0-9084-11e5-83d3-55c8738ddc3f",
     "name": "scope1",
     "addr": "/scope1/",
     "kind": "f",
@@ -1424,12 +1424,12 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00e0289-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3e111-9084-11e5-83d3-55c8738ddc3f",
     "name": "f",
     "addr": "/f/",
     "kind": "v",
     "lineno": 218,
-    "parent": "c00e0288-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b3e110-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "5685[217:4]-5686[217:5]",
       "!data": {
@@ -1440,12 +1440,12 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00e028a-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3e112-9084-11e5-83d3-55c8738ddc3f",
     "name": "f2",
     "addr": "/f2/",
     "kind": "v",
     "lineno": 220,
-    "parent": "c00e0288-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b3e110-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "5758[219:4]-5760[219:6]",
       "!data": {
@@ -1456,12 +1456,12 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00e028b-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3e113-9084-11e5-83d3-55c8738ddc3f",
     "name": "f3",
     "addr": "/f3/",
     "kind": "v",
     "lineno": 222,
-    "parent": "c00e0288-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b3e110-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "5837[221:4]-5839[221:6]",
       "!data": {
@@ -1472,7 +1472,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00d8d53-9082-11e5-94db-dbc0921ec694",
+    "id": "68b344e1-9084-11e5-83d3-55c8738ddc3f",
     "name": "one",
     "addr": "/one/",
     "kind": "f",
@@ -1485,14 +1485,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00d8d55-9082-11e5-94db-dbc0921ec694",
+    "id": "68b344e3-9084-11e5-83d3-55c8738ddc3f",
     "name": "person",
     "addr": "/person/",
     "kind": "v",
     "type": "string",
     "lineno": 256,
     "namespace": "one",
-    "parent": "c00d8d53-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b344e1-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "6574[255:6]-6580[255:12]",
       "!type": "string",
@@ -1504,14 +1504,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00d8d54-9082-11e5-94db-dbc0921ec694",
+    "id": "68b344e2-9084-11e5-83d3-55c8738ddc3f",
     "name": "localVar1InOne",
     "addr": "/localVar1InOne/",
     "kind": "v",
     "type": "string",
     "lineno": 258,
     "namespace": "one",
-    "parent": "c00d8d53-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b344e1-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "6643[257:6]-6657[257:20]",
       "!type": "string",
@@ -1523,7 +1523,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00e0285-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3ba0e-9084-11e5-83d3-55c8738ddc3f",
     "name": "globalVar1",
     "addr": "/globalVar1/",
     "kind": "v",
@@ -1536,14 +1536,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00e0290-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3e118-9084-11e5-83d3-55c8738ddc3f",
     "name": "timeout",
     "addr": "/timeout/",
     "kind": "f",
     "type": "void function(?, ?)",
     "lineno": 272,
     "namespace": "timeout",
-    "parent": "c00e028e-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b3e116-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "7064[271:20]-7071[271:27]",
       "!type": "fn(f: ?, timeout: ?)",
@@ -1555,12 +1555,12 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00e028e-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3e116-9084-11e5-83d3-55c8738ddc3f",
     "name": "timeout",
     "addr": "/timeout/",
     "kind": "v",
     "lineno": 272,
-    "parent": "c00e0288-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b3e110-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "7053[271:9]-7060[271:16]",
       "!data": {
@@ -1571,13 +1571,13 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00e028f-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3e117-9084-11e5-83d3-55c8738ddc3f",
     "name": "f",
     "addr": "/f/",
     "kind": "v",
     "lineno": 272,
     "namespace": "timeout",
-    "parent": "c00e028e-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b3e116-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "7061[271:17]-7062[271:18]",
       "!data": {
@@ -1588,7 +1588,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00d8d56-9082-11e5-94db-dbc0921ec694",
+    "id": "68b344e4-9084-11e5-83d3-55c8738ddc3f",
     "name": "obj",
     "addr": "/obj/",
     "kind": "v",
@@ -1599,14 +1599,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00d8d57-9082-11e5-94db-dbc0921ec694",
+    "id": "68b36be0-9084-11e5-83d3-55c8738ddc3f",
     "name": "name",
     "addr": "/name/",
     "kind": "v",
     "type": "string",
     "lineno": 274,
     "namespace": "obj",
-    "parent": "c00d8d56-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b344e4-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "7090[273:2]-7094[273:6]",
       "!type": "string"
@@ -1614,14 +1614,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00db460-9082-11e5-94db-dbc0921ec694",
+    "id": "68b36be1-9084-11e5-83d3-55c8738ddc3f",
     "name": "func",
     "addr": "/func/",
     "kind": "f",
     "type": "void function()",
     "lineno": 275,
     "namespace": "obj",
-    "parent": "c00d8d56-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b344e4-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "7105[274:2]-7109[274:6]",
       "!type": "fn()"
@@ -1629,7 +1629,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00e0286-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3ba0f-9084-11e5-83d3-55c8738ddc3f",
     "name": "localVarBecomeGlobal",
     "addr": "/localVarBecomeGlobal/",
     "kind": "v",
@@ -1642,7 +1642,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00db461-9082-11e5-94db-dbc0921ec694",
+    "id": "68b36be2-9084-11e5-83d3-55c8738ddc3f",
     "name": "testIfControlFlow1",
     "addr": "/testIfControlFlow1/",
     "kind": "f",
@@ -1655,14 +1655,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb70-9082-11e5-94db-dbc0921ec694",
+    "id": "68b392f3-9084-11e5-83d3-55c8738ddc3f",
     "name": "varInIf",
     "addr": "/varInIf/",
     "kind": "v",
     "type": "string",
     "lineno": 294,
     "namespace": "testIfControlFlow1",
-    "parent": "c00db461-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b36be2-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "7523[293:8]-7530[293:15]",
       "!type": "string",
@@ -1674,13 +1674,13 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00db462-9082-11e5-94db-dbc0921ec694",
+    "id": "68b36be3-9084-11e5-83d3-55c8738ddc3f",
     "name": "f",
     "addr": "/f/",
     "kind": "v",
     "lineno": 296,
     "namespace": "testIfControlFlow1",
-    "parent": "c00db461-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b36be2-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "7599[295:8]-7600[295:9]",
       "!data": {
@@ -1691,14 +1691,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00db463-9082-11e5-94db-dbc0921ec694",
+    "id": "68b392f0-9084-11e5-83d3-55c8738ddc3f",
     "name": "name",
     "addr": "/name/",
     "kind": "v",
     "type": "string",
     "lineno": 299,
     "namespace": "testIfControlFlow1.f",
-    "parent": "c00db462-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b36be3-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "7727[298:19]-7731[298:23]",
       "!type": "string",
@@ -1710,14 +1710,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00db464-9082-11e5-94db-dbc0921ec694",
+    "id": "68b392f1-9084-11e5-83d3-55c8738ddc3f",
     "name": "inNestedIf",
     "addr": "/inNestedIf/",
     "kind": "v",
     "type": "string",
     "lineno": 303,
     "namespace": "testIfControlFlow1",
-    "parent": "c00db461-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b36be2-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "7828[302:10]-7838[302:20]",
       "!type": "string",
@@ -1729,13 +1729,13 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00db465-9082-11e5-94db-dbc0921ec694",
+    "id": "68b392f2-9084-11e5-83d3-55c8738ddc3f",
     "name": "t",
     "addr": "/t/",
     "kind": "v",
     "lineno": 305,
     "namespace": "testIfControlFlow1",
-    "parent": "c00db461-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b36be2-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "7880[304:10]-7881[304:11]",
       "!data": {
@@ -1746,7 +1746,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb71-9082-11e5-94db-dbc0921ec694",
+    "id": "68b392f4-9084-11e5-83d3-55c8738ddc3f",
     "name": "testForControlFlow1",
     "addr": "/testForControlFlow1/",
     "kind": "f",
@@ -1759,14 +1759,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb73-9082-11e5-94db-dbc0921ec694",
+    "id": "68b392f6-9084-11e5-83d3-55c8738ddc3f",
     "name": "m",
     "addr": "/m/",
     "kind": "v",
     "type": "string",
     "lineno": 321,
     "namespace": "testForControlFlow1",
-    "parent": "c00ddb71-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b392f4-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "8302[320:6]-8303[320:7]",
       "!type": "string",
@@ -1778,14 +1778,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb74-9082-11e5-94db-dbc0921ec694",
+    "id": "68b392f7-9084-11e5-83d3-55c8738ddc3f",
     "name": "n",
     "addr": "/n/",
     "kind": "v",
     "type": "number",
     "lineno": 322,
     "namespace": "testForControlFlow1",
-    "parent": "c00ddb71-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b392f4-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "8325[321:11]-8326[321:12]",
       "!type": "number",
@@ -1797,14 +1797,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb75-9082-11e5-94db-dbc0921ec694",
+    "id": "68b392f8-9084-11e5-83d3-55c8738ddc3f",
     "name": "varInForLoop",
     "addr": "/varInForLoop/",
     "kind": "v",
     "type": "string",
     "lineno": 323,
     "namespace": "testForControlFlow1",
-    "parent": "c00ddb71-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b392f4-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "8355[322:8]-8367[322:20]",
       "!type": "string",
@@ -1816,14 +1816,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb72-9082-11e5-94db-dbc0921ec694",
+    "id": "68b392f5-9084-11e5-83d3-55c8738ddc3f",
     "name": "j",
     "addr": "/j/",
     "kind": "v",
     "type": "number",
     "lineno": 324,
     "namespace": "testForControlFlow1",
-    "parent": "c00ddb71-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b392f4-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "8391[323:13]-8392[323:14]",
       "!type": "number",
@@ -1835,14 +1835,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb76-9082-11e5-94db-dbc0921ec694",
+    "id": "68b392f9-9084-11e5-83d3-55c8738ddc3f",
     "name": "varInNestedForLoop",
     "addr": "/varInNestedForLoop/",
     "kind": "v",
     "type": "number",
     "lineno": 325,
     "namespace": "testForControlFlow1",
-    "parent": "c00ddb71-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b392f4-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "8423[324:10]-8441[324:28]",
       "!type": "number",
@@ -1854,7 +1854,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb77-9082-11e5-94db-dbc0921ec694",
+    "id": "68b392fa-9084-11e5-83d3-55c8738ddc3f",
     "name": "testForInLoopFlow1",
     "addr": "/testForInLoopFlow1/",
     "kind": "f",
@@ -1867,7 +1867,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb78-9082-11e5-94db-dbc0921ec694",
+    "id": "68b392fb-9084-11e5-83d3-55c8738ddc3f",
     "name": "testWhileLoopFlow1",
     "addr": "/testWhileLoopFlow1/",
     "kind": "f",
@@ -1880,14 +1880,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb79-9082-11e5-94db-dbc0921ec694",
+    "id": "68b392fc-9084-11e5-83d3-55c8738ddc3f",
     "name": "n",
     "addr": "/n/",
     "kind": "v",
     "type": "number",
     "lineno": 342,
     "namespace": "testWhileLoopFlow1",
-    "parent": "c00ddb78-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b392fb-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "8733[341:6]-8734[341:7]",
       "!type": "number",
@@ -1899,14 +1899,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb7a-9082-11e5-94db-dbc0921ec694",
+    "id": "68b392fd-9084-11e5-83d3-55c8738ddc3f",
     "name": "varInWhileLoop",
     "addr": "/varInWhileLoop/",
     "kind": "v",
     "type": "string",
     "lineno": 344,
     "namespace": "testWhileLoopFlow1",
-    "parent": "c00ddb78-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b392fb-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "8769[343:8]-8783[343:22]",
       "!type": "string",
@@ -1918,7 +1918,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb7b-9082-11e5-94db-dbc0921ec694",
+    "id": "68b392fe-9084-11e5-83d3-55c8738ddc3f",
     "name": "testDoWhileLoopFlow1",
     "addr": "/testDoWhileLoopFlow1/",
     "kind": "f",
@@ -1931,14 +1931,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb7c-9082-11e5-94db-dbc0921ec694",
+    "id": "68b392ff-9084-11e5-83d3-55c8738ddc3f",
     "name": "varInDoWhileLoop",
     "addr": "/varInDoWhileLoop/",
     "kind": "v",
     "type": "string",
     "lineno": 352,
     "namespace": "testDoWhileLoopFlow1",
-    "parent": "c00ddb7b-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b392fe-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "8881[351:8]-8897[351:24]",
       "!type": "string",
@@ -1950,7 +1950,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb7d-9082-11e5-94db-dbc0921ec694",
+    "id": "68b39300-9084-11e5-83d3-55c8738ddc3f",
     "name": "testBreakFlow1",
     "addr": "/testBreakFlow1/",
     "kind": "f",
@@ -1963,7 +1963,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00e0287-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3ba10-9084-11e5-83d3-55c8738ddc3f",
     "name": "i",
     "addr": "/i/",
     "kind": "v",
@@ -1976,14 +1976,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb7e-9082-11e5-94db-dbc0921ec694",
+    "id": "68b39301-9084-11e5-83d3-55c8738ddc3f",
     "name": "testBreak",
     "addr": "/testBreak/",
     "kind": "v",
     "type": "string",
     "lineno": 362,
     "namespace": "testBreakFlow1",
-    "parent": "c00ddb7d-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b39300-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "9048[361:10]-9057[361:19]",
       "!type": "string",
@@ -1995,14 +1995,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb7f-9082-11e5-94db-dbc0921ec694",
+    "id": "68b39302-9084-11e5-83d3-55c8738ddc3f",
     "name": "testContinue",
     "addr": "/testContinue/",
     "kind": "v",
     "type": "string",
     "lineno": 365,
     "namespace": "testBreakFlow1",
-    "parent": "c00ddb7d-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b39300-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "9104[364:10]-9116[364:22]",
       "!type": "string",
@@ -2014,7 +2014,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb80-9082-11e5-94db-dbc0921ec694",
+    "id": "68b39303-9084-11e5-83d3-55c8738ddc3f",
     "name": "testSwitchFlow1",
     "addr": "/testSwitchFlow1/",
     "kind": "f",
@@ -2027,13 +2027,13 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb83-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3ba02-9084-11e5-83d3-55c8738ddc3f",
     "name": "n",
     "addr": "/n/",
     "kind": "v",
     "lineno": 377,
     "namespace": "testSwitchFlow1",
-    "parent": "c00ddb80-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b39303-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "9336[376:25]-9337[376:26]",
       "!data": {
@@ -2044,14 +2044,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb81-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3ba00-9084-11e5-83d3-55c8738ddc3f",
     "name": "inCase1",
     "addr": "/inCase1/",
     "kind": "v",
     "type": "string",
     "lineno": 381,
     "namespace": "testSwitchFlow1",
-    "parent": "c00ddb80-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b39303-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "9378[380:10]-9385[380:17]",
       "!type": "string",
@@ -2063,14 +2063,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb82-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3ba01-9084-11e5-83d3-55c8738ddc3f",
     "name": "inCase2",
     "addr": "/inCase2/",
     "kind": "v",
     "type": "string",
     "lineno": 385,
     "namespace": "testSwitchFlow1",
-    "parent": "c00ddb80-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b39303-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "9483[384:10]-9490[384:17]",
       "!type": "string",
@@ -2082,7 +2082,7 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb84-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3ba03-9084-11e5-83d3-55c8738ddc3f",
     "name": "testTryCatchFlow1",
     "addr": "/testTryCatchFlow1/",
     "kind": "f",
@@ -2095,14 +2095,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb87-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3ba06-9084-11e5-83d3-55c8738ddc3f",
     "name": "varInTry",
     "addr": "/varInTry/",
     "kind": "v",
     "type": "string",
     "lineno": 400,
     "namespace": "testTryCatchFlow1",
-    "parent": "c00ddb84-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b3ba03-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "9715[399:8]-9723[399:16]",
       "!type": "string",
@@ -2114,13 +2114,13 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb85-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3ba04-9084-11e5-83d3-55c8738ddc3f",
     "name": "err",
     "addr": "/err/",
     "kind": "v",
     "lineno": 401,
     "namespace": "testTryCatchFlow1",
-    "parent": "c00ddb84-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b3ba03-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "9745[400:10]-9748[400:13]",
       "!data": {
@@ -2131,14 +2131,14 @@ varInCatch. //+
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "id": "c00ddb86-9082-11e5-94db-dbc0921ec694",
+    "id": "68b3ba05-9084-11e5-83d3-55c8738ddc3f",
     "name": "varInCatch",
     "addr": "/varInCatch/",
     "kind": "v",
     "type": "string",
     "lineno": 403,
     "namespace": "testTryCatchFlow1",
-    "parent": "c00ddb84-9082-11e5-94db-dbc0921ec694",
+    "parent": "68b3ba03-9084-11e5-83d3-55c8738ddc3f",
     "origin": {
       "!span": "9810[402:8]-9820[402:18]",
       "!type": "string",

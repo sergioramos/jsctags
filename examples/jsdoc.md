@@ -130,7 +130,7 @@ ui(); //: string
 ```json
 [
   {
-    "id": "c1ce0200-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a8f30c0-9084-11e5-8961-8589e860d795",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
@@ -143,7 +143,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1ce2910-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a8f57d0-9084-11e5-8961-8589e860d795",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
@@ -154,14 +154,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf3a80-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a909050-9084-11e5-8961-8589e860d795",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 17,
     "namespace": "foo",
-    "parent": "c1cf1370-9082-11e5-ad8b-cd4fe4419d8e",
+    "parent": "6a906940-9084-11e5-8961-8589e860d795",
     "origin": {
       "!span": "295[16:13]-296[16:14]",
       "!type": "number",
@@ -173,7 +173,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf1370-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a906940-9084-11e5-8961-8589e860d795",
     "name": "foo",
     "addr": "/foo/",
     "kind": "f",
@@ -186,14 +186,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf3a81-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a909051-9084-11e5-8961-8589e860d795",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "string",
     "lineno": 17,
     "namespace": "foo",
-    "parent": "c1cf1370-9082-11e5-ad8b-cd4fe4419d8e",
+    "parent": "6a906940-9084-11e5-8961-8589e860d795",
     "origin": {
       "!span": "298[16:16]-299[16:17]",
       "!type": "string",
@@ -205,7 +205,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf3a82-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a909052-9084-11e5-8961-8589e860d795",
     "name": "abc",
     "addr": "/abc/",
     "kind": "f",
@@ -218,14 +218,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf3a84-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a909054-9084-11e5-8961-8589e860d795",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 30,
     "namespace": "bar",
-    "parent": "c1cf3a83-9082-11e5-ad8b-cd4fe4419d8e",
+    "parent": "6a909053-9084-11e5-8961-8589e860d795",
     "origin": {
       "!span": "525[29:19]-526[29:20]",
       "!type": "number",
@@ -237,14 +237,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf3a85-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a909055-9084-11e5-8961-8589e860d795",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "number",
     "lineno": 30,
     "namespace": "bar",
-    "parent": "c1cf3a83-9082-11e5-ad8b-cd4fe4419d8e",
+    "parent": "6a909053-9084-11e5-8961-8589e860d795",
     "origin": {
       "!span": "528[29:22]-529[29:23]",
       "!type": "number",
@@ -256,7 +256,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf3a83-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a909053-9084-11e5-8961-8589e860d795",
     "name": "bar",
     "addr": "/bar/",
     "kind": "f",
@@ -269,7 +269,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf3a86-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a909056-9084-11e5-8961-8589e860d795",
     "name": "o",
     "addr": "/o/",
     "kind": "v",
@@ -280,14 +280,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf3a87-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a909057-9084-11e5-8961-8589e860d795",
     "name": "prop1",
     "addr": "/prop1/",
     "kind": "v",
     "type": "string",
     "lineno": 36,
     "namespace": "o",
-    "parent": "c1cf3a86-9082-11e5-ad8b-cd4fe4419d8e",
+    "parent": "6a909056-9084-11e5-8961-8589e860d795",
     "origin": {
       "!span": "649[35:2]-654[35:7]",
       "!type": "string"
@@ -295,14 +295,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf3a88-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a909058-9084-11e5-8961-8589e860d795",
     "name": "prop2",
     "addr": "/prop2/",
     "kind": "f",
     "type": "number function()",
     "lineno": 39,
     "namespace": "o",
-    "parent": "c1cf3a86-9082-11e5-ad8b-cd4fe4419d8e",
+    "parent": "6a909056-9084-11e5-8961-8589e860d795",
     "origin": {
       "!span": "697[38:2]-702[38:7]",
       "!type": "fn() -> number"
@@ -310,14 +310,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf3a89-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a909059-9084-11e5-8961-8589e860d795",
     "name": "prop3",
     "addr": "/prop3/",
     "kind": "f",
     "type": "string function()",
     "lineno": 43,
     "namespace": "o",
-    "parent": "c1cf3a86-9082-11e5-ad8b-cd4fe4419d8e",
+    "parent": "6a909056-9084-11e5-8961-8589e860d795",
     "origin": {
       "!span": "769[42:2]-774[42:7]",
       "!type": "fn() -> string"
@@ -325,7 +325,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf3a8a-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a90905a-9084-11e5-8961-8589e860d795",
     "name": "closureArray",
     "addr": "/closureArray/",
     "kind": "v",
@@ -338,7 +338,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf3a8b-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a90905b-9084-11e5-8961-8589e860d795",
     "name": "closureMap",
     "addr": "/closureMap/",
     "kind": "v",
@@ -349,7 +349,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf3a8c-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a90b760-9084-11e5-8961-8589e860d795",
     "name": "takesOpt",
     "addr": "/takesOpt/",
     "kind": "f",
@@ -362,14 +362,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf6190-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a90b761-9084-11e5-8961-8589e860d795",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 58,
     "namespace": "takesOpt",
-    "parent": "c1cf3a8c-9082-11e5-ad8b-cd4fe4419d8e",
+    "parent": "6a90b760-9084-11e5-8961-8589e860d795",
     "origin": {
       "!span": "1129[57:18]-1130[57:19]",
       "!type": "number",
@@ -381,7 +381,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf6191-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a90b762-9084-11e5-8961-8589e860d795",
     "name": "myBitset",
     "addr": "/myBitset/",
     "kind": "v",
@@ -394,7 +394,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf6192-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a90b763-9084-11e5-8961-8589e860d795",
     "name": "myObj",
     "addr": "/myObj/",
     "kind": "v",
@@ -405,7 +405,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf6193-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a90b764-9084-11e5-8961-8589e860d795",
     "name": "NonAscïį",
     "addr": "/NonAscïį/",
     "kind": "f",
@@ -421,14 +421,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf6194-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a90de70-9084-11e5-8961-8589e860d795",
     "name": "length",
     "addr": "/length/",
     "kind": "v",
     "type": "string",
     "lineno": 84,
     "namespace": "NonAscïį",
-    "parent": "c1cf6193-9082-11e5-ad8b-cd4fe4419d8e",
+    "parent": "6a90b764-9084-11e5-8961-8589e860d795",
     "origin": {
       "!span": "1570[83:27]-1576[83:33]",
       "!type": "string"
@@ -436,7 +436,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf6195-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a90de71-9084-11e5-8961-8589e860d795",
     "name": "inst",
     "addr": "/inst/",
     "kind": "v",
@@ -449,12 +449,12 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf88a0-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a90de79-9084-11e5-8961-8589e860d795",
     "name": "bogus",
     "addr": "/bogus/",
     "kind": "v",
     "lineno": 92,
-    "parent": "c1cf619c-9082-11e5-ad8b-cd4fe4419d8e",
+    "parent": "6a90de78-9084-11e5-8961-8589e860d795",
     "origin": {
       "!span": "1678[91:4]-1683[91:9]",
       "!data": {
@@ -465,7 +465,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf6196-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a90de72-9084-11e5-8961-8589e860d795",
     "name": "again",
     "addr": "/again/",
     "kind": "v",
@@ -478,7 +478,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf6197-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a90de73-9084-11e5-8961-8589e860d795",
     "name": "functionBogus",
     "addr": "/functionBogus/",
     "kind": "f",
@@ -491,13 +491,13 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf6198-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a90de74-9084-11e5-8961-8589e860d795",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "lineno": 105,
     "namespace": "functionBogus",
-    "parent": "c1cf6197-9082-11e5-ad8b-cd4fe4419d8e",
+    "parent": "6a90de73-9084-11e5-8961-8589e860d795",
     "origin": {
       "!span": "1869[104:23]-1870[104:24]",
       "!data": {
@@ -508,7 +508,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf6199-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a90de75-9084-11e5-8961-8589e860d795",
     "name": "unionFunction",
     "addr": "/unionFunction/",
     "kind": "f",
@@ -521,14 +521,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf619a-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a90de76-9084-11e5-8961-8589e860d795",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "string",
     "lineno": 118,
     "namespace": "unionFunction",
-    "parent": "c1cf6199-9082-11e5-ad8b-cd4fe4419d8e",
+    "parent": "6a90de75-9084-11e5-8961-8589e860d795",
     "origin": {
       "!span": "2121[117:23]-2122[117:24]",
       "!type": "string",
@@ -540,7 +540,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "c1cf619b-9082-11e5-ad8b-cd4fe4419d8e",
+    "id": "6a90de77-9084-11e5-8961-8589e860d795",
     "name": "ui",
     "addr": "/ui/",
     "kind": "f",

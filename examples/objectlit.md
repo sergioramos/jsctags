@@ -21,7 +21,7 @@ foo.toString //: ?
 ```json
 [
   {
-    "id": "c4e66590-9082-11e5-96d6-5fb2b53ab1d4",
+    "id": "6e1e4af0-9084-11e5-9416-7d53f43b7a2a",
     "name": "bar",
     "addr": "/bar/",
     "kind": "v",
@@ -34,7 +34,7 @@ foo.toString //: ?
     "tagfile": "__DIR__/objectlit.js"
   },
   {
-    "id": "c4e68ca0-9082-11e5-96d6-5fb2b53ab1d4",
+    "id": "6e1e4af1-9084-11e5-9416-7d53f43b7a2a",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
@@ -45,14 +45,14 @@ foo.toString //: ?
     "tagfile": "__DIR__/objectlit.js"
   },
   {
-    "id": "c4e68ca1-9082-11e5-96d6-5fb2b53ab1d4",
+    "id": "6e1e7200-9084-11e5-9416-7d53f43b7a2a",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "boolean",
     "lineno": 6,
     "namespace": "foo",
-    "parent": "c4e68ca0-9082-11e5-96d6-5fb2b53ab1d4",
+    "parent": "6e1e4af1-9084-11e5-9416-7d53f43b7a2a",
     "origin": {
       "!span": "60[5:2]-61[5:3]",
       "!type": "bool"
@@ -60,14 +60,14 @@ foo.toString //: ?
     "tagfile": "__DIR__/objectlit.js"
   },
   {
-    "id": "c4e68ca2-9082-11e5-96d6-5fb2b53ab1d4",
+    "id": "6e1e7201-9084-11e5-9416-7d53f43b7a2a",
     "name": "method",
     "addr": "/method/",
     "kind": "f",
     "type": "string function()",
     "lineno": 7,
     "namespace": "foo",
-    "parent": "c4e68ca0-9082-11e5-96d6-5fb2b53ab1d4",
+    "parent": "6e1e4af1-9084-11e5-9416-7d53f43b7a2a",
     "origin": {
       "!span": "71[6:2]-77[6:8]",
       "!type": "fn() -> string"
@@ -75,7 +75,7 @@ foo.toString //: ?
     "tagfile": "__DIR__/objectlit.js"
   },
   {
-    "id": "c4e68ca3-9082-11e5-96d6-5fb2b53ab1d4",
+    "id": "6e1e7202-9084-11e5-9416-7d53f43b7a2a",
     "name": "baz",
     "addr": "/baz/",
     "kind": "v",
@@ -86,14 +86,14 @@ foo.toString //: ?
     "tagfile": "__DIR__/objectlit.js"
   },
   {
-    "id": "c4e68ca4-9082-11e5-96d6-5fb2b53ab1d4",
+    "id": "6e1e7203-9084-11e5-9416-7d53f43b7a2a",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "string",
     "lineno": 12,
     "namespace": "baz",
-    "parent": "c4e68ca3-9082-11e5-96d6-5fb2b53ab1d4",
+    "parent": "6e1e7202-9084-11e5-9416-7d53f43b7a2a",
     "origin": {
       "!span": "132[11:2]-133[11:3]",
       "!type": "string"

@@ -44,7 +44,7 @@ p4.quux() //: number
 ```json
 [
   {
-    "id": "b6f6bd40-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f44b0-9084-11e5-9276-43f11fc1531c",
     "name": "Point2",
     "addr": "/Point2/",
     "kind": "f",
@@ -60,27 +60,27 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f6e450-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f6bc0-9084-11e5-9276-43f11fc1531c",
     "name": "prototype",
     "addr": "/class Point2 \{/",
     "kind": "v",
     "lineno": 1,
     "namespace": "Point2",
-    "parent": "b6f6bd40-9082-11e5-afc0-eb2ce4c3864f",
+    "parent": "5f5f44b0-9084-11e5-9276-43f11fc1531c",
     "origin": {
       "!span": "0[0:0]-267[10:1]"
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b6e-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92dc-9084-11e5-9276-43f11fc1531c",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "Point4",
-    "parent": "b6f70b69-9082-11e5-afc0-eb2ce4c3864f",
+    "parent": "5f5f92d7-9084-11e5-9276-43f11fc1531c",
     "origin": {
       "!span": "42[1:27]-43[1:28]",
       "!type": "number"
@@ -88,14 +88,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b62-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92d0-9084-11e5-9276-43f11fc1531c",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "Point2.prototype.plus.pt",
-    "parent": "b6f70b61-9082-11e5-afc0-eb2ce4c3864f",
+    "parent": "5f5f6bc2-9084-11e5-9276-43f11fc1531c",
     "origin": {
       "!span": "42[1:27]-43[1:28]",
       "!type": "number",
@@ -107,14 +107,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b63-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92d1-9084-11e5-9276-43f11fc1531c",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "Point2.prototype.plus.pt",
-    "parent": "b6f70b61-9082-11e5-afc0-eb2ce4c3864f",
+    "parent": "5f5f6bc2-9084-11e5-9276-43f11fc1531c",
     "origin": {
       "!span": "54[1:39]-55[1:40]",
       "!type": "number",
@@ -126,14 +126,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b6f-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92dd-9084-11e5-9276-43f11fc1531c",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "Point4",
-    "parent": "b6f70b69-9082-11e5-afc0-eb2ce4c3864f",
+    "parent": "5f5f92d7-9084-11e5-9276-43f11fc1531c",
     "origin": {
       "!span": "54[1:39]-55[1:40]",
       "!type": "number"
@@ -141,14 +141,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b68-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92d6-9084-11e5-9276-43f11fc1531c",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "Point2",
-    "parent": "b6f6bd40-9082-11e5-afc0-eb2ce4c3864f",
+    "parent": "5f5f44b0-9084-11e5-9276-43f11fc1531c",
     "origin": {
       "!span": "54[1:39]-55[1:40]",
       "!type": "number"
@@ -156,14 +156,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b67-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92d5-9084-11e5-9276-43f11fc1531c",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "Point2",
-    "parent": "b6f6bd40-9082-11e5-afc0-eb2ce4c3864f",
+    "parent": "5f5f44b0-9084-11e5-9276-43f11fc1531c",
     "origin": {
       "!span": "42[1:27]-43[1:28]",
       "!type": "number"
@@ -171,14 +171,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b60-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f6bc1-9084-11e5-9276-43f11fc1531c",
     "name": "plus",
     "addr": "/plus/",
     "kind": "f",
     "type": "Point2 function(+Point2)",
     "lineno": 3,
     "namespace": "Point2.prototype",
-    "parent": "b6f6e450-9082-11e5-afc0-eb2ce4c3864f",
+    "parent": "5f5f6bc0-9084-11e5-9276-43f11fc1531c",
     "origin": {
       "!span": "64[2:2]-68[2:6]",
       "!type": "fn(pt: +Point2) -> +Point2"
@@ -186,14 +186,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b61-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f6bc2-9084-11e5-9276-43f11fc1531c",
     "name": "pt",
     "addr": "/pt/",
     "kind": "v",
     "type": "Point2",
     "lineno": 3,
     "namespace": "Point2.prototype.plus",
-    "parent": "b6f70b60-9082-11e5-afc0-eb2ce4c3864f",
+    "parent": "5f5f6bc1-9084-11e5-9276-43f11fc1531c",
     "origin": {
       "!span": "69[2:7]-71[2:9]",
       "!type": "+Point2",
@@ -205,14 +205,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b64-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92d2-9084-11e5-9276-43f11fc1531c",
     "name": "xx",
     "addr": "/xx/",
     "kind": "v",
     "type": "number",
     "lineno": 8,
     "namespace": "Point2.prototype",
-    "parent": "b6f6e450-9082-11e5-afc0-eb2ce4c3864f",
+    "parent": "5f5f6bc0-9084-11e5-9276-43f11fc1531c",
     "origin": {
       "!span": "175[7:6]-177[7:8]",
       "!type": "number"
@@ -220,14 +220,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b65-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92d3-9084-11e5-9276-43f11fc1531c",
     "name": "quux",
     "addr": "/quux/",
     "kind": "f",
     "type": "number function()",
     "lineno": 9,
     "namespace": "Point2.prototype",
-    "parent": "b6f6e450-9082-11e5-afc0-eb2ce4c3864f",
+    "parent": "5f5f6bc0-9084-11e5-9276-43f11fc1531c",
     "origin": {
       "!span": "200[8:2]-204[8:6]",
       "!type": "fn() -> number"
@@ -235,14 +235,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b66-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92d4-9084-11e5-9276-43f11fc1531c",
     "name": "origin",
     "addr": "/origin/",
     "kind": "f",
     "type": "Point2 function()",
     "lineno": 10,
     "namespace": "Point2",
-    "parent": "b6f6bd40-9082-11e5-afc0-eb2ce4c3864f",
+    "parent": "5f5f44b0-9084-11e5-9276-43f11fc1531c",
     "origin": {
       "!span": "229[9:9]-235[9:15]",
       "!type": "fn() -> +Point2"
@@ -250,7 +250,7 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b69-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92d7-9084-11e5-9276-43f11fc1531c",
     "name": "Point4",
     "addr": "/Point4/",
     "kind": "f",
@@ -266,27 +266,27 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b6a-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92d8-9084-11e5-9276-43f11fc1531c",
     "name": "prototype",
     "addr": "/class Point4 extends Point3 \{/",
     "kind": "v",
     "lineno": 13,
     "namespace": "Point4",
-    "parent": "b6f70b69-9082-11e5-afc0-eb2ce4c3864f",
+    "parent": "5f5f92d7-9084-11e5-9276-43f11fc1531c",
     "origin": {
       "!span": "269[12:0]-379[15:1]"
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b6c-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92da-9084-11e5-9276-43f11fc1531c",
     "name": "u",
     "addr": "/u/",
     "kind": "v",
     "type": "number",
     "lineno": 14,
     "namespace": "Point4",
-    "parent": "b6f70b69-9082-11e5-afc0-eb2ce4c3864f",
+    "parent": "5f5f92d7-9084-11e5-9276-43f11fc1531c",
     "origin": {
       "!span": "348[13:49]-349[13:50]",
       "!type": "number"
@@ -294,14 +294,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b6b-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92d9-9084-11e5-9276-43f11fc1531c",
     "name": "argh",
     "addr": "/argh/",
     "kind": "f",
     "type": "number function()",
     "lineno": 15,
     "namespace": "Point4.prototype",
-    "parent": "b6f70b6a-9082-11e5-afc0-eb2ce4c3864f",
+    "parent": "5f5f92d8-9084-11e5-9276-43f11fc1531c",
     "origin": {
       "!span": "358[14:2]-362[14:6]",
       "!type": "fn() -> number"
@@ -309,7 +309,7 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b70-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92de-9084-11e5-9276-43f11fc1531c",
     "name": "Point3",
     "addr": "/Point3/",
     "kind": "f",
@@ -325,27 +325,27 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b71-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92df-9084-11e5-9276-43f11fc1531c",
     "name": "prototype",
     "addr": "/class extends Point2 \{/",
     "kind": "v",
     "lineno": 18,
     "namespace": "Point3",
-    "parent": "b6f70b70-9082-11e5-afc0-eb2ce4c3864f",
+    "parent": "5f5f92de-9084-11e5-9276-43f11fc1531c",
     "origin": {
       "!span": "394[17:13]-496[20:1]"
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b74-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92e2-9084-11e5-9276-43f11fc1531c",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 19,
     "namespace": "Point3",
-    "parent": "b6f70b70-9082-11e5-afc0-eb2ce4c3864f",
+    "parent": "5f5f92de-9084-11e5-9276-43f11fc1531c",
     "origin": {
       "!span": "431[18:14]-432[18:15]",
       "!type": "number",
@@ -357,14 +357,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b75-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92e3-9084-11e5-9276-43f11fc1531c",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 19,
     "namespace": "Point3",
-    "parent": "b6f70b70-9082-11e5-afc0-eb2ce4c3864f",
+    "parent": "5f5f92de-9084-11e5-9276-43f11fc1531c",
     "origin": {
       "!span": "434[18:17]-435[18:18]",
       "!type": "number",
@@ -376,14 +376,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b73-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92e1-9084-11e5-9276-43f11fc1531c",
     "name": "z",
     "addr": "/z/",
     "kind": "v",
     "type": "number",
     "lineno": 19,
     "namespace": "Point3",
-    "parent": "b6f70b70-9082-11e5-afc0-eb2ce4c3864f",
+    "parent": "5f5f92de-9084-11e5-9276-43f11fc1531c",
     "origin": {
       "!span": "437[18:20]-438[18:21]",
       "!type": "number",
@@ -395,14 +395,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b6d-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92db-9084-11e5-9276-43f11fc1531c",
     "name": "z",
     "addr": "/z/",
     "kind": "v",
     "type": "number",
     "lineno": 19,
     "namespace": "Point4",
-    "parent": "b6f70b69-9082-11e5-afc0-eb2ce4c3864f",
+    "parent": "5f5f92d7-9084-11e5-9276-43f11fc1531c",
     "origin": {
       "!span": "460[18:43]-461[18:44]",
       "!type": "number"
@@ -410,14 +410,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b72-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92e0-9084-11e5-9276-43f11fc1531c",
     "name": "foobar",
     "addr": "/foobar/",
     "kind": "f",
     "type": "boolean function()",
     "lineno": 20,
     "namespace": "Point3.prototype",
-    "parent": "b6f70b71-9082-11e5-afc0-eb2ce4c3864f",
+    "parent": "5f5f92df-9084-11e5-9276-43f11fc1531c",
     "origin": {
       "!span": "470[19:2]-476[19:8]",
       "!type": "fn() -> bool"
@@ -425,7 +425,7 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b76-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92e4-9084-11e5-9276-43f11fc1531c",
     "name": "p1",
     "addr": "/p1/",
     "kind": "v",
@@ -438,13 +438,13 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f73270-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92e8-9084-11e5-9276-43f11fc1531c",
     "name": "p2",
     "addr": "/p2/",
     "kind": "v",
     "type": "Point2",
     "lineno": 26,
-    "parent": "b6f70b79-9082-11e5-afc0-eb2ce4c3864f",
+    "parent": "5f5f92e7-9084-11e5-9276-43f11fc1531c",
     "origin": {
       "!span": "558[25:4]-560[25:6]",
       "!type": "+Point2",
@@ -456,7 +456,7 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b77-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92e5-9084-11e5-9276-43f11fc1531c",
     "name": "p3",
     "addr": "/p3/",
     "kind": "v",
@@ -469,7 +469,7 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "b6f70b78-9082-11e5-afc0-eb2ce4c3864f",
+    "id": "5f5f92e6-9084-11e5-9276-43f11fc1531c",
     "name": "p4",
     "addr": "/p4/",
     "kind": "v",
