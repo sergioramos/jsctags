@@ -9,22 +9,26 @@ Type.prototype.foo = "hi";
 ```json
 [
   {
-    "id": "711da840-9084-11e5-81d2-89440862dcfd",
+    "id": "5df01af0-909d-11e5-b457-2505b757d2e6",
     "name": "x",
-    "addr": "/x/",
+    "addr": "x",
     "kind": "v",
     "type": "Type",
     "lineno": 1,
     "origin": {
       "!span": "4[0:4]-5[0:5]",
-      "!type": "+Type"
+      "!type": "+Type",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/replace_bogus_prop.js"
   },
   {
-    "id": "711dcf50-9084-11e5-81d2-89440862dcfd",
+    "id": "5df01af1-909d-11e5-b457-2505b757d2e6",
     "name": "Type",
-    "addr": "/Type/",
+    "addr": "Type",
     "kind": "f",
     "type": "void function()",
     "lineno": 5,
@@ -32,30 +36,35 @@ Type.prototype.foo = "hi";
       "!span": "49[4:9]-53[4:13]",
       "!type": "fn()",
       "!data": {
-        "isConstructor": true
+        "isConstructor": true,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/replace_bogus_prop.js"
   },
   {
-    "id": "711dcf52-9084-11e5-81d2-89440862dcfd",
+    "id": "5df04201-909d-11e5-b457-2505b757d2e6",
     "name": "foo",
-    "addr": "/foo/",
+    "addr": "foo",
     "kind": "v",
     "type": "string",
     "lineno": 6,
     "namespace": "Type.prototype",
-    "parent": "711dcf51-9084-11e5-81d2-89440862dcfd",
+    "parent": "5df04200-909d-11e5-b457-2505b757d2e6",
     "origin": {
       "!span": "74[5:15]-77[5:18]",
-      "!type": "string"
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/replace_bogus_prop.js"
   }
 ]
 ```
 ```ctags
-x	__DIR__/replace_bogus_prop.js	/x/;"	v	lineno:1	type:Type
-Type	__DIR__/replace_bogus_prop.js	/Type/;"	f	lineno:5	type:void function()
-foo	__DIR__/replace_bogus_prop.js	/foo/;"	v	lineno:6	namespace:Type.prototype	type:string
+x	__DIR__/replace_bogus_prop.js	x;"	v	lineno:1	type:Type
+Type	__DIR__/replace_bogus_prop.js	Type;"	f	lineno:5	type:void function()
+foo	__DIR__/replace_bogus_prop.js	foo;"	v	lineno:6	namespace:Type.prototype	type:string
 ```

@@ -1,5 +1,6 @@
-x	/Users/ramitos/dev/jsctags/test/cases/template.js	/x/;"	v	lineno:2	type:number
-build	/Users/ramitos/dev/jsctags/test/cases/template.js	/build/;"	f	lineno:6	type:boolean function(Array[string], number, string)
-a	/Users/ramitos/dev/jsctags/test/cases/template.js	/a/;"	v	lineno:6	namespace:build	type:number
-b	/Users/ramitos/dev/jsctags/test/cases/template.js	/b/;"	v	lineno:6	namespace:build	type:string
-strs	/Users/ramitos/dev/jsctags/test/cases/template.js	/strs/;"	v	lineno:6	namespace:build	type:[string]
+x	__DIR__/template.js	x;"	v	lineno:2	type:number
+build	__DIR__/template.js	build;"	f	lineno:6	type:boolean function(Array[string], number, string)
+a	__DIR__/template.js	a;"	v	lineno:6	namespace:build	type:number
+b	__DIR__/template.js	b;"	v	lineno:6	namespace:build	type:string
+strs	__DIR__/template.js	strs;"	v	lineno:6	namespace:build	type:[string]
+

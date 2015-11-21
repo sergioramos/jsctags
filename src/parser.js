@@ -274,7 +274,15 @@ Parser.prototype.addr = function (node) {
 
   var blob = this.ctx.content.slice(start, end);
   var regexp = blob.split(/\n/).shift().replace(MATCHES.addr, '\\$&');
-  return new RegExp(regexp).toString();
+  var str = new RegExp(regexp).toString();
+
+  try {
+    JSON.parse(str);
+  } catch (err) {
+    return blob.split(/\n/).shift();
+  }
+
+  return str;
 };
 
 Parser.prototype.walk = function (node, parent) {

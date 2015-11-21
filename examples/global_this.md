@@ -8,20 +8,24 @@ var foo = 10;
 ```json
 [
   {
-    "id": "678aca60-9084-11e5-a04c-2f5e92465d73",
+    "id": "55509dc0-909d-11e5-b997-b36ee97fa541",
     "name": "foo",
-    "addr": "/foo/",
+    "addr": "foo",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "origin": {
       "!span": "4[0:4]-7[0:7]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/global_this.js"
   }
 ]
 ```
 ```ctags
-foo	__DIR__/global_this.js	/foo/;"	v	lineno:1	type:number
+foo	__DIR__/global_this.js	foo;"	v	lineno:1	type:number
 ```

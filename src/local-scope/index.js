@@ -84,6 +84,16 @@ var postCondenseReach = function (server, options, state) {
     return g ? false : isArg(state, av);
   };
 
+  var isPlainObject = function (state, av) {
+    return get(av, 'types', []).every(function(type) {
+      return get(type, 'proto.name') === 'Object.prototype';
+    });
+  };
+
+  var isConstructor = function(state, type) {
+    return !isUndefined(get(type, 'props.prototype'));
+  };
+
   var visitAVal = function (state, av, path) {
     if (av._localScopeCondenseSeen) {
       return;
@@ -113,7 +123,8 @@ var postCondenseReach = function (server, options, state) {
 
     var data = {
       scoped: isScoped(state, av),
-      isArg: isArg(state, av)
+      isArg: isArg(state, av),
+      isPlainObject: isPlainObject(state, av)
     };
 
     state.types[path] = {
@@ -137,11 +148,9 @@ var postCondenseReach = function (server, options, state) {
       });
     } catch (err) {}
 
-    if (get(type, 'props.prototype')) {
-      state.types[path].data = defaults({
-        isConstructor: true
-      }, state.types[path].data);
-    }
+    state.types[path].data = defaults({
+      isConstructor: isConstructor(state, type)
+    }, state.types[path].data);
 
     forceArray(av.types).forEach(function (type) {
       visitScope(state, type, path);
@@ -162,11 +171,12 @@ var postCondenseReach = function (server, options, state) {
     var data = state.types[path];
     seenSpans[data.span] = true;
 
-    if (get(data, 'type.props.prototype')) {
-      data.data = defaults({
-        isConstructor: true
-      }, data.data);
-    }
+    data.data = defaults({
+      isConstructor: isConstructor(state, get(data, 'type')),
+      isPlainObject: isPlainObject(state, {
+        types: [data.type]
+      })
+    }, data.data);
 
     if (data.type.originNode) {
       visitNode(state, data.type.originNode, path);

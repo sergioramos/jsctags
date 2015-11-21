@@ -10,34 +10,42 @@ x + y; //: string
 ```json
 [
   {
-    "id": "6fa49cd0-9084-11e5-9a11-1523a08bc8ec",
+    "id": "5c937120-909d-11e5-8e95-e1c8d5abb64d",
     "name": "x",
-    "addr": "/x/",
+    "addr": "x",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "origin": {
       "!span": "4[0:4]-5[0:5]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/plus.js"
   },
   {
-    "id": "6fa4eaf0-9084-11e5-9a11-1523a08bc8ec",
+    "id": "5c939830-909d-11e5-8e95-e1c8d5abb64d",
     "name": "y",
-    "addr": "/y/",
+    "addr": "y",
     "kind": "v",
     "type": "string",
     "lineno": 2,
     "origin": {
       "!span": "16[1:4]-17[1:5]",
-      "!type": "string"
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/plus.js"
   }
 ]
 ```
 ```ctags
-x	__DIR__/plus.js	/x/;"	v	lineno:1	type:number
-y	__DIR__/plus.js	/y/;"	v	lineno:2	type:string
+x	__DIR__/plus.js	x;"	v	lineno:1	type:number
+y	__DIR__/plus.js	y;"	v	lineno:2	type:string
 ```

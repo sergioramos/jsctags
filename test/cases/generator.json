@@ -1,19 +1,23 @@
 [
   {
     "name": "foo",
-    "addr": "/foo/",
+    "addr": "foo",
     "kind": "f",
     "type": "number function()",
     "lineno": 1,
     "origin": {
       "!span": "10[0:10]-13[0:13]",
-      "!type": "fn*() -> number"
+      "!type": "fn*() -> number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/generator.js"
   },
   {
     "name": "index",
-    "addr": "/index/",
+    "addr": "index",
     "kind": "v",
     "type": "number",
     "lineno": 2,
@@ -22,15 +26,17 @@
       "!span": "24[1:6]-29[1:11]",
       "!type": "number",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/generator.js"
   },
   {
     "name": "out",
-    "addr": "/out/",
+    "addr": "out",
     "kind": "v",
     "type": "string",
     "lineno": 2,
@@ -39,43 +45,71 @@
       "!span": "35[1:17]-38[1:20]",
       "!type": "string",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/generator.js"
   },
   {
     "name": "it",
-    "addr": "/it/",
+    "addr": "it",
     "kind": "v",
     "lineno": 8,
     "origin": {
-      "!span": "108[7:4]-110[7:6]"
+      "!span": "108[7:4]-110[7:6]",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/generator.js"
+  },
+  {
+    "name": "next",
+    "kind": "f",
+    "type": "it.next.!ret function()",
+    "namespace": "it",
+    "origin": {
+      "!type": "fn(string) -> it.next.!ret",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/generator.js"
   },
   {
     "name": "g1",
-    "addr": "/g1/",
+    "addr": "g1",
     "kind": "f",
     "type": "boolean function()",
     "lineno": 11,
     "origin": {
       "!span": "177[10:10]-179[10:12]",
-      "!type": "fn*() -> bool"
+      "!type": "fn*() -> bool",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/generator.js"
   },
   {
     "name": "g2",
-    "addr": "/g2/",
+    "addr": "g2",
     "kind": "f",
     "type": "boolean function()",
     "lineno": 12,
     "origin": {
       "!span": "207[11:10]-209[11:12]",
-      "!type": "fn*() -> bool"
+      "!type": "fn*() -> bool",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/generator.js"
   }

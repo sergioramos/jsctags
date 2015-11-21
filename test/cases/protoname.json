@@ -1,7 +1,7 @@
 [
   {
     "name": "Base",
-    "addr": "/Base/",
+    "addr": "Base",
     "kind": "f",
     "type": "void function()",
     "lineno": 1,
@@ -9,14 +9,15 @@
       "!span": "9[0:9]-13[0:13]",
       "!type": "fn()",
       "!data": {
-        "isConstructor": true
+        "isConstructor": true,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/protoname.js"
   },
   {
     "name": "Sub1",
-    "addr": "/Sub1/",
+    "addr": "Sub1",
     "kind": "f",
     "type": "void function()",
     "lineno": 7,
@@ -24,14 +25,15 @@
       "!span": "105[6:9]-109[6:13]",
       "!type": "fn()",
       "!data": {
-        "isConstructor": true
+        "isConstructor": true,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/protoname.js"
   },
   {
     "name": "Sub2",
-    "addr": "/Sub2/",
+    "addr": "Sub2",
     "kind": "f",
     "type": "void function()",
     "lineno": 11,
@@ -39,14 +41,15 @@
       "!span": "175[10:9]-179[10:13]",
       "!type": "fn()",
       "!data": {
-        "isConstructor": true
+        "isConstructor": true,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/protoname.js"
   },
   {
     "name": "Base2",
-    "addr": "/Base2/",
+    "addr": "Base2",
     "kind": "f",
     "type": "void function()",
     "lineno": 15,
@@ -54,14 +57,15 @@
       "!span": "264[14:9]-269[14:14]",
       "!type": "fn()",
       "!data": {
-        "isConstructor": true
+        "isConstructor": true,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/protoname.js"
   },
   {
     "name": "Sub3",
-    "addr": "/Sub3/",
+    "addr": "Sub3",
     "kind": "f",
     "type": "void function()",
     "lineno": 17,
@@ -69,7 +73,8 @@
       "!span": "285[16:9]-289[16:13]",
       "!type": "fn()",
       "!data": {
-        "isConstructor": true
+        "isConstructor": true,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/protoname.js"

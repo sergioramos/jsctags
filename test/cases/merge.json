@@ -1,34 +1,40 @@
 [
   {
     "name": "sum",
-    "addr": "/sum/",
+    "addr": "sum",
     "kind": "f",
     "type": "number function(?)",
     "lineno": 1,
     "origin": {
       "!span": "9[0:9]-12[0:12]",
-      "!type": "fn(a: ?) -> number"
+      "!type": "fn(a: ?) -> number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/merge.js"
   },
   {
     "name": "a",
-    "addr": "/a/",
+    "addr": "a",
     "kind": "v",
     "lineno": 1,
     "namespace": "sum",
     "origin": {
       "!span": "13[0:13]-14[0:14]",
       "!data": {
+        "isConstructor": false,
         "scoped": true,
-        "isArg": true
+        "isArg": true,
+        "isPlainObject": true
       }
     },
     "tagfile": "__DIR__/merge.js"
   },
   {
     "name": "x",
-    "addr": "/x/",
+    "addr": "x",
     "kind": "v",
     "type": "number",
     "lineno": 6,
@@ -37,15 +43,17 @@
       "!span": "66[5:5]-67[5:6]",
       "!type": "number",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/merge.js"
   },
   {
     "name": "y",
-    "addr": "/y/",
+    "addr": "y",
     "kind": "v",
     "type": "number",
     "lineno": 6,
@@ -54,8 +62,10 @@
       "!span": "73[5:12]-74[5:13]",
       "!type": "number",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/merge.js"

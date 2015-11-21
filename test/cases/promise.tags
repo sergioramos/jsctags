@@ -1,5 +1,6 @@
-p	/Users/ramitos/dev/jsctags/test/cases/promise.js	/p/;"	v	lineno:1	type:Promise
-p2	/Users/ramitos/dev/jsctags/test/cases/promise.js	/p2/;"	v	lineno:12	type:Promise
-p3	/Users/ramitos/dev/jsctags/test/cases/promise.js	/p3/;"	v	lineno:21	type:Promise
-:t	/Users/ramitos/dev/jsctags/test/cases/promise.js	//;"	v	namespace:Promise	type:number
-x	/Users/ramitos/dev/jsctags/test/cases/promise.js	/x/;"	v	lineno:3	namespace:Promise.:t	type:number
+p	__DIR__/promise.js	p;"	v	lineno:1	type:Promise
+p2	__DIR__/promise.js	p2;"	v	lineno:12	type:Promise
+p3	__DIR__/promise.js	p3;"	v	lineno:21	type:Promise
+:t	__DIR__/promise.js	//;"	v	namespace:Promise	type:number
+x	__DIR__/promise.js	x;"	v	lineno:3	namespace:Promise.:t	type:number
+

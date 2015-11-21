@@ -1,13 +1,17 @@
 [
   {
     "name": "e",
-    "addr": "/e/",
+    "addr": "e",
     "kind": "v",
     "type": "Error",
     "lineno": 3,
     "origin": {
       "!span": "23[2:8]-24[2:9]",
-      "!type": "+Error"
+      "!type": "+Error",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/catch_error.js"
   }

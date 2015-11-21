@@ -15,62 +15,78 @@ d[0]; //: string
 ```json
 [
   {
-    "id": "6c205810-9084-11e5-adff-9b80eb5db532",
+    "id": "59e51a00-909d-11e5-8e02-01b067115282",
     "name": "a",
-    "addr": "/a/",
+    "addr": "a",
     "kind": "v",
     "type": "[string]",
     "lineno": 1,
     "origin": {
       "!span": "4[0:4]-5[0:5]",
-      "!type": "[string]"
+      "!type": "[string]",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/new_array.js"
   },
   {
-    "id": "6c207f20-9084-11e5-adff-9b80eb5db532",
+    "id": "59e54110-909d-11e5-8e02-01b067115282",
     "name": "b",
-    "addr": "/b/",
+    "addr": "b",
     "kind": "v",
     "type": "[bool]",
     "lineno": 5,
     "origin": {
       "!span": "57[4:4]-58[4:5]",
-      "!type": "[bool]"
+      "!type": "[bool]",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/new_array.js"
   },
   {
-    "id": "6c207f21-9084-11e5-adff-9b80eb5db532",
+    "id": "59e54111-909d-11e5-8e02-01b067115282",
     "name": "c",
-    "addr": "/c/",
+    "addr": "c",
     "kind": "v",
     "type": "[?]",
     "lineno": 8,
     "origin": {
       "!span": "111[7:4]-112[7:5]",
-      "!type": "[?]"
+      "!type": "[?]",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/new_array.js"
   },
   {
-    "id": "6c207f22-9084-11e5-adff-9b80eb5db532",
+    "id": "59e54112-909d-11e5-8e02-01b067115282",
     "name": "d",
-    "addr": "/d/",
+    "addr": "d",
     "kind": "v",
     "type": "[string]",
     "lineno": 11,
     "origin": {
       "!span": "146[10:4]-147[10:5]",
-      "!type": "[string]"
+      "!type": "[string]",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/new_array.js"
   }
 ]
 ```
 ```ctags
-a	__DIR__/new_array.js	/a/;"	v	lineno:1	type:[string]
-b	__DIR__/new_array.js	/b/;"	v	lineno:5	type:[bool]
-c	__DIR__/new_array.js	/c/;"	v	lineno:8	type:[?]
-d	__DIR__/new_array.js	/d/;"	v	lineno:11	type:[string]
+a	__DIR__/new_array.js	a;"	v	lineno:1	type:[string]
+b	__DIR__/new_array.js	b;"	v	lineno:5	type:[bool]
+c	__DIR__/new_array.js	c;"	v	lineno:8	type:[?]
+d	__DIR__/new_array.js	d;"	v	lineno:11	type:[string]
 ```

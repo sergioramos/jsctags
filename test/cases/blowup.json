@@ -1,45 +1,55 @@
 [
   {
     "name": "Ext",
-    "addr": "/Ext/",
+    "addr": "Ext",
     "kind": "v",
     "lineno": 1,
     "origin": {
-      "!span": "4[0:4]-7[0:7]"
-    },
-    "tagfile": "__DIR__/blowup.js"
-  },
-  {
-    "name": "extend",
-    "addr": "/extend/",
-    "kind": "f",
-    "type": "void function(fn()",
-    "lineno": 2,
-    "namespace": "Ext",
-    "origin": {
-      "!span": "25[1:4]-31[1:10]",
-      "!type": "fn(subclass: fn(), superclass: ?)"
-    },
-    "tagfile": "__DIR__/blowup.js"
-  },
-  {
-    "name": "prototype",
-    "addr": "/prototype/",
-    "kind": "v",
-    "lineno": 8,
-    "namespace": "Ext.extend.subclass",
-    "origin": {
-      "!span": "231[7:11]-240[7:20]",
+      "!span": "4[0:4]-7[0:7]",
       "!data": {
-        "scoped": false,
-        "isArg": false
+        "isConstructor": false,
+        "isPlainObject": true
       }
     },
     "tagfile": "__DIR__/blowup.js"
   },
   {
     "name": "extend",
-    "addr": "/extend/",
+    "addr": "extend",
+    "kind": "f",
+    "type": "void function(fn()",
+    "lineno": 2,
+    "namespace": "Ext",
+    "origin": {
+      "!span": "25[1:4]-31[1:10]",
+      "!type": "fn(subclass: fn(), superclass: ?)",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/blowup.js"
+  },
+  {
+    "name": "prototype",
+    "addr": "prototype",
+    "kind": "v",
+    "lineno": 8,
+    "namespace": "Ext.extend.subclass",
+    "origin": {
+      "!span": "231[7:11]-240[7:20]",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/blowup.js"
+  },
+  {
+    "name": "extend",
+    "addr": "extend",
     "kind": "f",
     "type": "void function(?)",
     "lineno": 10,
@@ -48,30 +58,34 @@
       "!span": "264[9:11]-270[9:17]",
       "!type": "fn(o: ?)",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/blowup.js"
   },
   {
     "name": "o",
-    "addr": "/o/",
+    "addr": "o",
     "kind": "v",
     "lineno": 10,
     "namespace": "Ext.extend.subclass.extend",
     "origin": {
       "!span": "282[9:29]-283[9:30]",
       "!data": {
+        "isConstructor": false,
         "scoped": true,
-        "isArg": true
+        "isArg": true,
+        "isPlainObject": true
       }
     },
     "tagfile": "__DIR__/blowup.js"
   },
   {
     "name": "subclass",
-    "addr": "/subclass/",
+    "addr": "subclass",
     "kind": "f",
     "type": "void function()",
     "lineno": 14,
@@ -80,15 +94,17 @@
       "!span": "369[13:22]-377[13:30]",
       "!type": "fn()",
       "!data": {
+        "isConstructor": false,
         "scoped": true,
-        "isArg": true
+        "isArg": true,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/blowup.js"
   },
   {
     "name": "superclass",
-    "addr": "/superclass/",
+    "addr": "superclass",
     "kind": "f",
     "type": "void function()",
     "lineno": 14,
@@ -97,15 +113,17 @@
       "!span": "379[13:32]-389[13:42]",
       "!type": "fn()",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/blowup.js"
   },
   {
     "name": "F",
-    "addr": "/F/",
+    "addr": "F",
     "kind": "f",
     "type": "void function()",
     "lineno": 18,
@@ -114,23 +132,27 @@
       "!span": "489[17:6]-490[17:7]",
       "!type": "fn()",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/blowup.js"
   },
   {
     "name": "prototype",
-    "addr": "/prototype/",
+    "addr": "prototype",
     "kind": "v",
     "lineno": 19,
     "namespace": "Ext.extend.F",
     "origin": {
       "!span": "512[18:4]-521[18:13]",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/blowup.js"

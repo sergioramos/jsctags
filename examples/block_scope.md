@@ -18,52 +18,60 @@ x("hello")
 ```json
 [
   {
-    "id": "5d110ef0-9084-11e5-9370-73f15c43484b",
+    "id": "4bd9d360-909d-11e5-96ca-a935b201e7fc",
     "name": "x",
-    "addr": "/x/",
+    "addr": "x",
     "kind": "f",
     "type": "void function(string)",
     "lineno": 1,
     "origin": {
       "!span": "9[0:9]-10[0:10]",
-      "!type": "fn(a: string)"
-    },
-    "tagfile": "__DIR__/block_scope.js"
-  },
-  {
-    "id": "5d113600-9084-11e5-9370-73f15c43484b",
-    "name": "a",
-    "addr": "/a/",
-    "kind": "v",
-    "type": "string",
-    "lineno": 1,
-    "namespace": "x",
-    "parent": "5d110ef0-9084-11e5-9370-73f15c43484b",
-    "origin": {
-      "!span": "11[0:11]-12[0:12]",
-      "!type": "string",
+      "!type": "fn(a: string)",
       "!data": {
-        "scoped": true,
-        "isArg": true
+        "isConstructor": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/block_scope.js"
   },
   {
-    "id": "5d113601-9084-11e5-9370-73f15c43484b",
+    "id": "4bd9fa70-909d-11e5-96ca-a935b201e7fc",
+    "name": "a",
+    "addr": "a",
+    "kind": "v",
+    "type": "string",
+    "lineno": 1,
+    "namespace": "x",
+    "parent": "4bd9d360-909d-11e5-96ca-a935b201e7fc",
+    "origin": {
+      "!span": "11[0:11]-12[0:12]",
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "scoped": true,
+        "isArg": true,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/block_scope.js"
+  },
+  {
+    "id": "4bda2180-909d-11e5-96ca-a935b201e7fc",
     "name": "c",
-    "addr": "/c/",
+    "addr": "c",
     "kind": "v",
     "type": "boolean",
     "lineno": 5,
     "namespace": "x",
-    "parent": "5d110ef0-9084-11e5-9370-73f15c43484b",
+    "parent": "4bd9d360-909d-11e5-96ca-a935b201e7fc",
     "origin": {
       "!span": "57[4:8]-58[4:9]",
       "!type": "bool",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/block_scope.js"
@@ -71,7 +79,7 @@ x("hello")
 ]
 ```
 ```ctags
-x	__DIR__/block_scope.js	/x/;"	f	lineno:1	type:void function(string)
-a	__DIR__/block_scope.js	/a/;"	v	lineno:1	namespace:x	type:string
-c	__DIR__/block_scope.js	/c/;"	v	lineno:5	namespace:x	type:boolean
+x	__DIR__/block_scope.js	x;"	f	lineno:1	type:void function(string)
+a	__DIR__/block_scope.js	a;"	v	lineno:1	namespace:x	type:string
+c	__DIR__/block_scope.js	c;"	v	lineno:5	namespace:x	type:boolean
 ```

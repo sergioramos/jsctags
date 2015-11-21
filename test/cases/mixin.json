@@ -1,7 +1,7 @@
 [
   {
     "name": "Class",
-    "addr": "/Class/",
+    "addr": "Class",
     "kind": "f",
     "type": "void function()",
     "lineno": 1,
@@ -9,126 +9,163 @@
       "!span": "9[0:9]-14[0:14]",
       "!type": "fn()",
       "!data": {
-        "isConstructor": true
+        "isConstructor": true,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
     "name": "prototype",
-    "addr": "/prototype/",
+    "addr": "prototype",
     "kind": "v",
     "lineno": 2,
     "namespace": "Class",
     "origin": {
-      "!span": "26[1:6]-35[1:15]"
+      "!span": "26[1:6]-35[1:15]",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": true
+      }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
     "name": "m3",
-    "addr": "/m3/",
+    "addr": "m3",
     "kind": "f",
     "type": "void function()",
     "lineno": 4,
     "namespace": "Class.prototype",
     "origin": {
       "!span": "56[3:2]-58[3:4]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
     "name": "mixin",
-    "addr": "/mixin/",
+    "addr": "mixin",
     "kind": "f",
     "type": "!0 function(Class.prototype|string)",
     "lineno": 7,
     "origin": {
       "!span": "87[6:9]-92[6:14]",
-      "!type": "fn(obj: Class.prototype|string) -> !0"
+      "!type": "fn(obj: Class.prototype|string) -> !0",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
     "name": "m1",
-    "addr": "/m1/",
+    "addr": "m1",
     "kind": "f",
     "type": "void function()",
     "lineno": 14,
     "namespace": "Class.prototype",
     "origin": {
       "!span": "159[13:9]-161[13:11]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
     "name": "m1",
-    "addr": "/m1/",
+    "addr": "m1",
     "kind": "f",
     "type": "void function()",
     "lineno": 14,
     "origin": {
       "!span": "159[13:9]-161[13:11]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
     "name": "m1",
-    "addr": "/m1/",
+    "addr": "m1",
     "kind": "f",
     "type": "void function()",
     "lineno": 14,
     "namespace": "OtherClass.prototype",
     "origin": {
       "!span": "159[13:9]-161[13:11]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
     "name": "m2",
-    "addr": "/m2/",
+    "addr": "m2",
     "kind": "f",
     "type": "void function()",
     "lineno": 16,
     "origin": {
       "!span": "182[15:9]-184[15:11]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
     "name": "m2",
-    "addr": "/m2/",
+    "addr": "m2",
     "kind": "f",
     "type": "void function()",
     "lineno": 16,
     "namespace": "OtherClass.prototype",
     "origin": {
       "!span": "182[15:9]-184[15:11]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
     "name": "m2",
-    "addr": "/m2/",
+    "addr": "m2",
     "kind": "f",
     "type": "void function()",
     "lineno": 16,
     "namespace": "Class.prototype",
     "origin": {
       "!span": "182[15:9]-184[15:11]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
     "name": "OtherClass",
-    "addr": "/OtherClass/",
+    "addr": "OtherClass",
     "kind": "f",
     "type": "void function()",
     "lineno": 18,
@@ -136,56 +173,73 @@
       "!span": "200[17:9]-210[17:19]",
       "!type": "fn()",
       "!data": {
-        "isConstructor": true
+        "isConstructor": true,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
     "name": "prototype",
-    "addr": "/prototype/",
+    "addr": "prototype",
     "kind": "v",
     "lineno": 19,
     "namespace": "OtherClass",
     "origin": {
-      "!span": "227[18:11]-236[18:20]"
+      "!span": "227[18:11]-236[18:20]",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": true
+      }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
     "name": "m4",
-    "addr": "/m4/",
+    "addr": "m4",
     "kind": "f",
     "type": "void function()",
     "lineno": 21,
     "namespace": "OtherClass.prototype",
     "origin": {
       "!span": "257[20:2]-259[20:4]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
     "name": "c",
-    "addr": "/c/",
+    "addr": "c",
     "kind": "v",
     "type": "Class",
     "lineno": 24,
     "origin": {
       "!span": "283[23:4]-284[23:5]",
-      "!type": "+Class"
+      "!type": "+Class",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
     "name": "oc",
-    "addr": "/oc/",
+    "addr": "oc",
     "kind": "v",
     "type": "OtherClass",
     "lineno": 31,
     "origin": {
       "!span": "359[30:4]-361[30:6]",
-      "!type": "+OtherClass"
+      "!type": "+OtherClass",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/mixin.js"
   }

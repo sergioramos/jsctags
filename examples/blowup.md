@@ -26,154 +26,176 @@ Ext.extend = function(subclass, superclass) {
 ```json
 [
   {
-    "id": "5d748bb0-9084-11e5-be5a-5d46f03ce58f",
+    "id": "4c4195e0-909d-11e5-93d6-1791f28151d0",
     "name": "Ext",
-    "addr": "/Ext/",
+    "addr": "Ext",
     "kind": "v",
     "lineno": 1,
     "origin": {
-      "!span": "4[0:4]-7[0:7]"
+      "!span": "4[0:4]-7[0:7]",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": true
+      }
     },
     "tagfile": "__DIR__/blowup.js"
   },
   {
-    "id": "5d74b2c0-9084-11e5-be5a-5d46f03ce58f",
+    "id": "4c41bcf0-909d-11e5-93d6-1791f28151d0",
     "name": "extend",
-    "addr": "/extend/",
+    "addr": "extend",
     "kind": "f",
     "type": "void function(fn()",
     "lineno": 2,
     "namespace": "Ext",
-    "parent": "5d748bb0-9084-11e5-be5a-5d46f03ce58f",
+    "parent": "4c4195e0-909d-11e5-93d6-1791f28151d0",
     "origin": {
       "!span": "25[1:4]-31[1:10]",
-      "!type": "fn(subclass: fn(), superclass: ?)"
-    },
-    "tagfile": "__DIR__/blowup.js"
-  },
-  {
-    "id": "5d74d9d3-9084-11e5-be5a-5d46f03ce58f",
-    "name": "prototype",
-    "addr": "/prototype/",
-    "kind": "v",
-    "lineno": 8,
-    "namespace": "Ext.extend.subclass",
-    "parent": "5d74d9d0-9084-11e5-be5a-5d46f03ce58f",
-    "origin": {
-      "!span": "231[7:11]-240[7:20]",
+      "!type": "fn(subclass: fn(), superclass: ?)",
       "!data": {
-        "scoped": false,
-        "isArg": false
+        "isConstructor": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/blowup.js"
   },
   {
-    "id": "5d74d9d1-9084-11e5-be5a-5d46f03ce58f",
+    "id": "4c420b11-909d-11e5-93d6-1791f28151d0",
+    "name": "prototype",
+    "addr": "prototype",
+    "kind": "v",
+    "lineno": 8,
+    "namespace": "Ext.extend.subclass",
+    "parent": "4c41e402-909d-11e5-93d6-1791f28151d0",
+    "origin": {
+      "!span": "231[7:11]-240[7:20]",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/blowup.js"
+  },
+  {
+    "id": "4c41e403-909d-11e5-93d6-1791f28151d0",
     "name": "extend",
-    "addr": "/extend/",
+    "addr": "extend",
     "kind": "f",
     "type": "void function(?)",
     "lineno": 10,
     "namespace": "Ext.extend.subclass",
-    "parent": "5d74d9d0-9084-11e5-be5a-5d46f03ce58f",
+    "parent": "4c41e402-909d-11e5-93d6-1791f28151d0",
     "origin": {
       "!span": "264[9:11]-270[9:17]",
       "!type": "fn(o: ?)",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/blowup.js"
   },
   {
-    "id": "5d74d9d2-9084-11e5-be5a-5d46f03ce58f",
+    "id": "4c420b10-909d-11e5-93d6-1791f28151d0",
     "name": "o",
-    "addr": "/o/",
+    "addr": "o",
     "kind": "v",
     "lineno": 10,
     "namespace": "Ext.extend.subclass.extend",
-    "parent": "5d74d9d1-9084-11e5-be5a-5d46f03ce58f",
+    "parent": "4c41e403-909d-11e5-93d6-1791f28151d0",
     "origin": {
       "!span": "282[9:29]-283[9:30]",
       "!data": {
+        "isConstructor": false,
         "scoped": true,
-        "isArg": true
+        "isArg": true,
+        "isPlainObject": true
       }
     },
     "tagfile": "__DIR__/blowup.js"
   },
   {
-    "id": "5d74d9d0-9084-11e5-be5a-5d46f03ce58f",
+    "id": "4c41e402-909d-11e5-93d6-1791f28151d0",
     "name": "subclass",
-    "addr": "/subclass/",
+    "addr": "subclass",
     "kind": "f",
     "type": "void function()",
     "lineno": 14,
     "namespace": "Ext.extend",
-    "parent": "5d74b2c0-9084-11e5-be5a-5d46f03ce58f",
+    "parent": "4c41bcf0-909d-11e5-93d6-1791f28151d0",
     "origin": {
       "!span": "369[13:22]-377[13:30]",
       "!type": "fn()",
       "!data": {
+        "isConstructor": false,
         "scoped": true,
-        "isArg": true
+        "isArg": true,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/blowup.js"
   },
   {
-    "id": "5d74d9d4-9084-11e5-be5a-5d46f03ce58f",
+    "id": "4c420b12-909d-11e5-93d6-1791f28151d0",
     "name": "superclass",
-    "addr": "/superclass/",
+    "addr": "superclass",
     "kind": "f",
     "type": "void function()",
     "lineno": 14,
     "namespace": "Ext.extend",
-    "parent": "5d74b2c0-9084-11e5-be5a-5d46f03ce58f",
+    "parent": "4c41bcf0-909d-11e5-93d6-1791f28151d0",
     "origin": {
       "!span": "379[13:32]-389[13:42]",
       "!type": "fn()",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/blowup.js"
   },
   {
-    "id": "5d74b2c1-9084-11e5-be5a-5d46f03ce58f",
+    "id": "4c41e400-909d-11e5-93d6-1791f28151d0",
     "name": "F",
-    "addr": "/F/",
+    "addr": "F",
     "kind": "f",
     "type": "void function()",
     "lineno": 18,
     "namespace": "Ext.extend",
-    "parent": "5d74b2c0-9084-11e5-be5a-5d46f03ce58f",
+    "parent": "4c41bcf0-909d-11e5-93d6-1791f28151d0",
     "origin": {
       "!span": "489[17:6]-490[17:7]",
       "!type": "fn()",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/blowup.js"
   },
   {
-    "id": "5d74b2c2-9084-11e5-be5a-5d46f03ce58f",
+    "id": "4c41e401-909d-11e5-93d6-1791f28151d0",
     "name": "prototype",
-    "addr": "/prototype/",
+    "addr": "prototype",
     "kind": "v",
     "lineno": 19,
     "namespace": "Ext.extend.F",
-    "parent": "5d74b2c1-9084-11e5-be5a-5d46f03ce58f",
+    "parent": "4c41e400-909d-11e5-93d6-1791f28151d0",
     "origin": {
       "!span": "512[18:4]-521[18:13]",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/blowup.js"
@@ -181,13 +203,13 @@ Ext.extend = function(subclass, superclass) {
 ]
 ```
 ```ctags
-Ext	__DIR__/blowup.js	/Ext/;"	v	lineno:1
-extend	__DIR__/blowup.js	/extend/;"	f	lineno:2	namespace:Ext	type:void function(fn()
-prototype	__DIR__/blowup.js	/prototype/;"	v	lineno:8	namespace:Ext.extend.subclass
-extend	__DIR__/blowup.js	/extend/;"	f	lineno:10	namespace:Ext.extend.subclass	type:void function(?)
-o	__DIR__/blowup.js	/o/;"	v	lineno:10	namespace:Ext.extend.subclass.extend
-subclass	__DIR__/blowup.js	/subclass/;"	f	lineno:14	namespace:Ext.extend	type:void function()
-superclass	__DIR__/blowup.js	/superclass/;"	f	lineno:14	namespace:Ext.extend	type:void function()
-F	__DIR__/blowup.js	/F/;"	f	lineno:18	namespace:Ext.extend	type:void function()
-prototype	__DIR__/blowup.js	/prototype/;"	v	lineno:19	namespace:Ext.extend.F
+Ext	__DIR__/blowup.js	Ext;"	v	lineno:1
+extend	__DIR__/blowup.js	extend;"	f	lineno:2	namespace:Ext	type:void function(fn()
+prototype	__DIR__/blowup.js	prototype;"	v	lineno:8	namespace:Ext.extend.subclass
+extend	__DIR__/blowup.js	extend;"	f	lineno:10	namespace:Ext.extend.subclass	type:void function(?)
+o	__DIR__/blowup.js	o;"	v	lineno:10	namespace:Ext.extend.subclass.extend
+subclass	__DIR__/blowup.js	subclass;"	f	lineno:14	namespace:Ext.extend	type:void function()
+superclass	__DIR__/blowup.js	superclass;"	f	lineno:14	namespace:Ext.extend	type:void function()
+F	__DIR__/blowup.js	F;"	f	lineno:18	namespace:Ext.extend	type:void function()
+prototype	__DIR__/blowup.js	prototype;"	v	lineno:19	namespace:Ext.extend.F
 ```

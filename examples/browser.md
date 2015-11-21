@@ -14,34 +14,42 @@ e_which; //: number
 ```json
 [
   {
-    "id": "5ddaa080-9084-11e5-803f-33e112b176f3",
+    "id": "4ca057b0-909d-11e5-b35c-f12a3ffcb2e3",
     "name": "newElt",
-    "addr": "/newElt/",
+    "addr": "newElt",
     "kind": "v",
     "type": "Element",
     "lineno": 5,
     "origin": {
       "!span": "63[4:4]-69[4:10]",
-      "!type": "+Element"
+      "!type": "+Element",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/browser.js"
   },
   {
-    "id": "5ddac790-9084-11e5-803f-33e112b176f3",
+    "id": "4ca07ec0-909d-11e5-b35c-f12a3ffcb2e3",
     "name": "e_which",
-    "addr": "/e_which/",
+    "addr": "e_which",
     "kind": "v",
     "type": "number",
     "lineno": 9,
     "origin": {
       "!span": "153[8:4]-160[8:11]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/browser.js"
   }
 ]
 ```
 ```ctags
-newElt	__DIR__/browser.js	/newElt/;"	v	lineno:5	type:Element
-e_which	__DIR__/browser.js	/e_which/;"	v	lineno:9	type:number
+newElt	__DIR__/browser.js	newElt;"	v	lineno:5	type:Element
+e_which	__DIR__/browser.js	e_which;"	v	lineno:9	type:number
 ```

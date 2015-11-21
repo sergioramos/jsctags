@@ -112,259 +112,327 @@ c.something //doc: The something
 ```json
 [
   {
-    "id": "62f9f7a4-9084-11e5-bbaa-05e26ea7eb30",
+    "id": "50a08331-909d-11e5-8b20-970f5082778c",
     "name": "myalias",
-    "addr": "/myalias/",
+    "addr": "myalias",
     "kind": "f",
     "type": "void function(number)",
     "lineno": 4,
-    "parent": "62f9f7a2-9084-11e5-bbaa-05e26ea7eb30",
+    "parent": "50a05c28-909d-11e5-8b20-970f5082778c",
     "origin": {
       "!span": "185[3:4]-192[3:11]",
       "!type": "fn(ms: number)",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "62f98270-9084-11e5-bbaa-05e26ea7eb30",
+    "id": "509fe6f0-909d-11e5-8b20-970f5082778c",
     "name": "foo",
-    "addr": "/foo/",
+    "addr": "foo",
     "kind": "v",
     "type": "number",
     "lineno": 9,
     "origin": {
       "!span": "323[8:4]-326[8:7]",
-      "!type": "number"
-    },
-    "tagfile": "__DIR__/docstrings.js"
-  },
-  {
-    "id": "62f9f7a5-9084-11e5-bbaa-05e26ea7eb30",
-    "name": "monkeyAlias",
-    "addr": "/makeMonkey/",
-    "kind": "f",
-    "type": "string function()",
-    "lineno": 14,
-    "origin": {
-      "!span": "413[13:9]-423[13:19]",
-      "!type": "fn() -> string"
-    },
-    "tagfile": "__DIR__/docstrings.js"
-  },
-  {
-    "id": "62f9a980-9084-11e5-bbaa-05e26ea7eb30",
-    "name": "makeMonkey",
-    "addr": "/makeMonkey/",
-    "kind": "f",
-    "type": "string function()",
-    "lineno": 14,
-    "origin": {
-      "!span": "413[13:9]-423[13:19]",
-      "!type": "fn() -> string"
-    },
-    "tagfile": "__DIR__/docstrings.js"
-  },
-  {
-    "id": "62f9f7a3-9084-11e5-bbaa-05e26ea7eb30",
-    "name": "monkeyAlias",
-    "addr": "/monkeyAlias/",
-    "kind": "f",
-    "type": "string function()",
-    "lineno": 18,
-    "parent": "62f9f7a2-9084-11e5-bbaa-05e26ea7eb30",
-    "origin": {
-      "!span": "504[17:4]-515[17:15]",
-      "!type": "fn() -> string",
+      "!type": "number",
       "!data": {
-        "scoped": false,
-        "isArg": false
+        "isConstructor": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "62f9d090-9084-11e5-bbaa-05e26ea7eb30",
+    "id": "50a08332-909d-11e5-8b20-970f5082778c",
+    "name": "monkeyAlias",
+    "addr": "makeMonkey",
+    "kind": "f",
+    "type": "string function()",
+    "lineno": 14,
+    "origin": {
+      "!span": "413[13:9]-423[13:19]",
+      "!type": "fn() -> string",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "id": "50a00e00-909d-11e5-8b20-970f5082778c",
+    "name": "makeMonkey",
+    "addr": "makeMonkey",
+    "kind": "f",
+    "type": "string function()",
+    "lineno": 14,
+    "origin": {
+      "!span": "413[13:9]-423[13:19]",
+      "!type": "fn() -> string",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "id": "50a08330-909d-11e5-8b20-970f5082778c",
+    "name": "monkeyAlias",
+    "addr": "monkeyAlias",
+    "kind": "f",
+    "type": "string function()",
+    "lineno": 18,
+    "parent": "50a05c28-909d-11e5-8b20-970f5082778c",
+    "origin": {
+      "!span": "504[17:4]-515[17:15]",
+      "!type": "fn() -> string",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/docstrings.js"
+  },
+  {
+    "id": "50a00e01-909d-11e5-8b20-970f5082778c",
     "name": "abc",
-    "addr": "/abc/",
+    "addr": "abc",
     "kind": "v",
     "type": "number",
     "lineno": 26,
     "origin": {
       "!span": "647[25:4]-650[25:7]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "62f9d091-9084-11e5-bbaa-05e26ea7eb30",
+    "id": "50a03510-909d-11e5-8b20-970f5082778c",
     "name": "Quux",
-    "addr": "/Quux/",
+    "addr": "Quux",
     "kind": "f",
     "type": "void function()",
     "lineno": 32,
     "origin": {
       "!span": "734[31:9]-738[31:13]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "62f9d092-9084-11e5-bbaa-05e26ea7eb30",
+    "id": "50a03511-909d-11e5-8b20-970f5082778c",
     "name": "baz",
-    "addr": "/baz/",
+    "addr": "baz",
     "kind": "v",
     "type": "string",
     "lineno": 40,
     "origin": {
       "!span": "850[39:4]-853[39:7]",
-      "!type": "string"
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "62f9d093-9084-11e5-bbaa-05e26ea7eb30",
+    "id": "50a03512-909d-11e5-8b20-970f5082778c",
     "name": "oy",
-    "addr": "/oy/",
+    "addr": "oy",
     "kind": "v",
     "type": "number",
     "lineno": 47,
     "origin": {
       "!span": "966[46:4]-968[46:6]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "62f9d094-9084-11e5-bbaa-05e26ea7eb30",
+    "id": "50a03513-909d-11e5-8b20-970f5082778c",
     "name": "arr",
-    "addr": "/arr/",
+    "addr": "arr",
     "kind": "v",
     "type": "number",
     "lineno": 57,
     "origin": {
       "!span": "1107[56:4]-1110[56:7]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "62f9d095-9084-11e5-bbaa-05e26ea7eb30",
+    "id": "50a03514-909d-11e5-8b20-970f5082778c",
     "name": "aha",
-    "addr": "/aha/",
+    "addr": "aha",
     "kind": "v",
     "type": "string",
     "lineno": 64,
     "origin": {
       "!span": "1366[63:4]-1369[63:7]",
-      "!type": "string"
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "62f9d096-9084-11e5-bbaa-05e26ea7eb30",
+    "id": "50a03515-909d-11e5-8b20-970f5082778c",
     "name": "xyzzy",
-    "addr": "/xyzzy/",
+    "addr": "xyzzy",
     "kind": "v",
     "type": "boolean",
     "lineno": 70,
     "origin": {
       "!span": "1525[69:4]-1530[69:9]",
-      "!type": "bool"
+      "!type": "bool",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "62f9d097-9084-11e5-bbaa-05e26ea7eb30",
+    "id": "50a03516-909d-11e5-8b20-970f5082778c",
     "name": "o",
-    "addr": "/o/",
+    "addr": "o",
     "kind": "v",
     "lineno": 74,
     "origin": {
-      "!span": "1586[73:4]-1587[73:5]"
+      "!span": "1586[73:4]-1587[73:5]",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": true
+      }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "62f9d098-9084-11e5-bbaa-05e26ea7eb30",
+    "id": "50a03517-909d-11e5-8b20-970f5082778c",
     "name": "getName",
-    "addr": "/getName/",
+    "addr": "getName",
     "kind": "f",
     "type": "!this.name function()",
     "lineno": 76,
     "namespace": "o",
-    "parent": "62f9d097-9084-11e5-bbaa-05e26ea7eb30",
+    "parent": "50a03516-909d-11e5-8b20-970f5082778c",
     "origin": {
       "!span": "1613[75:2]-1620[75:9]",
-      "!type": "fn() -> !this.name"
+      "!type": "fn() -> !this.name",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "62f9d099-9084-11e5-bbaa-05e26ea7eb30",
+    "id": "50a05c20-909d-11e5-8b20-970f5082778c",
     "name": "name",
-    "addr": "/name/",
+    "addr": "name",
     "kind": "v",
     "type": "string",
     "lineno": 78,
     "namespace": "o",
-    "parent": "62f9d097-9084-11e5-bbaa-05e26ea7eb30",
+    "parent": "50a03516-909d-11e5-8b20-970f5082778c",
     "origin": {
       "!span": "1672[77:2]-1676[77:6]",
-      "!type": "string"
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "62f9d09a-9084-11e5-bbaa-05e26ea7eb30",
+    "id": "50a05c21-909d-11e5-8b20-970f5082778c",
     "name": "bar",
-    "addr": "/'bar'/",
+    "addr": "'bar'",
     "kind": "v",
     "type": "number",
     "lineno": 82,
     "namespace": "o",
-    "parent": "62f9d097-9084-11e5-bbaa-05e26ea7eb30",
+    "parent": "50a03516-909d-11e5-8b20-970f5082778c",
     "origin": {
       "!span": "1755[81:2]-1760[81:7]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "62f9d09b-9084-11e5-bbaa-05e26ea7eb30",
+    "id": "50a05c22-909d-11e5-8b20-970f5082778c",
     "name": "foo",
-    "addr": "/foo/",
+    "addr": "foo",
     "kind": "v",
     "type": "string",
     "lineno": 86,
     "namespace": "o",
-    "parent": "62f9d097-9084-11e5-bbaa-05e26ea7eb30",
+    "parent": "50a03516-909d-11e5-8b20-970f5082778c",
     "origin": {
       "!span": "1791[85:2]-1794[85:5]",
-      "!type": "string"
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "62f9d09d-9084-11e5-bbaa-05e26ea7eb30",
+    "id": "50a05c24-909d-11e5-8b20-970f5082778c",
     "name": "prototype",
-    "addr": "/class C \{/",
+    "addr": "class C {",
     "kind": "v",
     "lineno": 93,
     "namespace": "C",
-    "parent": "62f9d09c-9084-11e5-bbaa-05e26ea7eb30",
+    "parent": "50a05c23-909d-11e5-8b20-970f5082778c",
     "origin": {
-      "!span": "1925[92:0]-2029[97:1]"
+      "!span": "1925[92:0]-2029[97:1]",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": true
+      }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "62f9d09c-9084-11e5-bbaa-05e26ea7eb30",
+    "id": "50a05c23-909d-11e5-8b20-970f5082778c",
     "name": "C",
-    "addr": "/C/",
+    "addr": "C",
     "kind": "f",
     "type": "void function()",
     "lineno": 93,
@@ -372,77 +440,90 @@ c.something //doc: The something
       "!span": "1931[92:6]-1932[92:7]",
       "!type": "fn()",
       "!data": {
-        "isConstructor": true
+        "isConstructor": true,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "62f9d09e-9084-11e5-bbaa-05e26ea7eb30",
+    "id": "50a05c25-909d-11e5-8b20-970f5082778c",
     "name": "method",
-    "addr": "/method/",
+    "addr": "method",
     "kind": "f",
     "type": "number function()",
     "lineno": 95,
     "namespace": "C.prototype",
-    "parent": "62f9d09d-9084-11e5-bbaa-05e26ea7eb30",
+    "parent": "50a05c24-909d-11e5-8b20-970f5082778c",
     "origin": {
       "!span": "1953[94:2]-1959[94:8]",
-      "!type": "fn() -> number"
+      "!type": "fn() -> number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "62f9f7a0-9084-11e5-bbaa-05e26ea7eb30",
+    "id": "50a05c26-909d-11e5-8b20-970f5082778c",
     "name": "something",
-    "addr": "/something/",
+    "addr": "something",
     "kind": "v",
     "type": "number",
     "lineno": 97,
     "namespace": "C.prototype",
-    "parent": "62f9d09d-9084-11e5-bbaa-05e26ea7eb30",
+    "parent": "50a05c24-909d-11e5-8b20-970f5082778c",
     "origin": {
       "!span": "2002[96:6]-2011[96:15]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "62f9f7a1-9084-11e5-bbaa-05e26ea7eb30",
+    "id": "50a05c27-909d-11e5-8b20-970f5082778c",
     "name": "c",
-    "addr": "/c/",
+    "addr": "c",
     "kind": "v",
     "type": "C",
     "lineno": 100,
     "origin": {
       "!span": "2035[99:4]-2036[99:5]",
-      "!type": "+C"
+      "!type": "+C",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/docstrings.js"
   }
 ]
 ```
 ```ctags
-myalias	__DIR__/docstrings.js	/myalias/;"	f	lineno:4	type:void function(number)
-foo	__DIR__/docstrings.js	/foo/;"	v	lineno:9	type:number
-monkeyAlias	__DIR__/docstrings.js	/makeMonkey/;"	f	lineno:14	type:string function()
-makeMonkey	__DIR__/docstrings.js	/makeMonkey/;"	f	lineno:14	type:string function()
-monkeyAlias	__DIR__/docstrings.js	/monkeyAlias/;"	f	lineno:18	type:string function()
-abc	__DIR__/docstrings.js	/abc/;"	v	lineno:26	type:number
-Quux	__DIR__/docstrings.js	/Quux/;"	f	lineno:32	type:void function()
-baz	__DIR__/docstrings.js	/baz/;"	v	lineno:40	type:string
-oy	__DIR__/docstrings.js	/oy/;"	v	lineno:47	type:number
-arr	__DIR__/docstrings.js	/arr/;"	v	lineno:57	type:number
-aha	__DIR__/docstrings.js	/aha/;"	v	lineno:64	type:string
-xyzzy	__DIR__/docstrings.js	/xyzzy/;"	v	lineno:70	type:boolean
-o	__DIR__/docstrings.js	/o/;"	v	lineno:74
-getName	__DIR__/docstrings.js	/getName/;"	f	lineno:76	namespace:o	type:!this.name function()
-name	__DIR__/docstrings.js	/name/;"	v	lineno:78	namespace:o	type:string
-bar	__DIR__/docstrings.js	/'bar'/;"	v	lineno:82	namespace:o	type:number
-foo	__DIR__/docstrings.js	/foo/;"	v	lineno:86	namespace:o	type:string
-prototype	__DIR__/docstrings.js	/class C \{/;"	v	lineno:93	namespace:C
-C	__DIR__/docstrings.js	/C/;"	f	lineno:93	type:void function()
-method	__DIR__/docstrings.js	/method/;"	f	lineno:95	namespace:C.prototype	type:number function()
-something	__DIR__/docstrings.js	/something/;"	v	lineno:97	namespace:C.prototype	type:number
-c	__DIR__/docstrings.js	/c/;"	v	lineno:100	type:C
+myalias	__DIR__/docstrings.js	myalias;"	f	lineno:4	type:void function(number)
+foo	__DIR__/docstrings.js	foo;"	v	lineno:9	type:number
+monkeyAlias	__DIR__/docstrings.js	makeMonkey;"	f	lineno:14	type:string function()
+makeMonkey	__DIR__/docstrings.js	makeMonkey;"	f	lineno:14	type:string function()
+monkeyAlias	__DIR__/docstrings.js	monkeyAlias;"	f	lineno:18	type:string function()
+abc	__DIR__/docstrings.js	abc;"	v	lineno:26	type:number
+Quux	__DIR__/docstrings.js	Quux;"	f	lineno:32	type:void function()
+baz	__DIR__/docstrings.js	baz;"	v	lineno:40	type:string
+oy	__DIR__/docstrings.js	oy;"	v	lineno:47	type:number
+arr	__DIR__/docstrings.js	arr;"	v	lineno:57	type:number
+aha	__DIR__/docstrings.js	aha;"	v	lineno:64	type:string
+xyzzy	__DIR__/docstrings.js	xyzzy;"	v	lineno:70	type:boolean
+o	__DIR__/docstrings.js	o;"	v	lineno:74
+getName	__DIR__/docstrings.js	getName;"	f	lineno:76	namespace:o	type:!this.name function()
+name	__DIR__/docstrings.js	name;"	v	lineno:78	namespace:o	type:string
+bar	__DIR__/docstrings.js	'bar';"	v	lineno:82	namespace:o	type:number
+foo	__DIR__/docstrings.js	foo;"	v	lineno:86	namespace:o	type:string
+prototype	__DIR__/docstrings.js	class C {;"	v	lineno:93	namespace:C
+C	__DIR__/docstrings.js	C;"	f	lineno:93	type:void function()
+method	__DIR__/docstrings.js	method;"	f	lineno:95	namespace:C.prototype	type:number function()
+something	__DIR__/docstrings.js	something;"	v	lineno:97	namespace:C.prototype	type:number
+c	__DIR__/docstrings.js	c;"	v	lineno:100	type:C
 ```

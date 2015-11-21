@@ -14,62 +14,78 @@ otherMod.c //: number
 ```json
 [
   {
-    "id": "6f405cc0-9084-11e5-82b9-5b6ce8144c9b",
+    "id": "5c3cecb0-909d-11e5-9baa-27c7f7ceee8e",
     "name": "mod",
-    "addr": "/mod/",
+    "addr": "mod",
     "kind": "v",
     "lineno": 1,
     "origin": {
-      "!span": "4[0:4]-7[0:7]"
+      "!span": "4[0:4]-7[0:7]",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/phantom_object.js"
   },
   {
-    "id": "6f4083d0-9084-11e5-82b9-5b6ce8144c9b",
+    "id": "5c3d13c0-909d-11e5-9baa-27c7f7ceee8e",
     "name": "func",
-    "addr": "/func/",
+    "addr": "func",
     "kind": "f",
     "type": "number function()",
     "lineno": 3,
     "namespace": "mod",
-    "parent": "6f405cc0-9084-11e5-82b9-5b6ce8144c9b",
+    "parent": "5c3cecb0-909d-11e5-9baa-27c7f7ceee8e",
     "origin": {
       "!span": "31[2:4]-35[2:8]",
-      "!type": "fn() -> number"
+      "!type": "fn() -> number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/phantom_object.js"
   },
   {
-    "id": "6f40aae0-9084-11e5-82b9-5b6ce8144c9b",
+    "id": "5c3d13c1-909d-11e5-9baa-27c7f7ceee8e",
     "name": "otherMod",
-    "addr": "/otherMod/",
+    "addr": "otherMod",
     "kind": "v",
     "lineno": 7,
     "origin": {
-      "!span": "97[6:4]-105[6:12]"
+      "!span": "97[6:4]-105[6:12]",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/phantom_object.js"
   },
   {
-    "id": "6f40aae1-9084-11e5-82b9-5b6ce8144c9b",
+    "id": "5c3d13c2-909d-11e5-9baa-27c7f7ceee8e",
     "name": "c",
-    "addr": "/c/",
+    "addr": "c",
     "kind": "v",
     "type": "number",
     "lineno": 9,
     "namespace": "otherMod",
-    "parent": "6f40aae0-9084-11e5-82b9-5b6ce8144c9b",
+    "parent": "5c3d13c1-909d-11e5-9baa-27c7f7ceee8e",
     "origin": {
       "!span": "148[8:9]-149[8:10]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/phantom_object.js"
   }
 ]
 ```
 ```ctags
-mod	__DIR__/phantom_object.js	/mod/;"	v	lineno:1
-func	__DIR__/phantom_object.js	/func/;"	f	lineno:3	namespace:mod	type:number function()
-otherMod	__DIR__/phantom_object.js	/otherMod/;"	v	lineno:7
-c	__DIR__/phantom_object.js	/c/;"	v	lineno:9	namespace:otherMod	type:number
+mod	__DIR__/phantom_object.js	mod;"	v	lineno:1
+func	__DIR__/phantom_object.js	func;"	f	lineno:3	namespace:mod	type:number function()
+otherMod	__DIR__/phantom_object.js	otherMod;"	v	lineno:7
+c	__DIR__/phantom_object.js	c;"	v	lineno:9	namespace:otherMod	type:number
 ```

@@ -38,48 +38,60 @@ String.prototype.indexOf.bind("abcde", "a"); //: fn(from?: number) -> number
 ```json
 [
   {
-    "id": "5e49dd10-9084-11e5-889d-e79e46cecc31",
+    "id": "4cf94d20-909d-11e5-8f1f-7d3ba279875e",
     "name": "x",
-    "addr": "/x/",
+    "addr": "x",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "origin": {
       "!span": "4[0:4]-5[0:5]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/builtins.js"
   },
   {
-    "id": "5e4a0420-9084-11e5-889d-e79e46cecc31",
+    "id": "4cf94d21-909d-11e5-8f1f-7d3ba279875e",
     "name": "a",
-    "addr": "/a/",
+    "addr": "a",
     "kind": "v",
     "type": "[number]",
     "lineno": 4,
     "origin": {
       "!span": "57[3:4]-58[3:5]",
-      "!type": "[number]"
+      "!type": "[number]",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/builtins.js"
   },
   {
-    "id": "5e4a0421-9084-11e5-889d-e79e46cecc31",
+    "id": "4cf97430-909d-11e5-8f1f-7d3ba279875e",
     "name": "num",
-    "addr": "/num/",
+    "addr": "num",
     "kind": "v",
     "type": "number",
     "lineno": 26,
     "origin": {
       "!span": "518[25:4]-521[25:7]",
-      "!type": "+Number"
+      "!type": "+Number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/builtins.js"
   }
 ]
 ```
 ```ctags
-x	__DIR__/builtins.js	/x/;"	v	lineno:1	type:number
-a	__DIR__/builtins.js	/a/;"	v	lineno:4	type:[number]
-num	__DIR__/builtins.js	/num/;"	v	lineno:26	type:number
+x	__DIR__/builtins.js	x;"	v	lineno:1	type:number
+a	__DIR__/builtins.js	a;"	v	lineno:4	type:[number]
+num	__DIR__/builtins.js	num;"	v	lineno:26	type:number
 ```

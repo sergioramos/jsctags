@@ -1,10 +1,11 @@
 require('longjohn');
 var format = require('util').format;
 var cp = require('child_process');
-var fs = require('fs');
+var take = require('lodash.take');
+var assert = require('assert');
 var path = require('path');
 var async = require('async');
-var assert = require('assert');
+var fs = require('fs');
 
 var casesDir = path.resolve(__dirname, 'cases');
 var files = fs.readdirSync(casesDir).filter(function (file) {
@@ -37,7 +38,7 @@ async.series([
   },
   function (callback) {
     console.log('\nTesting file sets:\n');
-    var input = files.join(' ');
+    var input = take(files, 20).join(' ');
     var expectedJsonFile = path.resolve(__dirname, 'cases/_.json');
     var expectedCtagsFile = path.resolve(__dirname, 'cases/_.tags');
     var expectedJson = fs.readFileSync(expectedJsonFile, 'utf8');
@@ -142,7 +143,7 @@ function testCommandOutput (options, callback) {
           return tag;
         }), JSON.parse(expected));
       } else {
-        assert.equal(stdout, expected);
+        assert.equal(stdout.trim(), expected.trim());
       }
       showTestPassed();
     } catch (e) {

@@ -1,7 +1,7 @@
 [
   {
     "name": "Ctor",
-    "addr": "/Ctor/",
+    "addr": "Ctor",
     "kind": "f",
     "type": "Ctor function()",
     "lineno": 4,
@@ -9,21 +9,26 @@
       "!span": "112[3:9]-116[3:13]",
       "!type": "fn() -> +Ctor",
       "!data": {
-        "isConstructor": true
+        "isConstructor": true,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/ctorpattern.js"
   },
   {
     "name": "foo",
-    "addr": "/foo/",
+    "addr": "foo",
     "kind": "v",
     "type": "number",
     "lineno": 6,
     "namespace": "Ctor",
     "origin": {
       "!span": "178[5:7]-181[5:10]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/ctorpattern.js"
   }

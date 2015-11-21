@@ -1,13 +1,17 @@
 [
   {
     "name": "foo",
-    "addr": "/foo/",
+    "addr": "foo",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "origin": {
       "!span": "4[0:4]-7[0:7]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/global_this.js"
   }

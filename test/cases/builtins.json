@@ -1,37 +1,49 @@
 [
   {
     "name": "x",
-    "addr": "/x/",
+    "addr": "x",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "origin": {
       "!span": "4[0:4]-5[0:5]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/builtins.js"
   },
   {
     "name": "a",
-    "addr": "/a/",
+    "addr": "a",
     "kind": "v",
     "type": "[number]",
     "lineno": 4,
     "origin": {
       "!span": "57[3:4]-58[3:5]",
-      "!type": "[number]"
+      "!type": "[number]",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/builtins.js"
   },
   {
     "name": "num",
-    "addr": "/num/",
+    "addr": "num",
     "kind": "v",
     "type": "number",
     "lineno": 26,
     "origin": {
       "!span": "518[25:4]-521[25:7]",
-      "!type": "+Number"
+      "!type": "+Number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/builtins.js"
   }

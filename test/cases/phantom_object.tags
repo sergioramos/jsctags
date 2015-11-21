@@ -1,4 +1,5 @@
-mod	/Users/ramitos/dev/jsctags/test/cases/phantom_object.js	/mod/;"	v	lineno:1
-func	/Users/ramitos/dev/jsctags/test/cases/phantom_object.js	/func/;"	f	lineno:3	namespace:mod	type:number function()
-otherMod	/Users/ramitos/dev/jsctags/test/cases/phantom_object.js	/otherMod/;"	v	lineno:7
-c	/Users/ramitos/dev/jsctags/test/cases/phantom_object.js	/c/;"	v	lineno:9	namespace:otherMod	type:number
+mod	__DIR__/phantom_object.js	mod;"	v	lineno:1
+func	__DIR__/phantom_object.js	func;"	f	lineno:3	namespace:mod	type:number function()
+otherMod	__DIR__/phantom_object.js	otherMod;"	v	lineno:7
+c	__DIR__/phantom_object.js	c;"	v	lineno:9	namespace:otherMod	type:number
+

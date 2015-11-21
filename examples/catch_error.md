@@ -8,20 +8,24 @@ try {
 ```json
 [
   {
-    "id": "5ea67c00-9084-11e5-ab52-91463449af16",
+    "id": "4d52b7c0-909d-11e5-80d5-bf6f7b7718ef",
     "name": "e",
-    "addr": "/e/",
+    "addr": "e",
     "kind": "v",
     "type": "Error",
     "lineno": 3,
     "origin": {
       "!span": "23[2:8]-24[2:9]",
-      "!type": "+Error"
+      "!type": "+Error",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/catch_error.js"
   }
 ]
 ```
 ```ctags
-e	__DIR__/catch_error.js	/e/;"	v	lineno:3	type:Error
+e	__DIR__/catch_error.js	e;"	v	lineno:3	type:Error
 ```

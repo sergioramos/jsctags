@@ -1,9 +1,10 @@
-Ext	/Users/ramitos/dev/jsctags/test/cases/blowup.js	/Ext/;"	v	lineno:1
-extend	/Users/ramitos/dev/jsctags/test/cases/blowup.js	/extend/;"	f	lineno:2	namespace:Ext	type:void function(fn()
-prototype	/Users/ramitos/dev/jsctags/test/cases/blowup.js	/prototype/;"	v	lineno:8	namespace:Ext.extend.subclass
-extend	/Users/ramitos/dev/jsctags/test/cases/blowup.js	/extend/;"	f	lineno:10	namespace:Ext.extend.subclass	type:void function(?)
-o	/Users/ramitos/dev/jsctags/test/cases/blowup.js	/o/;"	v	lineno:10	namespace:Ext.extend.subclass.extend
-subclass	/Users/ramitos/dev/jsctags/test/cases/blowup.js	/subclass/;"	f	lineno:14	namespace:Ext.extend	type:void function()
-superclass	/Users/ramitos/dev/jsctags/test/cases/blowup.js	/superclass/;"	f	lineno:14	namespace:Ext.extend	type:void function()
-F	/Users/ramitos/dev/jsctags/test/cases/blowup.js	/F/;"	f	lineno:18	namespace:Ext.extend	type:void function()
-prototype	/Users/ramitos/dev/jsctags/test/cases/blowup.js	/prototype/;"	v	lineno:19	namespace:Ext.extend.F
+Ext	__DIR__/blowup.js	Ext;"	v	lineno:1
+extend	__DIR__/blowup.js	extend;"	f	lineno:2	namespace:Ext	type:void function(fn()
+prototype	__DIR__/blowup.js	prototype;"	v	lineno:8	namespace:Ext.extend.subclass
+extend	__DIR__/blowup.js	extend;"	f	lineno:10	namespace:Ext.extend.subclass	type:void function(?)
+o	__DIR__/blowup.js	o;"	v	lineno:10	namespace:Ext.extend.subclass.extend
+subclass	__DIR__/blowup.js	subclass;"	f	lineno:14	namespace:Ext.extend	type:void function()
+superclass	__DIR__/blowup.js	superclass;"	f	lineno:14	namespace:Ext.extend	type:void function()
+F	__DIR__/blowup.js	F;"	f	lineno:18	namespace:Ext.extend	type:void function()
+prototype	__DIR__/blowup.js	prototype;"	v	lineno:19	namespace:Ext.extend.F
+

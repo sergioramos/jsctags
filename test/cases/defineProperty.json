@@ -1,73 +1,97 @@
 [
   {
     "name": "o",
-    "addr": "/o/",
+    "addr": "o",
     "kind": "v",
     "lineno": 1,
     "origin": {
-      "!span": "4[0:4]-5[0:5]"
+      "!span": "4[0:4]-5[0:5]",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": true
+      }
     },
     "tagfile": "__DIR__/defineProperty.js"
   },
   {
     "name": "prop1",
-    "addr": "/\"prop1\"/",
+    "addr": "\"prop1\"",
     "kind": "v",
     "type": "string",
     "lineno": 4,
     "namespace": "o",
     "origin": {
       "!span": "61[3:25]-68[3:32]",
-      "!type": "string"
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/defineProperty.js"
   },
   {
     "name": "prop2",
-    "addr": "/\"prop2\"/",
+    "addr": "\"prop2\"",
     "kind": "v",
     "type": "number",
     "lineno": 8,
     "namespace": "o",
     "origin": {
       "!span": "137[7:25]-144[7:32]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/defineProperty.js"
   },
   {
     "name": "o2",
-    "addr": "/o2/",
+    "addr": "o2",
     "kind": "v",
     "lineno": 17,
     "origin": {
-      "!span": "248[16:4]-250[16:6]"
+      "!span": "248[16:4]-250[16:6]",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": true
+      }
     },
     "tagfile": "__DIR__/defineProperty.js"
   },
   {
     "name": "prop1",
-    "addr": "/\{/",
+    "addr": "{",
     "kind": "v",
     "type": "number",
     "lineno": 19,
     "namespace": "o2",
     "origin": {
       "!span": "286[18:28]-354[21:1]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/defineProperty.js"
   },
   {
     "name": "prop2",
-    "addr": "/\{/",
+    "addr": "{",
     "kind": "v",
     "type": "boolean",
     "lineno": 19,
     "namespace": "o2",
     "origin": {
       "!span": "286[18:28]-354[21:1]",
-      "!type": "bool"
+      "!type": "bool",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/defineProperty.js"
   }

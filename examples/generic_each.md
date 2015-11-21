@@ -23,109 +23,123 @@ each([{x: 10}], function(o) {
 ```json
 [
   {
-    "id": "66bf6410-9084-11e5-b495-d1dbdee9d624",
+    "id": "548a4080-909d-11e5-9061-238e413f4d8b",
     "name": "each",
-    "addr": "/each/",
+    "addr": "each",
     "kind": "f",
     "type": "void function(Array[number]|[each.!0.<i>], fn(n: number)",
     "lineno": 2,
     "origin": {
       "!span": "44[1:4]-48[1:8]",
-      "!type": "fn(obj: [number]|[each.!0.<i>], iterator: fn(n: number)|fn(o: each.!0.<i>), context: ?)"
+      "!type": "fn(obj: [number]|[each.!0.<i>], iterator: fn(n: number)|fn(o: each.!0.<i>), context: ?)",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/generic_each.js"
   },
   {
-    "id": "66bf8b20-9084-11e5-b495-d1dbdee9d624",
+    "id": "548a8ea0-909d-11e5-9061-238e413f4d8b",
     "name": "context",
-    "addr": "/context/",
+    "addr": "context",
     "kind": "v",
     "type": "string",
     "lineno": 2,
     "namespace": "each",
-    "parent": "66bf6410-9084-11e5-b495-d1dbdee9d624",
+    "parent": "548a4080-909d-11e5-9061-238e413f4d8b",
     "origin": {
       "!span": "75[1:35]-82[1:42]",
       "!type": "+String",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/generic_each.js"
   },
   {
-    "id": "66bf8b22-9084-11e5-b495-d1dbdee9d624",
+    "id": "548a8ea2-909d-11e5-9061-238e413f4d8b",
     "name": "iterator",
-    "addr": "/iterator/",
+    "addr": "iterator",
     "kind": "f",
     "type": "void function(each.!0.<i>)",
     "lineno": 2,
     "namespace": "each",
-    "parent": "66bf6410-9084-11e5-b495-d1dbdee9d624",
+    "parent": "548a4080-909d-11e5-9061-238e413f4d8b",
     "origin": {
       "!span": "65[1:25]-73[1:33]",
       "!type": "fn(o: each.!0.<i>)",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/generic_each.js"
   },
   {
-    "id": "66bfb231-9084-11e5-b495-d1dbdee9d624",
+    "id": "548a8ea4-909d-11e5-9061-238e413f4d8b",
     "name": "obj",
-    "addr": "/obj/",
+    "addr": "obj",
     "kind": "v",
     "type": "[each.!0.<i>]",
     "lineno": 2,
     "namespace": "each",
-    "parent": "66bf6410-9084-11e5-b495-d1dbdee9d624",
+    "parent": "548a4080-909d-11e5-9061-238e413f4d8b",
     "origin": {
       "!span": "60[1:20]-63[1:23]",
       "!type": "[each.!0.<i>]",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/generic_each.js"
   },
   {
-    "id": "66bf8b21-9084-11e5-b495-d1dbdee9d624",
+    "id": "548a8ea1-909d-11e5-9061-238e413f4d8b",
     "name": "i",
-    "addr": "/i/",
+    "addr": "i",
     "kind": "v",
     "type": "number",
     "lineno": 7,
     "namespace": "each",
-    "parent": "66bf6410-9084-11e5-b495-d1dbdee9d624",
+    "parent": "548a4080-909d-11e5-9061-238e413f4d8b",
     "origin": {
       "!span": "281[6:13]-282[6:14]",
       "!type": "number",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/generic_each.js"
   },
   {
-    "id": "66bfb230-9084-11e5-b495-d1dbdee9d624",
+    "id": "548a8ea3-909d-11e5-9061-238e413f4d8b",
     "name": "l",
-    "addr": "/l/",
+    "addr": "l",
     "kind": "v",
     "type": "number",
     "lineno": 7,
     "namespace": "each",
-    "parent": "66bf6410-9084-11e5-b495-d1dbdee9d624",
+    "parent": "548a4080-909d-11e5-9061-238e413f4d8b",
     "origin": {
       "!span": "288[6:20]-289[6:21]",
       "!type": "number",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/generic_each.js"
@@ -133,10 +147,10 @@ each([{x: 10}], function(o) {
 ]
 ```
 ```ctags
-each	__DIR__/generic_each.js	/each/;"	f	lineno:2	type:void function(Array[number]|[each.!0.<i>], fn(n: number)
-context	__DIR__/generic_each.js	/context/;"	v	lineno:2	namespace:each	type:string
-iterator	__DIR__/generic_each.js	/iterator/;"	f	lineno:2	namespace:each	type:void function(each.!0.<i>)
-obj	__DIR__/generic_each.js	/obj/;"	v	lineno:2	namespace:each	type:[each.!0.<i>]
-i	__DIR__/generic_each.js	/i/;"	v	lineno:7	namespace:each	type:number
-l	__DIR__/generic_each.js	/l/;"	v	lineno:7	namespace:each	type:number
+each	__DIR__/generic_each.js	each;"	f	lineno:2	type:void function(Array[number]|[each.!0.<i>], fn(n: number)
+context	__DIR__/generic_each.js	context;"	v	lineno:2	namespace:each	type:string
+iterator	__DIR__/generic_each.js	iterator;"	f	lineno:2	namespace:each	type:void function(each.!0.<i>)
+obj	__DIR__/generic_each.js	obj;"	v	lineno:2	namespace:each	type:[each.!0.<i>]
+i	__DIR__/generic_each.js	i;"	v	lineno:7	namespace:each	type:number
+l	__DIR__/generic_each.js	l;"	v	lineno:7	namespace:each	type:number
 ```

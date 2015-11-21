@@ -1,4 +1,5 @@
-sum	/Users/ramitos/dev/jsctags/test/cases/merge.js	/sum/;"	f	lineno:1	type:number function(?)
-a	/Users/ramitos/dev/jsctags/test/cases/merge.js	/a/;"	v	lineno:1	namespace:sum
-x	/Users/ramitos/dev/jsctags/test/cases/merge.js	/x/;"	v	lineno:6	namespace:sum.a	type:number
-y	/Users/ramitos/dev/jsctags/test/cases/merge.js	/y/;"	v	lineno:6	namespace:sum.a	type:number
+sum	__DIR__/merge.js	sum;"	f	lineno:1	type:number function(?)
+a	__DIR__/merge.js	a;"	v	lineno:1	namespace:sum
+x	__DIR__/merge.js	x;"	v	lineno:6	namespace:sum.a	type:number
+y	__DIR__/merge.js	y;"	v	lineno:6	namespace:sum.a	type:number
+

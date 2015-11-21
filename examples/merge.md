@@ -11,69 +11,79 @@ sum; //:: fn(a: {x: number, y: number}) -> number
 ```json
 [
   {
-    "id": "6b56c680-9084-11e5-9ac3-8395b75a5a3e",
+    "id": "59243b00-909d-11e5-bb1b-55dfd3e4aa7b",
     "name": "sum",
-    "addr": "/sum/",
+    "addr": "sum",
     "kind": "f",
     "type": "number function(?)",
     "lineno": 1,
     "origin": {
       "!span": "9[0:9]-12[0:12]",
-      "!type": "fn(a: ?) -> number"
-    },
-    "tagfile": "__DIR__/merge.js"
-  },
-  {
-    "id": "6b56ed90-9084-11e5-9ac3-8395b75a5a3e",
-    "name": "a",
-    "addr": "/a/",
-    "kind": "v",
-    "lineno": 1,
-    "namespace": "sum",
-    "parent": "6b56c680-9084-11e5-9ac3-8395b75a5a3e",
-    "origin": {
-      "!span": "13[0:13]-14[0:14]",
+      "!type": "fn(a: ?) -> number",
       "!data": {
-        "scoped": true,
-        "isArg": true
+        "isConstructor": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/merge.js"
   },
   {
-    "id": "6b56ed91-9084-11e5-9ac3-8395b75a5a3e",
+    "id": "59246210-909d-11e5-bb1b-55dfd3e4aa7b",
+    "name": "a",
+    "addr": "a",
+    "kind": "v",
+    "lineno": 1,
+    "namespace": "sum",
+    "parent": "59243b00-909d-11e5-bb1b-55dfd3e4aa7b",
+    "origin": {
+      "!span": "13[0:13]-14[0:14]",
+      "!data": {
+        "isConstructor": false,
+        "scoped": true,
+        "isArg": true,
+        "isPlainObject": true
+      }
+    },
+    "tagfile": "__DIR__/merge.js"
+  },
+  {
+    "id": "59246211-909d-11e5-bb1b-55dfd3e4aa7b",
     "name": "x",
-    "addr": "/x/",
+    "addr": "x",
     "kind": "v",
     "type": "number",
     "lineno": 6,
     "namespace": "sum.a",
-    "parent": "6b56ed90-9084-11e5-9ac3-8395b75a5a3e",
+    "parent": "59246210-909d-11e5-bb1b-55dfd3e4aa7b",
     "origin": {
       "!span": "66[5:5]-67[5:6]",
       "!type": "number",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/merge.js"
   },
   {
-    "id": "6b56ed92-9084-11e5-9ac3-8395b75a5a3e",
+    "id": "59246212-909d-11e5-bb1b-55dfd3e4aa7b",
     "name": "y",
-    "addr": "/y/",
+    "addr": "y",
     "kind": "v",
     "type": "number",
     "lineno": 6,
     "namespace": "sum.a",
-    "parent": "6b56ed90-9084-11e5-9ac3-8395b75a5a3e",
+    "parent": "59246210-909d-11e5-bb1b-55dfd3e4aa7b",
     "origin": {
       "!span": "73[5:12]-74[5:13]",
       "!type": "number",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/merge.js"
@@ -81,8 +91,8 @@ sum; //:: fn(a: {x: number, y: number}) -> number
 ]
 ```
 ```ctags
-sum	__DIR__/merge.js	/sum/;"	f	lineno:1	type:number function(?)
-a	__DIR__/merge.js	/a/;"	v	lineno:1	namespace:sum
-x	__DIR__/merge.js	/x/;"	v	lineno:6	namespace:sum.a	type:number
-y	__DIR__/merge.js	/y/;"	v	lineno:6	namespace:sum.a	type:number
+sum	__DIR__/merge.js	sum;"	f	lineno:1	type:number function(?)
+a	__DIR__/merge.js	a;"	v	lineno:1	namespace:sum
+x	__DIR__/merge.js	x;"	v	lineno:6	namespace:sum.a	type:number
+y	__DIR__/merge.js	y;"	v	lineno:6	namespace:sum.a	type:number
 ```

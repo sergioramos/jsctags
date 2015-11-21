@@ -37,270 +37,330 @@ o //: bool
 ```json
 [
   {
-    "id": "6296f010-9084-11e5-8e50-8187af87ad63",
+    "id": "503d0670-909d-11e5-a3b2-f95695b71b6c",
     "name": "a",
-    "addr": "/a/",
+    "addr": "a",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "origin": {
       "!span": "5[0:5]-6[0:6]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "62971721-9084-11e5-8e50-8187af87ad63",
+    "id": "503d2d81-909d-11e5-a3b2-f95695b71b6c",
     "name": "d",
-    "addr": "/d/",
+    "addr": "d",
     "kind": "v",
     "type": "boolean",
     "lineno": 4,
     "origin": {
       "!span": "39[3:8]-40[3:9]",
-      "!type": "bool"
+      "!type": "bool",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "62971720-9084-11e5-8e50-8187af87ad63",
+    "id": "503d2d80-909d-11e5-a3b2-f95695b71b6c",
     "name": "c",
-    "addr": "/c/",
+    "addr": "c",
     "kind": "v",
     "type": "string",
     "lineno": 4,
     "origin": {
       "!span": "36[3:5]-37[3:6]",
-      "!type": "string"
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "62971722-9084-11e5-8e50-8187af87ad63",
+    "id": "503d2d82-909d-11e5-a3b2-f95695b71b6c",
     "name": "foo",
-    "addr": "/foo/",
+    "addr": "foo",
     "kind": "f",
     "type": "void function(Array[bool], ?, foo.!2, number)",
     "lineno": 8,
     "origin": {
       "!span": "100[7:9]-103[7:12]",
-      "!type": "fn([e]: [bool], {f}: ?, {g}: foo.!2, ...h: number)"
+      "!type": "fn([e]: [bool], {f}: ?, {g}: foo.!2, ...h: number)",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "62973e30-9084-11e5-8e50-8187af87ad63",
+    "id": "503d2d83-909d-11e5-a3b2-f95695b71b6c",
     "name": "e",
-    "addr": "/e/",
+    "addr": "e",
     "kind": "v",
     "type": "boolean",
     "lineno": 8,
     "namespace": "foo",
-    "parent": "62971722-9084-11e5-8e50-8187af87ad63",
+    "parent": "503d2d82-909d-11e5-a3b2-f95695b71b6c",
     "origin": {
       "!span": "105[7:14]-106[7:15]",
       "!type": "bool",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "62973e31-9084-11e5-8e50-8187af87ad63",
+    "id": "503d2d84-909d-11e5-a3b2-f95695b71b6c",
     "name": "f",
-    "addr": "/f/",
+    "addr": "f",
     "kind": "v",
     "type": "number",
     "lineno": 8,
     "namespace": "foo",
-    "parent": "62971722-9084-11e5-8e50-8187af87ad63",
+    "parent": "503d2d82-909d-11e5-a3b2-f95695b71b6c",
     "origin": {
       "!span": "110[7:19]-111[7:20]",
       "!type": "number",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "62973e32-9084-11e5-8e50-8187af87ad63",
+    "id": "503d2d85-909d-11e5-a3b2-f95695b71b6c",
     "name": "g",
-    "addr": "/g/",
+    "addr": "g",
     "kind": "v",
     "type": "string",
     "lineno": 8,
     "namespace": "foo",
-    "parent": "62971722-9084-11e5-8e50-8187af87ad63",
+    "parent": "503d2d82-909d-11e5-a3b2-f95695b71b6c",
     "origin": {
       "!span": "117[7:26]-118[7:27]",
       "!type": "string",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "62973e33-9084-11e5-8e50-8187af87ad63",
+    "id": "503d2d86-909d-11e5-a3b2-f95695b71b6c",
     "name": "h",
-    "addr": "/h/",
+    "addr": "h",
     "kind": "v",
     "type": "[number]",
     "lineno": 8,
     "namespace": "foo",
-    "parent": "62971722-9084-11e5-8e50-8187af87ad63",
+    "parent": "503d2d82-909d-11e5-a3b2-f95695b71b6c",
     "origin": {
       "!span": "124[7:33]-125[7:34]",
       "!type": "[number]",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "62973e34-9084-11e5-8e50-8187af87ad63",
+    "id": "503d2d87-909d-11e5-a3b2-f95695b71b6c",
     "name": "i",
-    "addr": "/i/",
+    "addr": "i",
     "kind": "v",
     "type": "number",
     "lineno": 20,
     "origin": {
       "!span": "282[19:4]-283[19:5]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "62973e35-9084-11e5-8e50-8187af87ad63",
+    "id": "503d2d88-909d-11e5-a3b2-f95695b71b6c",
     "name": "j",
-    "addr": "/j/",
+    "addr": "j",
     "kind": "v",
     "type": "boolean",
     "lineno": 20,
     "origin": {
       "!span": "285[19:7]-286[19:8]",
-      "!type": "bool"
+      "!type": "bool",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "62973e3b-9084-11e5-8e50-8187af87ad63",
+    "id": "503d5495-909d-11e5-a3b2-f95695b71b6c",
     "name": "l",
-    "addr": "/l/",
+    "addr": "l",
     "kind": "v",
     "type": "string",
     "lineno": 21,
     "origin": {
       "!span": "300[20:13]-301[20:14]",
-      "!type": "string"
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "62973e3c-9084-11e5-8e50-8187af87ad63",
+    "id": "503d5496-909d-11e5-a3b2-f95695b71b6c",
     "name": "m",
-    "addr": "/m/",
+    "addr": "m",
     "kind": "v",
     "type": "[string]",
     "lineno": 21,
     "origin": {
       "!span": "306[20:19]-307[20:20]",
-      "!type": "[string]"
+      "!type": "[string]",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "62973e36-9084-11e5-8e50-8187af87ad63",
+    "id": "503d5490-909d-11e5-a3b2-f95695b71b6c",
     "name": "out",
-    "addr": "/out/",
+    "addr": "out",
     "kind": "v",
     "lineno": 28,
     "origin": {
-      "!span": "403[27:4]-406[27:7]"
+      "!span": "403[27:4]-406[27:7]",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": true
+      }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "62973e37-9084-11e5-8e50-8187af87ad63",
+    "id": "503d5491-909d-11e5-a3b2-f95695b71b6c",
     "name": "prop",
-    "addr": "/prop/",
+    "addr": "prop",
     "kind": "v",
     "type": "number",
     "lineno": 29,
     "namespace": "out",
-    "parent": "62973e36-9084-11e5-8e50-8187af87ad63",
+    "parent": "503d5490-909d-11e5-a3b2-f95695b71b6c",
     "origin": {
       "!span": "418[28:6]-422[28:10]",
-      "!type": "number"
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "62973e38-9084-11e5-8e50-8187af87ad63",
+    "id": "503d5492-909d-11e5-a3b2-f95695b71b6c",
     "name": "prop2",
-    "addr": "/prop2/",
+    "addr": "prop2",
     "kind": "v",
     "type": "boolean",
     "lineno": 29,
     "namespace": "out",
-    "parent": "62973e36-9084-11e5-8e50-8187af87ad63",
+    "parent": "503d5490-909d-11e5-a3b2-f95695b71b6c",
     "origin": {
       "!span": "428[28:16]-433[28:21]",
-      "!type": "bool"
+      "!type": "bool",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "62973e39-9084-11e5-8e50-8187af87ad63",
+    "id": "503d5493-909d-11e5-a3b2-f95695b71b6c",
     "name": "n",
-    "addr": "/n/",
+    "addr": "n",
     "kind": "v",
     "type": "string",
     "lineno": 32,
     "origin": {
       "!span": "491[31:5]-492[31:6]",
-      "!type": "string"
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "62973e3a-9084-11e5-8e50-8187af87ad63",
+    "id": "503d5494-909d-11e5-a3b2-f95695b71b6c",
     "name": "o",
-    "addr": "/o/",
+    "addr": "o",
     "kind": "v",
     "type": "boolean",
     "lineno": 32,
     "origin": {
       "!span": "494[31:8]-495[31:9]",
-      "!type": "bool"
+      "!type": "bool",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/destructure.js"
   }
 ]
 ```
 ```ctags
-a	__DIR__/destructure.js	/a/;"	v	lineno:1	type:number
-d	__DIR__/destructure.js	/d/;"	v	lineno:4	type:boolean
-c	__DIR__/destructure.js	/c/;"	v	lineno:4	type:string
-foo	__DIR__/destructure.js	/foo/;"	f	lineno:8	type:void function(Array[bool], ?, foo.!2, number)
-e	__DIR__/destructure.js	/e/;"	v	lineno:8	namespace:foo	type:boolean
-f	__DIR__/destructure.js	/f/;"	v	lineno:8	namespace:foo	type:number
-g	__DIR__/destructure.js	/g/;"	v	lineno:8	namespace:foo	type:string
-h	__DIR__/destructure.js	/h/;"	v	lineno:8	namespace:foo	type:[number]
-i	__DIR__/destructure.js	/i/;"	v	lineno:20	type:number
-j	__DIR__/destructure.js	/j/;"	v	lineno:20	type:boolean
-l	__DIR__/destructure.js	/l/;"	v	lineno:21	type:string
-m	__DIR__/destructure.js	/m/;"	v	lineno:21	type:[string]
-out	__DIR__/destructure.js	/out/;"	v	lineno:28
-prop	__DIR__/destructure.js	/prop/;"	v	lineno:29	namespace:out	type:number
-prop2	__DIR__/destructure.js	/prop2/;"	v	lineno:29	namespace:out	type:boolean
-n	__DIR__/destructure.js	/n/;"	v	lineno:32	type:string
-o	__DIR__/destructure.js	/o/;"	v	lineno:32	type:boolean
+a	__DIR__/destructure.js	a;"	v	lineno:1	type:number
+d	__DIR__/destructure.js	d;"	v	lineno:4	type:boolean
+c	__DIR__/destructure.js	c;"	v	lineno:4	type:string
+foo	__DIR__/destructure.js	foo;"	f	lineno:8	type:void function(Array[bool], ?, foo.!2, number)
+e	__DIR__/destructure.js	e;"	v	lineno:8	namespace:foo	type:boolean
+f	__DIR__/destructure.js	f;"	v	lineno:8	namespace:foo	type:number
+g	__DIR__/destructure.js	g;"	v	lineno:8	namespace:foo	type:string
+h	__DIR__/destructure.js	h;"	v	lineno:8	namespace:foo	type:[number]
+i	__DIR__/destructure.js	i;"	v	lineno:20	type:number
+j	__DIR__/destructure.js	j;"	v	lineno:20	type:boolean
+l	__DIR__/destructure.js	l;"	v	lineno:21	type:string
+m	__DIR__/destructure.js	m;"	v	lineno:21	type:[string]
+out	__DIR__/destructure.js	out;"	v	lineno:28
+prop	__DIR__/destructure.js	prop;"	v	lineno:29	namespace:out	type:number
+prop2	__DIR__/destructure.js	prop2;"	v	lineno:29	namespace:out	type:boolean
+n	__DIR__/destructure.js	n;"	v	lineno:32	type:string
+o	__DIR__/destructure.js	o;"	v	lineno:32	type:boolean
 ```

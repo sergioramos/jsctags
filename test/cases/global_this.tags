@@ -1,1 +1,2 @@
-foo	/Users/ramitos/dev/jsctags/test/cases/global_this.js	/foo/;"	v	lineno:1	type:number
+foo	__DIR__/global_this.js	foo;"	v	lineno:1	type:number
+

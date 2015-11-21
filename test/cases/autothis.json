@@ -1,7 +1,7 @@
 [
   {
     "name": "Bar",
-    "addr": "/Bar/",
+    "addr": "Bar",
     "kind": "f",
     "type": "void function()",
     "lineno": 1,
@@ -9,47 +9,60 @@
       "!span": "9[0:9]-12[0:12]",
       "!type": "fn()",
       "!data": {
-        "isConstructor": true
+        "isConstructor": true,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/autothis.js"
   },
   {
     "name": "hallo",
-    "addr": "/hallo/",
+    "addr": "hallo",
     "kind": "f",
     "type": "void function()",
     "lineno": 2,
     "namespace": "Bar.prototype",
     "origin": {
       "!span": "49[1:14]-54[1:19]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/autothis.js"
   },
   {
     "name": "fn2",
-    "addr": "/fn2/",
+    "addr": "fn2",
     "kind": "f",
     "type": "void function()",
     "lineno": 11,
     "namespace": "Date.prototype",
     "origin": {
       "!span": "183[10:15]-186[10:18]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/autothis.js"
   },
   {
     "name": "fn2",
-    "addr": "/fn2/",
+    "addr": "fn2",
     "kind": "f",
     "type": "void function()",
     "lineno": 11,
     "namespace": "Bar.prototype",
     "origin": {
       "!span": "183[10:15]-186[10:18]",
-      "!type": "fn()"
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/autothis.js"
   }

@@ -1,19 +1,23 @@
 [
   {
     "name": "f",
-    "addr": "/f/",
+    "addr": "f",
     "kind": "f",
     "type": "f.!ret function(number, Array[bool])",
     "lineno": 1,
     "origin": {
       "!span": "4[0:4]-5[0:5]",
-      "!type": "fn(a: number, [b]: [bool]) -> f.!ret"
+      "!type": "fn(a: number, [b]: [bool]) -> f.!ret",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/arrow.js"
   },
   {
     "name": "a",
-    "addr": "/a/",
+    "addr": "a",
     "kind": "v",
     "type": "number",
     "lineno": 1,
@@ -22,15 +26,17 @@
       "!span": "9[0:9]-10[0:10]",
       "!type": "number",
       "!data": {
+        "isConstructor": false,
         "scoped": true,
-        "isArg": true
+        "isArg": true,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/arrow.js"
   },
   {
     "name": "b",
-    "addr": "/b/",
+    "addr": "b",
     "kind": "v",
     "type": "boolean",
     "lineno": 1,
@@ -39,27 +45,33 @@
       "!span": "13[0:13]-14[0:14]",
       "!type": "bool",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/arrow.js"
   },
   {
     "name": "wrap",
-    "addr": "/wrap/",
+    "addr": "wrap",
     "kind": "f",
     "type": "wrap.!ret.!ret function() function()",
     "lineno": 5,
     "origin": {
       "!span": "79[4:9]-83[4:13]",
-      "!type": "fn() -> fn() -> wrap.!ret.!ret"
+      "!type": "fn() -> fn() -> wrap.!ret.!ret",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/arrow.js"
   },
   {
     "name": "Obj",
-    "addr": "/Obj/",
+    "addr": "Obj",
     "kind": "f",
     "type": "void function()",
     "lineno": 10,
@@ -67,21 +79,26 @@
       "!span": "172[9:9]-175[9:12]",
       "!type": "fn()",
       "!data": {
-        "isConstructor": true
+        "isConstructor": true,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/arrow.js"
   },
   {
     "name": "map",
-    "addr": "/map/",
+    "addr": "map",
     "kind": "f",
     "type": "[!this.x] function()",
     "lineno": 13,
     "namespace": "Obj.prototype",
     "origin": {
       "!span": "212[12:14]-215[12:17]",
-      "!type": "fn() -> [!this.x]"
+      "!type": "fn() -> [!this.x]",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/arrow.js"
   }

@@ -15,34 +15,42 @@ set.forEach(function(val) {
 ```json
 [
   {
-    "id": "718c4890-9084-11e5-aaeb-c3edafd2b55a",
+    "id": "5e462a30-909d-11e5-bfac-13765e7c25d4",
     "name": "set",
-    "addr": "/set/",
+    "addr": "set",
     "kind": "v",
     "type": "Set",
     "lineno": 1,
     "origin": {
       "!span": "4[0:4]-7[0:7]",
-      "!type": "+Set"
+      "!type": "+Set",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/set.js"
   },
   {
-    "id": "718c4891-9084-11e5-aaeb-c3edafd2b55a",
+    "id": "5e465140-909d-11e5-bfac-13765e7c25d4",
     "name": "elt",
-    "addr": "/elt/",
+    "addr": "elt",
     "kind": "v",
     "type": "boolean",
     "lineno": 7,
     "origin": {
       "!span": "86[6:9]-89[6:12]",
-      "!type": "bool"
+      "!type": "bool",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/set.js"
   }
 ]
 ```
 ```ctags
-set	__DIR__/set.js	/set/;"	v	lineno:1	type:Set
-elt	__DIR__/set.js	/elt/;"	v	lineno:7	type:boolean
+set	__DIR__/set.js	set;"	v	lineno:1	type:Set
+elt	__DIR__/set.js	elt;"	v	lineno:7	type:boolean
 ```

@@ -1,3 +1,4 @@
-map	/Users/ramitos/dev/jsctags/test/cases/map.js	/map/;"	v	lineno:1	type:Map
-key	/Users/ramitos/dev/jsctags/test/cases/map.js	/key/;"	v	lineno:18	type:number
-value	/Users/ramitos/dev/jsctags/test/cases/map.js	/value/;"	v	lineno:18	type:string
+map	__DIR__/map.js	map;"	v	lineno:1	type:Map
+key	__DIR__/map.js	key;"	v	lineno:18	type:number
+value	__DIR__/map.js	value;"	v	lineno:18	type:string
+

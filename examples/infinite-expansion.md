@@ -22,9 +22,9 @@ goop(1)(goop);
 ```json
 [
   {
-    "id": "6a2fd2b0-9084-11e5-bb57-b564586e276d",
+    "id": "57d8a830-909d-11e5-b00d-a13fe3e88042",
     "name": "f",
-    "addr": "/f/",
+    "addr": "f",
     "kind": "f",
     "type": "void function(f)",
     "lineno": 3,
@@ -32,88 +32,103 @@ goop(1)(goop);
       "!span": "18[2:4]-19[2:5]",
       "!type": "fn(n: f)",
       "!data": {
-        "isConstructor": true
+        "isConstructor": true,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/infinite-expansion.js"
   },
   {
-    "id": "6a2ff9c0-9084-11e5-bb57-b564586e276d",
+    "id": "57d8cf40-909d-11e5-b00d-a13fe3e88042",
     "name": "n",
-    "addr": "/n/",
+    "addr": "n",
     "kind": "f",
     "type": "void function(f)",
     "lineno": 3,
     "namespace": "f",
-    "parent": "6a2fd2b0-9084-11e5-bb57-b564586e276d",
+    "parent": "57d8a830-909d-11e5-b00d-a13fe3e88042",
     "origin": {
       "!span": "31[2:17]-32[2:18]",
       "!type": "fn(n: f)",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/infinite-expansion.js"
   },
   {
-    "id": "6a2ff9c1-9084-11e5-bb57-b564586e276d",
+    "id": "57d8cf41-909d-11e5-b00d-a13fe3e88042",
     "name": "prototype",
-    "addr": "/prototype/",
+    "addr": "prototype",
     "kind": "v",
     "lineno": 4,
     "namespace": "f.n",
-    "parent": "6a2ff9c0-9084-11e5-bb57-b564586e276d",
+    "parent": "57d8cf40-909d-11e5-b00d-a13fe3e88042",
     "origin": {
       "!span": "40[3:4]-49[3:13]",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": true
       }
     },
     "tagfile": "__DIR__/infinite-expansion.js"
   },
   {
-    "id": "6a2ff9c2-9084-11e5-bb57-b564586e276d",
+    "id": "57d8cf42-909d-11e5-b00d-a13fe3e88042",
     "name": "x",
-    "addr": "/x/",
+    "addr": "x",
     "kind": "v",
     "type": "[x]",
     "lineno": 10,
     "origin": {
       "!span": "210[9:4]-211[9:5]",
-      "!type": "[x]"
+      "!type": "[x]",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/infinite-expansion.js"
   },
   {
-    "id": "6a2ff9c3-9084-11e5-bb57-b564586e276d",
+    "id": "57d8cf43-909d-11e5-b00d-a13fe3e88042",
     "name": "goop",
-    "addr": "/goop/",
+    "addr": "goop",
     "kind": "f",
     "type": "void function(?) function(number)",
     "lineno": 15,
     "origin": {
       "!span": "262[14:9]-266[14:13]",
-      "!type": "fn(n: number) -> fn(f: ?)"
+      "!type": "fn(n: number) -> fn(f: ?)",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/infinite-expansion.js"
   },
   {
-    "id": "6a2ff9c4-9084-11e5-bb57-b564586e276d",
+    "id": "57d8cf44-909d-11e5-b00d-a13fe3e88042",
     "name": "n",
-    "addr": "/n/",
+    "addr": "n",
     "kind": "v",
     "type": "number",
     "lineno": 15,
     "namespace": "goop",
-    "parent": "6a2ff9c3-9084-11e5-bb57-b564586e276d",
+    "parent": "57d8cf43-909d-11e5-b00d-a13fe3e88042",
     "origin": {
       "!span": "267[14:14]-268[14:15]",
       "!type": "number",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/infinite-expansion.js"
@@ -121,10 +136,10 @@ goop(1)(goop);
 ]
 ```
 ```ctags
-f	__DIR__/infinite-expansion.js	/f/;"	f	lineno:3	type:void function(f)
-n	__DIR__/infinite-expansion.js	/n/;"	f	lineno:3	namespace:f	type:void function(f)
-prototype	__DIR__/infinite-expansion.js	/prototype/;"	v	lineno:4	namespace:f.n
-x	__DIR__/infinite-expansion.js	/x/;"	v	lineno:10	type:[x]
-goop	__DIR__/infinite-expansion.js	/goop/;"	f	lineno:15	type:void function(?) function(number)
-n	__DIR__/infinite-expansion.js	/n/;"	v	lineno:15	namespace:goop	type:number
+f	__DIR__/infinite-expansion.js	f;"	f	lineno:3	type:void function(f)
+n	__DIR__/infinite-expansion.js	n;"	f	lineno:3	namespace:f	type:void function(f)
+prototype	__DIR__/infinite-expansion.js	prototype;"	v	lineno:4	namespace:f.n
+x	__DIR__/infinite-expansion.js	x;"	v	lineno:10	type:[x]
+goop	__DIR__/infinite-expansion.js	goop;"	f	lineno:15	type:void function(?) function(number)
+n	__DIR__/infinite-expansion.js	n;"	v	lineno:15	namespace:goop	type:number
 ```

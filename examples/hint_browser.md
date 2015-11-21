@@ -12,30 +12,36 @@ window.addEventListener("mousemove", function(e) { e.which. }); //+ toExponentia
 ```json
 [
   {
-    "id": "684c45a0-9084-11e5-8bf7-cfec5140f938",
+    "id": "56294a80-909d-11e5-9b55-57c4b68e0595",
     "name": "newElt",
-    "addr": "/newElt/",
+    "addr": "newElt",
     "kind": "v",
     "type": "Element",
     "lineno": 5,
     "origin": {
       "!span": "201[4:4]-207[4:10]",
-      "!type": "+Element"
+      "!type": "+Element",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
     },
     "tagfile": "__DIR__/hint_browser.js"
   },
   {
-    "id": "684c6cb1-9084-11e5-8bf7-cfec5140f938",
+    "id": "56297191-909d-11e5-9b55-57c4b68e0595",
     "name": "e_which",
-    "addr": "/e_which/",
+    "addr": "e_which",
     "kind": "v",
     "lineno": 8,
-    "parent": "684c6cb0-9084-11e5-8bf7-cfec5140f938",
+    "parent": "56297190-909d-11e5-9b55-57c4b68e0595",
     "origin": {
       "!span": "296[7:4]-303[7:11]",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": true
       }
     },
     "tagfile": "__DIR__/hint_browser.js"
@@ -43,6 +49,6 @@ window.addEventListener("mousemove", function(e) { e.which. }); //+ toExponentia
 ]
 ```
 ```ctags
-newElt	__DIR__/hint_browser.js	/newElt/;"	v	lineno:5	type:Element
-e_which	__DIR__/hint_browser.js	/e_which/;"	v	lineno:8
+newElt	__DIR__/hint_browser.js	newElt;"	v	lineno:5	type:Element
+e_which	__DIR__/hint_browser.js	e_which;"	v	lineno:8
 ```

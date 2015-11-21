@@ -1,7 +1,7 @@
 [
   {
     "name": "a",
-    "addr": "/a/",
+    "addr": "a",
     "kind": "v",
     "type": "[number]|number",
     "lineno": 6,
@@ -9,8 +9,10 @@
       "!span": "134[5:4]-135[5:5]",
       "!type": "[number]|number",
       "!data": {
+        "isConstructor": false,
         "scoped": false,
-        "isArg": false
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/hint_simple.js"

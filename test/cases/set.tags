@@ -1,2 +1,3 @@
-set	/Users/ramitos/dev/jsctags/test/cases/set.js	/set/;"	v	lineno:1	type:Set
-elt	/Users/ramitos/dev/jsctags/test/cases/set.js	/elt/;"	v	lineno:7	type:boolean
+set	__DIR__/set.js	set;"	v	lineno:1	type:Set
+elt	__DIR__/set.js	elt;"	v	lineno:7	type:boolean
+
