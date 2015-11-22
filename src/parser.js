@@ -276,14 +276,6 @@ Parser.prototype.addr = function (node) {
   var regexp = blob.split(/\n/).shift().replace(MATCHES.addr, '\\$&');
   var str = new RegExp(regexp).toString();
 
-  try {
-    JSON.parse(JSON.stringify({
-      addr: str
-    }));
-  } catch (err) {
-    return blob.split(/\n/).shift();
-  }
-
   return str;
 };
 
