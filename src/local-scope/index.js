@@ -93,11 +93,11 @@ var postCondenseReach = function (server, options, state) {
       return false;
     }
 
-    var single = types.reduce(function(a, b){
-      return (a === b) ? a : false;
+    var single = types.reduce(function (a, b) {
+      return (a === b) ? a : undefined;
     });
 
-    return single ? single : undefined;
+    return single;
   };
 
   var isConstructor = function (state, type) {
