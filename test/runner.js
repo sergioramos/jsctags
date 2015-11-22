@@ -9,7 +9,7 @@ var fs = require('fs');
 
 var casesDir = path.resolve(__dirname, 'cases');
 var files = fs.readdirSync(casesDir).filter(function (file) {
-  return  ['.js', '.jsx'].indexOf(path.extname(file)) >= 0;
+  return ['.js', '.jsx'].indexOf(path.extname(file)) >= 0;
 }).map(function (file) {
   return path.resolve(__dirname, 'cases', file);
 });

@@ -85,12 +85,12 @@ var postCondenseReach = function (server, options, state) {
   };
 
   var isPlainObject = function (state, av) {
-    return get(av, 'types', []).every(function(type) {
+    return get(av, 'types', []).every(function (type) {
       return get(type, 'proto.name') === 'Object.prototype';
     });
   };
 
-  var isConstructor = function(state, type) {
+  var isConstructor = function (state, type) {
     return !isUndefined(get(type, 'props.prototype'));
   };
 
