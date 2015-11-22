@@ -9,7 +9,7 @@ z //: string
 ```json
 [
   {
-    "id": "f22080b0-90a8-11e5-b09a-8f7ac864dfa2",
+    "id": "a32137b0-90bd-11e5-b11a-5b42592b312e",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
@@ -26,7 +26,7 @@ z //: string
     "tagfile": "__DIR__/array_holes.js"
   },
   {
-    "id": "f220a7c0-90a8-11e5-b09a-8f7ac864dfa2",
+    "id": "a3215ec0-90bd-11e5-b11a-5b42592b312e",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
@@ -43,7 +43,7 @@ z //: string
     "tagfile": "__DIR__/array_holes.js"
   },
   {
-    "id": "f220a7c1-90a8-11e5-b09a-8f7ac864dfa2",
+    "id": "a3215ec1-90bd-11e5-b11a-5b42592b312e",
     "name": "z",
     "addr": "/z/",
     "kind": "v",

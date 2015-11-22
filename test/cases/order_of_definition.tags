@@ -5,4 +5,3 @@ x	__DIR__/order_of_definition.js	/x/;"	f	lineno:10	namespace:baz.bug	type:void f
 bar	__DIR__/order_of_definition.js	/bar/;"	v	lineno:15	namespace:foo
 
 
-

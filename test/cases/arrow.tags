@@ -6,4 +6,3 @@ Obj	__DIR__/arrow.js	/Obj/;"	f	lineno:10	type:void function()
 map	__DIR__/arrow.js	/map/;"	f	lineno:13	namespace:Obj.prototype	type:[!this.x] function()
 
 
-

@@ -44,7 +44,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": true
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/copyprops.js"

@@ -4,4 +4,3 @@ obj	__DIR__/symbol.js	/obj/;"	v	lineno:3
 iterator	__DIR__/symbol.js	/Symbol\.iterator/;"	v	lineno:8	namespace:obj.:Symbol	type:string
 
 
-

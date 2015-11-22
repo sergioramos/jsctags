@@ -85,7 +85,13 @@ var postCondenseReach = function (server, options, state) {
   };
 
   var isPlainObject = function (state, av) {
-    return get(av, 'types', []).every(function (type) {
+    var types = get(av, 'types', []);
+
+    if (!types.length) {
+      return false;
+    }
+
+    return types.every(function (type) {
       return get(type, 'proto.name') === 'Object.prototype';
     });
   };
@@ -187,6 +193,7 @@ var postCondenseReach = function (server, options, state) {
   state.cx.parent.files.forEach(function (file) {
     var path = file.name.replace(/\./g, '`');
     visitScope(state, file.scope, path);
+
     if (state.isTarget(file.name)) {
       visitNode(state, file.ast, path);
     }

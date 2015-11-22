@@ -15,7 +15,7 @@ set.forEach(function(val) {
 ```json
 [
   {
-    "id": "0726e350-90a9-11e5-ab59-c3cd73c26550",
+    "id": "b5f725c0-90bd-11e5-a759-e7f0dfc8b357",
     "name": "set",
     "addr": "/set/",
     "kind": "v",
@@ -32,7 +32,7 @@ set.forEach(function(val) {
     "tagfile": "__DIR__/set.js"
   },
   {
-    "id": "07270a60-90a9-11e5-ab59-c3cd73c26550",
+    "id": "b5f74cd0-90bd-11e5-a759-e7f0dfc8b357",
     "name": "elt",
     "addr": "/elt/",
     "kind": "v",

@@ -588,7 +588,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": true
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/blowup.js"
@@ -781,7 +781,7 @@
   },
   {
     "name": "prototype",
-    "addr": "/class Point2 \\{/",
+    "addr": "/class Point2 \{/",
     "kind": "v",
     "lineno": 1,
     "namespace": "Point2",
@@ -1005,7 +1005,7 @@
   },
   {
     "name": "prototype",
-    "addr": "/class Point4 extends Point3 \\{/",
+    "addr": "/class Point4 extends Point3 \{/",
     "kind": "v",
     "lineno": 13,
     "namespace": "Point4",
@@ -1070,7 +1070,7 @@
   },
   {
     "name": "prototype",
-    "addr": "/class extends Point2 \\{/",
+    "addr": "/class extends Point2 \{/",
     "kind": "v",
     "lineno": 18,
     "namespace": "Point3",
@@ -1256,7 +1256,7 @@
   },
   {
     "name": "<i>",
-    "addr": "/foo\\(\\)/",
+    "addr": "/foo\(\)/",
     "kind": "v",
     "lineno": 2,
     "namespace": "x",
@@ -1379,7 +1379,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": true
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/contextcomplete.js"
@@ -1396,7 +1396,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": true
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/contextcomplete.js"
@@ -1446,7 +1446,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": true
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/copyprops.js"
@@ -1548,7 +1548,7 @@
   },
   {
     "name": "prop1",
-    "addr": "/\\{/",
+    "addr": "/\{/",
     "kind": "v",
     "type": "number",
     "lineno": 19,
@@ -1565,7 +1565,7 @@
   },
   {
     "name": "prop2",
-    "addr": "/\\{/",
+    "addr": "/\{/",
     "kind": "v",
     "type": "boolean",
     "lineno": 19,
@@ -2144,7 +2144,7 @@
   },
   {
     "name": "prototype",
-    "addr": "/class C \\{/",
+    "addr": "/class C \{/",
     "kind": "v",
     "lineno": 93,
     "namespace": "C",

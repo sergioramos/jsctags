@@ -5,4 +5,3 @@ p3	__DIR__/promise.js	/p3/;"	v	lineno:21	type:Promise
 x	__DIR__/promise.js	/x/;"	v	lineno:3	namespace:Promise.:t	type:number
 
 
-

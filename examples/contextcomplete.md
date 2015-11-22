@@ -7,7 +7,7 @@ function whoAmI(a, i) {
 ```json
 [
   {
-    "id": "f6b4aed0-90a8-11e5-8780-b3f75cc92246",
+    "id": "a7400ec0-90bd-11e5-85e8-23b8ef172e44",
     "name": "whoAmI",
     "addr": "/whoAmI/",
     "kind": "f",
@@ -24,39 +24,39 @@ function whoAmI(a, i) {
     "tagfile": "__DIR__/contextcomplete.js"
   },
   {
-    "id": "f6b4fcf0-90a8-11e5-8780-b3f75cc92246",
+    "id": "a74035d0-90bd-11e5-85e8-23b8ef172e44",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "lineno": 1,
     "namespace": "whoAmI",
-    "parent": "f6b4aed0-90a8-11e5-8780-b3f75cc92246",
+    "parent": "a7400ec0-90bd-11e5-85e8-23b8ef172e44",
     "origin": {
       "!span": "16[0:16]-17[0:17]",
       "!data": {
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": true
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/contextcomplete.js"
   },
   {
-    "id": "f6b4fcf1-90a8-11e5-8780-b3f75cc92246",
+    "id": "a74035d1-90bd-11e5-85e8-23b8ef172e44",
     "name": "i",
     "addr": "/i/",
     "kind": "v",
     "lineno": 1,
     "namespace": "whoAmI",
-    "parent": "f6b4aed0-90a8-11e5-8780-b3f75cc92246",
+    "parent": "a7400ec0-90bd-11e5-85e8-23b8ef172e44",
     "origin": {
       "!span": "19[0:19]-20[0:20]",
       "!data": {
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": true
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/contextcomplete.js"

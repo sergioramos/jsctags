@@ -22,7 +22,7 @@ k(); //:: {a: bool}
 ```json
 [
   {
-    "id": "f369f0a0-90a8-11e5-a16f-75a581e12d75",
+    "id": "a43e8e90-90bd-11e5-89f9-995a0a79efef",
     "name": "f",
     "addr": "/f/",
     "kind": "f",
@@ -39,14 +39,14 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "f36a17b1-90a8-11e5-a16f-75a581e12d75",
+    "id": "a43eb5a1-90bd-11e5-89f9-995a0a79efef",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "f",
-    "parent": "f369f0a0-90a8-11e5-a16f-75a581e12d75",
+    "parent": "a43e8e90-90bd-11e5-89f9-995a0a79efef",
     "origin": {
       "!span": "14[0:14]-15[0:15]",
       "!type": "number",
@@ -60,14 +60,14 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "f36a17b2-90a8-11e5-a16f-75a581e12d75",
+    "id": "a43edcb0-90bd-11e5-89f9-995a0a79efef",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "f",
-    "parent": "f369f0a0-90a8-11e5-a16f-75a581e12d75",
+    "parent": "a43e8e90-90bd-11e5-89f9-995a0a79efef",
     "origin": {
       "!span": "17[0:17]-18[0:18]",
       "!type": "number",
@@ -81,14 +81,14 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "f36a17b3-90a8-11e5-a16f-75a581e12d75",
+    "id": "a43edcb1-90bd-11e5-89f9-995a0a79efef",
     "name": "d",
     "addr": "/d/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "f",
-    "parent": "f369f0a0-90a8-11e5-a16f-75a581e12d75",
+    "parent": "a43e8e90-90bd-11e5-89f9-995a0a79efef",
     "origin": {
       "!span": "20[0:20]-21[0:21]",
       "!type": "number",
@@ -102,14 +102,14 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "f36a17b0-90a8-11e5-a16f-75a581e12d75",
+    "id": "a43eb5a0-90bd-11e5-89f9-995a0a79efef",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "f",
-    "parent": "f369f0a0-90a8-11e5-a16f-75a581e12d75",
+    "parent": "a43e8e90-90bd-11e5-89f9-995a0a79efef",
     "origin": {
       "!span": "11[0:11]-12[0:12]",
       "!type": "number",
@@ -123,7 +123,7 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "f36a17b4-90a8-11e5-a16f-75a581e12d75",
+    "id": "a43edcb2-90bd-11e5-89f9-995a0a79efef",
     "name": "g",
     "addr": "/g/",
     "kind": "f",
@@ -140,7 +140,7 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "f36a17b5-90a8-11e5-a16f-75a581e12d75",
+    "id": "a43edcb3-90bd-11e5-89f9-995a0a79efef",
     "name": "h",
     "addr": "/h/",
     "kind": "f",
@@ -157,14 +157,14 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "f36a17b6-90a8-11e5-a16f-75a581e12d75",
+    "id": "a43edcb4-90bd-11e5-89f9-995a0a79efef",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 7,
     "namespace": "h",
-    "parent": "f36a17b5-90a8-11e5-a16f-75a581e12d75",
+    "parent": "a43edcb3-90bd-11e5-89f9-995a0a79efef",
     "origin": {
       "!span": "152[6:11]-153[6:12]",
       "!type": "number",
@@ -178,7 +178,7 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "f36a17b7-90a8-11e5-a16f-75a581e12d75",
+    "id": "a43edcb5-90bd-11e5-89f9-995a0a79efef",
     "name": "i",
     "addr": "/i/",
     "kind": "f",
@@ -195,14 +195,14 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "f36ab3f0-90a8-11e5-a16f-75a581e12d75",
+    "id": "a43f51e0-90bd-11e5-89f9-995a0a79efef",
     "name": "i",
     "addr": "/i/",
     "kind": "f",
     "type": "h.!ret function()",
     "lineno": 8,
     "namespace": "o",
-    "parent": "f36a17b8-90a8-11e5-a16f-75a581e12d75",
+    "parent": "a43edcb6-90bd-11e5-89f9-995a0a79efef",
     "origin": {
       "!span": "188[7:4]-189[7:5]",
       "!type": "fn() -> h.!ret",
@@ -214,7 +214,7 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "f36a17b8-90a8-11e5-a16f-75a581e12d75",
+    "id": "a43edcb6-90bd-11e5-89f9-995a0a79efef",
     "name": "o",
     "addr": "/o/",
     "kind": "v",
@@ -229,7 +229,7 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "f36ab3f1-90a8-11e5-a16f-75a581e12d75",
+    "id": "a43f51e1-90bd-11e5-89f9-995a0a79efef",
     "name": "j",
     "addr": "/j/",
     "kind": "f",
@@ -246,7 +246,7 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "f36ab3f2-90a8-11e5-a16f-75a581e12d75",
+    "id": "a43f78f0-90bd-11e5-89f9-995a0a79efef",
     "name": "k",
     "addr": "/k/",
     "kind": "f",

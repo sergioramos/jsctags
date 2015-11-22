@@ -5,4 +5,3 @@ setD	__DIR__/effects.js	/setD/;"	f	lineno:13	type:void function(number)
 a	__DIR__/effects.js	/a/;"	v	lineno:13	namespace:setD	type:number
 
 
-

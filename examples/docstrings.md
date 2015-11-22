@@ -112,13 +112,13 @@ c.something //doc: The something
 ```json
 [
   {
-    "id": "f8b20576-90a8-11e5-82c3-c192314ce619",
+    "id": "a9352800-90bd-11e5-afd0-23a3b0b6926b",
     "name": "myalias",
     "addr": "/myalias/",
     "kind": "f",
     "type": "void function(number)",
     "lineno": 4,
-    "parent": "f8b20574-90a8-11e5-82c3-c192314ce619",
+    "parent": "a9350101-90bd-11e5-afd0-23a3b0b6926b",
     "origin": {
       "!span": "185[3:4]-192[3:11]",
       "!type": "fn(ms: number)",
@@ -132,7 +132,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "f8b19040-90a8-11e5-82c3-c192314ce619",
+    "id": "a934d9e0-90bd-11e5-afd0-23a3b0b6926b",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
@@ -149,7 +149,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "f8b20577-90a8-11e5-82c3-c192314ce619",
+    "id": "a9352801-90bd-11e5-afd0-23a3b0b6926b",
     "name": "monkeyAlias",
     "addr": "/makeMonkey/",
     "kind": "f",
@@ -166,7 +166,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "f8b1b750-90a8-11e5-82c3-c192314ce619",
+    "id": "a934d9e1-90bd-11e5-afd0-23a3b0b6926b",
     "name": "makeMonkey",
     "addr": "/makeMonkey/",
     "kind": "f",
@@ -183,13 +183,13 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "f8b20575-90a8-11e5-82c3-c192314ce619",
+    "id": "a9350102-90bd-11e5-afd0-23a3b0b6926b",
     "name": "monkeyAlias",
     "addr": "/monkeyAlias/",
     "kind": "f",
     "type": "string function()",
     "lineno": 18,
-    "parent": "f8b20574-90a8-11e5-82c3-c192314ce619",
+    "parent": "a9350101-90bd-11e5-afd0-23a3b0b6926b",
     "origin": {
       "!span": "504[17:4]-515[17:15]",
       "!type": "fn() -> string",
@@ -203,7 +203,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "f8b1de60-90a8-11e5-82c3-c192314ce619",
+    "id": "a93500f0-90bd-11e5-afd0-23a3b0b6926b",
     "name": "abc",
     "addr": "/abc/",
     "kind": "v",
@@ -220,7 +220,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "f8b1de61-90a8-11e5-82c3-c192314ce619",
+    "id": "a93500f1-90bd-11e5-afd0-23a3b0b6926b",
     "name": "Quux",
     "addr": "/Quux/",
     "kind": "f",
@@ -237,7 +237,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "f8b1de62-90a8-11e5-82c3-c192314ce619",
+    "id": "a93500f2-90bd-11e5-afd0-23a3b0b6926b",
     "name": "baz",
     "addr": "/baz/",
     "kind": "v",
@@ -254,7 +254,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "f8b1de63-90a8-11e5-82c3-c192314ce619",
+    "id": "a93500f3-90bd-11e5-afd0-23a3b0b6926b",
     "name": "oy",
     "addr": "/oy/",
     "kind": "v",
@@ -271,7 +271,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "f8b1de64-90a8-11e5-82c3-c192314ce619",
+    "id": "a93500f4-90bd-11e5-afd0-23a3b0b6926b",
     "name": "arr",
     "addr": "/arr/",
     "kind": "v",
@@ -288,7 +288,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "f8b1de65-90a8-11e5-82c3-c192314ce619",
+    "id": "a93500f5-90bd-11e5-afd0-23a3b0b6926b",
     "name": "aha",
     "addr": "/aha/",
     "kind": "v",
@@ -305,7 +305,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "f8b1de66-90a8-11e5-82c3-c192314ce619",
+    "id": "a93500f6-90bd-11e5-afd0-23a3b0b6926b",
     "name": "xyzzy",
     "addr": "/xyzzy/",
     "kind": "v",
@@ -322,7 +322,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "f8b1de67-90a8-11e5-82c3-c192314ce619",
+    "id": "a93500f7-90bd-11e5-afd0-23a3b0b6926b",
     "name": "o",
     "addr": "/o/",
     "kind": "v",
@@ -337,14 +337,14 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "f8b1de68-90a8-11e5-82c3-c192314ce619",
+    "id": "a93500f8-90bd-11e5-afd0-23a3b0b6926b",
     "name": "getName",
     "addr": "/getName/",
     "kind": "f",
     "type": "!this.name function()",
     "lineno": 76,
     "namespace": "o",
-    "parent": "f8b1de67-90a8-11e5-82c3-c192314ce619",
+    "parent": "a93500f7-90bd-11e5-afd0-23a3b0b6926b",
     "origin": {
       "!span": "1613[75:2]-1620[75:9]",
       "!type": "fn() -> !this.name",
@@ -356,14 +356,14 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "f8b1de69-90a8-11e5-82c3-c192314ce619",
+    "id": "a93500f9-90bd-11e5-afd0-23a3b0b6926b",
     "name": "name",
     "addr": "/name/",
     "kind": "v",
     "type": "string",
     "lineno": 78,
     "namespace": "o",
-    "parent": "f8b1de67-90a8-11e5-82c3-c192314ce619",
+    "parent": "a93500f7-90bd-11e5-afd0-23a3b0b6926b",
     "origin": {
       "!span": "1672[77:2]-1676[77:6]",
       "!type": "string",
@@ -375,14 +375,14 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "f8b1de6a-90a8-11e5-82c3-c192314ce619",
+    "id": "a93500fa-90bd-11e5-afd0-23a3b0b6926b",
     "name": "bar",
     "addr": "/'bar'/",
     "kind": "v",
     "type": "number",
     "lineno": 82,
     "namespace": "o",
-    "parent": "f8b1de67-90a8-11e5-82c3-c192314ce619",
+    "parent": "a93500f7-90bd-11e5-afd0-23a3b0b6926b",
     "origin": {
       "!span": "1755[81:2]-1760[81:7]",
       "!type": "number",
@@ -394,14 +394,14 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "f8b1de6b-90a8-11e5-82c3-c192314ce619",
+    "id": "a93500fb-90bd-11e5-afd0-23a3b0b6926b",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
     "type": "string",
     "lineno": 86,
     "namespace": "o",
-    "parent": "f8b1de67-90a8-11e5-82c3-c192314ce619",
+    "parent": "a93500f7-90bd-11e5-afd0-23a3b0b6926b",
     "origin": {
       "!span": "1791[85:2]-1794[85:5]",
       "!type": "string",
@@ -413,13 +413,13 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "f8b20570-90a8-11e5-82c3-c192314ce619",
+    "id": "a93500fd-90bd-11e5-afd0-23a3b0b6926b",
     "name": "prototype",
     "addr": "/class C \{/",
     "kind": "v",
     "lineno": 93,
     "namespace": "C",
-    "parent": "f8b1de6c-90a8-11e5-82c3-c192314ce619",
+    "parent": "a93500fc-90bd-11e5-afd0-23a3b0b6926b",
     "origin": {
       "!span": "1925[92:0]-2029[97:1]",
       "!data": {
@@ -430,7 +430,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "f8b1de6c-90a8-11e5-82c3-c192314ce619",
+    "id": "a93500fc-90bd-11e5-afd0-23a3b0b6926b",
     "name": "C",
     "addr": "/C/",
     "kind": "f",
@@ -447,14 +447,14 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "f8b20571-90a8-11e5-82c3-c192314ce619",
+    "id": "a93500fe-90bd-11e5-afd0-23a3b0b6926b",
     "name": "method",
     "addr": "/method/",
     "kind": "f",
     "type": "number function()",
     "lineno": 95,
     "namespace": "C.prototype",
-    "parent": "f8b20570-90a8-11e5-82c3-c192314ce619",
+    "parent": "a93500fd-90bd-11e5-afd0-23a3b0b6926b",
     "origin": {
       "!span": "1953[94:2]-1959[94:8]",
       "!type": "fn() -> number",
@@ -466,14 +466,14 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "f8b20572-90a8-11e5-82c3-c192314ce619",
+    "id": "a93500ff-90bd-11e5-afd0-23a3b0b6926b",
     "name": "something",
     "addr": "/something/",
     "kind": "v",
     "type": "number",
     "lineno": 97,
     "namespace": "C.prototype",
-    "parent": "f8b20570-90a8-11e5-82c3-c192314ce619",
+    "parent": "a93500fd-90bd-11e5-afd0-23a3b0b6926b",
     "origin": {
       "!span": "2002[96:6]-2011[96:15]",
       "!type": "number",
@@ -485,7 +485,7 @@ c.something //doc: The something
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "f8b20573-90a8-11e5-82c3-c192314ce619",
+    "id": "a9350100-90bd-11e5-afd0-23a3b0b6926b",
     "name": "c",
     "addr": "/c/",
     "kind": "v",

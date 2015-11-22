@@ -10,7 +10,7 @@ c.hello; //: string
 ```json
 [
   {
-    "id": "f9967200-90a8-11e5-b6a7-4d3e781bd14b",
+    "id": "a9f67c30-90bd-11e5-ba0f-db656e2458fb",
     "name": "Class",
     "addr": "/Class/",
     "kind": "f",
@@ -27,14 +27,14 @@ c.hello; //: string
     "tagfile": "__DIR__/empty_overridden_prop.js"
   },
   {
-    "id": "f996c020-90a8-11e5-b6a7-4d3e781bd14b",
+    "id": "a9f6a341-90bd-11e5-ba0f-db656e2458fb",
     "name": "hello",
     "addr": "/hello/",
     "kind": "v",
     "type": "string",
     "lineno": 2,
     "namespace": "Class.prototype",
-    "parent": "f9969910-90a8-11e5-b6a7-4d3e781bd14b",
+    "parent": "a9f6a340-90bd-11e5-ba0f-db656e2458fb",
     "origin": {
       "!span": "36[1:16]-41[1:21]",
       "!type": "string",
@@ -46,7 +46,7 @@ c.hello; //: string
     "tagfile": "__DIR__/empty_overridden_prop.js"
   },
   {
-    "id": "f996c021-90a8-11e5-b6a7-4d3e781bd14b",
+    "id": "a9f6ca50-90bd-11e5-ba0f-db656e2458fb",
     "name": "c",
     "addr": "/c/",
     "kind": "v",

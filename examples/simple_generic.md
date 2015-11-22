@@ -16,7 +16,7 @@ map([1, 2, 3], function() { return true; }); //: [bool]
 ```json
 [
   {
-    "id": "07eec730-90a9-11e5-a2bb-2fa96481a864",
+    "id": "b6a985d0-90bd-11e5-90f3-0777a6df938f",
     "name": "last",
     "addr": "/last/",
     "kind": "f",
@@ -33,14 +33,14 @@ map([1, 2, 3], function() { return true; }); //: [bool]
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
-    "id": "07ef1550-90a9-11e5-a2bb-2fa96481a864",
+    "id": "b6a9ace0-90bd-11e5-90f3-0777a6df938f",
     "name": "arr",
     "addr": "/arr/",
     "kind": "v",
     "type": "[number]|[string]",
     "lineno": 1,
     "namespace": "last",
-    "parent": "07eec730-90a9-11e5-a2bb-2fa96481a864",
+    "parent": "b6a985d0-90bd-11e5-90f3-0777a6df938f",
     "origin": {
       "!span": "14[0:14]-17[0:17]",
       "!type": "[number]|[string]",
@@ -54,7 +54,7 @@ map([1, 2, 3], function() { return true; }); //: [bool]
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
-    "id": "07ef1551-90a9-11e5-a2bb-2fa96481a864",
+    "id": "b6a9ace1-90bd-11e5-90f3-0777a6df938f",
     "name": "map",
     "addr": "/map/",
     "kind": "f",
@@ -71,14 +71,14 @@ map([1, 2, 3], function() { return true; }); //: [bool]
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
-    "id": "07ef1552-90a9-11e5-a2bb-2fa96481a864",
+    "id": "b6a9ace2-90bd-11e5-90f3-0777a6df938f",
     "name": "arr",
     "addr": "/arr/",
     "kind": "v",
     "type": "[number]",
     "lineno": 6,
     "namespace": "map",
-    "parent": "07ef1551-90a9-11e5-a2bb-2fa96481a864",
+    "parent": "b6a9ace1-90bd-11e5-90f3-0777a6df938f",
     "origin": {
       "!span": "128[5:13]-131[5:16]",
       "!type": "[number]",
@@ -92,14 +92,14 @@ map([1, 2, 3], function() { return true; }); //: [bool]
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
-    "id": "07ef1553-90a9-11e5-a2bb-2fa96481a864",
+    "id": "b6a9ace3-90bd-11e5-90f3-0777a6df938f",
     "name": "f",
     "addr": "/f/",
     "kind": "f",
     "type": "boolean function()",
     "lineno": 6,
     "namespace": "map",
-    "parent": "07ef1551-90a9-11e5-a2bb-2fa96481a864",
+    "parent": "b6a9ace1-90bd-11e5-90f3-0777a6df938f",
     "origin": {
       "!span": "133[5:18]-134[5:19]",
       "!type": "fn() -> bool",
@@ -113,14 +113,14 @@ map([1, 2, 3], function() { return true; }); //: [bool]
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
-    "id": "07ef1555-90a9-11e5-a2bb-2fa96481a864",
+    "id": "b6a9ace5-90bd-11e5-90f3-0777a6df938f",
     "name": "res",
     "addr": "/res/",
     "kind": "v",
     "type": "[bool]",
     "lineno": 7,
     "namespace": "map",
-    "parent": "07ef1551-90a9-11e5-a2bb-2fa96481a864",
+    "parent": "b6a9ace1-90bd-11e5-90f3-0777a6df938f",
     "origin": {
       "!span": "144[6:6]-147[6:9]",
       "!type": "[bool]",
@@ -134,14 +134,14 @@ map([1, 2, 3], function() { return true; }); //: [bool]
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
-    "id": "07ef1554-90a9-11e5-a2bb-2fa96481a864",
+    "id": "b6a9ace4-90bd-11e5-90f3-0777a6df938f",
     "name": "i",
     "addr": "/i/",
     "kind": "v",
     "type": "number",
     "lineno": 8,
     "namespace": "map",
-    "parent": "07ef1551-90a9-11e5-a2bb-2fa96481a864",
+    "parent": "b6a9ace1-90bd-11e5-90f3-0777a6df938f",
     "origin": {
       "!span": "165[7:11]-166[7:12]",
       "!type": "number",

@@ -117,4 +117,3 @@ err	__DIR__/hint_ecma5.js	/err/;"	v	lineno:401	namespace:testTryCatchFlow1
 varInCatch	__DIR__/hint_ecma5.js	/varInCatch/;"	v	lineno:403	namespace:testTryCatchFlow1	type:string
 
 
-

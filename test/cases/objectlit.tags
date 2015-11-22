@@ -6,4 +6,3 @@ baz	__DIR__/objectlit.js	/baz/;"	v	lineno:10
 b	__DIR__/objectlit.js	/b/;"	v	lineno:12	namespace:baz	type:string
 
 
-

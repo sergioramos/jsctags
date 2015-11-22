@@ -16,4 +16,3 @@ x	__DIR__/super.js	/x/;"	v	lineno:22	namespace:obj	type:string
 getSuperX	__DIR__/super.js	/getSuperX/;"	f	lineno:23	namespace:obj	type:number function()
 
 
-

@@ -23,7 +23,7 @@ each([{x: 10}], function(o) {
 ```json
 [
   {
-    "id": "fcd7ba50-90a8-11e5-bc51-f9e83f4cf9a2",
+    "id": "ace55ec0-90bd-11e5-92df-a94825e7fd33",
     "name": "each",
     "addr": "/each/",
     "kind": "f",
@@ -40,14 +40,14 @@ each([{x: 10}], function(o) {
     "tagfile": "__DIR__/generic_each.js"
   },
   {
-    "id": "fcd80870-90a8-11e5-bc51-f9e83f4cf9a2",
+    "id": "ace585d0-90bd-11e5-92df-a94825e7fd33",
     "name": "context",
     "addr": "/context/",
     "kind": "v",
     "type": "string",
     "lineno": 2,
     "namespace": "each",
-    "parent": "fcd7ba50-90a8-11e5-bc51-f9e83f4cf9a2",
+    "parent": "ace55ec0-90bd-11e5-92df-a94825e7fd33",
     "origin": {
       "!span": "75[1:35]-82[1:42]",
       "!type": "+String",
@@ -61,14 +61,14 @@ each([{x: 10}], function(o) {
     "tagfile": "__DIR__/generic_each.js"
   },
   {
-    "id": "fcd80872-90a8-11e5-bc51-f9e83f4cf9a2",
+    "id": "ace5ace1-90bd-11e5-92df-a94825e7fd33",
     "name": "iterator",
     "addr": "/iterator/",
     "kind": "f",
     "type": "void function(each.!0.<i>)",
     "lineno": 2,
     "namespace": "each",
-    "parent": "fcd7ba50-90a8-11e5-bc51-f9e83f4cf9a2",
+    "parent": "ace55ec0-90bd-11e5-92df-a94825e7fd33",
     "origin": {
       "!span": "65[1:25]-73[1:33]",
       "!type": "fn(o: each.!0.<i>)",
@@ -82,14 +82,14 @@ each([{x: 10}], function(o) {
     "tagfile": "__DIR__/generic_each.js"
   },
   {
-    "id": "fcd80874-90a8-11e5-bc51-f9e83f4cf9a2",
+    "id": "ace5ace3-90bd-11e5-92df-a94825e7fd33",
     "name": "obj",
     "addr": "/obj/",
     "kind": "v",
     "type": "[each.!0.<i>]",
     "lineno": 2,
     "namespace": "each",
-    "parent": "fcd7ba50-90a8-11e5-bc51-f9e83f4cf9a2",
+    "parent": "ace55ec0-90bd-11e5-92df-a94825e7fd33",
     "origin": {
       "!span": "60[1:20]-63[1:23]",
       "!type": "[each.!0.<i>]",
@@ -103,14 +103,14 @@ each([{x: 10}], function(o) {
     "tagfile": "__DIR__/generic_each.js"
   },
   {
-    "id": "fcd80871-90a8-11e5-bc51-f9e83f4cf9a2",
+    "id": "ace5ace0-90bd-11e5-92df-a94825e7fd33",
     "name": "i",
     "addr": "/i/",
     "kind": "v",
     "type": "number",
     "lineno": 7,
     "namespace": "each",
-    "parent": "fcd7ba50-90a8-11e5-bc51-f9e83f4cf9a2",
+    "parent": "ace55ec0-90bd-11e5-92df-a94825e7fd33",
     "origin": {
       "!span": "281[6:13]-282[6:14]",
       "!type": "number",
@@ -124,14 +124,14 @@ each([{x: 10}], function(o) {
     "tagfile": "__DIR__/generic_each.js"
   },
   {
-    "id": "fcd80873-90a8-11e5-bc51-f9e83f4cf9a2",
+    "id": "ace5ace2-90bd-11e5-92df-a94825e7fd33",
     "name": "l",
     "addr": "/l/",
     "kind": "v",
     "type": "number",
     "lineno": 7,
     "namespace": "each",
-    "parent": "fcd7ba50-90a8-11e5-bc51-f9e83f4cf9a2",
+    "parent": "ace55ec0-90bd-11e5-92df-a94825e7fd33",
     "origin": {
       "!span": "288[6:20]-289[6:21]",
       "!type": "number",

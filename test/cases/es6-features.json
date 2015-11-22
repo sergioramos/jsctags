@@ -140,7 +140,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": true
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/es6-features.js"

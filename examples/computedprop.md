@@ -10,7 +10,7 @@ obj[foo()]; //:? string
 ```json
 [
   {
-    "id": "f64fd280-90a8-11e5-bded-8156af57d3f5",
+    "id": "a6d7b000-90bd-11e5-a4f7-df31f7336326",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
@@ -25,13 +25,13 @@ obj[foo()]; //:? string
     "tagfile": "__DIR__/computedprop.js"
   },
   {
-    "id": "f64ff990-90a8-11e5-bded-8156af57d3f5",
+    "id": "a6d7d710-90bd-11e5-a4f7-df31f7336326",
     "name": "<i>",
     "addr": "/foo\(\)/",
     "kind": "v",
     "lineno": 2,
     "namespace": "x",
-    "parent": "f64fd280-90a8-11e5-bded-8156af57d3f5",
+    "parent": "a6d7b000-90bd-11e5-a4f7-df31f7336326",
     "origin": {
       "!span": "14[1:2]-19[1:7]",
       "!data": {
@@ -42,14 +42,14 @@ obj[foo()]; //:? string
     "tagfile": "__DIR__/computedprop.js"
   },
   {
-    "id": "f64ff991-90a8-11e5-bded-8156af57d3f5",
+    "id": "a6d7d711-90bd-11e5-a4f7-df31f7336326",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "x.<i>",
-    "parent": "f64ff990-90a8-11e5-bded-8156af57d3f5",
+    "parent": "a6d7d710-90bd-11e5-a4f7-df31f7336326",
     "origin": {
       "!span": "24[1:12]-25[1:13]",
       "!type": "number",
@@ -61,14 +61,14 @@ obj[foo()]; //:? string
     "tagfile": "__DIR__/computedprop.js"
   },
   {
-    "id": "f65020a0-90a8-11e5-bded-8156af57d3f5",
+    "id": "a6d7d712-90bd-11e5-a4f7-df31f7336326",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "x.<i>",
-    "parent": "f64ff990-90a8-11e5-bded-8156af57d3f5",
+    "parent": "a6d7d710-90bd-11e5-a4f7-df31f7336326",
     "origin": {
       "!span": "31[1:19]-32[1:20]",
       "!type": "number",
@@ -80,7 +80,7 @@ obj[foo()]; //:? string
     "tagfile": "__DIR__/computedprop.js"
   },
   {
-    "id": "f65020a1-90a8-11e5-bded-8156af57d3f5",
+    "id": "a6d7d713-90bd-11e5-a4f7-df31f7336326",
     "name": "obj",
     "addr": "/obj/",
     "kind": "v",
@@ -95,14 +95,14 @@ obj[foo()]; //:? string
     "tagfile": "__DIR__/computedprop.js"
   },
   {
-    "id": "f65020a2-90a8-11e5-bded-8156af57d3f5",
+    "id": "a6d7d714-90bd-11e5-a4f7-df31f7336326",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "string",
     "lineno": 6,
     "namespace": "obj",
-    "parent": "f65020a1-90a8-11e5-bded-8156af57d3f5",
+    "parent": "a6d7d713-90bd-11e5-a4f7-df31f7336326",
     "origin": {
       "!span": "88[5:11]-89[5:12]",
       "!type": "string",
@@ -114,14 +114,14 @@ obj[foo()]; //:? string
     "tagfile": "__DIR__/computedprop.js"
   },
   {
-    "id": "f65020a3-90a8-11e5-bded-8156af57d3f5",
+    "id": "a6d7d715-90bd-11e5-a4f7-df31f7336326",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "string",
     "lineno": 6,
     "namespace": "obj",
-    "parent": "f65020a1-90a8-11e5-bded-8156af57d3f5",
+    "parent": "a6d7d713-90bd-11e5-a4f7-df31f7336326",
     "origin": {
       "!span": "98[5:21]-99[5:22]",
       "!type": "string",

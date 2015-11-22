@@ -78,7 +78,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": true
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/blowup.js"

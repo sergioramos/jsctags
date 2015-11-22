@@ -23,7 +23,7 @@ obj.z; //refs: 17,4 20,4
 ```json
 [
   {
-    "id": "fb522bc0-90a8-11e5-aa95-1f943dc9abb2",
+    "id": "ab779df0-90bd-11e5-8290-e72fd4437d45",
     "name": "hello",
     "addr": "/hello/",
     "kind": "f",
@@ -40,64 +40,64 @@ obj.z; //refs: 17,4 20,4
     "tagfile": "__DIR__/findref.js"
   },
   {
-    "id": "fb5279e0-90a8-11e5-aa95-1f943dc9abb2",
+    "id": "ab77c500-90bd-11e5-8290-e72fd4437d45",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "lineno": 1,
     "namespace": "hello",
-    "parent": "fb522bc0-90a8-11e5-aa95-1f943dc9abb2",
+    "parent": "ab779df0-90bd-11e5-8290-e72fd4437d45",
     "origin": {
       "!span": "15[0:15]-16[0:16]",
       "!data": {
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": true
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/findref.js"
   },
   {
-    "id": "fb5279e1-90a8-11e5-aa95-1f943dc9abb2",
+    "id": "ab77c501-90bd-11e5-8290-e72fd4437d45",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "lineno": 1,
     "namespace": "hello",
-    "parent": "fb522bc0-90a8-11e5-aa95-1f943dc9abb2",
+    "parent": "ab779df0-90bd-11e5-8290-e72fd4437d45",
     "origin": {
       "!span": "18[0:18]-19[0:19]",
       "!data": {
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": true
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/findref.js"
   },
   {
-    "id": "fb5279e2-90a8-11e5-aa95-1f943dc9abb2",
+    "id": "ab77c502-90bd-11e5-8290-e72fd4437d45",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
     "lineno": 2,
     "namespace": "hello",
-    "parent": "fb522bc0-90a8-11e5-aa95-1f943dc9abb2",
+    "parent": "ab779df0-90bd-11e5-8290-e72fd4437d45",
     "origin": {
       "!span": "29[1:6]-30[1:7]",
       "!data": {
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": true
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/findref.js"
   },
   {
-    "id": "fb5279e3-90a8-11e5-aa95-1f943dc9abb2",
+    "id": "ab77c503-90bd-11e5-8290-e72fd4437d45",
     "name": "obj",
     "addr": "/obj/",
     "kind": "v",
@@ -112,14 +112,14 @@ obj.z; //refs: 17,4 20,4
     "tagfile": "__DIR__/findref.js"
   },
   {
-    "id": "fb5279e4-90a8-11e5-aa95-1f943dc9abb2",
+    "id": "ab77c504-90bd-11e5-8290-e72fd4437d45",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 11,
     "namespace": "obj",
-    "parent": "fb5279e3-90a8-11e5-aa95-1f943dc9abb2",
+    "parent": "ab77c503-90bd-11e5-8290-e72fd4437d45",
     "origin": {
       "!span": "158[10:2]-159[10:3]",
       "!type": "number",
@@ -131,14 +131,14 @@ obj.z; //refs: 17,4 20,4
     "tagfile": "__DIR__/findref.js"
   },
   {
-    "id": "fb5279e5-90a8-11e5-aa95-1f943dc9abb2",
+    "id": "ab77c505-90bd-11e5-8290-e72fd4437d45",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 13,
     "namespace": "obj",
-    "parent": "fb5279e3-90a8-11e5-aa95-1f943dc9abb2",
+    "parent": "ab77c503-90bd-11e5-8290-e72fd4437d45",
     "origin": {
       "!span": "194[12:2]-195[12:3]",
       "!type": "number",
@@ -150,14 +150,14 @@ obj.z; //refs: 17,4 20,4
     "tagfile": "__DIR__/findref.js"
   },
   {
-    "id": "fb5279e6-90a8-11e5-aa95-1f943dc9abb2",
+    "id": "ab77c506-90bd-11e5-8290-e72fd4437d45",
     "name": "z",
     "addr": "/z/",
     "kind": "v",
     "type": "string",
     "lineno": 17,
     "namespace": "obj",
-    "parent": "fb5279e3-90a8-11e5-aa95-1f943dc9abb2",
+    "parent": "ab77c503-90bd-11e5-8290-e72fd4437d45",
     "origin": {
       "!span": "220[16:4]-221[16:5]",
       "!type": "string",

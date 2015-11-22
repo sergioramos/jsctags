@@ -30,7 +30,7 @@ function another(arg) {
 ```json
 [
   {
-    "id": "faef9960-90a8-11e5-9aa3-ed9fdf49492d",
+    "id": "ab1ad7f0-90bd-11e5-9353-6d9859da582f",
     "name": "blah",
     "addr": "/blah/",
     "kind": "f",
@@ -47,7 +47,7 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
-    "id": "faefe780-90a8-11e5-9aa3-ed9fdf49492d",
+    "id": "ab1aff00-90bd-11e5-9353-6d9859da582f",
     "name": "jaja",
     "addr": "/jaja/",
     "kind": "v",
@@ -64,7 +64,7 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
-    "id": "faefe781-90a8-11e5-9aa3-ed9fdf49492d",
+    "id": "ab1aff01-90bd-11e5-9353-6d9859da582f",
     "name": "obj",
     "addr": "/obj/",
     "kind": "v",
@@ -79,14 +79,14 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
-    "id": "faefe782-90a8-11e5-9aa3-ed9fdf49492d",
+    "id": "ab1aff02-90bd-11e5-9353-6d9859da582f",
     "name": "prop1",
     "addr": "/prop1/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
     "namespace": "obj",
-    "parent": "faefe781-90a8-11e5-9aa3-ed9fdf49492d",
+    "parent": "ab1aff01-90bd-11e5-9353-6d9859da582f",
     "origin": {
       "!span": "50[5:2]-55[5:7]",
       "!type": "number",
@@ -98,14 +98,14 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
-    "id": "faefe783-90a8-11e5-9aa3-ed9fdf49492d",
+    "id": "ab1aff03-90bd-11e5-9353-6d9859da582f",
     "name": "prop2",
     "addr": "/prop2/",
     "kind": "f",
     "type": "void function(?)",
     "lineno": 7,
     "namespace": "obj",
-    "parent": "faefe781-90a8-11e5-9aa3-ed9fdf49492d",
+    "parent": "ab1aff01-90bd-11e5-9353-6d9859da582f",
     "origin": {
       "!span": "63[6:2]-68[6:7]",
       "!type": "fn(foo: ?)",
@@ -117,33 +117,33 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
-    "id": "faefe784-90a8-11e5-9aa3-ed9fdf49492d",
+    "id": "ab1aff04-90bd-11e5-9353-6d9859da582f",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
     "lineno": 7,
     "namespace": "obj.prop2",
-    "parent": "faefe783-90a8-11e5-9aa3-ed9fdf49492d",
+    "parent": "ab1aff03-90bd-11e5-9353-6d9859da582f",
     "origin": {
       "!span": "79[6:18]-82[6:21]",
       "!data": {
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": true
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/finddef.js"
   },
   {
-    "id": "faefe785-90a8-11e5-9aa3-ed9fdf49492d",
+    "id": "ab1aff05-90bd-11e5-9353-6d9859da582f",
     "name": "prop3",
     "addr": "/prop3/",
     "kind": "v",
     "type": "string",
     "lineno": 10,
     "namespace": "obj",
-    "parent": "faefe781-90a8-11e5-9aa3-ed9fdf49492d",
+    "parent": "ab1aff01-90bd-11e5-9353-6d9859da582f",
     "origin": {
       "!span": "95[9:4]-100[9:9]",
       "!type": "string",
@@ -155,7 +155,7 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
-    "id": "faefe786-90a8-11e5-9aa3-ed9fdf49492d",
+    "id": "ab1aff06-90bd-11e5-9353-6d9859da582f",
     "name": "hide",
     "addr": "/hide/",
     "kind": "f",
@@ -172,7 +172,7 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
-    "id": "faefe787-90a8-11e5-9aa3-ed9fdf49492d",
+    "id": "ab1b2610-90bd-11e5-9353-6d9859da582f",
     "name": "another",
     "addr": "/another/",
     "kind": "f",
@@ -189,33 +189,33 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
-    "id": "faefe788-90a8-11e5-9aa3-ed9fdf49492d",
+    "id": "ab1b2611-90bd-11e5-9353-6d9859da582f",
     "name": "arg",
     "addr": "/arg/",
     "kind": "v",
     "lineno": 23,
     "namespace": "another",
-    "parent": "faefe787-90a8-11e5-9aa3-ed9fdf49492d",
+    "parent": "ab1b2610-90bd-11e5-9353-6d9859da582f",
     "origin": {
       "!span": "311[22:17]-314[22:20]",
       "!data": {
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": true
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/finddef.js"
   },
   {
-    "id": "faefe789-90a8-11e5-9aa3-ed9fdf49492d",
+    "id": "ab1b2612-90bd-11e5-9353-6d9859da582f",
     "name": "local",
     "addr": "/local/",
     "kind": "v",
     "type": "number",
     "lineno": 24,
     "namespace": "another",
-    "parent": "faefe787-90a8-11e5-9aa3-ed9fdf49492d",
+    "parent": "ab1b2610-90bd-11e5-9353-6d9859da582f",
     "origin": {
       "!span": "324[23:6]-329[23:11]",
       "!type": "number",

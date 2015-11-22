@@ -7,4 +7,3 @@ bar	__DIR__/proto.js	/bar/;"	v	lineno:9	namespace:Foo.prototype	type:number
 z	__DIR__/proto.js	/z/;"	v	lineno:12	type:Foo
 
 
-

@@ -30,7 +30,7 @@ obj.getSuperX() //: number
 ```json
 [
   {
-    "id": "08577410-90a9-11e5-8f98-015cd44afeab",
+    "id": "b7053a60-90bd-11e5-ba7d-8f738c2fc57b",
     "name": "Point3",
     "addr": "/Point3/",
     "kind": "f",
@@ -47,13 +47,13 @@ obj.getSuperX() //: number
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "0857c230-90a9-11e5-8f98-015cd44afeab",
+    "id": "b7056170-90bd-11e5-ba7d-8f738c2fc57b",
     "name": "prototype",
     "addr": "/class Point3 extends Point2 \{/",
     "kind": "v",
     "lineno": 1,
     "namespace": "Point3",
-    "parent": "08577410-90a9-11e5-8f98-015cd44afeab",
+    "parent": "b7053a60-90bd-11e5-ba7d-8f738c2fc57b",
     "origin": {
       "!span": "0[0:0]-150[4:1]",
       "!data": {
@@ -64,14 +64,14 @@ obj.getSuperX() //: number
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "0857c233-90a9-11e5-8f98-015cd44afeab",
+    "id": "b7056173-90bd-11e5-ba7d-8f738c2fc57b",
     "name": "z",
     "addr": "/z/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "Point3",
-    "parent": "08577410-90a9-11e5-8f98-015cd44afeab",
+    "parent": "b7053a60-90bd-11e5-ba7d-8f738c2fc57b",
     "origin": {
       "!span": "73[1:43]-74[1:44]",
       "!type": "number",
@@ -83,14 +83,14 @@ obj.getSuperX() //: number
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "0857c231-90a9-11e5-8f98-015cd44afeab",
+    "id": "b7056171-90bd-11e5-ba7d-8f738c2fc57b",
     "name": "foobar",
     "addr": "/foobar/",
     "kind": "f",
     "type": "!this.x function()",
     "lineno": 3,
     "namespace": "Point3.prototype",
-    "parent": "0857c230-90a9-11e5-8f98-015cd44afeab",
+    "parent": "b7056170-90bd-11e5-ba7d-8f738c2fc57b",
     "origin": {
       "!span": "83[2:2]-89[2:8]",
       "!type": "fn() -> !this.x",
@@ -102,14 +102,14 @@ obj.getSuperX() //: number
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "0857c232-90a9-11e5-8f98-015cd44afeab",
+    "id": "b7056172-90bd-11e5-ba7d-8f738c2fc57b",
     "name": "callSuper",
     "addr": "/callSuper/",
     "kind": "f",
     "type": "string function()",
     "lineno": 4,
     "namespace": "Point3.prototype",
-    "parent": "0857c230-90a9-11e5-8f98-015cd44afeab",
+    "parent": "b7056170-90bd-11e5-ba7d-8f738c2fc57b",
     "origin": {
       "!span": "112[3:2]-121[3:11]",
       "!type": "fn() -> string",
@@ -121,13 +121,13 @@ obj.getSuperX() //: number
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "0857e940-90a9-11e5-8f98-015cd44afeab",
+    "id": "b7058880-90bd-11e5-ba7d-8f738c2fc57b",
     "name": "prototype",
     "addr": "/class Point2 \{/",
     "kind": "v",
     "lineno": 7,
     "namespace": "Point2",
-    "parent": "0857c236-90a9-11e5-8f98-015cd44afeab",
+    "parent": "b7056176-90bd-11e5-ba7d-8f738c2fc57b",
     "origin": {
       "!span": "152[6:0]-244[9:1]",
       "!data": {
@@ -138,7 +138,7 @@ obj.getSuperX() //: number
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "0857c236-90a9-11e5-8f98-015cd44afeab",
+    "id": "b7056176-90bd-11e5-ba7d-8f738c2fc57b",
     "name": "Point2",
     "addr": "/Point2/",
     "kind": "f",
@@ -155,14 +155,14 @@ obj.getSuperX() //: number
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "0857c235-90a9-11e5-8f98-015cd44afeab",
+    "id": "b7056175-90bd-11e5-ba7d-8f738c2fc57b",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 8,
     "namespace": "Point3",
-    "parent": "08577410-90a9-11e5-8f98-015cd44afeab",
+    "parent": "b7053a60-90bd-11e5-ba7d-8f738c2fc57b",
     "origin": {
       "!span": "206[7:39]-207[7:40]",
       "!type": "number",
@@ -174,14 +174,14 @@ obj.getSuperX() //: number
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "0857c234-90a9-11e5-8f98-015cd44afeab",
+    "id": "b7056174-90bd-11e5-ba7d-8f738c2fc57b",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 8,
     "namespace": "Point3",
-    "parent": "08577410-90a9-11e5-8f98-015cd44afeab",
+    "parent": "b7053a60-90bd-11e5-ba7d-8f738c2fc57b",
     "origin": {
       "!span": "194[7:27]-195[7:28]",
       "!type": "number",
@@ -193,14 +193,14 @@ obj.getSuperX() //: number
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "0857e941-90a9-11e5-8f98-015cd44afeab",
+    "id": "b7058881-90bd-11e5-ba7d-8f738c2fc57b",
     "name": "hello",
     "addr": "/hello/",
     "kind": "f",
     "type": "string function()",
     "lineno": 9,
     "namespace": "Point2.prototype",
-    "parent": "0857e940-90a9-11e5-8f98-015cd44afeab",
+    "parent": "b7058880-90bd-11e5-ba7d-8f738c2fc57b",
     "origin": {
       "!span": "216[8:2]-221[8:7]",
       "!type": "fn() -> string",
@@ -212,7 +212,7 @@ obj.getSuperX() //: number
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "0857e942-90a9-11e5-8f98-015cd44afeab",
+    "id": "b7058882-90bd-11e5-ba7d-8f738c2fc57b",
     "name": "p",
     "addr": "/p/",
     "kind": "v",
@@ -229,7 +229,7 @@ obj.getSuperX() //: number
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "0857e943-90a9-11e5-8f98-015cd44afeab",
+    "id": "b7058883-90bd-11e5-ba7d-8f738c2fc57b",
     "name": "pro",
     "addr": "/pro/",
     "kind": "v",
@@ -244,14 +244,14 @@ obj.getSuperX() //: number
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "0857e944-90a9-11e5-8f98-015cd44afeab",
+    "id": "b7058884-90bd-11e5-ba7d-8f738c2fc57b",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 18,
     "namespace": "pro",
-    "parent": "0857e943-90a9-11e5-8f98-015cd44afeab",
+    "parent": "b7058883-90bd-11e5-ba7d-8f738c2fc57b",
     "origin": {
       "!span": "369[17:11]-370[17:12]",
       "!type": "number",
@@ -263,7 +263,7 @@ obj.getSuperX() //: number
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "0857e945-90a9-11e5-8f98-015cd44afeab",
+    "id": "b7058885-90bd-11e5-ba7d-8f738c2fc57b",
     "name": "obj",
     "addr": "/obj/",
     "kind": "v",
@@ -278,14 +278,14 @@ obj.getSuperX() //: number
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "0857e946-90a9-11e5-8f98-015cd44afeab",
+    "id": "b7058886-90bd-11e5-ba7d-8f738c2fc57b",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "string",
     "lineno": 22,
     "namespace": "obj",
-    "parent": "0857e945-90a9-11e5-8f98-015cd44afeab",
+    "parent": "b7058885-90bd-11e5-ba7d-8f738c2fc57b",
     "origin": {
       "!span": "409[21:2]-410[21:3]",
       "!type": "string",
@@ -297,14 +297,14 @@ obj.getSuperX() //: number
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "0857e947-90a9-11e5-8f98-015cd44afeab",
+    "id": "b7058887-90bd-11e5-ba7d-8f738c2fc57b",
     "name": "getSuperX",
     "addr": "/getSuperX/",
     "kind": "f",
     "type": "number function()",
     "lineno": 23,
     "namespace": "obj",
-    "parent": "0857e945-90a9-11e5-8f98-015cd44afeab",
+    "parent": "b7058885-90bd-11e5-ba7d-8f738c2fc57b",
     "origin": {
       "!span": "424[22:2]-433[22:11]",
       "!type": "fn() -> number",

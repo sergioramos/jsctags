@@ -16,7 +16,7 @@ build`foo${10}bar${'hi'}` //: bool
 ```json
 [
   {
-    "id": "09394890-90a9-11e5-9e7b-fb003d93aa24",
+    "id": "b7b80fa0-90bd-11e5-8c4e-2d10abf6d8a2",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
@@ -33,7 +33,7 @@ build`foo${10}bar${'hi'}` //: bool
     "tagfile": "__DIR__/template.js"
   },
   {
-    "id": "09396fa0-90a9-11e5-9e7b-fb003d93aa24",
+    "id": "b7b836b0-90bd-11e5-8c4e-2d10abf6d8a2",
     "name": "build",
     "addr": "/build/",
     "kind": "f",
@@ -50,14 +50,14 @@ build`foo${10}bar${'hi'}` //: bool
     "tagfile": "__DIR__/template.js"
   },
   {
-    "id": "093996b0-90a9-11e5-9e7b-fb003d93aa24",
+    "id": "b7b85dc0-90bd-11e5-8c4e-2d10abf6d8a2",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
     "namespace": "build",
-    "parent": "09396fa0-90a9-11e5-9e7b-fb003d93aa24",
+    "parent": "b7b836b0-90bd-11e5-8c4e-2d10abf6d8a2",
     "origin": {
       "!span": "87[5:21]-88[5:22]",
       "!type": "number",
@@ -71,14 +71,14 @@ build`foo${10}bar${'hi'}` //: bool
     "tagfile": "__DIR__/template.js"
   },
   {
-    "id": "093996b1-90a9-11e5-9e7b-fb003d93aa24",
+    "id": "b7b85dc1-90bd-11e5-8c4e-2d10abf6d8a2",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "string",
     "lineno": 6,
     "namespace": "build",
-    "parent": "09396fa0-90a9-11e5-9e7b-fb003d93aa24",
+    "parent": "b7b836b0-90bd-11e5-8c4e-2d10abf6d8a2",
     "origin": {
       "!span": "90[5:24]-91[5:25]",
       "!type": "string",
@@ -92,14 +92,14 @@ build`foo${10}bar${'hi'}` //: bool
     "tagfile": "__DIR__/template.js"
   },
   {
-    "id": "093996b2-90a9-11e5-9e7b-fb003d93aa24",
+    "id": "b7b85dc2-90bd-11e5-8c4e-2d10abf6d8a2",
     "name": "strs",
     "addr": "/strs/",
     "kind": "v",
     "type": "[string]",
     "lineno": 6,
     "namespace": "build",
-    "parent": "09396fa0-90a9-11e5-9e7b-fb003d93aa24",
+    "parent": "b7b836b0-90bd-11e5-8c4e-2d10abf6d8a2",
     "origin": {
       "!span": "81[5:15]-85[5:19]",
       "!type": "[string]",

@@ -130,7 +130,7 @@ ui(); //: string
 ```json
 [
   {
-    "id": "009a1980-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03db180-90bd-11e5-879b-554f260534f5",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
@@ -147,7 +147,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009a4090-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03dd890-90bd-11e5-879b-554f260534f5",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
@@ -162,14 +162,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009a67a1-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03dd895-90bd-11e5-879b-554f260534f5",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "string",
     "lineno": 17,
     "namespace": "foo",
-    "parent": "009a4093-90a9-11e5-b2ec-a13ae1f60ffb",
+    "parent": "b03dd893-90bd-11e5-879b-554f260534f5",
     "origin": {
       "!span": "298[16:16]-299[16:17]",
       "!type": "string",
@@ -183,14 +183,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009a67a0-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03dd894-90bd-11e5-879b-554f260534f5",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 17,
     "namespace": "foo",
-    "parent": "009a4093-90a9-11e5-b2ec-a13ae1f60ffb",
+    "parent": "b03dd893-90bd-11e5-879b-554f260534f5",
     "origin": {
       "!span": "295[16:13]-296[16:14]",
       "!type": "number",
@@ -204,7 +204,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009a4093-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03dd893-90bd-11e5-879b-554f260534f5",
     "name": "foo",
     "addr": "/foo/",
     "kind": "f",
@@ -221,7 +221,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009a67a2-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03dd896-90bd-11e5-879b-554f260534f5",
     "name": "abc",
     "addr": "/abc/",
     "kind": "f",
@@ -238,7 +238,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009adcd0-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03dffa0-90bd-11e5-879b-554f260534f5",
     "name": "bar",
     "addr": "/bar/",
     "kind": "f",
@@ -255,14 +255,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009adcd1-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e4dc0-90bd-11e5-879b-554f260534f5",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 30,
     "namespace": "bar",
-    "parent": "009adcd0-90a9-11e5-b2ec-a13ae1f60ffb",
+    "parent": "b03dffa0-90bd-11e5-879b-554f260534f5",
     "origin": {
       "!span": "525[29:19]-526[29:20]",
       "!type": "number",
@@ -276,14 +276,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009adcd2-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e4dc1-90bd-11e5-879b-554f260534f5",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "number",
     "lineno": 30,
     "namespace": "bar",
-    "parent": "009adcd0-90a9-11e5-b2ec-a13ae1f60ffb",
+    "parent": "b03dffa0-90bd-11e5-879b-554f260534f5",
     "origin": {
       "!span": "528[29:22]-529[29:23]",
       "!type": "number",
@@ -297,7 +297,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009adcd3-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e74d0-90bd-11e5-879b-554f260534f5",
     "name": "o",
     "addr": "/o/",
     "kind": "v",
@@ -312,14 +312,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009adcd4-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e74d1-90bd-11e5-879b-554f260534f5",
     "name": "prop1",
     "addr": "/prop1/",
     "kind": "v",
     "type": "string",
     "lineno": 36,
     "namespace": "o",
-    "parent": "009adcd3-90a9-11e5-b2ec-a13ae1f60ffb",
+    "parent": "b03e74d0-90bd-11e5-879b-554f260534f5",
     "origin": {
       "!span": "649[35:2]-654[35:7]",
       "!type": "string",
@@ -331,14 +331,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009adcd5-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e74d2-90bd-11e5-879b-554f260534f5",
     "name": "prop2",
     "addr": "/prop2/",
     "kind": "f",
     "type": "number function()",
     "lineno": 39,
     "namespace": "o",
-    "parent": "009adcd3-90a9-11e5-b2ec-a13ae1f60ffb",
+    "parent": "b03e74d0-90bd-11e5-879b-554f260534f5",
     "origin": {
       "!span": "697[38:2]-702[38:7]",
       "!type": "fn() -> number",
@@ -350,14 +350,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009adcd6-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e74d3-90bd-11e5-879b-554f260534f5",
     "name": "prop3",
     "addr": "/prop3/",
     "kind": "f",
     "type": "string function()",
     "lineno": 43,
     "namespace": "o",
-    "parent": "009adcd3-90a9-11e5-b2ec-a13ae1f60ffb",
+    "parent": "b03e74d0-90bd-11e5-879b-554f260534f5",
     "origin": {
       "!span": "769[42:2]-774[42:7]",
       "!type": "fn() -> string",
@@ -369,7 +369,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009adcd7-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e74d4-90bd-11e5-879b-554f260534f5",
     "name": "closureArray",
     "addr": "/closureArray/",
     "kind": "v",
@@ -386,7 +386,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009adcd8-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e74d5-90bd-11e5-879b-554f260534f5",
     "name": "closureMap",
     "addr": "/closureMap/",
     "kind": "v",
@@ -401,7 +401,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009adcda-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e74d7-90bd-11e5-879b-554f260534f5",
     "name": "takesOpt",
     "addr": "/takesOpt/",
     "kind": "f",
@@ -418,14 +418,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009adcdb-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e74d8-90bd-11e5-879b-554f260534f5",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 58,
     "namespace": "takesOpt",
-    "parent": "009adcda-90a9-11e5-b2ec-a13ae1f60ffb",
+    "parent": "b03e74d7-90bd-11e5-879b-554f260534f5",
     "origin": {
       "!span": "1129[57:18]-1130[57:19]",
       "!type": "number",
@@ -439,7 +439,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009adcdc-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e74d9-90bd-11e5-879b-554f260534f5",
     "name": "myBitset",
     "addr": "/myBitset/",
     "kind": "v",
@@ -456,7 +456,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009adcdd-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e74da-90bd-11e5-879b-554f260534f5",
     "name": "myObj",
     "addr": "/myObj/",
     "kind": "v",
@@ -471,7 +471,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009b03e2-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e74dd-90bd-11e5-879b-554f260534f5",
     "name": "NonAscïį",
     "addr": "/NonAscïį/",
     "kind": "f",
@@ -488,14 +488,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009b03e3-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e74de-90bd-11e5-879b-554f260534f5",
     "name": "length",
     "addr": "/length/",
     "kind": "v",
     "type": "string",
     "lineno": 84,
     "namespace": "NonAscïį",
-    "parent": "009b03e2-90a9-11e5-b2ec-a13ae1f60ffb",
+    "parent": "b03e74dd-90bd-11e5-879b-554f260534f5",
     "origin": {
       "!span": "1570[83:27]-1576[83:33]",
       "!type": "string",
@@ -507,7 +507,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009b03e4-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e74df-90bd-11e5-879b-554f260534f5",
     "name": "inst",
     "addr": "/inst/",
     "kind": "v",
@@ -524,12 +524,12 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009b03e0-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e74db-90bd-11e5-879b-554f260534f5",
     "name": "one",
     "kind": "v",
     "type": "boolean",
     "namespace": "myObj",
-    "parent": "009adcdd-90a9-11e5-b2ec-a13ae1f60ffb",
+    "parent": "b03e74da-90bd-11e5-879b-554f260534f5",
     "origin": {
       "!type": "bool",
       "!data": {
@@ -540,12 +540,12 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009b03e1-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e74dc-90bd-11e5-879b-554f260534f5",
     "name": "two",
     "kind": "v",
     "type": "number",
     "namespace": "myObj",
-    "parent": "009adcdd-90a9-11e5-b2ec-a13ae1f60ffb",
+    "parent": "b03e74da-90bd-11e5-879b-554f260534f5",
     "origin": {
       "!type": "number",
       "!data": {
@@ -556,12 +556,12 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009b03ec-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e74e7-90bd-11e5-879b-554f260534f5",
     "name": "bogus",
     "addr": "/bogus/",
     "kind": "v",
     "lineno": 92,
-    "parent": "009b03eb-90a9-11e5-b2ec-a13ae1f60ffb",
+    "parent": "b03e74e6-90bd-11e5-879b-554f260534f5",
     "origin": {
       "!span": "1678[91:4]-1683[91:9]",
       "!data": {
@@ -574,12 +574,12 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009a4091-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03dd891-90bd-11e5-879b-554f260534f5",
     "name": "x",
     "kind": "v",
     "type": "number",
     "namespace": "c",
-    "parent": "009a4090-90a9-11e5-b2ec-a13ae1f60ffb",
+    "parent": "b03dd890-90bd-11e5-879b-554f260534f5",
     "origin": {
       "!type": "number",
       "!data": {
@@ -590,12 +590,12 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009a4092-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03dd892-90bd-11e5-879b-554f260534f5",
     "name": "y",
     "kind": "v",
     "type": "[string]",
     "namespace": "c",
-    "parent": "009a4090-90a9-11e5-b2ec-a13ae1f60ffb",
+    "parent": "b03dd890-90bd-11e5-879b-554f260534f5",
     "origin": {
       "!type": "[string]",
       "!data": {
@@ -606,7 +606,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009b03e5-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e74e0-90bd-11e5-879b-554f260534f5",
     "name": "again",
     "addr": "/again/",
     "kind": "v",
@@ -623,7 +623,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009b03e6-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e74e1-90bd-11e5-879b-554f260534f5",
     "name": "functionBogus",
     "addr": "/functionBogus/",
     "kind": "f",
@@ -640,13 +640,13 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009b03e7-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e74e2-90bd-11e5-879b-554f260534f5",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "lineno": 105,
     "namespace": "functionBogus",
-    "parent": "009b03e6-90a9-11e5-b2ec-a13ae1f60ffb",
+    "parent": "b03e74e1-90bd-11e5-879b-554f260534f5",
     "origin": {
       "!span": "1869[104:23]-1870[104:24]",
       "!data": {
@@ -659,7 +659,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009b03e8-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e74e3-90bd-11e5-879b-554f260534f5",
     "name": "unionFunction",
     "addr": "/unionFunction/",
     "kind": "f",
@@ -676,14 +676,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009b03e9-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e74e4-90bd-11e5-879b-554f260534f5",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "string",
     "lineno": 118,
     "namespace": "unionFunction",
-    "parent": "009b03e8-90a9-11e5-b2ec-a13ae1f60ffb",
+    "parent": "b03e74e3-90bd-11e5-879b-554f260534f5",
     "origin": {
       "!span": "2121[117:23]-2122[117:24]",
       "!type": "string",
@@ -697,7 +697,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009b03ea-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e74e5-90bd-11e5-879b-554f260534f5",
     "name": "ui",
     "addr": "/ui/",
     "kind": "f",
@@ -714,12 +714,12 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "009adcd9-90a9-11e5-b2ec-a13ae1f60ffb",
+    "id": "b03e74d6-90bd-11e5-879b-554f260534f5",
     "name": "<i>",
     "kind": "v",
     "type": "boolean",
     "namespace": "closureMap",
-    "parent": "009adcd8-90a9-11e5-b2ec-a13ae1f60ffb",
+    "parent": "b03e74d5-90bd-11e5-879b-554f260534f5",
     "origin": {
       "!type": "bool",
       "!data": {

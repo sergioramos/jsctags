@@ -41,7 +41,7 @@ mixin("foo") //: string
 ```json
 [
   {
-    "id": "01eadc70-90a9-11e5-b40f-cd9a1b0b284f",
+    "id": "b1584940-90bd-11e5-bf29-053916625120",
     "name": "Class",
     "addr": "/Class/",
     "kind": "f",
@@ -58,13 +58,13 @@ mixin("foo") //: string
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "01eb0380-90a9-11e5-b40f-cd9a1b0b284f",
+    "id": "b1587050-90bd-11e5-bf29-053916625120",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 2,
     "namespace": "Class",
-    "parent": "01eadc70-90a9-11e5-b40f-cd9a1b0b284f",
+    "parent": "b1584940-90bd-11e5-bf29-053916625120",
     "origin": {
       "!span": "26[1:6]-35[1:15]",
       "!data": {
@@ -75,14 +75,14 @@ mixin("foo") //: string
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "01eb0381-90a9-11e5-b40f-cd9a1b0b284f",
+    "id": "b1587051-90bd-11e5-bf29-053916625120",
     "name": "m3",
     "addr": "/m3/",
     "kind": "f",
     "type": "void function()",
     "lineno": 4,
     "namespace": "Class.prototype",
-    "parent": "01eb0380-90a9-11e5-b40f-cd9a1b0b284f",
+    "parent": "b1587050-90bd-11e5-bf29-053916625120",
     "origin": {
       "!span": "56[3:2]-58[3:4]",
       "!type": "fn()",
@@ -94,7 +94,7 @@ mixin("foo") //: string
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "01ebc6d1-90a9-11e5-b40f-cd9a1b0b284f",
+    "id": "b1590c92-90bd-11e5-bf29-053916625120",
     "name": "mixin",
     "addr": "/mixin/",
     "kind": "f",
@@ -111,14 +111,14 @@ mixin("foo") //: string
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "01eb9fc0-90a9-11e5-b40f-cd9a1b0b284f",
+    "id": "b1590c90-90bd-11e5-bf29-053916625120",
     "name": "m1",
     "addr": "/m1/",
     "kind": "f",
     "type": "void function()",
     "lineno": 14,
     "namespace": "Class.prototype",
-    "parent": "01eb0380-90a9-11e5-b40f-cd9a1b0b284f",
+    "parent": "b1587050-90bd-11e5-bf29-053916625120",
     "origin": {
       "!span": "159[13:9]-161[13:11]",
       "!type": "fn()",
@@ -130,7 +130,7 @@ mixin("foo") //: string
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "01ebc6d2-90a9-11e5-b40f-cd9a1b0b284f",
+    "id": "b1590c93-90bd-11e5-bf29-053916625120",
     "name": "m1",
     "addr": "/m1/",
     "kind": "f",
@@ -147,14 +147,14 @@ mixin("foo") //: string
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "01ec6310-90a9-11e5-b40f-cd9a1b0b284f",
+    "id": "b159cfe0-90bd-11e5-bf29-053916625120",
     "name": "m1",
     "addr": "/m1/",
     "kind": "f",
     "type": "void function()",
     "lineno": 14,
     "namespace": "OtherClass.prototype",
-    "parent": "01ebc6d5-90a9-11e5-b40f-cd9a1b0b284f",
+    "parent": "b15933a0-90bd-11e5-bf29-053916625120",
     "origin": {
       "!span": "159[13:9]-161[13:11]",
       "!type": "fn()",
@@ -166,7 +166,7 @@ mixin("foo") //: string
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "01ebc6d3-90a9-11e5-b40f-cd9a1b0b284f",
+    "id": "b1590c94-90bd-11e5-bf29-053916625120",
     "name": "m2",
     "addr": "/m2/",
     "kind": "f",
@@ -183,14 +183,14 @@ mixin("foo") //: string
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "01ec6311-90a9-11e5-b40f-cd9a1b0b284f",
+    "id": "b159cfe1-90bd-11e5-bf29-053916625120",
     "name": "m2",
     "addr": "/m2/",
     "kind": "f",
     "type": "void function()",
     "lineno": 16,
     "namespace": "OtherClass.prototype",
-    "parent": "01ebc6d5-90a9-11e5-b40f-cd9a1b0b284f",
+    "parent": "b15933a0-90bd-11e5-bf29-053916625120",
     "origin": {
       "!span": "182[15:9]-184[15:11]",
       "!type": "fn()",
@@ -202,14 +202,14 @@ mixin("foo") //: string
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "01ebc6d0-90a9-11e5-b40f-cd9a1b0b284f",
+    "id": "b1590c91-90bd-11e5-bf29-053916625120",
     "name": "m2",
     "addr": "/m2/",
     "kind": "f",
     "type": "void function()",
     "lineno": 16,
     "namespace": "Class.prototype",
-    "parent": "01eb0380-90a9-11e5-b40f-cd9a1b0b284f",
+    "parent": "b1587050-90bd-11e5-bf29-053916625120",
     "origin": {
       "!span": "182[15:9]-184[15:11]",
       "!type": "fn()",
@@ -221,7 +221,7 @@ mixin("foo") //: string
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "01ebc6d4-90a9-11e5-b40f-cd9a1b0b284f",
+    "id": "b1590c95-90bd-11e5-bf29-053916625120",
     "name": "OtherClass",
     "addr": "/OtherClass/",
     "kind": "f",
@@ -238,13 +238,13 @@ mixin("foo") //: string
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "01ebc6d5-90a9-11e5-b40f-cd9a1b0b284f",
+    "id": "b15933a0-90bd-11e5-bf29-053916625120",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 19,
     "namespace": "OtherClass",
-    "parent": "01ebc6d4-90a9-11e5-b40f-cd9a1b0b284f",
+    "parent": "b1590c95-90bd-11e5-bf29-053916625120",
     "origin": {
       "!span": "227[18:11]-236[18:20]",
       "!data": {
@@ -255,14 +255,14 @@ mixin("foo") //: string
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "01ebc6d6-90a9-11e5-b40f-cd9a1b0b284f",
+    "id": "b15933a1-90bd-11e5-bf29-053916625120",
     "name": "m4",
     "addr": "/m4/",
     "kind": "f",
     "type": "void function()",
     "lineno": 21,
     "namespace": "OtherClass.prototype",
-    "parent": "01ebc6d5-90a9-11e5-b40f-cd9a1b0b284f",
+    "parent": "b15933a0-90bd-11e5-bf29-053916625120",
     "origin": {
       "!span": "257[20:2]-259[20:4]",
       "!type": "fn()",
@@ -274,7 +274,7 @@ mixin("foo") //: string
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "01ec6312-90a9-11e5-b40f-cd9a1b0b284f",
+    "id": "b159cfe2-90bd-11e5-bf29-053916625120",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
@@ -291,7 +291,7 @@ mixin("foo") //: string
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "01ec6313-90a9-11e5-b40f-cd9a1b0b284f",
+    "id": "b159cfe3-90bd-11e5-bf29-053916625120",
     "name": "oc",
     "addr": "/oc/",
     "kind": "v",
