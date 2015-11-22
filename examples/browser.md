@@ -14,9 +14,9 @@ e_which; //: number
 ```json
 [
   {
-    "id": "4ca057b0-909d-11e5-b35c-f12a3ffcb2e3",
+    "id": "f4948df0-90a8-11e5-bc8e-a9e3db7061ca",
     "name": "newElt",
-    "addr": "newElt",
+    "addr": "/newElt/",
     "kind": "v",
     "type": "Element",
     "lineno": 5,
@@ -31,9 +31,9 @@ e_which; //: number
     "tagfile": "__DIR__/browser.js"
   },
   {
-    "id": "4ca07ec0-909d-11e5-b35c-f12a3ffcb2e3",
+    "id": "f494b500-90a8-11e5-bc8e-a9e3db7061ca",
     "name": "e_which",
-    "addr": "e_which",
+    "addr": "/e_which/",
     "kind": "v",
     "type": "number",
     "lineno": 9,
@@ -50,6 +50,6 @@ e_which; //: number
 ]
 ```
 ```ctags
-newElt	__DIR__/browser.js	newElt;"	v	lineno:5	type:Element
-e_which	__DIR__/browser.js	e_which;"	v	lineno:9	type:number
+newElt	__DIR__/browser.js	/newElt/;"	v	lineno:5	type:Element
+e_which	__DIR__/browser.js	/e_which/;"	v	lineno:9	type:number
 ```

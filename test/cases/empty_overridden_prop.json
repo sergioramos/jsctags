@@ -1,7 +1,7 @@
 [
   {
     "name": "Class",
-    "addr": "Class",
+    "addr": "/Class/",
     "kind": "f",
     "type": "void function()",
     "lineno": 1,
@@ -17,7 +17,7 @@
   },
   {
     "name": "hello",
-    "addr": "hello",
+    "addr": "/hello/",
     "kind": "v",
     "type": "string",
     "lineno": 2,
@@ -34,7 +34,7 @@
   },
   {
     "name": "c",
-    "addr": "c",
+    "addr": "/c/",
     "kind": "v",
     "type": "Class",
     "lineno": 4,

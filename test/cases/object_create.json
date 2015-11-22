@@ -1,7 +1,7 @@
 [
   {
     "name": "base",
-    "addr": "base",
+    "addr": "/base/",
     "kind": "v",
     "lineno": 1,
     "origin": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "bar",
-    "addr": "bar",
+    "addr": "/bar/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
@@ -32,7 +32,7 @@
   },
   {
     "name": "foo",
-    "addr": "foo",
+    "addr": "/foo/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
@@ -49,7 +49,7 @@
   },
   {
     "name": "gen1",
-    "addr": "gen1",
+    "addr": "/gen1/",
     "kind": "v",
     "lineno": 2,
     "origin": {
@@ -63,7 +63,7 @@
   },
   {
     "name": "gen2",
-    "addr": "gen2",
+    "addr": "/gen2/",
     "kind": "v",
     "lineno": 3,
     "origin": {
@@ -91,7 +91,7 @@
   },
   {
     "name": "baz",
-    "addr": "baz",
+    "addr": "/baz/",
     "kind": "v",
     "type": "number",
     "lineno": 5,
@@ -108,7 +108,7 @@
   },
   {
     "name": "quux",
-    "addr": "quux",
+    "addr": "/quux/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
@@ -125,7 +125,7 @@
   },
   {
     "name": "kaka",
-    "addr": "kaka",
+    "addr": "/kaka/",
     "kind": "v",
     "type": "number",
     "lineno": 7,
@@ -142,7 +142,7 @@
   },
   {
     "name": "extend",
-    "addr": "extend",
+    "addr": "/extend/",
     "kind": "v",
     "lineno": 23,
     "origin": {
@@ -156,7 +156,7 @@
   },
   {
     "name": "empty",
-    "addr": "empty",
+    "addr": "/empty/",
     "kind": "v",
     "lineno": 29,
     "origin": {
@@ -170,7 +170,7 @@
   },
   {
     "name": "prop1",
-    "addr": "prop1",
+    "addr": "/prop1/",
     "kind": "v",
     "type": "string",
     "lineno": 30,

@@ -1,7 +1,7 @@
 [
   {
     "name": "arguments",
-    "addr": "arguments",
+    "addr": "/arguments/",
     "kind": "v",
     "type": "number",
     "lineno": 1,

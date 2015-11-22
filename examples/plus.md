@@ -10,9 +10,9 @@ x + y; //: string
 ```json
 [
   {
-    "id": "5c937120-909d-11e5-8e95-e1c8d5abb64d",
+    "id": "052a28f0-90a9-11e5-a1ff-09e8423e7893",
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
@@ -27,9 +27,9 @@ x + y; //: string
     "tagfile": "__DIR__/plus.js"
   },
   {
-    "id": "5c939830-909d-11e5-8e95-e1c8d5abb64d",
+    "id": "052a5000-90a9-11e5-a1ff-09e8423e7893",
     "name": "y",
-    "addr": "y",
+    "addr": "/y/",
     "kind": "v",
     "type": "string",
     "lineno": 2,
@@ -46,6 +46,6 @@ x + y; //: string
 ]
 ```
 ```ctags
-x	__DIR__/plus.js	x;"	v	lineno:1	type:number
-y	__DIR__/plus.js	y;"	v	lineno:2	type:string
+x	__DIR__/plus.js	/x/;"	v	lineno:1	type:number
+y	__DIR__/plus.js	/y/;"	v	lineno:2	type:string
 ```

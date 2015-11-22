@@ -1,7 +1,7 @@
 [
   {
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "Date",
     "lineno": 2,
@@ -17,7 +17,7 @@
   },
   {
     "name": "c",
-    "addr": "c",
+    "addr": "/c/",
     "kind": "v",
     "lineno": 8,
     "origin": {
@@ -31,7 +31,7 @@
   },
   {
     "name": "b",
-    "addr": "b",
+    "addr": "/b/",
     "kind": "v",
     "type": "string",
     "lineno": 17,
@@ -50,7 +50,7 @@
   },
   {
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 17,
@@ -69,7 +69,7 @@
   },
   {
     "name": "foo",
-    "addr": "foo",
+    "addr": "/foo/",
     "kind": "f",
     "type": "[number] function(number, string)",
     "lineno": 17,
@@ -85,7 +85,7 @@
   },
   {
     "name": "abc",
-    "addr": "abc",
+    "addr": "/abc/",
     "kind": "f",
     "type": "void function()",
     "lineno": 21,
@@ -101,7 +101,7 @@
   },
   {
     "name": "bar",
-    "addr": "bar",
+    "addr": "/bar/",
     "kind": "f",
     "type": "string function(number, number)",
     "lineno": 30,
@@ -117,7 +117,7 @@
   },
   {
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 30,
@@ -136,7 +136,7 @@
   },
   {
     "name": "b",
-    "addr": "b",
+    "addr": "/b/",
     "kind": "v",
     "type": "number",
     "lineno": 30,
@@ -155,7 +155,7 @@
   },
   {
     "name": "o",
-    "addr": "o",
+    "addr": "/o/",
     "kind": "v",
     "lineno": 34,
     "origin": {
@@ -169,7 +169,7 @@
   },
   {
     "name": "prop1",
-    "addr": "prop1",
+    "addr": "/prop1/",
     "kind": "v",
     "type": "string",
     "lineno": 36,
@@ -186,7 +186,7 @@
   },
   {
     "name": "prop2",
-    "addr": "prop2",
+    "addr": "/prop2/",
     "kind": "f",
     "type": "number function()",
     "lineno": 39,
@@ -203,7 +203,7 @@
   },
   {
     "name": "prop3",
-    "addr": "prop3",
+    "addr": "/prop3/",
     "kind": "f",
     "type": "string function()",
     "lineno": 43,
@@ -220,7 +220,7 @@
   },
   {
     "name": "closureArray",
-    "addr": "closureArray",
+    "addr": "/closureArray/",
     "kind": "v",
     "type": "[string]",
     "lineno": 50,
@@ -236,7 +236,7 @@
   },
   {
     "name": "closureMap",
-    "addr": "closureMap",
+    "addr": "/closureMap/",
     "kind": "v",
     "lineno": 54,
     "origin": {
@@ -250,7 +250,7 @@
   },
   {
     "name": "takesOpt",
-    "addr": "takesOpt",
+    "addr": "/takesOpt/",
     "kind": "f",
     "type": "void function(number)",
     "lineno": 58,
@@ -266,7 +266,7 @@
   },
   {
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 58,
@@ -285,7 +285,7 @@
   },
   {
     "name": "myBitset",
-    "addr": "myBitset",
+    "addr": "/myBitset/",
     "kind": "v",
     "type": "[bool]",
     "lineno": 73,
@@ -301,7 +301,7 @@
   },
   {
     "name": "myObj",
-    "addr": "myObj",
+    "addr": "/myObj/",
     "kind": "v",
     "lineno": 78,
     "origin": {
@@ -315,7 +315,7 @@
   },
   {
     "name": "NonAscïį",
-    "addr": "NonAscïį",
+    "addr": "/NonAscïį/",
     "kind": "f",
     "type": "void function()",
     "lineno": 84,
@@ -331,7 +331,7 @@
   },
   {
     "name": "length",
-    "addr": "length",
+    "addr": "/length/",
     "kind": "v",
     "type": "string",
     "lineno": 84,
@@ -348,7 +348,7 @@
   },
   {
     "name": "inst",
-    "addr": "inst",
+    "addr": "/inst/",
     "kind": "v",
     "type": "NonAscïį",
     "lineno": 87,
@@ -392,7 +392,7 @@
   },
   {
     "name": "bogus",
-    "addr": "bogus",
+    "addr": "/bogus/",
     "kind": "v",
     "lineno": 92,
     "origin": {
@@ -436,7 +436,7 @@
   },
   {
     "name": "again",
-    "addr": "again",
+    "addr": "/again/",
     "kind": "v",
     "type": "number",
     "lineno": 97,
@@ -452,7 +452,7 @@
   },
   {
     "name": "functionBogus",
-    "addr": "functionBogus",
+    "addr": "/functionBogus/",
     "kind": "f",
     "type": "? function(?)",
     "lineno": 105,
@@ -468,7 +468,7 @@
   },
   {
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "lineno": 105,
     "namespace": "functionBogus",
@@ -485,7 +485,7 @@
   },
   {
     "name": "unionFunction",
-    "addr": "unionFunction",
+    "addr": "/unionFunction/",
     "kind": "f",
     "type": "[?|number] function(string)",
     "lineno": 118,
@@ -501,7 +501,7 @@
   },
   {
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "string",
     "lineno": 118,
@@ -520,7 +520,7 @@
   },
   {
     "name": "ui",
-    "addr": "ui",
+    "addr": "/ui/",
     "kind": "f",
     "type": "string function()",
     "lineno": 125,

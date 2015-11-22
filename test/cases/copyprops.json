@@ -1,7 +1,7 @@
 [
   {
     "name": "buildCopy",
-    "addr": "buildCopy",
+    "addr": "/buildCopy/",
     "kind": "f",
     "type": "? function(buildCopy.!0)",
     "lineno": 1,
@@ -17,7 +17,7 @@
   },
   {
     "name": "oo",
-    "addr": "oo",
+    "addr": "/oo/",
     "kind": "v",
     "lineno": 2,
     "namespace": "buildCopy",
@@ -34,7 +34,7 @@
   },
   {
     "name": "prop",
-    "addr": "prop",
+    "addr": "/prop/",
     "kind": "v",
     "lineno": 3,
     "namespace": "buildCopy",

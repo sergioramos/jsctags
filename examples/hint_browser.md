@@ -12,9 +12,9 @@ window.addEventListener("mousemove", function(e) { e.which. }); //+ toExponentia
 ```json
 [
   {
-    "id": "56294a80-909d-11e5-9b55-57c4b68e0595",
+    "id": "fe55ced0-90a8-11e5-b167-09b625eedda8",
     "name": "newElt",
-    "addr": "newElt",
+    "addr": "/newElt/",
     "kind": "v",
     "type": "Element",
     "lineno": 5,
@@ -29,12 +29,12 @@ window.addEventListener("mousemove", function(e) { e.which. }); //+ toExponentia
     "tagfile": "__DIR__/hint_browser.js"
   },
   {
-    "id": "56297191-909d-11e5-9b55-57c4b68e0595",
+    "id": "fe55f5e0-90a8-11e5-b167-09b625eedda8",
     "name": "e_which",
-    "addr": "e_which",
+    "addr": "/e_which/",
     "kind": "v",
     "lineno": 8,
-    "parent": "56297190-909d-11e5-9b55-57c4b68e0595",
+    "parent": "fe55ced1-90a8-11e5-b167-09b625eedda8",
     "origin": {
       "!span": "296[7:4]-303[7:11]",
       "!data": {
@@ -49,6 +49,6 @@ window.addEventListener("mousemove", function(e) { e.which. }); //+ toExponentia
 ]
 ```
 ```ctags
-newElt	__DIR__/hint_browser.js	newElt;"	v	lineno:5	type:Element
-e_which	__DIR__/hint_browser.js	e_which;"	v	lineno:8
+newElt	__DIR__/hint_browser.js	/newElt/;"	v	lineno:5	type:Element
+e_which	__DIR__/hint_browser.js	/e_which/;"	v	lineno:8
 ```

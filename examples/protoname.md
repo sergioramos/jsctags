@@ -23,9 +23,9 @@ new Sub3(); //: Sub3
 ```json
 [
   {
-    "id": "5d979ab0-909d-11e5-b43d-2b9019910ffc",
+    "id": "0661be90-90a9-11e5-b1c6-539fc8068278",
     "name": "Base",
-    "addr": "Base",
+    "addr": "/Base/",
     "kind": "f",
     "type": "void function()",
     "lineno": 1,
@@ -40,9 +40,9 @@ new Sub3(); //: Sub3
     "tagfile": "__DIR__/protoname.js"
   },
   {
-    "id": "5d97c1c0-909d-11e5-b43d-2b9019910ffc",
+    "id": "0661e5a0-90a9-11e5-b1c6-539fc8068278",
     "name": "Sub1",
-    "addr": "Sub1",
+    "addr": "/Sub1/",
     "kind": "f",
     "type": "void function()",
     "lineno": 7,
@@ -57,9 +57,9 @@ new Sub3(); //: Sub3
     "tagfile": "__DIR__/protoname.js"
   },
   {
-    "id": "5d97c1c1-909d-11e5-b43d-2b9019910ffc",
+    "id": "06620cb0-90a9-11e5-b1c6-539fc8068278",
     "name": "Sub2",
-    "addr": "Sub2",
+    "addr": "/Sub2/",
     "kind": "f",
     "type": "void function()",
     "lineno": 11,
@@ -74,9 +74,9 @@ new Sub3(); //: Sub3
     "tagfile": "__DIR__/protoname.js"
   },
   {
-    "id": "5d97c1c2-909d-11e5-b43d-2b9019910ffc",
+    "id": "06620cb1-90a9-11e5-b1c6-539fc8068278",
     "name": "Base2",
-    "addr": "Base2",
+    "addr": "/Base2/",
     "kind": "f",
     "type": "void function()",
     "lineno": 15,
@@ -91,9 +91,9 @@ new Sub3(); //: Sub3
     "tagfile": "__DIR__/protoname.js"
   },
   {
-    "id": "5d97c1c3-909d-11e5-b43d-2b9019910ffc",
+    "id": "06620cb2-90a9-11e5-b1c6-539fc8068278",
     "name": "Sub3",
-    "addr": "Sub3",
+    "addr": "/Sub3/",
     "kind": "f",
     "type": "void function()",
     "lineno": 17,
@@ -110,9 +110,9 @@ new Sub3(); //: Sub3
 ]
 ```
 ```ctags
-Base	__DIR__/protoname.js	Base;"	f	lineno:1	type:void function()
-Sub1	__DIR__/protoname.js	Sub1;"	f	lineno:7	type:void function()
-Sub2	__DIR__/protoname.js	Sub2;"	f	lineno:11	type:void function()
-Base2	__DIR__/protoname.js	Base2;"	f	lineno:15	type:void function()
-Sub3	__DIR__/protoname.js	Sub3;"	f	lineno:17	type:void function()
+Base	__DIR__/protoname.js	/Base/;"	f	lineno:1	type:void function()
+Sub1	__DIR__/protoname.js	/Sub1/;"	f	lineno:7	type:void function()
+Sub2	__DIR__/protoname.js	/Sub2/;"	f	lineno:11	type:void function()
+Base2	__DIR__/protoname.js	/Base2/;"	f	lineno:15	type:void function()
+Sub3	__DIR__/protoname.js	/Sub3/;"	f	lineno:17	type:void function()
 ```

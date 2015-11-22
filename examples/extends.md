@@ -63,9 +63,9 @@ two.methodEleven; //: ?
 ```json
 [
   {
-    "id": "5233f470-909d-11e5-9f1f-03c965add530",
+    "id": "fa68dd30-90a8-11e5-82c4-c30a010b0e5e",
     "name": "__extends",
-    "addr": "__extends",
+    "addr": "/__extends/",
     "kind": "f",
     "type": "void function(fn(arg: bool)",
     "lineno": 3,
@@ -80,14 +80,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52341b83-909d-11e5-9f1f-03c965add530",
+    "id": "fa692b53-90a8-11e5-82c4-c30a010b0e5e",
     "name": "parent",
-    "addr": "parent",
+    "addr": "/parent/",
     "kind": "f",
     "type": "void function(bool)",
     "lineno": 3,
     "namespace": "__extends",
-    "parent": "5233f470-909d-11e5-9f1f-03c965add530",
+    "parent": "fa68dd30-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "93[2:32]-99[2:38]",
       "!type": "fn(arg: bool)",
@@ -101,14 +101,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52341b80-909d-11e5-9f1f-03c965add530",
+    "id": "fa692b50-90a8-11e5-82c4-c30a010b0e5e",
     "name": "child",
-    "addr": "child",
+    "addr": "/child/",
     "kind": "f",
     "type": "void function(bool)",
     "lineno": 3,
     "namespace": "__extends",
-    "parent": "5233f470-909d-11e5-9f1f-03c965add530",
+    "parent": "fa68dd30-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "86[2:25]-91[2:30]",
       "!type": "fn(arg: bool)",
@@ -122,13 +122,13 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52341b82-909d-11e5-9f1f-03c965add530",
+    "id": "fa692b52-90a8-11e5-82c4-c30a010b0e5e",
     "name": "key",
-    "addr": "key",
+    "addr": "/key/",
     "kind": "v",
     "lineno": 4,
     "namespace": "__extends",
-    "parent": "5233f470-909d-11e5-9f1f-03c965add530",
+    "parent": "fa68dd30-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "114[3:11]-117[3:14]",
       "!data": {
@@ -141,14 +141,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52341b81-909d-11e5-9f1f-03c965add530",
+    "id": "fa692b51-90a8-11e5-82c4-c30a010b0e5e",
     "name": "ctor",
-    "addr": "ctor",
+    "addr": "/ctor/",
     "kind": "f",
     "type": "void function()",
     "lineno": 5,
     "namespace": "__extends",
-    "parent": "5233f470-909d-11e5-9f1f-03c965add530",
+    "parent": "fa68dd30-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "170[4:11]-174[4:15]",
       "!type": "fn()",
@@ -162,13 +162,13 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "523505e1-909d-11e5-9f1f-03c965add530",
+    "id": "fa6a15b8-90a8-11e5-82c4-c30a010b0e5e",
     "name": "prototype",
-    "addr": "prototype",
+    "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "SubTwo.prototype.constructor",
-    "parent": "523505e0-909d-11e5-9f1f-03c965add530",
+    "parent": "fa6a15b7-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "252[6:8]-261[6:17]",
       "!data": {
@@ -179,13 +179,13 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52352cf7-909d-11e5-9f1f-03c965add530",
+    "id": "fa6a3cc8-90a8-11e5-82c4-c30a010b0e5e",
     "name": "prototype",
-    "addr": "prototype",
+    "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "SubEleven",
-    "parent": "52352cf6-909d-11e5-9f1f-03c965add530",
+    "parent": "fa6a3cc7-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "252[6:8]-261[6:17]",
       "!data": {
@@ -196,13 +196,13 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "5234ded7-909d-11e5-9f1f-03c965add530",
+    "id": "fa6a15b5-90a8-11e5-82c4-c30a010b0e5e",
     "name": "prototype",
-    "addr": "prototype",
+    "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "SubTwo",
-    "parent": "5234ded6-909d-11e5-9f1f-03c965add530",
+    "parent": "fa6a15b4-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "252[6:8]-261[6:17]",
       "!data": {
@@ -213,13 +213,13 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52344293-909d-11e5-9f1f-03c965add530",
+    "id": "fa692b59-90a8-11e5-82c4-c30a010b0e5e",
     "name": "prototype",
-    "addr": "prototype",
+    "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "SubOne",
-    "parent": "52344292-909d-11e5-9f1f-03c965add530",
+    "parent": "fa692b58-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "252[6:8]-261[6:17]",
       "!data": {
@@ -230,13 +230,13 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52355401-909d-11e5-9f1f-03c965add530",
+    "id": "fa6a63d1-90a8-11e5-82c4-c30a010b0e5e",
     "name": "prototype",
-    "addr": "prototype",
+    "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "SubEleven.prototype.constructor",
-    "parent": "52355400-909d-11e5-9f1f-03c965add530",
+    "parent": "fa6a63d0-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "252[6:8]-261[6:17]",
       "!data": {
@@ -247,13 +247,13 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "5234b7c1-909d-11e5-9f1f-03c965add530",
+    "id": "fa69eea1-90a8-11e5-82c4-c30a010b0e5e",
     "name": "prototype",
-    "addr": "prototype",
+    "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "SubOne.prototype.constructor",
-    "parent": "5234b7c0-909d-11e5-9f1f-03c965add530",
+    "parent": "fa69eea0-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "252[6:8]-261[6:17]",
       "!data": {
@@ -264,9 +264,9 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52341b84-909d-11e5-9f1f-03c965add530",
+    "id": "fa692b54-90a8-11e5-82c4-c30a010b0e5e",
     "name": "Top",
-    "addr": "Top",
+    "addr": "/Top/",
     "kind": "f",
     "type": "void function()",
     "lineno": 10,
@@ -281,14 +281,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52344290-909d-11e5-9f1f-03c965add530",
+    "id": "fa692b56-90a8-11e5-82c4-c30a010b0e5e",
     "name": "topMethod",
-    "addr": "topMethod",
+    "addr": "/topMethod/",
     "kind": "f",
     "type": "string function()",
     "lineno": 12,
     "namespace": "Top.prototype",
-    "parent": "52341b85-909d-11e5-9f1f-03c965add530",
+    "parent": "fa692b55-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "340[11:16]-349[11:25]",
       "!type": "fn() -> string",
@@ -300,14 +300,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52344291-909d-11e5-9f1f-03c965add530",
+    "id": "fa692b57-90a8-11e5-82c4-c30a010b0e5e",
     "name": "topStatic",
-    "addr": "topStatic",
+    "addr": "/topStatic/",
     "kind": "v",
     "type": "number",
     "lineno": 13,
     "namespace": "Top",
-    "parent": "52341b84-909d-11e5-9f1f-03c965add530",
+    "parent": "fa692b54-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "386[12:6]-395[12:15]",
       "!type": "number",
@@ -319,9 +319,9 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52344292-909d-11e5-9f1f-03c965add530",
+    "id": "fa692b58-90a8-11e5-82c4-c30a010b0e5e",
     "name": "SubOne",
-    "addr": "SubOne",
+    "addr": "/SubOne/",
     "kind": "f",
     "type": "void function(bool)",
     "lineno": 17,
@@ -336,14 +336,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "5234b7c0-909d-11e5-9f1f-03c965add530",
+    "id": "fa69eea0-90a8-11e5-82c4-c30a010b0e5e",
     "name": "constructor",
-    "addr": "SubOne",
+    "addr": "/SubOne/",
     "kind": "f",
     "type": "void function(bool)",
     "lineno": 17,
     "namespace": "SubOne.prototype",
-    "parent": "52344293-909d-11e5-9f1f-03c965add530",
+    "parent": "fa692b59-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "427[16:4]-433[16:10]",
       "!type": "fn(arg: bool)",
@@ -355,14 +355,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "5234ded5-909d-11e5-9f1f-03c965add530",
+    "id": "fa6a15b3-90a8-11e5-82c4-c30a010b0e5e",
     "name": "arg",
-    "addr": "arg",
+    "addr": "/arg/",
     "kind": "v",
     "type": "boolean",
     "lineno": 18,
     "namespace": "SubOne",
-    "parent": "52344292-909d-11e5-9f1f-03c965add530",
+    "parent": "fa692b58-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "474[17:18]-477[17:21]",
       "!type": "bool",
@@ -376,14 +376,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52357b11-909d-11e5-9f1f-03c965add530",
+    "id": "fa6ab1f4-90a8-11e5-82c4-c30a010b0e5e",
     "name": "argOne",
-    "addr": "argOne",
+    "addr": "/argOne/",
     "kind": "v",
     "type": "boolean",
     "lineno": 18,
     "namespace": "SubEleven",
-    "parent": "52352cf6-909d-11e5-9f1f-03c965add530",
+    "parent": "fa6a3cc7-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "486[17:30]-492[17:36]",
       "!type": "bool",
@@ -395,14 +395,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "5234ded4-909d-11e5-9f1f-03c965add530",
+    "id": "fa6a15b2-90a8-11e5-82c4-c30a010b0e5e",
     "name": "argOne",
-    "addr": "argOne",
+    "addr": "/argOne/",
     "kind": "v",
     "type": "boolean",
     "lineno": 18,
     "namespace": "SubOne",
-    "parent": "52344292-909d-11e5-9f1f-03c965add530",
+    "parent": "fa692b58-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "486[17:30]-492[17:36]",
       "!type": "bool",
@@ -414,14 +414,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "5234ded2-909d-11e5-9f1f-03c965add530",
+    "id": "fa6a15b0-90a8-11e5-82c4-c30a010b0e5e",
     "name": "arg",
-    "addr": "arg",
+    "addr": "/arg/",
     "kind": "v",
     "type": "boolean",
     "lineno": 18,
     "namespace": "SubOne.prototype.constructor",
-    "parent": "5234b7c0-909d-11e5-9f1f-03c965add530",
+    "parent": "fa69eea0-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "474[17:18]-477[17:21]",
       "!type": "bool",
@@ -435,14 +435,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52355404-909d-11e5-9f1f-03c965add530",
+    "id": "fa6ab1f1-90a8-11e5-82c4-c30a010b0e5e",
     "name": "argOne",
-    "addr": "argOne",
+    "addr": "/argOne/",
     "kind": "v",
     "type": "boolean",
     "lineno": 18,
     "namespace": "SubEleven.prototype.constructor",
-    "parent": "52355400-909d-11e5-9f1f-03c965add530",
+    "parent": "fa6a63d0-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "486[17:30]-492[17:36]",
       "!type": "bool",
@@ -454,14 +454,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "5234ded1-909d-11e5-9f1f-03c965add530",
+    "id": "fa69eea4-90a8-11e5-82c4-c30a010b0e5e",
     "name": "argOne",
-    "addr": "argOne",
+    "addr": "/argOne/",
     "kind": "v",
     "type": "boolean",
     "lineno": 18,
     "namespace": "SubOne.prototype.constructor",
-    "parent": "5234b7c0-909d-11e5-9f1f-03c965add530",
+    "parent": "fa69eea0-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "486[17:30]-492[17:36]",
       "!type": "bool",
@@ -473,14 +473,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52344294-909d-11e5-9f1f-03c965add530",
+    "id": "fa692b5a-90a8-11e5-82c4-c30a010b0e5e",
     "name": "methodOne",
-    "addr": "methodOne",
+    "addr": "/methodOne/",
     "kind": "f",
     "type": "number function()",
     "lineno": 20,
     "namespace": "SubOne.prototype",
-    "parent": "52344293-909d-11e5-9f1f-03c965add530",
+    "parent": "fa692b59-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "550[19:19]-559[19:28]",
       "!type": "fn() -> number",
@@ -492,14 +492,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "5234b7c2-909d-11e5-9f1f-03c965add530",
+    "id": "fa69eea2-90a8-11e5-82c4-c30a010b0e5e",
     "name": "methodOne",
-    "addr": "methodOne",
+    "addr": "/methodOne/",
     "kind": "f",
     "type": "number function()",
     "lineno": 20,
     "namespace": "SubOne.prototype.constructor.prototype",
-    "parent": "5234b7c1-909d-11e5-9f1f-03c965add530",
+    "parent": "fa69eea1-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "550[19:19]-559[19:28]",
       "!type": "fn() -> number",
@@ -511,9 +511,9 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "5234ded6-909d-11e5-9f1f-03c965add530",
+    "id": "fa6a15b4-90a8-11e5-82c4-c30a010b0e5e",
     "name": "SubTwo",
-    "addr": "SubTwo",
+    "addr": "/SubTwo/",
     "kind": "f",
     "type": "void function(bool)",
     "lineno": 24,
@@ -528,12 +528,12 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52357b10-909d-11e5-9f1f-03c965add530",
+    "id": "fa6ab1f3-90a8-11e5-82c4-c30a010b0e5e",
     "name": "topStatic",
     "kind": "v",
     "type": "number",
     "namespace": "SubEleven",
-    "parent": "52352cf6-909d-11e5-9f1f-03c965add530",
+    "parent": "fa6a3cc7-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!type": "number",
       "!data": {
@@ -544,12 +544,12 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52352cf0-909d-11e5-9f1f-03c965add530",
+    "id": "fa6a3cc1-90a8-11e5-82c4-c30a010b0e5e",
     "name": "topStatic",
     "kind": "v",
     "type": "number",
     "namespace": "SubTwo.prototype.constructor",
-    "parent": "523505e0-909d-11e5-9f1f-03c965add530",
+    "parent": "fa6a15b7-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!type": "number",
       "!data": {
@@ -560,12 +560,12 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "5234ded3-909d-11e5-9f1f-03c965add530",
+    "id": "fa6a15b1-90a8-11e5-82c4-c30a010b0e5e",
     "name": "topStatic",
     "kind": "v",
     "type": "number",
     "namespace": "SubOne",
-    "parent": "52344292-909d-11e5-9f1f-03c965add530",
+    "parent": "fa692b58-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!type": "number",
       "!data": {
@@ -576,12 +576,12 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52355403-909d-11e5-9f1f-03c965add530",
+    "id": "fa6ab1f0-90a8-11e5-82c4-c30a010b0e5e",
     "name": "topStatic",
     "kind": "v",
     "type": "number",
     "namespace": "SubEleven.prototype.constructor",
-    "parent": "52355400-909d-11e5-9f1f-03c965add530",
+    "parent": "fa6a63d0-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!type": "number",
       "!data": {
@@ -592,12 +592,12 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52352cf3-909d-11e5-9f1f-03c965add530",
+    "id": "fa6a3cc4-90a8-11e5-82c4-c30a010b0e5e",
     "name": "topStatic",
     "kind": "v",
     "type": "number",
     "namespace": "SubTwo",
-    "parent": "5234ded6-909d-11e5-9f1f-03c965add530",
+    "parent": "fa6a15b4-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!type": "number",
       "!data": {
@@ -608,14 +608,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "523505e0-909d-11e5-9f1f-03c965add530",
+    "id": "fa6a15b7-90a8-11e5-82c4-c30a010b0e5e",
     "name": "constructor",
-    "addr": "SubTwo",
+    "addr": "/SubTwo/",
     "kind": "f",
     "type": "void function(bool)",
     "lineno": 24,
     "namespace": "SubTwo.prototype",
-    "parent": "5234ded7-909d-11e5-9f1f-03c965add530",
+    "parent": "fa6a15b5-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "618[23:4]-624[23:10]",
       "!type": "fn(arg: bool)",
@@ -627,12 +627,12 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "5234ded0-909d-11e5-9f1f-03c965add530",
+    "id": "fa69eea3-90a8-11e5-82c4-c30a010b0e5e",
     "name": "topStatic",
     "kind": "v",
     "type": "number",
     "namespace": "SubOne.prototype.constructor",
-    "parent": "5234b7c0-909d-11e5-9f1f-03c965add530",
+    "parent": "fa69eea0-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!type": "number",
       "!data": {
@@ -643,14 +643,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52352cf1-909d-11e5-9f1f-03c965add530",
+    "id": "fa6a3cc2-90a8-11e5-82c4-c30a010b0e5e",
     "name": "argTwo",
-    "addr": "argTwo",
+    "addr": "/argTwo/",
     "kind": "v",
     "type": "boolean",
     "lineno": 25,
     "namespace": "SubTwo.prototype.constructor",
-    "parent": "523505e0-909d-11e5-9f1f-03c965add530",
+    "parent": "fa6a15b7-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "677[24:30]-683[24:36]",
       "!type": "bool",
@@ -662,14 +662,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52352cf4-909d-11e5-9f1f-03c965add530",
+    "id": "fa6a3cc5-90a8-11e5-82c4-c30a010b0e5e",
     "name": "argTwo",
-    "addr": "argTwo",
+    "addr": "/argTwo/",
     "kind": "v",
     "type": "boolean",
     "lineno": 25,
     "namespace": "SubTwo",
-    "parent": "5234ded6-909d-11e5-9f1f-03c965add530",
+    "parent": "fa6a15b4-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "677[24:30]-683[24:36]",
       "!type": "bool",
@@ -681,14 +681,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52352cf2-909d-11e5-9f1f-03c965add530",
+    "id": "fa6a3cc3-90a8-11e5-82c4-c30a010b0e5e",
     "name": "arg",
-    "addr": "arg",
+    "addr": "/arg/",
     "kind": "v",
     "type": "boolean",
     "lineno": 25,
     "namespace": "SubTwo.prototype.constructor",
-    "parent": "523505e0-909d-11e5-9f1f-03c965add530",
+    "parent": "fa6a15b7-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "665[24:18]-668[24:21]",
       "!type": "bool",
@@ -702,14 +702,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52352cf5-909d-11e5-9f1f-03c965add530",
+    "id": "fa6a3cc6-90a8-11e5-82c4-c30a010b0e5e",
     "name": "arg",
-    "addr": "arg",
+    "addr": "/arg/",
     "kind": "v",
     "type": "boolean",
     "lineno": 25,
     "namespace": "SubTwo",
-    "parent": "5234ded6-909d-11e5-9f1f-03c965add530",
+    "parent": "fa6a15b4-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "665[24:18]-668[24:21]",
       "!type": "bool",
@@ -723,14 +723,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "5234ded8-909d-11e5-9f1f-03c965add530",
+    "id": "fa6a15b6-90a8-11e5-82c4-c30a010b0e5e",
     "name": "methodTwo",
-    "addr": "methodTwo",
+    "addr": "/methodTwo/",
     "kind": "f",
     "type": "void function()",
     "lineno": 27,
     "namespace": "SubTwo.prototype",
-    "parent": "5234ded7-909d-11e5-9f1f-03c965add530",
+    "parent": "fa6a15b5-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "741[26:19]-750[26:28]",
       "!type": "fn()",
@@ -742,14 +742,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "523505e2-909d-11e5-9f1f-03c965add530",
+    "id": "fa6a3cc0-90a8-11e5-82c4-c30a010b0e5e",
     "name": "methodTwo",
-    "addr": "methodTwo",
+    "addr": "/methodTwo/",
     "kind": "f",
     "type": "void function()",
     "lineno": 27,
     "namespace": "SubTwo.prototype.constructor.prototype",
-    "parent": "523505e1-909d-11e5-9f1f-03c965add530",
+    "parent": "fa6a15b8-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "741[26:19]-750[26:28]",
       "!type": "fn()",
@@ -761,9 +761,9 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52352cf6-909d-11e5-9f1f-03c965add530",
+    "id": "fa6a3cc7-90a8-11e5-82c4-c30a010b0e5e",
     "name": "SubEleven",
-    "addr": "SubEleven",
+    "addr": "/SubEleven/",
     "kind": "f",
     "type": "void function(bool)",
     "lineno": 31,
@@ -778,14 +778,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52355400-909d-11e5-9f1f-03c965add530",
+    "id": "fa6a63d0-90a8-11e5-82c4-c30a010b0e5e",
     "name": "constructor",
-    "addr": "SubEleven",
+    "addr": "/SubEleven/",
     "kind": "f",
     "type": "void function(bool)",
     "lineno": 31,
     "namespace": "SubEleven.prototype",
-    "parent": "52352cf7-909d-11e5-9f1f-03c965add530",
+    "parent": "fa6a3cc8-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "811[30:4]-820[30:13]",
       "!type": "fn(arg: bool)",
@@ -797,14 +797,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52355405-909d-11e5-9f1f-03c965add530",
+    "id": "fa6ab1f2-90a8-11e5-82c4-c30a010b0e5e",
     "name": "arg",
-    "addr": "arg",
+    "addr": "/arg/",
     "kind": "v",
     "type": "boolean",
     "lineno": 32,
     "namespace": "SubEleven.prototype.constructor",
-    "parent": "52355400-909d-11e5-9f1f-03c965add530",
+    "parent": "fa6a63d0-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "864[31:21]-867[31:24]",
       "!type": "bool",
@@ -818,14 +818,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52357b12-909d-11e5-9f1f-03c965add530",
+    "id": "fa6ab1f5-90a8-11e5-82c4-c30a010b0e5e",
     "name": "arg",
-    "addr": "arg",
+    "addr": "/arg/",
     "kind": "v",
     "type": "boolean",
     "lineno": 32,
     "namespace": "SubEleven",
-    "parent": "52352cf6-909d-11e5-9f1f-03c965add530",
+    "parent": "fa6a3cc7-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "864[31:21]-867[31:24]",
       "!type": "bool",
@@ -839,14 +839,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52355402-909d-11e5-9f1f-03c965add530",
+    "id": "fa6a63d2-90a8-11e5-82c4-c30a010b0e5e",
     "name": "methodEleven",
-    "addr": "methodEleven",
+    "addr": "/methodEleven/",
     "kind": "f",
     "type": "string function()",
     "lineno": 34,
     "namespace": "SubEleven.prototype.constructor.prototype",
-    "parent": "52355401-909d-11e5-9f1f-03c965add530",
+    "parent": "fa6a63d1-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "951[33:22]-963[33:34]",
       "!type": "fn() -> string",
@@ -858,14 +858,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52352cf8-909d-11e5-9f1f-03c965add530",
+    "id": "fa6a3cc9-90a8-11e5-82c4-c30a010b0e5e",
     "name": "methodEleven",
-    "addr": "methodEleven",
+    "addr": "/methodEleven/",
     "kind": "f",
     "type": "string function()",
     "lineno": 34,
     "namespace": "SubEleven.prototype",
-    "parent": "52352cf7-909d-11e5-9f1f-03c965add530",
+    "parent": "fa6a3cc8-90a8-11e5-82c4-c30a010b0e5e",
     "origin": {
       "!span": "951[33:22]-963[33:34]",
       "!type": "fn() -> string",
@@ -877,9 +877,9 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52357b13-909d-11e5-9f1f-03c965add530",
+    "id": "fa6ab1f6-90a8-11e5-82c4-c30a010b0e5e",
     "name": "one",
-    "addr": "one",
+    "addr": "/one/",
     "kind": "v",
     "type": "SubOne",
     "lineno": 38,
@@ -894,9 +894,9 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52357b14-909d-11e5-9f1f-03c965add530",
+    "id": "fa6ab1f7-90a8-11e5-82c4-c30a010b0e5e",
     "name": "two",
-    "addr": "two",
+    "addr": "/two/",
     "kind": "v",
     "type": "SubTwo",
     "lineno": 38,
@@ -911,9 +911,9 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "52357b15-909d-11e5-9f1f-03c965add530",
+    "id": "fa6ab1f8-90a8-11e5-82c4-c30a010b0e5e",
     "name": "elf",
-    "addr": "elf",
+    "addr": "/elf/",
     "kind": "v",
     "type": "SubEleven",
     "lineno": 38,
@@ -930,51 +930,51 @@ two.methodEleven; //: ?
 ]
 ```
 ```ctags
-__extends	__DIR__/extends.js	__extends;"	f	lineno:3	type:void function(fn(arg: bool)
-parent	__DIR__/extends.js	parent;"	f	lineno:3	namespace:__extends	type:void function(bool)
-child	__DIR__/extends.js	child;"	f	lineno:3	namespace:__extends	type:void function(bool)
-key	__DIR__/extends.js	key;"	v	lineno:4	namespace:__extends
-ctor	__DIR__/extends.js	ctor;"	f	lineno:5	namespace:__extends	type:void function()
-prototype	__DIR__/extends.js	prototype;"	v	lineno:7	namespace:SubTwo.prototype.constructor
-prototype	__DIR__/extends.js	prototype;"	v	lineno:7	namespace:SubEleven
-prototype	__DIR__/extends.js	prototype;"	v	lineno:7	namespace:SubTwo
-prototype	__DIR__/extends.js	prototype;"	v	lineno:7	namespace:SubOne
-prototype	__DIR__/extends.js	prototype;"	v	lineno:7	namespace:SubEleven.prototype.constructor
-prototype	__DIR__/extends.js	prototype;"	v	lineno:7	namespace:SubOne.prototype.constructor
-Top	__DIR__/extends.js	Top;"	f	lineno:10	type:void function()
-topMethod	__DIR__/extends.js	topMethod;"	f	lineno:12	namespace:Top.prototype	type:string function()
-topStatic	__DIR__/extends.js	topStatic;"	v	lineno:13	namespace:Top	type:number
-SubOne	__DIR__/extends.js	SubOne;"	f	lineno:17	type:void function(bool)
-constructor	__DIR__/extends.js	SubOne;"	f	lineno:17	namespace:SubOne.prototype	type:void function(bool)
-arg	__DIR__/extends.js	arg;"	v	lineno:18	namespace:SubOne	type:boolean
-argOne	__DIR__/extends.js	argOne;"	v	lineno:18	namespace:SubEleven	type:boolean
-argOne	__DIR__/extends.js	argOne;"	v	lineno:18	namespace:SubOne	type:boolean
-arg	__DIR__/extends.js	arg;"	v	lineno:18	namespace:SubOne.prototype.constructor	type:boolean
-argOne	__DIR__/extends.js	argOne;"	v	lineno:18	namespace:SubEleven.prototype.constructor	type:boolean
-argOne	__DIR__/extends.js	argOne;"	v	lineno:18	namespace:SubOne.prototype.constructor	type:boolean
-methodOne	__DIR__/extends.js	methodOne;"	f	lineno:20	namespace:SubOne.prototype	type:number function()
-methodOne	__DIR__/extends.js	methodOne;"	f	lineno:20	namespace:SubOne.prototype.constructor.prototype	type:number function()
-SubTwo	__DIR__/extends.js	SubTwo;"	f	lineno:24	type:void function(bool)
+__extends	__DIR__/extends.js	/__extends/;"	f	lineno:3	type:void function(fn(arg: bool)
+parent	__DIR__/extends.js	/parent/;"	f	lineno:3	namespace:__extends	type:void function(bool)
+child	__DIR__/extends.js	/child/;"	f	lineno:3	namespace:__extends	type:void function(bool)
+key	__DIR__/extends.js	/key/;"	v	lineno:4	namespace:__extends
+ctor	__DIR__/extends.js	/ctor/;"	f	lineno:5	namespace:__extends	type:void function()
+prototype	__DIR__/extends.js	/prototype/;"	v	lineno:7	namespace:SubTwo.prototype.constructor
+prototype	__DIR__/extends.js	/prototype/;"	v	lineno:7	namespace:SubEleven
+prototype	__DIR__/extends.js	/prototype/;"	v	lineno:7	namespace:SubTwo
+prototype	__DIR__/extends.js	/prototype/;"	v	lineno:7	namespace:SubOne
+prototype	__DIR__/extends.js	/prototype/;"	v	lineno:7	namespace:SubEleven.prototype.constructor
+prototype	__DIR__/extends.js	/prototype/;"	v	lineno:7	namespace:SubOne.prototype.constructor
+Top	__DIR__/extends.js	/Top/;"	f	lineno:10	type:void function()
+topMethod	__DIR__/extends.js	/topMethod/;"	f	lineno:12	namespace:Top.prototype	type:string function()
+topStatic	__DIR__/extends.js	/topStatic/;"	v	lineno:13	namespace:Top	type:number
+SubOne	__DIR__/extends.js	/SubOne/;"	f	lineno:17	type:void function(bool)
+constructor	__DIR__/extends.js	/SubOne/;"	f	lineno:17	namespace:SubOne.prototype	type:void function(bool)
+arg	__DIR__/extends.js	/arg/;"	v	lineno:18	namespace:SubOne	type:boolean
+argOne	__DIR__/extends.js	/argOne/;"	v	lineno:18	namespace:SubEleven	type:boolean
+argOne	__DIR__/extends.js	/argOne/;"	v	lineno:18	namespace:SubOne	type:boolean
+arg	__DIR__/extends.js	/arg/;"	v	lineno:18	namespace:SubOne.prototype.constructor	type:boolean
+argOne	__DIR__/extends.js	/argOne/;"	v	lineno:18	namespace:SubEleven.prototype.constructor	type:boolean
+argOne	__DIR__/extends.js	/argOne/;"	v	lineno:18	namespace:SubOne.prototype.constructor	type:boolean
+methodOne	__DIR__/extends.js	/methodOne/;"	f	lineno:20	namespace:SubOne.prototype	type:number function()
+methodOne	__DIR__/extends.js	/methodOne/;"	f	lineno:20	namespace:SubOne.prototype.constructor.prototype	type:number function()
+SubTwo	__DIR__/extends.js	/SubTwo/;"	f	lineno:24	type:void function(bool)
 topStatic	__DIR__/extends.js	//;"	v	namespace:SubEleven	type:number
 topStatic	__DIR__/extends.js	//;"	v	namespace:SubTwo.prototype.constructor	type:number
 topStatic	__DIR__/extends.js	//;"	v	namespace:SubOne	type:number
 topStatic	__DIR__/extends.js	//;"	v	namespace:SubEleven.prototype.constructor	type:number
 topStatic	__DIR__/extends.js	//;"	v	namespace:SubTwo	type:number
-constructor	__DIR__/extends.js	SubTwo;"	f	lineno:24	namespace:SubTwo.prototype	type:void function(bool)
+constructor	__DIR__/extends.js	/SubTwo/;"	f	lineno:24	namespace:SubTwo.prototype	type:void function(bool)
 topStatic	__DIR__/extends.js	//;"	v	namespace:SubOne.prototype.constructor	type:number
-argTwo	__DIR__/extends.js	argTwo;"	v	lineno:25	namespace:SubTwo.prototype.constructor	type:boolean
-argTwo	__DIR__/extends.js	argTwo;"	v	lineno:25	namespace:SubTwo	type:boolean
-arg	__DIR__/extends.js	arg;"	v	lineno:25	namespace:SubTwo.prototype.constructor	type:boolean
-arg	__DIR__/extends.js	arg;"	v	lineno:25	namespace:SubTwo	type:boolean
-methodTwo	__DIR__/extends.js	methodTwo;"	f	lineno:27	namespace:SubTwo.prototype	type:void function()
-methodTwo	__DIR__/extends.js	methodTwo;"	f	lineno:27	namespace:SubTwo.prototype.constructor.prototype	type:void function()
-SubEleven	__DIR__/extends.js	SubEleven;"	f	lineno:31	type:void function(bool)
-constructor	__DIR__/extends.js	SubEleven;"	f	lineno:31	namespace:SubEleven.prototype	type:void function(bool)
-arg	__DIR__/extends.js	arg;"	v	lineno:32	namespace:SubEleven.prototype.constructor	type:boolean
-arg	__DIR__/extends.js	arg;"	v	lineno:32	namespace:SubEleven	type:boolean
-methodEleven	__DIR__/extends.js	methodEleven;"	f	lineno:34	namespace:SubEleven.prototype.constructor.prototype	type:string function()
-methodEleven	__DIR__/extends.js	methodEleven;"	f	lineno:34	namespace:SubEleven.prototype	type:string function()
-one	__DIR__/extends.js	one;"	v	lineno:38	type:SubOne
-two	__DIR__/extends.js	two;"	v	lineno:38	type:SubTwo
-elf	__DIR__/extends.js	elf;"	v	lineno:38	type:SubEleven
+argTwo	__DIR__/extends.js	/argTwo/;"	v	lineno:25	namespace:SubTwo.prototype.constructor	type:boolean
+argTwo	__DIR__/extends.js	/argTwo/;"	v	lineno:25	namespace:SubTwo	type:boolean
+arg	__DIR__/extends.js	/arg/;"	v	lineno:25	namespace:SubTwo.prototype.constructor	type:boolean
+arg	__DIR__/extends.js	/arg/;"	v	lineno:25	namespace:SubTwo	type:boolean
+methodTwo	__DIR__/extends.js	/methodTwo/;"	f	lineno:27	namespace:SubTwo.prototype	type:void function()
+methodTwo	__DIR__/extends.js	/methodTwo/;"	f	lineno:27	namespace:SubTwo.prototype.constructor.prototype	type:void function()
+SubEleven	__DIR__/extends.js	/SubEleven/;"	f	lineno:31	type:void function(bool)
+constructor	__DIR__/extends.js	/SubEleven/;"	f	lineno:31	namespace:SubEleven.prototype	type:void function(bool)
+arg	__DIR__/extends.js	/arg/;"	v	lineno:32	namespace:SubEleven.prototype.constructor	type:boolean
+arg	__DIR__/extends.js	/arg/;"	v	lineno:32	namespace:SubEleven	type:boolean
+methodEleven	__DIR__/extends.js	/methodEleven/;"	f	lineno:34	namespace:SubEleven.prototype.constructor.prototype	type:string function()
+methodEleven	__DIR__/extends.js	/methodEleven/;"	f	lineno:34	namespace:SubEleven.prototype	type:string function()
+one	__DIR__/extends.js	/one/;"	v	lineno:38	type:SubOne
+two	__DIR__/extends.js	/two/;"	v	lineno:38	type:SubTwo
+elf	__DIR__/extends.js	/elf/;"	v	lineno:38	type:SubEleven
 ```

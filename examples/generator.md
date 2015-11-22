@@ -17,9 +17,9 @@ g2().next().value //: bool
 ```json
 [
   {
-    "id": "542479d0-909d-11e5-b243-0de6c9633cd1",
+    "id": "fc761250-90a8-11e5-b368-41f3e49ed876",
     "name": "foo",
-    "addr": "foo",
+    "addr": "/foo/",
     "kind": "f",
     "type": "number function()",
     "lineno": 1,
@@ -34,14 +34,14 @@ g2().next().value //: bool
     "tagfile": "__DIR__/generator.js"
   },
   {
-    "id": "5424a0e0-909d-11e5-b243-0de6c9633cd1",
+    "id": "fc763960-90a8-11e5-b368-41f3e49ed876",
     "name": "index",
-    "addr": "index",
+    "addr": "/index/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "foo",
-    "parent": "542479d0-909d-11e5-b243-0de6c9633cd1",
+    "parent": "fc761250-90a8-11e5-b368-41f3e49ed876",
     "origin": {
       "!span": "24[1:6]-29[1:11]",
       "!type": "number",
@@ -55,14 +55,14 @@ g2().next().value //: bool
     "tagfile": "__DIR__/generator.js"
   },
   {
-    "id": "5424a0e1-909d-11e5-b243-0de6c9633cd1",
+    "id": "fc763961-90a8-11e5-b368-41f3e49ed876",
     "name": "out",
-    "addr": "out",
+    "addr": "/out/",
     "kind": "v",
     "type": "string",
     "lineno": 2,
     "namespace": "foo",
-    "parent": "542479d0-909d-11e5-b243-0de6c9633cd1",
+    "parent": "fc761250-90a8-11e5-b368-41f3e49ed876",
     "origin": {
       "!span": "35[1:17]-38[1:20]",
       "!type": "string",
@@ -76,9 +76,9 @@ g2().next().value //: bool
     "tagfile": "__DIR__/generator.js"
   },
   {
-    "id": "5424c7f0-909d-11e5-b243-0de6c9633cd1",
+    "id": "fc763962-90a8-11e5-b368-41f3e49ed876",
     "name": "it",
-    "addr": "it",
+    "addr": "/it/",
     "kind": "v",
     "lineno": 8,
     "origin": {
@@ -91,12 +91,12 @@ g2().next().value //: bool
     "tagfile": "__DIR__/generator.js"
   },
   {
-    "id": "5424c7f1-909d-11e5-b243-0de6c9633cd1",
+    "id": "fc763963-90a8-11e5-b368-41f3e49ed876",
     "name": "next",
     "kind": "f",
     "type": "it.next.!ret function()",
     "namespace": "it",
-    "parent": "5424c7f0-909d-11e5-b243-0de6c9633cd1",
+    "parent": "fc763962-90a8-11e5-b368-41f3e49ed876",
     "origin": {
       "!type": "fn(string) -> it.next.!ret",
       "!data": {
@@ -107,9 +107,9 @@ g2().next().value //: bool
     "tagfile": "__DIR__/generator.js"
   },
   {
-    "id": "5424c7f2-909d-11e5-b243-0de6c9633cd1",
+    "id": "fc763964-90a8-11e5-b368-41f3e49ed876",
     "name": "g1",
-    "addr": "g1",
+    "addr": "/g1/",
     "kind": "f",
     "type": "boolean function()",
     "lineno": 11,
@@ -124,9 +124,9 @@ g2().next().value //: bool
     "tagfile": "__DIR__/generator.js"
   },
   {
-    "id": "5424c7f3-909d-11e5-b243-0de6c9633cd1",
+    "id": "fc763965-90a8-11e5-b368-41f3e49ed876",
     "name": "g2",
-    "addr": "g2",
+    "addr": "/g2/",
     "kind": "f",
     "type": "boolean function()",
     "lineno": 12,
@@ -143,11 +143,11 @@ g2().next().value //: bool
 ]
 ```
 ```ctags
-foo	__DIR__/generator.js	foo;"	f	lineno:1	type:number function()
-index	__DIR__/generator.js	index;"	v	lineno:2	namespace:foo	type:number
-out	__DIR__/generator.js	out;"	v	lineno:2	namespace:foo	type:string
-it	__DIR__/generator.js	it;"	v	lineno:8
+foo	__DIR__/generator.js	/foo/;"	f	lineno:1	type:number function()
+index	__DIR__/generator.js	/index/;"	v	lineno:2	namespace:foo	type:number
+out	__DIR__/generator.js	/out/;"	v	lineno:2	namespace:foo	type:string
+it	__DIR__/generator.js	/it/;"	v	lineno:8
 next	__DIR__/generator.js	//;"	f	namespace:it	type:it.next.!ret function()
-g1	__DIR__/generator.js	g1;"	f	lineno:11	type:boolean function()
-g2	__DIR__/generator.js	g2;"	f	lineno:12	type:boolean function()
+g1	__DIR__/generator.js	/g1/;"	f	lineno:11	type:boolean function()
+g2	__DIR__/generator.js	/g2/;"	f	lineno:12	type:boolean function()
 ```

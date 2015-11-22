@@ -37,9 +37,9 @@ o //: bool
 ```json
 [
   {
-    "id": "503d0670-909d-11e5-a3b2-f95695b71b6c",
+    "id": "f84009c0-90a8-11e5-89ca-37b1ad06f475",
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
@@ -54,9 +54,9 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "503d2d81-909d-11e5-a3b2-f95695b71b6c",
+    "id": "f84030d1-90a8-11e5-89ca-37b1ad06f475",
     "name": "d",
-    "addr": "d",
+    "addr": "/d/",
     "kind": "v",
     "type": "boolean",
     "lineno": 4,
@@ -71,9 +71,9 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "503d2d80-909d-11e5-a3b2-f95695b71b6c",
+    "id": "f84030d0-90a8-11e5-89ca-37b1ad06f475",
     "name": "c",
-    "addr": "c",
+    "addr": "/c/",
     "kind": "v",
     "type": "string",
     "lineno": 4,
@@ -88,9 +88,9 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "503d2d82-909d-11e5-a3b2-f95695b71b6c",
+    "id": "f84030d2-90a8-11e5-89ca-37b1ad06f475",
     "name": "foo",
-    "addr": "foo",
+    "addr": "/foo/",
     "kind": "f",
     "type": "void function(Array[bool], ?, foo.!2, number)",
     "lineno": 8,
@@ -105,14 +105,14 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "503d2d83-909d-11e5-a3b2-f95695b71b6c",
+    "id": "f84057e0-90a8-11e5-89ca-37b1ad06f475",
     "name": "e",
-    "addr": "e",
+    "addr": "/e/",
     "kind": "v",
     "type": "boolean",
     "lineno": 8,
     "namespace": "foo",
-    "parent": "503d2d82-909d-11e5-a3b2-f95695b71b6c",
+    "parent": "f84030d2-90a8-11e5-89ca-37b1ad06f475",
     "origin": {
       "!span": "105[7:14]-106[7:15]",
       "!type": "bool",
@@ -126,14 +126,14 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "503d2d84-909d-11e5-a3b2-f95695b71b6c",
+    "id": "f84057e1-90a8-11e5-89ca-37b1ad06f475",
     "name": "f",
-    "addr": "f",
+    "addr": "/f/",
     "kind": "v",
     "type": "number",
     "lineno": 8,
     "namespace": "foo",
-    "parent": "503d2d82-909d-11e5-a3b2-f95695b71b6c",
+    "parent": "f84030d2-90a8-11e5-89ca-37b1ad06f475",
     "origin": {
       "!span": "110[7:19]-111[7:20]",
       "!type": "number",
@@ -147,14 +147,14 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "503d2d85-909d-11e5-a3b2-f95695b71b6c",
+    "id": "f84057e2-90a8-11e5-89ca-37b1ad06f475",
     "name": "g",
-    "addr": "g",
+    "addr": "/g/",
     "kind": "v",
     "type": "string",
     "lineno": 8,
     "namespace": "foo",
-    "parent": "503d2d82-909d-11e5-a3b2-f95695b71b6c",
+    "parent": "f84030d2-90a8-11e5-89ca-37b1ad06f475",
     "origin": {
       "!span": "117[7:26]-118[7:27]",
       "!type": "string",
@@ -168,14 +168,14 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "503d2d86-909d-11e5-a3b2-f95695b71b6c",
+    "id": "f84057e3-90a8-11e5-89ca-37b1ad06f475",
     "name": "h",
-    "addr": "h",
+    "addr": "/h/",
     "kind": "v",
     "type": "[number]",
     "lineno": 8,
     "namespace": "foo",
-    "parent": "503d2d82-909d-11e5-a3b2-f95695b71b6c",
+    "parent": "f84030d2-90a8-11e5-89ca-37b1ad06f475",
     "origin": {
       "!span": "124[7:33]-125[7:34]",
       "!type": "[number]",
@@ -189,9 +189,9 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "503d2d87-909d-11e5-a3b2-f95695b71b6c",
+    "id": "f84057e4-90a8-11e5-89ca-37b1ad06f475",
     "name": "i",
-    "addr": "i",
+    "addr": "/i/",
     "kind": "v",
     "type": "number",
     "lineno": 20,
@@ -206,9 +206,9 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "503d2d88-909d-11e5-a3b2-f95695b71b6c",
+    "id": "f84057e5-90a8-11e5-89ca-37b1ad06f475",
     "name": "j",
-    "addr": "j",
+    "addr": "/j/",
     "kind": "v",
     "type": "boolean",
     "lineno": 20,
@@ -223,9 +223,9 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "503d5495-909d-11e5-a3b2-f95695b71b6c",
+    "id": "f84057eb-90a8-11e5-89ca-37b1ad06f475",
     "name": "l",
-    "addr": "l",
+    "addr": "/l/",
     "kind": "v",
     "type": "string",
     "lineno": 21,
@@ -240,9 +240,9 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "503d5496-909d-11e5-a3b2-f95695b71b6c",
+    "id": "f84057ec-90a8-11e5-89ca-37b1ad06f475",
     "name": "m",
-    "addr": "m",
+    "addr": "/m/",
     "kind": "v",
     "type": "[string]",
     "lineno": 21,
@@ -257,9 +257,9 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "503d5490-909d-11e5-a3b2-f95695b71b6c",
+    "id": "f84057e6-90a8-11e5-89ca-37b1ad06f475",
     "name": "out",
-    "addr": "out",
+    "addr": "/out/",
     "kind": "v",
     "lineno": 28,
     "origin": {
@@ -272,14 +272,14 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "503d5491-909d-11e5-a3b2-f95695b71b6c",
+    "id": "f84057e7-90a8-11e5-89ca-37b1ad06f475",
     "name": "prop",
-    "addr": "prop",
+    "addr": "/prop/",
     "kind": "v",
     "type": "number",
     "lineno": 29,
     "namespace": "out",
-    "parent": "503d5490-909d-11e5-a3b2-f95695b71b6c",
+    "parent": "f84057e6-90a8-11e5-89ca-37b1ad06f475",
     "origin": {
       "!span": "418[28:6]-422[28:10]",
       "!type": "number",
@@ -291,14 +291,14 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "503d5492-909d-11e5-a3b2-f95695b71b6c",
+    "id": "f84057e8-90a8-11e5-89ca-37b1ad06f475",
     "name": "prop2",
-    "addr": "prop2",
+    "addr": "/prop2/",
     "kind": "v",
     "type": "boolean",
     "lineno": 29,
     "namespace": "out",
-    "parent": "503d5490-909d-11e5-a3b2-f95695b71b6c",
+    "parent": "f84057e6-90a8-11e5-89ca-37b1ad06f475",
     "origin": {
       "!span": "428[28:16]-433[28:21]",
       "!type": "bool",
@@ -310,9 +310,9 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "503d5493-909d-11e5-a3b2-f95695b71b6c",
+    "id": "f84057e9-90a8-11e5-89ca-37b1ad06f475",
     "name": "n",
-    "addr": "n",
+    "addr": "/n/",
     "kind": "v",
     "type": "string",
     "lineno": 32,
@@ -327,9 +327,9 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "503d5494-909d-11e5-a3b2-f95695b71b6c",
+    "id": "f84057ea-90a8-11e5-89ca-37b1ad06f475",
     "name": "o",
-    "addr": "o",
+    "addr": "/o/",
     "kind": "v",
     "type": "boolean",
     "lineno": 32,
@@ -346,21 +346,21 @@ o //: bool
 ]
 ```
 ```ctags
-a	__DIR__/destructure.js	a;"	v	lineno:1	type:number
-d	__DIR__/destructure.js	d;"	v	lineno:4	type:boolean
-c	__DIR__/destructure.js	c;"	v	lineno:4	type:string
-foo	__DIR__/destructure.js	foo;"	f	lineno:8	type:void function(Array[bool], ?, foo.!2, number)
-e	__DIR__/destructure.js	e;"	v	lineno:8	namespace:foo	type:boolean
-f	__DIR__/destructure.js	f;"	v	lineno:8	namespace:foo	type:number
-g	__DIR__/destructure.js	g;"	v	lineno:8	namespace:foo	type:string
-h	__DIR__/destructure.js	h;"	v	lineno:8	namespace:foo	type:[number]
-i	__DIR__/destructure.js	i;"	v	lineno:20	type:number
-j	__DIR__/destructure.js	j;"	v	lineno:20	type:boolean
-l	__DIR__/destructure.js	l;"	v	lineno:21	type:string
-m	__DIR__/destructure.js	m;"	v	lineno:21	type:[string]
-out	__DIR__/destructure.js	out;"	v	lineno:28
-prop	__DIR__/destructure.js	prop;"	v	lineno:29	namespace:out	type:number
-prop2	__DIR__/destructure.js	prop2;"	v	lineno:29	namespace:out	type:boolean
-n	__DIR__/destructure.js	n;"	v	lineno:32	type:string
-o	__DIR__/destructure.js	o;"	v	lineno:32	type:boolean
+a	__DIR__/destructure.js	/a/;"	v	lineno:1	type:number
+d	__DIR__/destructure.js	/d/;"	v	lineno:4	type:boolean
+c	__DIR__/destructure.js	/c/;"	v	lineno:4	type:string
+foo	__DIR__/destructure.js	/foo/;"	f	lineno:8	type:void function(Array[bool], ?, foo.!2, number)
+e	__DIR__/destructure.js	/e/;"	v	lineno:8	namespace:foo	type:boolean
+f	__DIR__/destructure.js	/f/;"	v	lineno:8	namespace:foo	type:number
+g	__DIR__/destructure.js	/g/;"	v	lineno:8	namespace:foo	type:string
+h	__DIR__/destructure.js	/h/;"	v	lineno:8	namespace:foo	type:[number]
+i	__DIR__/destructure.js	/i/;"	v	lineno:20	type:number
+j	__DIR__/destructure.js	/j/;"	v	lineno:20	type:boolean
+l	__DIR__/destructure.js	/l/;"	v	lineno:21	type:string
+m	__DIR__/destructure.js	/m/;"	v	lineno:21	type:[string]
+out	__DIR__/destructure.js	/out/;"	v	lineno:28
+prop	__DIR__/destructure.js	/prop/;"	v	lineno:29	namespace:out	type:number
+prop2	__DIR__/destructure.js	/prop2/;"	v	lineno:29	namespace:out	type:boolean
+n	__DIR__/destructure.js	/n/;"	v	lineno:32	type:string
+o	__DIR__/destructure.js	/o/;"	v	lineno:32	type:boolean
 ```

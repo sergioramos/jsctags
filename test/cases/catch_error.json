@@ -1,7 +1,7 @@
 [
   {
     "name": "e",
-    "addr": "e",
+    "addr": "/e/",
     "kind": "v",
     "type": "Error",
     "lineno": 3,

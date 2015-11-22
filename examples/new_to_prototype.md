@@ -17,9 +17,9 @@ C.prototype.prop_C = 3;
 ```json
 [
   {
-    "id": "5a49cf40-909d-11e5-a471-a575e73ba8f8",
+    "id": "02bc0f20-90a9-11e5-9019-5d2ba6e96ddb",
     "name": "A",
-    "addr": "A",
+    "addr": "/A/",
     "kind": "f",
     "type": "void function()",
     "lineno": 1,
@@ -34,14 +34,14 @@ C.prototype.prop_C = 3;
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
-    "id": "5a49f651-909d-11e5-a471-a575e73ba8f8",
+    "id": "02bc5d41-90a9-11e5-9019-5d2ba6e96ddb",
     "name": "prop_A",
-    "addr": "prop_A",
+    "addr": "/prop_A/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "A.prototype",
-    "parent": "5a49f650-909d-11e5-a471-a575e73ba8f8",
+    "parent": "02bc5d40-90a9-11e5-9019-5d2ba6e96ddb",
     "origin": {
       "!span": "28[1:12]-34[1:18]",
       "!type": "number",
@@ -53,9 +53,9 @@ C.prototype.prop_C = 3;
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
-    "id": "5a4a1d60-909d-11e5-a471-a575e73ba8f8",
+    "id": "02bc5d42-90a9-11e5-9019-5d2ba6e96ddb",
     "name": "B",
-    "addr": "B",
+    "addr": "/B/",
     "kind": "f",
     "type": "void function()",
     "lineno": 3,
@@ -70,13 +70,13 @@ C.prototype.prop_C = 3;
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
-    "id": "5a4a1d61-909d-11e5-a471-a575e73ba8f8",
+    "id": "02bc5d43-90a9-11e5-9019-5d2ba6e96ddb",
     "name": "prototype",
-    "addr": "prototype",
+    "addr": "/prototype/",
     "kind": "v",
     "lineno": 4,
     "namespace": "B",
-    "parent": "5a4a1d60-909d-11e5-a471-a575e73ba8f8",
+    "parent": "02bc5d42-90a9-11e5-9019-5d2ba6e96ddb",
     "origin": {
       "!span": "58[3:2]-67[3:11]",
       "!data": {
@@ -87,14 +87,14 @@ C.prototype.prop_C = 3;
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
-    "id": "5a4a1d62-909d-11e5-a471-a575e73ba8f8",
+    "id": "02bc5d44-90a9-11e5-9019-5d2ba6e96ddb",
     "name": "prop_B",
-    "addr": "prop_B",
+    "addr": "/prop_B/",
     "kind": "v",
     "type": "number",
     "lineno": 5,
     "namespace": "B.prototype",
-    "parent": "5a4a1d61-909d-11e5-a471-a575e73ba8f8",
+    "parent": "02bc5d43-90a9-11e5-9019-5d2ba6e96ddb",
     "origin": {
       "!span": "89[4:12]-95[4:18]",
       "!type": "number",
@@ -106,9 +106,9 @@ C.prototype.prop_C = 3;
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
-    "id": "5a4a1d63-909d-11e5-a471-a575e73ba8f8",
+    "id": "02bc5d45-90a9-11e5-9019-5d2ba6e96ddb",
     "name": "C",
-    "addr": "C",
+    "addr": "/C/",
     "kind": "f",
     "type": "void function()",
     "lineno": 6,
@@ -123,13 +123,13 @@ C.prototype.prop_C = 3;
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
-    "id": "5a4a1d64-909d-11e5-a471-a575e73ba8f8",
+    "id": "02bc5d46-90a9-11e5-9019-5d2ba6e96ddb",
     "name": "prototype",
-    "addr": "prototype",
+    "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "C",
-    "parent": "5a4a1d63-909d-11e5-a471-a575e73ba8f8",
+    "parent": "02bc5d45-90a9-11e5-9019-5d2ba6e96ddb",
     "origin": {
       "!span": "119[6:2]-128[6:11]",
       "!data": {
@@ -140,14 +140,14 @@ C.prototype.prop_C = 3;
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
-    "id": "5a4a1d65-909d-11e5-a471-a575e73ba8f8",
+    "id": "02bc5d47-90a9-11e5-9019-5d2ba6e96ddb",
     "name": "prop_C",
-    "addr": "prop_C",
+    "addr": "/prop_C/",
     "kind": "v",
     "type": "number",
     "lineno": 8,
     "namespace": "C.prototype",
-    "parent": "5a4a1d64-909d-11e5-a471-a575e73ba8f8",
+    "parent": "02bc5d46-90a9-11e5-9019-5d2ba6e96ddb",
     "origin": {
       "!span": "150[7:12]-156[7:18]",
       "!type": "number",
@@ -161,12 +161,12 @@ C.prototype.prop_C = 3;
 ]
 ```
 ```ctags
-A	__DIR__/new_to_prototype.js	A;"	f	lineno:1	type:void function()
-prop_A	__DIR__/new_to_prototype.js	prop_A;"	v	lineno:2	namespace:A.prototype	type:number
-B	__DIR__/new_to_prototype.js	B;"	f	lineno:3	type:void function()
-prototype	__DIR__/new_to_prototype.js	prototype;"	v	lineno:4	namespace:B
-prop_B	__DIR__/new_to_prototype.js	prop_B;"	v	lineno:5	namespace:B.prototype	type:number
-C	__DIR__/new_to_prototype.js	C;"	f	lineno:6	type:void function()
-prototype	__DIR__/new_to_prototype.js	prototype;"	v	lineno:7	namespace:C
-prop_C	__DIR__/new_to_prototype.js	prop_C;"	v	lineno:8	namespace:C.prototype	type:number
+A	__DIR__/new_to_prototype.js	/A/;"	f	lineno:1	type:void function()
+prop_A	__DIR__/new_to_prototype.js	/prop_A/;"	v	lineno:2	namespace:A.prototype	type:number
+B	__DIR__/new_to_prototype.js	/B/;"	f	lineno:3	type:void function()
+prototype	__DIR__/new_to_prototype.js	/prototype/;"	v	lineno:4	namespace:B
+prop_B	__DIR__/new_to_prototype.js	/prop_B/;"	v	lineno:5	namespace:B.prototype	type:number
+C	__DIR__/new_to_prototype.js	/C/;"	f	lineno:6	type:void function()
+prototype	__DIR__/new_to_prototype.js	/prototype/;"	v	lineno:7	namespace:C
+prop_C	__DIR__/new_to_prototype.js	/prop_C/;"	v	lineno:8	namespace:C.prototype	type:number
 ```

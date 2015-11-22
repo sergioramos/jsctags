@@ -1,7 +1,7 @@
 [
   {
     "name": "p",
-    "addr": "p",
+    "addr": "/p/",
     "kind": "v",
     "type": "Promise",
     "lineno": 1,
@@ -17,7 +17,7 @@
   },
   {
     "name": "p2",
-    "addr": "p2",
+    "addr": "/p2/",
     "kind": "v",
     "type": "Promise",
     "lineno": 12,
@@ -33,7 +33,7 @@
   },
   {
     "name": "p3",
-    "addr": "p3",
+    "addr": "/p3/",
     "kind": "v",
     "type": "Promise",
     "lineno": 21,
@@ -63,7 +63,7 @@
   },
   {
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 3,

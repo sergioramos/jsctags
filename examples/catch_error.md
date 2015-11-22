@@ -8,9 +8,9 @@ try {
 ```json
 [
   {
-    "id": "4d52b7c0-909d-11e5-80d5-bf6f7b7718ef",
+    "id": "f5652460-90a8-11e5-bfbe-ab09c16e5d96",
     "name": "e",
-    "addr": "e",
+    "addr": "/e/",
     "kind": "v",
     "type": "Error",
     "lineno": 3,
@@ -27,5 +27,5 @@ try {
 ]
 ```
 ```ctags
-e	__DIR__/catch_error.js	e;"	v	lineno:3	type:Error
+e	__DIR__/catch_error.js	/e/;"	v	lineno:3	type:Error
 ```

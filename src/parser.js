@@ -277,7 +277,9 @@ Parser.prototype.addr = function (node) {
   var str = new RegExp(regexp).toString();
 
   try {
-    JSON.parse(str);
+    JSON.parse(JSON.stringify({
+      addr: str
+    }));
   } catch (err) {
     return blob.split(/\n/).shift();
   }

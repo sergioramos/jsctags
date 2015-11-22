@@ -1,7 +1,7 @@
 [
   {
     "name": "whoAmI",
-    "addr": "whoAmI",
+    "addr": "/whoAmI/",
     "kind": "f",
     "type": "void function(?, ?)",
     "lineno": 1,
@@ -17,7 +17,7 @@
   },
   {
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "lineno": 1,
     "namespace": "whoAmI",
@@ -34,7 +34,7 @@
   },
   {
     "name": "i",
-    "addr": "i",
+    "addr": "/i/",
     "kind": "v",
     "lineno": 1,
     "namespace": "whoAmI",

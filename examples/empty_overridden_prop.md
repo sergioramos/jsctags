@@ -10,9 +10,9 @@ c.hello; //: string
 ```json
 [
   {
-    "id": "5177a950-909d-11e5-9b3d-23ccbcf6171d",
+    "id": "f9967200-90a8-11e5-b6a7-4d3e781bd14b",
     "name": "Class",
-    "addr": "Class",
+    "addr": "/Class/",
     "kind": "f",
     "type": "void function()",
     "lineno": 1,
@@ -27,14 +27,14 @@ c.hello; //: string
     "tagfile": "__DIR__/empty_overridden_prop.js"
   },
   {
-    "id": "5177f770-909d-11e5-9b3d-23ccbcf6171d",
+    "id": "f996c020-90a8-11e5-b6a7-4d3e781bd14b",
     "name": "hello",
-    "addr": "hello",
+    "addr": "/hello/",
     "kind": "v",
     "type": "string",
     "lineno": 2,
     "namespace": "Class.prototype",
-    "parent": "5177d060-909d-11e5-9b3d-23ccbcf6171d",
+    "parent": "f9969910-90a8-11e5-b6a7-4d3e781bd14b",
     "origin": {
       "!span": "36[1:16]-41[1:21]",
       "!type": "string",
@@ -46,9 +46,9 @@ c.hello; //: string
     "tagfile": "__DIR__/empty_overridden_prop.js"
   },
   {
-    "id": "5177f771-909d-11e5-9b3d-23ccbcf6171d",
+    "id": "f996c021-90a8-11e5-b6a7-4d3e781bd14b",
     "name": "c",
-    "addr": "c",
+    "addr": "/c/",
     "kind": "v",
     "type": "Class",
     "lineno": 4,
@@ -65,7 +65,7 @@ c.hello; //: string
 ]
 ```
 ```ctags
-Class	__DIR__/empty_overridden_prop.js	Class;"	f	lineno:1	type:void function()
-hello	__DIR__/empty_overridden_prop.js	hello;"	v	lineno:2	namespace:Class.prototype	type:string
-c	__DIR__/empty_overridden_prop.js	c;"	v	lineno:4	type:Class
+Class	__DIR__/empty_overridden_prop.js	/Class/;"	f	lineno:1	type:void function()
+hello	__DIR__/empty_overridden_prop.js	/hello/;"	v	lineno:2	namespace:Class.prototype	type:string
+c	__DIR__/empty_overridden_prop.js	/c/;"	v	lineno:4	type:Class
 ```

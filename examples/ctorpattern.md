@@ -13,9 +13,9 @@ foo; //: ?
 ```json
 [
   {
-    "id": "4f7e7160-909d-11e5-be58-21c95a0f3632",
+    "id": "f77cb9c0-90a8-11e5-bc53-217f4c4ad4fd",
     "name": "Ctor",
-    "addr": "Ctor",
+    "addr": "/Ctor/",
     "kind": "f",
     "type": "Ctor function()",
     "lineno": 4,
@@ -30,14 +30,14 @@ foo; //: ?
     "tagfile": "__DIR__/ctorpattern.js"
   },
   {
-    "id": "4f7e9870-909d-11e5-be58-21c95a0f3632",
+    "id": "f77d07e0-90a8-11e5-bc53-217f4c4ad4fd",
     "name": "foo",
-    "addr": "foo",
+    "addr": "/foo/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
     "namespace": "Ctor",
-    "parent": "4f7e7160-909d-11e5-be58-21c95a0f3632",
+    "parent": "f77cb9c0-90a8-11e5-bc53-217f4c4ad4fd",
     "origin": {
       "!span": "178[5:7]-181[5:10]",
       "!type": "number",
@@ -51,6 +51,6 @@ foo; //: ?
 ]
 ```
 ```ctags
-Ctor	__DIR__/ctorpattern.js	Ctor;"	f	lineno:4	type:Ctor function()
-foo	__DIR__/ctorpattern.js	foo;"	v	lineno:6	namespace:Ctor	type:number
+Ctor	__DIR__/ctorpattern.js	/Ctor/;"	f	lineno:4	type:Ctor function()
+foo	__DIR__/ctorpattern.js	/foo/;"	v	lineno:6	namespace:Ctor	type:number
 ```

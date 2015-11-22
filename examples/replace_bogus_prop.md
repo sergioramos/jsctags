@@ -9,9 +9,9 @@ Type.prototype.foo = "hi";
 ```json
 [
   {
-    "id": "5df01af0-909d-11e5-b457-2505b757d2e6",
+    "id": "06c7d360-90a9-11e5-bb29-ad52f179b493",
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "Type",
     "lineno": 1,
@@ -26,9 +26,9 @@ Type.prototype.foo = "hi";
     "tagfile": "__DIR__/replace_bogus_prop.js"
   },
   {
-    "id": "5df01af1-909d-11e5-b457-2505b757d2e6",
+    "id": "06c7fa70-90a9-11e5-bb29-ad52f179b493",
     "name": "Type",
-    "addr": "Type",
+    "addr": "/Type/",
     "kind": "f",
     "type": "void function()",
     "lineno": 5,
@@ -43,14 +43,14 @@ Type.prototype.foo = "hi";
     "tagfile": "__DIR__/replace_bogus_prop.js"
   },
   {
-    "id": "5df04201-909d-11e5-b457-2505b757d2e6",
+    "id": "06c82181-90a9-11e5-bb29-ad52f179b493",
     "name": "foo",
-    "addr": "foo",
+    "addr": "/foo/",
     "kind": "v",
     "type": "string",
     "lineno": 6,
     "namespace": "Type.prototype",
-    "parent": "5df04200-909d-11e5-b457-2505b757d2e6",
+    "parent": "06c82180-90a9-11e5-bb29-ad52f179b493",
     "origin": {
       "!span": "74[5:15]-77[5:18]",
       "!type": "string",
@@ -64,7 +64,7 @@ Type.prototype.foo = "hi";
 ]
 ```
 ```ctags
-x	__DIR__/replace_bogus_prop.js	x;"	v	lineno:1	type:Type
-Type	__DIR__/replace_bogus_prop.js	Type;"	f	lineno:5	type:void function()
-foo	__DIR__/replace_bogus_prop.js	foo;"	v	lineno:6	namespace:Type.prototype	type:string
+x	__DIR__/replace_bogus_prop.js	/x/;"	v	lineno:1	type:Type
+Type	__DIR__/replace_bogus_prop.js	/Type/;"	f	lineno:5	type:void function()
+foo	__DIR__/replace_bogus_prop.js	/foo/;"	v	lineno:6	namespace:Type.prototype	type:string
 ```

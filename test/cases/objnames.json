@@ -1,7 +1,7 @@
 [
   {
     "name": "Ctor1",
-    "addr": "Ctor1",
+    "addr": "/Ctor1/",
     "kind": "f",
     "type": "void function()",
     "lineno": 1,
@@ -17,7 +17,7 @@
   },
   {
     "name": "prototype",
-    "addr": "prototype",
+    "addr": "/prototype/",
     "kind": "v",
     "lineno": 2,
     "namespace": "Ctor1",
@@ -32,7 +32,7 @@
   },
   {
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
@@ -49,7 +49,7 @@
   },
   {
     "name": "Ctor2",
-    "addr": "Ctor2",
+    "addr": "/Ctor2/",
     "kind": "f",
     "type": "void function()",
     "lineno": 4,
@@ -65,7 +65,7 @@
   },
   {
     "name": "singleton",
-    "addr": "singleton",
+    "addr": "/singleton/",
     "kind": "v",
     "lineno": 6,
     "origin": {
@@ -79,7 +79,7 @@
   },
   {
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
@@ -96,7 +96,7 @@
   },
   {
     "name": "b",
-    "addr": "b",
+    "addr": "/b/",
     "kind": "v",
     "type": "number",
     "lineno": 6,

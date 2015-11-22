@@ -130,9 +130,9 @@ ui(); //: string
 ```json
 [
   {
-    "id": "58428d90-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009a1980-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "Date",
     "lineno": 2,
@@ -147,9 +147,9 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "5842b4a0-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009a4090-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "c",
-    "addr": "c",
+    "addr": "/c/",
     "kind": "v",
     "lineno": 8,
     "origin": {
@@ -162,14 +162,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584350e1-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009a67a1-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "b",
-    "addr": "b",
+    "addr": "/b/",
     "kind": "v",
     "type": "string",
     "lineno": 17,
     "namespace": "foo",
-    "parent": "5842dbb2-909d-11e5-bda5-8b56b9a341e3",
+    "parent": "009a4093-90a9-11e5-b2ec-a13ae1f60ffb",
     "origin": {
       "!span": "298[16:16]-299[16:17]",
       "!type": "string",
@@ -183,14 +183,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584350e0-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009a67a0-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 17,
     "namespace": "foo",
-    "parent": "5842dbb2-909d-11e5-bda5-8b56b9a341e3",
+    "parent": "009a4093-90a9-11e5-b2ec-a13ae1f60ffb",
     "origin": {
       "!span": "295[16:13]-296[16:14]",
       "!type": "number",
@@ -204,9 +204,9 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "5842dbb2-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009a4093-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "foo",
-    "addr": "foo",
+    "addr": "/foo/",
     "kind": "f",
     "type": "[number] function(number, string)",
     "lineno": 17,
@@ -221,9 +221,9 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584350e2-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009a67a2-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "abc",
-    "addr": "abc",
+    "addr": "/abc/",
     "kind": "f",
     "type": "void function()",
     "lineno": 21,
@@ -238,9 +238,9 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584350e3-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009adcd0-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "bar",
-    "addr": "bar",
+    "addr": "/bar/",
     "kind": "f",
     "type": "string function(number, number)",
     "lineno": 30,
@@ -255,14 +255,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584350e4-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009adcd1-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 30,
     "namespace": "bar",
-    "parent": "584350e3-909d-11e5-bda5-8b56b9a341e3",
+    "parent": "009adcd0-90a9-11e5-b2ec-a13ae1f60ffb",
     "origin": {
       "!span": "525[29:19]-526[29:20]",
       "!type": "number",
@@ -276,14 +276,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584350e5-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009adcd2-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "b",
-    "addr": "b",
+    "addr": "/b/",
     "kind": "v",
     "type": "number",
     "lineno": 30,
     "namespace": "bar",
-    "parent": "584350e3-909d-11e5-bda5-8b56b9a341e3",
+    "parent": "009adcd0-90a9-11e5-b2ec-a13ae1f60ffb",
     "origin": {
       "!span": "528[29:22]-529[29:23]",
       "!type": "number",
@@ -297,9 +297,9 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584350e6-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009adcd3-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "o",
-    "addr": "o",
+    "addr": "/o/",
     "kind": "v",
     "lineno": 34,
     "origin": {
@@ -312,14 +312,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584350e7-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009adcd4-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "prop1",
-    "addr": "prop1",
+    "addr": "/prop1/",
     "kind": "v",
     "type": "string",
     "lineno": 36,
     "namespace": "o",
-    "parent": "584350e6-909d-11e5-bda5-8b56b9a341e3",
+    "parent": "009adcd3-90a9-11e5-b2ec-a13ae1f60ffb",
     "origin": {
       "!span": "649[35:2]-654[35:7]",
       "!type": "string",
@@ -331,14 +331,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584377f0-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009adcd5-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "prop2",
-    "addr": "prop2",
+    "addr": "/prop2/",
     "kind": "f",
     "type": "number function()",
     "lineno": 39,
     "namespace": "o",
-    "parent": "584350e6-909d-11e5-bda5-8b56b9a341e3",
+    "parent": "009adcd3-90a9-11e5-b2ec-a13ae1f60ffb",
     "origin": {
       "!span": "697[38:2]-702[38:7]",
       "!type": "fn() -> number",
@@ -350,14 +350,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584377f1-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009adcd6-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "prop3",
-    "addr": "prop3",
+    "addr": "/prop3/",
     "kind": "f",
     "type": "string function()",
     "lineno": 43,
     "namespace": "o",
-    "parent": "584350e6-909d-11e5-bda5-8b56b9a341e3",
+    "parent": "009adcd3-90a9-11e5-b2ec-a13ae1f60ffb",
     "origin": {
       "!span": "769[42:2]-774[42:7]",
       "!type": "fn() -> string",
@@ -369,9 +369,9 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584377f2-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009adcd7-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "closureArray",
-    "addr": "closureArray",
+    "addr": "/closureArray/",
     "kind": "v",
     "type": "[string]",
     "lineno": 50,
@@ -386,9 +386,9 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584377f3-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009adcd8-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "closureMap",
-    "addr": "closureMap",
+    "addr": "/closureMap/",
     "kind": "v",
     "lineno": 54,
     "origin": {
@@ -401,9 +401,9 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584377f5-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009adcda-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "takesOpt",
-    "addr": "takesOpt",
+    "addr": "/takesOpt/",
     "kind": "f",
     "type": "void function(number)",
     "lineno": 58,
@@ -418,14 +418,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584377f6-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009adcdb-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 58,
     "namespace": "takesOpt",
-    "parent": "584377f5-909d-11e5-bda5-8b56b9a341e3",
+    "parent": "009adcda-90a9-11e5-b2ec-a13ae1f60ffb",
     "origin": {
       "!span": "1129[57:18]-1130[57:19]",
       "!type": "number",
@@ -439,9 +439,9 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584377f7-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009adcdc-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "myBitset",
-    "addr": "myBitset",
+    "addr": "/myBitset/",
     "kind": "v",
     "type": "[bool]",
     "lineno": 73,
@@ -456,9 +456,9 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584377f8-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009adcdd-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "myObj",
-    "addr": "myObj",
+    "addr": "/myObj/",
     "kind": "v",
     "lineno": 78,
     "origin": {
@@ -471,9 +471,9 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584377fb-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009b03e2-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "NonAscïį",
-    "addr": "NonAscïį",
+    "addr": "/NonAscïį/",
     "kind": "f",
     "type": "void function()",
     "lineno": 84,
@@ -488,14 +488,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584377fc-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009b03e3-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "length",
-    "addr": "length",
+    "addr": "/length/",
     "kind": "v",
     "type": "string",
     "lineno": 84,
     "namespace": "NonAscïį",
-    "parent": "584377fb-909d-11e5-bda5-8b56b9a341e3",
+    "parent": "009b03e2-90a9-11e5-b2ec-a13ae1f60ffb",
     "origin": {
       "!span": "1570[83:27]-1576[83:33]",
       "!type": "string",
@@ -507,9 +507,9 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584377fd-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009b03e4-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "inst",
-    "addr": "inst",
+    "addr": "/inst/",
     "kind": "v",
     "type": "NonAscïį",
     "lineno": 87,
@@ -524,12 +524,12 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584377f9-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009b03e0-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "one",
     "kind": "v",
     "type": "boolean",
     "namespace": "myObj",
-    "parent": "584377f8-909d-11e5-bda5-8b56b9a341e3",
+    "parent": "009adcdd-90a9-11e5-b2ec-a13ae1f60ffb",
     "origin": {
       "!type": "bool",
       "!data": {
@@ -540,12 +540,12 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584377fa-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009b03e1-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "two",
     "kind": "v",
     "type": "number",
     "namespace": "myObj",
-    "parent": "584377f8-909d-11e5-bda5-8b56b9a341e3",
+    "parent": "009adcdd-90a9-11e5-b2ec-a13ae1f60ffb",
     "origin": {
       "!type": "number",
       "!data": {
@@ -556,12 +556,12 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "58439f03-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009b03ec-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "bogus",
-    "addr": "bogus",
+    "addr": "/bogus/",
     "kind": "v",
     "lineno": 92,
-    "parent": "58439f02-909d-11e5-bda5-8b56b9a341e3",
+    "parent": "009b03eb-90a9-11e5-b2ec-a13ae1f60ffb",
     "origin": {
       "!span": "1678[91:4]-1683[91:9]",
       "!data": {
@@ -574,12 +574,12 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "5842dbb0-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009a4091-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "x",
     "kind": "v",
     "type": "number",
     "namespace": "c",
-    "parent": "5842b4a0-909d-11e5-bda5-8b56b9a341e3",
+    "parent": "009a4090-90a9-11e5-b2ec-a13ae1f60ffb",
     "origin": {
       "!type": "number",
       "!data": {
@@ -590,12 +590,12 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "5842dbb1-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009a4092-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "y",
     "kind": "v",
     "type": "[string]",
     "namespace": "c",
-    "parent": "5842b4a0-909d-11e5-bda5-8b56b9a341e3",
+    "parent": "009a4090-90a9-11e5-b2ec-a13ae1f60ffb",
     "origin": {
       "!type": "[string]",
       "!data": {
@@ -606,9 +606,9 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584377fe-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009b03e5-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "again",
-    "addr": "again",
+    "addr": "/again/",
     "kind": "v",
     "type": "number",
     "lineno": 97,
@@ -623,9 +623,9 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584377ff-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009b03e6-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "functionBogus",
-    "addr": "functionBogus",
+    "addr": "/functionBogus/",
     "kind": "f",
     "type": "? function(?)",
     "lineno": 105,
@@ -640,13 +640,13 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "58437800-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009b03e7-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "lineno": 105,
     "namespace": "functionBogus",
-    "parent": "584377ff-909d-11e5-bda5-8b56b9a341e3",
+    "parent": "009b03e6-90a9-11e5-b2ec-a13ae1f60ffb",
     "origin": {
       "!span": "1869[104:23]-1870[104:24]",
       "!data": {
@@ -659,9 +659,9 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "58437801-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009b03e8-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "unionFunction",
-    "addr": "unionFunction",
+    "addr": "/unionFunction/",
     "kind": "f",
     "type": "[?|number] function(string)",
     "lineno": 118,
@@ -676,14 +676,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "58439f00-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009b03e9-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "string",
     "lineno": 118,
     "namespace": "unionFunction",
-    "parent": "58437801-909d-11e5-bda5-8b56b9a341e3",
+    "parent": "009b03e8-90a9-11e5-b2ec-a13ae1f60ffb",
     "origin": {
       "!span": "2121[117:23]-2122[117:24]",
       "!type": "string",
@@ -697,9 +697,9 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "58439f01-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009b03ea-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "ui",
-    "addr": "ui",
+    "addr": "/ui/",
     "kind": "f",
     "type": "string function()",
     "lineno": 125,
@@ -714,12 +714,12 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "584377f4-909d-11e5-bda5-8b56b9a341e3",
+    "id": "009adcd9-90a9-11e5-b2ec-a13ae1f60ffb",
     "name": "<i>",
     "kind": "v",
     "type": "boolean",
     "namespace": "closureMap",
-    "parent": "584377f3-909d-11e5-bda5-8b56b9a341e3",
+    "parent": "009adcd8-90a9-11e5-b2ec-a13ae1f60ffb",
     "origin": {
       "!type": "bool",
       "!data": {
@@ -732,38 +732,38 @@ ui(); //: string
 ]
 ```
 ```ctags
-a	__DIR__/jsdoc.js	a;"	v	lineno:2	type:Date
-c	__DIR__/jsdoc.js	c;"	v	lineno:8
-b	__DIR__/jsdoc.js	b;"	v	lineno:17	namespace:foo	type:string
-a	__DIR__/jsdoc.js	a;"	v	lineno:17	namespace:foo	type:number
-foo	__DIR__/jsdoc.js	foo;"	f	lineno:17	type:[number] function(number, string)
-abc	__DIR__/jsdoc.js	abc;"	f	lineno:21	type:void function()
-bar	__DIR__/jsdoc.js	bar;"	f	lineno:30	type:string function(number, number)
-a	__DIR__/jsdoc.js	a;"	v	lineno:30	namespace:bar	type:number
-b	__DIR__/jsdoc.js	b;"	v	lineno:30	namespace:bar	type:number
-o	__DIR__/jsdoc.js	o;"	v	lineno:34
-prop1	__DIR__/jsdoc.js	prop1;"	v	lineno:36	namespace:o	type:string
-prop2	__DIR__/jsdoc.js	prop2;"	f	lineno:39	namespace:o	type:number function()
-prop3	__DIR__/jsdoc.js	prop3;"	f	lineno:43	namespace:o	type:string function()
-closureArray	__DIR__/jsdoc.js	closureArray;"	v	lineno:50	type:[string]
-closureMap	__DIR__/jsdoc.js	closureMap;"	v	lineno:54
-takesOpt	__DIR__/jsdoc.js	takesOpt;"	f	lineno:58	type:void function(number)
-a	__DIR__/jsdoc.js	a;"	v	lineno:58	namespace:takesOpt	type:number
-myBitset	__DIR__/jsdoc.js	myBitset;"	v	lineno:73	type:[bool]
-myObj	__DIR__/jsdoc.js	myObj;"	v	lineno:78
-NonAscïį	__DIR__/jsdoc.js	NonAscïį;"	f	lineno:84	type:void function()
-length	__DIR__/jsdoc.js	length;"	v	lineno:84	namespace:NonAscïį	type:string
-inst	__DIR__/jsdoc.js	inst;"	v	lineno:87	type:NonAscïį
+a	__DIR__/jsdoc.js	/a/;"	v	lineno:2	type:Date
+c	__DIR__/jsdoc.js	/c/;"	v	lineno:8
+b	__DIR__/jsdoc.js	/b/;"	v	lineno:17	namespace:foo	type:string
+a	__DIR__/jsdoc.js	/a/;"	v	lineno:17	namespace:foo	type:number
+foo	__DIR__/jsdoc.js	/foo/;"	f	lineno:17	type:[number] function(number, string)
+abc	__DIR__/jsdoc.js	/abc/;"	f	lineno:21	type:void function()
+bar	__DIR__/jsdoc.js	/bar/;"	f	lineno:30	type:string function(number, number)
+a	__DIR__/jsdoc.js	/a/;"	v	lineno:30	namespace:bar	type:number
+b	__DIR__/jsdoc.js	/b/;"	v	lineno:30	namespace:bar	type:number
+o	__DIR__/jsdoc.js	/o/;"	v	lineno:34
+prop1	__DIR__/jsdoc.js	/prop1/;"	v	lineno:36	namespace:o	type:string
+prop2	__DIR__/jsdoc.js	/prop2/;"	f	lineno:39	namespace:o	type:number function()
+prop3	__DIR__/jsdoc.js	/prop3/;"	f	lineno:43	namespace:o	type:string function()
+closureArray	__DIR__/jsdoc.js	/closureArray/;"	v	lineno:50	type:[string]
+closureMap	__DIR__/jsdoc.js	/closureMap/;"	v	lineno:54
+takesOpt	__DIR__/jsdoc.js	/takesOpt/;"	f	lineno:58	type:void function(number)
+a	__DIR__/jsdoc.js	/a/;"	v	lineno:58	namespace:takesOpt	type:number
+myBitset	__DIR__/jsdoc.js	/myBitset/;"	v	lineno:73	type:[bool]
+myObj	__DIR__/jsdoc.js	/myObj/;"	v	lineno:78
+NonAscïį	__DIR__/jsdoc.js	/NonAscïį/;"	f	lineno:84	type:void function()
+length	__DIR__/jsdoc.js	/length/;"	v	lineno:84	namespace:NonAscïį	type:string
+inst	__DIR__/jsdoc.js	/inst/;"	v	lineno:87	type:NonAscïį
 one	__DIR__/jsdoc.js	//;"	v	namespace:myObj	type:boolean
 two	__DIR__/jsdoc.js	//;"	v	namespace:myObj	type:number
-bogus	__DIR__/jsdoc.js	bogus;"	v	lineno:92
+bogus	__DIR__/jsdoc.js	/bogus/;"	v	lineno:92
 x	__DIR__/jsdoc.js	//;"	v	namespace:c	type:number
 y	__DIR__/jsdoc.js	//;"	v	namespace:c	type:[string]
-again	__DIR__/jsdoc.js	again;"	v	lineno:97	type:number
-functionBogus	__DIR__/jsdoc.js	functionBogus;"	f	lineno:105	type:? function(?)
-a	__DIR__/jsdoc.js	a;"	v	lineno:105	namespace:functionBogus
-unionFunction	__DIR__/jsdoc.js	unionFunction;"	f	lineno:118	type:[?|number] function(string)
-a	__DIR__/jsdoc.js	a;"	v	lineno:118	namespace:unionFunction	type:string
-ui	__DIR__/jsdoc.js	ui;"	f	lineno:125	type:string function()
+again	__DIR__/jsdoc.js	/again/;"	v	lineno:97	type:number
+functionBogus	__DIR__/jsdoc.js	/functionBogus/;"	f	lineno:105	type:? function(?)
+a	__DIR__/jsdoc.js	/a/;"	v	lineno:105	namespace:functionBogus
+unionFunction	__DIR__/jsdoc.js	/unionFunction/;"	f	lineno:118	type:[?|number] function(string)
+a	__DIR__/jsdoc.js	/a/;"	v	lineno:118	namespace:unionFunction	type:string
+ui	__DIR__/jsdoc.js	/ui/;"	f	lineno:125	type:string function()
 <i>	__DIR__/jsdoc.js	//;"	v	namespace:closureMap	type:boolean
 ```

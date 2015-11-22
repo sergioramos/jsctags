@@ -1,7 +1,7 @@
 [
   {
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "lineno": 1,
     "origin": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "<i>",
-    "addr": "foo()",
+    "addr": "/foo\(\)/",
     "kind": "v",
     "lineno": 2,
     "namespace": "x",
@@ -30,7 +30,7 @@
   },
   {
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
@@ -47,7 +47,7 @@
   },
   {
     "name": "b",
-    "addr": "b",
+    "addr": "/b/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
@@ -64,7 +64,7 @@
   },
   {
     "name": "obj",
-    "addr": "obj",
+    "addr": "/obj/",
     "kind": "v",
     "lineno": 6,
     "origin": {
@@ -78,7 +78,7 @@
   },
   {
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "string",
     "lineno": 6,
@@ -95,7 +95,7 @@
   },
   {
     "name": "b",
-    "addr": "b",
+    "addr": "/b/",
     "kind": "v",
     "type": "string",
     "lineno": 6,

@@ -14,9 +14,9 @@ otherMod.c //: number
 ```json
 [
   {
-    "id": "5c3cecb0-909d-11e5-9baa-27c7f7ceee8e",
+    "id": "04b917a0-90a9-11e5-9405-17de82f209ca",
     "name": "mod",
-    "addr": "mod",
+    "addr": "/mod/",
     "kind": "v",
     "lineno": 1,
     "origin": {
@@ -29,14 +29,14 @@ otherMod.c //: number
     "tagfile": "__DIR__/phantom_object.js"
   },
   {
-    "id": "5c3d13c0-909d-11e5-9baa-27c7f7ceee8e",
+    "id": "04b93eb0-90a9-11e5-9405-17de82f209ca",
     "name": "func",
-    "addr": "func",
+    "addr": "/func/",
     "kind": "f",
     "type": "number function()",
     "lineno": 3,
     "namespace": "mod",
-    "parent": "5c3cecb0-909d-11e5-9baa-27c7f7ceee8e",
+    "parent": "04b917a0-90a9-11e5-9405-17de82f209ca",
     "origin": {
       "!span": "31[2:4]-35[2:8]",
       "!type": "fn() -> number",
@@ -48,9 +48,9 @@ otherMod.c //: number
     "tagfile": "__DIR__/phantom_object.js"
   },
   {
-    "id": "5c3d13c1-909d-11e5-9baa-27c7f7ceee8e",
+    "id": "04b965c0-90a9-11e5-9405-17de82f209ca",
     "name": "otherMod",
-    "addr": "otherMod",
+    "addr": "/otherMod/",
     "kind": "v",
     "lineno": 7,
     "origin": {
@@ -63,14 +63,14 @@ otherMod.c //: number
     "tagfile": "__DIR__/phantom_object.js"
   },
   {
-    "id": "5c3d13c2-909d-11e5-9baa-27c7f7ceee8e",
+    "id": "04b965c1-90a9-11e5-9405-17de82f209ca",
     "name": "c",
-    "addr": "c",
+    "addr": "/c/",
     "kind": "v",
     "type": "number",
     "lineno": 9,
     "namespace": "otherMod",
-    "parent": "5c3d13c1-909d-11e5-9baa-27c7f7ceee8e",
+    "parent": "04b965c0-90a9-11e5-9405-17de82f209ca",
     "origin": {
       "!span": "148[8:9]-149[8:10]",
       "!type": "number",
@@ -84,8 +84,8 @@ otherMod.c //: number
 ]
 ```
 ```ctags
-mod	__DIR__/phantom_object.js	mod;"	v	lineno:1
-func	__DIR__/phantom_object.js	func;"	f	lineno:3	namespace:mod	type:number function()
-otherMod	__DIR__/phantom_object.js	otherMod;"	v	lineno:7
-c	__DIR__/phantom_object.js	c;"	v	lineno:9	namespace:otherMod	type:number
+mod	__DIR__/phantom_object.js	/mod/;"	v	lineno:1
+func	__DIR__/phantom_object.js	/func/;"	f	lineno:3	namespace:mod	type:number function()
+otherMod	__DIR__/phantom_object.js	/otherMod/;"	v	lineno:7
+c	__DIR__/phantom_object.js	/c/;"	v	lineno:9	namespace:otherMod	type:number
 ```

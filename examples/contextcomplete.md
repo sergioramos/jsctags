@@ -7,9 +7,9 @@ function whoAmI(a, i) {
 ```json
 [
   {
-    "id": "4eca3c90-909d-11e5-a082-bf98016d7368",
+    "id": "f6b4aed0-90a8-11e5-8780-b3f75cc92246",
     "name": "whoAmI",
-    "addr": "whoAmI",
+    "addr": "/whoAmI/",
     "kind": "f",
     "type": "void function(?, ?)",
     "lineno": 1,
@@ -24,13 +24,13 @@ function whoAmI(a, i) {
     "tagfile": "__DIR__/contextcomplete.js"
   },
   {
-    "id": "4eca63a0-909d-11e5-a082-bf98016d7368",
+    "id": "f6b4fcf0-90a8-11e5-8780-b3f75cc92246",
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "lineno": 1,
     "namespace": "whoAmI",
-    "parent": "4eca3c90-909d-11e5-a082-bf98016d7368",
+    "parent": "f6b4aed0-90a8-11e5-8780-b3f75cc92246",
     "origin": {
       "!span": "16[0:16]-17[0:17]",
       "!data": {
@@ -43,13 +43,13 @@ function whoAmI(a, i) {
     "tagfile": "__DIR__/contextcomplete.js"
   },
   {
-    "id": "4eca8ab0-909d-11e5-a082-bf98016d7368",
+    "id": "f6b4fcf1-90a8-11e5-8780-b3f75cc92246",
     "name": "i",
-    "addr": "i",
+    "addr": "/i/",
     "kind": "v",
     "lineno": 1,
     "namespace": "whoAmI",
-    "parent": "4eca3c90-909d-11e5-a082-bf98016d7368",
+    "parent": "f6b4aed0-90a8-11e5-8780-b3f75cc92246",
     "origin": {
       "!span": "19[0:19]-20[0:20]",
       "!data": {
@@ -64,7 +64,7 @@ function whoAmI(a, i) {
 ]
 ```
 ```ctags
-whoAmI	__DIR__/contextcomplete.js	whoAmI;"	f	lineno:1	type:void function(?, ?)
-a	__DIR__/contextcomplete.js	a;"	v	lineno:1	namespace:whoAmI
-i	__DIR__/contextcomplete.js	i;"	v	lineno:1	namespace:whoAmI
+whoAmI	__DIR__/contextcomplete.js	/whoAmI/;"	f	lineno:1	type:void function(?, ?)
+a	__DIR__/contextcomplete.js	/a/;"	v	lineno:1	namespace:whoAmI
+i	__DIR__/contextcomplete.js	/i/;"	v	lineno:1	namespace:whoAmI
 ```

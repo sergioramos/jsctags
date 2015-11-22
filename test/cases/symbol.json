@@ -1,7 +1,7 @@
 [
   {
     "name": "mySym",
-    "addr": "mySym",
+    "addr": "/mySym/",
     "kind": "v",
     "lineno": 1,
     "origin": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "obj",
-    "addr": "obj",
+    "addr": "/obj/",
     "kind": "v",
     "lineno": 3,
     "origin": {
@@ -29,7 +29,7 @@
   },
   {
     "name": ":my_sym",
-    "addr": "mySym",
+    "addr": "/mySym/",
     "kind": "v",
     "type": "number",
     "lineno": 4,
@@ -46,7 +46,7 @@
   },
   {
     "name": "iterator",
-    "addr": "Symbol.iterator",
+    "addr": "/Symbol\.iterator/",
     "kind": "v",
     "type": "string",
     "lineno": 8,

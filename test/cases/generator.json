@@ -1,7 +1,7 @@
 [
   {
     "name": "foo",
-    "addr": "foo",
+    "addr": "/foo/",
     "kind": "f",
     "type": "number function()",
     "lineno": 1,
@@ -17,7 +17,7 @@
   },
   {
     "name": "index",
-    "addr": "index",
+    "addr": "/index/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
@@ -36,7 +36,7 @@
   },
   {
     "name": "out",
-    "addr": "out",
+    "addr": "/out/",
     "kind": "v",
     "type": "string",
     "lineno": 2,
@@ -55,7 +55,7 @@
   },
   {
     "name": "it",
-    "addr": "it",
+    "addr": "/it/",
     "kind": "v",
     "lineno": 8,
     "origin": {
@@ -83,7 +83,7 @@
   },
   {
     "name": "g1",
-    "addr": "g1",
+    "addr": "/g1/",
     "kind": "f",
     "type": "boolean function()",
     "lineno": 11,
@@ -99,7 +99,7 @@
   },
   {
     "name": "g2",
-    "addr": "g2",
+    "addr": "/g2/",
     "kind": "f",
     "type": "boolean function()",
     "lineno": 12,

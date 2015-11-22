@@ -1,7 +1,7 @@
 [
   {
     "name": "sup",
-    "addr": "sup",
+    "addr": "/sup/",
     "kind": "v",
     "lineno": 1,
     "origin": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "foo",
-    "addr": "foo",
+    "addr": "/foo/",
     "kind": "f",
     "type": "number function()",
     "lineno": 2,
@@ -32,7 +32,7 @@
   },
   {
     "name": "makeClass",
-    "addr": "makeClass",
+    "addr": "/makeClass/",
     "kind": "f",
     "type": "void function(makeClass.!0)",
     "lineno": 5,
@@ -48,7 +48,7 @@
   },
   {
     "name": "Ctor",
-    "addr": "Ctor",
+    "addr": "/Ctor/",
     "kind": "f",
     "type": "void function()",
     "lineno": 6,
@@ -67,7 +67,7 @@
   },
   {
     "name": "prototype",
-    "addr": "prototype",
+    "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "makeClass.Ctor",
@@ -84,7 +84,7 @@
   },
   {
     "name": "m",
-    "addr": "m",
+    "addr": "/m/",
     "kind": "v",
     "lineno": 8,
     "namespace": "makeClass",
@@ -101,7 +101,7 @@
   },
   {
     "name": "Mine",
-    "addr": "Mine",
+    "addr": "/Mine/",
     "kind": "v",
     "lineno": 11,
     "origin": {

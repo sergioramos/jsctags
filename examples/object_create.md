@@ -36,9 +36,9 @@ empty.prop1; //: string
 ```json
 [
   {
-    "id": "5aab7740-909d-11e5-8387-e9bdda4bab5b",
+    "id": "031dde30-90a9-11e5-912c-4b66942e9971",
     "name": "base",
-    "addr": "base",
+    "addr": "/base/",
     "kind": "v",
     "lineno": 1,
     "origin": {
@@ -51,14 +51,14 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "5aabc560-909d-11e5-8387-e9bdda4bab5b",
+    "id": "031e0541-90a9-11e5-912c-4b66942e9971",
     "name": "bar",
-    "addr": "bar",
+    "addr": "/bar/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "base",
-    "parent": "5aab7740-909d-11e5-8387-e9bdda4bab5b",
+    "parent": "031dde30-90a9-11e5-912c-4b66942e9971",
     "origin": {
       "!span": "21[0:21]-24[0:24]",
       "!type": "number",
@@ -70,14 +70,14 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "5aab9e50-909d-11e5-8387-e9bdda4bab5b",
+    "id": "031e0540-90a9-11e5-912c-4b66942e9971",
     "name": "foo",
-    "addr": "foo",
+    "addr": "/foo/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "base",
-    "parent": "5aab7740-909d-11e5-8387-e9bdda4bab5b",
+    "parent": "031dde30-90a9-11e5-912c-4b66942e9971",
     "origin": {
       "!span": "12[0:12]-15[0:15]",
       "!type": "number",
@@ -89,9 +89,9 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "5aabc562-909d-11e5-8387-e9bdda4bab5b",
+    "id": "031e0543-90a9-11e5-912c-4b66942e9971",
     "name": "gen1",
-    "addr": "gen1",
+    "addr": "/gen1/",
     "kind": "v",
     "lineno": 2,
     "origin": {
@@ -104,9 +104,9 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "5aabc564-909d-11e5-8387-e9bdda4bab5b",
+    "id": "031e2c50-90a9-11e5-912c-4b66942e9971",
     "name": "gen2",
-    "addr": "gen2",
+    "addr": "/gen2/",
     "kind": "v",
     "lineno": 3,
     "origin": {
@@ -119,12 +119,12 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "5aabc567-909d-11e5-8387-e9bdda4bab5b",
+    "id": "031e2c53-90a9-11e5-912c-4b66942e9971",
     "name": "prop1",
     "kind": "v",
     "type": "string",
     "namespace": "extend",
-    "parent": "5aabc566-909d-11e5-8387-e9bdda4bab5b",
+    "parent": "031e2c52-90a9-11e5-912c-4b66942e9971",
     "origin": {
       "!type": "string",
       "!data": {
@@ -135,14 +135,14 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "5aabc561-909d-11e5-8387-e9bdda4bab5b",
+    "id": "031e0542-90a9-11e5-912c-4b66942e9971",
     "name": "baz",
-    "addr": "baz",
+    "addr": "/baz/",
     "kind": "v",
     "type": "number",
     "lineno": 5,
     "namespace": "base",
-    "parent": "5aab7740-909d-11e5-8387-e9bdda4bab5b",
+    "parent": "031dde30-90a9-11e5-912c-4b66942e9971",
     "origin": {
       "!span": "101[4:5]-104[4:8]",
       "!type": "number",
@@ -154,14 +154,14 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "5aabc563-909d-11e5-8387-e9bdda4bab5b",
+    "id": "031e0544-90a9-11e5-912c-4b66942e9971",
     "name": "quux",
-    "addr": "quux",
+    "addr": "/quux/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
     "namespace": "gen1",
-    "parent": "5aabc562-909d-11e5-8387-e9bdda4bab5b",
+    "parent": "031e0543-90a9-11e5-912c-4b66942e9971",
     "origin": {
       "!span": "116[5:5]-120[5:9]",
       "!type": "number",
@@ -173,14 +173,14 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "5aabc565-909d-11e5-8387-e9bdda4bab5b",
+    "id": "031e2c51-90a9-11e5-912c-4b66942e9971",
     "name": "kaka",
-    "addr": "kaka",
+    "addr": "/kaka/",
     "kind": "v",
     "type": "number",
     "lineno": 7,
     "namespace": "gen2",
-    "parent": "5aabc564-909d-11e5-8387-e9bdda4bab5b",
+    "parent": "031e2c50-90a9-11e5-912c-4b66942e9971",
     "origin": {
       "!span": "132[6:5]-136[6:9]",
       "!type": "number",
@@ -192,9 +192,9 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "5aabc566-909d-11e5-8387-e9bdda4bab5b",
+    "id": "031e2c52-90a9-11e5-912c-4b66942e9971",
     "name": "extend",
-    "addr": "extend",
+    "addr": "/extend/",
     "kind": "v",
     "lineno": 23,
     "origin": {
@@ -207,9 +207,9 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "5aabc568-909d-11e5-8387-e9bdda4bab5b",
+    "id": "031e2c54-90a9-11e5-912c-4b66942e9971",
     "name": "empty",
-    "addr": "empty",
+    "addr": "/empty/",
     "kind": "v",
     "lineno": 29,
     "origin": {
@@ -222,14 +222,14 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "5aabc569-909d-11e5-8387-e9bdda4bab5b",
+    "id": "031e2c55-90a9-11e5-912c-4b66942e9971",
     "name": "prop1",
-    "addr": "prop1",
+    "addr": "/prop1/",
     "kind": "v",
     "type": "string",
     "lineno": 30,
     "namespace": "empty",
-    "parent": "5aabc568-909d-11e5-8387-e9bdda4bab5b",
+    "parent": "031e2c54-90a9-11e5-912c-4b66942e9971",
     "origin": {
       "!span": "455[29:6]-460[29:11]",
       "!type": "string",
@@ -243,16 +243,16 @@ empty.prop1; //: string
 ]
 ```
 ```ctags
-base	__DIR__/object_create.js	base;"	v	lineno:1
-bar	__DIR__/object_create.js	bar;"	v	lineno:1	namespace:base	type:number
-foo	__DIR__/object_create.js	foo;"	v	lineno:1	namespace:base	type:number
-gen1	__DIR__/object_create.js	gen1;"	v	lineno:2
-gen2	__DIR__/object_create.js	gen2;"	v	lineno:3
+base	__DIR__/object_create.js	/base/;"	v	lineno:1
+bar	__DIR__/object_create.js	/bar/;"	v	lineno:1	namespace:base	type:number
+foo	__DIR__/object_create.js	/foo/;"	v	lineno:1	namespace:base	type:number
+gen1	__DIR__/object_create.js	/gen1/;"	v	lineno:2
+gen2	__DIR__/object_create.js	/gen2/;"	v	lineno:3
 prop1	__DIR__/object_create.js	//;"	v	namespace:extend	type:string
-baz	__DIR__/object_create.js	baz;"	v	lineno:5	namespace:base	type:number
-quux	__DIR__/object_create.js	quux;"	v	lineno:6	namespace:gen1	type:number
-kaka	__DIR__/object_create.js	kaka;"	v	lineno:7	namespace:gen2	type:number
-extend	__DIR__/object_create.js	extend;"	v	lineno:23
-empty	__DIR__/object_create.js	empty;"	v	lineno:29
-prop1	__DIR__/object_create.js	prop1;"	v	lineno:30	namespace:empty	type:string
+baz	__DIR__/object_create.js	/baz/;"	v	lineno:5	namespace:base	type:number
+quux	__DIR__/object_create.js	/quux/;"	v	lineno:6	namespace:gen1	type:number
+kaka	__DIR__/object_create.js	/kaka/;"	v	lineno:7	namespace:gen2	type:number
+extend	__DIR__/object_create.js	/extend/;"	v	lineno:23
+empty	__DIR__/object_create.js	/empty/;"	v	lineno:29
+prop1	__DIR__/object_create.js	/prop1/;"	v	lineno:30	namespace:empty	type:string
 ```

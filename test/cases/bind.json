@@ -1,7 +1,7 @@
 [
   {
     "name": "f",
-    "addr": "f",
+    "addr": "/f/",
     "kind": "f",
     "type": "number function(number, number, number, number)",
     "lineno": 1,
@@ -17,7 +17,7 @@
   },
   {
     "name": "b",
-    "addr": "b",
+    "addr": "/b/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
@@ -36,7 +36,7 @@
   },
   {
     "name": "c",
-    "addr": "c",
+    "addr": "/c/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
@@ -55,7 +55,7 @@
   },
   {
     "name": "d",
-    "addr": "d",
+    "addr": "/d/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
@@ -74,7 +74,7 @@
   },
   {
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
@@ -93,7 +93,7 @@
   },
   {
     "name": "g",
-    "addr": "g",
+    "addr": "/g/",
     "kind": "f",
     "type": "number function(number, number)",
     "lineno": 2,
@@ -109,7 +109,7 @@
   },
   {
     "name": "h",
-    "addr": "h",
+    "addr": "/h/",
     "kind": "f",
     "type": "h.!ret function(number)",
     "lineno": 7,
@@ -125,7 +125,7 @@
   },
   {
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 7,
@@ -144,7 +144,7 @@
   },
   {
     "name": "i",
-    "addr": "i",
+    "addr": "/i/",
     "kind": "f",
     "type": "h.!ret function()",
     "lineno": 8,
@@ -160,7 +160,7 @@
   },
   {
     "name": "i",
-    "addr": "i",
+    "addr": "/i/",
     "kind": "f",
     "type": "h.!ret function()",
     "lineno": 8,
@@ -177,7 +177,7 @@
   },
   {
     "name": "o",
-    "addr": "o",
+    "addr": "/o/",
     "kind": "v",
     "lineno": 12,
     "origin": {
@@ -191,7 +191,7 @@
   },
   {
     "name": "j",
-    "addr": "j",
+    "addr": "/j/",
     "kind": "f",
     "type": "!this function()",
     "lineno": 15,
@@ -207,7 +207,7 @@
   },
   {
     "name": "k",
-    "addr": "k",
+    "addr": "/k/",
     "kind": "f",
     "type": "j.!ret function()",
     "lineno": 16,

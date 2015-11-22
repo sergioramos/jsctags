@@ -20,9 +20,9 @@ Obj.prototype.map = function() {
 ```json
 [
   {
-    "id": "4ac248e0-909d-11e5-8ad0-d14b531a2466",
+    "id": "f2884330-90a8-11e5-8bc6-911346d1e80f",
     "name": "f",
-    "addr": "f",
+    "addr": "/f/",
     "kind": "f",
     "type": "f.!ret function(number, Array[bool])",
     "lineno": 1,
@@ -37,14 +37,14 @@ Obj.prototype.map = function() {
     "tagfile": "__DIR__/arrow.js"
   },
   {
-    "id": "4ac29700-909d-11e5-8ad0-d14b531a2466",
+    "id": "f2889150-90a8-11e5-8bc6-911346d1e80f",
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "f",
-    "parent": "4ac248e0-909d-11e5-8ad0-d14b531a2466",
+    "parent": "f2884330-90a8-11e5-8bc6-911346d1e80f",
     "origin": {
       "!span": "9[0:9]-10[0:10]",
       "!type": "number",
@@ -58,14 +58,14 @@ Obj.prototype.map = function() {
     "tagfile": "__DIR__/arrow.js"
   },
   {
-    "id": "4ac29701-909d-11e5-8ad0-d14b531a2466",
+    "id": "f2889151-90a8-11e5-8bc6-911346d1e80f",
     "name": "b",
-    "addr": "b",
+    "addr": "/b/",
     "kind": "v",
     "type": "boolean",
     "lineno": 1,
     "namespace": "f",
-    "parent": "4ac248e0-909d-11e5-8ad0-d14b531a2466",
+    "parent": "f2884330-90a8-11e5-8bc6-911346d1e80f",
     "origin": {
       "!span": "13[0:13]-14[0:14]",
       "!type": "bool",
@@ -79,9 +79,9 @@ Obj.prototype.map = function() {
     "tagfile": "__DIR__/arrow.js"
   },
   {
-    "id": "4ac29702-909d-11e5-8ad0-d14b531a2466",
+    "id": "f2889152-90a8-11e5-8bc6-911346d1e80f",
     "name": "wrap",
-    "addr": "wrap",
+    "addr": "/wrap/",
     "kind": "f",
     "type": "wrap.!ret.!ret function() function()",
     "lineno": 5,
@@ -96,9 +96,9 @@ Obj.prototype.map = function() {
     "tagfile": "__DIR__/arrow.js"
   },
   {
-    "id": "4ac29703-909d-11e5-8ad0-d14b531a2466",
+    "id": "f2889153-90a8-11e5-8bc6-911346d1e80f",
     "name": "Obj",
-    "addr": "Obj",
+    "addr": "/Obj/",
     "kind": "f",
     "type": "void function()",
     "lineno": 10,
@@ -113,14 +113,14 @@ Obj.prototype.map = function() {
     "tagfile": "__DIR__/arrow.js"
   },
   {
-    "id": "4ac29705-909d-11e5-8ad0-d14b531a2466",
+    "id": "f2889155-90a8-11e5-8bc6-911346d1e80f",
     "name": "map",
-    "addr": "map",
+    "addr": "/map/",
     "kind": "f",
     "type": "[!this.x] function()",
     "lineno": 13,
     "namespace": "Obj.prototype",
-    "parent": "4ac29704-909d-11e5-8ad0-d14b531a2466",
+    "parent": "f2889154-90a8-11e5-8bc6-911346d1e80f",
     "origin": {
       "!span": "212[12:14]-215[12:17]",
       "!type": "fn() -> [!this.x]",
@@ -134,10 +134,10 @@ Obj.prototype.map = function() {
 ]
 ```
 ```ctags
-f	__DIR__/arrow.js	f;"	f	lineno:1	type:f.!ret function(number, Array[bool])
-a	__DIR__/arrow.js	a;"	v	lineno:1	namespace:f	type:number
-b	__DIR__/arrow.js	b;"	v	lineno:1	namespace:f	type:boolean
-wrap	__DIR__/arrow.js	wrap;"	f	lineno:5	type:wrap.!ret.!ret function() function()
-Obj	__DIR__/arrow.js	Obj;"	f	lineno:10	type:void function()
-map	__DIR__/arrow.js	map;"	f	lineno:13	namespace:Obj.prototype	type:[!this.x] function()
+f	__DIR__/arrow.js	/f/;"	f	lineno:1	type:f.!ret function(number, Array[bool])
+a	__DIR__/arrow.js	/a/;"	v	lineno:1	namespace:f	type:number
+b	__DIR__/arrow.js	/b/;"	v	lineno:1	namespace:f	type:boolean
+wrap	__DIR__/arrow.js	/wrap/;"	f	lineno:5	type:wrap.!ret.!ret function() function()
+Obj	__DIR__/arrow.js	/Obj/;"	f	lineno:10	type:void function()
+map	__DIR__/arrow.js	/map/;"	f	lineno:13	namespace:Obj.prototype	type:[!this.x] function()
 ```

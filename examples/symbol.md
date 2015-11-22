@@ -12,9 +12,9 @@ obj[Symbol.iterator] //: string
 ```json
 [
   {
-    "id": "5fad5b50-909d-11e5-a28c-0f53924c3c2d",
+    "id": "08c8d380-90a9-11e5-b360-c55c39896adc",
     "name": "mySym",
-    "addr": "mySym",
+    "addr": "/mySym/",
     "kind": "v",
     "lineno": 1,
     "origin": {
@@ -27,9 +27,9 @@ obj[Symbol.iterator] //: string
     "tagfile": "__DIR__/symbol.js"
   },
   {
-    "id": "5fad8260-909d-11e5-a28c-0f53924c3c2d",
+    "id": "08c921a0-90a9-11e5-b360-c55c39896adc",
     "name": "obj",
-    "addr": "obj",
+    "addr": "/obj/",
     "kind": "v",
     "lineno": 3,
     "origin": {
@@ -42,14 +42,14 @@ obj[Symbol.iterator] //: string
     "tagfile": "__DIR__/symbol.js"
   },
   {
-    "id": "5fad8261-909d-11e5-a28c-0f53924c3c2d",
+    "id": "08c948b0-90a9-11e5-b360-c55c39896adc",
     "name": ":my_sym",
-    "addr": "mySym",
+    "addr": "/mySym/",
     "kind": "v",
     "type": "number",
     "lineno": 4,
     "namespace": "obj",
-    "parent": "5fad8260-909d-11e5-a28c-0f53924c3c2d",
+    "parent": "08c921a0-90a9-11e5-b360-c55c39896adc",
     "origin": {
       "!span": "45[3:3]-50[3:8]",
       "!type": "number",
@@ -61,14 +61,14 @@ obj[Symbol.iterator] //: string
     "tagfile": "__DIR__/symbol.js"
   },
   {
-    "id": "5fad8263-909d-11e5-a28c-0f53924c3c2d",
+    "id": "08c948b2-90a9-11e5-b360-c55c39896adc",
     "name": "iterator",
-    "addr": "Symbol.iterator",
+    "addr": "/Symbol\.iterator/",
     "kind": "v",
     "type": "string",
     "lineno": 8,
     "namespace": "obj.:Symbol",
-    "parent": "5fad8262-909d-11e5-a28c-0f53924c3c2d",
+    "parent": "08c948b1-90a9-11e5-b360-c55c39896adc",
     "origin": {
       "!span": "85[7:4]-100[7:19]",
       "!type": "string",
@@ -82,8 +82,8 @@ obj[Symbol.iterator] //: string
 ]
 ```
 ```ctags
-mySym	__DIR__/symbol.js	mySym;"	v	lineno:1
-obj	__DIR__/symbol.js	obj;"	v	lineno:3
-:my_sym	__DIR__/symbol.js	mySym;"	v	lineno:4	namespace:obj	type:number
-iterator	__DIR__/symbol.js	Symbol.iterator;"	v	lineno:8	namespace:obj.:Symbol	type:string
+mySym	__DIR__/symbol.js	/mySym/;"	v	lineno:1
+obj	__DIR__/symbol.js	/obj/;"	v	lineno:3
+:my_sym	__DIR__/symbol.js	/mySym/;"	v	lineno:4	namespace:obj	type:number
+iterator	__DIR__/symbol.js	/Symbol\.iterator/;"	v	lineno:8	namespace:obj.:Symbol	type:string
 ```

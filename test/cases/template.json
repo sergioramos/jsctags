@@ -1,7 +1,7 @@
 [
   {
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
@@ -17,7 +17,7 @@
   },
   {
     "name": "build",
-    "addr": "build",
+    "addr": "/build/",
     "kind": "f",
     "type": "boolean function(Array[string], number, string)",
     "lineno": 6,
@@ -33,7 +33,7 @@
   },
   {
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
@@ -52,7 +52,7 @@
   },
   {
     "name": "b",
-    "addr": "b",
+    "addr": "/b/",
     "kind": "v",
     "type": "string",
     "lineno": 6,
@@ -71,7 +71,7 @@
   },
   {
     "name": "strs",
-    "addr": "strs",
+    "addr": "/strs/",
     "kind": "v",
     "type": "[string]",
     "lineno": 6,

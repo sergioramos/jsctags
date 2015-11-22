@@ -1,7 +1,7 @@
 [
   {
     "name": "blah",
-    "addr": "blah",
+    "addr": "/blah/",
     "kind": "f",
     "type": "void function()",
     "lineno": 1,
@@ -17,7 +17,7 @@
   },
   {
     "name": "jaja",
-    "addr": "jaja",
+    "addr": "/jaja/",
     "kind": "v",
     "type": "number",
     "lineno": 3,
@@ -33,7 +33,7 @@
   },
   {
     "name": "obj",
-    "addr": "obj",
+    "addr": "/obj/",
     "kind": "v",
     "lineno": 5,
     "origin": {
@@ -47,7 +47,7 @@
   },
   {
     "name": "prop1",
-    "addr": "prop1",
+    "addr": "/prop1/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
@@ -64,7 +64,7 @@
   },
   {
     "name": "prop2",
-    "addr": "prop2",
+    "addr": "/prop2/",
     "kind": "f",
     "type": "void function(?)",
     "lineno": 7,
@@ -81,7 +81,7 @@
   },
   {
     "name": "foo",
-    "addr": "foo",
+    "addr": "/foo/",
     "kind": "v",
     "lineno": 7,
     "namespace": "obj.prop2",
@@ -98,7 +98,7 @@
   },
   {
     "name": "prop3",
-    "addr": "prop3",
+    "addr": "/prop3/",
     "kind": "v",
     "type": "string",
     "lineno": 10,
@@ -115,7 +115,7 @@
   },
   {
     "name": "hide",
-    "addr": "hide",
+    "addr": "/hide/",
     "kind": "f",
     "type": "void function(?) function()",
     "lineno": 19,
@@ -131,7 +131,7 @@
   },
   {
     "name": "another",
-    "addr": "another",
+    "addr": "/another/",
     "kind": "f",
     "type": "void function(?)",
     "lineno": 23,
@@ -147,7 +147,7 @@
   },
   {
     "name": "arg",
-    "addr": "arg",
+    "addr": "/arg/",
     "kind": "v",
     "lineno": 23,
     "namespace": "another",
@@ -164,7 +164,7 @@
   },
   {
     "name": "local",
-    "addr": "local",
+    "addr": "/local/",
     "kind": "v",
     "type": "number",
     "lineno": 24,

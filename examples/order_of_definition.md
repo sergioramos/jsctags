@@ -18,9 +18,9 @@ foo.bar = {baz: baz};
 ```json
 [
   {
-    "id": "5be2e5d0-909d-11e5-8f82-1b0a33709168",
+    "id": "0458f640-90a9-11e5-9c20-75604616bf21",
     "name": "foo",
-    "addr": "foo",
+    "addr": "/foo/",
     "kind": "v",
     "lineno": 7,
     "origin": {
@@ -33,9 +33,9 @@ foo.bar = {baz: baz};
     "tagfile": "__DIR__/order_of_definition.js"
   },
   {
-    "id": "5be30ce3-909d-11e5-8f82-1b0a33709168",
+    "id": "04594461-90a9-11e5-9c20-75604616bf21",
     "name": "baz",
-    "addr": "baz",
+    "addr": "/baz/",
     "kind": "v",
     "lineno": 9,
     "origin": {
@@ -48,14 +48,14 @@ foo.bar = {baz: baz};
     "tagfile": "__DIR__/order_of_definition.js"
   },
   {
-    "id": "5be30ce4-909d-11e5-8f82-1b0a33709168",
+    "id": "04594462-90a9-11e5-9c20-75604616bf21",
     "name": "bug",
-    "addr": "bug",
+    "addr": "/bug/",
     "kind": "f",
     "type": "void function(baz.bug.!0)",
     "lineno": 9,
     "namespace": "baz",
-    "parent": "5be30ce3-909d-11e5-8f82-1b0a33709168",
+    "parent": "04594461-90a9-11e5-9c20-75604616bf21",
     "origin": {
       "!span": "95[8:11]-98[8:14]",
       "!type": "fn(o: baz.bug.!0)",
@@ -67,14 +67,14 @@ foo.bar = {baz: baz};
     "tagfile": "__DIR__/order_of_definition.js"
   },
   {
-    "id": "5be333f0-909d-11e5-8f82-1b0a33709168",
+    "id": "04594463-90a9-11e5-9c20-75604616bf21",
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "f",
     "type": "void function()",
     "lineno": 10,
     "namespace": "baz.bug",
-    "parent": "5be30ce4-909d-11e5-8f82-1b0a33709168",
+    "parent": "04594462-90a9-11e5-9c20-75604616bf21",
     "origin": {
       "!span": "125[9:11]-126[9:12]",
       "!type": "fn()",
@@ -88,13 +88,13 @@ foo.bar = {baz: baz};
     "tagfile": "__DIR__/order_of_definition.js"
   },
   {
-    "id": "5be30ce0-909d-11e5-8f82-1b0a33709168",
+    "id": "04591d50-90a9-11e5-9c20-75604616bf21",
     "name": "bar",
-    "addr": "bar",
+    "addr": "/bar/",
     "kind": "v",
     "lineno": 15,
     "namespace": "foo",
-    "parent": "5be2e5d0-909d-11e5-8f82-1b0a33709168",
+    "parent": "0458f640-90a9-11e5-9c20-75604616bf21",
     "origin": {
       "!span": "192[14:4]-195[14:7]",
       "!data": {
@@ -107,9 +107,9 @@ foo.bar = {baz: baz};
 ]
 ```
 ```ctags
-foo	__DIR__/order_of_definition.js	foo;"	v	lineno:7
-baz	__DIR__/order_of_definition.js	baz;"	v	lineno:9
-bug	__DIR__/order_of_definition.js	bug;"	f	lineno:9	namespace:baz	type:void function(baz.bug.!0)
-x	__DIR__/order_of_definition.js	x;"	f	lineno:10	namespace:baz.bug	type:void function()
-bar	__DIR__/order_of_definition.js	bar;"	v	lineno:15	namespace:foo
+foo	__DIR__/order_of_definition.js	/foo/;"	v	lineno:7
+baz	__DIR__/order_of_definition.js	/baz/;"	v	lineno:9
+bug	__DIR__/order_of_definition.js	/bug/;"	f	lineno:9	namespace:baz	type:void function(baz.bug.!0)
+x	__DIR__/order_of_definition.js	/x/;"	f	lineno:10	namespace:baz.bug	type:void function()
+bar	__DIR__/order_of_definition.js	/bar/;"	v	lineno:15	namespace:foo
 ```

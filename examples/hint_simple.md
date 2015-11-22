@@ -13,13 +13,13 @@ Object.crea //+ create @8
 ```json
 [
   {
-    "id": "57032fc1-909d-11e5-8583-97d34e6b4dc0",
+    "id": "ff416750-90a8-11e5-bae9-c9439828fb9d",
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "[number]|number",
     "lineno": 6,
-    "parent": "57032fc0-909d-11e5-8583-97d34e6b4dc0",
+    "parent": "ff414040-90a8-11e5-bae9-c9439828fb9d",
     "origin": {
       "!span": "134[5:4]-135[5:5]",
       "!type": "[number]|number",
@@ -35,5 +35,5 @@ Object.crea //+ create @8
 ]
 ```
 ```ctags
-a	__DIR__/hint_simple.js	a;"	v	lineno:6	type:[number]|number
+a	__DIR__/hint_simple.js	/a/;"	v	lineno:6	type:[number]|number
 ```

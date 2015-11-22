@@ -1,7 +1,7 @@
 [
   {
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "[number]|number",
     "lineno": 6,

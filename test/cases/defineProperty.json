@@ -1,7 +1,7 @@
 [
   {
     "name": "o",
-    "addr": "o",
+    "addr": "/o/",
     "kind": "v",
     "lineno": 1,
     "origin": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "prop1",
-    "addr": "\"prop1\"",
+    "addr": "/\"prop1\"/",
     "kind": "v",
     "type": "string",
     "lineno": 4,
@@ -32,7 +32,7 @@
   },
   {
     "name": "prop2",
-    "addr": "\"prop2\"",
+    "addr": "/\"prop2\"/",
     "kind": "v",
     "type": "number",
     "lineno": 8,
@@ -49,7 +49,7 @@
   },
   {
     "name": "o2",
-    "addr": "o2",
+    "addr": "/o2/",
     "kind": "v",
     "lineno": 17,
     "origin": {
@@ -63,7 +63,7 @@
   },
   {
     "name": "prop1",
-    "addr": "{",
+    "addr": "/\{/",
     "kind": "v",
     "type": "number",
     "lineno": 19,
@@ -80,7 +80,7 @@
   },
   {
     "name": "prop2",
-    "addr": "{",
+    "addr": "/\{/",
     "kind": "v",
     "type": "boolean",
     "lineno": 19,

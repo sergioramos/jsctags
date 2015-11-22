@@ -15,9 +15,9 @@ d[0]; //: string
 ```json
 [
   {
-    "id": "59e51a00-909d-11e5-8e02-01b067115282",
+    "id": "024f91b0-90a9-11e5-910a-cb441d637f36",
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "[string]",
     "lineno": 1,
@@ -32,9 +32,9 @@ d[0]; //: string
     "tagfile": "__DIR__/new_array.js"
   },
   {
-    "id": "59e54110-909d-11e5-8e02-01b067115282",
+    "id": "024fb8c0-90a9-11e5-910a-cb441d637f36",
     "name": "b",
-    "addr": "b",
+    "addr": "/b/",
     "kind": "v",
     "type": "[bool]",
     "lineno": 5,
@@ -49,9 +49,9 @@ d[0]; //: string
     "tagfile": "__DIR__/new_array.js"
   },
   {
-    "id": "59e54111-909d-11e5-8e02-01b067115282",
+    "id": "024fb8c1-90a9-11e5-910a-cb441d637f36",
     "name": "c",
-    "addr": "c",
+    "addr": "/c/",
     "kind": "v",
     "type": "[?]",
     "lineno": 8,
@@ -66,9 +66,9 @@ d[0]; //: string
     "tagfile": "__DIR__/new_array.js"
   },
   {
-    "id": "59e54112-909d-11e5-8e02-01b067115282",
+    "id": "024fb8c2-90a9-11e5-910a-cb441d637f36",
     "name": "d",
-    "addr": "d",
+    "addr": "/d/",
     "kind": "v",
     "type": "[string]",
     "lineno": 11,
@@ -85,8 +85,8 @@ d[0]; //: string
 ]
 ```
 ```ctags
-a	__DIR__/new_array.js	a;"	v	lineno:1	type:[string]
-b	__DIR__/new_array.js	b;"	v	lineno:5	type:[bool]
-c	__DIR__/new_array.js	c;"	v	lineno:8	type:[?]
-d	__DIR__/new_array.js	d;"	v	lineno:11	type:[string]
+a	__DIR__/new_array.js	/a/;"	v	lineno:1	type:[string]
+b	__DIR__/new_array.js	/b/;"	v	lineno:5	type:[bool]
+c	__DIR__/new_array.js	/c/;"	v	lineno:8	type:[?]
+d	__DIR__/new_array.js	/d/;"	v	lineno:11	type:[string]
 ```

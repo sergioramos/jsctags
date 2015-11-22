@@ -1,7 +1,7 @@
 [
   {
     "name": "newElt",
-    "addr": "newElt",
+    "addr": "/newElt/",
     "kind": "v",
     "type": "Element",
     "lineno": 5,
@@ -17,7 +17,7 @@
   },
   {
     "name": "e_which",
-    "addr": "e_which",
+    "addr": "/e_which/",
     "kind": "v",
     "lineno": 8,
     "origin": {

@@ -16,9 +16,9 @@ map([1, 2, 3], function() { return true; }); //: [bool]
 ```json
 [
   {
-    "id": "5ef8b150-909d-11e5-a887-c10cc3d4bcc3",
+    "id": "07eec730-90a9-11e5-a2bb-2fa96481a864",
     "name": "last",
-    "addr": "last",
+    "addr": "/last/",
     "kind": "f",
     "type": "!0.<i> function(Array[number]|[string])",
     "lineno": 1,
@@ -33,14 +33,14 @@ map([1, 2, 3], function() { return true; }); //: [bool]
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
-    "id": "5ef8d860-909d-11e5-a887-c10cc3d4bcc3",
+    "id": "07ef1550-90a9-11e5-a2bb-2fa96481a864",
     "name": "arr",
-    "addr": "arr",
+    "addr": "/arr/",
     "kind": "v",
     "type": "[number]|[string]",
     "lineno": 1,
     "namespace": "last",
-    "parent": "5ef8b150-909d-11e5-a887-c10cc3d4bcc3",
+    "parent": "07eec730-90a9-11e5-a2bb-2fa96481a864",
     "origin": {
       "!span": "14[0:14]-17[0:17]",
       "!type": "[number]|[string]",
@@ -54,9 +54,9 @@ map([1, 2, 3], function() { return true; }); //: [bool]
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
-    "id": "5ef8ff70-909d-11e5-a887-c10cc3d4bcc3",
+    "id": "07ef1551-90a9-11e5-a2bb-2fa96481a864",
     "name": "map",
-    "addr": "map",
+    "addr": "/map/",
     "kind": "f",
     "type": "string|fn() -> bool) -> [?] function(Array[number], fn()",
     "lineno": 6,
@@ -71,14 +71,14 @@ map([1, 2, 3], function() { return true; }); //: [bool]
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
-    "id": "5ef8ff71-909d-11e5-a887-c10cc3d4bcc3",
+    "id": "07ef1552-90a9-11e5-a2bb-2fa96481a864",
     "name": "arr",
-    "addr": "arr",
+    "addr": "/arr/",
     "kind": "v",
     "type": "[number]",
     "lineno": 6,
     "namespace": "map",
-    "parent": "5ef8ff70-909d-11e5-a887-c10cc3d4bcc3",
+    "parent": "07ef1551-90a9-11e5-a2bb-2fa96481a864",
     "origin": {
       "!span": "128[5:13]-131[5:16]",
       "!type": "[number]",
@@ -92,14 +92,14 @@ map([1, 2, 3], function() { return true; }); //: [bool]
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
-    "id": "5ef8ff72-909d-11e5-a887-c10cc3d4bcc3",
+    "id": "07ef1553-90a9-11e5-a2bb-2fa96481a864",
     "name": "f",
-    "addr": "f",
+    "addr": "/f/",
     "kind": "f",
     "type": "boolean function()",
     "lineno": 6,
     "namespace": "map",
-    "parent": "5ef8ff70-909d-11e5-a887-c10cc3d4bcc3",
+    "parent": "07ef1551-90a9-11e5-a2bb-2fa96481a864",
     "origin": {
       "!span": "133[5:18]-134[5:19]",
       "!type": "fn() -> bool",
@@ -113,14 +113,14 @@ map([1, 2, 3], function() { return true; }); //: [bool]
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
-    "id": "5ef8ff74-909d-11e5-a887-c10cc3d4bcc3",
+    "id": "07ef1555-90a9-11e5-a2bb-2fa96481a864",
     "name": "res",
-    "addr": "res",
+    "addr": "/res/",
     "kind": "v",
     "type": "[bool]",
     "lineno": 7,
     "namespace": "map",
-    "parent": "5ef8ff70-909d-11e5-a887-c10cc3d4bcc3",
+    "parent": "07ef1551-90a9-11e5-a2bb-2fa96481a864",
     "origin": {
       "!span": "144[6:6]-147[6:9]",
       "!type": "[bool]",
@@ -134,14 +134,14 @@ map([1, 2, 3], function() { return true; }); //: [bool]
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
-    "id": "5ef8ff73-909d-11e5-a887-c10cc3d4bcc3",
+    "id": "07ef1554-90a9-11e5-a2bb-2fa96481a864",
     "name": "i",
-    "addr": "i",
+    "addr": "/i/",
     "kind": "v",
     "type": "number",
     "lineno": 8,
     "namespace": "map",
-    "parent": "5ef8ff70-909d-11e5-a887-c10cc3d4bcc3",
+    "parent": "07ef1551-90a9-11e5-a2bb-2fa96481a864",
     "origin": {
       "!span": "165[7:11]-166[7:12]",
       "!type": "number",
@@ -157,11 +157,11 @@ map([1, 2, 3], function() { return true; }); //: [bool]
 ]
 ```
 ```ctags
-last	__DIR__/simple_generic.js	last;"	f	lineno:1	type:!0.<i> function(Array[number]|[string])
-arr	__DIR__/simple_generic.js	arr;"	v	lineno:1	namespace:last	type:[number]|[string]
-map	__DIR__/simple_generic.js	map;"	f	lineno:6	type:string|fn() -> bool) -> [?] function(Array[number], fn()
-arr	__DIR__/simple_generic.js	arr;"	v	lineno:6	namespace:map	type:[number]
-f	__DIR__/simple_generic.js	f;"	f	lineno:6	namespace:map	type:boolean function()
-res	__DIR__/simple_generic.js	res;"	v	lineno:7	namespace:map	type:[bool]
-i	__DIR__/simple_generic.js	i;"	v	lineno:8	namespace:map	type:number
+last	__DIR__/simple_generic.js	/last/;"	f	lineno:1	type:!0.<i> function(Array[number]|[string])
+arr	__DIR__/simple_generic.js	/arr/;"	v	lineno:1	namespace:last	type:[number]|[string]
+map	__DIR__/simple_generic.js	/map/;"	f	lineno:6	type:string|fn() -> bool) -> [?] function(Array[number], fn()
+arr	__DIR__/simple_generic.js	/arr/;"	v	lineno:6	namespace:map	type:[number]
+f	__DIR__/simple_generic.js	/f/;"	f	lineno:6	namespace:map	type:boolean function()
+res	__DIR__/simple_generic.js	/res/;"	v	lineno:7	namespace:map	type:[bool]
+i	__DIR__/simple_generic.js	/i/;"	v	lineno:8	namespace:map	type:number
 ```

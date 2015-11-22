@@ -1,7 +1,7 @@
 [
   {
     "name": "set",
-    "addr": "set",
+    "addr": "/set/",
     "kind": "v",
     "type": "Set",
     "lineno": 1,
@@ -17,7 +17,7 @@
   },
   {
     "name": "elt",
-    "addr": "elt",
+    "addr": "/elt/",
     "kind": "v",
     "type": "boolean",
     "lineno": 7,

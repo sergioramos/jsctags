@@ -1,7 +1,7 @@
 [
   {
     "name": "hello",
-    "addr": "hello",
+    "addr": "/hello/",
     "kind": "f",
     "type": "void function(?, ?)",
     "lineno": 1,
@@ -17,7 +17,7 @@
   },
   {
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "lineno": 1,
     "namespace": "hello",
@@ -34,7 +34,7 @@
   },
   {
     "name": "b",
-    "addr": "b",
+    "addr": "/b/",
     "kind": "v",
     "lineno": 1,
     "namespace": "hello",
@@ -51,7 +51,7 @@
   },
   {
     "name": "c",
-    "addr": "c",
+    "addr": "/c/",
     "kind": "v",
     "lineno": 2,
     "namespace": "hello",
@@ -68,7 +68,7 @@
   },
   {
     "name": "obj",
-    "addr": "obj",
+    "addr": "/obj/",
     "kind": "v",
     "lineno": 10,
     "origin": {
@@ -82,7 +82,7 @@
   },
   {
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 11,
@@ -99,7 +99,7 @@
   },
   {
     "name": "y",
-    "addr": "y",
+    "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 13,
@@ -116,7 +116,7 @@
   },
   {
     "name": "z",
-    "addr": "z",
+    "addr": "/z/",
     "kind": "v",
     "type": "string",
     "lineno": 17,

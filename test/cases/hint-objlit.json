@@ -1,7 +1,7 @@
 [
   {
     "name": "poison",
-    "addr": "poison",
+    "addr": "/poison/",
     "kind": "v",
     "lineno": 1,
     "origin": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "focus",
-    "addr": "focus",
+    "addr": "/focus/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
@@ -32,7 +32,7 @@
   },
   {
     "name": "nothing",
-    "addr": "nothing",
+    "addr": "/nothing/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
@@ -49,7 +49,7 @@
   },
   {
     "name": "blah",
-    "addr": "blah",
+    "addr": "/blah/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
@@ -66,7 +66,7 @@
   },
   {
     "name": "name",
-    "addr": "name",
+    "addr": "/name/",
     "kind": "v",
     "type": "string",
     "lineno": 3,
@@ -83,7 +83,7 @@
   },
   {
     "name": "person",
-    "addr": "person",
+    "addr": "/person/",
     "kind": "v",
     "lineno": 3,
     "origin": {
@@ -97,7 +97,7 @@
   },
   {
     "name": "born",
-    "addr": "born",
+    "addr": "/born/",
     "kind": "v",
     "type": "number",
     "lineno": 3,
@@ -116,7 +116,7 @@
   },
   {
     "name": "name",
-    "addr": "name",
+    "addr": "/name/",
     "kind": "v",
     "type": "string",
     "lineno": 3,
@@ -135,7 +135,7 @@
   },
   {
     "name": "born",
-    "addr": "born",
+    "addr": "/born/",
     "kind": "v",
     "type": "number",
     "lineno": 3,
@@ -152,7 +152,7 @@
   },
   {
     "name": "age",
-    "addr": "age",
+    "addr": "/age/",
     "kind": "f",
     "type": "number function(?)",
     "lineno": 5,
@@ -168,7 +168,7 @@
   },
   {
     "name": "person",
-    "addr": "person",
+    "addr": "/person/",
     "kind": "v",
     "lineno": 5,
     "namespace": "age",
@@ -185,7 +185,7 @@
   },
   {
     "name": "persons",
-    "addr": "persons",
+    "addr": "/persons/",
     "kind": "v",
     "type": "[person, person]|[ages.!0.<i>]",
     "lineno": 6,
@@ -204,7 +204,7 @@
   },
   {
     "name": "ages",
-    "addr": "ages",
+    "addr": "/ages/",
     "kind": "f",
     "type": "[number] function(Array[person)",
     "lineno": 6,
@@ -220,7 +220,7 @@
   },
   {
     "name": "n",
-    "addr": "n",
+    "addr": "/n/",
     "kind": "v",
     "lineno": 11,
     "namespace": "age.person",
@@ -237,7 +237,7 @@
   },
   {
     "name": "b",
-    "addr": "b",
+    "addr": "/b/",
     "kind": "v",
     "lineno": 13,
     "namespace": "age.person",
@@ -254,7 +254,7 @@
   },
   {
     "name": "example",
-    "addr": "example",
+    "addr": "/example/",
     "kind": "v",
     "lineno": 15,
     "origin": {
@@ -268,7 +268,7 @@
   },
   {
     "name": "foo",
-    "addr": "foo",
+    "addr": "/foo/",
     "kind": "v",
     "type": "number",
     "lineno": 17,
@@ -285,7 +285,7 @@
   },
   {
     "name": "food",
-    "addr": "food",
+    "addr": "/food/",
     "kind": "v",
     "type": "number",
     "lineno": 19,
@@ -302,7 +302,7 @@
   },
   {
     "name": "bar",
-    "addr": "bar",
+    "addr": "/bar/",
     "kind": "v",
     "type": "boolean",
     "lineno": 21,
@@ -319,7 +319,7 @@
   },
   {
     "name": "takes",
-    "addr": "takes",
+    "addr": "/takes/",
     "kind": "f",
     "type": "!0 function(?)",
     "lineno": 24,
@@ -335,7 +335,7 @@
   },
   {
     "name": "example",
-    "addr": "example",
+    "addr": "/example/",
     "kind": "v",
     "lineno": 24,
     "namespace": "takes",
@@ -352,7 +352,7 @@
   },
   {
     "name": "fo",
-    "addr": "fo",
+    "addr": "/fo/",
     "kind": "v",
     "lineno": 28,
     "namespace": "takes.example",
@@ -369,7 +369,7 @@
   },
   {
     "name": "food",
-    "addr": "food",
+    "addr": "/food/",
     "kind": "v",
     "lineno": 34,
     "namespace": "takes.example",
@@ -386,7 +386,7 @@
   },
   {
     "name": "_1",
-    "addr": "_1",
+    "addr": "/_1/",
     "kind": "v",
     "type": "string",
     "lineno": 40,
@@ -405,7 +405,7 @@
   },
   {
     "name": "noise",
-    "addr": "noise",
+    "addr": "/noise/",
     "kind": "v",
     "type": "number",
     "lineno": 41,
@@ -424,7 +424,7 @@
   },
   {
     "name": "b",
-    "addr": "b",
+    "addr": "/b/",
     "kind": "v",
     "lineno": 42,
     "namespace": "takes.example",
@@ -441,7 +441,7 @@
   },
   {
     "name": "_2",
-    "addr": "_2",
+    "addr": "/_2/",
     "kind": "v",
     "type": "string",
     "lineno": 43,
@@ -460,7 +460,7 @@
   },
   {
     "name": "bar",
-    "addr": "bar",
+    "addr": "/bar/",
     "kind": "v",
     "lineno": 47,
     "namespace": "takes.example",

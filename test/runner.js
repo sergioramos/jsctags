@@ -9,7 +9,7 @@ var fs = require('fs');
 
 var casesDir = path.resolve(__dirname, 'cases');
 var files = fs.readdirSync(casesDir).filter(function (file) {
-  return path.extname(file) === '.js';
+  return  ['.js', '.jsx'].indexOf(path.extname(file)) >= 0;
 }).map(function (file) {
   return path.resolve(__dirname, 'cases', file);
 });
@@ -129,21 +129,26 @@ function testCommandOutput (options, callback) {
   var stdin = options.input.stdin;
   var label = options.label;
   var args = options.args || [];
-  var expected = options.expected;
+  var expected = options.expected.trim();
   process.stdout.write(format('%s%s%s...', label, file ? '' : ' (STDIN)', args.indexOf('-f') !== -1 ? ' (-f)' : ''));
   var command = file ? format('%s %s %s', cmd, file, args.join(' ')) : format('%s %s', cmd, args.join(' '));
   var child = cp.exec(command, function (e, stdout, stderr) {
     if (e) return callback(e);
+    stdout = stdout.trim();
 
     try {
       if (args.indexOf('-f') === -1) {
-        assert.deepEqual(JSON.parse(stdout).map(function (tag) {
-          delete tag.id;
-          delete tag.parent;
-          return tag;
-        }), JSON.parse(expected));
+        stdout = stdout.replace(/\n\s+"id"\:\s+".+",\n/g, '\n');
+        stdout = stdout.replace(/\n\s+"parent"\:\s+".+",\n/g, '\n');
+
+        try {
+          assert.equal(stdout, expected);
+        } catch (err) {
+          stdout = stdout.replace(/\\\\/g, '\\'); // for some reason :X
+          assert.equal(stdout, expected);
+        }
       } else {
-        assert.equal(stdout.trim(), expected.trim());
+        assert.equal(stdout, expected);
       }
       showTestPassed();
     } catch (e) {

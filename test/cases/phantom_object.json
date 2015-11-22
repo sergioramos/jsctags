@@ -1,7 +1,7 @@
 [
   {
     "name": "mod",
-    "addr": "mod",
+    "addr": "/mod/",
     "kind": "v",
     "lineno": 1,
     "origin": {
@@ -15,7 +15,7 @@
   },
   {
     "name": "func",
-    "addr": "func",
+    "addr": "/func/",
     "kind": "f",
     "type": "number function()",
     "lineno": 3,
@@ -32,7 +32,7 @@
   },
   {
     "name": "otherMod",
-    "addr": "otherMod",
+    "addr": "/otherMod/",
     "kind": "v",
     "lineno": 7,
     "origin": {
@@ -46,7 +46,7 @@
   },
   {
     "name": "c",
-    "addr": "c",
+    "addr": "/c/",
     "kind": "v",
     "type": "number",
     "lineno": 9,

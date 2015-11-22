@@ -1,7 +1,7 @@
 [
   {
     "name": "each",
-    "addr": "each",
+    "addr": "/each/",
     "kind": "f",
     "type": "void function(Array[number]|[each.!0.<i>], fn(n: number)",
     "lineno": 2,
@@ -17,7 +17,7 @@
   },
   {
     "name": "context",
-    "addr": "context",
+    "addr": "/context/",
     "kind": "v",
     "type": "string",
     "lineno": 2,
@@ -36,7 +36,7 @@
   },
   {
     "name": "iterator",
-    "addr": "iterator",
+    "addr": "/iterator/",
     "kind": "f",
     "type": "void function(each.!0.<i>)",
     "lineno": 2,
@@ -55,7 +55,7 @@
   },
   {
     "name": "obj",
-    "addr": "obj",
+    "addr": "/obj/",
     "kind": "v",
     "type": "[each.!0.<i>]",
     "lineno": 2,
@@ -74,7 +74,7 @@
   },
   {
     "name": "i",
-    "addr": "i",
+    "addr": "/i/",
     "kind": "v",
     "type": "number",
     "lineno": 7,
@@ -93,7 +93,7 @@
   },
   {
     "name": "l",
-    "addr": "l",
+    "addr": "/l/",
     "kind": "v",
     "type": "number",
     "lineno": 7,

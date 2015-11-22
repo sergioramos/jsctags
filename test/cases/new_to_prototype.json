@@ -1,7 +1,7 @@
 [
   {
     "name": "A",
-    "addr": "A",
+    "addr": "/A/",
     "kind": "f",
     "type": "void function()",
     "lineno": 1,
@@ -17,7 +17,7 @@
   },
   {
     "name": "prop_A",
-    "addr": "prop_A",
+    "addr": "/prop_A/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
@@ -34,7 +34,7 @@
   },
   {
     "name": "B",
-    "addr": "B",
+    "addr": "/B/",
     "kind": "f",
     "type": "void function()",
     "lineno": 3,
@@ -50,7 +50,7 @@
   },
   {
     "name": "prototype",
-    "addr": "prototype",
+    "addr": "/prototype/",
     "kind": "v",
     "lineno": 4,
     "namespace": "B",
@@ -65,7 +65,7 @@
   },
   {
     "name": "prop_B",
-    "addr": "prop_B",
+    "addr": "/prop_B/",
     "kind": "v",
     "type": "number",
     "lineno": 5,
@@ -82,7 +82,7 @@
   },
   {
     "name": "C",
-    "addr": "C",
+    "addr": "/C/",
     "kind": "f",
     "type": "void function()",
     "lineno": 6,
@@ -98,7 +98,7 @@
   },
   {
     "name": "prototype",
-    "addr": "prototype",
+    "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "C",
@@ -113,7 +113,7 @@
   },
   {
     "name": "prop_C",
-    "addr": "prop_C",
+    "addr": "/prop_C/",
     "kind": "v",
     "type": "number",
     "lineno": 8,

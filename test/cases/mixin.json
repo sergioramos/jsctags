@@ -1,7 +1,7 @@
 [
   {
     "name": "Class",
-    "addr": "Class",
+    "addr": "/Class/",
     "kind": "f",
     "type": "void function()",
     "lineno": 1,
@@ -17,7 +17,7 @@
   },
   {
     "name": "prototype",
-    "addr": "prototype",
+    "addr": "/prototype/",
     "kind": "v",
     "lineno": 2,
     "namespace": "Class",
@@ -32,7 +32,7 @@
   },
   {
     "name": "m3",
-    "addr": "m3",
+    "addr": "/m3/",
     "kind": "f",
     "type": "void function()",
     "lineno": 4,
@@ -49,7 +49,7 @@
   },
   {
     "name": "mixin",
-    "addr": "mixin",
+    "addr": "/mixin/",
     "kind": "f",
     "type": "!0 function(Class.prototype|string)",
     "lineno": 7,
@@ -65,7 +65,7 @@
   },
   {
     "name": "m1",
-    "addr": "m1",
+    "addr": "/m1/",
     "kind": "f",
     "type": "void function()",
     "lineno": 14,
@@ -82,7 +82,7 @@
   },
   {
     "name": "m1",
-    "addr": "m1",
+    "addr": "/m1/",
     "kind": "f",
     "type": "void function()",
     "lineno": 14,
@@ -98,7 +98,7 @@
   },
   {
     "name": "m1",
-    "addr": "m1",
+    "addr": "/m1/",
     "kind": "f",
     "type": "void function()",
     "lineno": 14,
@@ -115,7 +115,7 @@
   },
   {
     "name": "m2",
-    "addr": "m2",
+    "addr": "/m2/",
     "kind": "f",
     "type": "void function()",
     "lineno": 16,
@@ -131,7 +131,7 @@
   },
   {
     "name": "m2",
-    "addr": "m2",
+    "addr": "/m2/",
     "kind": "f",
     "type": "void function()",
     "lineno": 16,
@@ -148,7 +148,7 @@
   },
   {
     "name": "m2",
-    "addr": "m2",
+    "addr": "/m2/",
     "kind": "f",
     "type": "void function()",
     "lineno": 16,
@@ -165,7 +165,7 @@
   },
   {
     "name": "OtherClass",
-    "addr": "OtherClass",
+    "addr": "/OtherClass/",
     "kind": "f",
     "type": "void function()",
     "lineno": 18,
@@ -181,7 +181,7 @@
   },
   {
     "name": "prototype",
-    "addr": "prototype",
+    "addr": "/prototype/",
     "kind": "v",
     "lineno": 19,
     "namespace": "OtherClass",
@@ -196,7 +196,7 @@
   },
   {
     "name": "m4",
-    "addr": "m4",
+    "addr": "/m4/",
     "kind": "f",
     "type": "void function()",
     "lineno": 21,
@@ -213,7 +213,7 @@
   },
   {
     "name": "c",
-    "addr": "c",
+    "addr": "/c/",
     "kind": "v",
     "type": "Class",
     "lineno": 24,
@@ -229,7 +229,7 @@
   },
   {
     "name": "oc",
-    "addr": "oc",
+    "addr": "/oc/",
     "kind": "v",
     "type": "OtherClass",
     "lineno": 31,

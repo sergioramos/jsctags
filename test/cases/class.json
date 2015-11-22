@@ -1,7 +1,7 @@
 [
   {
     "name": "Point2",
-    "addr": "Point2",
+    "addr": "/Point2/",
     "kind": "f",
     "type": "void function(number, number)",
     "lineno": 1,
@@ -17,7 +17,7 @@
   },
   {
     "name": "prototype",
-    "addr": "class Point2 {",
+    "addr": "/class Point2 \{/",
     "kind": "v",
     "lineno": 1,
     "namespace": "Point2",
@@ -32,7 +32,7 @@
   },
   {
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
@@ -49,7 +49,7 @@
   },
   {
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
@@ -68,7 +68,7 @@
   },
   {
     "name": "y",
-    "addr": "y",
+    "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
@@ -87,7 +87,7 @@
   },
   {
     "name": "y",
-    "addr": "y",
+    "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
@@ -104,7 +104,7 @@
   },
   {
     "name": "y",
-    "addr": "y",
+    "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
@@ -121,7 +121,7 @@
   },
   {
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
@@ -138,7 +138,7 @@
   },
   {
     "name": "plus",
-    "addr": "plus",
+    "addr": "/plus/",
     "kind": "f",
     "type": "Point2 function(+Point2)",
     "lineno": 3,
@@ -155,7 +155,7 @@
   },
   {
     "name": "pt",
-    "addr": "pt",
+    "addr": "/pt/",
     "kind": "v",
     "type": "Point2",
     "lineno": 3,
@@ -174,7 +174,7 @@
   },
   {
     "name": "xx",
-    "addr": "xx",
+    "addr": "/xx/",
     "kind": "v",
     "type": "number",
     "lineno": 8,
@@ -191,7 +191,7 @@
   },
   {
     "name": "quux",
-    "addr": "quux",
+    "addr": "/quux/",
     "kind": "f",
     "type": "number function()",
     "lineno": 9,
@@ -208,7 +208,7 @@
   },
   {
     "name": "origin",
-    "addr": "origin",
+    "addr": "/origin/",
     "kind": "f",
     "type": "Point2 function()",
     "lineno": 10,
@@ -225,7 +225,7 @@
   },
   {
     "name": "Point4",
-    "addr": "Point4",
+    "addr": "/Point4/",
     "kind": "f",
     "type": "void function(number, number, number, number)",
     "lineno": 13,
@@ -241,7 +241,7 @@
   },
   {
     "name": "prototype",
-    "addr": "class Point4 extends Point3 {",
+    "addr": "/class Point4 extends Point3 \{/",
     "kind": "v",
     "lineno": 13,
     "namespace": "Point4",
@@ -256,7 +256,7 @@
   },
   {
     "name": "u",
-    "addr": "u",
+    "addr": "/u/",
     "kind": "v",
     "type": "number",
     "lineno": 14,
@@ -273,7 +273,7 @@
   },
   {
     "name": "argh",
-    "addr": "argh",
+    "addr": "/argh/",
     "kind": "f",
     "type": "number function()",
     "lineno": 15,
@@ -290,7 +290,7 @@
   },
   {
     "name": "Point3",
-    "addr": "Point3",
+    "addr": "/Point3/",
     "kind": "f",
     "type": "void function(number, number, number)",
     "lineno": 18,
@@ -306,7 +306,7 @@
   },
   {
     "name": "prototype",
-    "addr": "class extends Point2 {",
+    "addr": "/class extends Point2 \{/",
     "kind": "v",
     "lineno": 18,
     "namespace": "Point3",
@@ -321,7 +321,7 @@
   },
   {
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 19,
@@ -340,7 +340,7 @@
   },
   {
     "name": "y",
-    "addr": "y",
+    "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 19,
@@ -359,7 +359,7 @@
   },
   {
     "name": "z",
-    "addr": "z",
+    "addr": "/z/",
     "kind": "v",
     "type": "number",
     "lineno": 19,
@@ -378,7 +378,7 @@
   },
   {
     "name": "z",
-    "addr": "z",
+    "addr": "/z/",
     "kind": "v",
     "type": "number",
     "lineno": 19,
@@ -395,7 +395,7 @@
   },
   {
     "name": "foobar",
-    "addr": "foobar",
+    "addr": "/foobar/",
     "kind": "f",
     "type": "boolean function()",
     "lineno": 20,
@@ -412,7 +412,7 @@
   },
   {
     "name": "p1",
-    "addr": "p1",
+    "addr": "/p1/",
     "kind": "v",
     "type": "Point2",
     "lineno": 23,
@@ -428,7 +428,7 @@
   },
   {
     "name": "p2",
-    "addr": "p2",
+    "addr": "/p2/",
     "kind": "v",
     "type": "Point2",
     "lineno": 26,
@@ -446,7 +446,7 @@
   },
   {
     "name": "p3",
-    "addr": "p3",
+    "addr": "/p3/",
     "kind": "v",
     "type": "Point3",
     "lineno": 32,
@@ -462,7 +462,7 @@
   },
   {
     "name": "p4",
-    "addr": "p4",
+    "addr": "/p4/",
     "kind": "v",
     "type": "Point4",
     "lineno": 37,

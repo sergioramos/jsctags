@@ -1,7 +1,7 @@
 [
   {
     "name": "last",
-    "addr": "last",
+    "addr": "/last/",
     "kind": "f",
     "type": "!0.<i> function(Array[number]|[string])",
     "lineno": 1,
@@ -17,7 +17,7 @@
   },
   {
     "name": "arr",
-    "addr": "arr",
+    "addr": "/arr/",
     "kind": "v",
     "type": "[number]|[string]",
     "lineno": 1,
@@ -36,7 +36,7 @@
   },
   {
     "name": "map",
-    "addr": "map",
+    "addr": "/map/",
     "kind": "f",
     "type": "string|fn() -> bool) -> [?] function(Array[number], fn()",
     "lineno": 6,
@@ -52,7 +52,7 @@
   },
   {
     "name": "arr",
-    "addr": "arr",
+    "addr": "/arr/",
     "kind": "v",
     "type": "[number]",
     "lineno": 6,
@@ -71,7 +71,7 @@
   },
   {
     "name": "f",
-    "addr": "f",
+    "addr": "/f/",
     "kind": "f",
     "type": "boolean function()",
     "lineno": 6,
@@ -90,7 +90,7 @@
   },
   {
     "name": "res",
-    "addr": "res",
+    "addr": "/res/",
     "kind": "v",
     "type": "[bool]",
     "lineno": 7,
@@ -109,7 +109,7 @@
   },
   {
     "name": "i",
-    "addr": "i",
+    "addr": "/i/",
     "kind": "v",
     "type": "number",
     "lineno": 8,

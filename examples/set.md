@@ -15,9 +15,9 @@ set.forEach(function(val) {
 ```json
 [
   {
-    "id": "5e462a30-909d-11e5-bfac-13765e7c25d4",
+    "id": "0726e350-90a9-11e5-ab59-c3cd73c26550",
     "name": "set",
-    "addr": "set",
+    "addr": "/set/",
     "kind": "v",
     "type": "Set",
     "lineno": 1,
@@ -32,9 +32,9 @@ set.forEach(function(val) {
     "tagfile": "__DIR__/set.js"
   },
   {
-    "id": "5e465140-909d-11e5-bfac-13765e7c25d4",
+    "id": "07270a60-90a9-11e5-ab59-c3cd73c26550",
     "name": "elt",
-    "addr": "elt",
+    "addr": "/elt/",
     "kind": "v",
     "type": "boolean",
     "lineno": 7,
@@ -51,6 +51,6 @@ set.forEach(function(val) {
 ]
 ```
 ```ctags
-set	__DIR__/set.js	set;"	v	lineno:1	type:Set
-elt	__DIR__/set.js	elt;"	v	lineno:7	type:boolean
+set	__DIR__/set.js	/set/;"	v	lineno:1	type:Set
+elt	__DIR__/set.js	/elt/;"	v	lineno:7	type:boolean
 ```

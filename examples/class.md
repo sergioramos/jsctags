@@ -44,9 +44,9 @@ p4.quux() //: number
 ```json
 [
   {
-    "id": "4e1173e0-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d80a70-90a8-11e5-860d-bd9a18c262c6",
     "name": "Point2",
-    "addr": "Point2",
+    "addr": "/Point2/",
     "kind": "f",
     "type": "void function(number, number)",
     "lineno": 1,
@@ -61,13 +61,13 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e119af0-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d85890-90a8-11e5-860d-bd9a18c262c6",
     "name": "prototype",
-    "addr": "class Point2 {",
+    "addr": "/class Point2 \{/",
     "kind": "v",
     "lineno": 1,
     "namespace": "Point2",
-    "parent": "4e1173e0-909d-11e5-9990-efe41ed2774f",
+    "parent": "f5d80a70-90a8-11e5-860d-bd9a18c262c6",
     "origin": {
       "!span": "0[0:0]-267[10:1]",
       "!data": {
@@ -78,14 +78,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e11e910-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d87fa3-90a8-11e5-860d-bd9a18c262c6",
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "Point4",
-    "parent": "4e11c208-909d-11e5-9990-efe41ed2774f",
+    "parent": "f5d8589a-90a8-11e5-860d-bd9a18c262c6",
     "origin": {
       "!span": "42[1:27]-43[1:28]",
       "!type": "number",
@@ -97,14 +97,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e11c201-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d85893-90a8-11e5-860d-bd9a18c262c6",
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "Point2.prototype.plus.pt",
-    "parent": "4e11c200-909d-11e5-9990-efe41ed2774f",
+    "parent": "f5d85892-90a8-11e5-860d-bd9a18c262c6",
     "origin": {
       "!span": "42[1:27]-43[1:28]",
       "!type": "number",
@@ -118,14 +118,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e11c202-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d85894-90a8-11e5-860d-bd9a18c262c6",
     "name": "y",
-    "addr": "y",
+    "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "Point2.prototype.plus.pt",
-    "parent": "4e11c200-909d-11e5-9990-efe41ed2774f",
+    "parent": "f5d85892-90a8-11e5-860d-bd9a18c262c6",
     "origin": {
       "!span": "54[1:39]-55[1:40]",
       "!type": "number",
@@ -139,14 +139,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e11e911-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d87fa4-90a8-11e5-860d-bd9a18c262c6",
     "name": "y",
-    "addr": "y",
+    "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "Point4",
-    "parent": "4e11c208-909d-11e5-9990-efe41ed2774f",
+    "parent": "f5d8589a-90a8-11e5-860d-bd9a18c262c6",
     "origin": {
       "!span": "54[1:39]-55[1:40]",
       "!type": "number",
@@ -158,14 +158,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e11c207-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d85899-90a8-11e5-860d-bd9a18c262c6",
     "name": "y",
-    "addr": "y",
+    "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "Point2",
-    "parent": "4e1173e0-909d-11e5-9990-efe41ed2774f",
+    "parent": "f5d80a70-90a8-11e5-860d-bd9a18c262c6",
     "origin": {
       "!span": "54[1:39]-55[1:40]",
       "!type": "number",
@@ -177,14 +177,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e11c206-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d85898-90a8-11e5-860d-bd9a18c262c6",
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "Point2",
-    "parent": "4e1173e0-909d-11e5-9990-efe41ed2774f",
+    "parent": "f5d80a70-90a8-11e5-860d-bd9a18c262c6",
     "origin": {
       "!span": "42[1:27]-43[1:28]",
       "!type": "number",
@@ -196,14 +196,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e119af1-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d85891-90a8-11e5-860d-bd9a18c262c6",
     "name": "plus",
-    "addr": "plus",
+    "addr": "/plus/",
     "kind": "f",
     "type": "Point2 function(+Point2)",
     "lineno": 3,
     "namespace": "Point2.prototype",
-    "parent": "4e119af0-909d-11e5-9990-efe41ed2774f",
+    "parent": "f5d85890-90a8-11e5-860d-bd9a18c262c6",
     "origin": {
       "!span": "64[2:2]-68[2:6]",
       "!type": "fn(pt: +Point2) -> +Point2",
@@ -215,14 +215,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e11c200-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d85892-90a8-11e5-860d-bd9a18c262c6",
     "name": "pt",
-    "addr": "pt",
+    "addr": "/pt/",
     "kind": "v",
     "type": "Point2",
     "lineno": 3,
     "namespace": "Point2.prototype.plus",
-    "parent": "4e119af1-909d-11e5-9990-efe41ed2774f",
+    "parent": "f5d85891-90a8-11e5-860d-bd9a18c262c6",
     "origin": {
       "!span": "69[2:7]-71[2:9]",
       "!type": "+Point2",
@@ -236,14 +236,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e11c203-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d85895-90a8-11e5-860d-bd9a18c262c6",
     "name": "xx",
-    "addr": "xx",
+    "addr": "/xx/",
     "kind": "v",
     "type": "number",
     "lineno": 8,
     "namespace": "Point2.prototype",
-    "parent": "4e119af0-909d-11e5-9990-efe41ed2774f",
+    "parent": "f5d85890-90a8-11e5-860d-bd9a18c262c6",
     "origin": {
       "!span": "175[7:6]-177[7:8]",
       "!type": "number",
@@ -255,14 +255,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e11c204-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d85896-90a8-11e5-860d-bd9a18c262c6",
     "name": "quux",
-    "addr": "quux",
+    "addr": "/quux/",
     "kind": "f",
     "type": "number function()",
     "lineno": 9,
     "namespace": "Point2.prototype",
-    "parent": "4e119af0-909d-11e5-9990-efe41ed2774f",
+    "parent": "f5d85890-90a8-11e5-860d-bd9a18c262c6",
     "origin": {
       "!span": "200[8:2]-204[8:6]",
       "!type": "fn() -> number",
@@ -274,14 +274,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e11c205-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d85897-90a8-11e5-860d-bd9a18c262c6",
     "name": "origin",
-    "addr": "origin",
+    "addr": "/origin/",
     "kind": "f",
     "type": "Point2 function()",
     "lineno": 10,
     "namespace": "Point2",
-    "parent": "4e1173e0-909d-11e5-9990-efe41ed2774f",
+    "parent": "f5d80a70-90a8-11e5-860d-bd9a18c262c6",
     "origin": {
       "!span": "229[9:9]-235[9:15]",
       "!type": "fn() -> +Point2",
@@ -293,9 +293,9 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e11c208-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d8589a-90a8-11e5-860d-bd9a18c262c6",
     "name": "Point4",
-    "addr": "Point4",
+    "addr": "/Point4/",
     "kind": "f",
     "type": "void function(number, number, number, number)",
     "lineno": 13,
@@ -310,13 +310,13 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e11c209-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d8589b-90a8-11e5-860d-bd9a18c262c6",
     "name": "prototype",
-    "addr": "class Point4 extends Point3 {",
+    "addr": "/class Point4 extends Point3 \{/",
     "kind": "v",
     "lineno": 13,
     "namespace": "Point4",
-    "parent": "4e11c208-909d-11e5-9990-efe41ed2774f",
+    "parent": "f5d8589a-90a8-11e5-860d-bd9a18c262c6",
     "origin": {
       "!span": "269[12:0]-379[15:1]",
       "!data": {
@@ -327,14 +327,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e11c20b-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d87fa1-90a8-11e5-860d-bd9a18c262c6",
     "name": "u",
-    "addr": "u",
+    "addr": "/u/",
     "kind": "v",
     "type": "number",
     "lineno": 14,
     "namespace": "Point4",
-    "parent": "4e11c208-909d-11e5-9990-efe41ed2774f",
+    "parent": "f5d8589a-90a8-11e5-860d-bd9a18c262c6",
     "origin": {
       "!span": "348[13:49]-349[13:50]",
       "!type": "number",
@@ -346,14 +346,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e11c20a-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d87fa0-90a8-11e5-860d-bd9a18c262c6",
     "name": "argh",
-    "addr": "argh",
+    "addr": "/argh/",
     "kind": "f",
     "type": "number function()",
     "lineno": 15,
     "namespace": "Point4.prototype",
-    "parent": "4e11c209-909d-11e5-9990-efe41ed2774f",
+    "parent": "f5d8589b-90a8-11e5-860d-bd9a18c262c6",
     "origin": {
       "!span": "358[14:2]-362[14:6]",
       "!type": "fn() -> number",
@@ -365,9 +365,9 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e11e912-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d87fa5-90a8-11e5-860d-bd9a18c262c6",
     "name": "Point3",
-    "addr": "Point3",
+    "addr": "/Point3/",
     "kind": "f",
     "type": "void function(number, number, number)",
     "lineno": 18,
@@ -382,13 +382,13 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e11e913-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d87fa6-90a8-11e5-860d-bd9a18c262c6",
     "name": "prototype",
-    "addr": "class extends Point2 {",
+    "addr": "/class extends Point2 \{/",
     "kind": "v",
     "lineno": 18,
     "namespace": "Point3",
-    "parent": "4e11e912-909d-11e5-9990-efe41ed2774f",
+    "parent": "f5d87fa5-90a8-11e5-860d-bd9a18c262c6",
     "origin": {
       "!span": "394[17:13]-496[20:1]",
       "!data": {
@@ -399,14 +399,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e11e916-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d87fa9-90a8-11e5-860d-bd9a18c262c6",
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 19,
     "namespace": "Point3",
-    "parent": "4e11e912-909d-11e5-9990-efe41ed2774f",
+    "parent": "f5d87fa5-90a8-11e5-860d-bd9a18c262c6",
     "origin": {
       "!span": "431[18:14]-432[18:15]",
       "!type": "number",
@@ -420,14 +420,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e11e917-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d87faa-90a8-11e5-860d-bd9a18c262c6",
     "name": "y",
-    "addr": "y",
+    "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 19,
     "namespace": "Point3",
-    "parent": "4e11e912-909d-11e5-9990-efe41ed2774f",
+    "parent": "f5d87fa5-90a8-11e5-860d-bd9a18c262c6",
     "origin": {
       "!span": "434[18:17]-435[18:18]",
       "!type": "number",
@@ -441,14 +441,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e11e915-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d87fa8-90a8-11e5-860d-bd9a18c262c6",
     "name": "z",
-    "addr": "z",
+    "addr": "/z/",
     "kind": "v",
     "type": "number",
     "lineno": 19,
     "namespace": "Point3",
-    "parent": "4e11e912-909d-11e5-9990-efe41ed2774f",
+    "parent": "f5d87fa5-90a8-11e5-860d-bd9a18c262c6",
     "origin": {
       "!span": "437[18:20]-438[18:21]",
       "!type": "number",
@@ -462,14 +462,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e11c20c-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d87fa2-90a8-11e5-860d-bd9a18c262c6",
     "name": "z",
-    "addr": "z",
+    "addr": "/z/",
     "kind": "v",
     "type": "number",
     "lineno": 19,
     "namespace": "Point4",
-    "parent": "4e11c208-909d-11e5-9990-efe41ed2774f",
+    "parent": "f5d8589a-90a8-11e5-860d-bd9a18c262c6",
     "origin": {
       "!span": "460[18:43]-461[18:44]",
       "!type": "number",
@@ -481,14 +481,14 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e11e914-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d87fa7-90a8-11e5-860d-bd9a18c262c6",
     "name": "foobar",
-    "addr": "foobar",
+    "addr": "/foobar/",
     "kind": "f",
     "type": "boolean function()",
     "lineno": 20,
     "namespace": "Point3.prototype",
-    "parent": "4e11e913-909d-11e5-9990-efe41ed2774f",
+    "parent": "f5d87fa6-90a8-11e5-860d-bd9a18c262c6",
     "origin": {
       "!span": "470[19:2]-476[19:8]",
       "!type": "fn() -> bool",
@@ -500,9 +500,9 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e121020-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d87fab-90a8-11e5-860d-bd9a18c262c6",
     "name": "p1",
-    "addr": "p1",
+    "addr": "/p1/",
     "kind": "v",
     "type": "Point2",
     "lineno": 23,
@@ -517,13 +517,13 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e121024-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d87faf-90a8-11e5-860d-bd9a18c262c6",
     "name": "p2",
-    "addr": "p2",
+    "addr": "/p2/",
     "kind": "v",
     "type": "Point2",
     "lineno": 26,
-    "parent": "4e121023-909d-11e5-9990-efe41ed2774f",
+    "parent": "f5d87fae-90a8-11e5-860d-bd9a18c262c6",
     "origin": {
       "!span": "558[25:4]-560[25:6]",
       "!type": "+Point2",
@@ -537,9 +537,9 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e121021-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d87fac-90a8-11e5-860d-bd9a18c262c6",
     "name": "p3",
-    "addr": "p3",
+    "addr": "/p3/",
     "kind": "v",
     "type": "Point3",
     "lineno": 32,
@@ -554,9 +554,9 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "4e121022-909d-11e5-9990-efe41ed2774f",
+    "id": "f5d87fad-90a8-11e5-860d-bd9a18c262c6",
     "name": "p4",
-    "addr": "p4",
+    "addr": "/p4/",
     "kind": "v",
     "type": "Point4",
     "lineno": 37,
@@ -573,32 +573,32 @@ p4.quux() //: number
 ]
 ```
 ```ctags
-Point2	__DIR__/class.js	Point2;"	f	lineno:1	type:void function(number, number)
-prototype	__DIR__/class.js	class Point2 {;"	v	lineno:1	namespace:Point2
-x	__DIR__/class.js	x;"	v	lineno:2	namespace:Point4	type:number
-x	__DIR__/class.js	x;"	v	lineno:2	namespace:Point2.prototype.plus.pt	type:number
-y	__DIR__/class.js	y;"	v	lineno:2	namespace:Point2.prototype.plus.pt	type:number
-y	__DIR__/class.js	y;"	v	lineno:2	namespace:Point4	type:number
-y	__DIR__/class.js	y;"	v	lineno:2	namespace:Point2	type:number
-x	__DIR__/class.js	x;"	v	lineno:2	namespace:Point2	type:number
-plus	__DIR__/class.js	plus;"	f	lineno:3	namespace:Point2.prototype	type:Point2 function(+Point2)
-pt	__DIR__/class.js	pt;"	v	lineno:3	namespace:Point2.prototype.plus	type:Point2
-xx	__DIR__/class.js	xx;"	v	lineno:8	namespace:Point2.prototype	type:number
-quux	__DIR__/class.js	quux;"	f	lineno:9	namespace:Point2.prototype	type:number function()
-origin	__DIR__/class.js	origin;"	f	lineno:10	namespace:Point2	type:Point2 function()
-Point4	__DIR__/class.js	Point4;"	f	lineno:13	type:void function(number, number, number, number)
-prototype	__DIR__/class.js	class Point4 extends Point3 {;"	v	lineno:13	namespace:Point4
-u	__DIR__/class.js	u;"	v	lineno:14	namespace:Point4	type:number
-argh	__DIR__/class.js	argh;"	f	lineno:15	namespace:Point4.prototype	type:number function()
-Point3	__DIR__/class.js	Point3;"	f	lineno:18	type:void function(number, number, number)
-prototype	__DIR__/class.js	class extends Point2 {;"	v	lineno:18	namespace:Point3
-x	__DIR__/class.js	x;"	v	lineno:19	namespace:Point3	type:number
-y	__DIR__/class.js	y;"	v	lineno:19	namespace:Point3	type:number
-z	__DIR__/class.js	z;"	v	lineno:19	namespace:Point3	type:number
-z	__DIR__/class.js	z;"	v	lineno:19	namespace:Point4	type:number
-foobar	__DIR__/class.js	foobar;"	f	lineno:20	namespace:Point3.prototype	type:boolean function()
-p1	__DIR__/class.js	p1;"	v	lineno:23	type:Point2
-p2	__DIR__/class.js	p2;"	v	lineno:26	type:Point2
-p3	__DIR__/class.js	p3;"	v	lineno:32	type:Point3
-p4	__DIR__/class.js	p4;"	v	lineno:37	type:Point4
+Point2	__DIR__/class.js	/Point2/;"	f	lineno:1	type:void function(number, number)
+prototype	__DIR__/class.js	/class Point2 \{/;"	v	lineno:1	namespace:Point2
+x	__DIR__/class.js	/x/;"	v	lineno:2	namespace:Point4	type:number
+x	__DIR__/class.js	/x/;"	v	lineno:2	namespace:Point2.prototype.plus.pt	type:number
+y	__DIR__/class.js	/y/;"	v	lineno:2	namespace:Point2.prototype.plus.pt	type:number
+y	__DIR__/class.js	/y/;"	v	lineno:2	namespace:Point4	type:number
+y	__DIR__/class.js	/y/;"	v	lineno:2	namespace:Point2	type:number
+x	__DIR__/class.js	/x/;"	v	lineno:2	namespace:Point2	type:number
+plus	__DIR__/class.js	/plus/;"	f	lineno:3	namespace:Point2.prototype	type:Point2 function(+Point2)
+pt	__DIR__/class.js	/pt/;"	v	lineno:3	namespace:Point2.prototype.plus	type:Point2
+xx	__DIR__/class.js	/xx/;"	v	lineno:8	namespace:Point2.prototype	type:number
+quux	__DIR__/class.js	/quux/;"	f	lineno:9	namespace:Point2.prototype	type:number function()
+origin	__DIR__/class.js	/origin/;"	f	lineno:10	namespace:Point2	type:Point2 function()
+Point4	__DIR__/class.js	/Point4/;"	f	lineno:13	type:void function(number, number, number, number)
+prototype	__DIR__/class.js	/class Point4 extends Point3 \{/;"	v	lineno:13	namespace:Point4
+u	__DIR__/class.js	/u/;"	v	lineno:14	namespace:Point4	type:number
+argh	__DIR__/class.js	/argh/;"	f	lineno:15	namespace:Point4.prototype	type:number function()
+Point3	__DIR__/class.js	/Point3/;"	f	lineno:18	type:void function(number, number, number)
+prototype	__DIR__/class.js	/class extends Point2 \{/;"	v	lineno:18	namespace:Point3
+x	__DIR__/class.js	/x/;"	v	lineno:19	namespace:Point3	type:number
+y	__DIR__/class.js	/y/;"	v	lineno:19	namespace:Point3	type:number
+z	__DIR__/class.js	/z/;"	v	lineno:19	namespace:Point3	type:number
+z	__DIR__/class.js	/z/;"	v	lineno:19	namespace:Point4	type:number
+foobar	__DIR__/class.js	/foobar/;"	f	lineno:20	namespace:Point3.prototype	type:boolean function()
+p1	__DIR__/class.js	/p1/;"	v	lineno:23	type:Point2
+p2	__DIR__/class.js	/p2/;"	v	lineno:26	type:Point2
+p3	__DIR__/class.js	/p3/;"	v	lineno:32	type:Point3
+p4	__DIR__/class.js	/p4/;"	v	lineno:37	type:Point4
 ```

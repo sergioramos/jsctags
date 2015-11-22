@@ -1,7 +1,7 @@
 [
   {
     "name": "Point3",
-    "addr": "Point3",
+    "addr": "/Point3/",
     "kind": "f",
     "type": "void function(number, number, number)",
     "lineno": 1,
@@ -17,7 +17,7 @@
   },
   {
     "name": "prototype",
-    "addr": "class Point3 extends Point2 {",
+    "addr": "/class Point3 extends Point2 \{/",
     "kind": "v",
     "lineno": 1,
     "namespace": "Point3",
@@ -32,7 +32,7 @@
   },
   {
     "name": "z",
-    "addr": "z",
+    "addr": "/z/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
@@ -49,7 +49,7 @@
   },
   {
     "name": "foobar",
-    "addr": "foobar",
+    "addr": "/foobar/",
     "kind": "f",
     "type": "!this.x function()",
     "lineno": 3,
@@ -66,7 +66,7 @@
   },
   {
     "name": "callSuper",
-    "addr": "callSuper",
+    "addr": "/callSuper/",
     "kind": "f",
     "type": "string function()",
     "lineno": 4,
@@ -83,7 +83,7 @@
   },
   {
     "name": "prototype",
-    "addr": "class Point2 {",
+    "addr": "/class Point2 \{/",
     "kind": "v",
     "lineno": 7,
     "namespace": "Point2",
@@ -98,7 +98,7 @@
   },
   {
     "name": "Point2",
-    "addr": "Point2",
+    "addr": "/Point2/",
     "kind": "f",
     "type": "void function(number, number)",
     "lineno": 7,
@@ -114,7 +114,7 @@
   },
   {
     "name": "y",
-    "addr": "y",
+    "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 8,
@@ -131,7 +131,7 @@
   },
   {
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 8,
@@ -148,7 +148,7 @@
   },
   {
     "name": "hello",
-    "addr": "hello",
+    "addr": "/hello/",
     "kind": "f",
     "type": "string function()",
     "lineno": 9,
@@ -165,7 +165,7 @@
   },
   {
     "name": "p",
-    "addr": "p",
+    "addr": "/p/",
     "kind": "v",
     "type": "Point3",
     "lineno": 12,
@@ -181,7 +181,7 @@
   },
   {
     "name": "pro",
-    "addr": "pro",
+    "addr": "/pro/",
     "kind": "v",
     "lineno": 18,
     "origin": {
@@ -195,7 +195,7 @@
   },
   {
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 18,
@@ -212,7 +212,7 @@
   },
   {
     "name": "obj",
-    "addr": "obj",
+    "addr": "/obj/",
     "kind": "v",
     "lineno": 20,
     "origin": {
@@ -226,7 +226,7 @@
   },
   {
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "string",
     "lineno": 22,
@@ -243,7 +243,7 @@
   },
   {
     "name": "getSuperX",
-    "addr": "getSuperX",
+    "addr": "/getSuperX/",
     "kind": "f",
     "type": "number function()",
     "lineno": 23,

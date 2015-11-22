@@ -11,9 +11,9 @@ sum; //:: fn(a: {x: number, y: number}) -> number
 ```json
 [
   {
-    "id": "59243b00-909d-11e5-bb1b-55dfd3e4aa7b",
+    "id": "0183dd40-90a9-11e5-b9a9-818e7329c7fb",
     "name": "sum",
-    "addr": "sum",
+    "addr": "/sum/",
     "kind": "f",
     "type": "number function(?)",
     "lineno": 1,
@@ -28,13 +28,13 @@ sum; //:: fn(a: {x: number, y: number}) -> number
     "tagfile": "__DIR__/merge.js"
   },
   {
-    "id": "59246210-909d-11e5-bb1b-55dfd3e4aa7b",
+    "id": "01842b60-90a9-11e5-b9a9-818e7329c7fb",
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "lineno": 1,
     "namespace": "sum",
-    "parent": "59243b00-909d-11e5-bb1b-55dfd3e4aa7b",
+    "parent": "0183dd40-90a9-11e5-b9a9-818e7329c7fb",
     "origin": {
       "!span": "13[0:13]-14[0:14]",
       "!data": {
@@ -47,14 +47,14 @@ sum; //:: fn(a: {x: number, y: number}) -> number
     "tagfile": "__DIR__/merge.js"
   },
   {
-    "id": "59246211-909d-11e5-bb1b-55dfd3e4aa7b",
+    "id": "01842b61-90a9-11e5-b9a9-818e7329c7fb",
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
     "namespace": "sum.a",
-    "parent": "59246210-909d-11e5-bb1b-55dfd3e4aa7b",
+    "parent": "01842b60-90a9-11e5-b9a9-818e7329c7fb",
     "origin": {
       "!span": "66[5:5]-67[5:6]",
       "!type": "number",
@@ -68,14 +68,14 @@ sum; //:: fn(a: {x: number, y: number}) -> number
     "tagfile": "__DIR__/merge.js"
   },
   {
-    "id": "59246212-909d-11e5-bb1b-55dfd3e4aa7b",
+    "id": "01842b62-90a9-11e5-b9a9-818e7329c7fb",
     "name": "y",
-    "addr": "y",
+    "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
     "namespace": "sum.a",
-    "parent": "59246210-909d-11e5-bb1b-55dfd3e4aa7b",
+    "parent": "01842b60-90a9-11e5-b9a9-818e7329c7fb",
     "origin": {
       "!span": "73[5:12]-74[5:13]",
       "!type": "number",
@@ -91,8 +91,8 @@ sum; //:: fn(a: {x: number, y: number}) -> number
 ]
 ```
 ```ctags
-sum	__DIR__/merge.js	sum;"	f	lineno:1	type:number function(?)
-a	__DIR__/merge.js	a;"	v	lineno:1	namespace:sum
-x	__DIR__/merge.js	x;"	v	lineno:6	namespace:sum.a	type:number
-y	__DIR__/merge.js	y;"	v	lineno:6	namespace:sum.a	type:number
+sum	__DIR__/merge.js	/sum/;"	f	lineno:1	type:number function(?)
+a	__DIR__/merge.js	/a/;"	v	lineno:1	namespace:sum
+x	__DIR__/merge.js	/x/;"	v	lineno:6	namespace:sum.a	type:number
+y	__DIR__/merge.js	/y/;"	v	lineno:6	namespace:sum.a	type:number
 ```

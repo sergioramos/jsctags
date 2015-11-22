@@ -1,7 +1,7 @@
 [
   {
     "name": "bar",
-    "addr": "bar",
+    "addr": "/bar/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
@@ -17,7 +17,7 @@
   },
   {
     "name": "foo",
-    "addr": "foo",
+    "addr": "/foo/",
     "kind": "v",
     "lineno": 3,
     "origin": {
@@ -31,7 +31,7 @@
   },
   {
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "boolean",
     "lineno": 6,
@@ -48,7 +48,7 @@
   },
   {
     "name": "method",
-    "addr": "method",
+    "addr": "/method/",
     "kind": "f",
     "type": "string function()",
     "lineno": 7,
@@ -65,7 +65,7 @@
   },
   {
     "name": "baz",
-    "addr": "baz",
+    "addr": "/baz/",
     "kind": "v",
     "lineno": 10,
     "origin": {
@@ -79,7 +79,7 @@
   },
   {
     "name": "b",
-    "addr": "b",
+    "addr": "/b/",
     "kind": "v",
     "type": "string",
     "lineno": 12,

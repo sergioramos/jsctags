@@ -1,7 +1,7 @@
 [
   {
     "name": "Foo",
-    "addr": "Foo",
+    "addr": "/Foo/",
     "kind": "f",
     "type": "void function(bool)",
     "lineno": 1,
@@ -17,7 +17,7 @@
   },
   {
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "boolean",
     "lineno": 1,
@@ -36,7 +36,7 @@
   },
   {
     "name": "y",
-    "addr": "y",
+    "addr": "/y/",
     "kind": "v",
     "type": "[number]",
     "lineno": 3,
@@ -53,7 +53,7 @@
   },
   {
     "name": "prototype",
-    "addr": "prototype",
+    "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "Foo",
@@ -68,7 +68,7 @@
   },
   {
     "name": "makeString",
-    "addr": "makeString",
+    "addr": "/makeString/",
     "kind": "f",
     "type": "string function()",
     "lineno": 8,
@@ -85,7 +85,7 @@
   },
   {
     "name": "bar",
-    "addr": "bar",
+    "addr": "/bar/",
     "kind": "v",
     "type": "number",
     "lineno": 9,
@@ -102,7 +102,7 @@
   },
   {
     "name": "z",
-    "addr": "z",
+    "addr": "/z/",
     "kind": "v",
     "type": "Foo",
     "lineno": 12,

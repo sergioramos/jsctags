@@ -23,9 +23,9 @@ each([{x: 10}], function(o) {
 ```json
 [
   {
-    "id": "548a4080-909d-11e5-9061-238e413f4d8b",
+    "id": "fcd7ba50-90a8-11e5-bc51-f9e83f4cf9a2",
     "name": "each",
-    "addr": "each",
+    "addr": "/each/",
     "kind": "f",
     "type": "void function(Array[number]|[each.!0.<i>], fn(n: number)",
     "lineno": 2,
@@ -40,14 +40,14 @@ each([{x: 10}], function(o) {
     "tagfile": "__DIR__/generic_each.js"
   },
   {
-    "id": "548a8ea0-909d-11e5-9061-238e413f4d8b",
+    "id": "fcd80870-90a8-11e5-bc51-f9e83f4cf9a2",
     "name": "context",
-    "addr": "context",
+    "addr": "/context/",
     "kind": "v",
     "type": "string",
     "lineno": 2,
     "namespace": "each",
-    "parent": "548a4080-909d-11e5-9061-238e413f4d8b",
+    "parent": "fcd7ba50-90a8-11e5-bc51-f9e83f4cf9a2",
     "origin": {
       "!span": "75[1:35]-82[1:42]",
       "!type": "+String",
@@ -61,14 +61,14 @@ each([{x: 10}], function(o) {
     "tagfile": "__DIR__/generic_each.js"
   },
   {
-    "id": "548a8ea2-909d-11e5-9061-238e413f4d8b",
+    "id": "fcd80872-90a8-11e5-bc51-f9e83f4cf9a2",
     "name": "iterator",
-    "addr": "iterator",
+    "addr": "/iterator/",
     "kind": "f",
     "type": "void function(each.!0.<i>)",
     "lineno": 2,
     "namespace": "each",
-    "parent": "548a4080-909d-11e5-9061-238e413f4d8b",
+    "parent": "fcd7ba50-90a8-11e5-bc51-f9e83f4cf9a2",
     "origin": {
       "!span": "65[1:25]-73[1:33]",
       "!type": "fn(o: each.!0.<i>)",
@@ -82,14 +82,14 @@ each([{x: 10}], function(o) {
     "tagfile": "__DIR__/generic_each.js"
   },
   {
-    "id": "548a8ea4-909d-11e5-9061-238e413f4d8b",
+    "id": "fcd80874-90a8-11e5-bc51-f9e83f4cf9a2",
     "name": "obj",
-    "addr": "obj",
+    "addr": "/obj/",
     "kind": "v",
     "type": "[each.!0.<i>]",
     "lineno": 2,
     "namespace": "each",
-    "parent": "548a4080-909d-11e5-9061-238e413f4d8b",
+    "parent": "fcd7ba50-90a8-11e5-bc51-f9e83f4cf9a2",
     "origin": {
       "!span": "60[1:20]-63[1:23]",
       "!type": "[each.!0.<i>]",
@@ -103,14 +103,14 @@ each([{x: 10}], function(o) {
     "tagfile": "__DIR__/generic_each.js"
   },
   {
-    "id": "548a8ea1-909d-11e5-9061-238e413f4d8b",
+    "id": "fcd80871-90a8-11e5-bc51-f9e83f4cf9a2",
     "name": "i",
-    "addr": "i",
+    "addr": "/i/",
     "kind": "v",
     "type": "number",
     "lineno": 7,
     "namespace": "each",
-    "parent": "548a4080-909d-11e5-9061-238e413f4d8b",
+    "parent": "fcd7ba50-90a8-11e5-bc51-f9e83f4cf9a2",
     "origin": {
       "!span": "281[6:13]-282[6:14]",
       "!type": "number",
@@ -124,14 +124,14 @@ each([{x: 10}], function(o) {
     "tagfile": "__DIR__/generic_each.js"
   },
   {
-    "id": "548a8ea3-909d-11e5-9061-238e413f4d8b",
+    "id": "fcd80873-90a8-11e5-bc51-f9e83f4cf9a2",
     "name": "l",
-    "addr": "l",
+    "addr": "/l/",
     "kind": "v",
     "type": "number",
     "lineno": 7,
     "namespace": "each",
-    "parent": "548a4080-909d-11e5-9061-238e413f4d8b",
+    "parent": "fcd7ba50-90a8-11e5-bc51-f9e83f4cf9a2",
     "origin": {
       "!span": "288[6:20]-289[6:21]",
       "!type": "number",
@@ -147,10 +147,10 @@ each([{x: 10}], function(o) {
 ]
 ```
 ```ctags
-each	__DIR__/generic_each.js	each;"	f	lineno:2	type:void function(Array[number]|[each.!0.<i>], fn(n: number)
-context	__DIR__/generic_each.js	context;"	v	lineno:2	namespace:each	type:string
-iterator	__DIR__/generic_each.js	iterator;"	f	lineno:2	namespace:each	type:void function(each.!0.<i>)
-obj	__DIR__/generic_each.js	obj;"	v	lineno:2	namespace:each	type:[each.!0.<i>]
-i	__DIR__/generic_each.js	i;"	v	lineno:7	namespace:each	type:number
-l	__DIR__/generic_each.js	l;"	v	lineno:7	namespace:each	type:number
+each	__DIR__/generic_each.js	/each/;"	f	lineno:2	type:void function(Array[number]|[each.!0.<i>], fn(n: number)
+context	__DIR__/generic_each.js	/context/;"	v	lineno:2	namespace:each	type:string
+iterator	__DIR__/generic_each.js	/iterator/;"	f	lineno:2	namespace:each	type:void function(each.!0.<i>)
+obj	__DIR__/generic_each.js	/obj/;"	v	lineno:2	namespace:each	type:[each.!0.<i>]
+i	__DIR__/generic_each.js	/i/;"	v	lineno:7	namespace:each	type:number
+l	__DIR__/generic_each.js	/l/;"	v	lineno:7	namespace:each	type:number
 ```

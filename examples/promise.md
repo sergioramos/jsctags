@@ -31,9 +31,9 @@ p3.then(function(value) {
 ```json
 [
   {
-    "id": "5ceab8e0-909d-11e5-9a3b-8931e31867b2",
+    "id": "05965840-90a9-11e5-97d1-bfd47c8ae27c",
     "name": "p",
-    "addr": "p",
+    "addr": "/p/",
     "kind": "v",
     "type": "Promise",
     "lineno": 1,
@@ -48,9 +48,9 @@ p3.then(function(value) {
     "tagfile": "__DIR__/promise.js"
   },
   {
-    "id": "5ceadff0-909d-11e5-9a3b-8931e31867b2",
+    "id": "05967f50-90a9-11e5-97d1-bfd47c8ae27c",
     "name": "p2",
-    "addr": "p2",
+    "addr": "/p2/",
     "kind": "v",
     "type": "Promise",
     "lineno": 12,
@@ -65,9 +65,9 @@ p3.then(function(value) {
     "tagfile": "__DIR__/promise.js"
   },
   {
-    "id": "5ceadff1-909d-11e5-9a3b-8931e31867b2",
+    "id": "05967f51-90a9-11e5-97d1-bfd47c8ae27c",
     "name": "p3",
-    "addr": "p3",
+    "addr": "/p3/",
     "kind": "v",
     "type": "Promise",
     "lineno": 21,
@@ -82,12 +82,12 @@ p3.then(function(value) {
     "tagfile": "__DIR__/promise.js"
   },
   {
-    "id": "5ceadff3-909d-11e5-9a3b-8931e31867b2",
+    "id": "05967f53-90a9-11e5-97d1-bfd47c8ae27c",
     "name": ":t",
     "kind": "v",
     "type": "number",
     "namespace": "Promise",
-    "parent": "5ceadff2-909d-11e5-9a3b-8931e31867b2",
+    "parent": "05967f52-90a9-11e5-97d1-bfd47c8ae27c",
     "origin": {
       "!type": "number",
       "!data": {
@@ -98,14 +98,14 @@ p3.then(function(value) {
     "tagfile": "__DIR__/promise.js"
   },
   {
-    "id": "5ceb0700-909d-11e5-9a3b-8931e31867b2",
+    "id": "05967f54-90a9-11e5-97d1-bfd47c8ae27c",
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 3,
     "namespace": "Promise.:t",
-    "parent": "5ceadff3-909d-11e5-9a3b-8931e31867b2",
+    "parent": "05967f53-90a9-11e5-97d1-bfd47c8ae27c",
     "origin": {
       "!span": "85[2:10]-86[2:11]",
       "!type": "number",
@@ -119,9 +119,9 @@ p3.then(function(value) {
 ]
 ```
 ```ctags
-p	__DIR__/promise.js	p;"	v	lineno:1	type:Promise
-p2	__DIR__/promise.js	p2;"	v	lineno:12	type:Promise
-p3	__DIR__/promise.js	p3;"	v	lineno:21	type:Promise
+p	__DIR__/promise.js	/p/;"	v	lineno:1	type:Promise
+p2	__DIR__/promise.js	/p2/;"	v	lineno:12	type:Promise
+p3	__DIR__/promise.js	/p3/;"	v	lineno:21	type:Promise
 :t	__DIR__/promise.js	//;"	v	namespace:Promise	type:number
-x	__DIR__/promise.js	x;"	v	lineno:3	namespace:Promise.:t	type:number
+x	__DIR__/promise.js	/x/;"	v	lineno:3	namespace:Promise.:t	type:number
 ```

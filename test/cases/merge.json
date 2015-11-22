@@ -1,7 +1,7 @@
 [
   {
     "name": "sum",
-    "addr": "sum",
+    "addr": "/sum/",
     "kind": "f",
     "type": "number function(?)",
     "lineno": 1,
@@ -17,7 +17,7 @@
   },
   {
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "lineno": 1,
     "namespace": "sum",
@@ -34,7 +34,7 @@
   },
   {
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
@@ -53,7 +53,7 @@
   },
   {
     "name": "y",
-    "addr": "y",
+    "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 6,

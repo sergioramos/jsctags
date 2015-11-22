@@ -1,7 +1,7 @@
 [
   {
     "name": "myalias",
-    "addr": "myalias",
+    "addr": "/myalias/",
     "kind": "f",
     "type": "void function(number)",
     "lineno": 4,
@@ -19,7 +19,7 @@
   },
   {
     "name": "foo",
-    "addr": "foo",
+    "addr": "/foo/",
     "kind": "v",
     "type": "number",
     "lineno": 9,
@@ -35,7 +35,7 @@
   },
   {
     "name": "monkeyAlias",
-    "addr": "makeMonkey",
+    "addr": "/makeMonkey/",
     "kind": "f",
     "type": "string function()",
     "lineno": 14,
@@ -51,7 +51,7 @@
   },
   {
     "name": "makeMonkey",
-    "addr": "makeMonkey",
+    "addr": "/makeMonkey/",
     "kind": "f",
     "type": "string function()",
     "lineno": 14,
@@ -67,7 +67,7 @@
   },
   {
     "name": "monkeyAlias",
-    "addr": "monkeyAlias",
+    "addr": "/monkeyAlias/",
     "kind": "f",
     "type": "string function()",
     "lineno": 18,
@@ -85,7 +85,7 @@
   },
   {
     "name": "abc",
-    "addr": "abc",
+    "addr": "/abc/",
     "kind": "v",
     "type": "number",
     "lineno": 26,
@@ -101,7 +101,7 @@
   },
   {
     "name": "Quux",
-    "addr": "Quux",
+    "addr": "/Quux/",
     "kind": "f",
     "type": "void function()",
     "lineno": 32,
@@ -117,7 +117,7 @@
   },
   {
     "name": "baz",
-    "addr": "baz",
+    "addr": "/baz/",
     "kind": "v",
     "type": "string",
     "lineno": 40,
@@ -133,7 +133,7 @@
   },
   {
     "name": "oy",
-    "addr": "oy",
+    "addr": "/oy/",
     "kind": "v",
     "type": "number",
     "lineno": 47,
@@ -149,7 +149,7 @@
   },
   {
     "name": "arr",
-    "addr": "arr",
+    "addr": "/arr/",
     "kind": "v",
     "type": "number",
     "lineno": 57,
@@ -165,7 +165,7 @@
   },
   {
     "name": "aha",
-    "addr": "aha",
+    "addr": "/aha/",
     "kind": "v",
     "type": "string",
     "lineno": 64,
@@ -181,7 +181,7 @@
   },
   {
     "name": "xyzzy",
-    "addr": "xyzzy",
+    "addr": "/xyzzy/",
     "kind": "v",
     "type": "boolean",
     "lineno": 70,
@@ -197,7 +197,7 @@
   },
   {
     "name": "o",
-    "addr": "o",
+    "addr": "/o/",
     "kind": "v",
     "lineno": 74,
     "origin": {
@@ -211,7 +211,7 @@
   },
   {
     "name": "getName",
-    "addr": "getName",
+    "addr": "/getName/",
     "kind": "f",
     "type": "!this.name function()",
     "lineno": 76,
@@ -228,7 +228,7 @@
   },
   {
     "name": "name",
-    "addr": "name",
+    "addr": "/name/",
     "kind": "v",
     "type": "string",
     "lineno": 78,
@@ -245,7 +245,7 @@
   },
   {
     "name": "bar",
-    "addr": "'bar'",
+    "addr": "/'bar'/",
     "kind": "v",
     "type": "number",
     "lineno": 82,
@@ -262,7 +262,7 @@
   },
   {
     "name": "foo",
-    "addr": "foo",
+    "addr": "/foo/",
     "kind": "v",
     "type": "string",
     "lineno": 86,
@@ -279,7 +279,7 @@
   },
   {
     "name": "prototype",
-    "addr": "class C {",
+    "addr": "/class C \{/",
     "kind": "v",
     "lineno": 93,
     "namespace": "C",
@@ -294,7 +294,7 @@
   },
   {
     "name": "C",
-    "addr": "C",
+    "addr": "/C/",
     "kind": "f",
     "type": "void function()",
     "lineno": 93,
@@ -310,7 +310,7 @@
   },
   {
     "name": "method",
-    "addr": "method",
+    "addr": "/method/",
     "kind": "f",
     "type": "number function()",
     "lineno": 95,
@@ -327,7 +327,7 @@
   },
   {
     "name": "something",
-    "addr": "something",
+    "addr": "/something/",
     "kind": "v",
     "type": "number",
     "lineno": 97,
@@ -344,7 +344,7 @@
   },
   {
     "name": "c",
-    "addr": "c",
+    "addr": "/c/",
     "kind": "v",
     "type": "C",
     "lineno": 100,

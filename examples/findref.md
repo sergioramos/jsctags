@@ -23,9 +23,9 @@ obj.z; //refs: 17,4 20,4
 ```json
 [
   {
-    "id": "52fd5ef0-909d-11e5-b057-0d3c214efd9c",
+    "id": "fb522bc0-90a8-11e5-aa95-1f943dc9abb2",
     "name": "hello",
-    "addr": "hello",
+    "addr": "/hello/",
     "kind": "f",
     "type": "void function(?, ?)",
     "lineno": 1,
@@ -40,13 +40,13 @@ obj.z; //refs: 17,4 20,4
     "tagfile": "__DIR__/findref.js"
   },
   {
-    "id": "52fd8600-909d-11e5-b057-0d3c214efd9c",
+    "id": "fb5279e0-90a8-11e5-aa95-1f943dc9abb2",
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "lineno": 1,
     "namespace": "hello",
-    "parent": "52fd5ef0-909d-11e5-b057-0d3c214efd9c",
+    "parent": "fb522bc0-90a8-11e5-aa95-1f943dc9abb2",
     "origin": {
       "!span": "15[0:15]-16[0:16]",
       "!data": {
@@ -59,13 +59,13 @@ obj.z; //refs: 17,4 20,4
     "tagfile": "__DIR__/findref.js"
   },
   {
-    "id": "52fd8601-909d-11e5-b057-0d3c214efd9c",
+    "id": "fb5279e1-90a8-11e5-aa95-1f943dc9abb2",
     "name": "b",
-    "addr": "b",
+    "addr": "/b/",
     "kind": "v",
     "lineno": 1,
     "namespace": "hello",
-    "parent": "52fd5ef0-909d-11e5-b057-0d3c214efd9c",
+    "parent": "fb522bc0-90a8-11e5-aa95-1f943dc9abb2",
     "origin": {
       "!span": "18[0:18]-19[0:19]",
       "!data": {
@@ -78,13 +78,13 @@ obj.z; //refs: 17,4 20,4
     "tagfile": "__DIR__/findref.js"
   },
   {
-    "id": "52fdad10-909d-11e5-b057-0d3c214efd9c",
+    "id": "fb5279e2-90a8-11e5-aa95-1f943dc9abb2",
     "name": "c",
-    "addr": "c",
+    "addr": "/c/",
     "kind": "v",
     "lineno": 2,
     "namespace": "hello",
-    "parent": "52fd5ef0-909d-11e5-b057-0d3c214efd9c",
+    "parent": "fb522bc0-90a8-11e5-aa95-1f943dc9abb2",
     "origin": {
       "!span": "29[1:6]-30[1:7]",
       "!data": {
@@ -97,9 +97,9 @@ obj.z; //refs: 17,4 20,4
     "tagfile": "__DIR__/findref.js"
   },
   {
-    "id": "52fdad11-909d-11e5-b057-0d3c214efd9c",
+    "id": "fb5279e3-90a8-11e5-aa95-1f943dc9abb2",
     "name": "obj",
-    "addr": "obj",
+    "addr": "/obj/",
     "kind": "v",
     "lineno": 10,
     "origin": {
@@ -112,14 +112,14 @@ obj.z; //refs: 17,4 20,4
     "tagfile": "__DIR__/findref.js"
   },
   {
-    "id": "52fdad12-909d-11e5-b057-0d3c214efd9c",
+    "id": "fb5279e4-90a8-11e5-aa95-1f943dc9abb2",
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 11,
     "namespace": "obj",
-    "parent": "52fdad11-909d-11e5-b057-0d3c214efd9c",
+    "parent": "fb5279e3-90a8-11e5-aa95-1f943dc9abb2",
     "origin": {
       "!span": "158[10:2]-159[10:3]",
       "!type": "number",
@@ -131,14 +131,14 @@ obj.z; //refs: 17,4 20,4
     "tagfile": "__DIR__/findref.js"
   },
   {
-    "id": "52fdad13-909d-11e5-b057-0d3c214efd9c",
+    "id": "fb5279e5-90a8-11e5-aa95-1f943dc9abb2",
     "name": "y",
-    "addr": "y",
+    "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 13,
     "namespace": "obj",
-    "parent": "52fdad11-909d-11e5-b057-0d3c214efd9c",
+    "parent": "fb5279e3-90a8-11e5-aa95-1f943dc9abb2",
     "origin": {
       "!span": "194[12:2]-195[12:3]",
       "!type": "number",
@@ -150,14 +150,14 @@ obj.z; //refs: 17,4 20,4
     "tagfile": "__DIR__/findref.js"
   },
   {
-    "id": "52fdad14-909d-11e5-b057-0d3c214efd9c",
+    "id": "fb5279e6-90a8-11e5-aa95-1f943dc9abb2",
     "name": "z",
-    "addr": "z",
+    "addr": "/z/",
     "kind": "v",
     "type": "string",
     "lineno": 17,
     "namespace": "obj",
-    "parent": "52fdad11-909d-11e5-b057-0d3c214efd9c",
+    "parent": "fb5279e3-90a8-11e5-aa95-1f943dc9abb2",
     "origin": {
       "!span": "220[16:4]-221[16:5]",
       "!type": "string",
@@ -171,12 +171,12 @@ obj.z; //refs: 17,4 20,4
 ]
 ```
 ```ctags
-hello	__DIR__/findref.js	hello;"	f	lineno:1	type:void function(?, ?)
-a	__DIR__/findref.js	a;"	v	lineno:1	namespace:hello
-b	__DIR__/findref.js	b;"	v	lineno:1	namespace:hello
-c	__DIR__/findref.js	c;"	v	lineno:2	namespace:hello
-obj	__DIR__/findref.js	obj;"	v	lineno:10
-x	__DIR__/findref.js	x;"	v	lineno:11	namespace:obj	type:number
-y	__DIR__/findref.js	y;"	v	lineno:13	namespace:obj	type:number
-z	__DIR__/findref.js	z;"	v	lineno:17	namespace:obj	type:string
+hello	__DIR__/findref.js	/hello/;"	f	lineno:1	type:void function(?, ?)
+a	__DIR__/findref.js	/a/;"	v	lineno:1	namespace:hello
+b	__DIR__/findref.js	/b/;"	v	lineno:1	namespace:hello
+c	__DIR__/findref.js	/c/;"	v	lineno:2	namespace:hello
+obj	__DIR__/findref.js	/obj/;"	v	lineno:10
+x	__DIR__/findref.js	/x/;"	v	lineno:11	namespace:obj	type:number
+y	__DIR__/findref.js	/y/;"	v	lineno:13	namespace:obj	type:number
+z	__DIR__/findref.js	/z/;"	v	lineno:17	namespace:obj	type:string
 ```

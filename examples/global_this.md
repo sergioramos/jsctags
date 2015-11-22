@@ -8,9 +8,9 @@ var foo = 10;
 ```json
 [
   {
-    "id": "55509dc0-909d-11e5-b997-b36ee97fa541",
+    "id": "fd931b10-90a8-11e5-9672-e76bdf9524e6",
     "name": "foo",
-    "addr": "foo",
+    "addr": "/foo/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
@@ -27,5 +27,5 @@ var foo = 10;
 ]
 ```
 ```ctags
-foo	__DIR__/global_this.js	foo;"	v	lineno:1	type:number
+foo	__DIR__/global_this.js	/foo/;"	v	lineno:1	type:number
 ```

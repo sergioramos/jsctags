@@ -12,9 +12,9 @@ obj.foo; //doc: This is foo
 ```json
 [
   {
-    "id": "54f18dd0-909d-11e5-a04a-d7cd440c20e1",
+    "id": "fd373f70-90a8-11e5-ad1a-e3305e82436b",
     "name": "obj",
-    "addr": "obj",
+    "addr": "/obj/",
     "kind": "v",
     "lineno": 1,
     "origin": {
@@ -27,14 +27,14 @@ obj.foo; //doc: This is foo
     "tagfile": "__DIR__/getter.js"
   },
   {
-    "id": "54f1dbf0-909d-11e5-a04a-d7cd440c20e1",
+    "id": "fd376680-90a8-11e5-ad1a-e3305e82436b",
     "name": "foo",
-    "addr": "foo",
+    "addr": "/foo/",
     "kind": "v",
     "type": "string",
     "lineno": 3,
     "namespace": "obj",
-    "parent": "54f18dd0-909d-11e5-a04a-d7cd440c20e1",
+    "parent": "fd373f70-90a8-11e5-ad1a-e3305e82436b",
     "origin": {
       "!span": "35[2:6]-38[2:9]",
       "!type": "string",
@@ -48,6 +48,6 @@ obj.foo; //doc: This is foo
 ]
 ```
 ```ctags
-obj	__DIR__/getter.js	obj;"	v	lineno:1
-foo	__DIR__/getter.js	foo;"	v	lineno:3	namespace:obj	type:string
+obj	__DIR__/getter.js	/obj/;"	v	lineno:1
+foo	__DIR__/getter.js	/foo/;"	v	lineno:3	namespace:obj	type:string
 ```

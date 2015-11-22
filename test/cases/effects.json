@@ -1,7 +1,7 @@
 [
   {
     "name": "b",
-    "addr": "b",
+    "addr": "/b/",
     "kind": "v",
     "type": "[bool]",
     "lineno": 3,
@@ -17,7 +17,7 @@
   },
   {
     "name": "c",
-    "addr": "c",
+    "addr": "/c/",
     "kind": "v",
     "type": "[string|number]",
     "lineno": 7,
@@ -33,7 +33,7 @@
   },
   {
     "name": "d",
-    "addr": "d",
+    "addr": "/d/",
     "kind": "v",
     "type": "number",
     "lineno": 12,
@@ -49,7 +49,7 @@
   },
   {
     "name": "setD",
-    "addr": "setD",
+    "addr": "/setD/",
     "kind": "f",
     "type": "void function(number)",
     "lineno": 13,
@@ -65,7 +65,7 @@
   },
   {
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 13,

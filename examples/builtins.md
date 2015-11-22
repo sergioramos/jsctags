@@ -38,9 +38,9 @@ String.prototype.indexOf.bind("abcde", "a"); //: fn(from?: number) -> number
 ```json
 [
   {
-    "id": "4cf94d20-909d-11e5-8f1f-7d3ba279875e",
+    "id": "f4f76e70-90a8-11e5-903f-41d3e667f4a3",
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
@@ -55,9 +55,9 @@ String.prototype.indexOf.bind("abcde", "a"); //: fn(from?: number) -> number
     "tagfile": "__DIR__/builtins.js"
   },
   {
-    "id": "4cf94d21-909d-11e5-8f1f-7d3ba279875e",
+    "id": "f4f79580-90a8-11e5-903f-41d3e667f4a3",
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "[number]",
     "lineno": 4,
@@ -72,9 +72,9 @@ String.prototype.indexOf.bind("abcde", "a"); //: fn(from?: number) -> number
     "tagfile": "__DIR__/builtins.js"
   },
   {
-    "id": "4cf97430-909d-11e5-8f1f-7d3ba279875e",
+    "id": "f4f79581-90a8-11e5-903f-41d3e667f4a3",
     "name": "num",
-    "addr": "num",
+    "addr": "/num/",
     "kind": "v",
     "type": "number",
     "lineno": 26,
@@ -91,7 +91,7 @@ String.prototype.indexOf.bind("abcde", "a"); //: fn(from?: number) -> number
 ]
 ```
 ```ctags
-x	__DIR__/builtins.js	x;"	v	lineno:1	type:number
-a	__DIR__/builtins.js	a;"	v	lineno:4	type:[number]
-num	__DIR__/builtins.js	num;"	v	lineno:26	type:number
+x	__DIR__/builtins.js	/x/;"	v	lineno:1	type:number
+a	__DIR__/builtins.js	/a/;"	v	lineno:4	type:[number]
+num	__DIR__/builtins.js	/num/;"	v	lineno:26	type:number
 ```

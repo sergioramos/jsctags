@@ -18,9 +18,9 @@ x; //:: {bar: number, foo: number}
 ```json
 [
   {
-    "id": "5e9d9900-909d-11e5-941c-27d21912ee35",
+    "id": "0785cc30-90a9-11e5-a78a-0f11e6c01f6c",
     "name": "foo",
-    "addr": "foo",
+    "addr": "/foo/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
@@ -35,9 +35,9 @@ x; //:: {bar: number, foo: number}
     "tagfile": "__DIR__/simple.js"
   },
   {
-    "id": "5e9d9901-909d-11e5-941c-27d21912ee35",
+    "id": "0785f340-90a9-11e5-a78a-0f11e6c01f6c",
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "lineno": 6,
     "origin": {
@@ -50,9 +50,9 @@ x; //:: {bar: number, foo: number}
     "tagfile": "__DIR__/simple.js"
   },
   {
-    "id": "5e9dc012-909d-11e5-941c-27d21912ee35",
+    "id": "0785f343-90a9-11e5-a78a-0f11e6c01f6c",
     "name": "init",
-    "addr": "init",
+    "addr": "/init/",
     "kind": "f",
     "type": "void function(x)",
     "lineno": 8,
@@ -67,14 +67,14 @@ x; //:: {bar: number, foo: number}
     "tagfile": "__DIR__/simple.js"
   },
   {
-    "id": "5e9dc010-909d-11e5-941c-27d21912ee35",
+    "id": "0785f341-90a9-11e5-a78a-0f11e6c01f6c",
     "name": "foo",
-    "addr": "foo",
+    "addr": "/foo/",
     "kind": "v",
     "type": "number",
     "lineno": 9,
     "namespace": "x",
-    "parent": "5e9d9901-909d-11e5-941c-27d21912ee35",
+    "parent": "0785f340-90a9-11e5-a78a-0f11e6c01f6c",
     "origin": {
       "!span": "96[8:4]-99[8:7]",
       "!type": "number",
@@ -86,14 +86,14 @@ x; //:: {bar: number, foo: number}
     "tagfile": "__DIR__/simple.js"
   },
   {
-    "id": "5e9dc011-909d-11e5-941c-27d21912ee35",
+    "id": "0785f342-90a9-11e5-a78a-0f11e6c01f6c",
     "name": "bar",
-    "addr": "bar",
+    "addr": "/bar/",
     "kind": "v",
     "type": "number",
     "lineno": 10,
     "namespace": "x",
-    "parent": "5e9d9901-909d-11e5-941c-27d21912ee35",
+    "parent": "0785f340-90a9-11e5-a78a-0f11e6c01f6c",
     "origin": {
       "!span": "110[9:4]-113[9:7]",
       "!type": "number",
@@ -107,9 +107,9 @@ x; //:: {bar: number, foo: number}
 ]
 ```
 ```ctags
-foo	__DIR__/simple.js	foo;"	v	lineno:1	type:number
-x	__DIR__/simple.js	x;"	v	lineno:6
-init	__DIR__/simple.js	init;"	f	lineno:8	type:void function(x)
-foo	__DIR__/simple.js	foo;"	v	lineno:9	namespace:x	type:number
-bar	__DIR__/simple.js	bar;"	v	lineno:10	namespace:x	type:number
+foo	__DIR__/simple.js	/foo/;"	v	lineno:1	type:number
+x	__DIR__/simple.js	/x/;"	v	lineno:6
+init	__DIR__/simple.js	/init/;"	f	lineno:8	type:void function(x)
+foo	__DIR__/simple.js	/foo/;"	v	lineno:9	namespace:x	type:number
+bar	__DIR__/simple.js	/bar/;"	v	lineno:10	namespace:x	type:number
 ```

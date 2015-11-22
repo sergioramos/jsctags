@@ -6,9 +6,9 @@ var arguments = 1; //: number
 ```json
 [
   {
-    "id": "4a06e820-909d-11e5-9c7a-dd949506f8d1",
+    "id": "f1bdee50-90a8-11e5-bbaa-0b9630fdffaa",
     "name": "arguments",
-    "addr": "arguments",
+    "addr": "/arguments/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
@@ -25,5 +25,5 @@ var arguments = 1; //: number
 ]
 ```
 ```ctags
-arguments	__DIR__/arguments.js	arguments;"	v	lineno:1	type:number
+arguments	__DIR__/arguments.js	/arguments/;"	v	lineno:1	type:number
 ```

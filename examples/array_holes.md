@@ -9,9 +9,9 @@ z //: string
 ```json
 [
   {
-    "id": "4a6757a0-909d-11e5-afcb-0917b05a2a58",
+    "id": "f22080b0-90a8-11e5-b09a-8f7ac864dfa2",
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "[string]",
     "lineno": 1,
@@ -26,9 +26,9 @@ z //: string
     "tagfile": "__DIR__/array_holes.js"
   },
   {
-    "id": "4a677eb0-909d-11e5-afcb-0917b05a2a58",
+    "id": "f220a7c0-90a8-11e5-b09a-8f7ac864dfa2",
     "name": "y",
-    "addr": "y",
+    "addr": "/y/",
     "kind": "v",
     "type": "string",
     "lineno": 3,
@@ -43,9 +43,9 @@ z //: string
     "tagfile": "__DIR__/array_holes.js"
   },
   {
-    "id": "4a67a5c0-909d-11e5-afcb-0917b05a2a58",
+    "id": "f220a7c1-90a8-11e5-b09a-8f7ac864dfa2",
     "name": "z",
-    "addr": "z",
+    "addr": "/z/",
     "kind": "v",
     "type": "string",
     "lineno": 3,
@@ -62,7 +62,7 @@ z //: string
 ]
 ```
 ```ctags
-x	__DIR__/array_holes.js	x;"	v	lineno:1	type:[string]
-y	__DIR__/array_holes.js	y;"	v	lineno:3	type:string
-z	__DIR__/array_holes.js	z;"	v	lineno:3	type:string
+x	__DIR__/array_holes.js	/x/;"	v	lineno:1	type:[string]
+y	__DIR__/array_holes.js	/y/;"	v	lineno:3	type:string
+z	__DIR__/array_holes.js	/z/;"	v	lineno:3	type:string
 ```

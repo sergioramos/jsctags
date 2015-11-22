@@ -18,9 +18,9 @@ d; //: number
 ```json
 [
   {
-    "id": "51142c90-909d-11e5-bb5d-a37dc2e49ecd",
+    "id": "f92d7700-90a8-11e5-a7d5-99ae5acc4682",
     "name": "b",
-    "addr": "b",
+    "addr": "/b/",
     "kind": "v",
     "type": "[bool]",
     "lineno": 3,
@@ -35,9 +35,9 @@ d; //: number
     "tagfile": "__DIR__/effects.js"
   },
   {
-    "id": "511453a0-909d-11e5-bb5d-a37dc2e49ecd",
+    "id": "f92d9e10-90a8-11e5-a7d5-99ae5acc4682",
     "name": "c",
-    "addr": "c",
+    "addr": "/c/",
     "kind": "v",
     "type": "[string|number]",
     "lineno": 7,
@@ -52,9 +52,9 @@ d; //: number
     "tagfile": "__DIR__/effects.js"
   },
   {
-    "id": "511453a1-909d-11e5-bb5d-a37dc2e49ecd",
+    "id": "f92dc520-90a8-11e5-a7d5-99ae5acc4682",
     "name": "d",
-    "addr": "d",
+    "addr": "/d/",
     "kind": "v",
     "type": "number",
     "lineno": 12,
@@ -69,9 +69,9 @@ d; //: number
     "tagfile": "__DIR__/effects.js"
   },
   {
-    "id": "511453a2-909d-11e5-bb5d-a37dc2e49ecd",
+    "id": "f92dc521-90a8-11e5-a7d5-99ae5acc4682",
     "name": "setD",
-    "addr": "setD",
+    "addr": "/setD/",
     "kind": "f",
     "type": "void function(number)",
     "lineno": 13,
@@ -86,14 +86,14 @@ d; //: number
     "tagfile": "__DIR__/effects.js"
   },
   {
-    "id": "511453a3-909d-11e5-bb5d-a37dc2e49ecd",
+    "id": "f92dc522-90a8-11e5-a7d5-99ae5acc4682",
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 13,
     "namespace": "setD",
-    "parent": "511453a2-909d-11e5-bb5d-a37dc2e49ecd",
+    "parent": "f92dc521-90a8-11e5-a7d5-99ae5acc4682",
     "origin": {
       "!span": "199[12:14]-200[12:15]",
       "!type": "number",
@@ -109,9 +109,9 @@ d; //: number
 ]
 ```
 ```ctags
-b	__DIR__/effects.js	b;"	v	lineno:3	type:[bool]
-c	__DIR__/effects.js	c;"	v	lineno:7	type:[string|number]
-d	__DIR__/effects.js	d;"	v	lineno:12	type:number
-setD	__DIR__/effects.js	setD;"	f	lineno:13	type:void function(number)
-a	__DIR__/effects.js	a;"	v	lineno:13	namespace:setD	type:number
+b	__DIR__/effects.js	/b/;"	v	lineno:3	type:[bool]
+c	__DIR__/effects.js	/c/;"	v	lineno:7	type:[string|number]
+d	__DIR__/effects.js	/d/;"	v	lineno:12	type:number
+setD	__DIR__/effects.js	/setD/;"	f	lineno:13	type:void function(number)
+a	__DIR__/effects.js	/a/;"	v	lineno:13	namespace:setD	type:number
 ```

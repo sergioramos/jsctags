@@ -24,9 +24,9 @@ for (let elt of [1, 2, 3])
 ```json
 [
   {
-    "id": "53c47f80-909d-11e5-bb53-39fccbdb3102",
+    "id": "fc175080-90a8-11e5-95d9-a3d2e6934e95",
     "name": "myIter",
-    "addr": "myIter",
+    "addr": "/myIter/",
     "kind": "v",
     "lineno": 1,
     "origin": {
@@ -39,14 +39,14 @@ for (let elt of [1, 2, 3])
     "tagfile": "__DIR__/for_of.js"
   },
   {
-    "id": "53c4a690-909d-11e5-bb53-39fccbdb3102",
+    "id": "fc177791-90a8-11e5-95d9-a3d2e6934e95",
     "name": "iterator",
-    "addr": "Symbol.iterator",
+    "addr": "/Symbol\.iterator/",
     "kind": "f",
     "type": "myIter.:Symbol.iterator.!ret function()",
     "lineno": 2,
     "namespace": "myIter.:Symbol",
-    "parent": "53c47f81-909d-11e5-bb53-39fccbdb3102",
+    "parent": "fc177790-90a8-11e5-95d9-a3d2e6934e95",
     "origin": {
       "!span": "18[1:3]-33[1:18]",
       "!type": "fn() -> myIter.:Symbol.iterator.!ret",
@@ -58,14 +58,14 @@ for (let elt of [1, 2, 3])
     "tagfile": "__DIR__/for_of.js"
   },
   {
-    "id": "53c4a692-909d-11e5-bb53-39fccbdb3102",
+    "id": "fc179ea1-90a8-11e5-95d9-a3d2e6934e95",
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 5,
     "namespace": "hello",
-    "parent": "53c4a691-909d-11e5-bb53-39fccbdb3102",
+    "parent": "fc179ea0-90a8-11e5-95d9-a3d2e6934e95",
     "origin": {
       "!span": "91[4:24]-92[4:25]",
       "!type": "number",
@@ -77,14 +77,14 @@ for (let elt of [1, 2, 3])
     "tagfile": "__DIR__/for_of.js"
   },
   {
-    "id": "53c4a693-909d-11e5-bb53-39fccbdb3102",
+    "id": "fc179ea2-90a8-11e5-95d9-a3d2e6934e95",
     "name": "b",
-    "addr": "b",
+    "addr": "/b/",
     "kind": "v",
     "type": "boolean",
     "lineno": 5,
     "namespace": "hello",
-    "parent": "53c4a691-909d-11e5-bb53-39fccbdb3102",
+    "parent": "fc179ea0-90a8-11e5-95d9-a3d2e6934e95",
     "origin": {
       "!span": "97[4:30]-98[4:31]",
       "!type": "bool",
@@ -96,9 +96,9 @@ for (let elt of [1, 2, 3])
     "tagfile": "__DIR__/for_of.js"
   },
   {
-    "id": "53c4a691-909d-11e5-bb53-39fccbdb3102",
+    "id": "fc179ea0-90a8-11e5-95d9-a3d2e6934e95",
     "name": "hello",
-    "addr": "hello",
+    "addr": "/hello/",
     "kind": "v",
     "lineno": 11,
     "origin": {
@@ -111,9 +111,9 @@ for (let elt of [1, 2, 3])
     "tagfile": "__DIR__/for_of.js"
   },
   {
-    "id": "53c4a694-909d-11e5-bb53-39fccbdb3102",
+    "id": "fc179ea3-90a8-11e5-95d9-a3d2e6934e95",
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 15,
@@ -128,9 +128,9 @@ for (let elt of [1, 2, 3])
     "tagfile": "__DIR__/for_of.js"
   },
   {
-    "id": "53c4a695-909d-11e5-bb53-39fccbdb3102",
+    "id": "fc17c5b0-90a8-11e5-95d9-a3d2e6934e95",
     "name": "b",
-    "addr": "b",
+    "addr": "/b/",
     "kind": "v",
     "type": "boolean",
     "lineno": 15,
@@ -147,11 +147,11 @@ for (let elt of [1, 2, 3])
 ]
 ```
 ```ctags
-myIter	__DIR__/for_of.js	myIter;"	v	lineno:1
-iterator	__DIR__/for_of.js	Symbol.iterator;"	f	lineno:2	namespace:myIter.:Symbol	type:myIter.:Symbol.iterator.!ret function()
-a	__DIR__/for_of.js	a;"	v	lineno:5	namespace:hello	type:number
-b	__DIR__/for_of.js	b;"	v	lineno:5	namespace:hello	type:boolean
-hello	__DIR__/for_of.js	hello;"	v	lineno:11
-a	__DIR__/for_of.js	a;"	v	lineno:15	type:number
-b	__DIR__/for_of.js	b;"	v	lineno:15	type:boolean
+myIter	__DIR__/for_of.js	/myIter/;"	v	lineno:1
+iterator	__DIR__/for_of.js	/Symbol\.iterator/;"	f	lineno:2	namespace:myIter.:Symbol	type:myIter.:Symbol.iterator.!ret function()
+a	__DIR__/for_of.js	/a/;"	v	lineno:5	namespace:hello	type:number
+b	__DIR__/for_of.js	/b/;"	v	lineno:5	namespace:hello	type:boolean
+hello	__DIR__/for_of.js	/hello/;"	v	lineno:11
+a	__DIR__/for_of.js	/a/;"	v	lineno:15	type:number
+b	__DIR__/for_of.js	/b/;"	v	lineno:15	type:boolean
 ```

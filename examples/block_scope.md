@@ -18,9 +18,9 @@ x("hello")
 ```json
 [
   {
-    "id": "4bd9d360-909d-11e5-96ca-a935b201e7fc",
+    "id": "f3cb7190-90a8-11e5-9cb3-63d2318f27a7",
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "f",
     "type": "void function(string)",
     "lineno": 1,
@@ -35,14 +35,14 @@ x("hello")
     "tagfile": "__DIR__/block_scope.js"
   },
   {
-    "id": "4bd9fa70-909d-11e5-96ca-a935b201e7fc",
+    "id": "f3cb98a0-90a8-11e5-9cb3-63d2318f27a7",
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "string",
     "lineno": 1,
     "namespace": "x",
-    "parent": "4bd9d360-909d-11e5-96ca-a935b201e7fc",
+    "parent": "f3cb7190-90a8-11e5-9cb3-63d2318f27a7",
     "origin": {
       "!span": "11[0:11]-12[0:12]",
       "!type": "string",
@@ -56,14 +56,14 @@ x("hello")
     "tagfile": "__DIR__/block_scope.js"
   },
   {
-    "id": "4bda2180-909d-11e5-96ca-a935b201e7fc",
+    "id": "f3cb98a1-90a8-11e5-9cb3-63d2318f27a7",
     "name": "c",
-    "addr": "c",
+    "addr": "/c/",
     "kind": "v",
     "type": "boolean",
     "lineno": 5,
     "namespace": "x",
-    "parent": "4bd9d360-909d-11e5-96ca-a935b201e7fc",
+    "parent": "f3cb7190-90a8-11e5-9cb3-63d2318f27a7",
     "origin": {
       "!span": "57[4:8]-58[4:9]",
       "!type": "bool",
@@ -79,7 +79,7 @@ x("hello")
 ]
 ```
 ```ctags
-x	__DIR__/block_scope.js	x;"	f	lineno:1	type:void function(string)
-a	__DIR__/block_scope.js	a;"	v	lineno:1	namespace:x	type:string
-c	__DIR__/block_scope.js	c;"	v	lineno:5	namespace:x	type:boolean
+x	__DIR__/block_scope.js	/x/;"	f	lineno:1	type:void function(string)
+a	__DIR__/block_scope.js	/a/;"	v	lineno:1	namespace:x	type:string
+c	__DIR__/block_scope.js	/c/;"	v	lineno:5	namespace:x	type:boolean
 ```

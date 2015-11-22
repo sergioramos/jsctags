@@ -1,7 +1,7 @@
 [
   {
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 3,
@@ -17,7 +17,7 @@
   },
   {
     "name": "y",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "[number]",
     "lineno": 8,
@@ -33,7 +33,7 @@
   },
   {
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "[number]",
     "lineno": 8,
@@ -77,7 +77,7 @@
   },
   {
     "name": "y",
-    "addr": "y",
+    "addr": "/y/",
     "kind": "v",
     "type": "[number]",
     "lineno": 11,
@@ -95,7 +95,7 @@
   },
   {
     "name": "z",
-    "addr": "z",
+    "addr": "/z/",
     "kind": "v",
     "type": "number",
     "lineno": 14,
@@ -111,7 +111,7 @@
   },
   {
     "name": "n",
-    "addr": "n",
+    "addr": "/n/",
     "kind": "v",
     "type": "number",
     "lineno": 17,
@@ -127,7 +127,7 @@
   },
   {
     "name": "m",
-    "addr": "m",
+    "addr": "/m/",
     "kind": "v",
     "type": "number",
     "lineno": 20,
@@ -143,7 +143,7 @@
   },
   {
     "name": "k",
-    "addr": "k",
+    "addr": "/k/",
     "kind": "v",
     "type": "number",
     "lineno": 23,
@@ -159,7 +159,7 @@
   },
   {
     "name": "l",
-    "addr": "l",
+    "addr": "/l/",
     "kind": "v",
     "type": "number",
     "lineno": 26,
@@ -175,7 +175,7 @@
   },
   {
     "name": "a2",
-    "addr": "a2",
+    "addr": "/a2/",
     "kind": "v",
     "type": "number",
     "lineno": 29,
@@ -191,7 +191,7 @@
   },
   {
     "name": "a3",
-    "addr": "a3",
+    "addr": "/a3/",
     "kind": "v",
     "type": "number",
     "lineno": 32,
@@ -207,7 +207,7 @@
   },
   {
     "name": "a4",
-    "addr": "a4",
+    "addr": "/a4/",
     "kind": "v",
     "type": "number",
     "lineno": 35,
@@ -223,7 +223,7 @@
   },
   {
     "name": "a5",
-    "addr": "a5",
+    "addr": "/a5/",
     "kind": "v",
     "type": "number",
     "lineno": 38,
@@ -239,7 +239,7 @@
   },
   {
     "name": "b1",
-    "addr": "b1",
+    "addr": "/b1/",
     "kind": "v",
     "type": "number",
     "lineno": 41,
@@ -255,7 +255,7 @@
   },
   {
     "name": "reg",
-    "addr": "reg",
+    "addr": "/reg/",
     "kind": "v",
     "type": "regexp",
     "lineno": 51,
@@ -271,7 +271,7 @@
   },
   {
     "name": "pattern1",
-    "addr": "pattern1",
+    "addr": "/pattern1/",
     "kind": "v",
     "type": "regexp",
     "lineno": 54,
@@ -289,7 +289,7 @@
   },
   {
     "name": "car",
-    "addr": "car",
+    "addr": "/car/",
     "kind": "v",
     "type": "string",
     "lineno": 69,
@@ -305,7 +305,7 @@
   },
   {
     "name": "s1",
-    "addr": "s1",
+    "addr": "/s1/",
     "kind": "v",
     "type": "string",
     "lineno": 72,
@@ -321,7 +321,7 @@
   },
   {
     "name": "s2",
-    "addr": "s2",
+    "addr": "/s2/",
     "kind": "v",
     "type": "string",
     "lineno": 75,
@@ -337,7 +337,7 @@
   },
   {
     "name": "s3",
-    "addr": "s3",
+    "addr": "/s3/",
     "kind": "v",
     "type": "string",
     "lineno": 78,
@@ -353,7 +353,7 @@
   },
   {
     "name": "s4",
-    "addr": "s4",
+    "addr": "/s4/",
     "kind": "v",
     "type": "string",
     "lineno": 81,
@@ -369,7 +369,7 @@
   },
   {
     "name": "person",
-    "addr": "person",
+    "addr": "/person/",
     "kind": "v",
     "lineno": 86,
     "origin": {
@@ -383,7 +383,7 @@
   },
   {
     "name": "firstname",
-    "addr": "firstname",
+    "addr": "/firstname/",
     "kind": "v",
     "type": "string",
     "lineno": 87,
@@ -400,7 +400,7 @@
   },
   {
     "name": "lastname",
-    "addr": "lastname",
+    "addr": "/lastname/",
     "kind": "v",
     "type": "string",
     "lineno": 88,
@@ -417,7 +417,7 @@
   },
   {
     "name": "age",
-    "addr": "age",
+    "addr": "/age/",
     "kind": "v",
     "type": "number",
     "lineno": 89,
@@ -434,7 +434,7 @@
   },
   {
     "name": "eyecolor",
-    "addr": "eyecolor",
+    "addr": "/eyecolor/",
     "kind": "v",
     "type": "string",
     "lineno": 90,
@@ -451,7 +451,7 @@
   },
   {
     "name": "lastname",
-    "addr": "lastname",
+    "addr": "/lastname/",
     "kind": "v",
     "type": "string",
     "lineno": 95,
@@ -470,7 +470,7 @@
   },
   {
     "name": "age",
-    "addr": "age",
+    "addr": "/age/",
     "kind": "v",
     "type": "number",
     "lineno": 95,
@@ -489,7 +489,7 @@
   },
   {
     "name": "eyecolor",
-    "addr": "eyecolor",
+    "addr": "/eyecolor/",
     "kind": "v",
     "type": "string",
     "lineno": 95,
@@ -508,7 +508,7 @@
   },
   {
     "name": "personType",
-    "addr": "personType",
+    "addr": "/personType/",
     "kind": "f",
     "type": "void function(string, string, number, string)",
     "lineno": 95,
@@ -524,7 +524,7 @@
   },
   {
     "name": "firstname",
-    "addr": "firstname",
+    "addr": "/firstname/",
     "kind": "v",
     "type": "string",
     "lineno": 95,
@@ -543,7 +543,7 @@
   },
   {
     "name": "changeName",
-    "addr": "changeName",
+    "addr": "/changeName/",
     "kind": "f",
     "type": "!this.lastname function(?)",
     "lineno": 100,
@@ -560,7 +560,7 @@
   },
   {
     "name": "name",
-    "addr": "name",
+    "addr": "/name/",
     "kind": "v",
     "lineno": 104,
     "namespace": "personType.changeName",
@@ -577,7 +577,7 @@
   },
   {
     "name": "friend",
-    "addr": "friend",
+    "addr": "/friend/",
     "kind": "v",
     "type": "personType",
     "lineno": 110,
@@ -593,7 +593,7 @@
   },
   {
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 119,
@@ -610,7 +610,7 @@
   },
   {
     "name": "b",
-    "addr": "b",
+    "addr": "/b/",
     "kind": "v",
     "type": "string",
     "lineno": 119,
@@ -627,7 +627,7 @@
   },
   {
     "name": "foo2",
-    "addr": "foo2",
+    "addr": "/foo2/",
     "kind": "v",
     "lineno": 119,
     "namespace": "base",
@@ -642,7 +642,7 @@
   },
   {
     "name": "bar",
-    "addr": "bar",
+    "addr": "/bar/",
     "kind": "v",
     "type": "number",
     "lineno": 119,
@@ -659,7 +659,7 @@
   },
   {
     "name": "foo",
-    "addr": "foo",
+    "addr": "/foo/",
     "kind": "v",
     "type": "number",
     "lineno": 119,
@@ -676,7 +676,7 @@
   },
   {
     "name": "base",
-    "addr": "base",
+    "addr": "/base/",
     "kind": "v",
     "lineno": 119,
     "origin": {
@@ -690,7 +690,7 @@
   },
   {
     "name": "baz",
-    "addr": "baz",
+    "addr": "/baz/",
     "kind": "v",
     "type": "number",
     "lineno": 129,
@@ -707,7 +707,7 @@
   },
   {
     "name": "gen1",
-    "addr": "gen1",
+    "addr": "/gen1/",
     "kind": "v",
     "lineno": 132,
     "origin": {
@@ -721,7 +721,7 @@
   },
   {
     "name": "gen2",
-    "addr": "gen2",
+    "addr": "/gen2/",
     "kind": "v",
     "lineno": 133,
     "origin": {
@@ -735,7 +735,7 @@
   },
   {
     "name": "quux",
-    "addr": "quux",
+    "addr": "/quux/",
     "kind": "v",
     "type": "number",
     "lineno": 134,
@@ -752,7 +752,7 @@
   },
   {
     "name": "kaka",
-    "addr": "kaka",
+    "addr": "/kaka/",
     "kind": "v",
     "type": "number",
     "lineno": 135,
@@ -769,7 +769,7 @@
   },
   {
     "name": "extend",
-    "addr": "extend",
+    "addr": "/extend/",
     "kind": "v",
     "lineno": 144,
     "origin": {
@@ -783,7 +783,7 @@
   },
   {
     "name": "empty",
-    "addr": "empty",
+    "addr": "/empty/",
     "kind": "v",
     "lineno": 150,
     "origin": {
@@ -797,7 +797,7 @@
   },
   {
     "name": "prop1",
-    "addr": "prop1",
+    "addr": "/prop1/",
     "kind": "v",
     "type": "string",
     "lineno": 151,
@@ -814,7 +814,7 @@
   },
   {
     "name": "Ctor1",
-    "addr": "Ctor1",
+    "addr": "/Ctor1/",
     "kind": "f",
     "type": "void function()",
     "lineno": 155,
@@ -830,7 +830,7 @@
   },
   {
     "name": "prototype",
-    "addr": "prototype",
+    "addr": "/prototype/",
     "kind": "v",
     "lineno": 156,
     "namespace": "Ctor1",
@@ -845,7 +845,7 @@
   },
   {
     "name": "a",
-    "addr": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 156,
@@ -862,7 +862,7 @@
   },
   {
     "name": "Ctor2",
-    "addr": "Ctor2",
+    "addr": "/Ctor2/",
     "kind": "f",
     "type": "void function()",
     "lineno": 159,
@@ -878,7 +878,7 @@
   },
   {
     "name": "singleton",
-    "addr": "singleton",
+    "addr": "/singleton/",
     "kind": "v",
     "lineno": 164,
     "origin": {
@@ -894,7 +894,7 @@
   },
   {
     "name": "x",
-    "addr": "x",
+    "addr": "/x/",
     "kind": "v",
     "type": "boolean",
     "lineno": 166,
@@ -913,7 +913,7 @@
   },
   {
     "name": "Foo",
-    "addr": "Foo",
+    "addr": "/Foo/",
     "kind": "f",
     "type": "void function(bool)",
     "lineno": 166,
@@ -929,7 +929,7 @@
   },
   {
     "name": "y",
-    "addr": "y",
+    "addr": "/y/",
     "kind": "v",
     "type": "[number]",
     "lineno": 168,
@@ -946,7 +946,7 @@
   },
   {
     "name": "prototype",
-    "addr": "prototype",
+    "addr": "/prototype/",
     "kind": "v",
     "lineno": 171,
     "namespace": "Foo",
@@ -961,7 +961,7 @@
   },
   {
     "name": "makeString",
-    "addr": "makeString",
+    "addr": "/makeString/",
     "kind": "f",
     "type": "string function()",
     "lineno": 172,
@@ -978,7 +978,7 @@
   },
   {
     "name": "bar",
-    "addr": "bar",
+    "addr": "/bar/",
     "kind": "v",
     "type": "number",
     "lineno": 173,
@@ -995,7 +995,7 @@
   },
   {
     "name": "foo",
-    "addr": "foo",
+    "addr": "/foo/",
     "kind": "v",
     "type": "Foo",
     "lineno": 176,
@@ -1011,7 +1011,7 @@
   },
   {
     "name": "config",
-    "addr": "config",
+    "addr": "/config/",
     "kind": "v",
     "lineno": 182,
     "origin": {
@@ -1025,7 +1025,7 @@
   },
   {
     "name": "CSS",
-    "addr": "CSS",
+    "addr": "/CSS/",
     "kind": "v",
     "lineno": 183,
     "namespace": "config",
@@ -1040,7 +1040,7 @@
   },
   {
     "name": "IDs",
-    "addr": "IDs",
+    "addr": "/IDs/",
     "kind": "v",
     "lineno": 184,
     "namespace": "config.CSS",
@@ -1055,7 +1055,7 @@
   },
   {
     "name": "container",
-    "addr": "container",
+    "addr": "/container/",
     "kind": "v",
     "type": "string",
     "lineno": 185,
@@ -1072,7 +1072,7 @@
   },
   {
     "name": "canvas",
-    "addr": "canvas",
+    "addr": "/canvas/",
     "kind": "v",
     "type": "string",
     "lineno": 186,
@@ -1089,7 +1089,7 @@
   },
   {
     "name": "player",
-    "addr": "player",
+    "addr": "/player/",
     "kind": "v",
     "type": "string",
     "lineno": 187,
@@ -1106,7 +1106,7 @@
   },
   {
     "name": "controls",
-    "addr": "controls",
+    "addr": "/controls/",
     "kind": "v",
     "type": "string",
     "lineno": 188,
@@ -1123,7 +1123,7 @@
   },
   {
     "name": "years",
-    "addr": "years",
+    "addr": "/years/",
     "kind": "v",
     "type": "[number]",
     "lineno": 201,
@@ -1139,7 +1139,7 @@
   },
   {
     "name": "arr1",
-    "addr": "arr1",
+    "addr": "/arr1/",
     "kind": "v",
     "type": "[bool]",
     "lineno": 206,
@@ -1155,7 +1155,7 @@
   },
   {
     "name": "arr2",
-    "addr": "arr2",
+    "addr": "/arr2/",
     "kind": "v",
     "type": "[number]",
     "lineno": 213,
@@ -1171,7 +1171,7 @@
   },
   {
     "name": "scope1",
-    "addr": "scope1",
+    "addr": "/scope1/",
     "kind": "f",
     "type": "void function()",
     "lineno": 216,
@@ -1187,7 +1187,7 @@
   },
   {
     "name": "f",
-    "addr": "f",
+    "addr": "/f/",
     "kind": "v",
     "lineno": 218,
     "origin": {
@@ -1203,7 +1203,7 @@
   },
   {
     "name": "f2",
-    "addr": "f2",
+    "addr": "/f2/",
     "kind": "v",
     "lineno": 220,
     "origin": {
@@ -1219,7 +1219,7 @@
   },
   {
     "name": "f3",
-    "addr": "f3",
+    "addr": "/f3/",
     "kind": "v",
     "lineno": 222,
     "origin": {
@@ -1235,7 +1235,7 @@
   },
   {
     "name": "one",
-    "addr": "one",
+    "addr": "/one/",
     "kind": "f",
     "type": "void function()",
     "lineno": 254,
@@ -1251,7 +1251,7 @@
   },
   {
     "name": "person",
-    "addr": "person",
+    "addr": "/person/",
     "kind": "v",
     "type": "string",
     "lineno": 256,
@@ -1270,7 +1270,7 @@
   },
   {
     "name": "localVar1InOne",
-    "addr": "localVar1InOne",
+    "addr": "/localVar1InOne/",
     "kind": "v",
     "type": "string",
     "lineno": 258,
@@ -1289,7 +1289,7 @@
   },
   {
     "name": "globalVar1",
-    "addr": "globalVar1",
+    "addr": "/globalVar1/",
     "kind": "v",
     "type": "number",
     "lineno": 259,
@@ -1305,7 +1305,7 @@
   },
   {
     "name": "timeout",
-    "addr": "timeout",
+    "addr": "/timeout/",
     "kind": "f",
     "type": "void function(?, ?)",
     "lineno": 272,
@@ -1324,7 +1324,7 @@
   },
   {
     "name": "f",
-    "addr": "f",
+    "addr": "/f/",
     "kind": "v",
     "lineno": 272,
     "namespace": "timeout",
@@ -1341,7 +1341,7 @@
   },
   {
     "name": "timeout",
-    "addr": "timeout",
+    "addr": "/timeout/",
     "kind": "v",
     "lineno": 272,
     "origin": {
@@ -1357,7 +1357,7 @@
   },
   {
     "name": "obj",
-    "addr": "obj",
+    "addr": "/obj/",
     "kind": "v",
     "lineno": 273,
     "origin": {
@@ -1371,7 +1371,7 @@
   },
   {
     "name": "name",
-    "addr": "name",
+    "addr": "/name/",
     "kind": "v",
     "type": "string",
     "lineno": 274,
@@ -1388,7 +1388,7 @@
   },
   {
     "name": "func",
-    "addr": "func",
+    "addr": "/func/",
     "kind": "f",
     "type": "void function()",
     "lineno": 275,
@@ -1405,7 +1405,7 @@
   },
   {
     "name": "localVarBecomeGlobal",
-    "addr": "localVarBecomeGlobal",
+    "addr": "/localVarBecomeGlobal/",
     "kind": "v",
     "type": "[number]",
     "lineno": 285,
@@ -1421,7 +1421,7 @@
   },
   {
     "name": "testIfControlFlow1",
-    "addr": "testIfControlFlow1",
+    "addr": "/testIfControlFlow1/",
     "kind": "f",
     "type": "void function()",
     "lineno": 291,
@@ -1437,7 +1437,7 @@
   },
   {
     "name": "varInIf",
-    "addr": "varInIf",
+    "addr": "/varInIf/",
     "kind": "v",
     "type": "string",
     "lineno": 294,
@@ -1456,7 +1456,7 @@
   },
   {
     "name": "f",
-    "addr": "f",
+    "addr": "/f/",
     "kind": "v",
     "lineno": 296,
     "namespace": "testIfControlFlow1",
@@ -1473,7 +1473,7 @@
   },
   {
     "name": "name",
-    "addr": "name",
+    "addr": "/name/",
     "kind": "v",
     "type": "string",
     "lineno": 299,
@@ -1492,7 +1492,7 @@
   },
   {
     "name": "inNestedIf",
-    "addr": "inNestedIf",
+    "addr": "/inNestedIf/",
     "kind": "v",
     "type": "string",
     "lineno": 303,
@@ -1511,7 +1511,7 @@
   },
   {
     "name": "t",
-    "addr": "t",
+    "addr": "/t/",
     "kind": "v",
     "lineno": 305,
     "namespace": "testIfControlFlow1",
@@ -1528,7 +1528,7 @@
   },
   {
     "name": "testForControlFlow1",
-    "addr": "testForControlFlow1",
+    "addr": "/testForControlFlow1/",
     "kind": "f",
     "type": "void function()",
     "lineno": 317,
@@ -1544,7 +1544,7 @@
   },
   {
     "name": "m",
-    "addr": "m",
+    "addr": "/m/",
     "kind": "v",
     "type": "string",
     "lineno": 321,
@@ -1563,7 +1563,7 @@
   },
   {
     "name": "n",
-    "addr": "n",
+    "addr": "/n/",
     "kind": "v",
     "type": "number",
     "lineno": 322,
@@ -1582,7 +1582,7 @@
   },
   {
     "name": "varInForLoop",
-    "addr": "varInForLoop",
+    "addr": "/varInForLoop/",
     "kind": "v",
     "type": "string",
     "lineno": 323,
@@ -1601,7 +1601,7 @@
   },
   {
     "name": "j",
-    "addr": "j",
+    "addr": "/j/",
     "kind": "v",
     "type": "number",
     "lineno": 324,
@@ -1620,7 +1620,7 @@
   },
   {
     "name": "varInNestedForLoop",
-    "addr": "varInNestedForLoop",
+    "addr": "/varInNestedForLoop/",
     "kind": "v",
     "type": "number",
     "lineno": 325,
@@ -1639,7 +1639,7 @@
   },
   {
     "name": "testForInLoopFlow1",
-    "addr": "testForInLoopFlow1",
+    "addr": "/testForInLoopFlow1/",
     "kind": "f",
     "type": "void function()",
     "lineno": 334,
@@ -1655,7 +1655,7 @@
   },
   {
     "name": "testWhileLoopFlow1",
-    "addr": "testWhileLoopFlow1",
+    "addr": "/testWhileLoopFlow1/",
     "kind": "f",
     "type": "void function()",
     "lineno": 341,
@@ -1671,7 +1671,7 @@
   },
   {
     "name": "n",
-    "addr": "n",
+    "addr": "/n/",
     "kind": "v",
     "type": "number",
     "lineno": 342,
@@ -1690,7 +1690,7 @@
   },
   {
     "name": "varInWhileLoop",
-    "addr": "varInWhileLoop",
+    "addr": "/varInWhileLoop/",
     "kind": "v",
     "type": "string",
     "lineno": 344,
@@ -1709,7 +1709,7 @@
   },
   {
     "name": "testDoWhileLoopFlow1",
-    "addr": "testDoWhileLoopFlow1",
+    "addr": "/testDoWhileLoopFlow1/",
     "kind": "f",
     "type": "void function()",
     "lineno": 349,
@@ -1725,7 +1725,7 @@
   },
   {
     "name": "varInDoWhileLoop",
-    "addr": "varInDoWhileLoop",
+    "addr": "/varInDoWhileLoop/",
     "kind": "v",
     "type": "string",
     "lineno": 352,
@@ -1744,7 +1744,7 @@
   },
   {
     "name": "testBreakFlow1",
-    "addr": "testBreakFlow1",
+    "addr": "/testBreakFlow1/",
     "kind": "f",
     "type": "void function()",
     "lineno": 359,
@@ -1760,7 +1760,7 @@
   },
   {
     "name": "i",
-    "addr": "i",
+    "addr": "/i/",
     "kind": "v",
     "type": "number",
     "lineno": 360,
@@ -1776,7 +1776,7 @@
   },
   {
     "name": "testBreak",
-    "addr": "testBreak",
+    "addr": "/testBreak/",
     "kind": "v",
     "type": "string",
     "lineno": 362,
@@ -1795,7 +1795,7 @@
   },
   {
     "name": "testContinue",
-    "addr": "testContinue",
+    "addr": "/testContinue/",
     "kind": "v",
     "type": "string",
     "lineno": 365,
@@ -1814,7 +1814,7 @@
   },
   {
     "name": "n",
-    "addr": "n",
+    "addr": "/n/",
     "kind": "v",
     "lineno": 377,
     "namespace": "testSwitchFlow1",
@@ -1831,7 +1831,7 @@
   },
   {
     "name": "testSwitchFlow1",
-    "addr": "testSwitchFlow1",
+    "addr": "/testSwitchFlow1/",
     "kind": "f",
     "type": "void function(?)",
     "lineno": 377,
@@ -1847,7 +1847,7 @@
   },
   {
     "name": "inCase1",
-    "addr": "inCase1",
+    "addr": "/inCase1/",
     "kind": "v",
     "type": "string",
     "lineno": 381,
@@ -1866,7 +1866,7 @@
   },
   {
     "name": "inCase2",
-    "addr": "inCase2",
+    "addr": "/inCase2/",
     "kind": "v",
     "type": "string",
     "lineno": 385,
@@ -1885,7 +1885,7 @@
   },
   {
     "name": "testTryCatchFlow1",
-    "addr": "testTryCatchFlow1",
+    "addr": "/testTryCatchFlow1/",
     "kind": "f",
     "type": "void function()",
     "lineno": 398,
@@ -1901,7 +1901,7 @@
   },
   {
     "name": "varInTry",
-    "addr": "varInTry",
+    "addr": "/varInTry/",
     "kind": "v",
     "type": "string",
     "lineno": 400,
@@ -1920,7 +1920,7 @@
   },
   {
     "name": "err",
-    "addr": "err",
+    "addr": "/err/",
     "kind": "v",
     "lineno": 401,
     "namespace": "testTryCatchFlow1",
@@ -1937,7 +1937,7 @@
   },
   {
     "name": "varInCatch",
-    "addr": "varInCatch",
+    "addr": "/varInCatch/",
     "kind": "v",
     "type": "string",
     "lineno": 403,
