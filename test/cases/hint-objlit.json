@@ -8,7 +8,7 @@
       "!span": "4[0:4]-10[0:10]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -25,7 +25,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -42,7 +42,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -59,7 +59,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -76,7 +76,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -90,7 +90,7 @@
       "!span": "51[2:4]-57[2:10]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -109,7 +109,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -128,7 +128,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -145,7 +145,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -161,7 +161,7 @@
       "!type": "fn(person: ?) -> number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -178,7 +178,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -197,7 +197,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -213,7 +213,7 @@
       "!type": "fn(persons: [person, person]|[ages.!0.<i>]) -> [number]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -230,7 +230,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -247,7 +247,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -261,7 +261,7 @@
       "!span": "270[14:4]-277[14:11]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -278,7 +278,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -295,7 +295,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -312,7 +312,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -328,7 +328,7 @@
       "!type": "fn(example: ?) -> !0",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -345,7 +345,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -362,7 +362,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -379,7 +379,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -398,7 +398,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -417,7 +417,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -434,7 +434,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -453,7 +453,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"
@@ -470,7 +470,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/hint-objlit.js"

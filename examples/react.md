@@ -45,7 +45,7 @@ var f = function() {
 ```json
 [
   {
-    "id": "4665bad0-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "38001b00-90cb-11e5-972f-691eb1148eac",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
@@ -56,13 +56,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "46667e21-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "3800de50-90cb-11e5-972f-691eb1148eac",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
@@ -73,13 +73,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "4665e1e0-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "38004210-90cb-11e5-972f-691eb1148eac",
     "name": "e",
     "addr": "/e/",
     "kind": "v",
@@ -90,13 +90,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "46667e22-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "3800de51-90cb-11e5-972f-691eb1148eac",
     "name": "test",
     "addr": "/test/",
     "kind": "v",
@@ -107,13 +107,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "4665e1e1-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "38004211-90cb-11e5-972f-691eb1148eac",
     "name": "g",
     "addr": "/g/",
     "kind": "v",
@@ -124,13 +124,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "4665e1e2-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "38004212-90cb-11e5-972f-691eb1148eac",
     "name": "h",
     "addr": "/h/",
     "kind": "v",
@@ -141,13 +141,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "4665e1e3-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "38004213-90cb-11e5-972f-691eb1148eac",
     "name": "i",
     "addr": "/i/",
     "kind": "v",
@@ -158,13 +158,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "4665e1e4-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "38004214-90cb-11e5-972f-691eb1148eac",
     "name": "j",
     "addr": "/j/",
     "kind": "v",
@@ -175,13 +175,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "4665e1e5-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "38004215-90cb-11e5-972f-691eb1148eac",
     "name": "k",
     "addr": "/k/",
     "kind": "v",
@@ -192,13 +192,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "4665e1e6-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "38004216-90cb-11e5-972f-691eb1148eac",
     "name": "l",
     "addr": "/l/",
     "kind": "v",
@@ -209,13 +209,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "4665e1e7-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "38004217-90cb-11e5-972f-691eb1148eac",
     "name": "m",
     "addr": "/m/",
     "kind": "v",
@@ -226,13 +226,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "46667e23-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "3800de52-90cb-11e5-972f-691eb1148eac",
     "name": "left",
     "addr": "/left/",
     "kind": "v",
@@ -243,13 +243,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "4665e1e8-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "38004218-90cb-11e5-972f-691eb1148eac",
     "name": "n",
     "addr": "/n/",
     "kind": "v",
@@ -260,13 +260,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "4665e1e9-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "38004219-90cb-11e5-972f-691eb1148eac",
     "name": "o",
     "addr": "/o/",
     "kind": "v",
@@ -277,13 +277,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "4665e1ea-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "3800421a-90cb-11e5-972f-691eb1148eac",
     "name": "p",
     "addr": "/p/",
     "kind": "v",
@@ -294,13 +294,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "4665e1eb-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "3800421b-90cb-11e5-972f-691eb1148eac",
     "name": "q",
     "addr": "/q/",
     "kind": "v",
@@ -311,13 +311,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "4665e1ec-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "3800421c-90cb-11e5-972f-691eb1148eac",
     "name": "r",
     "addr": "/r/",
     "kind": "v",
@@ -328,13 +328,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "46667e24-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "3800de53-90cb-11e5-972f-691eb1148eac",
     "name": "post",
     "addr": "/post/",
     "kind": "v",
@@ -345,13 +345,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "4666a530-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "3800de55-90cb-11e5-972f-691eb1148eac",
     "name": "pre2",
     "addr": "/pre2/",
     "kind": "v",
@@ -362,13 +362,13 @@ var f = function() {
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "46667e25-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "3800de54-90cb-11e5-972f-691eb1148eac",
     "name": "pre",
     "addr": "/pre/",
     "kind": "v",
@@ -379,13 +379,13 @@ var f = function() {
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "4665e1ed-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "3800421d-90cb-11e5-972f-691eb1148eac",
     "name": "s",
     "addr": "/s/",
     "kind": "v",
@@ -396,13 +396,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "4666a531-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "3800de56-90cb-11e5-972f-691eb1148eac",
     "name": "aa",
     "addr": "/aa/",
     "kind": "v",
@@ -411,13 +411,13 @@ var f = function() {
       "!span": "704[19:11]-706[19:13]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "4666a532-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "3800de57-90cb-11e5-972f-691eb1148eac",
     "name": "bb",
     "addr": "/bb/",
     "kind": "v",
@@ -428,13 +428,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "4665e1ee-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "3800421e-90cb-11e5-972f-691eb1148eac",
     "name": "t",
     "addr": "/t/",
     "kind": "v",
@@ -445,13 +445,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "4666a533-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "3800de58-90cb-11e5-972f-691eb1148eac",
     "name": "href",
     "addr": "/href/",
     "kind": "v",
@@ -462,13 +462,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "466608f0-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "3800421f-90cb-11e5-972f-691eb1148eac",
     "name": "u",
     "addr": "/u/",
     "kind": "v",
@@ -479,13 +479,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "466608f1-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "38004220-90cb-11e5-972f-691eb1148eac",
     "name": "v",
     "addr": "/v/",
     "kind": "v",
@@ -496,13 +496,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "466608f2-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "38004221-90cb-11e5-972f-691eb1148eac",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
@@ -513,13 +513,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "466608f3-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "38006920-90cb-11e5-972f-691eb1148eac",
     "name": "w",
     "addr": "/w/",
     "kind": "v",
@@ -530,13 +530,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "466608f4-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "38006921-90cb-11e5-972f-691eb1148eac",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
@@ -547,13 +547,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "466608f5-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "3800b740-90cb-11e5-972f-691eb1148eac",
     "name": "z",
     "addr": "/z/",
     "kind": "v",
@@ -564,13 +564,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "466608f6-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "3800b741-90cb-11e5-972f-691eb1148eac",
     "name": "ç",
     "addr": "/ç/",
     "kind": "v",
@@ -581,13 +581,13 @@ var f = function() {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "46667e20-90c4-11e5-ba37-cd84dd8ceb39",
+    "id": "3800b742-90cb-11e5-972f-691eb1148eac",
     "name": "arr",
     "addr": "/arr/",
     "kind": "v",
@@ -598,7 +598,7 @@ var f = function() {
       "!type": "[bool]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"

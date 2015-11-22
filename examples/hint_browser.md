@@ -12,7 +12,7 @@ window.addEventListener("mousemove", function(e) { e.which. }); //+ toExponentia
 ```json
 [
   {
-    "id": "3bd62d70-90c4-11e5-8f63-1104abb036fb",
+    "id": "2da53230-90cb-11e5-97ca-8b26808fac9c",
     "name": "newElt",
     "addr": "/newElt/",
     "kind": "v",
@@ -23,25 +23,25 @@ window.addEventListener("mousemove", function(e) { e.which. }); //+ toExponentia
       "!type": "+Element",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Element.prototype"
       }
     },
     "tagfile": "__DIR__/hint_browser.js"
   },
   {
-    "id": "3bd65481-90c4-11e5-8f63-1104abb036fb",
+    "id": "2da58050-90cb-11e5-97ca-8b26808fac9c",
     "name": "e_which",
     "addr": "/e_which/",
     "kind": "v",
     "lineno": 8,
-    "parent": "3bd65480-90c4-11e5-8f63-1104abb036fb",
+    "parent": "2da55940-90cb-11e5-97ca-8b26808fac9c",
     "origin": {
       "!span": "296[7:4]-303[7:11]",
       "!data": {
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/hint_browser.js"

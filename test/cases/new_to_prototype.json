@@ -10,7 +10,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/new_to_prototype.js"
@@ -27,7 +27,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/new_to_prototype.js"
@@ -43,7 +43,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/new_to_prototype.js"
@@ -58,7 +58,7 @@
       "!span": "58[3:2]-67[3:11]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "A.prototype"
       }
     },
     "tagfile": "__DIR__/new_to_prototype.js"
@@ -75,7 +75,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/new_to_prototype.js"
@@ -91,7 +91,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/new_to_prototype.js"
@@ -106,7 +106,7 @@
       "!span": "119[6:2]-128[6:11]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "A.prototype"
       }
     },
     "tagfile": "__DIR__/new_to_prototype.js"
@@ -123,7 +123,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/new_to_prototype.js"

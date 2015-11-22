@@ -31,7 +31,7 @@ p3.then(function(value) {
 ```json
 [
   {
-    "id": "42910c20-90c4-11e5-a530-eb1b721102d6",
+    "id": "34221d80-90cb-11e5-9626-bf93989a4730",
     "name": "p",
     "addr": "/p/",
     "kind": "v",
@@ -42,13 +42,13 @@ p3.then(function(value) {
       "!type": "+Promise",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Promise.prototype"
       }
     },
     "tagfile": "__DIR__/promise.js"
   },
   {
-    "id": "42910c21-90c4-11e5-a530-eb1b721102d6",
+    "id": "34224490-90cb-11e5-9626-bf93989a4730",
     "name": "p2",
     "addr": "/p2/",
     "kind": "v",
@@ -59,20 +59,20 @@ p3.then(function(value) {
       "!type": "+Promise",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Promise.prototype"
       }
     },
     "tagfile": "__DIR__/promise.js"
   },
   {
-    "id": "42910c22-90c4-11e5-a530-eb1b721102d6",
+    "id": "34224491-90cb-11e5-9626-bf93989a4730",
     "name": ":t",
     "addr": "/function\(acc\) \{ acc\(\"hi\"\); \}/",
     "kind": "v",
     "type": "string",
     "lineno": 12,
     "namespace": "p2",
-    "parent": "42910c21-90c4-11e5-a530-eb1b721102d6",
+    "parent": "34224490-90cb-11e5-9626-bf93989a4730",
     "origin": {
       "!span": "228[11:21]-256[11:49]",
       "!type": "string",
@@ -80,13 +80,13 @@ p3.then(function(value) {
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/promise.js"
   },
   {
-    "id": "42913330-90c4-11e5-a530-eb1b721102d6",
+    "id": "34224492-90cb-11e5-9626-bf93989a4730",
     "name": "p3",
     "addr": "/p3/",
     "kind": "v",
@@ -97,42 +97,42 @@ p3.then(function(value) {
       "!type": "+Promise",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Promise.prototype"
       }
     },
     "tagfile": "__DIR__/promise.js"
   },
   {
-    "id": "42913332-90c4-11e5-a530-eb1b721102d6",
+    "id": "34224494-90cb-11e5-9626-bf93989a4730",
     "name": ":t",
     "kind": "v",
     "type": "number",
     "namespace": "Promise",
-    "parent": "42913331-90c4-11e5-a530-eb1b721102d6",
+    "parent": "34224493-90cb-11e5-9626-bf93989a4730",
     "origin": {
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/promise.js"
   },
   {
-    "id": "42913333-90c4-11e5-a530-eb1b721102d6",
+    "id": "34224495-90cb-11e5-9626-bf93989a4730",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 3,
     "namespace": "Promise.:t",
-    "parent": "42913332-90c4-11e5-a530-eb1b721102d6",
+    "parent": "34224494-90cb-11e5-9626-bf93989a4730",
     "origin": {
       "!span": "85[2:10]-86[2:11]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/promise.js"

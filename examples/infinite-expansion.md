@@ -22,7 +22,7 @@ goop(1)(goop);
 ```json
 [
   {
-    "id": "3d7ba010-90c4-11e5-876f-4734ec7f7118",
+    "id": "2f43ee10-90cb-11e5-80ea-03f950b85ffa",
     "name": "f",
     "addr": "/f/",
     "kind": "f",
@@ -33,20 +33,20 @@ goop(1)(goop);
       "!type": "fn(n: f)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/infinite-expansion.js"
   },
   {
-    "id": "3d7bc720-90c4-11e5-876f-4734ec7f7118",
+    "id": "2f441520-90cb-11e5-80ea-03f950b85ffa",
     "name": "n",
     "addr": "/n/",
     "kind": "f",
     "type": "void function(f)",
     "lineno": 3,
     "namespace": "f",
-    "parent": "3d7ba010-90c4-11e5-876f-4734ec7f7118",
+    "parent": "2f43ee10-90cb-11e5-80ea-03f950b85ffa",
     "origin": {
       "!span": "31[2:17]-32[2:18]",
       "!type": "fn(n: f)",
@@ -54,32 +54,32 @@ goop(1)(goop);
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/infinite-expansion.js"
   },
   {
-    "id": "3d7bee30-90c4-11e5-876f-4734ec7f7118",
+    "id": "2f441521-90cb-11e5-80ea-03f950b85ffa",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 4,
     "namespace": "f.n",
-    "parent": "3d7bc720-90c4-11e5-876f-4734ec7f7118",
+    "parent": "2f441520-90cb-11e5-80ea-03f950b85ffa",
     "origin": {
       "!span": "40[3:4]-49[3:13]",
       "!data": {
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/infinite-expansion.js"
   },
   {
-    "id": "3d7bee31-90c4-11e5-876f-4734ec7f7118",
+    "id": "2f441522-90cb-11e5-80ea-03f950b85ffa",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
@@ -90,13 +90,13 @@ goop(1)(goop);
       "!type": "[x]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/infinite-expansion.js"
   },
   {
-    "id": "3d7bee32-90c4-11e5-876f-4734ec7f7118",
+    "id": "2f443c30-90cb-11e5-80ea-03f950b85ffa",
     "name": "goop",
     "addr": "/goop/",
     "kind": "f",
@@ -107,20 +107,20 @@ goop(1)(goop);
       "!type": "fn(n: number) -> fn(f: ?)",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/infinite-expansion.js"
   },
   {
-    "id": "3d7bee33-90c4-11e5-876f-4734ec7f7118",
+    "id": "2f443c31-90cb-11e5-80ea-03f950b85ffa",
     "name": "n",
     "addr": "/n/",
     "kind": "v",
     "type": "number",
     "lineno": 15,
     "namespace": "goop",
-    "parent": "3d7bee32-90c4-11e5-876f-4734ec7f7118",
+    "parent": "2f443c30-90cb-11e5-80ea-03f950b85ffa",
     "origin": {
       "!span": "267[14:14]-268[14:15]",
       "!type": "number",
@@ -128,7 +128,7 @@ goop(1)(goop);
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/infinite-expansion.js"

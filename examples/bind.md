@@ -22,7 +22,7 @@ k(); //:: {a: bool}
 ```json
 [
   {
-    "id": "31451970-90c4-11e5-bd20-4911d42338fe",
+    "id": "2363c4d0-90cb-11e5-a21c-656add389998",
     "name": "f",
     "addr": "/f/",
     "kind": "f",
@@ -33,20 +33,20 @@ k(); //:: {a: bool}
       "!type": "fn(a: number, b: number, c: number, d: number) -> number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "31454081-90c4-11e5-bd20-4911d42338fe",
+    "id": "236412f0-90cb-11e5-a21c-656add389998",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "f",
-    "parent": "31451970-90c4-11e5-bd20-4911d42338fe",
+    "parent": "2363c4d0-90cb-11e5-a21c-656add389998",
     "origin": {
       "!span": "14[0:14]-15[0:15]",
       "!type": "number",
@@ -54,20 +54,20 @@ k(); //:: {a: bool}
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "31454082-90c4-11e5-bd20-4911d42338fe",
+    "id": "236412f1-90cb-11e5-a21c-656add389998",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "f",
-    "parent": "31451970-90c4-11e5-bd20-4911d42338fe",
+    "parent": "2363c4d0-90cb-11e5-a21c-656add389998",
     "origin": {
       "!span": "17[0:17]-18[0:18]",
       "!type": "number",
@@ -75,20 +75,20 @@ k(); //:: {a: bool}
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "31454083-90c4-11e5-bd20-4911d42338fe",
+    "id": "236412f2-90cb-11e5-a21c-656add389998",
     "name": "d",
     "addr": "/d/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "f",
-    "parent": "31451970-90c4-11e5-bd20-4911d42338fe",
+    "parent": "2363c4d0-90cb-11e5-a21c-656add389998",
     "origin": {
       "!span": "20[0:20]-21[0:21]",
       "!type": "number",
@@ -96,20 +96,20 @@ k(); //:: {a: bool}
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "31454080-90c4-11e5-bd20-4911d42338fe",
+    "id": "2363ebe0-90cb-11e5-a21c-656add389998",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "f",
-    "parent": "31451970-90c4-11e5-bd20-4911d42338fe",
+    "parent": "2363c4d0-90cb-11e5-a21c-656add389998",
     "origin": {
       "!span": "11[0:11]-12[0:12]",
       "!type": "number",
@@ -117,13 +117,13 @@ k(); //:: {a: bool}
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "31454084-90c4-11e5-bd20-4911d42338fe",
+    "id": "236412f3-90cb-11e5-a21c-656add389998",
     "name": "g",
     "addr": "/g/",
     "kind": "f",
@@ -134,13 +134,13 @@ k(); //:: {a: bool}
       "!type": "fn(c: number, d: number) -> number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "31454085-90c4-11e5-bd20-4911d42338fe",
+    "id": "236412f4-90cb-11e5-a21c-656add389998",
     "name": "h",
     "addr": "/h/",
     "kind": "f",
@@ -151,20 +151,20 @@ k(); //:: {a: bool}
       "!type": "fn(a: number) -> h.!ret",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "31454086-90c4-11e5-bd20-4911d42338fe",
+    "id": "236412f5-90cb-11e5-a21c-656add389998",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 7,
     "namespace": "h",
-    "parent": "31454085-90c4-11e5-bd20-4911d42338fe",
+    "parent": "236412f4-90cb-11e5-a21c-656add389998",
     "origin": {
       "!span": "152[6:11]-153[6:12]",
       "!type": "number",
@@ -172,13 +172,13 @@ k(); //:: {a: bool}
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "31454087-90c4-11e5-bd20-4911d42338fe",
+    "id": "236412f6-90cb-11e5-a21c-656add389998",
     "name": "i",
     "addr": "/i/",
     "kind": "f",
@@ -189,13 +189,13 @@ k(); //:: {a: bool}
       "!type": "fn() -> h.!ret",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "31454088-90c4-11e5-bd20-4911d42338fe",
+    "id": "236412f7-90cb-11e5-a21c-656add389998",
     "name": "o",
     "addr": "/o/",
     "kind": "v",
@@ -204,20 +204,20 @@ k(); //:: {a: bool}
       "!span": "275[11:4]-276[11:5]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "31454089-90c4-11e5-bd20-4911d42338fe",
+    "id": "236412f8-90cb-11e5-a21c-656add389998",
     "name": "i",
     "addr": "/i/",
     "kind": "f",
     "type": "h.!ret function()",
     "lineno": 12,
     "namespace": "o",
-    "parent": "31454088-90c4-11e5-bd20-4911d42338fe",
+    "parent": "236412f7-90cb-11e5-a21c-656add389998",
     "origin": {
       "!span": "280[11:9]-281[11:10]",
       "!type": "fn() -> h.!ret",
@@ -225,13 +225,13 @@ k(); //:: {a: bool}
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "3145408a-90c4-11e5-bd20-4911d42338fe",
+    "id": "236412f9-90cb-11e5-a21c-656add389998",
     "name": "j",
     "addr": "/j/",
     "kind": "f",
@@ -242,13 +242,13 @@ k(); //:: {a: bool}
       "!type": "fn() -> !this",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "3145408b-90c4-11e5-bd20-4911d42338fe",
+    "id": "236412fa-90cb-11e5-a21c-656add389998",
     "name": "k",
     "addr": "/k/",
     "kind": "f",
@@ -259,7 +259,7 @@ k(); //:: {a: bool}
       "!type": "fn() -> j.!ret",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"

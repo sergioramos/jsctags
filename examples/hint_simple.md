@@ -13,21 +13,20 @@ Object.crea //+ create @8
 ```json
 [
   {
-    "id": "3cac6930-90c4-11e5-b1a0-a3727f19db76",
+    "id": "2e82c0f0-90cb-11e5-bf29-e5fd90e3c2bf",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "[number]|number",
     "lineno": 6,
-    "parent": "3cac4220-90c4-11e5-b1a0-a3727f19db76",
+    "parent": "2e8299e0-90cb-11e5-bf29-e5fd90e3c2bf",
     "origin": {
       "!span": "134[5:4]-135[5:5]",
       "!type": "[number]|number",
       "!data": {
         "isConstructor": false,
         "scoped": false,
-        "isArg": false,
-        "isPlainObject": false
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/hint_simple.js"

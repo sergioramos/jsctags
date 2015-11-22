@@ -17,7 +17,7 @@ C.prototype.prop_C = 3;
 ```json
 [
   {
-    "id": "3fd6f530-90c4-11e5-8450-0b358a312f94",
+    "id": "318fb2d0-90cb-11e5-8c95-f7708556287c",
     "name": "A",
     "addr": "/A/",
     "kind": "f",
@@ -28,32 +28,32 @@ C.prototype.prop_C = 3;
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
-    "id": "3fd71c41-90c4-11e5-8450-0b358a312f94",
+    "id": "318fd9e1-90cb-11e5-8c95-f7708556287c",
     "name": "prop_A",
     "addr": "/prop_A/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "A.prototype",
-    "parent": "3fd71c40-90c4-11e5-8450-0b358a312f94",
+    "parent": "318fd9e0-90cb-11e5-8c95-f7708556287c",
     "origin": {
       "!span": "28[1:12]-34[1:18]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
-    "id": "3fd74350-90c4-11e5-8450-0b358a312f94",
+    "id": "318fd9e2-90cb-11e5-8c95-f7708556287c",
     "name": "B",
     "addr": "/B/",
     "kind": "f",
@@ -64,49 +64,49 @@ C.prototype.prop_C = 3;
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
-    "id": "3fd74351-90c4-11e5-8450-0b358a312f94",
+    "id": "318fd9e3-90cb-11e5-8c95-f7708556287c",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 4,
     "namespace": "B",
-    "parent": "3fd74350-90c4-11e5-8450-0b358a312f94",
+    "parent": "318fd9e2-90cb-11e5-8c95-f7708556287c",
     "origin": {
       "!span": "58[3:2]-67[3:11]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "A.prototype"
       }
     },
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
-    "id": "3fd74352-90c4-11e5-8450-0b358a312f94",
+    "id": "318fd9e4-90cb-11e5-8c95-f7708556287c",
     "name": "prop_B",
     "addr": "/prop_B/",
     "kind": "v",
     "type": "number",
     "lineno": 5,
     "namespace": "B.prototype",
-    "parent": "3fd74351-90c4-11e5-8450-0b358a312f94",
+    "parent": "318fd9e3-90cb-11e5-8c95-f7708556287c",
     "origin": {
       "!span": "89[4:12]-95[4:18]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
-    "id": "3fd74353-90c4-11e5-8450-0b358a312f94",
+    "id": "318fd9e5-90cb-11e5-8c95-f7708556287c",
     "name": "C",
     "addr": "/C/",
     "kind": "f",
@@ -117,43 +117,43 @@ C.prototype.prop_C = 3;
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
-    "id": "3fd74354-90c4-11e5-8450-0b358a312f94",
+    "id": "318fd9e6-90cb-11e5-8c95-f7708556287c",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "C",
-    "parent": "3fd74353-90c4-11e5-8450-0b358a312f94",
+    "parent": "318fd9e5-90cb-11e5-8c95-f7708556287c",
     "origin": {
       "!span": "119[6:2]-128[6:11]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "A.prototype"
       }
     },
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
-    "id": "3fd74355-90c4-11e5-8450-0b358a312f94",
+    "id": "318fd9e7-90cb-11e5-8c95-f7708556287c",
     "name": "prop_C",
     "addr": "/prop_C/",
     "kind": "v",
     "type": "number",
     "lineno": 8,
     "namespace": "C.prototype",
-    "parent": "3fd74354-90c4-11e5-8450-0b358a312f94",
+    "parent": "318fd9e6-90cb-11e5-8c95-f7708556287c",
     "origin": {
       "!span": "150[7:12]-156[7:18]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/new_to_prototype.js"

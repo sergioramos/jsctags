@@ -10,7 +10,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/template.js"
@@ -26,7 +26,7 @@
       "!type": "fn(strs: [string], a: number, b: string) -> bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/template.js"
@@ -45,7 +45,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/template.js"
@@ -64,7 +64,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/template.js"
@@ -83,7 +83,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/template.js"

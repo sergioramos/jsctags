@@ -10,7 +10,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/autothis.js"
@@ -27,7 +27,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/autothis.js"
@@ -46,7 +46,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/autothis.js"
@@ -63,7 +63,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/autothis.js"

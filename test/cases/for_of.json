@@ -8,7 +8,7 @@
       "!span": "4[0:4]-10[0:10]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/for_of.js"
@@ -25,7 +25,7 @@
       "!type": "fn() -> myIter.:Symbol.iterator.!ret",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/for_of.js"
@@ -42,7 +42,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/for_of.js"
@@ -59,7 +59,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/for_of.js"
@@ -73,7 +73,7 @@
       "!span": "150[10:9]-155[10:14]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/for_of.js"
@@ -89,7 +89,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/for_of.js"
@@ -105,7 +105,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/for_of.js"

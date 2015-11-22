@@ -37,7 +37,7 @@ o //: bool
 ```json
 [
   {
-    "id": "35f2c300-90c4-11e5-9c4d-c3a143ce1f9c",
+    "id": "27e49200-90cb-11e5-b731-a3800ac42ba0",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
@@ -48,13 +48,13 @@ o //: bool
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "35f2ea11-90c4-11e5-9c4d-c3a143ce1f9c",
+    "id": "27e4b911-90cb-11e5-b731-a3800ac42ba0",
     "name": "d",
     "addr": "/d/",
     "kind": "v",
@@ -65,13 +65,13 @@ o //: bool
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "35f2ea10-90c4-11e5-9c4d-c3a143ce1f9c",
+    "id": "27e4b910-90cb-11e5-b731-a3800ac42ba0",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
@@ -82,13 +82,13 @@ o //: bool
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "35f2ea12-90c4-11e5-9c4d-c3a143ce1f9c",
+    "id": "27e4b912-90cb-11e5-b731-a3800ac42ba0",
     "name": "foo",
     "addr": "/foo/",
     "kind": "f",
@@ -99,20 +99,20 @@ o //: bool
       "!type": "fn([e]: [bool], {f}: ?, {g}: foo.!2, ...h: number)",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "35f31120-90c4-11e5-9c4d-c3a143ce1f9c",
+    "id": "27e4e020-90cb-11e5-b731-a3800ac42ba0",
     "name": "e",
     "addr": "/e/",
     "kind": "v",
     "type": "boolean",
     "lineno": 8,
     "namespace": "foo",
-    "parent": "35f2ea12-90c4-11e5-9c4d-c3a143ce1f9c",
+    "parent": "27e4b912-90cb-11e5-b731-a3800ac42ba0",
     "origin": {
       "!span": "105[7:14]-106[7:15]",
       "!type": "bool",
@@ -120,20 +120,20 @@ o //: bool
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "35f31121-90c4-11e5-9c4d-c3a143ce1f9c",
+    "id": "27e4e021-90cb-11e5-b731-a3800ac42ba0",
     "name": "f",
     "addr": "/f/",
     "kind": "v",
     "type": "number",
     "lineno": 8,
     "namespace": "foo",
-    "parent": "35f2ea12-90c4-11e5-9c4d-c3a143ce1f9c",
+    "parent": "27e4b912-90cb-11e5-b731-a3800ac42ba0",
     "origin": {
       "!span": "110[7:19]-111[7:20]",
       "!type": "number",
@@ -141,20 +141,20 @@ o //: bool
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "35f31122-90c4-11e5-9c4d-c3a143ce1f9c",
+    "id": "27e4e022-90cb-11e5-b731-a3800ac42ba0",
     "name": "g",
     "addr": "/g/",
     "kind": "v",
     "type": "string",
     "lineno": 8,
     "namespace": "foo",
-    "parent": "35f2ea12-90c4-11e5-9c4d-c3a143ce1f9c",
+    "parent": "27e4b912-90cb-11e5-b731-a3800ac42ba0",
     "origin": {
       "!span": "117[7:26]-118[7:27]",
       "!type": "string",
@@ -162,20 +162,20 @@ o //: bool
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "35f31123-90c4-11e5-9c4d-c3a143ce1f9c",
+    "id": "27e4e023-90cb-11e5-b731-a3800ac42ba0",
     "name": "h",
     "addr": "/h/",
     "kind": "v",
     "type": "[number]",
     "lineno": 8,
     "namespace": "foo",
-    "parent": "35f2ea12-90c4-11e5-9c4d-c3a143ce1f9c",
+    "parent": "27e4b912-90cb-11e5-b731-a3800ac42ba0",
     "origin": {
       "!span": "124[7:33]-125[7:34]",
       "!type": "[number]",
@@ -183,13 +183,13 @@ o //: bool
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "35f31124-90c4-11e5-9c4d-c3a143ce1f9c",
+    "id": "27e4e024-90cb-11e5-b731-a3800ac42ba0",
     "name": "i",
     "addr": "/i/",
     "kind": "v",
@@ -200,13 +200,13 @@ o //: bool
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "35f31125-90c4-11e5-9c4d-c3a143ce1f9c",
+    "id": "27e4e025-90cb-11e5-b731-a3800ac42ba0",
     "name": "j",
     "addr": "/j/",
     "kind": "v",
@@ -217,13 +217,13 @@ o //: bool
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "35f3112b-90c4-11e5-9c4d-c3a143ce1f9c",
+    "id": "27e4e02b-90cb-11e5-b731-a3800ac42ba0",
     "name": "l",
     "addr": "/l/",
     "kind": "v",
@@ -234,13 +234,13 @@ o //: bool
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "35f3112c-90c4-11e5-9c4d-c3a143ce1f9c",
+    "id": "27e4e02c-90cb-11e5-b731-a3800ac42ba0",
     "name": "m",
     "addr": "/m/",
     "kind": "v",
@@ -251,13 +251,13 @@ o //: bool
       "!type": "[string]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "35f31126-90c4-11e5-9c4d-c3a143ce1f9c",
+    "id": "27e4e026-90cb-11e5-b731-a3800ac42ba0",
     "name": "out",
     "addr": "/out/",
     "kind": "v",
@@ -266,51 +266,51 @@ o //: bool
       "!span": "403[27:4]-406[27:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "35f31127-90c4-11e5-9c4d-c3a143ce1f9c",
+    "id": "27e4e027-90cb-11e5-b731-a3800ac42ba0",
     "name": "prop",
     "addr": "/prop/",
     "kind": "v",
     "type": "number",
     "lineno": 29,
     "namespace": "out",
-    "parent": "35f31126-90c4-11e5-9c4d-c3a143ce1f9c",
+    "parent": "27e4e026-90cb-11e5-b731-a3800ac42ba0",
     "origin": {
       "!span": "418[28:6]-422[28:10]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "35f31128-90c4-11e5-9c4d-c3a143ce1f9c",
+    "id": "27e4e028-90cb-11e5-b731-a3800ac42ba0",
     "name": "prop2",
     "addr": "/prop2/",
     "kind": "v",
     "type": "boolean",
     "lineno": 29,
     "namespace": "out",
-    "parent": "35f31126-90c4-11e5-9c4d-c3a143ce1f9c",
+    "parent": "27e4e026-90cb-11e5-b731-a3800ac42ba0",
     "origin": {
       "!span": "428[28:16]-433[28:21]",
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "35f31129-90c4-11e5-9c4d-c3a143ce1f9c",
+    "id": "27e4e029-90cb-11e5-b731-a3800ac42ba0",
     "name": "n",
     "addr": "/n/",
     "kind": "v",
@@ -321,13 +321,13 @@ o //: bool
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "35f3112a-90c4-11e5-9c4d-c3a143ce1f9c",
+    "id": "27e4e02a-90cb-11e5-b731-a3800ac42ba0",
     "name": "o",
     "addr": "/o/",
     "kind": "v",
@@ -338,7 +338,7 @@ o //: bool
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"

@@ -10,7 +10,7 @@
       "!type": "+Promise",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Promise.prototype"
       }
     },
     "tagfile": "__DIR__/promise.js"
@@ -26,7 +26,7 @@
       "!type": "+Promise",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Promise.prototype"
       }
     },
     "tagfile": "__DIR__/promise.js"
@@ -45,7 +45,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/promise.js"
@@ -61,7 +61,7 @@
       "!type": "+Promise",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Promise.prototype"
       }
     },
     "tagfile": "__DIR__/promise.js"
@@ -75,7 +75,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/promise.js"
@@ -92,7 +92,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/promise.js"

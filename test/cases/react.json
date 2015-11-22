@@ -10,7 +10,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -26,7 +26,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -42,7 +42,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -58,7 +58,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -74,7 +74,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -90,7 +90,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -106,7 +106,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -122,7 +122,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -138,7 +138,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -154,7 +154,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -170,7 +170,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -186,7 +186,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -202,7 +202,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -218,7 +218,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -234,7 +234,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -250,7 +250,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -266,7 +266,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -282,7 +282,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -298,7 +298,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -314,7 +314,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -330,7 +330,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -344,7 +344,7 @@
       "!span": "704[19:11]-706[19:13]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -360,7 +360,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -376,7 +376,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -392,7 +392,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -408,7 +408,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -424,7 +424,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -440,7 +440,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -456,7 +456,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -472,7 +472,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -488,7 +488,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -504,7 +504,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"
@@ -520,7 +520,7 @@
       "!type": "[bool]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/react.jsx"

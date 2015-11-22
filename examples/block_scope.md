@@ -18,7 +18,7 @@ x("hello")
 ```json
 [
   {
-    "id": "31a84810-90c4-11e5-b84f-95ee6a55006f",
+    "id": "23bd7d90-90cb-11e5-b5f2-4147f902c912",
     "name": "x",
     "addr": "/x/",
     "kind": "f",
@@ -29,20 +29,20 @@ x("hello")
       "!type": "fn(a: string)",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/block_scope.js"
   },
   {
-    "id": "31a86f20-90c4-11e5-b84f-95ee6a55006f",
+    "id": "23bda4a0-90cb-11e5-b5f2-4147f902c912",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "string",
     "lineno": 1,
     "namespace": "x",
-    "parent": "31a84810-90c4-11e5-b84f-95ee6a55006f",
+    "parent": "23bd7d90-90cb-11e5-b5f2-4147f902c912",
     "origin": {
       "!span": "11[0:11]-12[0:12]",
       "!type": "string",
@@ -50,20 +50,20 @@ x("hello")
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/block_scope.js"
   },
   {
-    "id": "31a89630-90c4-11e5-b84f-95ee6a55006f",
+    "id": "23bdcbb0-90cb-11e5-b5f2-4147f902c912",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
     "type": "boolean",
     "lineno": 5,
     "namespace": "x",
-    "parent": "31a84810-90c4-11e5-b84f-95ee6a55006f",
+    "parent": "23bd7d90-90cb-11e5-b5f2-4147f902c912",
     "origin": {
       "!span": "57[4:8]-58[4:9]",
       "!type": "bool",
@@ -71,7 +71,7 @@ x("hello")
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/block_scope.js"

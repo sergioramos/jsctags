@@ -10,7 +10,7 @@
       "!type": "fn(a: ?, b: ?)",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/findref.js"
@@ -27,7 +27,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/findref.js"
@@ -44,7 +44,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/findref.js"
@@ -61,7 +61,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/findref.js"
@@ -75,7 +75,7 @@
       "!span": "148[9:4]-151[9:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/findref.js"
@@ -92,7 +92,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/findref.js"
@@ -109,7 +109,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/findref.js"
@@ -126,7 +126,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/findref.js"

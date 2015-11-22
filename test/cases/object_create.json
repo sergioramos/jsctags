@@ -8,7 +8,7 @@
       "!span": "4[0:4]-8[0:8]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/object_create.js"
@@ -25,7 +25,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/object_create.js"
@@ -42,7 +42,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/object_create.js"
@@ -56,7 +56,7 @@
       "!span": "35[1:4]-39[1:8]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "base"
       }
     },
     "tagfile": "__DIR__/object_create.js"
@@ -69,8 +69,7 @@
     "origin": {
       "!span": "67[2:4]-71[2:8]",
       "!data": {
-        "isConstructor": false,
-        "isPlainObject": false
+        "isConstructor": false
       }
     },
     "tagfile": "__DIR__/object_create.js"
@@ -84,7 +83,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/object_create.js"
@@ -101,7 +100,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/object_create.js"
@@ -118,7 +117,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/object_create.js"
@@ -135,7 +134,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/object_create.js"
@@ -149,7 +148,7 @@
       "!span": "300[22:4]-306[22:10]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "base"
       }
     },
     "tagfile": "__DIR__/object_create.js"
@@ -162,8 +161,7 @@
     "origin": {
       "!span": "420[28:4]-425[28:9]",
       "!data": {
-        "isConstructor": false,
-        "isPlainObject": false
+        "isConstructor": false
       }
     },
     "tagfile": "__DIR__/object_create.js"
@@ -180,7 +178,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/object_create.js"

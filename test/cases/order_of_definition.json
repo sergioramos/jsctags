@@ -8,7 +8,7 @@
       "!span": "73[6:4]-76[6:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/order_of_definition.js"
@@ -22,7 +22,7 @@
       "!span": "88[8:4]-91[8:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/order_of_definition.js"
@@ -39,7 +39,7 @@
       "!type": "fn(o: baz.bug.!0)",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/order_of_definition.js"
@@ -58,7 +58,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/order_of_definition.js"
@@ -73,7 +73,7 @@
       "!span": "192[14:4]-195[14:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/order_of_definition.js"

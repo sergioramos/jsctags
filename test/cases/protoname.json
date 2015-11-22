@@ -10,7 +10,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/protoname.js"
@@ -27,7 +27,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/protoname.js"
@@ -43,7 +43,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/protoname.js"
@@ -60,7 +60,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Base.prototype"
       }
     },
     "tagfile": "__DIR__/protoname.js"
@@ -76,7 +76,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/protoname.js"
@@ -93,7 +93,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Base.prototype"
       }
     },
     "tagfile": "__DIR__/protoname.js"
@@ -109,7 +109,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/protoname.js"
@@ -125,7 +125,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/protoname.js"
@@ -142,7 +142,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Base2.prototype"
       }
     },
     "tagfile": "__DIR__/protoname.js"

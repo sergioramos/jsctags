@@ -10,7 +10,7 @@
       "!type": "fn(x: number, y: number, z: number)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
@@ -25,7 +25,7 @@
       "!span": "0[0:0]-150[4:1]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Point2.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
@@ -42,7 +42,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
@@ -59,7 +59,7 @@
       "!type": "fn() -> !this.x",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
@@ -76,7 +76,7 @@
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
@@ -91,7 +91,7 @@
       "!span": "152[6:0]-244[9:1]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
@@ -107,7 +107,7 @@
       "!type": "fn(x: number, y: number)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
@@ -124,7 +124,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
@@ -141,7 +141,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
@@ -158,7 +158,7 @@
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
@@ -174,7 +174,7 @@
       "!type": "+Point3",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Point3.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
@@ -188,7 +188,7 @@
       "!span": "362[17:4]-365[17:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
@@ -205,7 +205,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
@@ -219,7 +219,7 @@
       "!span": "381[19:4]-384[19:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "pro"
       }
     },
     "tagfile": "__DIR__/super.js"
@@ -236,7 +236,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
@@ -253,7 +253,7 @@
       "!type": "fn() -> number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"

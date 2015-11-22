@@ -10,7 +10,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/objectlit.js"
@@ -24,7 +24,7 @@
       "!span": "13[2:4]-16[2:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "baz"
       }
     },
     "tagfile": "__DIR__/objectlit.js"
@@ -41,7 +41,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/objectlit.js"
@@ -58,7 +58,7 @@
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/objectlit.js"
@@ -71,8 +71,7 @@
     "origin": {
       "!span": "103[9:4]-106[9:7]",
       "!data": {
-        "isConstructor": false,
-        "isPlainObject": false
+        "isConstructor": false
       }
     },
     "tagfile": "__DIR__/objectlit.js"
@@ -89,7 +88,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/objectlit.js"

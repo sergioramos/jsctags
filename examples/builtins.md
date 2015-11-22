@@ -38,7 +38,7 @@ String.prototype.indexOf.bind("abcde", "a"); //: fn(from?: number) -> number
 ```json
 [
   {
-    "id": "32da3860-90c4-11e5-8e08-ed0239d93a5b",
+    "id": "24d88a80-90cb-11e5-b4e1-8f0a8cab6181",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
@@ -49,13 +49,13 @@ String.prototype.indexOf.bind("abcde", "a"); //: fn(from?: number) -> number
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/builtins.js"
   },
   {
-    "id": "32da5f70-90c4-11e5-8e08-ed0239d93a5b",
+    "id": "24d8b190-90cb-11e5-b4e1-8f0a8cab6181",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
@@ -66,13 +66,13 @@ String.prototype.indexOf.bind("abcde", "a"); //: fn(from?: number) -> number
       "!type": "[number]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/builtins.js"
   },
   {
-    "id": "32da5f71-90c4-11e5-8e08-ed0239d93a5b",
+    "id": "24d8b191-90cb-11e5-b4e1-8f0a8cab6181",
     "name": "num",
     "addr": "/num/",
     "kind": "v",
@@ -83,7 +83,7 @@ String.prototype.indexOf.bind("abcde", "a"); //: fn(from?: number) -> number
       "!type": "+Number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/builtins.js"

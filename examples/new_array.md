@@ -15,7 +15,7 @@ d[0]; //: string
 ```json
 [
   {
-    "id": "3f77be30-90c4-11e5-968b-677b9f5c29d9",
+    "id": "31320270-90cb-11e5-ac85-7f744cf96ab4",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
@@ -26,13 +26,13 @@ d[0]; //: string
       "!type": "[string]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/new_array.js"
   },
   {
-    "id": "3f77e540-90c4-11e5-968b-677b9f5c29d9",
+    "id": "31322980-90cb-11e5-ac85-7f744cf96ab4",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
@@ -43,13 +43,13 @@ d[0]; //: string
       "!type": "[bool]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/new_array.js"
   },
   {
-    "id": "3f77e541-90c4-11e5-968b-677b9f5c29d9",
+    "id": "31322981-90cb-11e5-ac85-7f744cf96ab4",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
@@ -60,13 +60,13 @@ d[0]; //: string
       "!type": "[?]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/new_array.js"
   },
   {
-    "id": "3f77e542-90c4-11e5-968b-677b9f5c29d9",
+    "id": "31322982-90cb-11e5-ac85-7f744cf96ab4",
     "name": "d",
     "addr": "/d/",
     "kind": "v",
@@ -77,7 +77,7 @@ d[0]; //: string
       "!type": "[string]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/new_array.js"

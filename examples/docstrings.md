@@ -112,13 +112,13 @@ c.something //doc: The something
 ```json
 [
   {
-    "id": "3659c23d-90c4-11e5-8181-8fc42a8e4b89",
+    "id": "284d3ee3-90cb-11e5-894c-e146c9914924",
     "name": "myalias",
     "addr": "/myalias/",
     "kind": "f",
     "type": "void function(number)",
     "lineno": 4,
-    "parent": "3659c23b-90c4-11e5-8181-8fc42a8e4b89",
+    "parent": "284d3ee1-90cb-11e5-894c-e146c9914924",
     "origin": {
       "!span": "185[3:4]-192[3:11]",
       "!type": "fn(ms: number)",
@@ -126,13 +126,13 @@ c.something //doc: The something
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "36597410-90c4-11e5-8181-8fc42a8e4b89",
+    "id": "284cc9b0-90cb-11e5-894c-e146c9914924",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
@@ -143,13 +143,13 @@ c.something //doc: The something
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "3659e940-90c4-11e5-8181-8fc42a8e4b89",
+    "id": "284d3ee4-90cb-11e5-894c-e146c9914924",
     "name": "monkeyAlias",
     "addr": "/makeMonkey/",
     "kind": "f",
@@ -160,13 +160,13 @@ c.something //doc: The something
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "36599b20-90c4-11e5-8181-8fc42a8e4b89",
+    "id": "284cf0c0-90cb-11e5-894c-e146c9914924",
     "name": "makeMonkey",
     "addr": "/makeMonkey/",
     "kind": "f",
@@ -177,19 +177,19 @@ c.something //doc: The something
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "3659c23c-90c4-11e5-8181-8fc42a8e4b89",
+    "id": "284d3ee2-90cb-11e5-894c-e146c9914924",
     "name": "monkeyAlias",
     "addr": "/monkeyAlias/",
     "kind": "f",
     "type": "string function()",
     "lineno": 18,
-    "parent": "3659c23b-90c4-11e5-8181-8fc42a8e4b89",
+    "parent": "284d3ee1-90cb-11e5-894c-e146c9914924",
     "origin": {
       "!span": "504[17:4]-515[17:15]",
       "!type": "fn() -> string",
@@ -197,13 +197,13 @@ c.something //doc: The something
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "36599b21-90c4-11e5-8181-8fc42a8e4b89",
+    "id": "284cf0c1-90cb-11e5-894c-e146c9914924",
     "name": "abc",
     "addr": "/abc/",
     "kind": "v",
@@ -214,13 +214,13 @@ c.something //doc: The something
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "36599b22-90c4-11e5-8181-8fc42a8e4b89",
+    "id": "284cf0c2-90cb-11e5-894c-e146c9914924",
     "name": "Quux",
     "addr": "/Quux/",
     "kind": "f",
@@ -231,13 +231,13 @@ c.something //doc: The something
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "36599b23-90c4-11e5-8181-8fc42a8e4b89",
+    "id": "284cf0c3-90cb-11e5-894c-e146c9914924",
     "name": "baz",
     "addr": "/baz/",
     "kind": "v",
@@ -248,13 +248,13 @@ c.something //doc: The something
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "36599b24-90c4-11e5-8181-8fc42a8e4b89",
+    "id": "284cf0c4-90cb-11e5-894c-e146c9914924",
     "name": "oy",
     "addr": "/oy/",
     "kind": "v",
@@ -265,13 +265,13 @@ c.something //doc: The something
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "36599b25-90c4-11e5-8181-8fc42a8e4b89",
+    "id": "284cf0c5-90cb-11e5-894c-e146c9914924",
     "name": "arr",
     "addr": "/arr/",
     "kind": "v",
@@ -282,13 +282,13 @@ c.something //doc: The something
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "36599b26-90c4-11e5-8181-8fc42a8e4b89",
+    "id": "284d17d0-90cb-11e5-894c-e146c9914924",
     "name": "aha",
     "addr": "/aha/",
     "kind": "v",
@@ -299,13 +299,13 @@ c.something //doc: The something
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "3659c230-90c4-11e5-8181-8fc42a8e4b89",
+    "id": "284d17d1-90cb-11e5-894c-e146c9914924",
     "name": "xyzzy",
     "addr": "/xyzzy/",
     "kind": "v",
@@ -316,13 +316,13 @@ c.something //doc: The something
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "3659c231-90c4-11e5-8181-8fc42a8e4b89",
+    "id": "284d17d2-90cb-11e5-894c-e146c9914924",
     "name": "o",
     "addr": "/o/",
     "kind": "v",
@@ -331,106 +331,106 @@ c.something //doc: The something
       "!span": "1586[73:4]-1587[73:5]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "3659c232-90c4-11e5-8181-8fc42a8e4b89",
+    "id": "284d17d3-90cb-11e5-894c-e146c9914924",
     "name": "getName",
     "addr": "/getName/",
     "kind": "f",
     "type": "!this.name function()",
     "lineno": 76,
     "namespace": "o",
-    "parent": "3659c231-90c4-11e5-8181-8fc42a8e4b89",
+    "parent": "284d17d2-90cb-11e5-894c-e146c9914924",
     "origin": {
       "!span": "1613[75:2]-1620[75:9]",
       "!type": "fn() -> !this.name",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "3659c233-90c4-11e5-8181-8fc42a8e4b89",
+    "id": "284d17d4-90cb-11e5-894c-e146c9914924",
     "name": "name",
     "addr": "/name/",
     "kind": "v",
     "type": "string",
     "lineno": 78,
     "namespace": "o",
-    "parent": "3659c231-90c4-11e5-8181-8fc42a8e4b89",
+    "parent": "284d17d2-90cb-11e5-894c-e146c9914924",
     "origin": {
       "!span": "1672[77:2]-1676[77:6]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "3659c234-90c4-11e5-8181-8fc42a8e4b89",
+    "id": "284d17d5-90cb-11e5-894c-e146c9914924",
     "name": "bar",
     "addr": "/'bar'/",
     "kind": "v",
     "type": "number",
     "lineno": 82,
     "namespace": "o",
-    "parent": "3659c231-90c4-11e5-8181-8fc42a8e4b89",
+    "parent": "284d17d2-90cb-11e5-894c-e146c9914924",
     "origin": {
       "!span": "1755[81:2]-1760[81:7]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "3659c235-90c4-11e5-8181-8fc42a8e4b89",
+    "id": "284d17d6-90cb-11e5-894c-e146c9914924",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
     "type": "string",
     "lineno": 86,
     "namespace": "o",
-    "parent": "3659c231-90c4-11e5-8181-8fc42a8e4b89",
+    "parent": "284d17d2-90cb-11e5-894c-e146c9914924",
     "origin": {
       "!span": "1791[85:2]-1794[85:5]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "3659c237-90c4-11e5-8181-8fc42a8e4b89",
+    "id": "284d17d8-90cb-11e5-894c-e146c9914924",
     "name": "prototype",
     "addr": "/class C \{/",
     "kind": "v",
     "lineno": 93,
     "namespace": "C",
-    "parent": "3659c236-90c4-11e5-8181-8fc42a8e4b89",
+    "parent": "284d17d7-90cb-11e5-894c-e146c9914924",
     "origin": {
       "!span": "1925[92:0]-2029[97:1]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "3659c236-90c4-11e5-8181-8fc42a8e4b89",
+    "id": "284d17d7-90cb-11e5-894c-e146c9914924",
     "name": "C",
     "addr": "/C/",
     "kind": "f",
@@ -441,51 +441,51 @@ c.something //doc: The something
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "3659c238-90c4-11e5-8181-8fc42a8e4b89",
+    "id": "284d17d9-90cb-11e5-894c-e146c9914924",
     "name": "method",
     "addr": "/method/",
     "kind": "f",
     "type": "number function()",
     "lineno": 95,
     "namespace": "C.prototype",
-    "parent": "3659c237-90c4-11e5-8181-8fc42a8e4b89",
+    "parent": "284d17d8-90cb-11e5-894c-e146c9914924",
     "origin": {
       "!span": "1953[94:2]-1959[94:8]",
       "!type": "fn() -> number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "3659c239-90c4-11e5-8181-8fc42a8e4b89",
+    "id": "284d17da-90cb-11e5-894c-e146c9914924",
     "name": "something",
     "addr": "/something/",
     "kind": "v",
     "type": "number",
     "lineno": 97,
     "namespace": "C.prototype",
-    "parent": "3659c237-90c4-11e5-8181-8fc42a8e4b89",
+    "parent": "284d17d8-90cb-11e5-894c-e146c9914924",
     "origin": {
       "!span": "2002[96:6]-2011[96:15]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
   },
   {
-    "id": "3659c23a-90c4-11e5-8181-8fc42a8e4b89",
+    "id": "284d3ee0-90cb-11e5-894c-e146c9914924",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
@@ -496,7 +496,7 @@ c.something //doc: The something
       "!type": "+C",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "C.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"

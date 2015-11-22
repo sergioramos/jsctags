@@ -10,7 +10,7 @@
       "!type": "fn(o: buildCopy.!0) -> ?",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/copyprops.js"
@@ -27,7 +27,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/copyprops.js"
@@ -44,7 +44,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/copyprops.js"

@@ -36,7 +36,7 @@ empty.prop1; //: string
 ```json
 [
   {
-    "id": "403fa210-90c4-11e5-bacc-4de77e242d8a",
+    "id": "31f15ad0-90cb-11e5-9b83-e74c199b14f4",
     "name": "base",
     "addr": "/base/",
     "kind": "v",
@@ -45,51 +45,51 @@ empty.prop1; //: string
       "!span": "4[0:4]-8[0:8]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "403fc921-90c4-11e5-bacc-4de77e242d8a",
+    "id": "31f181e1-90cb-11e5-9b83-e74c199b14f4",
     "name": "bar",
     "addr": "/bar/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "base",
-    "parent": "403fa210-90c4-11e5-bacc-4de77e242d8a",
+    "parent": "31f15ad0-90cb-11e5-9b83-e74c199b14f4",
     "origin": {
       "!span": "21[0:21]-24[0:24]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "403fc920-90c4-11e5-bacc-4de77e242d8a",
+    "id": "31f181e0-90cb-11e5-9b83-e74c199b14f4",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "base",
-    "parent": "403fa210-90c4-11e5-bacc-4de77e242d8a",
+    "parent": "31f15ad0-90cb-11e5-9b83-e74c199b14f4",
     "origin": {
       "!span": "12[0:12]-15[0:15]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "403fc923-90c4-11e5-bacc-4de77e242d8a",
+    "id": "31f181e3-90cb-11e5-9b83-e74c199b14f4",
     "name": "gen1",
     "addr": "/gen1/",
     "kind": "v",
@@ -98,13 +98,13 @@ empty.prop1; //: string
       "!span": "35[1:4]-39[1:8]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "base"
       }
     },
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "403fc925-90c4-11e5-bacc-4de77e242d8a",
+    "id": "31f181e5-90cb-11e5-9b83-e74c199b14f4",
     "name": "gen2",
     "addr": "/gen2/",
     "kind": "v",
@@ -112,87 +112,86 @@ empty.prop1; //: string
     "origin": {
       "!span": "67[2:4]-71[2:8]",
       "!data": {
-        "isConstructor": false,
-        "isPlainObject": false
+        "isConstructor": false
       }
     },
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "403fc928-90c4-11e5-bacc-4de77e242d8a",
+    "id": "31f181e8-90cb-11e5-9b83-e74c199b14f4",
     "name": "prop1",
     "kind": "v",
     "type": "string",
     "namespace": "extend",
-    "parent": "403fc927-90c4-11e5-bacc-4de77e242d8a",
+    "parent": "31f181e7-90cb-11e5-9b83-e74c199b14f4",
     "origin": {
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "403fc922-90c4-11e5-bacc-4de77e242d8a",
+    "id": "31f181e2-90cb-11e5-9b83-e74c199b14f4",
     "name": "baz",
     "addr": "/baz/",
     "kind": "v",
     "type": "number",
     "lineno": 5,
     "namespace": "base",
-    "parent": "403fa210-90c4-11e5-bacc-4de77e242d8a",
+    "parent": "31f15ad0-90cb-11e5-9b83-e74c199b14f4",
     "origin": {
       "!span": "101[4:5]-104[4:8]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "403fc924-90c4-11e5-bacc-4de77e242d8a",
+    "id": "31f181e4-90cb-11e5-9b83-e74c199b14f4",
     "name": "quux",
     "addr": "/quux/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
     "namespace": "gen1",
-    "parent": "403fc923-90c4-11e5-bacc-4de77e242d8a",
+    "parent": "31f181e3-90cb-11e5-9b83-e74c199b14f4",
     "origin": {
       "!span": "116[5:5]-120[5:9]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "403fc926-90c4-11e5-bacc-4de77e242d8a",
+    "id": "31f181e6-90cb-11e5-9b83-e74c199b14f4",
     "name": "kaka",
     "addr": "/kaka/",
     "kind": "v",
     "type": "number",
     "lineno": 7,
     "namespace": "gen2",
-    "parent": "403fc925-90c4-11e5-bacc-4de77e242d8a",
+    "parent": "31f181e5-90cb-11e5-9b83-e74c199b14f4",
     "origin": {
       "!span": "132[6:5]-136[6:9]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "403fc927-90c4-11e5-bacc-4de77e242d8a",
+    "id": "31f181e7-90cb-11e5-9b83-e74c199b14f4",
     "name": "extend",
     "addr": "/extend/",
     "kind": "v",
@@ -201,13 +200,13 @@ empty.prop1; //: string
       "!span": "300[22:4]-306[22:10]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "base"
       }
     },
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "403fc929-90c4-11e5-bacc-4de77e242d8a",
+    "id": "31f181e9-90cb-11e5-9b83-e74c199b14f4",
     "name": "empty",
     "addr": "/empty/",
     "kind": "v",
@@ -215,27 +214,26 @@ empty.prop1; //: string
     "origin": {
       "!span": "420[28:4]-425[28:9]",
       "!data": {
-        "isConstructor": false,
-        "isPlainObject": false
+        "isConstructor": false
       }
     },
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "403fc92a-90c4-11e5-bacc-4de77e242d8a",
+    "id": "31f181ea-90cb-11e5-9b83-e74c199b14f4",
     "name": "prop1",
     "addr": "/prop1/",
     "kind": "v",
     "type": "string",
     "lineno": 30,
     "namespace": "empty",
-    "parent": "403fc929-90c4-11e5-bacc-4de77e242d8a",
+    "parent": "31f181e9-90cb-11e5-9b83-e74c199b14f4",
     "origin": {
       "!span": "455[29:6]-460[29:11]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/object_create.js"

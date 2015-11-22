@@ -20,7 +20,7 @@ var Mine = makeClass({
 ```json
 [
   {
-    "id": "3d0cd8b0-90c4-11e5-813f-972afff8c38a",
+    "id": "2ee3a5a0-90cb-11e5-9e1d-0f5f05d25a95",
     "name": "sup",
     "addr": "/sup/",
     "kind": "v",
@@ -29,32 +29,32 @@ var Mine = makeClass({
       "!span": "4[0:4]-7[0:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/indirect_class.js"
   },
   {
-    "id": "3d0cffc0-90c4-11e5-813f-972afff8c38a",
+    "id": "2ee3ccb0-90cb-11e5-9e1d-0f5f05d25a95",
     "name": "foo",
     "addr": "/foo/",
     "kind": "f",
     "type": "number function()",
     "lineno": 2,
     "namespace": "sup",
-    "parent": "3d0cd8b0-90c4-11e5-813f-972afff8c38a",
+    "parent": "2ee3a5a0-90cb-11e5-9e1d-0f5f05d25a95",
     "origin": {
       "!span": "14[1:2]-17[1:5]",
       "!type": "fn() -> number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/indirect_class.js"
   },
   {
-    "id": "3d0cffc1-90c4-11e5-813f-972afff8c38a",
+    "id": "2ee3f3c0-90cb-11e5-9e1d-0f5f05d25a95",
     "name": "makeClass",
     "addr": "/makeClass/",
     "kind": "f",
@@ -65,20 +65,20 @@ var Mine = makeClass({
       "!type": "fn(methods: makeClass.!0)",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/indirect_class.js"
   },
   {
-    "id": "3d0cffc2-90c4-11e5-813f-972afff8c38a",
+    "id": "2ee3f3c1-90cb-11e5-9e1d-0f5f05d25a95",
     "name": "Ctor",
     "addr": "/Ctor/",
     "kind": "f",
     "type": "void function()",
     "lineno": 6,
     "namespace": "makeClass",
-    "parent": "3d0cffc1-90c4-11e5-813f-972afff8c38a",
+    "parent": "2ee3f3c0-90cb-11e5-9e1d-0f5f05d25a95",
     "origin": {
       "!span": "89[5:11]-93[5:15]",
       "!type": "fn()",
@@ -86,63 +86,63 @@ var Mine = makeClass({
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/indirect_class.js"
   },
   {
-    "id": "3d0cffc3-90c4-11e5-813f-972afff8c38a",
+    "id": "2ee3f3c2-90cb-11e5-9e1d-0f5f05d25a95",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "makeClass.Ctor",
-    "parent": "3d0cffc2-90c4-11e5-813f-972afff8c38a",
+    "parent": "2ee3f3c1-90cb-11e5-9e1d-0f5f05d25a95",
     "origin": {
       "!span": "106[6:7]-115[6:16]",
       "!data": {
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "sup"
       }
     },
     "tagfile": "__DIR__/indirect_class.js"
   },
   {
-    "id": "3d0cffc4-90c4-11e5-813f-972afff8c38a",
+    "id": "2ee3f3c3-90cb-11e5-9e1d-0f5f05d25a95",
     "name": "m",
     "addr": "/m/",
     "kind": "v",
     "lineno": 8,
     "namespace": "makeClass",
-    "parent": "3d0cffc1-90c4-11e5-813f-972afff8c38a",
+    "parent": "2ee3f3c0-90cb-11e5-9e1d-0f5f05d25a95",
     "origin": {
       "!span": "149[7:11]-150[7:12]",
       "!data": {
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/indirect_class.js"
   },
   {
-    "id": "3d0d26d0-90c4-11e5-813f-972afff8c38a",
+    "id": "2ee3f3c5-90cb-11e5-9e1d-0f5f05d25a95",
     "name": "Mine",
     "addr": "/Mine/",
     "kind": "v",
     "lineno": 11,
-    "parent": "3d0cffc5-90c4-11e5-813f-972afff8c38a",
+    "parent": "2ee3f3c4-90cb-11e5-9e1d-0f5f05d25a95",
     "origin": {
       "!span": "202[10:4]-206[10:8]",
       "!data": {
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/indirect_class.js"

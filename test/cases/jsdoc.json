@@ -10,7 +10,7 @@
       "!type": "+Date",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Date.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -24,7 +24,7 @@
       "!span": "133[7:4]-134[7:5]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -43,7 +43,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -62,7 +62,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -78,7 +78,7 @@
       "!type": "fn(a: number, b: string) -> [number]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -94,7 +94,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -110,7 +110,7 @@
       "!type": "fn(a: number, b: number) -> string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -129,7 +129,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -148,7 +148,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -162,7 +162,7 @@
       "!span": "617[33:4]-618[33:5]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -179,7 +179,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -196,7 +196,7 @@
       "!type": "fn() -> number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -213,7 +213,7 @@
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -229,7 +229,7 @@
       "!type": "[string]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -243,7 +243,7 @@
       "!span": "1028[53:4]-1038[53:14]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -259,7 +259,7 @@
       "!type": "fn(a?: number)",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -278,7 +278,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -294,7 +294,7 @@
       "!type": "[bool]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -308,7 +308,7 @@
       "!span": "1479[77:4]-1484[77:9]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -324,7 +324,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -341,7 +341,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -357,7 +357,7 @@
       "!type": "+NonAscïį",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "NonAscïį.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -371,7 +371,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -385,7 +385,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -400,8 +400,7 @@
       "!data": {
         "isConstructor": false,
         "scoped": false,
-        "isArg": false,
-        "isPlainObject": false
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -415,7 +414,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -429,7 +428,7 @@
       "!type": "[string]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -445,7 +444,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -461,7 +460,7 @@
       "!type": "fn(a: ?) -> ?",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -477,8 +476,7 @@
       "!data": {
         "isConstructor": false,
         "scoped": true,
-        "isArg": true,
-        "isPlainObject": false
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -494,7 +492,7 @@
       "!type": "fn(a: string) -> [?|number]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -513,7 +511,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -529,7 +527,7 @@
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -543,7 +541,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"

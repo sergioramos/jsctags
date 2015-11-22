@@ -12,7 +12,7 @@ obj[Symbol.iterator] //: string
 ```json
 [
   {
-    "id": "459f3680-90c4-11e5-a69e-1b3538d44cfd",
+    "id": "373e51a0-90cb-11e5-b284-7d1b122bfc07",
     "name": "mySym",
     "addr": "/mySym/",
     "kind": "v",
@@ -21,13 +21,13 @@ obj[Symbol.iterator] //: string
       "!span": "4[0:4]-9[0:9]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Symbol.prototype"
       }
     },
     "tagfile": "__DIR__/symbol.js"
   },
   {
-    "id": "459f5d90-90c4-11e5-a69e-1b3538d44cfd",
+    "id": "373e78b0-90cb-11e5-b284-7d1b122bfc07",
     "name": "obj",
     "addr": "/obj/",
     "kind": "v",
@@ -36,45 +36,45 @@ obj[Symbol.iterator] //: string
       "!span": "34[2:4]-37[2:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/symbol.js"
   },
   {
-    "id": "459f5d91-90c4-11e5-a69e-1b3538d44cfd",
+    "id": "373e78b1-90cb-11e5-b284-7d1b122bfc07",
     "name": ":my_sym",
     "addr": "/mySym/",
     "kind": "v",
     "type": "number",
     "lineno": 4,
     "namespace": "obj",
-    "parent": "459f5d90-90c4-11e5-a69e-1b3538d44cfd",
+    "parent": "373e78b0-90cb-11e5-b284-7d1b122bfc07",
     "origin": {
       "!span": "45[3:3]-50[3:8]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/symbol.js"
   },
   {
-    "id": "459f84a1-90c4-11e5-a69e-1b3538d44cfd",
+    "id": "373e9fc0-90cb-11e5-b284-7d1b122bfc07",
     "name": "iterator",
     "addr": "/Symbol\.iterator/",
     "kind": "v",
     "type": "string",
     "lineno": 8,
     "namespace": "obj.:Symbol",
-    "parent": "459f84a0-90c4-11e5-a69e-1b3538d44cfd",
+    "parent": "373e78b2-90cb-11e5-b284-7d1b122bfc07",
     "origin": {
       "!span": "85[7:4]-100[7:19]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/symbol.js"

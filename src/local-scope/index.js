@@ -84,16 +84,20 @@ var postCondenseReach = function (server, options, state) {
     return g ? false : isArg(state, av);
   };
 
-  var isPlainObject = function (state, av) {
-    var types = get(av, 'types', []);
+  var getType = function (state, av, proto) {
+    var types = get(av, 'types', []).map(function (type) {
+      return get(type, 'proto.name');
+    });
 
     if (!types.length) {
       return false;
     }
 
-    return types.every(function (type) {
-      return get(type, 'proto.name') === 'Object.prototype';
+    var single = types.reduce(function(a, b){
+      return (a === b) ? a : false;
     });
+
+    return single ? single : undefined;
   };
 
   var isConstructor = function (state, type) {
@@ -130,7 +134,7 @@ var postCondenseReach = function (server, options, state) {
     var data = {
       scoped: isScoped(state, av),
       isArg: isArg(state, av),
-      isPlainObject: isPlainObject(state, av)
+      type: getType(state, av)
     };
 
     state.types[path] = {
@@ -179,7 +183,7 @@ var postCondenseReach = function (server, options, state) {
 
     data.data = defaults({
       isConstructor: isConstructor(state, get(data, 'type')),
-      isPlainObject: isPlainObject(state, {
+      type: getType(state, {
         types: [data.type]
       })
     }, data.data);

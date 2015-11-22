@@ -28,7 +28,7 @@ o2.prop2; //: bool
 ```json
 [
   {
-    "id": "35916920-90c4-11e5-8529-e7aaf77b5d71",
+    "id": "277c8160-90cb-11e5-bddc-13924660b910",
     "name": "o",
     "addr": "/o/",
     "kind": "v",
@@ -37,51 +37,51 @@ o2.prop2; //: bool
       "!span": "4[0:4]-5[0:5]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/defineProperty.js"
   },
   {
-    "id": "35919030-90c4-11e5-8529-e7aaf77b5d71",
+    "id": "277ca870-90cb-11e5-bddc-13924660b910",
     "name": "prop1",
     "addr": "/\"prop1\"/",
     "kind": "v",
     "type": "string",
     "lineno": 4,
     "namespace": "o",
-    "parent": "35916920-90c4-11e5-8529-e7aaf77b5d71",
+    "parent": "277c8160-90cb-11e5-bddc-13924660b910",
     "origin": {
       "!span": "61[3:25]-68[3:32]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/defineProperty.js"
   },
   {
-    "id": "35919031-90c4-11e5-8529-e7aaf77b5d71",
+    "id": "277ca871-90cb-11e5-bddc-13924660b910",
     "name": "prop2",
     "addr": "/\"prop2\"/",
     "kind": "v",
     "type": "number",
     "lineno": 8,
     "namespace": "o",
-    "parent": "35916920-90c4-11e5-8529-e7aaf77b5d71",
+    "parent": "277c8160-90cb-11e5-bddc-13924660b910",
     "origin": {
       "!span": "137[7:25]-144[7:32]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/defineProperty.js"
   },
   {
-    "id": "35919032-90c4-11e5-8529-e7aaf77b5d71",
+    "id": "277ca872-90cb-11e5-bddc-13924660b910",
     "name": "o2",
     "addr": "/o2/",
     "kind": "v",
@@ -90,45 +90,45 @@ o2.prop2; //: bool
       "!span": "248[16:4]-250[16:6]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/defineProperty.js"
   },
   {
-    "id": "3591b740-90c4-11e5-8529-e7aaf77b5d71",
+    "id": "277ca873-90cb-11e5-bddc-13924660b910",
     "name": "prop1",
     "addr": "/\{/",
     "kind": "v",
     "type": "number",
     "lineno": 19,
     "namespace": "o2",
-    "parent": "35919032-90c4-11e5-8529-e7aaf77b5d71",
+    "parent": "277ca872-90cb-11e5-bddc-13924660b910",
     "origin": {
       "!span": "286[18:28]-354[21:1]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/defineProperty.js"
   },
   {
-    "id": "3591b741-90c4-11e5-8529-e7aaf77b5d71",
+    "id": "277ca874-90cb-11e5-bddc-13924660b910",
     "name": "prop2",
     "addr": "/\{/",
     "kind": "v",
     "type": "boolean",
     "lineno": 19,
     "namespace": "o2",
-    "parent": "35919032-90c4-11e5-8529-e7aaf77b5d71",
+    "parent": "277ca872-90cb-11e5-bddc-13924660b910",
     "origin": {
       "!span": "286[18:28]-354[21:1]",
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/defineProperty.js"

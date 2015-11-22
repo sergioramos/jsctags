@@ -11,8 +11,7 @@
       "!data": {
         "isConstructor": false,
         "scoped": false,
-        "isArg": false,
-        "isPlainObject": false
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/hint_simple.js"

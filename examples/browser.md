@@ -14,7 +14,7 @@ e_which; //: number
 ```json
 [
   {
-    "id": "32729cf0-90c4-11e5-87ed-dd1f45ae87f3",
+    "id": "247eaab0-90cb-11e5-a2b5-b39ead469461",
     "name": "newElt",
     "addr": "/newElt/",
     "kind": "v",
@@ -25,13 +25,13 @@ e_which; //: number
       "!type": "+Element",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Element.prototype"
       }
     },
     "tagfile": "__DIR__/browser.js"
   },
   {
-    "id": "3272c400-90c4-11e5-87ed-dd1f45ae87f3",
+    "id": "247ed1c0-90cb-11e5-a2b5-b39ead469461",
     "name": "e_which",
     "addr": "/e_which/",
     "kind": "v",
@@ -42,7 +42,7 @@ e_which; //: number
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/browser.js"

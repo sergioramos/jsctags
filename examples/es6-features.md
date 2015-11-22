@@ -33,7 +33,7 @@ let [e1,,e3] = ["5", false, 6]
 ```json
 [
   {
-    "id": "37848690-90c4-11e5-b715-bdc480743074",
+    "id": "296b5910-90cb-11e5-af4c-dd17d2935b3b",
     "name": "Foo",
     "addr": "/Foo/",
     "kind": "f",
@@ -44,68 +44,68 @@ let [e1,,e3] = ["5", false, 6]
       "!type": "fn(a: ?, ...b: ?)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "3784ada0-90c4-11e5-b715-bdc480743074",
+    "id": "296b8020-90cb-11e5-af4c-dd17d2935b3b",
     "name": "prototype",
     "addr": "/class Foo \{/",
     "kind": "v",
     "lineno": 1,
     "namespace": "Foo",
-    "parent": "37848690-90c4-11e5-b715-bdc480743074",
+    "parent": "296b5910-90cb-11e5-af4c-dd17d2935b3b",
     "origin": {
       "!span": "0[0:0]-158[9:1]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "3784ada1-90c4-11e5-b715-bdc480743074",
+    "id": "296b8021-90cb-11e5-af4c-dd17d2935b3b",
     "name": "method",
     "addr": "/method/",
     "kind": "f",
     "type": "void function()",
     "lineno": 7,
     "namespace": "Foo.prototype",
-    "parent": "3784ada0-90c4-11e5-b715-bdc480743074",
+    "parent": "296b8020-90cb-11e5-af4c-dd17d2935b3b",
     "origin": {
       "!span": "79[6:2]-85[6:8]",
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "3784ada2-90c4-11e5-b715-bdc480743074",
+    "id": "296b8022-90cb-11e5-af4c-dd17d2935b3b",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "string",
     "lineno": 9,
     "namespace": "Foo.prototype",
-    "parent": "3784ada0-90c4-11e5-b715-bdc480743074",
+    "parent": "296b8020-90cb-11e5-af4c-dd17d2935b3b",
     "origin": {
       "!span": "122[8:6]-123[8:7]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "3784ada3-90c4-11e5-b715-bdc480743074",
+    "id": "296b8023-90cb-11e5-af4c-dd17d2935b3b",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
@@ -114,51 +114,51 @@ let [e1,,e3] = ["5", false, 6]
       "!span": "177[13:6]-178[13:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "3784ada4-90c4-11e5-b715-bdc480743074",
+    "id": "296b8024-90cb-11e5-af4c-dd17d2935b3b",
     "name": "func",
     "addr": "/func/",
     "kind": "f",
     "type": "number function()",
     "lineno": 15,
     "namespace": "y",
-    "parent": "3784ada3-90c4-11e5-b715-bdc480743074",
+    "parent": "296b8023-90cb-11e5-af4c-dd17d2935b3b",
     "origin": {
       "!span": "185[14:2]-189[14:6]",
       "!type": "fn() -> number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "3784ada5-90c4-11e5-b715-bdc480743074",
+    "id": "296b8025-90cb-11e5-af4c-dd17d2935b3b",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "boolean",
     "lineno": 16,
     "namespace": "y",
-    "parent": "3784ada3-90c4-11e5-b715-bdc480743074",
+    "parent": "296b8023-90cb-11e5-af4c-dd17d2935b3b",
     "origin": {
       "!span": "213[15:6]-214[15:7]",
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "3784ada6-90c4-11e5-b715-bdc480743074",
+    "id": "296b8026-90cb-11e5-af4c-dd17d2935b3b",
     "name": "it",
     "addr": "/it/",
     "kind": "f",
@@ -169,32 +169,32 @@ let [e1,,e3] = ["5", false, 6]
       "!type": "fn*(n: ?) -> !0",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "3784ada7-90c4-11e5-b715-bdc480743074",
+    "id": "296b8027-90cb-11e5-af4c-dd17d2935b3b",
     "name": "n",
     "addr": "/n/",
     "kind": "v",
     "lineno": 20,
     "namespace": "it",
-    "parent": "3784ada6-90c4-11e5-b715-bdc480743074",
+    "parent": "296b8026-90cb-11e5-af4c-dd17d2935b3b",
     "origin": {
       "!span": "280[19:19]-281[19:20]",
       "!data": {
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "3784ada8-90c4-11e5-b715-bdc480743074",
+    "id": "296b8028-90cb-11e5-af4c-dd17d2935b3b",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
@@ -205,13 +205,13 @@ let [e1,,e3] = ["5", false, 6]
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "3784ada9-90c4-11e5-b715-bdc480743074",
+    "id": "296b8029-90cb-11e5-af4c-dd17d2935b3b",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
@@ -222,13 +222,13 @@ let [e1,,e3] = ["5", false, 6]
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "3784adaa-90c4-11e5-b715-bdc480743074",
+    "id": "296b802a-90cb-11e5-af4c-dd17d2935b3b",
     "name": "e1",
     "addr": "/e1/",
     "kind": "v",
@@ -239,13 +239,13 @@ let [e1,,e3] = ["5", false, 6]
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "3784d4b0-90c4-11e5-b715-bdc480743074",
+    "id": "296ba730-90cb-11e5-af4c-dd17d2935b3b",
     "name": "e3",
     "addr": "/e3/",
     "kind": "v",
@@ -256,7 +256,7 @@ let [e1,,e3] = ["5", false, 6]
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/es6-features.js"

@@ -10,7 +10,7 @@
       "!type": "fn(child: fn(arg: bool)|fn(arg: bool), parent: fn()|fn(arg: bool))",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -29,7 +29,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -48,7 +48,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -65,7 +65,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -84,7 +84,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -99,7 +99,7 @@
       "!span": "252[6:8]-261[6:17]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Top.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -114,7 +114,7 @@
       "!span": "252[6:8]-261[6:17]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Top"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -129,7 +129,7 @@
       "!span": "252[6:8]-261[6:17]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Top.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -144,7 +144,7 @@
       "!span": "252[6:8]-261[6:17]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Top.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -159,7 +159,7 @@
       "!span": "252[6:8]-261[6:17]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Top"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -174,7 +174,7 @@
       "!span": "252[6:8]-261[6:17]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Top.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -190,7 +190,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -207,7 +207,7 @@
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -224,7 +224,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -240,7 +240,7 @@
       "!type": "fn(arg: bool)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -257,7 +257,7 @@
       "!type": "fn(arg: bool)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -276,7 +276,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -293,7 +293,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -310,7 +310,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -329,7 +329,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -346,7 +346,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -363,7 +363,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -380,7 +380,7 @@
       "!type": "fn() -> number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -397,7 +397,7 @@
       "!type": "fn() -> number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -413,7 +413,7 @@
       "!type": "fn(arg: bool)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -427,7 +427,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -441,7 +441,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -455,7 +455,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -469,7 +469,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -483,7 +483,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -500,7 +500,7 @@
       "!type": "fn(arg: bool)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -514,7 +514,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -531,7 +531,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -548,7 +548,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -567,7 +567,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -586,7 +586,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -603,7 +603,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -620,7 +620,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -636,7 +636,7 @@
       "!type": "fn(arg: bool)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -653,7 +653,7 @@
       "!type": "fn(arg: bool)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -672,7 +672,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -691,7 +691,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -708,7 +708,7 @@
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -725,7 +725,7 @@
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -741,7 +741,7 @@
       "!type": "+SubOne",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Top"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -757,7 +757,7 @@
       "!type": "+SubTwo",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Top"
       }
     },
     "tagfile": "__DIR__/extends.js"
@@ -772,8 +772,7 @@
       "!span": "1096[37:68]-1099[37:71]",
       "!type": "+SubEleven",
       "!data": {
-        "isConstructor": false,
-        "isPlainObject": false
+        "isConstructor": false
       }
     },
     "tagfile": "__DIR__/extends.js"

@@ -10,7 +10,7 @@
       "!type": "+Error",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Error.prototype"
       }
     },
     "tagfile": "__DIR__/catch_error.js"

@@ -18,7 +18,7 @@ foo.bar = {baz: baz};
 ```json
 [
   {
-    "id": "4169f140-90c4-11e5-8f59-8b71ae6dabdc",
+    "id": "330aba10-90cb-11e5-b0aa-c74ca260aa3e",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
@@ -27,13 +27,13 @@ foo.bar = {baz: baz};
       "!span": "73[6:4]-76[6:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/order_of_definition.js"
   },
   {
-    "id": "416a1851-90c4-11e5-8f59-8b71ae6dabdc",
+    "id": "330b0830-90cb-11e5-b0aa-c74ca260aa3e",
     "name": "baz",
     "addr": "/baz/",
     "kind": "v",
@@ -42,39 +42,39 @@ foo.bar = {baz: baz};
       "!span": "88[8:4]-91[8:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/order_of_definition.js"
   },
   {
-    "id": "416a1852-90c4-11e5-8f59-8b71ae6dabdc",
+    "id": "330b0831-90cb-11e5-b0aa-c74ca260aa3e",
     "name": "bug",
     "addr": "/bug/",
     "kind": "f",
     "type": "void function(baz.bug.!0)",
     "lineno": 9,
     "namespace": "baz",
-    "parent": "416a1851-90c4-11e5-8f59-8b71ae6dabdc",
+    "parent": "330b0830-90cb-11e5-b0aa-c74ca260aa3e",
     "origin": {
       "!span": "95[8:11]-98[8:14]",
       "!type": "fn(o: baz.bug.!0)",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/order_of_definition.js"
   },
   {
-    "id": "416a3f60-90c4-11e5-8f59-8b71ae6dabdc",
+    "id": "330b0832-90cb-11e5-b0aa-c74ca260aa3e",
     "name": "x",
     "addr": "/x/",
     "kind": "f",
     "type": "void function()",
     "lineno": 10,
     "namespace": "baz.bug",
-    "parent": "416a1852-90c4-11e5-8f59-8b71ae6dabdc",
+    "parent": "330b0831-90cb-11e5-b0aa-c74ca260aa3e",
     "origin": {
       "!span": "125[9:11]-126[9:12]",
       "!type": "fn()",
@@ -82,24 +82,24 @@ foo.bar = {baz: baz};
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/order_of_definition.js"
   },
   {
-    "id": "416a1850-90c4-11e5-8f59-8b71ae6dabdc",
+    "id": "330ae120-90cb-11e5-b0aa-c74ca260aa3e",
     "name": "bar",
     "addr": "/bar/",
     "kind": "v",
     "lineno": 15,
     "namespace": "foo",
-    "parent": "4169f140-90c4-11e5-8f59-8b71ae6dabdc",
+    "parent": "330aba10-90cb-11e5-b0aa-c74ca260aa3e",
     "origin": {
       "!span": "192[14:4]-195[14:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/order_of_definition.js"

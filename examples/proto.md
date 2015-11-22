@@ -19,7 +19,7 @@ z.bar; //: number
 ```json
 [
   {
-    "id": "42f4aff0-90c4-11e5-a50b-996c0d60a718",
+    "id": "34915a10-90cb-11e5-9345-79cf0bf52fd1",
     "name": "Foo",
     "addr": "/Foo/",
     "kind": "f",
@@ -30,26 +30,26 @@ z.bar; //: number
       "!type": "fn(x: bool)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/proto.js"
   },
   {
-    "id": "42f4fe10-90c4-11e5-a50b-996c0d60a718",
+    "id": "3491a832-90cb-11e5-9345-79cf0bf52fd1",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "boolean",
     "lineno": 1,
     "namespace": "Foo",
-    "parent": "42f4aff0-90c4-11e5-a50b-996c0d60a718",
+    "parent": "34915a10-90cb-11e5-9345-79cf0bf52fd1",
     "origin": {
       "!span": "13[0:13]-14[0:14]",
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false,
+        "type": "Boolean.prototype",
         "scoped": true,
         "isArg": true
       }
@@ -57,14 +57,14 @@ z.bar; //: number
     "tagfile": "__DIR__/proto.js"
   },
   {
-    "id": "42f4fe13-90c4-11e5-a50b-996c0d60a718",
+    "id": "3491a835-90cb-11e5-9345-79cf0bf52fd1",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "boolean",
     "lineno": 2,
     "namespace": "z",
-    "parent": "42f4fe12-90c4-11e5-a50b-996c0d60a718",
+    "parent": "3491a834-90cb-11e5-9345-79cf0bf52fd1",
     "origin": {
       "!span": "25[1:7]-26[1:8]",
       "!type": "bool",
@@ -72,87 +72,87 @@ z.bar; //: number
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/proto.js"
   },
   {
-    "id": "42f4fe11-90c4-11e5-a50b-996c0d60a718",
+    "id": "3491a833-90cb-11e5-9345-79cf0bf52fd1",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
     "type": "[number]",
     "lineno": 3,
     "namespace": "Foo",
-    "parent": "42f4aff0-90c4-11e5-a50b-996c0d60a718",
+    "parent": "34915a10-90cb-11e5-9345-79cf0bf52fd1",
     "origin": {
       "!span": "39[2:7]-40[2:8]",
       "!type": "[number]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/proto.js"
   },
   {
-    "id": "42f4d700-90c4-11e5-a50b-996c0d60a718",
+    "id": "34918120-90cb-11e5-9345-79cf0bf52fd1",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "Foo",
-    "parent": "42f4aff0-90c4-11e5-a50b-996c0d60a718",
+    "parent": "34915a10-90cb-11e5-9345-79cf0bf52fd1",
     "origin": {
       "!span": "76[6:4]-85[6:13]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/proto.js"
   },
   {
-    "id": "42f4d701-90c4-11e5-a50b-996c0d60a718",
+    "id": "3491a830-90cb-11e5-9345-79cf0bf52fd1",
     "name": "makeString",
     "addr": "/makeString/",
     "kind": "f",
     "type": "string function()",
     "lineno": 8,
     "namespace": "Foo.prototype",
-    "parent": "42f4d700-90c4-11e5-a50b-996c0d60a718",
+    "parent": "34918120-90cb-11e5-9345-79cf0bf52fd1",
     "origin": {
       "!span": "92[7:2]-102[7:12]",
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/proto.js"
   },
   {
-    "id": "42f4d702-90c4-11e5-a50b-996c0d60a718",
+    "id": "3491a831-90cb-11e5-9345-79cf0bf52fd1",
     "name": "bar",
     "addr": "/bar/",
     "kind": "v",
     "type": "number",
     "lineno": 9,
     "namespace": "Foo.prototype",
-    "parent": "42f4d700-90c4-11e5-a50b-996c0d60a718",
+    "parent": "34918120-90cb-11e5-9345-79cf0bf52fd1",
     "origin": {
       "!span": "135[8:2]-138[8:5]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/proto.js"
   },
   {
-    "id": "42f4fe12-90c4-11e5-a50b-996c0d60a718",
+    "id": "3491a834-90cb-11e5-9345-79cf0bf52fd1",
     "name": "z",
     "addr": "/z/",
     "kind": "v",
@@ -163,7 +163,7 @@ z.bar; //: number
       "!type": "+Foo",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Foo.prototype"
       }
     },
     "tagfile": "__DIR__/proto.js"

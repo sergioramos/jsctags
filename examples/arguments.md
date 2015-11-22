@@ -6,7 +6,7 @@ var arguments = 1; //: number
 ```json
 [
   {
-    "id": "2fb41930-90c4-11e5-be42-e19711a9db01",
+    "id": "21ee89f0-90cb-11e5-8932-83dde5be5f56",
     "name": "arguments",
     "addr": "/arguments/",
     "kind": "v",
@@ -17,7 +17,7 @@ var arguments = 1; //: number
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/arguments.js"

@@ -15,7 +15,7 @@ set.forEach(function(val) {
 ```json
 [
   {
-    "id": "44149ee0-90c4-11e5-984d-9b499d77b264",
+    "id": "35b45640-90cb-11e5-9192-195a60bfcd82",
     "name": "set",
     "addr": "/set/",
     "kind": "v",
@@ -26,13 +26,13 @@ set.forEach(function(val) {
       "!type": "+Set",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Set.prototype"
       }
     },
     "tagfile": "__DIR__/set.js"
   },
   {
-    "id": "4414c5f0-90c4-11e5-984d-9b499d77b264",
+    "id": "35b47d50-90cb-11e5-9192-195a60bfcd82",
     "name": "elt",
     "addr": "/elt/",
     "kind": "v",
@@ -43,7 +43,7 @@ set.forEach(function(val) {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/set.js"

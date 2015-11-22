@@ -29,7 +29,7 @@ map.forEach(function(val, key) {
 ```json
 [
   {
-    "id": "3e457fc0-90c4-11e5-ae10-f13454175eeb",
+    "id": "3006a1d0-90cb-11e5-9022-29f12edce5a4",
     "name": "map",
     "addr": "/map/",
     "kind": "v",
@@ -40,13 +40,13 @@ map.forEach(function(val, key) {
       "!type": "+Map",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Map.prototype"
       }
     },
     "tagfile": "__DIR__/map.js"
   },
   {
-    "id": "3e45a6d0-90c4-11e5-ae10-f13454175eeb",
+    "id": "3006c8e0-90cb-11e5-9022-29f12edce5a4",
     "name": "key",
     "addr": "/key/",
     "kind": "v",
@@ -57,13 +57,13 @@ map.forEach(function(val, key) {
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/map.js"
   },
   {
-    "id": "3e45a6d1-90c4-11e5-ae10-f13454175eeb",
+    "id": "3006c8e1-90cb-11e5-9022-29f12edce5a4",
     "name": "value",
     "addr": "/value/",
     "kind": "v",
@@ -74,7 +74,7 @@ map.forEach(function(val, key) {
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/map.js"

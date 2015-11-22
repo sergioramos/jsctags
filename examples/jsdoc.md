@@ -130,7 +130,7 @@ ui(); //: string
 ```json
 [
   {
-    "id": "3de0a370-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa56f00-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
@@ -141,13 +141,13 @@ ui(); //: string
       "!type": "+Date",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Date.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de0ca80-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa59610-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
@@ -156,20 +156,20 @@ ui(); //: string
       "!span": "133[7:4]-134[7:5]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de13fb4-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa59615-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "string",
     "lineno": 17,
     "namespace": "foo",
-    "parent": "3de13fb2-90c4-11e5-b08c-a10bb8ae8488",
+    "parent": "2fa59613-90cb-11e5-a9bf-1fd6e9bd6744",
     "origin": {
       "!span": "298[16:16]-299[16:17]",
       "!type": "string",
@@ -177,20 +177,20 @@ ui(); //: string
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de13fb3-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa59614-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 17,
     "namespace": "foo",
-    "parent": "3de13fb2-90c4-11e5-b08c-a10bb8ae8488",
+    "parent": "2fa59613-90cb-11e5-a9bf-1fd6e9bd6744",
     "origin": {
       "!span": "295[16:13]-296[16:14]",
       "!type": "number",
@@ -198,13 +198,13 @@ ui(); //: string
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de13fb2-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa59613-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "foo",
     "addr": "/foo/",
     "kind": "f",
@@ -215,13 +215,13 @@ ui(); //: string
       "!type": "fn(a: number, b: string) -> [number]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166c0-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa59616-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "abc",
     "addr": "/abc/",
     "kind": "f",
@@ -232,13 +232,13 @@ ui(); //: string
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166c1-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5bd20-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "bar",
     "addr": "/bar/",
     "kind": "f",
@@ -249,20 +249,20 @@ ui(); //: string
       "!type": "fn(a: number, b: number) -> string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166c2-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5bd21-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 30,
     "namespace": "bar",
-    "parent": "3de166c1-90c4-11e5-b08c-a10bb8ae8488",
+    "parent": "2fa5bd20-90cb-11e5-a9bf-1fd6e9bd6744",
     "origin": {
       "!span": "525[29:19]-526[29:20]",
       "!type": "number",
@@ -270,20 +270,20 @@ ui(); //: string
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166c3-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5bd22-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "number",
     "lineno": 30,
     "namespace": "bar",
-    "parent": "3de166c1-90c4-11e5-b08c-a10bb8ae8488",
+    "parent": "2fa5bd20-90cb-11e5-a9bf-1fd6e9bd6744",
     "origin": {
       "!span": "528[29:22]-529[29:23]",
       "!type": "number",
@@ -291,13 +291,13 @@ ui(); //: string
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166c4-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5bd23-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "o",
     "addr": "/o/",
     "kind": "v",
@@ -306,70 +306,70 @@ ui(); //: string
       "!span": "617[33:4]-618[33:5]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166c5-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5bd24-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "prop1",
     "addr": "/prop1/",
     "kind": "v",
     "type": "string",
     "lineno": 36,
     "namespace": "o",
-    "parent": "3de166c4-90c4-11e5-b08c-a10bb8ae8488",
+    "parent": "2fa5bd23-90cb-11e5-a9bf-1fd6e9bd6744",
     "origin": {
       "!span": "649[35:2]-654[35:7]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166c6-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5bd25-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "prop2",
     "addr": "/prop2/",
     "kind": "f",
     "type": "number function()",
     "lineno": 39,
     "namespace": "o",
-    "parent": "3de166c4-90c4-11e5-b08c-a10bb8ae8488",
+    "parent": "2fa5bd23-90cb-11e5-a9bf-1fd6e9bd6744",
     "origin": {
       "!span": "697[38:2]-702[38:7]",
       "!type": "fn() -> number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166c7-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5bd26-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "prop3",
     "addr": "/prop3/",
     "kind": "f",
     "type": "string function()",
     "lineno": 43,
     "namespace": "o",
-    "parent": "3de166c4-90c4-11e5-b08c-a10bb8ae8488",
+    "parent": "2fa5bd23-90cb-11e5-a9bf-1fd6e9bd6744",
     "origin": {
       "!span": "769[42:2]-774[42:7]",
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166c8-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5bd27-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "closureArray",
     "addr": "/closureArray/",
     "kind": "v",
@@ -380,13 +380,13 @@ ui(); //: string
       "!type": "[string]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166c9-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5bd28-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "closureMap",
     "addr": "/closureMap/",
     "kind": "v",
@@ -395,13 +395,13 @@ ui(); //: string
       "!span": "1028[53:4]-1038[53:14]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166cb-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5bd2a-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "takesOpt",
     "addr": "/takesOpt/",
     "kind": "f",
@@ -412,20 +412,20 @@ ui(); //: string
       "!type": "fn(a?: number)",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166cc-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5bd2b-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 58,
     "namespace": "takesOpt",
-    "parent": "3de166cb-90c4-11e5-b08c-a10bb8ae8488",
+    "parent": "2fa5bd2a-90cb-11e5-a9bf-1fd6e9bd6744",
     "origin": {
       "!span": "1129[57:18]-1130[57:19]",
       "!type": "number",
@@ -433,13 +433,13 @@ ui(); //: string
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166cd-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5bd2c-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "myBitset",
     "addr": "/myBitset/",
     "kind": "v",
@@ -450,13 +450,13 @@ ui(); //: string
       "!type": "[bool]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166ce-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5bd2d-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "myObj",
     "addr": "/myObj/",
     "kind": "v",
@@ -465,13 +465,13 @@ ui(); //: string
       "!span": "1479[77:4]-1484[77:9]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166d1-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5bd30-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "NonAscïį",
     "addr": "/NonAscïį/",
     "kind": "f",
@@ -482,32 +482,32 @@ ui(); //: string
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166d2-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5bd31-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "length",
     "addr": "/length/",
     "kind": "v",
     "type": "string",
     "lineno": 84,
     "namespace": "NonAscïį",
-    "parent": "3de166d1-90c4-11e5-b08c-a10bb8ae8488",
+    "parent": "2fa5bd30-90cb-11e5-a9bf-1fd6e9bd6744",
     "origin": {
       "!span": "1570[83:27]-1576[83:33]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166d3-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5e430-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "inst",
     "addr": "/inst/",
     "kind": "v",
@@ -518,95 +518,94 @@ ui(); //: string
       "!type": "+NonAscïį",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "NonAscïį.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166cf-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5bd2e-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "one",
     "kind": "v",
     "type": "boolean",
     "namespace": "myObj",
-    "parent": "3de166ce-90c4-11e5-b08c-a10bb8ae8488",
+    "parent": "2fa5bd2d-90cb-11e5-a9bf-1fd6e9bd6744",
     "origin": {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166d0-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5bd2f-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "two",
     "kind": "v",
     "type": "number",
     "namespace": "myObj",
-    "parent": "3de166ce-90c4-11e5-b08c-a10bb8ae8488",
+    "parent": "2fa5bd2d-90cb-11e5-a9bf-1fd6e9bd6744",
     "origin": {
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166db-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5e438-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "bogus",
     "addr": "/bogus/",
     "kind": "v",
     "lineno": 92,
-    "parent": "3de166da-90c4-11e5-b08c-a10bb8ae8488",
+    "parent": "2fa5e437-90cb-11e5-a9bf-1fd6e9bd6744",
     "origin": {
       "!span": "1678[91:4]-1683[91:9]",
       "!data": {
         "isConstructor": false,
         "scoped": false,
-        "isArg": false,
-        "isPlainObject": false
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de13fb0-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa59611-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "x",
     "kind": "v",
     "type": "number",
     "namespace": "c",
-    "parent": "3de0ca80-90c4-11e5-b08c-a10bb8ae8488",
+    "parent": "2fa59610-90cb-11e5-a9bf-1fd6e9bd6744",
     "origin": {
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de13fb1-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa59612-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "y",
     "kind": "v",
     "type": "[string]",
     "namespace": "c",
-    "parent": "3de0ca80-90c4-11e5-b08c-a10bb8ae8488",
+    "parent": "2fa59610-90cb-11e5-a9bf-1fd6e9bd6744",
     "origin": {
       "!type": "[string]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166d4-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5e431-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "again",
     "addr": "/again/",
     "kind": "v",
@@ -617,13 +616,13 @@ ui(); //: string
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166d5-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5e432-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "functionBogus",
     "addr": "/functionBogus/",
     "kind": "f",
@@ -634,32 +633,31 @@ ui(); //: string
       "!type": "fn(a: ?) -> ?",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166d6-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5e433-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "lineno": 105,
     "namespace": "functionBogus",
-    "parent": "3de166d5-90c4-11e5-b08c-a10bb8ae8488",
+    "parent": "2fa5e432-90cb-11e5-a9bf-1fd6e9bd6744",
     "origin": {
       "!span": "1869[104:23]-1870[104:24]",
       "!data": {
         "isConstructor": false,
         "scoped": true,
-        "isArg": true,
-        "isPlainObject": false
+        "isArg": true
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166d7-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5e434-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "unionFunction",
     "addr": "/unionFunction/",
     "kind": "f",
@@ -670,20 +668,20 @@ ui(); //: string
       "!type": "fn(a: string) -> [?|number]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166d8-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5e435-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "string",
     "lineno": 118,
     "namespace": "unionFunction",
-    "parent": "3de166d7-90c4-11e5-b08c-a10bb8ae8488",
+    "parent": "2fa5e434-90cb-11e5-a9bf-1fd6e9bd6744",
     "origin": {
       "!span": "2121[117:23]-2122[117:24]",
       "!type": "string",
@@ -691,13 +689,13 @@ ui(); //: string
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166d9-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5e436-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "ui",
     "addr": "/ui/",
     "kind": "f",
@@ -708,23 +706,23 @@ ui(); //: string
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "3de166ca-90c4-11e5-b08c-a10bb8ae8488",
+    "id": "2fa5bd29-90cb-11e5-a9bf-1fd6e9bd6744",
     "name": "<i>",
     "kind": "v",
     "type": "boolean",
     "namespace": "closureMap",
-    "parent": "3de166c9-90c4-11e5-b08c-a10bb8ae8488",
+    "parent": "2fa5bd28-90cb-11e5-a9bf-1fd6e9bd6744",
     "origin": {
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"

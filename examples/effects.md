@@ -18,7 +18,7 @@ d; //: number
 ```json
 [
   {
-    "id": "36bf3ac0-90c4-11e5-9699-e39dab112047",
+    "id": "28aceb10-90cb-11e5-a14b-a33ac72332af",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
@@ -29,13 +29,13 @@ d; //: number
       "!type": "[bool]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/effects.js"
   },
   {
-    "id": "36bf61d0-90c4-11e5-9699-e39dab112047",
+    "id": "28ad1220-90cb-11e5-a14b-a33ac72332af",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
@@ -46,13 +46,13 @@ d; //: number
       "!type": "[string|number]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/effects.js"
   },
   {
-    "id": "36bf61d1-90c4-11e5-9699-e39dab112047",
+    "id": "28ad1221-90cb-11e5-a14b-a33ac72332af",
     "name": "d",
     "addr": "/d/",
     "kind": "v",
@@ -63,13 +63,13 @@ d; //: number
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/effects.js"
   },
   {
-    "id": "36bf61d2-90c4-11e5-9699-e39dab112047",
+    "id": "28ad1222-90cb-11e5-a14b-a33ac72332af",
     "name": "setD",
     "addr": "/setD/",
     "kind": "f",
@@ -80,20 +80,20 @@ d; //: number
       "!type": "fn(a: number)",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/effects.js"
   },
   {
-    "id": "36bf61d3-90c4-11e5-9699-e39dab112047",
+    "id": "28ad1223-90cb-11e5-a14b-a33ac72332af",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 13,
     "namespace": "setD",
-    "parent": "36bf61d2-90c4-11e5-9699-e39dab112047",
+    "parent": "28ad1222-90cb-11e5-a14b-a33ac72332af",
     "origin": {
       "!span": "199[12:14]-200[12:15]",
       "!type": "number",
@@ -101,7 +101,7 @@ d; //: number
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/effects.js"

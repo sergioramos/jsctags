@@ -10,7 +10,7 @@
       "!type": "+Type",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Type.prototype"
       }
     },
     "tagfile": "__DIR__/replace_bogus_prop.js"
@@ -26,7 +26,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/replace_bogus_prop.js"
@@ -43,7 +43,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/replace_bogus_prop.js"

@@ -9,7 +9,7 @@ Type.prototype.foo = "hi";
 ```json
 [
   {
-    "id": "43b5dd10-90c4-11e5-b101-21205ef25244",
+    "id": "355916e0-90cb-11e5-89a4-4baf2e21db4d",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
@@ -20,13 +20,13 @@ Type.prototype.foo = "hi";
       "!type": "+Type",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Type.prototype"
       }
     },
     "tagfile": "__DIR__/replace_bogus_prop.js"
   },
   {
-    "id": "43b60420-90c4-11e5-b101-21205ef25244",
+    "id": "35593df0-90cb-11e5-89a4-4baf2e21db4d",
     "name": "Type",
     "addr": "/Type/",
     "kind": "f",
@@ -37,26 +37,26 @@ Type.prototype.foo = "hi";
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/replace_bogus_prop.js"
   },
   {
-    "id": "43b60422-90c4-11e5-b101-21205ef25244",
+    "id": "35593df2-90cb-11e5-89a4-4baf2e21db4d",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
     "type": "string",
     "lineno": 6,
     "namespace": "Type.prototype",
-    "parent": "43b60421-90c4-11e5-b101-21205ef25244",
+    "parent": "35593df1-90cb-11e5-89a4-4baf2e21db4d",
     "origin": {
       "!span": "74[5:15]-77[5:18]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/replace_bogus_prop.js"

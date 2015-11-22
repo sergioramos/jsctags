@@ -23,7 +23,7 @@ new Sub3(); //: Sub3
 ```json
 [
   {
-    "id": "435657f0-90c4-11e5-9e88-51a36cc74e88",
+    "id": "34f68480-90cb-11e5-9b40-15653ef12fda",
     "name": "Base",
     "addr": "/Base/",
     "kind": "f",
@@ -34,32 +34,32 @@ new Sub3(); //: Sub3
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/protoname.js"
   },
   {
-    "id": "43567f00-90c4-11e5-9e88-51a36cc74e88",
+    "id": "34f6ab90-90cb-11e5-9b40-15653ef12fda",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 2,
     "namespace": "Base",
-    "parent": "435657f0-90c4-11e5-9e88-51a36cc74e88",
+    "parent": "34f68480-90cb-11e5-9b40-15653ef12fda",
     "origin": {
       "!span": "24[1:5]-33[1:14]",
       "!data": {
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/protoname.js"
   },
   {
-    "id": "43567f01-90c4-11e5-9e88-51a36cc74e88",
+    "id": "34f6d2a0-90cb-11e5-9b40-15653ef12fda",
     "name": "Sub1",
     "addr": "/Sub1/",
     "kind": "f",
@@ -70,32 +70,32 @@ new Sub3(); //: Sub3
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/protoname.js"
   },
   {
-    "id": "43567f02-90c4-11e5-9e88-51a36cc74e88",
+    "id": "34f6d2a1-90cb-11e5-9b40-15653ef12fda",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 8,
     "namespace": "Sub1",
-    "parent": "43567f01-90c4-11e5-9e88-51a36cc74e88",
+    "parent": "34f6d2a0-90cb-11e5-9b40-15653ef12fda",
     "origin": {
       "!span": "120[7:5]-129[7:14]",
       "!data": {
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Base.prototype"
       }
     },
     "tagfile": "__DIR__/protoname.js"
   },
   {
-    "id": "43567f03-90c4-11e5-9e88-51a36cc74e88",
+    "id": "34f6d2a2-90cb-11e5-9b40-15653ef12fda",
     "name": "Sub2",
     "addr": "/Sub2/",
     "kind": "f",
@@ -106,32 +106,32 @@ new Sub3(); //: Sub3
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/protoname.js"
   },
   {
-    "id": "43567f04-90c4-11e5-9e88-51a36cc74e88",
+    "id": "34f6d2a3-90cb-11e5-9b40-15653ef12fda",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 12,
     "namespace": "Sub2",
-    "parent": "43567f03-90c4-11e5-9e88-51a36cc74e88",
+    "parent": "34f6d2a2-90cb-11e5-9b40-15653ef12fda",
     "origin": {
       "!span": "190[11:5]-199[11:14]",
       "!data": {
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Base.prototype"
       }
     },
     "tagfile": "__DIR__/protoname.js"
   },
   {
-    "id": "43567f05-90c4-11e5-9e88-51a36cc74e88",
+    "id": "34f6d2a4-90cb-11e5-9b40-15653ef12fda",
     "name": "Base2",
     "addr": "/Base2/",
     "kind": "f",
@@ -142,13 +142,13 @@ new Sub3(); //: Sub3
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/protoname.js"
   },
   {
-    "id": "43567f06-90c4-11e5-9e88-51a36cc74e88",
+    "id": "34f6d2a5-90cb-11e5-9b40-15653ef12fda",
     "name": "Sub3",
     "addr": "/Sub3/",
     "kind": "f",
@@ -159,26 +159,26 @@ new Sub3(); //: Sub3
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/protoname.js"
   },
   {
-    "id": "43567f07-90c4-11e5-9e88-51a36cc74e88",
+    "id": "34f6d2a6-90cb-11e5-9b40-15653ef12fda",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 18,
     "namespace": "Sub3",
-    "parent": "43567f06-90c4-11e5-9e88-51a36cc74e88",
+    "parent": "34f6d2a5-90cb-11e5-9b40-15653ef12fda",
     "origin": {
       "!span": "300[17:5]-309[17:14]",
       "!data": {
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Base2.prototype"
       }
     },
     "tagfile": "__DIR__/protoname.js"

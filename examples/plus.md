@@ -10,7 +10,7 @@ x + y; //: string
 ```json
 [
   {
-    "id": "42329870-90c4-11e5-9fa7-2937dfd8dd91",
+    "id": "33c4bb40-90cb-11e5-ba62-95a50e743e68",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
@@ -21,13 +21,13 @@ x + y; //: string
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/plus.js"
   },
   {
-    "id": "4232bf80-90c4-11e5-9fa7-2937dfd8dd91",
+    "id": "33c4e250-90cb-11e5-ba62-95a50e743e68",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
@@ -38,7 +38,7 @@ x + y; //: string
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/plus.js"

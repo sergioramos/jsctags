@@ -10,7 +10,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/empty_overridden_prop.js"
@@ -27,7 +27,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/empty_overridden_prop.js"
@@ -43,7 +43,7 @@
       "!type": "+Class",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Class.prototype"
       }
     },
     "tagfile": "__DIR__/empty_overridden_prop.js"
@@ -60,7 +60,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/empty_overridden_prop.js"

@@ -10,7 +10,7 @@
       "!type": "fn() -> +Ctor",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/ctorpattern.js"
@@ -27,7 +27,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/ctorpattern.js"

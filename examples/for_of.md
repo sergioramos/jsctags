@@ -24,7 +24,7 @@ for (let elt of [1, 2, 3])
 ```json
 [
   {
-    "id": "397de590-90c4-11e5-b926-1f92f6e3092c",
+    "id": "2b50e1f0-90cb-11e5-8864-b12b6346a61e",
     "name": "myIter",
     "addr": "/myIter/",
     "kind": "v",
@@ -33,70 +33,70 @@ for (let elt of [1, 2, 3])
       "!span": "4[0:4]-10[0:10]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/for_of.js"
   },
   {
-    "id": "397e0ca1-90c4-11e5-b926-1f92f6e3092c",
+    "id": "2b510901-90cb-11e5-8864-b12b6346a61e",
     "name": "iterator",
     "addr": "/Symbol\.iterator/",
     "kind": "f",
     "type": "myIter.:Symbol.iterator.!ret function()",
     "lineno": 2,
     "namespace": "myIter.:Symbol",
-    "parent": "397e0ca0-90c4-11e5-b926-1f92f6e3092c",
+    "parent": "2b510900-90cb-11e5-8864-b12b6346a61e",
     "origin": {
       "!span": "18[1:3]-33[1:18]",
       "!type": "fn() -> myIter.:Symbol.iterator.!ret",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/for_of.js"
   },
   {
-    "id": "397e0ca3-90c4-11e5-b926-1f92f6e3092c",
+    "id": "2b513010-90cb-11e5-8864-b12b6346a61e",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 5,
     "namespace": "hello",
-    "parent": "397e0ca2-90c4-11e5-b926-1f92f6e3092c",
+    "parent": "2b510902-90cb-11e5-8864-b12b6346a61e",
     "origin": {
       "!span": "91[4:24]-92[4:25]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/for_of.js"
   },
   {
-    "id": "397e33b0-90c4-11e5-b926-1f92f6e3092c",
+    "id": "2b513011-90cb-11e5-8864-b12b6346a61e",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "boolean",
     "lineno": 5,
     "namespace": "hello",
-    "parent": "397e0ca2-90c4-11e5-b926-1f92f6e3092c",
+    "parent": "2b510902-90cb-11e5-8864-b12b6346a61e",
     "origin": {
       "!span": "97[4:30]-98[4:31]",
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/for_of.js"
   },
   {
-    "id": "397e0ca2-90c4-11e5-b926-1f92f6e3092c",
+    "id": "2b510902-90cb-11e5-8864-b12b6346a61e",
     "name": "hello",
     "addr": "/hello/",
     "kind": "v",
@@ -105,13 +105,13 @@ for (let elt of [1, 2, 3])
       "!span": "150[10:9]-155[10:14]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/for_of.js"
   },
   {
-    "id": "397e33b1-90c4-11e5-b926-1f92f6e3092c",
+    "id": "2b513012-90cb-11e5-8864-b12b6346a61e",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
@@ -122,13 +122,13 @@ for (let elt of [1, 2, 3])
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/for_of.js"
   },
   {
-    "id": "397e33b2-90c4-11e5-b926-1f92f6e3092c",
+    "id": "2b513013-90cb-11e5-8864-b12b6346a61e",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
@@ -139,7 +139,7 @@ for (let elt of [1, 2, 3])
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/for_of.js"

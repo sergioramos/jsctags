@@ -8,7 +8,7 @@ try {
 ```json
 [
   {
-    "id": "3339e490-90c4-11e5-89cd-6bccce25450a",
+    "id": "25321c30-90cb-11e5-86c1-0dc5affd2859",
     "name": "e",
     "addr": "/e/",
     "kind": "v",
@@ -19,7 +19,7 @@ try {
       "!type": "+Error",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Error.prototype"
       }
     },
     "tagfile": "__DIR__/catch_error.js"

@@ -9,7 +9,7 @@ z //: string
 ```json
 [
   {
-    "id": "301aca40-90c4-11e5-8de0-5b6eeafa3f6d",
+    "id": "224e8440-90cb-11e5-a235-d592ed43c816",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
@@ -20,13 +20,13 @@ z //: string
       "!type": "[string]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/array_holes.js"
   },
   {
-    "id": "301b1860-90c4-11e5-8de0-5b6eeafa3f6d",
+    "id": "224e8441-90cb-11e5-a235-d592ed43c816",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
@@ -37,13 +37,13 @@ z //: string
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/array_holes.js"
   },
   {
-    "id": "301b1861-90c4-11e5-8de0-5b6eeafa3f6d",
+    "id": "224eab50-90cb-11e5-a235-d592ed43c816",
     "name": "z",
     "addr": "/z/",
     "kind": "v",
@@ -54,7 +54,7 @@ z //: string
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/array_holes.js"

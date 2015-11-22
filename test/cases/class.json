@@ -10,7 +10,7 @@
       "!type": "fn(x: number, y: number)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -25,7 +25,7 @@
       "!span": "0[0:0]-267[10:1]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -42,7 +42,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -61,7 +61,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -80,7 +80,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -97,7 +97,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -114,7 +114,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -131,7 +131,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -148,7 +148,7 @@
       "!type": "fn(pt: +Point2) -> +Point2",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -167,7 +167,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Point2.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -184,7 +184,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -201,7 +201,7 @@
       "!type": "fn() -> number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -218,7 +218,7 @@
       "!type": "fn() -> +Point2",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -234,7 +234,7 @@
       "!type": "fn(x: number, y: number, z: number, u: number)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -249,7 +249,7 @@
       "!span": "269[12:0]-379[15:1]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Point3.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -266,7 +266,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -283,7 +283,7 @@
       "!type": "fn() -> number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -299,7 +299,7 @@
       "!type": "fn(x: number, y: number, z: number)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -314,7 +314,7 @@
       "!span": "394[17:13]-496[20:1]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Point2.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -331,7 +331,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false,
+        "type": "Number.prototype",
         "scoped": true,
         "isArg": true
       }
@@ -350,7 +350,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false,
+        "type": "Number.prototype",
         "scoped": true,
         "isArg": true
       }
@@ -369,7 +369,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false,
+        "type": "Number.prototype",
         "scoped": true,
         "isArg": true
       }
@@ -388,7 +388,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -405,7 +405,7 @@
       "!type": "fn() -> bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -421,7 +421,7 @@
       "!type": "+Point2",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Point2.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -439,7 +439,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Point2.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -455,7 +455,7 @@
       "!type": "+Point3",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Point3.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -471,7 +471,7 @@
       "!type": "+Point4",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Point4.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"

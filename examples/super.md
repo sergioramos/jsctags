@@ -30,7 +30,7 @@ obj.getSuperX() //: number
 ```json
 [
   {
-    "id": "453d4060-90c4-11e5-a8f9-ab50905bbf7e",
+    "id": "36dad4e0-90cb-11e5-b3ad-e3458f34bf4d",
     "name": "Point3",
     "addr": "/Point3/",
     "kind": "f",
@@ -41,104 +41,104 @@ obj.getSuperX() //: number
       "!type": "fn(x: number, y: number, z: number)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "453d6770-90c4-11e5-a8f9-ab50905bbf7e",
+    "id": "36dafbf0-90cb-11e5-b3ad-e3458f34bf4d",
     "name": "prototype",
     "addr": "/class Point3 extends Point2 \{/",
     "kind": "v",
     "lineno": 1,
     "namespace": "Point3",
-    "parent": "453d4060-90c4-11e5-a8f9-ab50905bbf7e",
+    "parent": "36dad4e0-90cb-11e5-b3ad-e3458f34bf4d",
     "origin": {
       "!span": "0[0:0]-150[4:1]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Point2.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "453d8e81-90c4-11e5-a8f9-ab50905bbf7e",
+    "id": "36db2301-90cb-11e5-b3ad-e3458f34bf4d",
     "name": "z",
     "addr": "/z/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "Point3",
-    "parent": "453d4060-90c4-11e5-a8f9-ab50905bbf7e",
+    "parent": "36dad4e0-90cb-11e5-b3ad-e3458f34bf4d",
     "origin": {
       "!span": "73[1:43]-74[1:44]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "453d6771-90c4-11e5-a8f9-ab50905bbf7e",
+    "id": "36dafbf1-90cb-11e5-b3ad-e3458f34bf4d",
     "name": "foobar",
     "addr": "/foobar/",
     "kind": "f",
     "type": "!this.x function()",
     "lineno": 3,
     "namespace": "Point3.prototype",
-    "parent": "453d6770-90c4-11e5-a8f9-ab50905bbf7e",
+    "parent": "36dafbf0-90cb-11e5-b3ad-e3458f34bf4d",
     "origin": {
       "!span": "83[2:2]-89[2:8]",
       "!type": "fn() -> !this.x",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "453d8e80-90c4-11e5-a8f9-ab50905bbf7e",
+    "id": "36db2300-90cb-11e5-b3ad-e3458f34bf4d",
     "name": "callSuper",
     "addr": "/callSuper/",
     "kind": "f",
     "type": "string function()",
     "lineno": 4,
     "namespace": "Point3.prototype",
-    "parent": "453d6770-90c4-11e5-a8f9-ab50905bbf7e",
+    "parent": "36dafbf0-90cb-11e5-b3ad-e3458f34bf4d",
     "origin": {
       "!span": "112[3:2]-121[3:11]",
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "453d8e85-90c4-11e5-a8f9-ab50905bbf7e",
+    "id": "36db2305-90cb-11e5-b3ad-e3458f34bf4d",
     "name": "prototype",
     "addr": "/class Point2 \{/",
     "kind": "v",
     "lineno": 7,
     "namespace": "Point2",
-    "parent": "453d8e84-90c4-11e5-a8f9-ab50905bbf7e",
+    "parent": "36db2304-90cb-11e5-b3ad-e3458f34bf4d",
     "origin": {
       "!span": "152[6:0]-244[9:1]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "453d8e84-90c4-11e5-a8f9-ab50905bbf7e",
+    "id": "36db2304-90cb-11e5-b3ad-e3458f34bf4d",
     "name": "Point2",
     "addr": "/Point2/",
     "kind": "f",
@@ -149,70 +149,70 @@ obj.getSuperX() //: number
       "!type": "fn(x: number, y: number)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "453d8e83-90c4-11e5-a8f9-ab50905bbf7e",
+    "id": "36db2303-90cb-11e5-b3ad-e3458f34bf4d",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 8,
     "namespace": "Point3",
-    "parent": "453d4060-90c4-11e5-a8f9-ab50905bbf7e",
+    "parent": "36dad4e0-90cb-11e5-b3ad-e3458f34bf4d",
     "origin": {
       "!span": "206[7:39]-207[7:40]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "453d8e82-90c4-11e5-a8f9-ab50905bbf7e",
+    "id": "36db2302-90cb-11e5-b3ad-e3458f34bf4d",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 8,
     "namespace": "Point3",
-    "parent": "453d4060-90c4-11e5-a8f9-ab50905bbf7e",
+    "parent": "36dad4e0-90cb-11e5-b3ad-e3458f34bf4d",
     "origin": {
       "!span": "194[7:27]-195[7:28]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "453d8e86-90c4-11e5-a8f9-ab50905bbf7e",
+    "id": "36db2306-90cb-11e5-b3ad-e3458f34bf4d",
     "name": "hello",
     "addr": "/hello/",
     "kind": "f",
     "type": "string function()",
     "lineno": 9,
     "namespace": "Point2.prototype",
-    "parent": "453d8e85-90c4-11e5-a8f9-ab50905bbf7e",
+    "parent": "36db2305-90cb-11e5-b3ad-e3458f34bf4d",
     "origin": {
       "!span": "216[8:2]-221[8:7]",
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "453d8e87-90c4-11e5-a8f9-ab50905bbf7e",
+    "id": "36db2307-90cb-11e5-b3ad-e3458f34bf4d",
     "name": "p",
     "addr": "/p/",
     "kind": "v",
@@ -223,13 +223,13 @@ obj.getSuperX() //: number
       "!type": "+Point3",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Point3.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "453d8e88-90c4-11e5-a8f9-ab50905bbf7e",
+    "id": "36db2308-90cb-11e5-b3ad-e3458f34bf4d",
     "name": "pro",
     "addr": "/pro/",
     "kind": "v",
@@ -238,32 +238,32 @@ obj.getSuperX() //: number
       "!span": "362[17:4]-365[17:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "453d8e89-90c4-11e5-a8f9-ab50905bbf7e",
+    "id": "36db2309-90cb-11e5-b3ad-e3458f34bf4d",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 18,
     "namespace": "pro",
-    "parent": "453d8e88-90c4-11e5-a8f9-ab50905bbf7e",
+    "parent": "36db2308-90cb-11e5-b3ad-e3458f34bf4d",
     "origin": {
       "!span": "369[17:11]-370[17:12]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "453d8e8a-90c4-11e5-a8f9-ab50905bbf7e",
+    "id": "36db230a-90cb-11e5-b3ad-e3458f34bf4d",
     "name": "obj",
     "addr": "/obj/",
     "kind": "v",
@@ -272,45 +272,45 @@ obj.getSuperX() //: number
       "!span": "381[19:4]-384[19:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "pro"
       }
     },
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "453d8e8b-90c4-11e5-a8f9-ab50905bbf7e",
+    "id": "36db230b-90cb-11e5-b3ad-e3458f34bf4d",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "string",
     "lineno": 22,
     "namespace": "obj",
-    "parent": "453d8e8a-90c4-11e5-a8f9-ab50905bbf7e",
+    "parent": "36db230a-90cb-11e5-b3ad-e3458f34bf4d",
     "origin": {
       "!span": "409[21:2]-410[21:3]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"
   },
   {
-    "id": "453d8e8c-90c4-11e5-a8f9-ab50905bbf7e",
+    "id": "36db230c-90cb-11e5-b3ad-e3458f34bf4d",
     "name": "getSuperX",
     "addr": "/getSuperX/",
     "kind": "f",
     "type": "number function()",
     "lineno": 23,
     "namespace": "obj",
-    "parent": "453d8e8a-90c4-11e5-a8f9-ab50905bbf7e",
+    "parent": "36db230a-90cb-11e5-b3ad-e3458f34bf4d",
     "origin": {
       "!span": "424[22:2]-433[22:11]",
       "!type": "fn() -> number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/super.js"

@@ -16,7 +16,7 @@ map([1, 2, 3], function() { return true; }); //: [bool]
 ```json
 [
   {
-    "id": "44da38d0-90c4-11e5-9705-c34492f61bd8",
+    "id": "36753540-90cb-11e5-ba2d-b37d514b175f",
     "name": "last",
     "addr": "/last/",
     "kind": "f",
@@ -27,20 +27,20 @@ map([1, 2, 3], function() { return true; }); //: [bool]
       "!type": "fn(arr: [number]|[string]) -> !0.<i>",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
-    "id": "44da5fe0-90c4-11e5-9705-c34492f61bd8",
+    "id": "36758360-90cb-11e5-ba2d-b37d514b175f",
     "name": "arr",
     "addr": "/arr/",
     "kind": "v",
     "type": "[number]|[string]",
     "lineno": 1,
     "namespace": "last",
-    "parent": "44da38d0-90c4-11e5-9705-c34492f61bd8",
+    "parent": "36753540-90cb-11e5-ba2d-b37d514b175f",
     "origin": {
       "!span": "14[0:14]-17[0:17]",
       "!type": "[number]|[string]",
@@ -48,13 +48,13 @@ map([1, 2, 3], function() { return true; }); //: [bool]
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
-    "id": "44da5fe1-90c4-11e5-9705-c34492f61bd8",
+    "id": "36758361-90cb-11e5-ba2d-b37d514b175f",
     "name": "map",
     "addr": "/map/",
     "kind": "f",
@@ -65,20 +65,20 @@ map([1, 2, 3], function() { return true; }); //: [bool]
       "!type": "fn(arr: [number], f: fn() -> string|fn() -> bool) -> [?]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
-    "id": "44da86f0-90c4-11e5-9705-c34492f61bd8",
+    "id": "36758362-90cb-11e5-ba2d-b37d514b175f",
     "name": "arr",
     "addr": "/arr/",
     "kind": "v",
     "type": "[number]",
     "lineno": 6,
     "namespace": "map",
-    "parent": "44da5fe1-90c4-11e5-9705-c34492f61bd8",
+    "parent": "36758361-90cb-11e5-ba2d-b37d514b175f",
     "origin": {
       "!span": "128[5:13]-131[5:16]",
       "!type": "[number]",
@@ -86,20 +86,20 @@ map([1, 2, 3], function() { return true; }); //: [bool]
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
-    "id": "44da86f1-90c4-11e5-9705-c34492f61bd8",
+    "id": "36758363-90cb-11e5-ba2d-b37d514b175f",
     "name": "f",
     "addr": "/f/",
     "kind": "f",
     "type": "boolean function()",
     "lineno": 6,
     "namespace": "map",
-    "parent": "44da5fe1-90c4-11e5-9705-c34492f61bd8",
+    "parent": "36758361-90cb-11e5-ba2d-b37d514b175f",
     "origin": {
       "!span": "133[5:18]-134[5:19]",
       "!type": "fn() -> bool",
@@ -107,20 +107,20 @@ map([1, 2, 3], function() { return true; }); //: [bool]
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
-    "id": "44da86f3-90c4-11e5-9705-c34492f61bd8",
+    "id": "36758365-90cb-11e5-ba2d-b37d514b175f",
     "name": "res",
     "addr": "/res/",
     "kind": "v",
     "type": "[bool]",
     "lineno": 7,
     "namespace": "map",
-    "parent": "44da5fe1-90c4-11e5-9705-c34492f61bd8",
+    "parent": "36758361-90cb-11e5-ba2d-b37d514b175f",
     "origin": {
       "!span": "144[6:6]-147[6:9]",
       "!type": "[bool]",
@@ -128,20 +128,20 @@ map([1, 2, 3], function() { return true; }); //: [bool]
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/simple_generic.js"
   },
   {
-    "id": "44da86f2-90c4-11e5-9705-c34492f61bd8",
+    "id": "36758364-90cb-11e5-ba2d-b37d514b175f",
     "name": "i",
     "addr": "/i/",
     "kind": "v",
     "type": "number",
     "lineno": 8,
     "namespace": "map",
-    "parent": "44da5fe1-90c4-11e5-9705-c34492f61bd8",
+    "parent": "36758361-90cb-11e5-ba2d-b37d514b175f",
     "origin": {
       "!span": "165[7:11]-166[7:12]",
       "!type": "number",
@@ -149,7 +149,7 @@ map([1, 2, 3], function() { return true; }); //: [bool]
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/simple_generic.js"

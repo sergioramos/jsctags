@@ -20,7 +20,7 @@ Obj.prototype.map = function() {
 ```json
 [
   {
-    "id": "307f7f80-90c4-11e5-a081-79eb119150c6",
+    "id": "22aafc20-90cb-11e5-a356-d70a3d4acae2",
     "name": "f",
     "addr": "/f/",
     "kind": "f",
@@ -31,20 +31,20 @@ Obj.prototype.map = function() {
       "!type": "fn(a: number, [b]: [bool]) -> f.!ret",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/arrow.js"
   },
   {
-    "id": "307fcda0-90c4-11e5-a081-79eb119150c6",
+    "id": "22ab2330-90cb-11e5-a356-d70a3d4acae2",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "f",
-    "parent": "307f7f80-90c4-11e5-a081-79eb119150c6",
+    "parent": "22aafc20-90cb-11e5-a356-d70a3d4acae2",
     "origin": {
       "!span": "9[0:9]-10[0:10]",
       "!type": "number",
@@ -52,20 +52,20 @@ Obj.prototype.map = function() {
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/arrow.js"
   },
   {
-    "id": "307fcda1-90c4-11e5-a081-79eb119150c6",
+    "id": "22ab4a40-90cb-11e5-a356-d70a3d4acae2",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "boolean",
     "lineno": 1,
     "namespace": "f",
-    "parent": "307f7f80-90c4-11e5-a081-79eb119150c6",
+    "parent": "22aafc20-90cb-11e5-a356-d70a3d4acae2",
     "origin": {
       "!span": "13[0:13]-14[0:14]",
       "!type": "bool",
@@ -73,13 +73,13 @@ Obj.prototype.map = function() {
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/arrow.js"
   },
   {
-    "id": "307fcda2-90c4-11e5-a081-79eb119150c6",
+    "id": "22ab4a41-90cb-11e5-a356-d70a3d4acae2",
     "name": "wrap",
     "addr": "/wrap/",
     "kind": "f",
@@ -90,13 +90,13 @@ Obj.prototype.map = function() {
       "!type": "fn() -> fn() -> wrap.!ret.!ret",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/arrow.js"
   },
   {
-    "id": "307fcda3-90c4-11e5-a081-79eb119150c6",
+    "id": "22ab4a42-90cb-11e5-a356-d70a3d4acae2",
     "name": "Obj",
     "addr": "/Obj/",
     "kind": "f",
@@ -107,26 +107,26 @@ Obj.prototype.map = function() {
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/arrow.js"
   },
   {
-    "id": "307fcda5-90c4-11e5-a081-79eb119150c6",
+    "id": "22ab4a44-90cb-11e5-a356-d70a3d4acae2",
     "name": "map",
     "addr": "/map/",
     "kind": "f",
     "type": "[!this.x] function()",
     "lineno": 13,
     "namespace": "Obj.prototype",
-    "parent": "307fcda4-90c4-11e5-a081-79eb119150c6",
+    "parent": "22ab4a43-90cb-11e5-a356-d70a3d4acae2",
     "origin": {
       "!span": "212[12:14]-215[12:17]",
       "!type": "fn() -> [!this.x]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/arrow.js"

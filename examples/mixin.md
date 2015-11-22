@@ -41,7 +41,7 @@ mixin("foo") //: string
 ```json
 [
   {
-    "id": "3f144170-90c4-11e5-9645-71b09c83d86d",
+    "id": "30c8b950-90cb-11e5-a2a4-8104796ae2ac",
     "name": "Class",
     "addr": "/Class/",
     "kind": "f",
@@ -52,49 +52,49 @@ mixin("foo") //: string
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "3f146880-90c4-11e5-9645-71b09c83d86d",
+    "id": "30c8e060-90cb-11e5-a2a4-8104796ae2ac",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 2,
     "namespace": "Class",
-    "parent": "3f144170-90c4-11e5-9645-71b09c83d86d",
+    "parent": "30c8b950-90cb-11e5-a2a4-8104796ae2ac",
     "origin": {
       "!span": "26[1:6]-35[1:15]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "3f148f90-90c4-11e5-9645-71b09c83d86d",
+    "id": "30c8e061-90cb-11e5-a2a4-8104796ae2ac",
     "name": "m3",
     "addr": "/m3/",
     "kind": "f",
     "type": "void function()",
     "lineno": 4,
     "namespace": "Class.prototype",
-    "parent": "3f146880-90c4-11e5-9645-71b09c83d86d",
+    "parent": "30c8e060-90cb-11e5-a2a4-8104796ae2ac",
     "origin": {
       "!span": "56[3:2]-58[3:4]",
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "3f152bd1-90c4-11e5-9645-71b09c83d86d",
+    "id": "30c9a3b1-90cb-11e5-a2a4-8104796ae2ac",
     "name": "mixin",
     "addr": "/mixin/",
     "kind": "f",
@@ -105,32 +105,32 @@ mixin("foo") //: string
       "!type": "fn(obj: Class.prototype|string) -> !0",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "3f1504c0-90c4-11e5-9645-71b09c83d86d",
+    "id": "30c97ca0-90cb-11e5-a2a4-8104796ae2ac",
     "name": "m1",
     "addr": "/m1/",
     "kind": "f",
     "type": "void function()",
     "lineno": 14,
     "namespace": "Class.prototype",
-    "parent": "3f146880-90c4-11e5-9645-71b09c83d86d",
+    "parent": "30c8e060-90cb-11e5-a2a4-8104796ae2ac",
     "origin": {
       "!span": "159[13:9]-161[13:11]",
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "3f152bd2-90c4-11e5-9645-71b09c83d86d",
+    "id": "30c9a3b2-90cb-11e5-a2a4-8104796ae2ac",
     "name": "m1",
     "addr": "/m1/",
     "kind": "f",
@@ -141,32 +141,32 @@ mixin("foo") //: string
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "3f15c810-90c4-11e5-9645-71b09c83d86d",
+    "id": "30ca3ff0-90cb-11e5-a2a4-8104796ae2ac",
     "name": "m1",
     "addr": "/m1/",
     "kind": "f",
     "type": "void function()",
     "lineno": 14,
     "namespace": "OtherClass.prototype",
-    "parent": "3f152bd5-90c4-11e5-9645-71b09c83d86d",
+    "parent": "30c9a3b5-90cb-11e5-a2a4-8104796ae2ac",
     "origin": {
       "!span": "159[13:9]-161[13:11]",
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "3f152bd3-90c4-11e5-9645-71b09c83d86d",
+    "id": "30c9a3b3-90cb-11e5-a2a4-8104796ae2ac",
     "name": "m2",
     "addr": "/m2/",
     "kind": "f",
@@ -177,51 +177,51 @@ mixin("foo") //: string
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "3f15ef20-90c4-11e5-9645-71b09c83d86d",
+    "id": "30ca3ff1-90cb-11e5-a2a4-8104796ae2ac",
     "name": "m2",
     "addr": "/m2/",
     "kind": "f",
     "type": "void function()",
     "lineno": 16,
     "namespace": "OtherClass.prototype",
-    "parent": "3f152bd5-90c4-11e5-9645-71b09c83d86d",
+    "parent": "30c9a3b5-90cb-11e5-a2a4-8104796ae2ac",
     "origin": {
       "!span": "182[15:9]-184[15:11]",
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "3f152bd0-90c4-11e5-9645-71b09c83d86d",
+    "id": "30c9a3b0-90cb-11e5-a2a4-8104796ae2ac",
     "name": "m2",
     "addr": "/m2/",
     "kind": "f",
     "type": "void function()",
     "lineno": 16,
     "namespace": "Class.prototype",
-    "parent": "3f146880-90c4-11e5-9645-71b09c83d86d",
+    "parent": "30c8e060-90cb-11e5-a2a4-8104796ae2ac",
     "origin": {
       "!span": "182[15:9]-184[15:11]",
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "3f152bd4-90c4-11e5-9645-71b09c83d86d",
+    "id": "30c9a3b4-90cb-11e5-a2a4-8104796ae2ac",
     "name": "OtherClass",
     "addr": "/OtherClass/",
     "kind": "f",
@@ -232,49 +232,49 @@ mixin("foo") //: string
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "3f152bd5-90c4-11e5-9645-71b09c83d86d",
+    "id": "30c9a3b5-90cb-11e5-a2a4-8104796ae2ac",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 19,
     "namespace": "OtherClass",
-    "parent": "3f152bd4-90c4-11e5-9645-71b09c83d86d",
+    "parent": "30c9a3b4-90cb-11e5-a2a4-8104796ae2ac",
     "origin": {
       "!span": "227[18:11]-236[18:20]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "3f152bd6-90c4-11e5-9645-71b09c83d86d",
+    "id": "30c9a3b6-90cb-11e5-a2a4-8104796ae2ac",
     "name": "m4",
     "addr": "/m4/",
     "kind": "f",
     "type": "void function()",
     "lineno": 21,
     "namespace": "OtherClass.prototype",
-    "parent": "3f152bd5-90c4-11e5-9645-71b09c83d86d",
+    "parent": "30c9a3b5-90cb-11e5-a2a4-8104796ae2ac",
     "origin": {
       "!span": "257[20:2]-259[20:4]",
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "3f15ef21-90c4-11e5-9645-71b09c83d86d",
+    "id": "30ca6700-90cb-11e5-a2a4-8104796ae2ac",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
@@ -284,14 +284,13 @@ mixin("foo") //: string
       "!span": "283[23:4]-284[23:5]",
       "!type": "+Class",
       "!data": {
-        "isConstructor": false,
-        "isPlainObject": false
+        "isConstructor": false
       }
     },
     "tagfile": "__DIR__/mixin.js"
   },
   {
-    "id": "3f15ef22-90c4-11e5-9645-71b09c83d86d",
+    "id": "30ca6701-90cb-11e5-a2a4-8104796ae2ac",
     "name": "oc",
     "addr": "/oc/",
     "kind": "v",
@@ -301,8 +300,7 @@ mixin("foo") //: string
       "!span": "359[30:4]-361[30:6]",
       "!type": "+OtherClass",
       "!data": {
-        "isConstructor": false,
-        "isPlainObject": false
+        "isConstructor": false
       }
     },
     "tagfile": "__DIR__/mixin.js"

@@ -8,7 +8,7 @@
       "!span": "4[0:4]-7[0:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/blowup.js"
@@ -25,7 +25,7 @@
       "!type": "fn(subclass: fn(), superclass: ?)",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/blowup.js"
@@ -41,8 +41,7 @@
       "!data": {
         "isConstructor": false,
         "scoped": false,
-        "isArg": false,
-        "isPlainObject": false
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/blowup.js"
@@ -61,7 +60,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/blowup.js"
@@ -78,7 +77,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/blowup.js"
@@ -97,7 +96,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/blowup.js"
@@ -116,7 +115,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/blowup.js"
@@ -135,7 +134,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/blowup.js"
@@ -151,8 +150,7 @@
       "!data": {
         "isConstructor": false,
         "scoped": false,
-        "isArg": false,
-        "isPlainObject": false
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/blowup.js"

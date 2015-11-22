@@ -44,7 +44,7 @@ p4.quux() //: number
 ```json
 [
   {
-    "id": "3398a660-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258c2310-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "Point2",
     "addr": "/Point2/",
     "kind": "f",
@@ -55,56 +55,56 @@ p4.quux() //: number
       "!type": "fn(x: number, y: number)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "3398cd70-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258c4a20-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "prototype",
     "addr": "/class Point2 \{/",
     "kind": "v",
     "lineno": 1,
     "namespace": "Point2",
-    "parent": "3398a660-90c4-11e5-82db-d70c3af30d0a",
+    "parent": "258c2310-90cb-11e5-ad5d-47d798d4d7d6",
     "origin": {
       "!span": "0[0:0]-267[10:1]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "3398f48a-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258c9840-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "Point4",
-    "parent": "3398f485-90c4-11e5-82db-d70c3af30d0a",
+    "parent": "258c7138-90cb-11e5-ad5d-47d798d4d7d6",
     "origin": {
       "!span": "42[1:27]-43[1:28]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "3398cd73-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258c7131-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "Point2.prototype.plus.pt",
-    "parent": "3398cd72-90c4-11e5-82db-d70c3af30d0a",
+    "parent": "258c7130-90cb-11e5-ad5d-47d798d4d7d6",
     "origin": {
       "!span": "42[1:27]-43[1:28]",
       "!type": "number",
@@ -112,20 +112,20 @@ p4.quux() //: number
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "3398cd74-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258c7132-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "Point2.prototype.plus.pt",
-    "parent": "3398cd72-90c4-11e5-82db-d70c3af30d0a",
+    "parent": "258c7130-90cb-11e5-ad5d-47d798d4d7d6",
     "origin": {
       "!span": "54[1:39]-55[1:40]",
       "!type": "number",
@@ -133,96 +133,96 @@ p4.quux() //: number
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "3398f48b-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258c9841-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "Point4",
-    "parent": "3398f485-90c4-11e5-82db-d70c3af30d0a",
+    "parent": "258c7138-90cb-11e5-ad5d-47d798d4d7d6",
     "origin": {
       "!span": "54[1:39]-55[1:40]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "3398f484-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258c7137-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "Point2",
-    "parent": "3398a660-90c4-11e5-82db-d70c3af30d0a",
+    "parent": "258c2310-90cb-11e5-ad5d-47d798d4d7d6",
     "origin": {
       "!span": "54[1:39]-55[1:40]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "3398f483-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258c7136-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "Point2",
-    "parent": "3398a660-90c4-11e5-82db-d70c3af30d0a",
+    "parent": "258c2310-90cb-11e5-ad5d-47d798d4d7d6",
     "origin": {
       "!span": "42[1:27]-43[1:28]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "3398cd71-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258c4a21-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "plus",
     "addr": "/plus/",
     "kind": "f",
     "type": "Point2 function(+Point2)",
     "lineno": 3,
     "namespace": "Point2.prototype",
-    "parent": "3398cd70-90c4-11e5-82db-d70c3af30d0a",
+    "parent": "258c4a20-90cb-11e5-ad5d-47d798d4d7d6",
     "origin": {
       "!span": "64[2:2]-68[2:6]",
       "!type": "fn(pt: +Point2) -> +Point2",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "3398cd72-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258c7130-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "pt",
     "addr": "/pt/",
     "kind": "v",
     "type": "Point2",
     "lineno": 3,
     "namespace": "Point2.prototype.plus",
-    "parent": "3398cd71-90c4-11e5-82db-d70c3af30d0a",
+    "parent": "258c4a21-90cb-11e5-ad5d-47d798d4d7d6",
     "origin": {
       "!span": "69[2:7]-71[2:9]",
       "!type": "+Point2",
@@ -230,70 +230,70 @@ p4.quux() //: number
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Point2.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "3398f480-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258c7133-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "xx",
     "addr": "/xx/",
     "kind": "v",
     "type": "number",
     "lineno": 8,
     "namespace": "Point2.prototype",
-    "parent": "3398cd70-90c4-11e5-82db-d70c3af30d0a",
+    "parent": "258c4a20-90cb-11e5-ad5d-47d798d4d7d6",
     "origin": {
       "!span": "175[7:6]-177[7:8]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "3398f481-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258c7134-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "quux",
     "addr": "/quux/",
     "kind": "f",
     "type": "number function()",
     "lineno": 9,
     "namespace": "Point2.prototype",
-    "parent": "3398cd70-90c4-11e5-82db-d70c3af30d0a",
+    "parent": "258c4a20-90cb-11e5-ad5d-47d798d4d7d6",
     "origin": {
       "!span": "200[8:2]-204[8:6]",
       "!type": "fn() -> number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "3398f482-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258c7135-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "origin",
     "addr": "/origin/",
     "kind": "f",
     "type": "Point2 function()",
     "lineno": 10,
     "namespace": "Point2",
-    "parent": "3398a660-90c4-11e5-82db-d70c3af30d0a",
+    "parent": "258c2310-90cb-11e5-ad5d-47d798d4d7d6",
     "origin": {
       "!span": "229[9:9]-235[9:15]",
       "!type": "fn() -> +Point2",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "3398f485-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258c7138-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "Point4",
     "addr": "/Point4/",
     "kind": "f",
@@ -304,68 +304,68 @@ p4.quux() //: number
       "!type": "fn(x: number, y: number, z: number, u: number)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "3398f486-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258c7139-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "prototype",
     "addr": "/class Point4 extends Point3 \{/",
     "kind": "v",
     "lineno": 13,
     "namespace": "Point4",
-    "parent": "3398f485-90c4-11e5-82db-d70c3af30d0a",
+    "parent": "258c7138-90cb-11e5-ad5d-47d798d4d7d6",
     "origin": {
       "!span": "269[12:0]-379[15:1]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Point3.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "3398f488-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258c713b-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "u",
     "addr": "/u/",
     "kind": "v",
     "type": "number",
     "lineno": 14,
     "namespace": "Point4",
-    "parent": "3398f485-90c4-11e5-82db-d70c3af30d0a",
+    "parent": "258c7138-90cb-11e5-ad5d-47d798d4d7d6",
     "origin": {
       "!span": "348[13:49]-349[13:50]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "3398f487-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258c713a-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "argh",
     "addr": "/argh/",
     "kind": "f",
     "type": "number function()",
     "lineno": 15,
     "namespace": "Point4.prototype",
-    "parent": "3398f486-90c4-11e5-82db-d70c3af30d0a",
+    "parent": "258c7139-90cb-11e5-ad5d-47d798d4d7d6",
     "origin": {
       "!span": "358[14:2]-362[14:6]",
       "!type": "fn() -> number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "3398f48c-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258c9842-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "Point3",
     "addr": "/Point3/",
     "kind": "f",
@@ -376,43 +376,43 @@ p4.quux() //: number
       "!type": "fn(x: number, y: number, z: number)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "3398f48d-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258c9843-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "prototype",
     "addr": "/class extends Point2 \{/",
     "kind": "v",
     "lineno": 18,
     "namespace": "Point3",
-    "parent": "3398f48c-90c4-11e5-82db-d70c3af30d0a",
+    "parent": "258c9842-90cb-11e5-ad5d-47d798d4d7d6",
     "origin": {
       "!span": "394[17:13]-496[20:1]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Point2.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "33991b90-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258c9846-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 19,
     "namespace": "Point3",
-    "parent": "3398f48c-90c4-11e5-82db-d70c3af30d0a",
+    "parent": "258c9842-90cb-11e5-ad5d-47d798d4d7d6",
     "origin": {
       "!span": "431[18:14]-432[18:15]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false,
+        "type": "Number.prototype",
         "scoped": true,
         "isArg": true
       }
@@ -420,20 +420,20 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "33991b91-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258cbf50-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 19,
     "namespace": "Point3",
-    "parent": "3398f48c-90c4-11e5-82db-d70c3af30d0a",
+    "parent": "258c9842-90cb-11e5-ad5d-47d798d4d7d6",
     "origin": {
       "!span": "434[18:17]-435[18:18]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false,
+        "type": "Number.prototype",
         "scoped": true,
         "isArg": true
       }
@@ -441,20 +441,20 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "3398f48f-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258c9845-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "z",
     "addr": "/z/",
     "kind": "v",
     "type": "number",
     "lineno": 19,
     "namespace": "Point3",
-    "parent": "3398f48c-90c4-11e5-82db-d70c3af30d0a",
+    "parent": "258c9842-90cb-11e5-ad5d-47d798d4d7d6",
     "origin": {
       "!span": "437[18:20]-438[18:21]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false,
+        "type": "Number.prototype",
         "scoped": true,
         "isArg": true
       }
@@ -462,45 +462,45 @@ p4.quux() //: number
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "3398f489-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258c713c-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "z",
     "addr": "/z/",
     "kind": "v",
     "type": "number",
     "lineno": 19,
     "namespace": "Point4",
-    "parent": "3398f485-90c4-11e5-82db-d70c3af30d0a",
+    "parent": "258c7138-90cb-11e5-ad5d-47d798d4d7d6",
     "origin": {
       "!span": "460[18:43]-461[18:44]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "3398f48e-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258c9844-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "foobar",
     "addr": "/foobar/",
     "kind": "f",
     "type": "boolean function()",
     "lineno": 20,
     "namespace": "Point3.prototype",
-    "parent": "3398f48d-90c4-11e5-82db-d70c3af30d0a",
+    "parent": "258c9843-90cb-11e5-ad5d-47d798d4d7d6",
     "origin": {
       "!span": "470[19:2]-476[19:8]",
       "!type": "fn() -> bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "33991b92-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258cbf51-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "p1",
     "addr": "/p1/",
     "kind": "v",
@@ -511,19 +511,19 @@ p4.quux() //: number
       "!type": "+Point2",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Point2.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "33991b96-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258cbf55-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "p2",
     "addr": "/p2/",
     "kind": "v",
     "type": "Point2",
     "lineno": 26,
-    "parent": "33991b95-90c4-11e5-82db-d70c3af30d0a",
+    "parent": "258cbf54-90cb-11e5-ad5d-47d798d4d7d6",
     "origin": {
       "!span": "558[25:4]-560[25:6]",
       "!type": "+Point2",
@@ -531,13 +531,13 @@ p4.quux() //: number
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Point2.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "33991b93-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258cbf52-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "p3",
     "addr": "/p3/",
     "kind": "v",
@@ -548,13 +548,13 @@ p4.quux() //: number
       "!type": "+Point3",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Point3.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
   },
   {
-    "id": "33991b94-90c4-11e5-82db-d70c3af30d0a",
+    "id": "258cbf53-90cb-11e5-ad5d-47d798d4d7d6",
     "name": "p4",
     "addr": "/p4/",
     "kind": "v",
@@ -565,7 +565,7 @@ p4.quux() //: number
       "!type": "+Point4",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Point4.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"

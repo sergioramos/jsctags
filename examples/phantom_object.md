@@ -14,7 +14,7 @@ otherMod.c //: number
 ```json
 [
   {
-    "id": "41d228f0-90c4-11e5-badf-7fd79ec149bf",
+    "id": "336a1820-90cb-11e5-aca8-0d780aea4eab",
     "name": "mod",
     "addr": "/mod/",
     "kind": "v",
@@ -22,33 +22,32 @@ otherMod.c //: number
     "origin": {
       "!span": "4[0:4]-7[0:7]",
       "!data": {
-        "isConstructor": false,
-        "isPlainObject": false
+        "isConstructor": false
       }
     },
     "tagfile": "__DIR__/phantom_object.js"
   },
   {
-    "id": "41d25000-90c4-11e5-badf-7fd79ec149bf",
+    "id": "336a3f30-90cb-11e5-aca8-0d780aea4eab",
     "name": "func",
     "addr": "/func/",
     "kind": "f",
     "type": "number function()",
     "lineno": 3,
     "namespace": "mod",
-    "parent": "41d228f0-90c4-11e5-badf-7fd79ec149bf",
+    "parent": "336a1820-90cb-11e5-aca8-0d780aea4eab",
     "origin": {
       "!span": "31[2:4]-35[2:8]",
       "!type": "fn() -> number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/phantom_object.js"
   },
   {
-    "id": "41d25001-90c4-11e5-badf-7fd79ec149bf",
+    "id": "336a6640-90cb-11e5-aca8-0d780aea4eab",
     "name": "otherMod",
     "addr": "/otherMod/",
     "kind": "v",
@@ -56,27 +55,26 @@ otherMod.c //: number
     "origin": {
       "!span": "97[6:4]-105[6:12]",
       "!data": {
-        "isConstructor": false,
-        "isPlainObject": false
+        "isConstructor": false
       }
     },
     "tagfile": "__DIR__/phantom_object.js"
   },
   {
-    "id": "41d25002-90c4-11e5-badf-7fd79ec149bf",
+    "id": "336a6641-90cb-11e5-aca8-0d780aea4eab",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
     "type": "number",
     "lineno": 9,
     "namespace": "otherMod",
-    "parent": "41d25001-90c4-11e5-badf-7fd79ec149bf",
+    "parent": "336a6640-90cb-11e5-aca8-0d780aea4eab",
     "origin": {
       "!span": "148[8:9]-149[8:10]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/phantom_object.js"

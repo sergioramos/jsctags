@@ -16,7 +16,7 @@ build`foo${10}bar${'hi'}` //: bool
 ```json
 [
   {
-    "id": "46009060-90c4-11e5-8b49-850d93e85ce3",
+    "id": "379b65c0-90cb-11e5-a178-65cfb9164160",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
@@ -27,13 +27,13 @@ build`foo${10}bar${'hi'}` //: bool
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/template.js"
   },
   {
-    "id": "4600b770-90c4-11e5-8b49-850d93e85ce3",
+    "id": "379b8cd0-90cb-11e5-a178-65cfb9164160",
     "name": "build",
     "addr": "/build/",
     "kind": "f",
@@ -44,20 +44,20 @@ build`foo${10}bar${'hi'}` //: bool
       "!type": "fn(strs: [string], a: number, b: string) -> bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/template.js"
   },
   {
-    "id": "4600b771-90c4-11e5-8b49-850d93e85ce3",
+    "id": "379b8cd1-90cb-11e5-a178-65cfb9164160",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
     "namespace": "build",
-    "parent": "4600b770-90c4-11e5-8b49-850d93e85ce3",
+    "parent": "379b8cd0-90cb-11e5-a178-65cfb9164160",
     "origin": {
       "!span": "87[5:21]-88[5:22]",
       "!type": "number",
@@ -65,20 +65,20 @@ build`foo${10}bar${'hi'}` //: bool
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/template.js"
   },
   {
-    "id": "4600de80-90c4-11e5-8b49-850d93e85ce3",
+    "id": "379b8cd2-90cb-11e5-a178-65cfb9164160",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "string",
     "lineno": 6,
     "namespace": "build",
-    "parent": "4600b770-90c4-11e5-8b49-850d93e85ce3",
+    "parent": "379b8cd0-90cb-11e5-a178-65cfb9164160",
     "origin": {
       "!span": "90[5:24]-91[5:25]",
       "!type": "string",
@@ -86,20 +86,20 @@ build`foo${10}bar${'hi'}` //: bool
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/template.js"
   },
   {
-    "id": "4600de81-90c4-11e5-8b49-850d93e85ce3",
+    "id": "379b8cd3-90cb-11e5-a178-65cfb9164160",
     "name": "strs",
     "addr": "/strs/",
     "kind": "v",
     "type": "[string]",
     "lineno": 6,
     "namespace": "build",
-    "parent": "4600b770-90c4-11e5-8b49-850d93e85ce3",
+    "parent": "379b8cd0-90cb-11e5-a178-65cfb9164160",
     "origin": {
       "!span": "81[5:15]-85[5:19]",
       "!type": "[string]",
@@ -107,7 +107,7 @@ build`foo${10}bar${'hi'}` //: bool
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/template.js"

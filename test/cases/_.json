@@ -10,7 +10,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/arguments.js"
@@ -26,7 +26,7 @@
       "!type": "[string]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/array_holes.js"
@@ -42,7 +42,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/array_holes.js"
@@ -58,7 +58,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/array_holes.js"
@@ -74,7 +74,7 @@
       "!type": "fn(a: number, [b]: [bool]) -> f.!ret",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/arrow.js"
@@ -93,7 +93,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/arrow.js"
@@ -112,7 +112,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/arrow.js"
@@ -128,7 +128,7 @@
       "!type": "fn() -> fn() -> wrap.!ret.!ret",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/arrow.js"
@@ -144,7 +144,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/arrow.js"
@@ -161,7 +161,7 @@
       "!type": "fn() -> [!this.x]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/arrow.js"
@@ -177,7 +177,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/autothis.js"
@@ -194,7 +194,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/autothis.js"
@@ -213,7 +213,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/autothis.js"
@@ -230,7 +230,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/autothis.js"
@@ -246,7 +246,7 @@
       "!type": "fn(a: number, b: number, c: number, d: number) -> number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
@@ -265,7 +265,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
@@ -284,7 +284,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
@@ -303,7 +303,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
@@ -322,7 +322,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
@@ -338,7 +338,7 @@
       "!type": "fn(c: number, d: number) -> number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
@@ -354,7 +354,7 @@
       "!type": "fn(a: number) -> h.!ret",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
@@ -373,7 +373,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
@@ -389,7 +389,7 @@
       "!type": "fn() -> h.!ret",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
@@ -403,7 +403,7 @@
       "!span": "275[11:4]-276[11:5]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
@@ -422,7 +422,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
@@ -438,7 +438,7 @@
       "!type": "fn() -> !this",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
@@ -454,7 +454,7 @@
       "!type": "fn() -> j.!ret",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/bind.js"
@@ -470,7 +470,7 @@
       "!type": "fn(a: string)",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/block_scope.js"
@@ -489,7 +489,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/block_scope.js"
@@ -508,7 +508,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/block_scope.js"
@@ -522,7 +522,7 @@
       "!span": "4[0:4]-7[0:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/blowup.js"
@@ -539,7 +539,7 @@
       "!type": "fn(subclass: fn(), superclass: ?)",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/blowup.js"
@@ -555,8 +555,7 @@
       "!data": {
         "isConstructor": false,
         "scoped": false,
-        "isArg": false,
-        "isPlainObject": false
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/blowup.js"
@@ -575,7 +574,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/blowup.js"
@@ -592,7 +591,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/blowup.js"
@@ -611,7 +610,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/blowup.js"
@@ -630,7 +629,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/blowup.js"
@@ -649,7 +648,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/blowup.js"
@@ -665,8 +664,7 @@
       "!data": {
         "isConstructor": false,
         "scoped": false,
-        "isArg": false,
-        "isPlainObject": false
+        "isArg": false
       }
     },
     "tagfile": "__DIR__/blowup.js"
@@ -682,7 +680,7 @@
       "!type": "+Element",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Element.prototype"
       }
     },
     "tagfile": "__DIR__/browser.js"
@@ -698,7 +696,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/browser.js"
@@ -714,7 +712,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/builtins.js"
@@ -730,7 +728,7 @@
       "!type": "[number]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/builtins.js"
@@ -746,7 +744,7 @@
       "!type": "+Number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/builtins.js"
@@ -762,7 +760,7 @@
       "!type": "+Error",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Error.prototype"
       }
     },
     "tagfile": "__DIR__/catch_error.js"
@@ -778,7 +776,7 @@
       "!type": "fn(x: number, y: number)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -793,7 +791,7 @@
       "!span": "0[0:0]-267[10:1]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -810,7 +808,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -829,7 +827,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -848,7 +846,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -865,7 +863,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -882,7 +880,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -899,7 +897,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -916,7 +914,7 @@
       "!type": "fn(pt: +Point2) -> +Point2",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -935,7 +933,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Point2.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -952,7 +950,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -969,7 +967,7 @@
       "!type": "fn() -> number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -986,7 +984,7 @@
       "!type": "fn() -> +Point2",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -1002,7 +1000,7 @@
       "!type": "fn(x: number, y: number, z: number, u: number)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -1017,7 +1015,7 @@
       "!span": "269[12:0]-379[15:1]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Point3.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -1034,7 +1032,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -1051,7 +1049,7 @@
       "!type": "fn() -> number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -1067,7 +1065,7 @@
       "!type": "fn(x: number, y: number, z: number)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -1082,7 +1080,7 @@
       "!span": "394[17:13]-496[20:1]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Point2.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -1099,7 +1097,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false,
+        "type": "Number.prototype",
         "scoped": true,
         "isArg": true
       }
@@ -1118,7 +1116,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false,
+        "type": "Number.prototype",
         "scoped": true,
         "isArg": true
       }
@@ -1137,7 +1135,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false,
+        "type": "Number.prototype",
         "scoped": true,
         "isArg": true
       }
@@ -1156,7 +1154,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -1173,7 +1171,7 @@
       "!type": "fn() -> bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -1189,7 +1187,7 @@
       "!type": "+Point2",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Point2.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -1207,7 +1205,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Point2.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -1223,7 +1221,7 @@
       "!type": "+Point3",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Point3.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -1239,7 +1237,7 @@
       "!type": "+Point4",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Point4.prototype"
       }
     },
     "tagfile": "__DIR__/class.js"
@@ -1253,7 +1251,7 @@
       "!span": "4[0:4]-5[0:5]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/computedprop.js"
@@ -1268,7 +1266,7 @@
       "!span": "14[1:2]-19[1:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/computedprop.js"
@@ -1285,7 +1283,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/computedprop.js"
@@ -1302,7 +1300,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/computedprop.js"
@@ -1316,7 +1314,7 @@
       "!span": "81[5:4]-84[5:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/computedprop.js"
@@ -1333,7 +1331,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/computedprop.js"
@@ -1350,7 +1348,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/computedprop.js"
@@ -1366,7 +1364,7 @@
       "!type": "fn(a: ?, i: ?)",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/contextcomplete.js"
@@ -1383,7 +1381,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/contextcomplete.js"
@@ -1400,7 +1398,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/contextcomplete.js"
@@ -1416,7 +1414,7 @@
       "!type": "fn(o: buildCopy.!0) -> ?",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/copyprops.js"
@@ -1433,7 +1431,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/copyprops.js"
@@ -1450,7 +1448,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/copyprops.js"
@@ -1466,7 +1464,7 @@
       "!type": "fn() -> +Ctor",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/ctorpattern.js"
@@ -1483,7 +1481,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/ctorpattern.js"
@@ -1497,7 +1495,7 @@
       "!span": "4[0:4]-5[0:5]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/defineProperty.js"
@@ -1514,7 +1512,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/defineProperty.js"
@@ -1531,7 +1529,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/defineProperty.js"
@@ -1545,7 +1543,7 @@
       "!span": "248[16:4]-250[16:6]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/defineProperty.js"
@@ -1562,7 +1560,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/defineProperty.js"
@@ -1579,7 +1577,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/defineProperty.js"
@@ -1595,7 +1593,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
@@ -1611,7 +1609,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
@@ -1627,7 +1625,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
@@ -1643,7 +1641,7 @@
       "!type": "fn([e]: [bool], {f}: ?, {g}: foo.!2, ...h: number)",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
@@ -1662,7 +1660,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
@@ -1681,7 +1679,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
@@ -1700,7 +1698,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
@@ -1719,7 +1717,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
@@ -1735,7 +1733,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
@@ -1751,7 +1749,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
@@ -1767,7 +1765,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
@@ -1783,7 +1781,7 @@
       "!type": "[string]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
@@ -1797,7 +1795,7 @@
       "!span": "403[27:4]-406[27:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
@@ -1814,7 +1812,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
@@ -1831,7 +1829,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
@@ -1847,7 +1845,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
@@ -1863,7 +1861,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/destructure.js"
@@ -1881,7 +1879,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -1897,7 +1895,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -1913,7 +1911,7 @@
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -1929,7 +1927,7 @@
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -1947,7 +1945,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -1963,7 +1961,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -1979,7 +1977,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -1995,7 +1993,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -2011,7 +2009,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -2027,7 +2025,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -2043,7 +2041,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -2059,7 +2057,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -2073,7 +2071,7 @@
       "!span": "1586[73:4]-1587[73:5]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -2090,7 +2088,7 @@
       "!type": "fn() -> !this.name",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -2107,7 +2105,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -2124,7 +2122,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -2141,7 +2139,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -2156,7 +2154,7 @@
       "!span": "1925[92:0]-2029[97:1]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -2172,7 +2170,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -2189,7 +2187,7 @@
       "!type": "fn() -> number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -2206,7 +2204,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -2222,7 +2220,7 @@
       "!type": "+C",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "C.prototype"
       }
     },
     "tagfile": "__DIR__/docstrings.js"
@@ -2238,7 +2236,7 @@
       "!type": "[bool]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/effects.js"
@@ -2254,7 +2252,7 @@
       "!type": "[string|number]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/effects.js"
@@ -2270,7 +2268,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/effects.js"
@@ -2286,7 +2284,7 @@
       "!type": "fn(a: number)",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/effects.js"
@@ -2305,7 +2303,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/effects.js"
@@ -2321,7 +2319,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/empty_overridden_prop.js"
@@ -2338,7 +2336,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/empty_overridden_prop.js"
@@ -2354,7 +2352,7 @@
       "!type": "+Class",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Class.prototype"
       }
     },
     "tagfile": "__DIR__/empty_overridden_prop.js"
@@ -2371,7 +2369,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/empty_overridden_prop.js"

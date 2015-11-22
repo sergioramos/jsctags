@@ -8,7 +8,7 @@ var foo = 10;
 ```json
 [
   {
-    "id": "3affcaa0-90c4-11e5-94c7-1f60bdcb0c95",
+    "id": "2cd9cbe0-90cb-11e5-a56b-b119329330c4",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
@@ -19,7 +19,7 @@ var foo = 10;
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/global_this.js"

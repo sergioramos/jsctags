@@ -10,7 +10,7 @@ c.hello; //: string
 ```json
 [
   {
-    "id": "372130e0-90c4-11e5-adba-9f140cc1ba03",
+    "id": "2909d820-90cb-11e5-9af3-db2828a275ea",
     "name": "Class",
     "addr": "/Class/",
     "kind": "f",
@@ -21,32 +21,32 @@ c.hello; //: string
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/empty_overridden_prop.js"
   },
   {
-    "id": "372157f1-90c4-11e5-adba-9f140cc1ba03",
+    "id": "2909ff31-90cb-11e5-9af3-db2828a275ea",
     "name": "hello",
     "addr": "/hello/",
     "kind": "v",
     "type": "string",
     "lineno": 2,
     "namespace": "Class.prototype",
-    "parent": "372157f0-90c4-11e5-adba-9f140cc1ba03",
+    "parent": "2909ff30-90cb-11e5-9af3-db2828a275ea",
     "origin": {
       "!span": "36[1:16]-41[1:21]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/empty_overridden_prop.js"
   },
   {
-    "id": "372157f2-90c4-11e5-adba-9f140cc1ba03",
+    "id": "290a2640-90cb-11e5-9af3-db2828a275ea",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
@@ -57,26 +57,26 @@ c.hello; //: string
       "!type": "+Class",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Class.prototype"
       }
     },
     "tagfile": "__DIR__/empty_overridden_prop.js"
   },
   {
-    "id": "372157f3-90c4-11e5-adba-9f140cc1ba03",
+    "id": "290a2641-90cb-11e5-9af3-db2828a275ea",
     "name": "hello",
     "addr": "/hello/",
     "kind": "v",
     "lineno": 5,
     "namespace": "c",
-    "parent": "372157f2-90c4-11e5-adba-9f140cc1ba03",
+    "parent": "290a2640-90cb-11e5-9af3-db2828a275ea",
     "origin": {
       "!span": "76[4:2]-81[4:7]",
       "!data": {
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/empty_overridden_prop.js"

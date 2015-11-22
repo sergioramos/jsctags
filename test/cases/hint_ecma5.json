@@ -10,7 +10,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -26,7 +26,7 @@
       "!type": "[number]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -42,7 +42,7 @@
       "!type": "[number]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -56,7 +56,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -70,7 +70,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -88,7 +88,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -104,7 +104,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -120,7 +120,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -136,7 +136,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -152,7 +152,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -168,7 +168,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -184,7 +184,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -200,7 +200,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -216,7 +216,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -232,7 +232,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -248,7 +248,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -264,7 +264,7 @@
       "!type": "+RegExp",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "RegExp.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -282,7 +282,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "RegExp.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -298,7 +298,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -314,7 +314,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -330,7 +330,7 @@
       "!type": "+String",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -346,7 +346,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -362,7 +362,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -376,7 +376,7 @@
       "!span": "2028[85:4]-2034[85:10]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -393,7 +393,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -410,7 +410,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -427,7 +427,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -444,7 +444,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -461,7 +461,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false,
+        "type": "String.prototype",
         "scoped": true,
         "isArg": true
       }
@@ -479,7 +479,7 @@
       "!type": "fn(firstname: string, lastname: string, age: number, eyecolor: string)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -496,7 +496,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false,
+        "type": "String.prototype",
         "scoped": true,
         "isArg": true
       }
@@ -515,7 +515,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false,
+        "type": "String.prototype",
         "scoped": true,
         "isArg": true
       }
@@ -534,7 +534,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false,
+        "type": "Number.prototype",
         "scoped": true,
         "isArg": true
       }
@@ -555,7 +555,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -574,7 +574,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -593,7 +593,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -612,7 +612,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -629,7 +629,7 @@
       "!type": "fn(name: ?) -> !this.lastname",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -646,7 +646,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -662,7 +662,7 @@
       "!type": "+personType",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "personType.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -676,7 +676,7 @@
       "!span": "3052[118:4]-3056[118:8]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -693,7 +693,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -710,7 +710,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -725,7 +725,7 @@
       "!span": "3078[118:30]-3082[118:34]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -742,7 +742,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -759,7 +759,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -776,7 +776,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -790,7 +790,7 @@
       "!span": "3444[131:4]-3448[131:8]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "base"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -803,8 +803,7 @@
     "origin": {
       "!span": "3476[132:4]-3480[132:8]",
       "!data": {
-        "isConstructor": false,
-        "isPlainObject": false
+        "isConstructor": false
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -821,7 +820,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -838,7 +837,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -852,7 +851,7 @@
       "!span": "3879[143:4]-3885[143:10]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "base"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -865,8 +864,7 @@
     "origin": {
       "!span": "4190[149:4]-4195[149:9]",
       "!data": {
-        "isConstructor": false,
-        "isPlainObject": false
+        "isConstructor": false
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -883,7 +881,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -899,7 +897,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -916,7 +914,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -931,7 +929,7 @@
       "!span": "4356[155:6]-4365[155:15]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -947,7 +945,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -963,7 +961,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -979,7 +977,7 @@
       "!type": "fn(x: bool)",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -996,7 +994,7 @@
       "!type": "bool",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false,
+        "type": "Boolean.prototype",
         "scoped": true,
         "isArg": true
       }
@@ -1017,7 +1015,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1034,7 +1032,7 @@
       "!type": "[number]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1049,7 +1047,7 @@
       "!span": "4577[170:4]-4586[170:13]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1066,7 +1064,7 @@
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1083,7 +1081,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1099,7 +1097,7 @@
       "!type": "+Foo",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Foo.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1113,7 +1111,7 @@
       "!span": "4825[181:0]-4831[181:6]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1128,7 +1126,7 @@
       "!span": "4838[182:2]-4841[182:5]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1143,7 +1141,7 @@
       "!span": "4849[183:4]-4852[183:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1160,7 +1158,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1177,7 +1175,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1194,7 +1192,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1211,7 +1209,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1227,7 +1225,7 @@
       "!type": "[number]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1243,7 +1241,7 @@
       "!type": "[bool]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1259,7 +1257,7 @@
       "!type": "[number]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1275,7 +1273,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1291,7 +1289,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1307,7 +1305,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1323,7 +1321,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1339,7 +1337,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1358,7 +1356,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1377,7 +1375,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1393,7 +1391,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1410,7 +1408,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1429,7 +1427,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1445,7 +1443,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1459,7 +1457,7 @@
       "!span": "7080[272:4]-7083[272:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1476,7 +1474,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1493,7 +1491,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1509,7 +1507,7 @@
       "!type": "[number]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1525,7 +1523,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1544,7 +1542,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1561,7 +1559,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1580,7 +1578,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1599,7 +1597,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1616,7 +1614,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1632,7 +1630,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1651,7 +1649,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1670,7 +1668,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1689,7 +1687,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1708,7 +1706,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1727,7 +1725,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1743,7 +1741,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1759,7 +1757,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1778,7 +1776,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1797,7 +1795,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1813,7 +1811,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1832,7 +1830,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1848,7 +1846,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1864,7 +1862,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1883,7 +1881,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1902,7 +1900,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1918,7 +1916,7 @@
       "!type": "fn(n: ?)",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1935,7 +1933,7 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
+        "type": false
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1954,7 +1952,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1973,7 +1971,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -1989,7 +1987,7 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -2008,7 +2006,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -2025,7 +2023,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Error.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -2044,7 +2042,7 @@
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"

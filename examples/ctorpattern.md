@@ -13,7 +13,7 @@ foo; //: ?
 ```json
 [
   {
-    "id": "3528bc40-90c4-11e5-993b-8f3fd2c425db",
+    "id": "271c8710-90cb-11e5-8003-c1822242a7b2",
     "name": "Ctor",
     "addr": "/Ctor/",
     "kind": "f",
@@ -24,26 +24,26 @@ foo; //: ?
       "!type": "fn() -> +Ctor",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/ctorpattern.js"
   },
   {
-    "id": "3528e350-90c4-11e5-993b-8f3fd2c425db",
+    "id": "271cd530-90cb-11e5-8003-c1822242a7b2",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
     "namespace": "Ctor",
-    "parent": "3528bc40-90c4-11e5-993b-8f3fd2c425db",
+    "parent": "271c8710-90cb-11e5-8003-c1822242a7b2",
     "origin": {
       "!span": "178[5:7]-181[5:10]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/ctorpattern.js"

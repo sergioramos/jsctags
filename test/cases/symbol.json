@@ -8,7 +8,7 @@
       "!span": "4[0:4]-9[0:9]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Symbol.prototype"
       }
     },
     "tagfile": "__DIR__/symbol.js"
@@ -22,7 +22,7 @@
       "!span": "34[2:4]-37[2:7]",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": true
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/symbol.js"
@@ -39,7 +39,7 @@
       "!type": "number",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/symbol.js"
@@ -56,7 +56,7 @@
       "!type": "string",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "String.prototype"
       }
     },
     "tagfile": "__DIR__/symbol.js"

@@ -15,7 +15,7 @@ new Date().fn2();
 ```json
 [
   {
-    "id": "30e3bf90-90c4-11e5-9793-2fafed7951f6",
+    "id": "2307c220-90cb-11e5-9f55-159228cb4208",
     "name": "Bar",
     "addr": "/Bar/",
     "kind": "f",
@@ -26,39 +26,39 @@ new Date().fn2();
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/autothis.js"
   },
   {
-    "id": "30e3bf92-90c4-11e5-9793-2fafed7951f6",
+    "id": "2307c222-90cb-11e5-9f55-159228cb4208",
     "name": "hallo",
     "addr": "/hallo/",
     "kind": "f",
     "type": "void function()",
     "lineno": 2,
     "namespace": "Bar.prototype",
-    "parent": "30e3bf91-90c4-11e5-9793-2fafed7951f6",
+    "parent": "2307c221-90cb-11e5-9f55-159228cb4208",
     "origin": {
       "!span": "49[1:14]-54[1:19]",
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/autothis.js"
   },
   {
-    "id": "30e3bf93-90c4-11e5-9793-2fafed7951f6",
+    "id": "2307c223-90cb-11e5-9f55-159228cb4208",
     "name": "fn2",
     "addr": "/fn2/",
     "kind": "f",
     "type": "void function()",
     "lineno": 7,
     "namespace": "Bar.prototype",
-    "parent": "30e3bf91-90c4-11e5-9793-2fafed7951f6",
+    "parent": "2307c221-90cb-11e5-9f55-159228cb4208",
     "origin": {
       "!span": "128[6:14]-131[6:17]",
       "!type": "fn()",
@@ -66,26 +66,26 @@ new Date().fn2();
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/autothis.js"
   },
   {
-    "id": "30e39881-90c4-11e5-9793-2fafed7951f6",
+    "id": "23079b11-90cb-11e5-9f55-159228cb4208",
     "name": "fn2",
     "addr": "/fn2/",
     "kind": "f",
     "type": "void function()",
     "lineno": 11,
     "namespace": "Date.prototype",
-    "parent": "30e39880-90c4-11e5-9793-2fafed7951f6",
+    "parent": "23079b10-90cb-11e5-9f55-159228cb4208",
     "origin": {
       "!span": "183[10:15]-186[10:18]",
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
-        "isPlainObject": false
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/autothis.js"
