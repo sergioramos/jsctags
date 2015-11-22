@@ -8,3 +8,4 @@ prototype	__DIR__/new_to_prototype.js	/prototype/;"	v	lineno:7	namespace:C
 prop_C	__DIR__/new_to_prototype.js	/prop_C/;"	v	lineno:8	namespace:C.prototype	type:number
 
 
+

@@ -8,7 +8,7 @@ abc(1, 2, 3); //: number
 ```json
 [
   {
-    "id": "abd3eec0-90bd-11e5-8375-83e08f16833c",
+    "id": "391d00e0-90c4-11e5-83a1-e750bb0f22f1",
     "name": "abc",
     "addr": "/abc/",
     "kind": "f",
@@ -25,14 +25,14 @@ abc(1, 2, 3); //: number
     "tagfile": "__DIR__/fn_arguments.js"
   },
   {
-    "id": "abd415d0-90bd-11e5-8375-83e08f16833c",
+    "id": "391d27f0-90c4-11e5-83a1-e750bb0f22f1",
     "name": "arguments",
     "addr": "/function abc\(\) \{/",
     "kind": "v",
     "type": "[number]",
     "lineno": 1,
     "namespace": "abc",
-    "parent": "abd3eec0-90bd-11e5-8375-83e08f16833c",
+    "parent": "391d00e0-90c4-11e5-83a1-e750bb0f22f1",
     "origin": {
       "!span": "0[0:0]-41[2:1]",
       "!type": "[number]",

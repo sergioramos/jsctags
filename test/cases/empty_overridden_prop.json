@@ -47,5 +47,22 @@
       }
     },
     "tagfile": "__DIR__/empty_overridden_prop.js"
+  },
+  {
+    "name": "hello",
+    "addr": "/hello/",
+    "kind": "v",
+    "lineno": 5,
+    "namespace": "c",
+    "origin": {
+      "!span": "76[4:2]-81[4:7]",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/empty_overridden_prop.js"
   }
 ]

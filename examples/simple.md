@@ -18,7 +18,7 @@ x; //:: {bar: number, foo: number}
 ```json
 [
   {
-    "id": "b64ebba0-90bd-11e5-a167-6f4161bb1af1",
+    "id": "44777f60-90c4-11e5-8725-2bd9a81b8dd6",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
@@ -35,7 +35,7 @@ x; //:: {bar: number, foo: number}
     "tagfile": "__DIR__/simple.js"
   },
   {
-    "id": "b64ee2b0-90bd-11e5-a167-6f4161bb1af1",
+    "id": "4477a670-90c4-11e5-8725-2bd9a81b8dd6",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
@@ -50,7 +50,7 @@ x; //:: {bar: number, foo: number}
     "tagfile": "__DIR__/simple.js"
   },
   {
-    "id": "b64ee2b3-90bd-11e5-a167-6f4161bb1af1",
+    "id": "4477a673-90c4-11e5-8725-2bd9a81b8dd6",
     "name": "init",
     "addr": "/init/",
     "kind": "f",
@@ -67,14 +67,14 @@ x; //:: {bar: number, foo: number}
     "tagfile": "__DIR__/simple.js"
   },
   {
-    "id": "b64ee2b1-90bd-11e5-a167-6f4161bb1af1",
+    "id": "4477a671-90c4-11e5-8725-2bd9a81b8dd6",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
     "type": "number",
     "lineno": 9,
     "namespace": "x",
-    "parent": "b64ee2b0-90bd-11e5-a167-6f4161bb1af1",
+    "parent": "4477a670-90c4-11e5-8725-2bd9a81b8dd6",
     "origin": {
       "!span": "96[8:4]-99[8:7]",
       "!type": "number",
@@ -86,14 +86,14 @@ x; //:: {bar: number, foo: number}
     "tagfile": "__DIR__/simple.js"
   },
   {
-    "id": "b64ee2b2-90bd-11e5-a167-6f4161bb1af1",
+    "id": "4477a672-90c4-11e5-8725-2bd9a81b8dd6",
     "name": "bar",
     "addr": "/bar/",
     "kind": "v",
     "type": "number",
     "lineno": 10,
     "namespace": "x",
-    "parent": "b64ee2b0-90bd-11e5-a167-6f4161bb1af1",
+    "parent": "4477a670-90c4-11e5-8725-2bd9a81b8dd6",
     "origin": {
       "!span": "110[9:4]-113[9:7]",
       "!type": "number",

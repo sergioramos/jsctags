@@ -24,7 +24,7 @@ for (let elt of [1, 2, 3])
 ```json
 [
   {
-    "id": "ac2d8070-90bd-11e5-91eb-2970697b1676",
+    "id": "397de590-90c4-11e5-b926-1f92f6e3092c",
     "name": "myIter",
     "addr": "/myIter/",
     "kind": "v",
@@ -39,14 +39,14 @@ for (let elt of [1, 2, 3])
     "tagfile": "__DIR__/for_of.js"
   },
   {
-    "id": "ac2da781-90bd-11e5-91eb-2970697b1676",
+    "id": "397e0ca1-90c4-11e5-b926-1f92f6e3092c",
     "name": "iterator",
     "addr": "/Symbol\.iterator/",
     "kind": "f",
     "type": "myIter.:Symbol.iterator.!ret function()",
     "lineno": 2,
     "namespace": "myIter.:Symbol",
-    "parent": "ac2da780-90bd-11e5-91eb-2970697b1676",
+    "parent": "397e0ca0-90c4-11e5-b926-1f92f6e3092c",
     "origin": {
       "!span": "18[1:3]-33[1:18]",
       "!type": "fn() -> myIter.:Symbol.iterator.!ret",
@@ -58,14 +58,14 @@ for (let elt of [1, 2, 3])
     "tagfile": "__DIR__/for_of.js"
   },
   {
-    "id": "ac2dce90-90bd-11e5-91eb-2970697b1676",
+    "id": "397e0ca3-90c4-11e5-b926-1f92f6e3092c",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 5,
     "namespace": "hello",
-    "parent": "ac2da782-90bd-11e5-91eb-2970697b1676",
+    "parent": "397e0ca2-90c4-11e5-b926-1f92f6e3092c",
     "origin": {
       "!span": "91[4:24]-92[4:25]",
       "!type": "number",
@@ -77,14 +77,14 @@ for (let elt of [1, 2, 3])
     "tagfile": "__DIR__/for_of.js"
   },
   {
-    "id": "ac2dce91-90bd-11e5-91eb-2970697b1676",
+    "id": "397e33b0-90c4-11e5-b926-1f92f6e3092c",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "boolean",
     "lineno": 5,
     "namespace": "hello",
-    "parent": "ac2da782-90bd-11e5-91eb-2970697b1676",
+    "parent": "397e0ca2-90c4-11e5-b926-1f92f6e3092c",
     "origin": {
       "!span": "97[4:30]-98[4:31]",
       "!type": "bool",
@@ -96,7 +96,7 @@ for (let elt of [1, 2, 3])
     "tagfile": "__DIR__/for_of.js"
   },
   {
-    "id": "ac2da782-90bd-11e5-91eb-2970697b1676",
+    "id": "397e0ca2-90c4-11e5-b926-1f92f6e3092c",
     "name": "hello",
     "addr": "/hello/",
     "kind": "v",
@@ -111,7 +111,7 @@ for (let elt of [1, 2, 3])
     "tagfile": "__DIR__/for_of.js"
   },
   {
-    "id": "ac2dce92-90bd-11e5-91eb-2970697b1676",
+    "id": "397e33b1-90c4-11e5-b926-1f92f6e3092c",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
@@ -128,7 +128,7 @@ for (let elt of [1, 2, 3])
     "tagfile": "__DIR__/for_of.js"
   },
   {
-    "id": "ac2dce93-90bd-11e5-91eb-2970697b1676",
+    "id": "397e33b2-90c4-11e5-b926-1f92f6e3092c",
     "name": "b",
     "addr": "/b/",
     "kind": "v",

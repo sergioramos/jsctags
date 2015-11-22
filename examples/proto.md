@@ -19,7 +19,7 @@ z.bar; //: number
 ```json
 [
   {
-    "id": "b4e71550-90bd-11e5-8451-59d995937d70",
+    "id": "42f4aff0-90c4-11e5-a50b-996c0d60a718",
     "name": "Foo",
     "addr": "/Foo/",
     "kind": "f",
@@ -36,14 +36,14 @@ z.bar; //: number
     "tagfile": "__DIR__/proto.js"
   },
   {
-    "id": "b4e76371-90bd-11e5-8451-59d995937d70",
+    "id": "42f4fe10-90c4-11e5-a50b-996c0d60a718",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "boolean",
     "lineno": 1,
     "namespace": "Foo",
-    "parent": "b4e71550-90bd-11e5-8451-59d995937d70",
+    "parent": "42f4aff0-90c4-11e5-a50b-996c0d60a718",
     "origin": {
       "!span": "13[0:13]-14[0:14]",
       "!type": "bool",
@@ -57,14 +57,35 @@ z.bar; //: number
     "tagfile": "__DIR__/proto.js"
   },
   {
-    "id": "b4e76372-90bd-11e5-8451-59d995937d70",
+    "id": "42f4fe13-90c4-11e5-a50b-996c0d60a718",
+    "name": "x",
+    "addr": "/x/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 2,
+    "namespace": "z",
+    "parent": "42f4fe12-90c4-11e5-a50b-996c0d60a718",
+    "origin": {
+      "!span": "25[1:7]-26[1:8]",
+      "!type": "bool",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/proto.js"
+  },
+  {
+    "id": "42f4fe11-90c4-11e5-a50b-996c0d60a718",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
     "type": "[number]",
     "lineno": 3,
     "namespace": "Foo",
-    "parent": "b4e71550-90bd-11e5-8451-59d995937d70",
+    "parent": "42f4aff0-90c4-11e5-a50b-996c0d60a718",
     "origin": {
       "!span": "39[2:7]-40[2:8]",
       "!type": "[number]",
@@ -76,13 +97,13 @@ z.bar; //: number
     "tagfile": "__DIR__/proto.js"
   },
   {
-    "id": "b4e73c60-90bd-11e5-8451-59d995937d70",
+    "id": "42f4d700-90c4-11e5-a50b-996c0d60a718",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "Foo",
-    "parent": "b4e71550-90bd-11e5-8451-59d995937d70",
+    "parent": "42f4aff0-90c4-11e5-a50b-996c0d60a718",
     "origin": {
       "!span": "76[6:4]-85[6:13]",
       "!data": {
@@ -93,14 +114,14 @@ z.bar; //: number
     "tagfile": "__DIR__/proto.js"
   },
   {
-    "id": "b4e73c61-90bd-11e5-8451-59d995937d70",
+    "id": "42f4d701-90c4-11e5-a50b-996c0d60a718",
     "name": "makeString",
     "addr": "/makeString/",
     "kind": "f",
     "type": "string function()",
     "lineno": 8,
     "namespace": "Foo.prototype",
-    "parent": "b4e73c60-90bd-11e5-8451-59d995937d70",
+    "parent": "42f4d700-90c4-11e5-a50b-996c0d60a718",
     "origin": {
       "!span": "92[7:2]-102[7:12]",
       "!type": "fn() -> string",
@@ -112,14 +133,14 @@ z.bar; //: number
     "tagfile": "__DIR__/proto.js"
   },
   {
-    "id": "b4e76370-90bd-11e5-8451-59d995937d70",
+    "id": "42f4d702-90c4-11e5-a50b-996c0d60a718",
     "name": "bar",
     "addr": "/bar/",
     "kind": "v",
     "type": "number",
     "lineno": 9,
     "namespace": "Foo.prototype",
-    "parent": "b4e73c60-90bd-11e5-8451-59d995937d70",
+    "parent": "42f4d700-90c4-11e5-a50b-996c0d60a718",
     "origin": {
       "!span": "135[8:2]-138[8:5]",
       "!type": "number",
@@ -131,7 +152,7 @@ z.bar; //: number
     "tagfile": "__DIR__/proto.js"
   },
   {
-    "id": "b4e76373-90bd-11e5-8451-59d995937d70",
+    "id": "42f4fe12-90c4-11e5-a50b-996c0d60a718",
     "name": "z",
     "addr": "/z/",
     "kind": "v",
@@ -152,6 +173,7 @@ z.bar; //: number
 ```ctags
 Foo	__DIR__/proto.js	/Foo/;"	f	lineno:1	type:void function(bool)
 x	__DIR__/proto.js	/x/;"	v	lineno:1	namespace:Foo	type:boolean
+x	__DIR__/proto.js	/x/;"	v	lineno:2	namespace:z	type:boolean
 y	__DIR__/proto.js	/y/;"	v	lineno:3	namespace:Foo	type:[number]
 prototype	__DIR__/proto.js	/prototype/;"	v	lineno:7	namespace:Foo
 makeString	__DIR__/proto.js	/makeString/;"	f	lineno:8	namespace:Foo.prototype	type:string function()

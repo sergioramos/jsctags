@@ -204,13 +204,15 @@
     "addr": "/fn2/",
     "kind": "f",
     "type": "void function()",
-    "lineno": 11,
-    "namespace": "Date.prototype",
+    "lineno": 7,
+    "namespace": "Bar.prototype",
     "origin": {
-      "!span": "183[10:15]-186[10:18]",
+      "!span": "128[6:14]-131[6:17]",
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
         "isPlainObject": false
       }
     },
@@ -222,7 +224,7 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 11,
-    "namespace": "Bar.prototype",
+    "namespace": "Date.prototype",
     "origin": {
       "!span": "183[10:15]-186[10:18]",
       "!type": "fn()",
@@ -393,23 +395,6 @@
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "name": "i",
-    "addr": "/i/",
-    "kind": "f",
-    "type": "h.!ret function()",
-    "lineno": 8,
-    "namespace": "o",
-    "origin": {
-      "!span": "188[7:4]-189[7:5]",
-      "!type": "fn() -> h.!ret",
-      "!data": {
-        "isConstructor": false,
-        "isPlainObject": false
-      }
-    },
-    "tagfile": "__DIR__/bind.js"
-  },
-  {
     "name": "o",
     "addr": "/o/",
     "kind": "v",
@@ -419,6 +404,25 @@
       "!data": {
         "isConstructor": false,
         "isPlainObject": true
+      }
+    },
+    "tagfile": "__DIR__/bind.js"
+  },
+  {
+    "name": "i",
+    "addr": "/i/",
+    "kind": "f",
+    "type": "h.!ret function()",
+    "lineno": 12,
+    "namespace": "o",
+    "origin": {
+      "!span": "280[11:9]-281[11:10]",
+      "!type": "fn() -> h.!ret",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/bind.js"
@@ -2350,6 +2354,23 @@
       "!type": "+Class",
       "!data": {
         "isConstructor": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/empty_overridden_prop.js"
+  },
+  {
+    "name": "hello",
+    "addr": "/hello/",
+    "kind": "v",
+    "lineno": 5,
+    "namespace": "c",
+    "origin": {
+      "!span": "76[4:2]-81[4:7]",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
         "isPlainObject": false
       }
     },

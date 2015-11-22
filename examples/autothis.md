@@ -15,7 +15,7 @@ new Date().fn2();
 ```json
 [
   {
-    "id": "a3dfa5b2-90bd-11e5-a6d6-97ec9c1dd3c4",
+    "id": "30e3bf90-90c4-11e5-9793-2fafed7951f6",
     "name": "Bar",
     "addr": "/Bar/",
     "kind": "f",
@@ -32,14 +32,14 @@ new Date().fn2();
     "tagfile": "__DIR__/autothis.js"
   },
   {
-    "id": "a3dfccc1-90bd-11e5-a6d6-97ec9c1dd3c4",
+    "id": "30e3bf92-90c4-11e5-9793-2fafed7951f6",
     "name": "hallo",
     "addr": "/hallo/",
     "kind": "f",
     "type": "void function()",
     "lineno": 2,
     "namespace": "Bar.prototype",
-    "parent": "a3dfccc0-90bd-11e5-a6d6-97ec9c1dd3c4",
+    "parent": "30e3bf91-90c4-11e5-9793-2fafed7951f6",
     "origin": {
       "!span": "49[1:14]-54[1:19]",
       "!type": "fn()",
@@ -51,33 +51,35 @@ new Date().fn2();
     "tagfile": "__DIR__/autothis.js"
   },
   {
-    "id": "a3dfa5b1-90bd-11e5-a6d6-97ec9c1dd3c4",
+    "id": "30e3bf93-90c4-11e5-9793-2fafed7951f6",
     "name": "fn2",
     "addr": "/fn2/",
     "kind": "f",
     "type": "void function()",
-    "lineno": 11,
-    "namespace": "Date.prototype",
-    "parent": "a3dfa5b0-90bd-11e5-a6d6-97ec9c1dd3c4",
+    "lineno": 7,
+    "namespace": "Bar.prototype",
+    "parent": "30e3bf91-90c4-11e5-9793-2fafed7951f6",
     "origin": {
-      "!span": "183[10:15]-186[10:18]",
+      "!span": "128[6:14]-131[6:17]",
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
         "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/autothis.js"
   },
   {
-    "id": "a3e041f0-90bd-11e5-a6d6-97ec9c1dd3c4",
+    "id": "30e39881-90c4-11e5-9793-2fafed7951f6",
     "name": "fn2",
     "addr": "/fn2/",
     "kind": "f",
     "type": "void function()",
     "lineno": 11,
-    "namespace": "Bar.prototype",
-    "parent": "a3dfccc0-90bd-11e5-a6d6-97ec9c1dd3c4",
+    "namespace": "Date.prototype",
+    "parent": "30e39880-90c4-11e5-9793-2fafed7951f6",
     "origin": {
       "!span": "183[10:15]-186[10:18]",
       "!type": "fn()",
@@ -93,6 +95,6 @@ new Date().fn2();
 ```ctags
 Bar	__DIR__/autothis.js	/Bar/;"	f	lineno:1	type:void function()
 hallo	__DIR__/autothis.js	/hallo/;"	f	lineno:2	namespace:Bar.prototype	type:void function()
+fn2	__DIR__/autothis.js	/fn2/;"	f	lineno:7	namespace:Bar.prototype	type:void function()
 fn2	__DIR__/autothis.js	/fn2/;"	f	lineno:11	namespace:Date.prototype	type:void function()
-fn2	__DIR__/autothis.js	/fn2/;"	f	lineno:11	namespace:Bar.prototype	type:void function()
 ```

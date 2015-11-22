@@ -12,7 +12,7 @@ obj.foo; //doc: This is foo
 ```json
 [
   {
-    "id": "ad433630-90bd-11e5-96ec-d1a4f2ea118e",
+    "id": "3aa1cc20-90c4-11e5-931a-6b7e58056126",
     "name": "obj",
     "addr": "/obj/",
     "kind": "v",
@@ -27,14 +27,14 @@ obj.foo; //doc: This is foo
     "tagfile": "__DIR__/getter.js"
   },
   {
-    "id": "ad433631-90bd-11e5-96ec-d1a4f2ea118e",
+    "id": "3aa1f330-90c4-11e5-931a-6b7e58056126",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
     "type": "string",
     "lineno": 3,
     "namespace": "obj",
-    "parent": "ad433630-90bd-11e5-96ec-d1a4f2ea118e",
+    "parent": "3aa1cc20-90c4-11e5-931a-6b7e58056126",
     "origin": {
       "!span": "35[2:6]-38[2:9]",
       "!type": "string",

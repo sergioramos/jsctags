@@ -189,6 +189,14 @@ var postCondenseReach = function (server, options, state) {
     }
   });
 
+  Object.keys(state.types).sort().forEach(function (path) {
+    var data = state.types[path];
+
+    Object.keys(get(data, 'type.props', {})).forEach(function (prop) {
+      visitAVal(state, data.type.props[prop], joinPaths(path, prop));
+    });
+  });
+
   // Assume that file scope is not reachable.
   state.cx.parent.files.forEach(function (file) {
     var path = file.name.replace(/\./g, '`');

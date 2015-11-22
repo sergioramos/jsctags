@@ -26,20 +26,24 @@ firstname	__DIR__/hint_ecma5.js	/firstname/;"	v	lineno:87	namespace:person	type:
 lastname	__DIR__/hint_ecma5.js	/lastname/;"	v	lineno:88	namespace:person	type:string
 age	__DIR__/hint_ecma5.js	/age/;"	v	lineno:89	namespace:person	type:number
 eyecolor	__DIR__/hint_ecma5.js	/eyecolor/;"	v	lineno:90	namespace:person	type:string
-lastname	__DIR__/hint_ecma5.js	/lastname/;"	v	lineno:95	namespace:personType	type:string
-age	__DIR__/hint_ecma5.js	/age/;"	v	lineno:95	namespace:personType	type:number
 eyecolor	__DIR__/hint_ecma5.js	/eyecolor/;"	v	lineno:95	namespace:personType	type:string
 personType	__DIR__/hint_ecma5.js	/personType/;"	f	lineno:95	type:void function(string, string, number, string)
 firstname	__DIR__/hint_ecma5.js	/firstname/;"	v	lineno:95	namespace:personType	type:string
+lastname	__DIR__/hint_ecma5.js	/lastname/;"	v	lineno:95	namespace:personType	type:string
+age	__DIR__/hint_ecma5.js	/age/;"	v	lineno:95	namespace:personType	type:number
+firstname	__DIR__/hint_ecma5.js	/firstname/;"	v	lineno:96	namespace:friend	type:string
+lastname	__DIR__/hint_ecma5.js	/lastname/;"	v	lineno:97	namespace:friend	type:string
+age	__DIR__/hint_ecma5.js	/age/;"	v	lineno:98	namespace:friend	type:number
+eyecolor	__DIR__/hint_ecma5.js	/eyecolor/;"	v	lineno:99	namespace:friend	type:string
 changeName	__DIR__/hint_ecma5.js	/changeName/;"	f	lineno:100	namespace:personType	type:!this.lastname function(?)
 name	__DIR__/hint_ecma5.js	/name/;"	v	lineno:104	namespace:personType.changeName
 friend	__DIR__/hint_ecma5.js	/friend/;"	v	lineno:110	type:personType
+base	__DIR__/hint_ecma5.js	/base/;"	v	lineno:119
+foo	__DIR__/hint_ecma5.js	/foo/;"	v	lineno:119	namespace:base	type:number
+bar	__DIR__/hint_ecma5.js	/bar/;"	v	lineno:119	namespace:base	type:number
+foo2	__DIR__/hint_ecma5.js	/foo2/;"	v	lineno:119	namespace:base
 a	__DIR__/hint_ecma5.js	/a/;"	v	lineno:119	namespace:base.foo2	type:number
 b	__DIR__/hint_ecma5.js	/b/;"	v	lineno:119	namespace:base.foo2	type:string
-foo2	__DIR__/hint_ecma5.js	/foo2/;"	v	lineno:119	namespace:base
-bar	__DIR__/hint_ecma5.js	/bar/;"	v	lineno:119	namespace:base	type:number
-foo	__DIR__/hint_ecma5.js	/foo/;"	v	lineno:119	namespace:base	type:number
-base	__DIR__/hint_ecma5.js	/base/;"	v	lineno:119
 baz	__DIR__/hint_ecma5.js	/baz/;"	v	lineno:129	namespace:base	type:number
 gen1	__DIR__/hint_ecma5.js	/gen1/;"	v	lineno:132
 gen2	__DIR__/hint_ecma5.js	/gen2/;"	v	lineno:133
@@ -49,12 +53,13 @@ extend	__DIR__/hint_ecma5.js	/extend/;"	v	lineno:144
 empty	__DIR__/hint_ecma5.js	/empty/;"	v	lineno:150
 prop1	__DIR__/hint_ecma5.js	/prop1/;"	v	lineno:151	namespace:empty	type:string
 Ctor1	__DIR__/hint_ecma5.js	/Ctor1/;"	f	lineno:155	type:void function()
-prototype	__DIR__/hint_ecma5.js	/prototype/;"	v	lineno:156	namespace:Ctor1
 a	__DIR__/hint_ecma5.js	/a/;"	v	lineno:156	namespace:Ctor1.prototype	type:number
+prototype	__DIR__/hint_ecma5.js	/prototype/;"	v	lineno:156	namespace:Ctor1
 Ctor2	__DIR__/hint_ecma5.js	/Ctor2/;"	f	lineno:159	type:void function()
 singleton	__DIR__/hint_ecma5.js	/singleton/;"	v	lineno:164
-x	__DIR__/hint_ecma5.js	/x/;"	v	lineno:166	namespace:Foo	type:boolean
 Foo	__DIR__/hint_ecma5.js	/Foo/;"	f	lineno:166	type:void function(bool)
+x	__DIR__/hint_ecma5.js	/x/;"	v	lineno:166	namespace:Foo	type:boolean
+x	__DIR__/hint_ecma5.js	/x/;"	v	lineno:167	namespace:foo	type:boolean
 y	__DIR__/hint_ecma5.js	/y/;"	v	lineno:168	namespace:Foo	type:[number]
 prototype	__DIR__/hint_ecma5.js	/prototype/;"	v	lineno:171	namespace:Foo
 makeString	__DIR__/hint_ecma5.js	/makeString/;"	f	lineno:172	namespace:Foo.prototype	type:string function()
@@ -78,8 +83,8 @@ one	__DIR__/hint_ecma5.js	/one/;"	f	lineno:254	type:void function()
 person	__DIR__/hint_ecma5.js	/person/;"	v	lineno:256	namespace:one	type:string
 localVar1InOne	__DIR__/hint_ecma5.js	/localVar1InOne/;"	v	lineno:258	namespace:one	type:string
 globalVar1	__DIR__/hint_ecma5.js	/globalVar1/;"	v	lineno:259	type:number
-timeout	__DIR__/hint_ecma5.js	/timeout/;"	f	lineno:272	namespace:timeout	type:void function(?, ?)
 f	__DIR__/hint_ecma5.js	/f/;"	v	lineno:272	namespace:timeout
+timeout	__DIR__/hint_ecma5.js	/timeout/;"	f	lineno:272	namespace:timeout	type:void function(?, ?)
 timeout	__DIR__/hint_ecma5.js	/timeout/;"	v	lineno:272
 obj	__DIR__/hint_ecma5.js	/obj/;"	v	lineno:273
 name	__DIR__/hint_ecma5.js	/name/;"	v	lineno:274	namespace:obj	type:string
@@ -107,13 +112,14 @@ testBreakFlow1	__DIR__/hint_ecma5.js	/testBreakFlow1/;"	f	lineno:359	type:void f
 i	__DIR__/hint_ecma5.js	/i/;"	v	lineno:360	type:number
 testBreak	__DIR__/hint_ecma5.js	/testBreak/;"	v	lineno:362	namespace:testBreakFlow1	type:string
 testContinue	__DIR__/hint_ecma5.js	/testContinue/;"	v	lineno:365	namespace:testBreakFlow1	type:string
-n	__DIR__/hint_ecma5.js	/n/;"	v	lineno:377	namespace:testSwitchFlow1
 testSwitchFlow1	__DIR__/hint_ecma5.js	/testSwitchFlow1/;"	f	lineno:377	type:void function(?)
+n	__DIR__/hint_ecma5.js	/n/;"	v	lineno:377	namespace:testSwitchFlow1
 inCase1	__DIR__/hint_ecma5.js	/inCase1/;"	v	lineno:381	namespace:testSwitchFlow1	type:string
 inCase2	__DIR__/hint_ecma5.js	/inCase2/;"	v	lineno:385	namespace:testSwitchFlow1	type:string
 testTryCatchFlow1	__DIR__/hint_ecma5.js	/testTryCatchFlow1/;"	f	lineno:398	type:void function()
 varInTry	__DIR__/hint_ecma5.js	/varInTry/;"	v	lineno:400	namespace:testTryCatchFlow1	type:string
 err	__DIR__/hint_ecma5.js	/err/;"	v	lineno:401	namespace:testTryCatchFlow1
 varInCatch	__DIR__/hint_ecma5.js	/varInCatch/;"	v	lineno:403	namespace:testTryCatchFlow1	type:string
+
 
 

@@ -16,6 +16,23 @@
     "tagfile": "__DIR__/protoname.js"
   },
   {
+    "name": "prototype",
+    "addr": "/prototype/",
+    "kind": "v",
+    "lineno": 2,
+    "namespace": "Base",
+    "origin": {
+      "!span": "24[1:5]-33[1:14]",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "isPlainObject": true
+      }
+    },
+    "tagfile": "__DIR__/protoname.js"
+  },
+  {
     "name": "Sub1",
     "addr": "/Sub1/",
     "kind": "f",
@@ -32,6 +49,23 @@
     "tagfile": "__DIR__/protoname.js"
   },
   {
+    "name": "prototype",
+    "addr": "/prototype/",
+    "kind": "v",
+    "lineno": 8,
+    "namespace": "Sub1",
+    "origin": {
+      "!span": "120[7:5]-129[7:14]",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/protoname.js"
+  },
+  {
     "name": "Sub2",
     "addr": "/Sub2/",
     "kind": "f",
@@ -42,6 +76,23 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/protoname.js"
+  },
+  {
+    "name": "prototype",
+    "addr": "/prototype/",
+    "kind": "v",
+    "lineno": 12,
+    "namespace": "Sub2",
+    "origin": {
+      "!span": "190[11:5]-199[11:14]",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
         "isPlainObject": false
       }
     },
@@ -74,6 +125,23 @@
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/protoname.js"
+  },
+  {
+    "name": "prototype",
+    "addr": "/prototype/",
+    "kind": "v",
+    "lineno": 18,
+    "namespace": "Sub3",
+    "origin": {
+      "!span": "300[17:5]-309[17:14]",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
         "isPlainObject": false
       }
     },

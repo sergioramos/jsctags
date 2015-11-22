@@ -11,7 +11,7 @@ sum; //:: fn(a: {x: number, y: number}) -> number
 ```json
 [
   {
-    "id": "b0f9fca0-90bd-11e5-b648-990c64e925f6",
+    "id": "3eaf3e10-90c4-11e5-a0ef-d9544d7fcd28",
     "name": "sum",
     "addr": "/sum/",
     "kind": "f",
@@ -28,13 +28,13 @@ sum; //:: fn(a: {x: number, y: number}) -> number
     "tagfile": "__DIR__/merge.js"
   },
   {
-    "id": "b0fa23b0-90bd-11e5-b648-990c64e925f6",
+    "id": "3eaf6520-90c4-11e5-a0ef-d9544d7fcd28",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "lineno": 1,
     "namespace": "sum",
-    "parent": "b0f9fca0-90bd-11e5-b648-990c64e925f6",
+    "parent": "3eaf3e10-90c4-11e5-a0ef-d9544d7fcd28",
     "origin": {
       "!span": "13[0:13]-14[0:14]",
       "!data": {
@@ -47,14 +47,14 @@ sum; //:: fn(a: {x: number, y: number}) -> number
     "tagfile": "__DIR__/merge.js"
   },
   {
-    "id": "b0fa4ac0-90bd-11e5-b648-990c64e925f6",
+    "id": "3eaf6521-90c4-11e5-a0ef-d9544d7fcd28",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
     "namespace": "sum.a",
-    "parent": "b0fa23b0-90bd-11e5-b648-990c64e925f6",
+    "parent": "3eaf6520-90c4-11e5-a0ef-d9544d7fcd28",
     "origin": {
       "!span": "66[5:5]-67[5:6]",
       "!type": "number",
@@ -68,14 +68,14 @@ sum; //:: fn(a: {x: number, y: number}) -> number
     "tagfile": "__DIR__/merge.js"
   },
   {
-    "id": "b0fa4ac1-90bd-11e5-b648-990c64e925f6",
+    "id": "3eaf6522-90c4-11e5-a0ef-d9544d7fcd28",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
     "namespace": "sum.a",
-    "parent": "b0fa23b0-90bd-11e5-b648-990c64e925f6",
+    "parent": "3eaf6520-90c4-11e5-a0ef-d9544d7fcd28",
     "origin": {
       "!span": "73[5:12]-74[5:13]",
       "!type": "number",

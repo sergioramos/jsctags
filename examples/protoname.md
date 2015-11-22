@@ -23,7 +23,7 @@ new Sub3(); //: Sub3
 ```json
 [
   {
-    "id": "b540ce10-90bd-11e5-a2b9-3b5818e74416",
+    "id": "435657f0-90c4-11e5-9e88-51a36cc74e88",
     "name": "Base",
     "addr": "/Base/",
     "kind": "f",
@@ -40,7 +40,26 @@ new Sub3(); //: Sub3
     "tagfile": "__DIR__/protoname.js"
   },
   {
-    "id": "b540f520-90bd-11e5-a2b9-3b5818e74416",
+    "id": "43567f00-90c4-11e5-9e88-51a36cc74e88",
+    "name": "prototype",
+    "addr": "/prototype/",
+    "kind": "v",
+    "lineno": 2,
+    "namespace": "Base",
+    "parent": "435657f0-90c4-11e5-9e88-51a36cc74e88",
+    "origin": {
+      "!span": "24[1:5]-33[1:14]",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "isPlainObject": true
+      }
+    },
+    "tagfile": "__DIR__/protoname.js"
+  },
+  {
+    "id": "43567f01-90c4-11e5-9e88-51a36cc74e88",
     "name": "Sub1",
     "addr": "/Sub1/",
     "kind": "f",
@@ -57,7 +76,26 @@ new Sub3(); //: Sub3
     "tagfile": "__DIR__/protoname.js"
   },
   {
-    "id": "b540f521-90bd-11e5-a2b9-3b5818e74416",
+    "id": "43567f02-90c4-11e5-9e88-51a36cc74e88",
+    "name": "prototype",
+    "addr": "/prototype/",
+    "kind": "v",
+    "lineno": 8,
+    "namespace": "Sub1",
+    "parent": "43567f01-90c4-11e5-9e88-51a36cc74e88",
+    "origin": {
+      "!span": "120[7:5]-129[7:14]",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/protoname.js"
+  },
+  {
+    "id": "43567f03-90c4-11e5-9e88-51a36cc74e88",
     "name": "Sub2",
     "addr": "/Sub2/",
     "kind": "f",
@@ -74,7 +112,26 @@ new Sub3(); //: Sub3
     "tagfile": "__DIR__/protoname.js"
   },
   {
-    "id": "b540f522-90bd-11e5-a2b9-3b5818e74416",
+    "id": "43567f04-90c4-11e5-9e88-51a36cc74e88",
+    "name": "prototype",
+    "addr": "/prototype/",
+    "kind": "v",
+    "lineno": 12,
+    "namespace": "Sub2",
+    "parent": "43567f03-90c4-11e5-9e88-51a36cc74e88",
+    "origin": {
+      "!span": "190[11:5]-199[11:14]",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/protoname.js"
+  },
+  {
+    "id": "43567f05-90c4-11e5-9e88-51a36cc74e88",
     "name": "Base2",
     "addr": "/Base2/",
     "kind": "f",
@@ -91,7 +148,7 @@ new Sub3(); //: Sub3
     "tagfile": "__DIR__/protoname.js"
   },
   {
-    "id": "b540f523-90bd-11e5-a2b9-3b5818e74416",
+    "id": "43567f06-90c4-11e5-9e88-51a36cc74e88",
     "name": "Sub3",
     "addr": "/Sub3/",
     "kind": "f",
@@ -106,13 +163,36 @@ new Sub3(); //: Sub3
       }
     },
     "tagfile": "__DIR__/protoname.js"
+  },
+  {
+    "id": "43567f07-90c4-11e5-9e88-51a36cc74e88",
+    "name": "prototype",
+    "addr": "/prototype/",
+    "kind": "v",
+    "lineno": 18,
+    "namespace": "Sub3",
+    "parent": "43567f06-90c4-11e5-9e88-51a36cc74e88",
+    "origin": {
+      "!span": "300[17:5]-309[17:14]",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/protoname.js"
   }
 ]
 ```
 ```ctags
 Base	__DIR__/protoname.js	/Base/;"	f	lineno:1	type:void function()
+prototype	__DIR__/protoname.js	/prototype/;"	v	lineno:2	namespace:Base
 Sub1	__DIR__/protoname.js	/Sub1/;"	f	lineno:7	type:void function()
+prototype	__DIR__/protoname.js	/prototype/;"	v	lineno:8	namespace:Sub1
 Sub2	__DIR__/protoname.js	/Sub2/;"	f	lineno:11	type:void function()
+prototype	__DIR__/protoname.js	/prototype/;"	v	lineno:12	namespace:Sub2
 Base2	__DIR__/protoname.js	/Base2/;"	f	lineno:15	type:void function()
 Sub3	__DIR__/protoname.js	/Sub3/;"	f	lineno:17	type:void function()
+prototype	__DIR__/protoname.js	/prototype/;"	v	lineno:18	namespace:Sub3
 ```

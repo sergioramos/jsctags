@@ -31,7 +31,7 @@ p3.then(function(value) {
 ```json
 [
   {
-    "id": "b48ac480-90bd-11e5-81eb-b36164255f92",
+    "id": "42910c20-90c4-11e5-a530-eb1b721102d6",
     "name": "p",
     "addr": "/p/",
     "kind": "v",
@@ -48,7 +48,7 @@ p3.then(function(value) {
     "tagfile": "__DIR__/promise.js"
   },
   {
-    "id": "b48ac481-90bd-11e5-81eb-b36164255f92",
+    "id": "42910c21-90c4-11e5-a530-eb1b721102d6",
     "name": "p2",
     "addr": "/p2/",
     "kind": "v",
@@ -65,7 +65,28 @@ p3.then(function(value) {
     "tagfile": "__DIR__/promise.js"
   },
   {
-    "id": "b48aeb90-90bd-11e5-81eb-b36164255f92",
+    "id": "42910c22-90c4-11e5-a530-eb1b721102d6",
+    "name": ":t",
+    "addr": "/function\(acc\) \{ acc\(\"hi\"\); \}/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 12,
+    "namespace": "p2",
+    "parent": "42910c21-90c4-11e5-a530-eb1b721102d6",
+    "origin": {
+      "!span": "228[11:21]-256[11:49]",
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/promise.js"
+  },
+  {
+    "id": "42913330-90c4-11e5-a530-eb1b721102d6",
     "name": "p3",
     "addr": "/p3/",
     "kind": "v",
@@ -82,12 +103,12 @@ p3.then(function(value) {
     "tagfile": "__DIR__/promise.js"
   },
   {
-    "id": "b48aeb92-90bd-11e5-81eb-b36164255f92",
+    "id": "42913332-90c4-11e5-a530-eb1b721102d6",
     "name": ":t",
     "kind": "v",
     "type": "number",
     "namespace": "Promise",
-    "parent": "b48aeb91-90bd-11e5-81eb-b36164255f92",
+    "parent": "42913331-90c4-11e5-a530-eb1b721102d6",
     "origin": {
       "!type": "number",
       "!data": {
@@ -98,14 +119,14 @@ p3.then(function(value) {
     "tagfile": "__DIR__/promise.js"
   },
   {
-    "id": "b48aeb93-90bd-11e5-81eb-b36164255f92",
+    "id": "42913333-90c4-11e5-a530-eb1b721102d6",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "number",
     "lineno": 3,
     "namespace": "Promise.:t",
-    "parent": "b48aeb92-90bd-11e5-81eb-b36164255f92",
+    "parent": "42913332-90c4-11e5-a530-eb1b721102d6",
     "origin": {
       "!span": "85[2:10]-86[2:11]",
       "!type": "number",
@@ -121,6 +142,7 @@ p3.then(function(value) {
 ```ctags
 p	__DIR__/promise.js	/p/;"	v	lineno:1	type:Promise
 p2	__DIR__/promise.js	/p2/;"	v	lineno:12	type:Promise
+:t	__DIR__/promise.js	/function\(acc\) \{ acc\("hi"\); \}/;"	v	lineno:12	namespace:p2	type:string
 p3	__DIR__/promise.js	/p3/;"	v	lineno:21	type:Promise
 :t	__DIR__/promise.js	//;"	v	namespace:Promise	type:number
 x	__DIR__/promise.js	/x/;"	v	lineno:3	namespace:Promise.:t	type:number

@@ -10,7 +10,7 @@ c.hello; //: string
 ```json
 [
   {
-    "id": "a9f67c30-90bd-11e5-ba0f-db656e2458fb",
+    "id": "372130e0-90c4-11e5-adba-9f140cc1ba03",
     "name": "Class",
     "addr": "/Class/",
     "kind": "f",
@@ -27,14 +27,14 @@ c.hello; //: string
     "tagfile": "__DIR__/empty_overridden_prop.js"
   },
   {
-    "id": "a9f6a341-90bd-11e5-ba0f-db656e2458fb",
+    "id": "372157f1-90c4-11e5-adba-9f140cc1ba03",
     "name": "hello",
     "addr": "/hello/",
     "kind": "v",
     "type": "string",
     "lineno": 2,
     "namespace": "Class.prototype",
-    "parent": "a9f6a340-90bd-11e5-ba0f-db656e2458fb",
+    "parent": "372157f0-90c4-11e5-adba-9f140cc1ba03",
     "origin": {
       "!span": "36[1:16]-41[1:21]",
       "!type": "string",
@@ -46,7 +46,7 @@ c.hello; //: string
     "tagfile": "__DIR__/empty_overridden_prop.js"
   },
   {
-    "id": "a9f6ca50-90bd-11e5-ba0f-db656e2458fb",
+    "id": "372157f2-90c4-11e5-adba-9f140cc1ba03",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
@@ -61,6 +61,25 @@ c.hello; //: string
       }
     },
     "tagfile": "__DIR__/empty_overridden_prop.js"
+  },
+  {
+    "id": "372157f3-90c4-11e5-adba-9f140cc1ba03",
+    "name": "hello",
+    "addr": "/hello/",
+    "kind": "v",
+    "lineno": 5,
+    "namespace": "c",
+    "parent": "372157f2-90c4-11e5-adba-9f140cc1ba03",
+    "origin": {
+      "!span": "76[4:2]-81[4:7]",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/empty_overridden_prop.js"
   }
 ]
 ```
@@ -68,4 +87,5 @@ c.hello; //: string
 Class	__DIR__/empty_overridden_prop.js	/Class/;"	f	lineno:1	type:void function()
 hello	__DIR__/empty_overridden_prop.js	/hello/;"	v	lineno:2	namespace:Class.prototype	type:string
 c	__DIR__/empty_overridden_prop.js	/c/;"	v	lineno:4	type:Class
+hello	__DIR__/empty_overridden_prop.js	/hello/;"	v	lineno:5	namespace:c
 ```

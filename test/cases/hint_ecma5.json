@@ -450,44 +450,6 @@
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "name": "lastname",
-    "addr": "/lastname/",
-    "kind": "v",
-    "type": "string",
-    "lineno": 95,
-    "namespace": "personType",
-    "origin": {
-      "!span": "2340[94:31]-2348[94:39]",
-      "!type": "string",
-      "!data": {
-        "isConstructor": false,
-        "isPlainObject": false,
-        "scoped": true,
-        "isArg": true
-      }
-    },
-    "tagfile": "__DIR__/hint_ecma5.js"
-  },
-  {
-    "name": "age",
-    "addr": "/age/",
-    "kind": "v",
-    "type": "number",
-    "lineno": 95,
-    "namespace": "personType",
-    "origin": {
-      "!span": "2350[94:41]-2353[94:44]",
-      "!type": "number",
-      "!data": {
-        "isConstructor": false,
-        "isPlainObject": false,
-        "scoped": true,
-        "isArg": true
-      }
-    },
-    "tagfile": "__DIR__/hint_ecma5.js"
-  },
-  {
     "name": "eyecolor",
     "addr": "/eyecolor/",
     "kind": "v",
@@ -537,6 +499,120 @@
         "isPlainObject": false,
         "scoped": true,
         "isArg": true
+      }
+    },
+    "tagfile": "__DIR__/hint_ecma5.js"
+  },
+  {
+    "name": "lastname",
+    "addr": "/lastname/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 95,
+    "namespace": "personType",
+    "origin": {
+      "!span": "2340[94:31]-2348[94:39]",
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false,
+        "scoped": true,
+        "isArg": true
+      }
+    },
+    "tagfile": "__DIR__/hint_ecma5.js"
+  },
+  {
+    "name": "age",
+    "addr": "/age/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 95,
+    "namespace": "personType",
+    "origin": {
+      "!span": "2350[94:41]-2353[94:44]",
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false,
+        "scoped": true,
+        "isArg": true
+      }
+    },
+    "tagfile": "__DIR__/hint_ecma5.js"
+  },
+  {
+    "name": "firstname",
+    "addr": "/firstname/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 96,
+    "namespace": "friend",
+    "origin": {
+      "!span": "2374[95:7]-2383[95:16]",
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/hint_ecma5.js"
+  },
+  {
+    "name": "lastname",
+    "addr": "/lastname/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 97,
+    "namespace": "friend",
+    "origin": {
+      "!span": "2404[96:7]-2412[96:15]",
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/hint_ecma5.js"
+  },
+  {
+    "name": "age",
+    "addr": "/age/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 98,
+    "namespace": "friend",
+    "origin": {
+      "!span": "2432[97:7]-2435[97:10]",
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/hint_ecma5.js"
+  },
+  {
+    "name": "eyecolor",
+    "addr": "/eyecolor/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 99,
+    "namespace": "friend",
+    "origin": {
+      "!span": "2450[98:7]-2458[98:15]",
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -592,6 +668,69 @@
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
+    "name": "base",
+    "addr": "/base/",
+    "kind": "v",
+    "lineno": 119,
+    "origin": {
+      "!span": "3052[118:4]-3056[118:8]",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": true
+      }
+    },
+    "tagfile": "__DIR__/hint_ecma5.js"
+  },
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 119,
+    "namespace": "base",
+    "origin": {
+      "!span": "3060[118:12]-3063[118:15]",
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/hint_ecma5.js"
+  },
+  {
+    "name": "bar",
+    "addr": "/bar/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 119,
+    "namespace": "base",
+    "origin": {
+      "!span": "3069[118:21]-3072[118:24]",
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/hint_ecma5.js"
+  },
+  {
+    "name": "foo2",
+    "addr": "/foo2/",
+    "kind": "v",
+    "lineno": 119,
+    "namespace": "base",
+    "origin": {
+      "!span": "3078[118:30]-3082[118:34]",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": true
+      }
+    },
+    "tagfile": "__DIR__/hint_ecma5.js"
+  },
+  {
     "name": "a",
     "addr": "/a/",
     "kind": "v",
@@ -621,69 +760,6 @@
       "!data": {
         "isConstructor": false,
         "isPlainObject": false
-      }
-    },
-    "tagfile": "__DIR__/hint_ecma5.js"
-  },
-  {
-    "name": "foo2",
-    "addr": "/foo2/",
-    "kind": "v",
-    "lineno": 119,
-    "namespace": "base",
-    "origin": {
-      "!span": "3078[118:30]-3082[118:34]",
-      "!data": {
-        "isConstructor": false,
-        "isPlainObject": true
-      }
-    },
-    "tagfile": "__DIR__/hint_ecma5.js"
-  },
-  {
-    "name": "bar",
-    "addr": "/bar/",
-    "kind": "v",
-    "type": "number",
-    "lineno": 119,
-    "namespace": "base",
-    "origin": {
-      "!span": "3069[118:21]-3072[118:24]",
-      "!type": "number",
-      "!data": {
-        "isConstructor": false,
-        "isPlainObject": false
-      }
-    },
-    "tagfile": "__DIR__/hint_ecma5.js"
-  },
-  {
-    "name": "foo",
-    "addr": "/foo/",
-    "kind": "v",
-    "type": "number",
-    "lineno": 119,
-    "namespace": "base",
-    "origin": {
-      "!span": "3060[118:12]-3063[118:15]",
-      "!type": "number",
-      "!data": {
-        "isConstructor": false,
-        "isPlainObject": false
-      }
-    },
-    "tagfile": "__DIR__/hint_ecma5.js"
-  },
-  {
-    "name": "base",
-    "addr": "/base/",
-    "kind": "v",
-    "lineno": 119,
-    "origin": {
-      "!span": "3052[118:4]-3056[118:8]",
-      "!data": {
-        "isConstructor": false,
-        "isPlainObject": true
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -829,21 +905,6 @@
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "name": "prototype",
-    "addr": "/prototype/",
-    "kind": "v",
-    "lineno": 156,
-    "namespace": "Ctor1",
-    "origin": {
-      "!span": "4356[155:6]-4365[155:15]",
-      "!data": {
-        "isConstructor": false,
-        "isPlainObject": true
-      }
-    },
-    "tagfile": "__DIR__/hint_ecma5.js"
-  },
-  {
     "name": "a",
     "addr": "/a/",
     "kind": "v",
@@ -856,6 +917,21 @@
       "!data": {
         "isConstructor": false,
         "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/hint_ecma5.js"
+  },
+  {
+    "name": "prototype",
+    "addr": "/prototype/",
+    "kind": "v",
+    "lineno": 156,
+    "namespace": "Ctor1",
+    "origin": {
+      "!span": "4356[155:6]-4365[155:15]",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": true
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -893,6 +969,22 @@
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
+    "name": "Foo",
+    "addr": "/Foo/",
+    "kind": "f",
+    "type": "void function(bool)",
+    "lineno": 166,
+    "origin": {
+      "!span": "4531[165:9]-4534[165:12]",
+      "!type": "fn(x: bool)",
+      "!data": {
+        "isConstructor": true,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/hint_ecma5.js"
+  },
+  {
     "name": "x",
     "addr": "/x/",
     "kind": "v",
@@ -912,16 +1004,19 @@
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "name": "Foo",
-    "addr": "/Foo/",
-    "kind": "f",
-    "type": "void function(bool)",
-    "lineno": 166,
+    "name": "x",
+    "addr": "/x/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 167,
+    "namespace": "foo",
     "origin": {
-      "!span": "4531[165:9]-4534[165:12]",
-      "!type": "fn(x: bool)",
+      "!span": "4547[166:7]-4548[166:8]",
+      "!type": "bool",
       "!data": {
-        "isConstructor": true,
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
         "isPlainObject": false
       }
     },
@@ -1304,15 +1399,13 @@
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "name": "timeout",
-    "addr": "/timeout/",
-    "kind": "f",
-    "type": "void function(?, ?)",
+    "name": "f",
+    "addr": "/f/",
+    "kind": "v",
     "lineno": 272,
     "namespace": "timeout",
     "origin": {
-      "!span": "7064[271:20]-7071[271:27]",
-      "!type": "fn(f: ?, timeout: ?)",
+      "!span": "7061[271:17]-7062[271:18]",
       "!data": {
         "isConstructor": false,
         "scoped": true,
@@ -1323,13 +1416,15 @@
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "name": "f",
-    "addr": "/f/",
-    "kind": "v",
+    "name": "timeout",
+    "addr": "/timeout/",
+    "kind": "f",
+    "type": "void function(?, ?)",
     "lineno": 272,
     "namespace": "timeout",
     "origin": {
-      "!span": "7061[271:17]-7062[271:18]",
+      "!span": "7064[271:20]-7071[271:27]",
+      "!type": "fn(f: ?, timeout: ?)",
       "!data": {
         "isConstructor": false,
         "scoped": true,
@@ -1813,6 +1908,22 @@
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
+    "name": "testSwitchFlow1",
+    "addr": "/testSwitchFlow1/",
+    "kind": "f",
+    "type": "void function(?)",
+    "lineno": 377,
+    "origin": {
+      "!span": "9320[376:9]-9335[376:24]",
+      "!type": "fn(n: ?)",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/hint_ecma5.js"
+  },
+  {
     "name": "n",
     "addr": "/n/",
     "kind": "v",
@@ -1824,22 +1935,6 @@
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
-        "isPlainObject": false
-      }
-    },
-    "tagfile": "__DIR__/hint_ecma5.js"
-  },
-  {
-    "name": "testSwitchFlow1",
-    "addr": "/testSwitchFlow1/",
-    "kind": "f",
-    "type": "void function(?)",
-    "lineno": 377,
-    "origin": {
-      "!span": "9320[376:9]-9335[376:24]",
-      "!type": "fn(n: ?)",
-      "!data": {
-        "isConstructor": false,
         "isPlainObject": false
       }
     },

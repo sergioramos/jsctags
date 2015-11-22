@@ -159,23 +159,6 @@
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "name": "i",
-    "addr": "/i/",
-    "kind": "f",
-    "type": "h.!ret function()",
-    "lineno": 8,
-    "namespace": "o",
-    "origin": {
-      "!span": "188[7:4]-189[7:5]",
-      "!type": "fn() -> h.!ret",
-      "!data": {
-        "isConstructor": false,
-        "isPlainObject": false
-      }
-    },
-    "tagfile": "__DIR__/bind.js"
-  },
-  {
     "name": "o",
     "addr": "/o/",
     "kind": "v",
@@ -185,6 +168,25 @@
       "!data": {
         "isConstructor": false,
         "isPlainObject": true
+      }
+    },
+    "tagfile": "__DIR__/bind.js"
+  },
+  {
+    "name": "i",
+    "addr": "/i/",
+    "kind": "f",
+    "type": "h.!ret function()",
+    "lineno": 12,
+    "namespace": "o",
+    "origin": {
+      "!span": "280[11:9]-281[11:10]",
+      "!type": "fn() -> h.!ret",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "isPlainObject": false
       }
     },
     "tagfile": "__DIR__/bind.js"

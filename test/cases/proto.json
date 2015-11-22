@@ -35,6 +35,25 @@
     "tagfile": "__DIR__/proto.js"
   },
   {
+    "name": "x",
+    "addr": "/x/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 2,
+    "namespace": "z",
+    "origin": {
+      "!span": "25[1:7]-26[1:8]",
+      "!type": "bool",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/proto.js"
+  },
+  {
     "name": "y",
     "addr": "/y/",
     "kind": "v",

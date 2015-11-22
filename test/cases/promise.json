@@ -32,6 +32,25 @@
     "tagfile": "__DIR__/promise.js"
   },
   {
+    "name": ":t",
+    "addr": "/function\(acc\) \{ acc\(\"hi\"\); \}/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 12,
+    "namespace": "p2",
+    "origin": {
+      "!span": "228[11:21]-256[11:49]",
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/promise.js"
+  },
+  {
     "name": "p3",
     "addr": "/p3/",
     "kind": "v",

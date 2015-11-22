@@ -28,7 +28,7 @@ o2.prop2; //: bool
 ```json
 [
   {
-    "id": "a86506c0-90bd-11e5-9131-69da824c45fe",
+    "id": "35916920-90c4-11e5-8529-e7aaf77b5d71",
     "name": "o",
     "addr": "/o/",
     "kind": "v",
@@ -43,14 +43,14 @@ o2.prop2; //: bool
     "tagfile": "__DIR__/defineProperty.js"
   },
   {
-    "id": "a8652dd0-90bd-11e5-9131-69da824c45fe",
+    "id": "35919030-90c4-11e5-8529-e7aaf77b5d71",
     "name": "prop1",
     "addr": "/\"prop1\"/",
     "kind": "v",
     "type": "string",
     "lineno": 4,
     "namespace": "o",
-    "parent": "a86506c0-90bd-11e5-9131-69da824c45fe",
+    "parent": "35916920-90c4-11e5-8529-e7aaf77b5d71",
     "origin": {
       "!span": "61[3:25]-68[3:32]",
       "!type": "string",
@@ -62,14 +62,14 @@ o2.prop2; //: bool
     "tagfile": "__DIR__/defineProperty.js"
   },
   {
-    "id": "a8652dd1-90bd-11e5-9131-69da824c45fe",
+    "id": "35919031-90c4-11e5-8529-e7aaf77b5d71",
     "name": "prop2",
     "addr": "/\"prop2\"/",
     "kind": "v",
     "type": "number",
     "lineno": 8,
     "namespace": "o",
-    "parent": "a86506c0-90bd-11e5-9131-69da824c45fe",
+    "parent": "35916920-90c4-11e5-8529-e7aaf77b5d71",
     "origin": {
       "!span": "137[7:25]-144[7:32]",
       "!type": "number",
@@ -81,7 +81,7 @@ o2.prop2; //: bool
     "tagfile": "__DIR__/defineProperty.js"
   },
   {
-    "id": "a8652dd2-90bd-11e5-9131-69da824c45fe",
+    "id": "35919032-90c4-11e5-8529-e7aaf77b5d71",
     "name": "o2",
     "addr": "/o2/",
     "kind": "v",
@@ -96,14 +96,14 @@ o2.prop2; //: bool
     "tagfile": "__DIR__/defineProperty.js"
   },
   {
-    "id": "a8652dd3-90bd-11e5-9131-69da824c45fe",
+    "id": "3591b740-90c4-11e5-8529-e7aaf77b5d71",
     "name": "prop1",
     "addr": "/\{/",
     "kind": "v",
     "type": "number",
     "lineno": 19,
     "namespace": "o2",
-    "parent": "a8652dd2-90bd-11e5-9131-69da824c45fe",
+    "parent": "35919032-90c4-11e5-8529-e7aaf77b5d71",
     "origin": {
       "!span": "286[18:28]-354[21:1]",
       "!type": "number",
@@ -115,14 +115,14 @@ o2.prop2; //: bool
     "tagfile": "__DIR__/defineProperty.js"
   },
   {
-    "id": "a8652dd4-90bd-11e5-9131-69da824c45fe",
+    "id": "3591b741-90c4-11e5-8529-e7aaf77b5d71",
     "name": "prop2",
     "addr": "/\{/",
     "kind": "v",
     "type": "boolean",
     "lineno": 19,
     "namespace": "o2",
-    "parent": "a8652dd2-90bd-11e5-9131-69da824c45fe",
+    "parent": "35919032-90c4-11e5-8529-e7aaf77b5d71",
     "origin": {
       "!span": "286[18:28]-354[21:1]",
       "!type": "bool",

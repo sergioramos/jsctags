@@ -45,7 +45,7 @@ var f = function() {
 ```json
 [
   {
-    "id": "b817bbd0-90bd-11e5-ad51-852b69fd200d",
+    "id": "4665bad0-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
@@ -62,7 +62,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b8183101-90bd-11e5-ad51-852b69fd200d",
+    "id": "46667e21-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
@@ -79,7 +79,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b81809f0-90bd-11e5-ad51-852b69fd200d",
+    "id": "4665e1e0-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "e",
     "addr": "/e/",
     "kind": "v",
@@ -96,7 +96,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b8183102-90bd-11e5-ad51-852b69fd200d",
+    "id": "46667e22-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "test",
     "addr": "/test/",
     "kind": "v",
@@ -113,7 +113,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b81809f1-90bd-11e5-ad51-852b69fd200d",
+    "id": "4665e1e1-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "g",
     "addr": "/g/",
     "kind": "v",
@@ -130,7 +130,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b81809f2-90bd-11e5-ad51-852b69fd200d",
+    "id": "4665e1e2-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "h",
     "addr": "/h/",
     "kind": "v",
@@ -147,7 +147,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b81809f3-90bd-11e5-ad51-852b69fd200d",
+    "id": "4665e1e3-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "i",
     "addr": "/i/",
     "kind": "v",
@@ -164,7 +164,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b81809f4-90bd-11e5-ad51-852b69fd200d",
+    "id": "4665e1e4-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "j",
     "addr": "/j/",
     "kind": "v",
@@ -181,7 +181,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b81809f5-90bd-11e5-ad51-852b69fd200d",
+    "id": "4665e1e5-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "k",
     "addr": "/k/",
     "kind": "v",
@@ -198,7 +198,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b81809f6-90bd-11e5-ad51-852b69fd200d",
+    "id": "4665e1e6-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "l",
     "addr": "/l/",
     "kind": "v",
@@ -215,24 +215,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b8183103-90bd-11e5-ad51-852b69fd200d",
-    "name": "left",
-    "addr": "/left/",
-    "kind": "v",
-    "type": "boolean",
-    "lineno": 13,
-    "origin": {
-      "!span": "439[12:19]-443[12:23]",
-      "!type": "bool",
-      "!data": {
-        "isConstructor": false,
-        "isPlainObject": false
-      }
-    },
-    "tagfile": "__DIR__/react.jsx"
-  },
-  {
-    "id": "b81809f7-90bd-11e5-ad51-852b69fd200d",
+    "id": "4665e1e7-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "m",
     "addr": "/m/",
     "kind": "v",
@@ -249,7 +232,24 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b81809f8-90bd-11e5-ad51-852b69fd200d",
+    "id": "46667e23-90c4-11e5-ba37-cd84dd8ceb39",
+    "name": "left",
+    "addr": "/left/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 13,
+    "origin": {
+      "!span": "439[12:19]-443[12:23]",
+      "!type": "bool",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "id": "4665e1e8-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "n",
     "addr": "/n/",
     "kind": "v",
@@ -266,7 +266,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b81809f9-90bd-11e5-ad51-852b69fd200d",
+    "id": "4665e1e9-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "o",
     "addr": "/o/",
     "kind": "v",
@@ -283,7 +283,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b81809fa-90bd-11e5-ad51-852b69fd200d",
+    "id": "4665e1ea-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "p",
     "addr": "/p/",
     "kind": "v",
@@ -300,7 +300,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b81809fb-90bd-11e5-ad51-852b69fd200d",
+    "id": "4665e1eb-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "q",
     "addr": "/q/",
     "kind": "v",
@@ -317,7 +317,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b81809fc-90bd-11e5-ad51-852b69fd200d",
+    "id": "4665e1ec-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "r",
     "addr": "/r/",
     "kind": "v",
@@ -334,7 +334,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b8183104-90bd-11e5-ad51-852b69fd200d",
+    "id": "46667e24-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "post",
     "addr": "/post/",
     "kind": "v",
@@ -351,24 +351,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b81809fd-90bd-11e5-ad51-852b69fd200d",
-    "name": "s",
-    "addr": "/s/",
-    "kind": "v",
-    "type": "boolean",
-    "lineno": 19,
-    "origin": {
-      "!span": "634[18:4]-635[18:5]",
-      "!type": "bool",
-      "!data": {
-        "isConstructor": false,
-        "isPlainObject": false
-      }
-    },
-    "tagfile": "__DIR__/react.jsx"
-  },
-  {
-    "id": "b8183106-90bd-11e5-ad51-852b69fd200d",
+    "id": "4666a530-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "pre2",
     "addr": "/pre2/",
     "kind": "v",
@@ -385,7 +368,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b8183105-90bd-11e5-ad51-852b69fd200d",
+    "id": "46667e25-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "pre",
     "addr": "/pre/",
     "kind": "v",
@@ -402,13 +385,28 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b8194270-90bd-11e5-ad51-852b69fd200d",
+    "id": "4665e1ed-90c4-11e5-ba37-cd84dd8ceb39",
+    "name": "s",
+    "addr": "/s/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 19,
+    "origin": {
+      "!span": "634[18:4]-635[18:5]",
+      "!type": "bool",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
+    "id": "4666a531-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "aa",
     "addr": "/aa/",
     "kind": "v",
     "lineno": 20,
-    "namespace": "aa",
-    "parent": "b8183107-90bd-11e5-ad51-852b69fd200d",
     "origin": {
       "!span": "704[19:11]-706[19:13]",
       "!data": {
@@ -419,7 +417,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b8196980-90bd-11e5-ad51-852b69fd200d",
+    "id": "4666a532-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "bb",
     "addr": "/bb/",
     "kind": "v",
@@ -436,7 +434,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b81809fe-90bd-11e5-ad51-852b69fd200d",
+    "id": "4665e1ee-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "t",
     "addr": "/t/",
     "kind": "v",
@@ -453,22 +451,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b8183107-90bd-11e5-ad51-852b69fd200d",
-    "name": "aa",
-    "addr": "/aa/",
-    "kind": "v",
-    "lineno": 20,
-    "origin": {
-      "!span": "704[19:11]-706[19:13]",
-      "!data": {
-        "isConstructor": false,
-        "isPlainObject": true
-      }
-    },
-    "tagfile": "__DIR__/react.jsx"
-  },
-  {
-    "id": "b8196981-90bd-11e5-ad51-852b69fd200d",
+    "id": "4666a533-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "href",
     "addr": "/href/",
     "kind": "v",
@@ -485,7 +468,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b81809ff-90bd-11e5-ad51-852b69fd200d",
+    "id": "466608f0-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "u",
     "addr": "/u/",
     "kind": "v",
@@ -502,7 +485,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b8180a00-90bd-11e5-ad51-852b69fd200d",
+    "id": "466608f1-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "v",
     "addr": "/v/",
     "kind": "v",
@@ -519,7 +502,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b8180a01-90bd-11e5-ad51-852b69fd200d",
+    "id": "466608f2-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
@@ -536,7 +519,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b8180a02-90bd-11e5-ad51-852b69fd200d",
+    "id": "466608f3-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "w",
     "addr": "/w/",
     "kind": "v",
@@ -553,7 +536,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b8180a03-90bd-11e5-ad51-852b69fd200d",
+    "id": "466608f4-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
@@ -570,7 +553,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b8180a04-90bd-11e5-ad51-852b69fd200d",
+    "id": "466608f5-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "z",
     "addr": "/z/",
     "kind": "v",
@@ -587,7 +570,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b8180a05-90bd-11e5-ad51-852b69fd200d",
+    "id": "466608f6-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "ç",
     "addr": "/ç/",
     "kind": "v",
@@ -604,7 +587,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "b8183100-90bd-11e5-ad51-852b69fd200d",
+    "id": "46667e20-90c4-11e5-ba37-cd84dd8ceb39",
     "name": "arr",
     "addr": "/arr/",
     "kind": "v",
@@ -633,21 +616,20 @@ i	__DIR__/react.jsx	/i/;"	v	lineno:9	type:boolean
 j	__DIR__/react.jsx	/j/;"	v	lineno:10	type:boolean
 k	__DIR__/react.jsx	/k/;"	v	lineno:11	type:boolean
 l	__DIR__/react.jsx	/l/;"	v	lineno:12	type:boolean
-left	__DIR__/react.jsx	/left/;"	v	lineno:13	type:boolean
 m	__DIR__/react.jsx	/m/;"	v	lineno:13	type:boolean
+left	__DIR__/react.jsx	/left/;"	v	lineno:13	type:boolean
 n	__DIR__/react.jsx	/n/;"	v	lineno:14	type:boolean
 o	__DIR__/react.jsx	/o/;"	v	lineno:15	type:boolean
 p	__DIR__/react.jsx	/p/;"	v	lineno:16	type:boolean
 q	__DIR__/react.jsx	/q/;"	v	lineno:17	type:boolean
 r	__DIR__/react.jsx	/r/;"	v	lineno:18	type:boolean
 post	__DIR__/react.jsx	/post/;"	v	lineno:18	type:boolean
-s	__DIR__/react.jsx	/s/;"	v	lineno:19	type:boolean
 pre2	__DIR__/react.jsx	/pre2/;"	v	lineno:19	type:string
 pre	__DIR__/react.jsx	/pre/;"	v	lineno:19	type:string
-aa	__DIR__/react.jsx	/aa/;"	v	lineno:20	namespace:aa
+s	__DIR__/react.jsx	/s/;"	v	lineno:19	type:boolean
+aa	__DIR__/react.jsx	/aa/;"	v	lineno:20
 bb	__DIR__/react.jsx	/bb/;"	v	lineno:20	type:boolean
 t	__DIR__/react.jsx	/t/;"	v	lineno:20	type:boolean
-aa	__DIR__/react.jsx	/aa/;"	v	lineno:20
 href	__DIR__/react.jsx	/href/;"	v	lineno:21	type:boolean
 u	__DIR__/react.jsx	/u/;"	v	lineno:21	type:boolean
 v	__DIR__/react.jsx	/v/;"	v	lineno:22	type:boolean

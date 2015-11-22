@@ -37,13 +37,15 @@
     "addr": "/fn2/",
     "kind": "f",
     "type": "void function()",
-    "lineno": 11,
-    "namespace": "Date.prototype",
+    "lineno": 7,
+    "namespace": "Bar.prototype",
     "origin": {
-      "!span": "183[10:15]-186[10:18]",
+      "!span": "128[6:14]-131[6:17]",
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
         "isPlainObject": false
       }
     },
@@ -55,7 +57,7 @@
     "kind": "f",
     "type": "void function()",
     "lineno": 11,
-    "namespace": "Bar.prototype",
+    "namespace": "Date.prototype",
     "origin": {
       "!span": "183[10:15]-186[10:18]",
       "!type": "fn()",

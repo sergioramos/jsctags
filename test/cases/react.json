@@ -160,13 +160,13 @@
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "name": "left",
-    "addr": "/left/",
+    "name": "m",
+    "addr": "/m/",
     "kind": "v",
     "type": "boolean",
     "lineno": 13,
     "origin": {
-      "!span": "439[12:19]-443[12:23]",
+      "!span": "424[12:4]-425[12:5]",
       "!type": "bool",
       "!data": {
         "isConstructor": false,
@@ -176,13 +176,13 @@
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "name": "m",
-    "addr": "/m/",
+    "name": "left",
+    "addr": "/left/",
     "kind": "v",
     "type": "boolean",
     "lineno": 13,
     "origin": {
-      "!span": "424[12:4]-425[12:5]",
+      "!span": "439[12:19]-443[12:23]",
       "!type": "bool",
       "!data": {
         "isConstructor": false,
@@ -288,22 +288,6 @@
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "name": "s",
-    "addr": "/s/",
-    "kind": "v",
-    "type": "boolean",
-    "lineno": 19,
-    "origin": {
-      "!span": "634[18:4]-635[18:5]",
-      "!type": "bool",
-      "!data": {
-        "isConstructor": false,
-        "isPlainObject": false
-      }
-    },
-    "tagfile": "__DIR__/react.jsx"
-  },
-  {
     "name": "pre2",
     "addr": "/pre2/",
     "kind": "v",
@@ -336,11 +320,26 @@
     "tagfile": "__DIR__/react.jsx"
   },
   {
+    "name": "s",
+    "addr": "/s/",
+    "kind": "v",
+    "type": "boolean",
+    "lineno": 19,
+    "origin": {
+      "!span": "634[18:4]-635[18:5]",
+      "!type": "bool",
+      "!data": {
+        "isConstructor": false,
+        "isPlainObject": false
+      }
+    },
+    "tagfile": "__DIR__/react.jsx"
+  },
+  {
     "name": "aa",
     "addr": "/aa/",
     "kind": "v",
     "lineno": 20,
-    "namespace": "aa",
     "origin": {
       "!span": "704[19:11]-706[19:13]",
       "!data": {
@@ -378,20 +377,6 @@
       "!data": {
         "isConstructor": false,
         "isPlainObject": false
-      }
-    },
-    "tagfile": "__DIR__/react.jsx"
-  },
-  {
-    "name": "aa",
-    "addr": "/aa/",
-    "kind": "v",
-    "lineno": 20,
-    "origin": {
-      "!span": "704[19:11]-706[19:13]",
-      "!data": {
-        "isConstructor": false,
-        "isPlainObject": true
       }
     },
     "tagfile": "__DIR__/react.jsx"

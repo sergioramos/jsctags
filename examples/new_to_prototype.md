@@ -17,7 +17,7 @@ C.prototype.prop_C = 3;
 ```json
 [
   {
-    "id": "b2100080-90bd-11e5-a741-f77ff0f0f867",
+    "id": "3fd6f530-90c4-11e5-8450-0b358a312f94",
     "name": "A",
     "addr": "/A/",
     "kind": "f",
@@ -34,14 +34,14 @@ C.prototype.prop_C = 3;
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
-    "id": "b2102791-90bd-11e5-a741-f77ff0f0f867",
+    "id": "3fd71c41-90c4-11e5-8450-0b358a312f94",
     "name": "prop_A",
     "addr": "/prop_A/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "A.prototype",
-    "parent": "b2102790-90bd-11e5-a741-f77ff0f0f867",
+    "parent": "3fd71c40-90c4-11e5-8450-0b358a312f94",
     "origin": {
       "!span": "28[1:12]-34[1:18]",
       "!type": "number",
@@ -53,7 +53,7 @@ C.prototype.prop_C = 3;
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
-    "id": "b2102792-90bd-11e5-a741-f77ff0f0f867",
+    "id": "3fd74350-90c4-11e5-8450-0b358a312f94",
     "name": "B",
     "addr": "/B/",
     "kind": "f",
@@ -70,13 +70,13 @@ C.prototype.prop_C = 3;
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
-    "id": "b2102793-90bd-11e5-a741-f77ff0f0f867",
+    "id": "3fd74351-90c4-11e5-8450-0b358a312f94",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 4,
     "namespace": "B",
-    "parent": "b2102792-90bd-11e5-a741-f77ff0f0f867",
+    "parent": "3fd74350-90c4-11e5-8450-0b358a312f94",
     "origin": {
       "!span": "58[3:2]-67[3:11]",
       "!data": {
@@ -87,14 +87,14 @@ C.prototype.prop_C = 3;
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
-    "id": "b2102794-90bd-11e5-a741-f77ff0f0f867",
+    "id": "3fd74352-90c4-11e5-8450-0b358a312f94",
     "name": "prop_B",
     "addr": "/prop_B/",
     "kind": "v",
     "type": "number",
     "lineno": 5,
     "namespace": "B.prototype",
-    "parent": "b2102793-90bd-11e5-a741-f77ff0f0f867",
+    "parent": "3fd74351-90c4-11e5-8450-0b358a312f94",
     "origin": {
       "!span": "89[4:12]-95[4:18]",
       "!type": "number",
@@ -106,7 +106,7 @@ C.prototype.prop_C = 3;
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
-    "id": "b2102795-90bd-11e5-a741-f77ff0f0f867",
+    "id": "3fd74353-90c4-11e5-8450-0b358a312f94",
     "name": "C",
     "addr": "/C/",
     "kind": "f",
@@ -123,13 +123,13 @@ C.prototype.prop_C = 3;
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
-    "id": "b2102796-90bd-11e5-a741-f77ff0f0f867",
+    "id": "3fd74354-90c4-11e5-8450-0b358a312f94",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "C",
-    "parent": "b2102795-90bd-11e5-a741-f77ff0f0f867",
+    "parent": "3fd74353-90c4-11e5-8450-0b358a312f94",
     "origin": {
       "!span": "119[6:2]-128[6:11]",
       "!data": {
@@ -140,14 +140,14 @@ C.prototype.prop_C = 3;
     "tagfile": "__DIR__/new_to_prototype.js"
   },
   {
-    "id": "b2102797-90bd-11e5-a741-f77ff0f0f867",
+    "id": "3fd74355-90c4-11e5-8450-0b358a312f94",
     "name": "prop_C",
     "addr": "/prop_C/",
     "kind": "v",
     "type": "number",
     "lineno": 8,
     "namespace": "C.prototype",
-    "parent": "b2102796-90bd-11e5-a741-f77ff0f0f867",
+    "parent": "3fd74354-90c4-11e5-8450-0b358a312f94",
     "origin": {
       "!span": "150[7:12]-156[7:18]",
       "!type": "number",
