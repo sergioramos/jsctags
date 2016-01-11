@@ -46,6 +46,20 @@ jsctags(file, dir, content, function (e, tags) {
 })
 ```
 
+## Usage with Vim
+
+If you'd like to take a JavaScript project and generate a `tags` file that Vim can parse, you can use the below command. It searches your directory for any `.js` files, excluding `./node_modules`, formats the tags correctly for Vim and outputs them into `tags`.
+
+```bash
+find . -type f -iregex .*\.js$ -not -path "./node_modules/*" -exec jsctags {} -f \; | sed '/^$/d' | sort > tags
+```
+
+If you would like tags generated for files within `node_modules/`, just remove the `-not -path "./node_modules/*` part of the command:
+
+```bash
+find . -type f -iregex .*\.js$ -exec jsctags {} -f \; | sed '/^$/d' | sort > tags
+```
+
 ## examples
 
  * [arguments](examples/arguments.md)
