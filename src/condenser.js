@@ -83,11 +83,15 @@ module.exports = function (options, fn) {
     options.server = server(config(options.dir, options.file), options.dir);
   }
 
-  options.server.request({files: [{
-    name: options.file,
-    text: options.content,
-    type: 'full'
-  }]}, function (err) {
+  var filename = options.server.normalizeFilename(options.file);
+
+  options.server.request({
+    files: [{
+      name: filename,
+      text: options.content,
+      type: 'full'
+    }]
+  }, function (err) {
     _fn(err);
   });
 
@@ -96,7 +100,7 @@ module.exports = function (options, fn) {
       return _fn(err);
     }
 
-    _fn(null, condense.condense(options.file, options.file, {
+    _fn(null, condense.condense(filename, filename, {
       spans: true,
       server: options.server
     }));
