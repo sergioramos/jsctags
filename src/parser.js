@@ -1,5 +1,5 @@
 var format = require('util').format;
-var isString = require('is-string');
+var isString = require('lodash.isstring');
 var includes = require('lodash.includes');
 var isUndefined = require('lodash.isundefined');
 var isObject = require('lodash.isplainobject');
@@ -11,6 +11,7 @@ var get = require('lodash.get');
 var objectHash = require('object-hash');
 var clone = require('lodash.clonedeep');
 var uuid = require('node-uuid');
+var path = require('path');
 
 var condense = require('./condenser');
 
@@ -76,6 +77,11 @@ var Parser = function (ctx) {
   if (!(this instanceof Parser)) {
     return new Parser(ctx);
   }
+
+  var extname = path.extname(ctx.file);
+  var basename = path.basename(ctx.file, extname);
+
+  this.fileId = format('%s%s', basename, extname.replace(/\./, '`'));
 
   this.ctx = ctx;
   this.condense = ctx.condense || {};
@@ -160,6 +166,10 @@ Parser.prototype.namespace = function (node, parent) {
   }
 
   if (MATCHES.namespace.test(parent.name)) {
+    return;
+  }
+
+  if (parent.name === this.fileId) {
     return;
   }
 
