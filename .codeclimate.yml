@@ -1,0 +1,17 @@
+engines:
+  eslint:
+    enabled: true
+    config:
+      config: .eslintrc
+  fixme:
+    enabled: true
+  duplication:
+    enabled: true
+    config:
+      languages:
+      - javascript
+  nodesecurity:
+    enabled: true
+exclude_paths:
+- test/cases
+- examples

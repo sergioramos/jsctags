@@ -15,7 +15,7 @@
   },
   {
     "name": "iterator",
-    "addr": "/Symbol\.iterator/",
+    "addr": "/Symbol\\.iterator/",
     "kind": "f",
     "type": "myIter.:Symbol.iterator.!ret function()",
     "lineno": 2,

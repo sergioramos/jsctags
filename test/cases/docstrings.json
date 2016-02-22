@@ -279,7 +279,7 @@
   },
   {
     "name": "prototype",
-    "addr": "/class C \{/",
+    "addr": "/class C \\{/",
     "kind": "v",
     "lineno": 93,
     "namespace": "C",

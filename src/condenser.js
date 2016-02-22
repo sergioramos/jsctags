@@ -16,6 +16,7 @@ var config = function (dir, file) {
   }, '{}');
 
   var extname = path.extname(file).replace(/^\./, '');
+
   var confs = {
     jsx: {
       jsx: {}
@@ -31,7 +32,7 @@ var config = function (dir, file) {
   return merge(JSON.parse(config), {
     libs: ['browser', 'ecma5', 'ecma6'],
     loadEagerly: false,
-    plugins: merge(plugins, confs[extname])
+    plugins: merge(plugins, confs[extname] || {})
   });
 };
 

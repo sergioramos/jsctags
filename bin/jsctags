@@ -1,9 +1,11 @@
 #!/usr/bin/env node
 
 var format = require('util').format;
+var forceArray = require('force-array');
 var argv = require('optimist').argv;
 var jsctags = require('../');
 var path = require('path');
+var glob = require('glob');
 var collect = require('collect-stream');
 var async = require('async');
 var fs = require('fs');
@@ -29,16 +31,24 @@ var file = (function () {
     return path.resolve(process.cwd(), argv.file);
   }
 
-  if (argv._.length) {
-    return argv._.map(function (file) {
-      return path.resolve(process.cwd(), file);
-    });
+  if (!argv._.length && !argv.find) {
+    return format('///null/%s', Math.floor(Math.random() * 100));
   }
 
-  return format('///null/%s', Math.floor(Math.random() * 100));
+  var find = forceArray(argv.find);
+  var files = !find.length ? argv._ : find.reduce(function (files, pattern) {
+    return files.concat(glob.sync(pattern, {
+      nosort: true,
+      silent: true
+    }));
+  }, []);
+
+  return files.map(function (file) {
+    return path.resolve(process.cwd(), file);
+  });
 })();
 
-if (!argv._.length) {
+if (!argv._.length && !argv.find) {
   collect(process.stdin, function (err, content) {
     if (err) {
       throw err;
@@ -74,7 +84,7 @@ if (!argv._.length) {
   async.map(files, function (file, callback) {
     fs.readFile(file, 'utf8', function (err, content) {
       if (err) {
-        return callback(err);
+        return callback(null, err);
       }
 
       jsctags({
@@ -83,7 +93,7 @@ if (!argv._.length) {
         content: content
       }, function (err, tags) {
         if (err) {
-          throw err;
+          return callback(null, err);
         }
 
         tags.tagfile = file;
@@ -98,6 +108,15 @@ if (!argv._.length) {
     if (err) {
       throw err;
     }
+
+    results = results.filter(function(res) {
+      if (res instanceof Error) {
+        console.error(err);
+        return false
+      }
+
+      return true;
+    });
 
     if (argv.f) {
       var ctags = Array.prototype.concat.apply([], results.map(jsctags.ctags));

@@ -46,7 +46,7 @@
   },
   {
     "name": "iterator",
-    "addr": "/Symbol\.iterator/",
+    "addr": "/Symbol\\.iterator/",
     "kind": "v",
     "type": "string",
     "lineno": 8,

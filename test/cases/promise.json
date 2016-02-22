@@ -33,7 +33,7 @@
   },
   {
     "name": ":t",
-    "addr": "/function\(acc\) \{ acc\(\"hi\"\); \}/",
+    "addr": "/function\\(acc\\) \\{ acc\\(\"hi\"\\); \\}/",
     "kind": "v",
     "type": "string",
     "lineno": 12,
