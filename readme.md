@@ -1,4 +1,4 @@
-# jsctags 
+# jsctags
 
 [![](https://img.shields.io/travis/ramitos/jsctags.svg)](https://travis-ci.org/ramitos/jsctags) [![](https://img.shields.io/codeclimate/coverage/github/ramitos/jsctags.svg)](https://codeclimate.com/github/ramitos/jsctags/coverage) [![](https://img.shields.io/npm/v/jsctags.svg)](https://www.npmjs.com/package/jsctags) [![](https://img.shields.io/david/ramitos/jsctags.svg)](https://david-dm.org/ramitos/jsctags) [![](https://img.shields.io/codeclimate/github/ramitos/jsctags.svg)](https://codeclimate.com/github/ramitos/jsctags) [![](https://img.shields.io/npm/l/jsctags.svg)](https://www.npmjs.com/package/jsctags)
 

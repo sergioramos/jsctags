@@ -17,7 +17,7 @@
   },
   {
     "name": "prototype",
-    "addr": "/class Point2 \{/",
+    "addr": "/class Point2 \\{/",
     "kind": "v",
     "lineno": 1,
     "namespace": "Point2",
@@ -241,7 +241,7 @@
   },
   {
     "name": "prototype",
-    "addr": "/class Point4 extends Point3 \{/",
+    "addr": "/class Point4 extends Point3 \\{/",
     "kind": "v",
     "lineno": 13,
     "namespace": "Point4",
@@ -306,7 +306,7 @@
   },
   {
     "name": "prototype",
-    "addr": "/class extends Point2 \{/",
+    "addr": "/class extends Point2 \\{/",
     "kind": "v",
     "lineno": 18,
     "namespace": "Point3",

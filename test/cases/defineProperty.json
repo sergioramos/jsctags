@@ -63,7 +63,7 @@
   },
   {
     "name": "prop1",
-    "addr": "/\{/",
+    "addr": "/\\{/",
     "kind": "v",
     "type": "number",
     "lineno": 19,
@@ -80,7 +80,7 @@
   },
   {
     "name": "prop2",
-    "addr": "/\{/",
+    "addr": "/\\{/",
     "kind": "v",
     "type": "boolean",
     "lineno": 19,

@@ -15,7 +15,7 @@ var path = require('path');
 
 var condense = require('./condenser');
 
-const MATCHES = {
+var MATCHES = {
   pos: /^(\d*?)\[\d*?\:\d*?\]-(\d*?)\[\d*?\:\d*?\]$/,
   addr: /[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g,
   fn: /^fn\*?\(/,
@@ -27,7 +27,7 @@ const MATCHES = {
   namespace: /\//
 };
 
-const DEFAULT_TYPES = [
+var DEFAULT_TYPES = [
   /^\?/,
   MATCHES.fn,
   /^\</,
@@ -39,7 +39,7 @@ const DEFAULT_TYPES = [
   'string'
 ];
 
-const TYPE_MAPPING = {
+var TYPE_MAPPING = {
   'Number': 'number',
   'bool': 'boolean',
   'String': 'string',

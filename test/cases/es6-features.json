@@ -17,7 +17,7 @@
   },
   {
     "name": "prototype",
-    "addr": "/class Foo \{/",
+    "addr": "/class Foo \\{/",
     "kind": "v",
     "lineno": 1,
     "namespace": "Foo",
