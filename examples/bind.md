@@ -22,7 +22,7 @@ k(); //:: {a: bool}
 ```json
 [
   {
-    "id": "2363c4d0-90cb-11e5-a21c-656add389998",
+    "id": "dbfdfe80-7aee-11e6-bb4a-5fd88edf857f",
     "name": "f",
     "addr": "/f/",
     "kind": "f",
@@ -39,14 +39,14 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "236412f0-90cb-11e5-a21c-656add389998",
+    "id": "dbfe4ca1-7aee-11e6-bb4a-5fd88edf857f",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "f",
-    "parent": "2363c4d0-90cb-11e5-a21c-656add389998",
+    "parent": "dbfdfe80-7aee-11e6-bb4a-5fd88edf857f",
     "origin": {
       "!span": "14[0:14]-15[0:15]",
       "!type": "number",
@@ -60,14 +60,14 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "236412f1-90cb-11e5-a21c-656add389998",
+    "id": "dbfe4ca2-7aee-11e6-bb4a-5fd88edf857f",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "f",
-    "parent": "2363c4d0-90cb-11e5-a21c-656add389998",
+    "parent": "dbfdfe80-7aee-11e6-bb4a-5fd88edf857f",
     "origin": {
       "!span": "17[0:17]-18[0:18]",
       "!type": "number",
@@ -81,14 +81,14 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "236412f2-90cb-11e5-a21c-656add389998",
+    "id": "dbfe4ca3-7aee-11e6-bb4a-5fd88edf857f",
     "name": "d",
     "addr": "/d/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "f",
-    "parent": "2363c4d0-90cb-11e5-a21c-656add389998",
+    "parent": "dbfdfe80-7aee-11e6-bb4a-5fd88edf857f",
     "origin": {
       "!span": "20[0:20]-21[0:21]",
       "!type": "number",
@@ -102,14 +102,14 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "2363ebe0-90cb-11e5-a21c-656add389998",
+    "id": "dbfe4ca0-7aee-11e6-bb4a-5fd88edf857f",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "f",
-    "parent": "2363c4d0-90cb-11e5-a21c-656add389998",
+    "parent": "dbfdfe80-7aee-11e6-bb4a-5fd88edf857f",
     "origin": {
       "!span": "11[0:11]-12[0:12]",
       "!type": "number",
@@ -123,7 +123,7 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "236412f3-90cb-11e5-a21c-656add389998",
+    "id": "dbfe4ca4-7aee-11e6-bb4a-5fd88edf857f",
     "name": "g",
     "addr": "/g/",
     "kind": "f",
@@ -140,7 +140,7 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "236412f4-90cb-11e5-a21c-656add389998",
+    "id": "dbfe73b0-7aee-11e6-bb4a-5fd88edf857f",
     "name": "h",
     "addr": "/h/",
     "kind": "f",
@@ -157,14 +157,14 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "236412f5-90cb-11e5-a21c-656add389998",
+    "id": "dbfe73b1-7aee-11e6-bb4a-5fd88edf857f",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 7,
     "namespace": "h",
-    "parent": "236412f4-90cb-11e5-a21c-656add389998",
+    "parent": "dbfe73b0-7aee-11e6-bb4a-5fd88edf857f",
     "origin": {
       "!span": "152[6:11]-153[6:12]",
       "!type": "number",
@@ -178,7 +178,7 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "236412f6-90cb-11e5-a21c-656add389998",
+    "id": "dbfe73b2-7aee-11e6-bb4a-5fd88edf857f",
     "name": "i",
     "addr": "/i/",
     "kind": "f",
@@ -195,7 +195,7 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "236412f7-90cb-11e5-a21c-656add389998",
+    "id": "dbfe73b3-7aee-11e6-bb4a-5fd88edf857f",
     "name": "o",
     "addr": "/o/",
     "kind": "v",
@@ -210,14 +210,14 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "236412f8-90cb-11e5-a21c-656add389998",
+    "id": "dbfe73b4-7aee-11e6-bb4a-5fd88edf857f",
     "name": "i",
     "addr": "/i/",
     "kind": "f",
     "type": "h.!ret function()",
     "lineno": 12,
     "namespace": "o",
-    "parent": "236412f7-90cb-11e5-a21c-656add389998",
+    "parent": "dbfe73b3-7aee-11e6-bb4a-5fd88edf857f",
     "origin": {
       "!span": "280[11:9]-281[11:10]",
       "!type": "fn() -> h.!ret",
@@ -231,7 +231,7 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "236412f9-90cb-11e5-a21c-656add389998",
+    "id": "dbfe73b5-7aee-11e6-bb4a-5fd88edf857f",
     "name": "j",
     "addr": "/j/",
     "kind": "f",
@@ -248,7 +248,7 @@ k(); //:: {a: bool}
     "tagfile": "__DIR__/bind.js"
   },
   {
-    "id": "236412fa-90cb-11e5-a21c-656add389998",
+    "id": "dbfe73b6-7aee-11e6-bb4a-5fd88edf857f",
     "name": "k",
     "addr": "/k/",
     "kind": "f",

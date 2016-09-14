@@ -37,7 +37,7 @@ o //: bool
 ```json
 [
   {
-    "id": "27e49200-90cb-11e5-b731-a3800ac42ba0",
+    "id": "ed9db680-7aee-11e6-8b4c-9f7b92d723ff",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
@@ -54,7 +54,7 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "27e4b911-90cb-11e5-b731-a3800ac42ba0",
+    "id": "ed9ddd91-7aee-11e6-8b4c-9f7b92d723ff",
     "name": "d",
     "addr": "/d/",
     "kind": "v",
@@ -71,7 +71,7 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "27e4b910-90cb-11e5-b731-a3800ac42ba0",
+    "id": "ed9ddd90-7aee-11e6-8b4c-9f7b92d723ff",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
@@ -88,7 +88,7 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "27e4b912-90cb-11e5-b731-a3800ac42ba0",
+    "id": "ed9ddd92-7aee-11e6-8b4c-9f7b92d723ff",
     "name": "foo",
     "addr": "/foo/",
     "kind": "f",
@@ -105,14 +105,14 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "27e4e020-90cb-11e5-b731-a3800ac42ba0",
+    "id": "ed9e04a0-7aee-11e6-8b4c-9f7b92d723ff",
     "name": "e",
     "addr": "/e/",
     "kind": "v",
     "type": "boolean",
     "lineno": 8,
     "namespace": "foo",
-    "parent": "27e4b912-90cb-11e5-b731-a3800ac42ba0",
+    "parent": "ed9ddd92-7aee-11e6-8b4c-9f7b92d723ff",
     "origin": {
       "!span": "105[7:14]-106[7:15]",
       "!type": "bool",
@@ -126,14 +126,14 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "27e4e021-90cb-11e5-b731-a3800ac42ba0",
+    "id": "ed9e04a1-7aee-11e6-8b4c-9f7b92d723ff",
     "name": "f",
     "addr": "/f/",
     "kind": "v",
     "type": "number",
     "lineno": 8,
     "namespace": "foo",
-    "parent": "27e4b912-90cb-11e5-b731-a3800ac42ba0",
+    "parent": "ed9ddd92-7aee-11e6-8b4c-9f7b92d723ff",
     "origin": {
       "!span": "110[7:19]-111[7:20]",
       "!type": "number",
@@ -147,14 +147,14 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "27e4e022-90cb-11e5-b731-a3800ac42ba0",
+    "id": "ed9e04a2-7aee-11e6-8b4c-9f7b92d723ff",
     "name": "g",
     "addr": "/g/",
     "kind": "v",
     "type": "string",
     "lineno": 8,
     "namespace": "foo",
-    "parent": "27e4b912-90cb-11e5-b731-a3800ac42ba0",
+    "parent": "ed9ddd92-7aee-11e6-8b4c-9f7b92d723ff",
     "origin": {
       "!span": "117[7:26]-118[7:27]",
       "!type": "string",
@@ -168,14 +168,14 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "27e4e023-90cb-11e5-b731-a3800ac42ba0",
+    "id": "ed9e04a3-7aee-11e6-8b4c-9f7b92d723ff",
     "name": "h",
     "addr": "/h/",
     "kind": "v",
     "type": "[number]",
     "lineno": 8,
     "namespace": "foo",
-    "parent": "27e4b912-90cb-11e5-b731-a3800ac42ba0",
+    "parent": "ed9ddd92-7aee-11e6-8b4c-9f7b92d723ff",
     "origin": {
       "!span": "124[7:33]-125[7:34]",
       "!type": "[number]",
@@ -189,7 +189,7 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "27e4e024-90cb-11e5-b731-a3800ac42ba0",
+    "id": "ed9e04a4-7aee-11e6-8b4c-9f7b92d723ff",
     "name": "i",
     "addr": "/i/",
     "kind": "v",
@@ -206,7 +206,7 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "27e4e025-90cb-11e5-b731-a3800ac42ba0",
+    "id": "ed9e04a5-7aee-11e6-8b4c-9f7b92d723ff",
     "name": "j",
     "addr": "/j/",
     "kind": "v",
@@ -223,7 +223,7 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "27e4e02b-90cb-11e5-b731-a3800ac42ba0",
+    "id": "ed9e04ab-7aee-11e6-8b4c-9f7b92d723ff",
     "name": "l",
     "addr": "/l/",
     "kind": "v",
@@ -240,7 +240,7 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "27e4e02c-90cb-11e5-b731-a3800ac42ba0",
+    "id": "ed9e04ac-7aee-11e6-8b4c-9f7b92d723ff",
     "name": "m",
     "addr": "/m/",
     "kind": "v",
@@ -257,7 +257,7 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "27e4e026-90cb-11e5-b731-a3800ac42ba0",
+    "id": "ed9e04a6-7aee-11e6-8b4c-9f7b92d723ff",
     "name": "out",
     "addr": "/out/",
     "kind": "v",
@@ -272,14 +272,14 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "27e4e027-90cb-11e5-b731-a3800ac42ba0",
+    "id": "ed9e04a7-7aee-11e6-8b4c-9f7b92d723ff",
     "name": "prop",
     "addr": "/prop/",
     "kind": "v",
     "type": "number",
     "lineno": 29,
     "namespace": "out",
-    "parent": "27e4e026-90cb-11e5-b731-a3800ac42ba0",
+    "parent": "ed9e04a6-7aee-11e6-8b4c-9f7b92d723ff",
     "origin": {
       "!span": "418[28:6]-422[28:10]",
       "!type": "number",
@@ -291,14 +291,14 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "27e4e028-90cb-11e5-b731-a3800ac42ba0",
+    "id": "ed9e04a8-7aee-11e6-8b4c-9f7b92d723ff",
     "name": "prop2",
     "addr": "/prop2/",
     "kind": "v",
     "type": "boolean",
     "lineno": 29,
     "namespace": "out",
-    "parent": "27e4e026-90cb-11e5-b731-a3800ac42ba0",
+    "parent": "ed9e04a6-7aee-11e6-8b4c-9f7b92d723ff",
     "origin": {
       "!span": "428[28:16]-433[28:21]",
       "!type": "bool",
@@ -310,7 +310,7 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "27e4e029-90cb-11e5-b731-a3800ac42ba0",
+    "id": "ed9e04a9-7aee-11e6-8b4c-9f7b92d723ff",
     "name": "n",
     "addr": "/n/",
     "kind": "v",
@@ -327,7 +327,7 @@ o //: bool
     "tagfile": "__DIR__/destructure.js"
   },
   {
-    "id": "27e4e02a-90cb-11e5-b731-a3800ac42ba0",
+    "id": "ed9e04aa-7aee-11e6-8b4c-9f7b92d723ff",
     "name": "o",
     "addr": "/o/",
     "kind": "v",

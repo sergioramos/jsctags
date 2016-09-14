@@ -10,7 +10,7 @@ x + y; //: string
 ```json
 [
   {
-    "id": "33c4bb40-90cb-11e5-ba62-95a50e743e68",
+    "id": "14a61560-7aef-11e6-9596-537319a3b4c0",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
@@ -27,7 +27,7 @@ x + y; //: string
     "tagfile": "__DIR__/plus.js"
   },
   {
-    "id": "33c4e250-90cb-11e5-ba62-95a50e743e68",
+    "id": "14a66380-7aef-11e6-9596-537319a3b4c0",
     "name": "y",
     "addr": "/y/",
     "kind": "v",

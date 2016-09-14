@@ -138,9 +138,9 @@
     "addr": "/Obj/",
     "kind": "f",
     "type": "void function()",
-    "lineno": 10,
+    "lineno": 11,
     "origin": {
-      "!span": "172[9:9]-175[9:12]",
+      "!span": "207[10:9]-210[10:12]",
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
@@ -154,10 +154,10 @@
     "addr": "/map/",
     "kind": "f",
     "type": "[!this.x] function()",
-    "lineno": 13,
+    "lineno": 14,
     "namespace": "Obj.prototype",
     "origin": {
-      "!span": "212[12:14]-215[12:17]",
+      "!span": "247[13:14]-250[13:17]",
       "!type": "fn() -> [!this.x]",
       "!data": {
         "isConstructor": false,
@@ -750,20 +750,100 @@
     "tagfile": "__DIR__/builtins.js"
   },
   {
-    "name": "e",
-    "addr": "/e/",
+    "name": "grabbag",
+    "addr": "/grabbag/",
     "kind": "v",
-    "type": "Error",
-    "lineno": 3,
+    "lineno": 1,
     "origin": {
-      "!span": "23[2:8]-24[2:9]",
-      "!type": "+Error",
+      "!span": "4[0:4]-11[0:11]",
       "!data": {
         "isConstructor": false,
-        "type": "Error.prototype"
+        "type": "Object.prototype"
       }
     },
-    "tagfile": "__DIR__/catch_error.js"
+    "tagfile": "__DIR__/cautiouspropagation.js"
+  },
+  {
+    "name": "<i>",
+    "addr": "/foo\\(\\)/",
+    "kind": "v",
+    "lineno": 2,
+    "namespace": "grabbag",
+    "origin": {
+      "!span": "26[1:8]-31[1:13]",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false
+      }
+    },
+    "tagfile": "__DIR__/cautiouspropagation.js"
+  },
+  {
+    "name": "abc",
+    "addr": "/abc/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 3,
+    "namespace": "grabbag.<i>",
+    "origin": {
+      "!span": "59[2:18]-62[2:21]",
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "type": "Number.prototype"
+      }
+    },
+    "tagfile": "__DIR__/cautiouspropagation.js"
+  },
+  {
+    "name": "inner",
+    "addr": "/inner/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 5,
+    "origin": {
+      "!span": "101[4:4]-106[4:9]",
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "type": "Number.prototype"
+      }
+    },
+    "tagfile": "__DIR__/cautiouspropagation.js"
+  },
+  {
+    "name": "simple",
+    "addr": "/simple/",
+    "kind": "v",
+    "lineno": 8,
+    "origin": {
+      "!span": "155[7:4]-161[7:10]",
+      "!data": {
+        "isConstructor": false,
+        "type": "Object.prototype"
+      }
+    },
+    "tagfile": "__DIR__/cautiouspropagation.js"
+  },
+  {
+    "name": "<i>",
+    "addr": "/foo\\(\\)/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 9,
+    "namespace": "simple",
+    "origin": {
+      "!span": "175[8:7]-180[8:12]",
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "type": "String.prototype"
+      }
+    },
+    "tagfile": "__DIR__/cautiouspropagation.js"
   },
   {
     "name": "Point2",
@@ -2151,7 +2231,7 @@
     "lineno": 93,
     "namespace": "C",
     "origin": {
-      "!span": "1925[92:0]-2029[97:1]",
+      "!span": "1925[92:0]-2028[97:1]",
       "!data": {
         "isConstructor": false,
         "type": "Object.prototype"
@@ -2200,7 +2280,7 @@
     "lineno": 97,
     "namespace": "C.prototype",
     "origin": {
-      "!span": "2002[96:6]-2011[96:15]",
+      "!span": "2001[96:6]-2010[96:15]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -2216,7 +2296,7 @@
     "type": "C",
     "lineno": 100,
     "origin": {
-      "!span": "2035[99:4]-2036[99:5]",
+      "!span": "2034[99:4]-2035[99:5]",
       "!type": "+C",
       "!data": {
         "isConstructor": false,
@@ -3545,6 +3625,70 @@
     "tagfile": "__DIR__/finddef.js"
   },
   {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 29,
+    "origin": {
+      "!span": "383[28:6]-386[28:9]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "prototype",
+    "addr": "/class foo \\{/",
+    "kind": "v",
+    "lineno": 29,
+    "namespace": "foo",
+    "origin": {
+      "!span": "377[28:0]-417[31:1]",
+      "!data": {
+        "isConstructor": false,
+        "type": "Object.prototype"
+      }
+    },
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "bar",
+    "addr": "/bar/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 30,
+    "namespace": "foo.prototype",
+    "origin": {
+      "!span": "391[29:2]-394[29:5]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": false,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "fooObj",
+    "addr": "/fooObj/",
+    "kind": "v",
+    "type": "foo",
+    "lineno": 34,
+    "origin": {
+      "!span": "423[33:4]-429[33:10]",
+      "!type": "+foo",
+      "!data": {
+        "isConstructor": false,
+        "type": "foo.prototype"
+      }
+    },
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
     "name": "hello",
     "addr": "/hello/",
     "kind": "f",
@@ -3561,13 +3705,13 @@
     "tagfile": "__DIR__/findref.js"
   },
   {
-    "name": "a",
-    "addr": "/a/",
+    "name": "b",
+    "addr": "/b/",
     "kind": "v",
     "lineno": 1,
     "namespace": "hello",
     "origin": {
-      "!span": "15[0:15]-16[0:16]",
+      "!span": "18[0:18]-19[0:19]",
       "!data": {
         "isConstructor": false,
         "scoped": true,
@@ -3578,13 +3722,13 @@
     "tagfile": "__DIR__/findref.js"
   },
   {
-    "name": "b",
-    "addr": "/b/",
+    "name": "a",
+    "addr": "/a/",
     "kind": "v",
     "lineno": 1,
     "namespace": "hello",
     "origin": {
-      "!span": "18[0:18]-19[0:19]",
+      "!span": "15[0:15]-16[0:16]",
       "!data": {
         "isConstructor": false,
         "scoped": true,
@@ -3672,6 +3816,151 @@
       "!data": {
         "isConstructor": false,
         "type": "String.prototype"
+      }
+    },
+    "tagfile": "__DIR__/findref.js"
+  },
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 22,
+    "origin": {
+      "!span": "270[21:6]-273[21:9]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/findref.js"
+  },
+  {
+    "name": "prototype",
+    "addr": "/class foo \\{/",
+    "kind": "v",
+    "lineno": 22,
+    "namespace": "foo",
+    "origin": {
+      "!span": "264[21:0]-360[28:1]",
+      "!data": {
+        "isConstructor": false,
+        "type": "Object.prototype"
+      }
+    },
+    "tagfile": "__DIR__/findref.js"
+  },
+  {
+    "name": "methodA",
+    "addr": "/methodA/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 24,
+    "namespace": "foo.prototype",
+    "origin": {
+      "!span": "279[23:2]-286[23:9]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": false,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/findref.js"
+  },
+  {
+    "name": "methodB",
+    "addr": "/methodB/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 27,
+    "namespace": "foo.prototype",
+    "origin": {
+      "!span": "323[26:2]-330[26:9]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": false,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/findref.js"
+  },
+  {
+    "name": "bar",
+    "addr": "/bar/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 31,
+    "origin": {
+      "!span": "368[30:6]-371[30:9]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/findref.js"
+  },
+  {
+    "name": "prototype",
+    "addr": "/class bar extends foo \\{/",
+    "kind": "v",
+    "lineno": 31,
+    "namespace": "bar",
+    "origin": {
+      "!span": "362[30:0]-426[35:1]",
+      "!data": {
+        "isConstructor": false,
+        "type": "foo.prototype"
+      }
+    },
+    "tagfile": "__DIR__/findref.js"
+  },
+  {
+    "name": "methodB",
+    "addr": "/methodB/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 33,
+    "namespace": "bar.prototype",
+    "origin": {
+      "!span": "389[32:2]-396[32:9]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": false,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/findref.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "foo",
+    "lineno": 38,
+    "origin": {
+      "!span": "432[37:4]-433[37:5]",
+      "!type": "+foo",
+      "!data": {
+        "isConstructor": false,
+        "type": "foo.prototype"
+      }
+    },
+    "tagfile": "__DIR__/findref.js"
+  },
+  {
+    "name": "b",
+    "addr": "/b/",
+    "kind": "v",
+    "type": "bar",
+    "lineno": 39,
+    "origin": {
+      "!span": "451[38:4]-452[38:5]",
+      "!type": "+bar",
+      "!data": {
+        "isConstructor": false,
+        "type": "bar.prototype"
       }
     },
     "tagfile": "__DIR__/findref.js"
@@ -3943,7 +4232,7 @@
     "type": "void function(Array[number]|[each.!0.<i>], fn(n: number)",
     "lineno": 2,
     "origin": {
-      "!span": "43[1:4]-47[1:8]",
+      "!span": "44[1:4]-48[1:8]",
       "!type": "fn(obj: [number]|[each.!0.<i>], iterator: fn(n: number)|fn(o: each.!0.<i>), context: ?)",
       "!data": {
         "isConstructor": false,
@@ -3960,7 +4249,7 @@
     "lineno": 2,
     "namespace": "each",
     "origin": {
-      "!span": "74[1:35]-81[1:42]",
+      "!span": "75[1:35]-82[1:42]",
       "!type": "+String",
       "!data": {
         "isConstructor": false,
@@ -3979,7 +4268,7 @@
     "lineno": 2,
     "namespace": "each",
     "origin": {
-      "!span": "64[1:25]-72[1:33]",
+      "!span": "65[1:25]-73[1:33]",
       "!type": "fn(o: each.!0.<i>)",
       "!data": {
         "isConstructor": false,
@@ -3998,7 +4287,7 @@
     "lineno": 2,
     "namespace": "each",
     "origin": {
-      "!span": "59[1:20]-62[1:23]",
+      "!span": "60[1:20]-63[1:23]",
       "!type": "[each.!0.<i>]",
       "!data": {
         "isConstructor": false,
@@ -4017,7 +4306,7 @@
     "lineno": 7,
     "namespace": "each",
     "origin": {
-      "!span": "280[6:13]-281[6:14]",
+      "!span": "281[6:13]-282[6:14]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -4036,7 +4325,7 @@
     "lineno": 7,
     "namespace": "each",
     "origin": {
-      "!span": "287[6:20]-288[6:21]",
+      "!span": "288[6:20]-289[6:21]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -4685,7 +4974,7 @@
     "type": "[number]",
     "lineno": 11,
     "origin": {
-      "!span": "205[10:4]-206[10:5]",
+      "!span": "206[10:4]-207[10:5]",
       "!type": "[number]",
       "!data": {
         "isConstructor": false,
@@ -4703,7 +4992,7 @@
     "type": "number",
     "lineno": 14,
     "origin": {
-      "!span": "282[13:4]-283[13:5]",
+      "!span": "283[13:4]-284[13:5]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -4719,7 +5008,7 @@
     "type": "number",
     "lineno": 17,
     "origin": {
-      "!span": "397[16:4]-398[16:5]",
+      "!span": "398[16:4]-399[16:5]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -4735,7 +5024,7 @@
     "type": "number",
     "lineno": 20,
     "origin": {
-      "!span": "484[19:4]-485[19:5]",
+      "!span": "486[19:4]-487[19:5]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -4751,7 +5040,7 @@
     "type": "number",
     "lineno": 23,
     "origin": {
-      "!span": "556[22:4]-557[22:5]",
+      "!span": "558[22:4]-559[22:5]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -4767,7 +5056,7 @@
     "type": "number",
     "lineno": 26,
     "origin": {
-      "!span": "621[25:4]-622[25:5]",
+      "!span": "623[25:4]-624[25:5]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -4783,7 +5072,7 @@
     "type": "number",
     "lineno": 29,
     "origin": {
-      "!span": "731[28:4]-733[28:6]",
+      "!span": "734[28:4]-736[28:6]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -4799,7 +5088,7 @@
     "type": "number",
     "lineno": 32,
     "origin": {
-      "!span": "810[31:4]-812[31:6]",
+      "!span": "813[31:4]-815[31:6]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -4815,7 +5104,7 @@
     "type": "number",
     "lineno": 35,
     "origin": {
-      "!span": "893[34:4]-895[34:6]",
+      "!span": "896[34:4]-898[34:6]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -4831,7 +5120,7 @@
     "type": "number",
     "lineno": 38,
     "origin": {
-      "!span": "971[37:4]-973[37:6]",
+      "!span": "974[37:4]-976[37:6]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -4847,7 +5136,7 @@
     "type": "number",
     "lineno": 41,
     "origin": {
-      "!span": "1054[40:4]-1056[40:6]",
+      "!span": "1057[40:4]-1059[40:6]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -4863,7 +5152,7 @@
     "type": "regexp",
     "lineno": 51,
     "origin": {
-      "!span": "1321[50:4]-1324[50:7]",
+      "!span": "1324[50:4]-1327[50:7]",
       "!type": "+RegExp",
       "!data": {
         "isConstructor": false,
@@ -4879,7 +5168,7 @@
     "type": "regexp",
     "lineno": 54,
     "origin": {
-      "!span": "1391[53:4]-1399[53:12]",
+      "!span": "1394[53:4]-1402[53:12]",
       "!type": "+RegExp",
       "!data": {
         "isConstructor": false,
@@ -4897,7 +5186,7 @@
     "type": "string",
     "lineno": 69,
     "origin": {
-      "!span": "1643[68:4]-1646[68:7]",
+      "!span": "1646[68:4]-1649[68:7]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -4913,7 +5202,7 @@
     "type": "string",
     "lineno": 72,
     "origin": {
-      "!span": "1708[71:4]-1710[71:6]",
+      "!span": "1711[71:4]-1713[71:6]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -4929,7 +5218,7 @@
     "type": "string",
     "lineno": 75,
     "origin": {
-      "!span": "1772[74:4]-1774[74:6]",
+      "!span": "1775[74:4]-1777[74:6]",
       "!type": "+String",
       "!data": {
         "isConstructor": false,
@@ -4945,7 +5234,7 @@
     "type": "string",
     "lineno": 78,
     "origin": {
-      "!span": "1873[77:4]-1875[77:6]",
+      "!span": "1876[77:4]-1878[77:6]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -4961,7 +5250,7 @@
     "type": "string",
     "lineno": 81,
     "origin": {
-      "!span": "1916[80:4]-1918[80:6]",
+      "!span": "1919[80:4]-1921[80:6]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -4976,7 +5265,7 @@
     "kind": "v",
     "lineno": 86,
     "origin": {
-      "!span": "2025[85:4]-2031[85:10]",
+      "!span": "2028[85:4]-2034[85:10]",
       "!data": {
         "isConstructor": false,
         "type": "Object.prototype"
@@ -4992,7 +5281,7 @@
     "lineno": 87,
     "namespace": "person",
     "origin": {
-      "!span": "2055[86:7]-2064[86:16]",
+      "!span": "2058[86:7]-2067[86:16]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -5009,7 +5298,7 @@
     "lineno": 88,
     "namespace": "person",
     "origin": {
-      "!span": "2082[87:7]-2090[87:15]",
+      "!span": "2085[87:7]-2093[87:15]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -5026,7 +5315,7 @@
     "lineno": 89,
     "namespace": "person",
     "origin": {
-      "!span": "2107[88:7]-2110[88:10]",
+      "!span": "2110[88:7]-2113[88:10]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -5043,7 +5332,7 @@
     "lineno": 90,
     "namespace": "person",
     "origin": {
-      "!span": "2124[89:7]-2132[89:15]",
+      "!span": "2127[89:7]-2135[89:15]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -5060,7 +5349,45 @@
     "lineno": 95,
     "namespace": "personType",
     "origin": {
-      "!span": "2352[94:46]-2360[94:54]",
+      "!span": "2355[94:46]-2363[94:54]",
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "type": "String.prototype",
+        "scoped": true,
+        "isArg": true
+      }
+    },
+    "tagfile": "__DIR__/hint_ecma5.js"
+  },
+  {
+    "name": "age",
+    "addr": "/age/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 95,
+    "namespace": "personType",
+    "origin": {
+      "!span": "2350[94:41]-2353[94:44]",
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "type": "Number.prototype",
+        "scoped": true,
+        "isArg": true
+      }
+    },
+    "tagfile": "__DIR__/hint_ecma5.js"
+  },
+  {
+    "name": "firstname",
+    "addr": "/firstname/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 95,
+    "namespace": "personType",
+    "origin": {
+      "!span": "2329[94:20]-2338[94:29]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -5078,30 +5405,11 @@
     "type": "void function(string, string, number, string)",
     "lineno": 95,
     "origin": {
-      "!span": "2315[94:9]-2325[94:19]",
+      "!span": "2318[94:9]-2328[94:19]",
       "!type": "fn(firstname: string, lastname: string, age: number, eyecolor: string)",
       "!data": {
         "isConstructor": true,
         "type": "Function.prototype"
-      }
-    },
-    "tagfile": "__DIR__/hint_ecma5.js"
-  },
-  {
-    "name": "firstname",
-    "addr": "/firstname/",
-    "kind": "v",
-    "type": "string",
-    "lineno": 95,
-    "namespace": "personType",
-    "origin": {
-      "!span": "2326[94:20]-2335[94:29]",
-      "!type": "string",
-      "!data": {
-        "isConstructor": false,
-        "type": "String.prototype",
-        "scoped": true,
-        "isArg": true
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -5114,30 +5422,11 @@
     "lineno": 95,
     "namespace": "personType",
     "origin": {
-      "!span": "2337[94:31]-2345[94:39]",
+      "!span": "2340[94:31]-2348[94:39]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
         "type": "String.prototype",
-        "scoped": true,
-        "isArg": true
-      }
-    },
-    "tagfile": "__DIR__/hint_ecma5.js"
-  },
-  {
-    "name": "age",
-    "addr": "/age/",
-    "kind": "v",
-    "type": "number",
-    "lineno": 95,
-    "namespace": "personType",
-    "origin": {
-      "!span": "2347[94:41]-2350[94:44]",
-      "!type": "number",
-      "!data": {
-        "isConstructor": false,
-        "type": "Number.prototype",
         "scoped": true,
         "isArg": true
       }
@@ -5152,7 +5441,7 @@
     "lineno": 96,
     "namespace": "friend",
     "origin": {
-      "!span": "2371[95:7]-2380[95:16]",
+      "!span": "2374[95:7]-2383[95:16]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -5171,7 +5460,7 @@
     "lineno": 97,
     "namespace": "friend",
     "origin": {
-      "!span": "2401[96:7]-2409[96:15]",
+      "!span": "2404[96:7]-2412[96:15]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -5190,7 +5479,7 @@
     "lineno": 98,
     "namespace": "friend",
     "origin": {
-      "!span": "2429[97:7]-2432[97:10]",
+      "!span": "2432[97:7]-2435[97:10]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -5209,7 +5498,7 @@
     "lineno": 99,
     "namespace": "friend",
     "origin": {
-      "!span": "2447[98:7]-2455[98:15]",
+      "!span": "2450[98:7]-2458[98:15]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -5228,7 +5517,7 @@
     "lineno": 100,
     "namespace": "personType",
     "origin": {
-      "!span": "2475[99:7]-2485[99:17]",
+      "!span": "2478[99:7]-2488[99:17]",
       "!type": "fn(name: ?) -> !this.lastname",
       "!data": {
         "isConstructor": false,
@@ -5244,7 +5533,7 @@
     "lineno": 104,
     "namespace": "personType.changeName",
     "origin": {
-      "!span": "2638[103:22]-2642[103:26]",
+      "!span": "2644[103:22]-2648[103:26]",
       "!data": {
         "isConstructor": false,
         "scoped": true,
@@ -5261,42 +5550,11 @@
     "type": "personType",
     "lineno": 110,
     "origin": {
-      "!span": "2709[109:4]-2715[109:10]",
+      "!span": "2715[109:4]-2721[109:10]",
       "!type": "+personType",
       "!data": {
         "isConstructor": false,
         "type": "personType.prototype"
-      }
-    },
-    "tagfile": "__DIR__/hint_ecma5.js"
-  },
-  {
-    "name": "base",
-    "addr": "/base/",
-    "kind": "v",
-    "lineno": 119,
-    "origin": {
-      "!span": "3046[118:4]-3050[118:8]",
-      "!data": {
-        "isConstructor": false,
-        "type": "Object.prototype"
-      }
-    },
-    "tagfile": "__DIR__/hint_ecma5.js"
-  },
-  {
-    "name": "foo",
-    "addr": "/foo/",
-    "kind": "v",
-    "type": "number",
-    "lineno": 119,
-    "namespace": "base",
-    "origin": {
-      "!span": "3054[118:12]-3057[118:15]",
-      "!type": "number",
-      "!data": {
-        "isConstructor": false,
-        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -5309,7 +5567,7 @@
     "lineno": 119,
     "namespace": "base",
     "origin": {
-      "!span": "3063[118:21]-3066[118:24]",
+      "!span": "3069[118:21]-3072[118:24]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -5325,7 +5583,7 @@
     "lineno": 119,
     "namespace": "base",
     "origin": {
-      "!span": "3072[118:30]-3076[118:34]",
+      "!span": "3078[118:30]-3082[118:34]",
       "!data": {
         "isConstructor": false,
         "type": "Object.prototype"
@@ -5341,7 +5599,24 @@
     "lineno": 119,
     "namespace": "base.foo2",
     "origin": {
-      "!span": "3080[118:38]-3081[118:39]",
+      "!span": "3086[118:38]-3087[118:39]",
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "type": "Number.prototype"
+      }
+    },
+    "tagfile": "__DIR__/hint_ecma5.js"
+  },
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 119,
+    "namespace": "base",
+    "origin": {
+      "!span": "3060[118:12]-3063[118:15]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -5358,11 +5633,25 @@
     "lineno": 119,
     "namespace": "base.foo2",
     "origin": {
-      "!span": "3087[118:45]-3088[118:46]",
+      "!span": "3093[118:45]-3094[118:46]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
         "type": "String.prototype"
+      }
+    },
+    "tagfile": "__DIR__/hint_ecma5.js"
+  },
+  {
+    "name": "base",
+    "addr": "/base/",
+    "kind": "v",
+    "lineno": 119,
+    "origin": {
+      "!span": "3052[118:4]-3056[118:8]",
+      "!data": {
+        "isConstructor": false,
+        "type": "Object.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -5375,7 +5664,7 @@
     "lineno": 129,
     "namespace": "base",
     "origin": {
-      "!span": "3393[128:5]-3396[128:8]",
+      "!span": "3399[128:5]-3402[128:8]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -5390,7 +5679,7 @@
     "kind": "v",
     "lineno": 132,
     "origin": {
-      "!span": "3438[131:4]-3442[131:8]",
+      "!span": "3444[131:4]-3448[131:8]",
       "!data": {
         "isConstructor": false,
         "type": "base"
@@ -5404,7 +5693,7 @@
     "kind": "v",
     "lineno": 133,
     "origin": {
-      "!span": "3470[132:4]-3474[132:8]",
+      "!span": "3476[132:4]-3480[132:8]",
       "!data": {
         "isConstructor": false
       }
@@ -5419,7 +5708,7 @@
     "lineno": 134,
     "namespace": "gen1",
     "origin": {
-      "!span": "3503[133:5]-3507[133:9]",
+      "!span": "3509[133:5]-3513[133:9]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -5436,7 +5725,7 @@
     "lineno": 135,
     "namespace": "gen2",
     "origin": {
-      "!span": "3519[134:5]-3523[134:9]",
+      "!span": "3525[134:5]-3529[134:9]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -5451,7 +5740,7 @@
     "kind": "v",
     "lineno": 144,
     "origin": {
-      "!span": "3872[143:4]-3878[143:10]",
+      "!span": "3879[143:4]-3885[143:10]",
       "!data": {
         "isConstructor": false,
         "type": "base"
@@ -5465,7 +5754,7 @@
     "kind": "v",
     "lineno": 150,
     "origin": {
-      "!span": "4183[149:4]-4188[149:9]",
+      "!span": "4190[149:4]-4195[149:9]",
       "!data": {
         "isConstructor": false
       }
@@ -5480,7 +5769,7 @@
     "lineno": 151,
     "namespace": "empty",
     "origin": {
-      "!span": "4218[150:6]-4223[150:11]",
+      "!span": "4225[150:6]-4230[150:11]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -5496,7 +5785,7 @@
     "type": "void function()",
     "lineno": 155,
     "origin": {
-      "!span": "4317[154:9]-4322[154:14]",
+      "!span": "4325[154:9]-4330[154:14]",
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
@@ -5513,7 +5802,7 @@
     "lineno": 156,
     "namespace": "Ctor1.prototype",
     "origin": {
-      "!span": "4361[155:19]-4362[155:20]",
+      "!span": "4369[155:19]-4370[155:20]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -5529,7 +5818,7 @@
     "lineno": 156,
     "namespace": "Ctor1",
     "origin": {
-      "!span": "4348[155:6]-4357[155:15]",
+      "!span": "4356[155:6]-4365[155:15]",
       "!data": {
         "isConstructor": false,
         "type": "Object.prototype"
@@ -5544,7 +5833,7 @@
     "type": "void function()",
     "lineno": 159,
     "origin": {
-      "!span": "4418[158:9]-4423[158:14]",
+      "!span": "4426[158:9]-4431[158:14]",
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
@@ -5559,7 +5848,7 @@
     "kind": "v",
     "lineno": 164,
     "origin": {
-      "!span": "4474[163:4]-4483[163:13]",
+      "!span": "4483[163:4]-4492[163:13]",
       "!data": {
         "isConstructor": false,
         "scoped": false,
@@ -5576,7 +5865,7 @@
     "type": "void function(bool)",
     "lineno": 166,
     "origin": {
-      "!span": "4522[165:9]-4525[165:12]",
+      "!span": "4531[165:9]-4534[165:12]",
       "!type": "fn(x: bool)",
       "!data": {
         "isConstructor": true,
@@ -5593,7 +5882,7 @@
     "lineno": 166,
     "namespace": "Foo",
     "origin": {
-      "!span": "4526[165:13]-4527[165:14]",
+      "!span": "4535[165:13]-4536[165:14]",
       "!type": "bool",
       "!data": {
         "isConstructor": false,
@@ -5612,7 +5901,7 @@
     "lineno": 167,
     "namespace": "foo",
     "origin": {
-      "!span": "4538[166:7]-4539[166:8]",
+      "!span": "4547[166:7]-4548[166:8]",
       "!type": "bool",
       "!data": {
         "isConstructor": false,
@@ -5631,7 +5920,7 @@
     "lineno": 168,
     "namespace": "Foo",
     "origin": {
-      "!span": "4552[167:7]-4553[167:8]",
+      "!span": "4561[167:7]-4562[167:8]",
       "!type": "[number]",
       "!data": {
         "isConstructor": false,
@@ -5647,7 +5936,7 @@
     "lineno": 171,
     "namespace": "Foo",
     "origin": {
-      "!span": "4568[170:4]-4577[170:13]",
+      "!span": "4577[170:4]-4586[170:13]",
       "!data": {
         "isConstructor": false,
         "type": "Object.prototype"
@@ -5663,7 +5952,7 @@
     "lineno": 172,
     "namespace": "Foo.prototype",
     "origin": {
-      "!span": "4584[171:2]-4594[171:12]",
+      "!span": "4593[171:2]-4603[171:12]",
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
@@ -5680,7 +5969,7 @@
     "lineno": 173,
     "namespace": "Foo.prototype",
     "origin": {
-      "!span": "4627[172:2]-4630[172:5]",
+      "!span": "4636[172:2]-4639[172:5]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -5696,7 +5985,7 @@
     "type": "Foo",
     "lineno": 176,
     "origin": {
-      "!span": "4643[175:4]-4646[175:7]",
+      "!span": "4652[175:4]-4655[175:7]",
       "!type": "+Foo",
       "!data": {
         "isConstructor": false,
@@ -5711,7 +6000,7 @@
     "kind": "v",
     "lineno": 182,
     "origin": {
-      "!span": "4815[181:0]-4821[181:6]",
+      "!span": "4825[181:0]-4831[181:6]",
       "!data": {
         "isConstructor": false,
         "type": "Object.prototype"
@@ -5726,7 +6015,7 @@
     "lineno": 183,
     "namespace": "config",
     "origin": {
-      "!span": "4828[182:2]-4831[182:5]",
+      "!span": "4838[182:2]-4841[182:5]",
       "!data": {
         "isConstructor": false,
         "type": "Object.prototype"
@@ -5741,7 +6030,7 @@
     "lineno": 184,
     "namespace": "config.CSS",
     "origin": {
-      "!span": "4839[183:4]-4842[183:7]",
+      "!span": "4849[183:4]-4852[183:7]",
       "!data": {
         "isConstructor": false,
         "type": "Object.prototype"
@@ -5757,7 +6046,7 @@
     "lineno": 185,
     "namespace": "config.CSS.IDs",
     "origin": {
-      "!span": "4852[184:6]-4861[184:15]",
+      "!span": "4862[184:6]-4871[184:15]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -5774,7 +6063,7 @@
     "lineno": 186,
     "namespace": "config.CSS.IDs",
     "origin": {
-      "!span": "4891[185:6]-4897[185:12]",
+      "!span": "4901[185:6]-4907[185:12]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -5791,7 +6080,7 @@
     "lineno": 187,
     "namespace": "config.CSS.IDs",
     "origin": {
-      "!span": "4926[186:6]-4932[186:12]",
+      "!span": "4936[186:6]-4942[186:12]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -5808,7 +6097,7 @@
     "lineno": 188,
     "namespace": "config.CSS.IDs",
     "origin": {
-      "!span": "4955[187:6]-4963[187:14]",
+      "!span": "4965[187:6]-4973[187:14]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -5824,7 +6113,7 @@
     "type": "[number]",
     "lineno": 201,
     "origin": {
-      "!span": "5172[200:4]-5177[200:9]",
+      "!span": "5184[200:4]-5189[200:9]",
       "!type": "[number]",
       "!data": {
         "isConstructor": false,
@@ -5840,7 +6129,7 @@
     "type": "[bool]",
     "lineno": 206,
     "origin": {
-      "!span": "5330[205:4]-5334[205:8]",
+      "!span": "5342[205:4]-5346[205:8]",
       "!type": "[bool]",
       "!data": {
         "isConstructor": false,
@@ -5856,7 +6145,7 @@
     "type": "[number]",
     "lineno": 213,
     "origin": {
-      "!span": "5547[212:4]-5551[212:8]",
+      "!span": "5559[212:4]-5563[212:8]",
       "!type": "[number]",
       "!data": {
         "isConstructor": false,
@@ -5872,7 +6161,7 @@
     "type": "void function()",
     "lineno": 216,
     "origin": {
-      "!span": "5619[215:9]-5625[215:15]",
+      "!span": "5631[215:9]-5637[215:15]",
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
@@ -5887,7 +6176,7 @@
     "kind": "v",
     "lineno": 218,
     "origin": {
-      "!span": "5673[217:4]-5674[217:5]",
+      "!span": "5685[217:4]-5686[217:5]",
       "!data": {
         "isConstructor": false,
         "scoped": false,
@@ -5903,7 +6192,7 @@
     "kind": "v",
     "lineno": 220,
     "origin": {
-      "!span": "5745[219:4]-5747[219:6]",
+      "!span": "5758[219:4]-5760[219:6]",
       "!data": {
         "isConstructor": false,
         "scoped": false,
@@ -5919,7 +6208,7 @@
     "kind": "v",
     "lineno": 222,
     "origin": {
-      "!span": "5823[221:4]-5825[221:6]",
+      "!span": "5837[221:4]-5839[221:6]",
       "!data": {
         "isConstructor": false,
         "scoped": false,
@@ -5936,7 +6225,7 @@
     "type": "void function()",
     "lineno": 254,
     "origin": {
-      "!span": "6498[253:9]-6501[253:12]",
+      "!span": "6515[253:9]-6518[253:12]",
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
@@ -5953,7 +6242,7 @@
     "lineno": 256,
     "namespace": "one",
     "origin": {
-      "!span": "6557[255:6]-6563[255:12]",
+      "!span": "6574[255:6]-6580[255:12]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -5972,7 +6261,7 @@
     "lineno": 258,
     "namespace": "one",
     "origin": {
-      "!span": "6626[257:6]-6640[257:20]",
+      "!span": "6643[257:6]-6657[257:20]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -5990,7 +6279,7 @@
     "type": "number",
     "lineno": 259,
     "origin": {
-      "!span": "6653[258:2]-6663[258:12]",
+      "!span": "6671[258:2]-6681[258:12]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -6006,7 +6295,7 @@
     "lineno": 272,
     "namespace": "timeout",
     "origin": {
-      "!span": "7040[271:17]-7041[271:18]",
+      "!span": "7061[271:17]-7062[271:18]",
       "!data": {
         "isConstructor": false,
         "scoped": true,
@@ -6024,7 +6313,7 @@
     "lineno": 272,
     "namespace": "timeout",
     "origin": {
-      "!span": "7043[271:20]-7050[271:27]",
+      "!span": "7064[271:20]-7071[271:27]",
       "!type": "fn(f: ?, timeout: ?)",
       "!data": {
         "isConstructor": false,
@@ -6041,7 +6330,7 @@
     "kind": "v",
     "lineno": 272,
     "origin": {
-      "!span": "7032[271:9]-7039[271:16]",
+      "!span": "7053[271:9]-7060[271:16]",
       "!data": {
         "isConstructor": false,
         "scoped": false,
@@ -6057,7 +6346,7 @@
     "kind": "v",
     "lineno": 273,
     "origin": {
-      "!span": "7059[272:4]-7062[272:7]",
+      "!span": "7080[272:4]-7083[272:7]",
       "!data": {
         "isConstructor": false,
         "type": "Object.prototype"
@@ -6073,7 +6362,7 @@
     "lineno": 274,
     "namespace": "obj",
     "origin": {
-      "!span": "7069[273:2]-7073[273:6]",
+      "!span": "7090[273:2]-7094[273:6]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -6090,7 +6379,7 @@
     "lineno": 275,
     "namespace": "obj",
     "origin": {
-      "!span": "7084[274:2]-7088[274:6]",
+      "!span": "7105[274:2]-7109[274:6]",
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
@@ -6106,7 +6395,7 @@
     "type": "[number]",
     "lineno": 285,
     "origin": {
-      "!span": "7289[284:2]-7309[284:22]",
+      "!span": "7311[284:2]-7331[284:22]",
       "!type": "[number]",
       "!data": {
         "isConstructor": false,
@@ -6122,7 +6411,7 @@
     "type": "void function()",
     "lineno": 291,
     "origin": {
-      "!span": "7406[290:9]-7424[290:27]",
+      "!span": "7428[290:9]-7446[290:27]",
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
@@ -6139,7 +6428,7 @@
     "lineno": 294,
     "namespace": "testIfControlFlow1",
     "origin": {
-      "!span": "7501[293:8]-7508[293:15]",
+      "!span": "7523[293:8]-7530[293:15]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -6157,7 +6446,7 @@
     "lineno": 296,
     "namespace": "testIfControlFlow1",
     "origin": {
-      "!span": "7577[295:8]-7578[295:9]",
+      "!span": "7599[295:8]-7600[295:9]",
       "!data": {
         "isConstructor": false,
         "scoped": false,
@@ -6175,7 +6464,7 @@
     "lineno": 299,
     "namespace": "testIfControlFlow1.f",
     "origin": {
-      "!span": "7704[298:19]-7708[298:23]",
+      "!span": "7727[298:19]-7731[298:23]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -6194,7 +6483,7 @@
     "lineno": 303,
     "namespace": "testIfControlFlow1",
     "origin": {
-      "!span": "7799[302:10]-7809[302:20]",
+      "!span": "7828[302:10]-7838[302:20]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -6212,7 +6501,7 @@
     "lineno": 305,
     "namespace": "testIfControlFlow1",
     "origin": {
-      "!span": "7851[304:10]-7852[304:11]",
+      "!span": "7880[304:10]-7881[304:11]",
       "!data": {
         "isConstructor": false,
         "scoped": false,
@@ -6229,7 +6518,7 @@
     "type": "void function()",
     "lineno": 317,
     "origin": {
-      "!span": "8115[316:9]-8134[316:28]",
+      "!span": "8147[316:9]-8166[316:28]",
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
@@ -6246,7 +6535,7 @@
     "lineno": 321,
     "namespace": "testForControlFlow1",
     "origin": {
-      "!span": "8270[320:6]-8271[320:7]",
+      "!span": "8302[320:6]-8303[320:7]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -6265,7 +6554,7 @@
     "lineno": 322,
     "namespace": "testForControlFlow1",
     "origin": {
-      "!span": "8293[321:11]-8294[321:12]",
+      "!span": "8325[321:11]-8326[321:12]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -6284,7 +6573,7 @@
     "lineno": 323,
     "namespace": "testForControlFlow1",
     "origin": {
-      "!span": "8323[322:8]-8335[322:20]",
+      "!span": "8355[322:8]-8367[322:20]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -6303,7 +6592,7 @@
     "lineno": 324,
     "namespace": "testForControlFlow1",
     "origin": {
-      "!span": "8359[323:13]-8360[323:14]",
+      "!span": "8391[323:13]-8392[323:14]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -6322,7 +6611,7 @@
     "lineno": 325,
     "namespace": "testForControlFlow1",
     "origin": {
-      "!span": "8391[324:10]-8409[324:28]",
+      "!span": "8423[324:10]-8441[324:28]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -6340,7 +6629,7 @@
     "type": "void function()",
     "lineno": 334,
     "origin": {
-      "!span": "8569[333:9]-8587[333:27]",
+      "!span": "8604[333:9]-8622[333:27]",
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
@@ -6356,7 +6645,7 @@
     "type": "void function()",
     "lineno": 341,
     "origin": {
-      "!span": "8663[340:9]-8681[340:27]",
+      "!span": "8704[340:9]-8722[340:27]",
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
@@ -6373,7 +6662,7 @@
     "lineno": 342,
     "namespace": "testWhileLoopFlow1",
     "origin": {
-      "!span": "8692[341:6]-8693[341:7]",
+      "!span": "8733[341:6]-8734[341:7]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -6392,7 +6681,7 @@
     "lineno": 344,
     "namespace": "testWhileLoopFlow1",
     "origin": {
-      "!span": "8727[343:8]-8741[343:22]",
+      "!span": "8769[343:8]-8783[343:22]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -6410,7 +6699,7 @@
     "type": "void function()",
     "lineno": 349,
     "origin": {
-      "!span": "8788[348:9]-8808[348:29]",
+      "!span": "8831[348:9]-8851[348:29]",
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
@@ -6427,7 +6716,7 @@
     "lineno": 352,
     "namespace": "testDoWhileLoopFlow1",
     "origin": {
-      "!span": "8837[351:8]-8853[351:24]",
+      "!span": "8881[351:8]-8897[351:24]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -6445,7 +6734,7 @@
     "type": "void function()",
     "lineno": 359,
     "origin": {
-      "!span": "8928[358:9]-8942[358:23]",
+      "!span": "8973[358:9]-8987[358:23]",
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
@@ -6461,7 +6750,7 @@
     "type": "number",
     "lineno": 360,
     "origin": {
-      "!span": "8954[359:7]-8955[359:8]",
+      "!span": "8999[359:7]-9000[359:8]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -6478,7 +6767,7 @@
     "lineno": 362,
     "namespace": "testBreakFlow1",
     "origin": {
-      "!span": "9003[361:10]-9012[361:19]",
+      "!span": "9048[361:10]-9057[361:19]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -6497,7 +6786,7 @@
     "lineno": 365,
     "namespace": "testBreakFlow1",
     "origin": {
-      "!span": "9059[364:10]-9071[364:22]",
+      "!span": "9104[364:10]-9116[364:22]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -6509,34 +6798,34 @@
     "tagfile": "__DIR__/hint_ecma5.js"
   },
   {
-    "name": "testSwitchFlow1",
-    "addr": "/testSwitchFlow1/",
-    "kind": "f",
-    "type": "void function(?)",
-    "lineno": 377,
-    "origin": {
-      "!span": "9273[376:9]-9288[376:24]",
-      "!type": "fn(n: ?)",
-      "!data": {
-        "isConstructor": false,
-        "type": "Function.prototype"
-      }
-    },
-    "tagfile": "__DIR__/hint_ecma5.js"
-  },
-  {
     "name": "n",
     "addr": "/n/",
     "kind": "v",
     "lineno": 377,
     "namespace": "testSwitchFlow1",
     "origin": {
-      "!span": "9289[376:25]-9290[376:26]",
+      "!span": "9336[376:25]-9337[376:26]",
       "!data": {
         "isConstructor": false,
         "scoped": true,
         "isArg": true,
         "type": false
+      }
+    },
+    "tagfile": "__DIR__/hint_ecma5.js"
+  },
+  {
+    "name": "testSwitchFlow1",
+    "addr": "/testSwitchFlow1/",
+    "kind": "f",
+    "type": "void function(?)",
+    "lineno": 377,
+    "origin": {
+      "!span": "9320[376:9]-9335[376:24]",
+      "!type": "fn(n: ?)",
+      "!data": {
+        "isConstructor": false,
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -6549,7 +6838,7 @@
     "lineno": 381,
     "namespace": "testSwitchFlow1",
     "origin": {
-      "!span": "9331[380:10]-9338[380:17]",
+      "!span": "9378[380:10]-9385[380:17]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -6568,7 +6857,7 @@
     "lineno": 385,
     "namespace": "testSwitchFlow1",
     "origin": {
-      "!span": "9436[384:10]-9443[384:17]",
+      "!span": "9483[384:10]-9490[384:17]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -6586,7 +6875,7 @@
     "type": "void function()",
     "lineno": 398,
     "origin": {
-      "!span": "9629[397:9]-9646[397:26]",
+      "!span": "9677[397:9]-9694[397:26]",
       "!type": "fn()",
       "!data": {
         "isConstructor": false,
@@ -6603,30 +6892,13 @@
     "lineno": 400,
     "namespace": "testTryCatchFlow1",
     "origin": {
-      "!span": "9667[399:8]-9675[399:16]",
+      "!span": "9715[399:8]-9723[399:16]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
         "scoped": false,
         "isArg": false,
         "type": "String.prototype"
-      }
-    },
-    "tagfile": "__DIR__/hint_ecma5.js"
-  },
-  {
-    "name": "err",
-    "addr": "/err/",
-    "kind": "v",
-    "lineno": 401,
-    "namespace": "testTryCatchFlow1",
-    "origin": {
-      "!span": "9697[400:10]-9700[400:13]",
-      "!data": {
-        "isConstructor": false,
-        "scoped": false,
-        "isArg": false,
-        "type": "Error.prototype"
       }
     },
     "tagfile": "__DIR__/hint_ecma5.js"
@@ -6639,7 +6911,7 @@
     "lineno": 403,
     "namespace": "testTryCatchFlow1",
     "origin": {
-      "!span": "9762[402:8]-9772[402:18]",
+      "!span": "9810[402:8]-9820[402:18]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -6917,25 +7189,6 @@
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "name": "b",
-    "addr": "/b/",
-    "kind": "v",
-    "type": "string",
-    "lineno": 17,
-    "namespace": "foo",
-    "origin": {
-      "!span": "298[16:16]-299[16:17]",
-      "!type": "string",
-      "!data": {
-        "isConstructor": false,
-        "scoped": true,
-        "isArg": true,
-        "type": "String.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
     "name": "a",
     "addr": "/a/",
     "kind": "v",
@@ -6971,6 +7224,25 @@
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
+    "name": "b",
+    "addr": "/b/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 17,
+    "namespace": "foo",
+    "origin": {
+      "!span": "298[16:16]-299[16:17]",
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "scoped": true,
+        "isArg": true,
+        "type": "String.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
     "name": "abc",
     "addr": "/abc/",
     "kind": "f",
@@ -6987,13 +7259,61 @@
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
+    "name": "Abc",
+    "addr": "/Abc/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 26,
+    "origin": {
+      "!span": "452[25:4]-455[25:7]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "AbcCls",
+    "addr": "/AbcCls/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 31,
+    "origin": {
+      "!span": "509[30:4]-515[30:10]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "AbcCtor",
+    "addr": "/AbcCtor/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 36,
+    "origin": {
+      "!span": "578[35:4]-585[35:11]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
     "name": "bar",
     "addr": "/bar/",
     "kind": "f",
     "type": "string function(number, number)",
-    "lineno": 30,
+    "lineno": 45,
     "origin": {
-      "!span": "510[29:4]-513[29:7]",
+      "!span": "704[44:4]-707[44:7]",
       "!type": "fn(a: number, b: number) -> string",
       "!data": {
         "isConstructor": false,
@@ -7003,14 +7323,14 @@
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "name": "a",
-    "addr": "/a/",
+    "name": "b",
+    "addr": "/b/",
     "kind": "v",
     "type": "number",
-    "lineno": 30,
+    "lineno": 45,
     "namespace": "bar",
     "origin": {
-      "!span": "525[29:19]-526[29:20]",
+      "!span": "722[44:22]-723[44:23]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -7022,14 +7342,14 @@
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "name": "b",
-    "addr": "/b/",
+    "name": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "number",
-    "lineno": 30,
+    "lineno": 45,
     "namespace": "bar",
     "origin": {
-      "!span": "528[29:22]-529[29:23]",
+      "!span": "719[44:19]-720[44:20]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -7044,9 +7364,9 @@
     "name": "o",
     "addr": "/o/",
     "kind": "v",
-    "lineno": 34,
+    "lineno": 49,
     "origin": {
-      "!span": "617[33:4]-618[33:5]",
+      "!span": "811[48:4]-812[48:5]",
       "!data": {
         "isConstructor": false,
         "type": "Object.prototype"
@@ -7059,10 +7379,10 @@
     "addr": "/prop1/",
     "kind": "v",
     "type": "string",
-    "lineno": 36,
+    "lineno": 51,
     "namespace": "o",
     "origin": {
-      "!span": "649[35:2]-654[35:7]",
+      "!span": "843[50:2]-848[50:7]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -7076,10 +7396,10 @@
     "addr": "/prop2/",
     "kind": "f",
     "type": "number function()",
-    "lineno": 39,
+    "lineno": 54,
     "namespace": "o",
     "origin": {
-      "!span": "697[38:2]-702[38:7]",
+      "!span": "891[53:2]-896[53:7]",
       "!type": "fn() -> number",
       "!data": {
         "isConstructor": false,
@@ -7093,10 +7413,10 @@
     "addr": "/prop3/",
     "kind": "f",
     "type": "string function()",
-    "lineno": 43,
+    "lineno": 58,
     "namespace": "o",
     "origin": {
-      "!span": "769[42:2]-774[42:7]",
+      "!span": "963[57:2]-968[57:7]",
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
@@ -7110,184 +7430,13 @@
     "addr": "/closureArray/",
     "kind": "v",
     "type": "[string]",
-    "lineno": 50,
+    "lineno": 65,
     "origin": {
-      "!span": "925[49:4]-937[49:16]",
+      "!span": "1119[64:4]-1131[64:16]",
       "!type": "[string]",
       "!data": {
         "isConstructor": false,
         "type": "Array.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "closureMap",
-    "addr": "/closureMap/",
-    "kind": "v",
-    "lineno": 54,
-    "origin": {
-      "!span": "1028[53:4]-1038[53:14]",
-      "!data": {
-        "isConstructor": false,
-        "type": "Object.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "takesOpt",
-    "addr": "/takesOpt/",
-    "kind": "f",
-    "type": "void function(number)",
-    "lineno": 58,
-    "origin": {
-      "!span": "1120[57:9]-1128[57:17]",
-      "!type": "fn(a?: number)",
-      "!data": {
-        "isConstructor": false,
-        "type": "Function.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "a",
-    "addr": "/a/",
-    "kind": "v",
-    "type": "number",
-    "lineno": 58,
-    "namespace": "takesOpt",
-    "origin": {
-      "!span": "1129[57:18]-1130[57:19]",
-      "!type": "number",
-      "!data": {
-        "isConstructor": false,
-        "scoped": true,
-        "isArg": true,
-        "type": "Number.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "myBitset",
-    "addr": "/myBitset/",
-    "kind": "v",
-    "type": "[bool]",
-    "lineno": 73,
-    "origin": {
-      "!span": "1405[72:4]-1413[72:12]",
-      "!type": "[bool]",
-      "!data": {
-        "isConstructor": false,
-        "type": "Array.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "myObj",
-    "addr": "/myObj/",
-    "kind": "v",
-    "lineno": 78,
-    "origin": {
-      "!span": "1479[77:4]-1484[77:9]",
-      "!data": {
-        "isConstructor": false,
-        "type": "Object.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "NonAscïį",
-    "addr": "/NonAscïį/",
-    "kind": "f",
-    "type": "void function()",
-    "lineno": 84,
-    "origin": {
-      "!span": "1552[83:9]-1560[83:17]",
-      "!type": "fn()",
-      "!data": {
-        "isConstructor": true,
-        "type": "Function.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "length",
-    "addr": "/length/",
-    "kind": "v",
-    "type": "string",
-    "lineno": 84,
-    "namespace": "NonAscïį",
-    "origin": {
-      "!span": "1570[83:27]-1576[83:33]",
-      "!type": "string",
-      "!data": {
-        "isConstructor": false,
-        "type": "String.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "inst",
-    "addr": "/inst/",
-    "kind": "v",
-    "type": "NonAscïį",
-    "lineno": 87,
-    "origin": {
-      "!span": "1616[86:4]-1620[86:8]",
-      "!type": "+NonAscïį",
-      "!data": {
-        "isConstructor": false,
-        "type": "NonAscïį.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "one",
-    "kind": "v",
-    "type": "boolean",
-    "namespace": "myObj",
-    "origin": {
-      "!type": "bool",
-      "!data": {
-        "isConstructor": false,
-        "type": "Boolean.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "two",
-    "kind": "v",
-    "type": "number",
-    "namespace": "myObj",
-    "origin": {
-      "!type": "number",
-      "!data": {
-        "isConstructor": false,
-        "type": "Number.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "bogus",
-    "addr": "/bogus/",
-    "kind": "v",
-    "lineno": 92,
-    "origin": {
-      "!span": "1678[91:4]-1683[91:9]",
-      "!data": {
-        "isConstructor": false,
-        "scoped": false,
-        "isArg": false
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -7321,13 +7470,198 @@
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
+    "name": "two",
+    "kind": "v",
+    "type": "number",
+    "namespace": "myObj",
+    "origin": {
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "type": "Number.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "<i>",
+    "kind": "v",
+    "type": "boolean",
+    "namespace": "closureMap",
+    "origin": {
+      "!type": "bool",
+      "!data": {
+        "isConstructor": false,
+        "type": "Boolean.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "one",
+    "kind": "v",
+    "type": "boolean",
+    "namespace": "myObj",
+    "origin": {
+      "!type": "bool",
+      "!data": {
+        "isConstructor": false,
+        "type": "Boolean.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "closureMap",
+    "addr": "/closureMap/",
+    "kind": "v",
+    "lineno": 69,
+    "origin": {
+      "!span": "1222[68:4]-1232[68:14]",
+      "!data": {
+        "isConstructor": false,
+        "type": "Object.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 73,
+    "namespace": "takesOpt",
+    "origin": {
+      "!span": "1323[72:18]-1324[72:19]",
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "scoped": true,
+        "isArg": true,
+        "type": "Number.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "takesOpt",
+    "addr": "/takesOpt/",
+    "kind": "f",
+    "type": "void function(number)",
+    "lineno": 73,
+    "origin": {
+      "!span": "1314[72:9]-1322[72:17]",
+      "!type": "fn(a?: number)",
+      "!data": {
+        "isConstructor": false,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "myBitset",
+    "addr": "/myBitset/",
+    "kind": "v",
+    "type": "[bool]",
+    "lineno": 88,
+    "origin": {
+      "!span": "1599[87:4]-1607[87:12]",
+      "!type": "[bool]",
+      "!data": {
+        "isConstructor": false,
+        "type": "Array.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "myObj",
+    "addr": "/myObj/",
+    "kind": "v",
+    "lineno": 93,
+    "origin": {
+      "!span": "1673[92:4]-1678[92:9]",
+      "!data": {
+        "isConstructor": false,
+        "type": "Object.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "NonAscïį",
+    "addr": "/NonAscïį/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 99,
+    "origin": {
+      "!span": "1746[98:9]-1754[98:17]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "length",
+    "addr": "/length/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 99,
+    "namespace": "NonAscïį",
+    "origin": {
+      "!span": "1764[98:27]-1770[98:33]",
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "type": "String.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "inst",
+    "addr": "/inst/",
+    "kind": "v",
+    "type": "NonAscïį",
+    "lineno": 102,
+    "origin": {
+      "!span": "1810[101:4]-1814[101:8]",
+      "!type": "+NonAscïį",
+      "!data": {
+        "isConstructor": false,
+        "type": "NonAscïį.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "bogus",
+    "addr": "/bogus/",
+    "kind": "v",
+    "lineno": 107,
+    "origin": {
+      "!span": "1872[106:4]-1877[106:9]",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
     "name": "again",
     "addr": "/again/",
     "kind": "v",
     "type": "number",
-    "lineno": 97,
+    "lineno": 112,
     "origin": {
-      "!span": "1756[96:4]-1761[96:9]",
+      "!span": "1950[111:4]-1955[111:9]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -7341,9 +7675,9 @@
     "addr": "/functionBogus/",
     "kind": "f",
     "type": "? function(?)",
-    "lineno": 105,
+    "lineno": 120,
     "origin": {
-      "!span": "1855[104:9]-1868[104:22]",
+      "!span": "2049[119:9]-2062[119:22]",
       "!type": "fn(a: ?) -> ?",
       "!data": {
         "isConstructor": false,
@@ -7356,10 +7690,10 @@
     "name": "a",
     "addr": "/a/",
     "kind": "v",
-    "lineno": 105,
+    "lineno": 120,
     "namespace": "functionBogus",
     "origin": {
-      "!span": "1869[104:23]-1870[104:24]",
+      "!span": "2063[119:23]-2064[119:24]",
       "!data": {
         "isConstructor": false,
         "scoped": true,
@@ -7373,9 +7707,9 @@
     "addr": "/unionFunction/",
     "kind": "f",
     "type": "[?|number] function(string)",
-    "lineno": 118,
+    "lineno": 133,
     "origin": {
-      "!span": "2107[117:9]-2120[117:22]",
+      "!span": "2301[132:9]-2314[132:22]",
       "!type": "fn(a: string) -> [?|number]",
       "!data": {
         "isConstructor": false,
@@ -7389,10 +7723,10 @@
     "addr": "/a/",
     "kind": "v",
     "type": "string",
-    "lineno": 118,
+    "lineno": 133,
     "namespace": "unionFunction",
     "origin": {
-      "!span": "2121[117:23]-2122[117:24]",
+      "!span": "2315[132:23]-2316[132:24]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -7408,27 +7742,13 @@
     "addr": "/ui/",
     "kind": "f",
     "type": "string function()",
-    "lineno": 125,
+    "lineno": 140,
     "origin": {
-      "!span": "2232[124:9]-2234[124:11]",
+      "!span": "2426[139:9]-2428[139:11]",
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
         "type": "Function.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "<i>",
-    "kind": "v",
-    "type": "boolean",
-    "namespace": "closureMap",
-    "origin": {
-      "!type": "bool",
-      "!data": {
-        "isConstructor": false,
-        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -8565,17 +8885,18 @@
     "tagfile": "__DIR__/promise.js"
   },
   {
-    "name": "p2",
-    "addr": "/p2/",
+    "name": "x",
+    "addr": "/x/",
     "kind": "v",
-    "type": "Promise",
-    "lineno": 12,
+    "type": "number",
+    "lineno": 3,
+    "namespace": "Promise.:t",
     "origin": {
-      "!span": "211[11:4]-213[11:6]",
-      "!type": "+Promise",
+      "!span": "85[2:10]-86[2:11]",
+      "!type": "number",
       "!data": {
         "isConstructor": false,
-        "type": "Promise.prototype"
+        "type": "Number.prototype"
       }
     },
     "tagfile": "__DIR__/promise.js"
@@ -8600,6 +8921,22 @@
     "tagfile": "__DIR__/promise.js"
   },
   {
+    "name": "p2",
+    "addr": "/p2/",
+    "kind": "v",
+    "type": "Promise",
+    "lineno": 12,
+    "origin": {
+      "!span": "211[11:4]-213[11:6]",
+      "!type": "+Promise",
+      "!data": {
+        "isConstructor": false,
+        "type": "Promise.prototype"
+      }
+    },
+    "tagfile": "__DIR__/promise.js"
+  },
+  {
     "name": "p3",
     "addr": "/p3/",
     "kind": "v",
@@ -8617,10 +8954,309 @@
   },
   {
     "name": ":t",
+    "addr": "/10/",
     "kind": "v",
     "type": "number",
+    "lineno": 21,
+    "namespace": "p3",
+    "origin": {
+      "!span": "429[20:25]-431[20:27]",
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "type": "Number.prototype"
+      }
+    },
+    "tagfile": "__DIR__/promise.js"
+  },
+  {
+    "name": "p4",
+    "addr": "/p4/",
+    "kind": "v",
+    "type": "Promise",
+    "lineno": 30,
+    "origin": {
+      "!span": "549[29:4]-551[29:6]",
+      "!type": "+Promise",
+      "!data": {
+        "isConstructor": false,
+        "type": "Promise.prototype"
+      }
+    },
+    "tagfile": "__DIR__/promise.js"
+  },
+  {
+    "name": ":t",
+    "addr": "/Promise\\.resolve\\(10\\)/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 30,
+    "namespace": "p4",
+    "origin": {
+      "!span": "570[29:25]-589[29:44]",
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "type": "Number.prototype"
+      }
+    },
+    "tagfile": "__DIR__/promise.js"
+  },
+  {
+    "name": ":t",
+    "addr": "/10/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 35,
+    "namespace": "arg5",
+    "origin": {
+      "!span": "678[34:35]-680[34:37]",
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "type": "Number.prototype"
+      }
+    },
+    "tagfile": "__DIR__/promise.js"
+  },
+  {
+    "name": "arg5",
+    "addr": "/arg5/",
+    "kind": "v",
+    "type": "?|number",
+    "lineno": 35,
+    "origin": {
+      "!span": "647[34:4]-651[34:8]",
+      "!type": "?|number",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false
+      }
+    },
+    "tagfile": "__DIR__/promise.js"
+  },
+  {
+    "name": "p5",
+    "addr": "/p5/",
+    "kind": "v",
+    "type": "Promise",
+    "lineno": 36,
+    "origin": {
+      "!span": "692[35:4]-694[35:6]",
+      "!type": "+Promise",
+      "!data": {
+        "isConstructor": false,
+        "type": "Promise.prototype"
+      }
+    },
+    "tagfile": "__DIR__/promise.js"
+  },
+  {
+    "name": ":t",
+    "addr": "/arg5/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 36,
+    "namespace": "p5",
+    "origin": {
+      "!span": "713[35:25]-717[35:29]",
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "type": "Number.prototype"
+      }
+    },
+    "tagfile": "__DIR__/promise.js"
+  },
+  {
+    "name": "p6",
+    "addr": "/p6/",
+    "kind": "v",
+    "type": "Promise",
+    "lineno": 41,
+    "origin": {
+      "!span": "775[40:4]-777[40:6]",
+      "!type": "+Promise",
+      "!data": {
+        "isConstructor": false,
+        "type": "Promise.prototype"
+      }
+    },
+    "tagfile": "__DIR__/promise.js"
+  },
+  {
+    "name": ":t",
+    "addr": "/function\\(value\\) \\{/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 43,
+    "namespace": "p6",
+    "origin": {
+      "!span": "870[42:8]-909[44:1]",
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "type": "Number.prototype"
+      }
+    },
+    "tagfile": "__DIR__/promise.js"
+  },
+  {
+    "name": "p7",
+    "addr": "/p7/",
+    "kind": "v",
+    "type": "Promise",
+    "lineno": 47,
+    "origin": {
+      "!span": "917[46:4]-919[46:6]",
+      "!type": "+Promise",
+      "!data": {
+        "isConstructor": false,
+        "type": "Promise.prototype"
+      }
+    },
+    "tagfile": "__DIR__/promise.js"
+  },
+  {
+    "name": ":t",
+    "addr": "/function\\(value\\) \\{/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 49,
+    "namespace": "p7",
+    "origin": {
+      "!span": "979[48:8]-1018[50:1]",
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
+        "type": "Number.prototype"
+      }
+    },
+    "tagfile": "__DIR__/promise.js"
+  },
+  {
+    "name": "p8",
+    "addr": "/p8/",
+    "kind": "v",
+    "type": "Promise",
+    "lineno": 53,
+    "origin": {
+      "!span": "1026[52:4]-1028[52:6]",
+      "!type": "+Promise",
+      "!data": {
+        "isConstructor": false,
+        "type": "Promise.prototype"
+      }
+    },
+    "tagfile": "__DIR__/promise.js"
+  },
+  {
+    "name": "arg",
+    "addr": "/arg/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 56,
+    "namespace": "myResolve1",
+    "origin": {
+      "!span": "1086[55:20]-1089[55:23]",
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "scoped": true,
+        "isArg": true,
+        "type": "String.prototype"
+      }
+    },
+    "tagfile": "__DIR__/promise.js"
+  },
+  {
+    "name": "myResolve1",
+    "addr": "/myResolve1/",
+    "kind": "f",
+    "type": "Promise function(string)",
+    "lineno": 56,
+    "origin": {
+      "!span": "1075[55:9]-1085[55:19]",
+      "!type": "fn(arg: string) -> +Promise",
+      "!data": {
+        "isConstructor": false,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/promise.js"
+  },
+  {
+    "name": "myResolve2",
+    "addr": "/myResolve2/",
+    "kind": "f",
+    "type": "Promise function(string|number)",
+    "lineno": 62,
+    "origin": {
+      "!span": "1171[61:9]-1181[61:19]",
+      "!type": "fn(arg: string|number) -> +Promise",
+      "!data": {
+        "isConstructor": false,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/promise.js"
+  },
+  {
+    "name": "arg7",
+    "addr": "/arg7/",
+    "kind": "v",
+    "type": "?|number",
+    "lineno": 73,
+    "namespace": "myResolve3",
+    "origin": {
+      "!span": "1394[72:20]-1398[72:24]",
+      "!type": "?|number",
+      "!data": {
+        "isConstructor": false,
+        "scoped": true,
+        "isArg": true
+      }
+    },
+    "tagfile": "__DIR__/promise.js"
+  },
+  {
+    "name": "myResolve3",
+    "addr": "/myResolve3/",
+    "kind": "f",
+    "type": "Promise function(?|number)",
+    "lineno": 73,
+    "origin": {
+      "!span": "1383[72:9]-1393[72:19]",
+      "!type": "fn(arg7: ?|number) -> +Promise",
+      "!data": {
+        "isConstructor": false,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/promise.js"
+  },
+  {
+    "name": ":t",
+    "addr": "/arg7/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 74,
     "namespace": "Promise",
     "origin": {
+      "!span": "1427[73:25]-1431[73:29]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -8630,17 +9266,19 @@
     "tagfile": "__DIR__/promise.js"
   },
   {
-    "name": "x",
-    "addr": "/x/",
+    "name": ":t",
+    "addr": "/4/",
     "kind": "v",
     "type": "number",
-    "lineno": 3,
-    "namespace": "Promise.:t",
+    "lineno": 81,
+    "namespace": "myResolve3.arg7",
     "origin": {
-      "!span": "85[2:10]-86[2:11]",
+      "!span": "1543[80:27]-1544[80:28]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
+        "scoped": false,
+        "isArg": false,
         "type": "Number.prototype"
       }
     },

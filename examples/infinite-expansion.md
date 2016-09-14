@@ -22,7 +22,7 @@ goop(1)(goop);
 ```json
 [
   {
-    "id": "2f43ee10-90cb-11e5-80ea-03f950b85ffa",
+    "id": "055e0900-7aef-11e6-9939-bf90d06dce0b",
     "name": "f",
     "addr": "/f/",
     "kind": "f",
@@ -39,14 +39,14 @@ goop(1)(goop);
     "tagfile": "__DIR__/infinite-expansion.js"
   },
   {
-    "id": "2f441520-90cb-11e5-80ea-03f950b85ffa",
+    "id": "055e5720-7aef-11e6-9939-bf90d06dce0b",
     "name": "n",
     "addr": "/n/",
     "kind": "f",
     "type": "void function(f)",
     "lineno": 3,
     "namespace": "f",
-    "parent": "2f43ee10-90cb-11e5-80ea-03f950b85ffa",
+    "parent": "055e0900-7aef-11e6-9939-bf90d06dce0b",
     "origin": {
       "!span": "31[2:17]-32[2:18]",
       "!type": "fn(n: f)",
@@ -60,13 +60,13 @@ goop(1)(goop);
     "tagfile": "__DIR__/infinite-expansion.js"
   },
   {
-    "id": "2f441521-90cb-11e5-80ea-03f950b85ffa",
+    "id": "055e7e30-7aef-11e6-9939-bf90d06dce0b",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 4,
     "namespace": "f.n",
-    "parent": "2f441520-90cb-11e5-80ea-03f950b85ffa",
+    "parent": "055e5720-7aef-11e6-9939-bf90d06dce0b",
     "origin": {
       "!span": "40[3:4]-49[3:13]",
       "!data": {
@@ -79,7 +79,7 @@ goop(1)(goop);
     "tagfile": "__DIR__/infinite-expansion.js"
   },
   {
-    "id": "2f441522-90cb-11e5-80ea-03f950b85ffa",
+    "id": "055e7e31-7aef-11e6-9939-bf90d06dce0b",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
@@ -96,7 +96,7 @@ goop(1)(goop);
     "tagfile": "__DIR__/infinite-expansion.js"
   },
   {
-    "id": "2f443c30-90cb-11e5-80ea-03f950b85ffa",
+    "id": "055ea540-7aef-11e6-9939-bf90d06dce0b",
     "name": "goop",
     "addr": "/goop/",
     "kind": "f",
@@ -113,14 +113,14 @@ goop(1)(goop);
     "tagfile": "__DIR__/infinite-expansion.js"
   },
   {
-    "id": "2f443c31-90cb-11e5-80ea-03f950b85ffa",
+    "id": "055ecc50-7aef-11e6-9939-bf90d06dce0b",
     "name": "n",
     "addr": "/n/",
     "kind": "v",
     "type": "number",
     "lineno": 15,
     "namespace": "goop",
-    "parent": "2f443c30-90cb-11e5-80ea-03f950b85ffa",
+    "parent": "055ea540-7aef-11e6-9939-bf90d06dce0b",
     "origin": {
       "!span": "267[14:14]-268[14:15]",
       "!type": "number",

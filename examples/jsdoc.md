@@ -23,6 +23,21 @@ var abc = function() {
   this; //: Date
 };
 
+/** @this Abc */
+var Abc = function() {
+  this; //: Abc
+};
+
+/** @class */
+var AbcCls = function() {
+  this; //: AbcCls
+};
+
+/** @constructor */
+var AbcCtor = function() {
+  this; //: AbcCtor
+};
+
 /**
  * This is also a function
  * @returns {string}
@@ -130,7 +145,7 @@ ui(); //: string
 ```json
 [
   {
-    "id": "2fa56f00-90cb-11e5-a9bf-1fd6e9bd6744",
+    "id": "06c11b70-7aef-11e6-a6d5-71028cd371ec",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
@@ -147,7 +162,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "2fa59610-90cb-11e5-a9bf-1fd6e9bd6744",
+    "id": "06c1dec0-7aef-11e6-a6d5-71028cd371ec",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
@@ -162,35 +177,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "2fa59615-90cb-11e5-a9bf-1fd6e9bd6744",
-    "name": "b",
-    "addr": "/b/",
-    "kind": "v",
-    "type": "string",
-    "lineno": 17,
-    "namespace": "foo",
-    "parent": "2fa59613-90cb-11e5-a9bf-1fd6e9bd6744",
-    "origin": {
-      "!span": "298[16:16]-299[16:17]",
-      "!type": "string",
-      "!data": {
-        "isConstructor": false,
-        "scoped": true,
-        "isArg": true,
-        "type": "String.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "id": "2fa59614-90cb-11e5-a9bf-1fd6e9bd6744",
+    "id": "06c22ce0-7aef-11e6-a6d5-71028cd371ec",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 17,
     "namespace": "foo",
-    "parent": "2fa59613-90cb-11e5-a9bf-1fd6e9bd6744",
+    "parent": "06c205d2-7aef-11e6-a6d5-71028cd371ec",
     "origin": {
       "!span": "295[16:13]-296[16:14]",
       "!type": "number",
@@ -204,7 +198,7 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "2fa59613-90cb-11e5-a9bf-1fd6e9bd6744",
+    "id": "06c205d2-7aef-11e6-a6d5-71028cd371ec",
     "name": "foo",
     "addr": "/foo/",
     "kind": "f",
@@ -221,7 +215,28 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "2fa59616-90cb-11e5-a9bf-1fd6e9bd6744",
+    "id": "06c22ce1-7aef-11e6-a6d5-71028cd371ec",
+    "name": "b",
+    "addr": "/b/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 17,
+    "namespace": "foo",
+    "parent": "06c205d2-7aef-11e6-a6d5-71028cd371ec",
+    "origin": {
+      "!span": "298[16:16]-299[16:17]",
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "scoped": true,
+        "isArg": true,
+        "type": "String.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "id": "06c253f0-7aef-11e6-a6d5-71028cd371ec",
     "name": "abc",
     "addr": "/abc/",
     "kind": "f",
@@ -238,247 +253,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "2fa5bd20-90cb-11e5-a9bf-1fd6e9bd6744",
-    "name": "bar",
-    "addr": "/bar/",
-    "kind": "f",
-    "type": "string function(number, number)",
-    "lineno": 30,
-    "origin": {
-      "!span": "510[29:4]-513[29:7]",
-      "!type": "fn(a: number, b: number) -> string",
-      "!data": {
-        "isConstructor": false,
-        "type": "Function.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "id": "2fa5bd21-90cb-11e5-a9bf-1fd6e9bd6744",
-    "name": "a",
-    "addr": "/a/",
-    "kind": "v",
-    "type": "number",
-    "lineno": 30,
-    "namespace": "bar",
-    "parent": "2fa5bd20-90cb-11e5-a9bf-1fd6e9bd6744",
-    "origin": {
-      "!span": "525[29:19]-526[29:20]",
-      "!type": "number",
-      "!data": {
-        "isConstructor": false,
-        "scoped": true,
-        "isArg": true,
-        "type": "Number.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "id": "2fa5bd22-90cb-11e5-a9bf-1fd6e9bd6744",
-    "name": "b",
-    "addr": "/b/",
-    "kind": "v",
-    "type": "number",
-    "lineno": 30,
-    "namespace": "bar",
-    "parent": "2fa5bd20-90cb-11e5-a9bf-1fd6e9bd6744",
-    "origin": {
-      "!span": "528[29:22]-529[29:23]",
-      "!type": "number",
-      "!data": {
-        "isConstructor": false,
-        "scoped": true,
-        "isArg": true,
-        "type": "Number.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "id": "2fa5bd23-90cb-11e5-a9bf-1fd6e9bd6744",
-    "name": "o",
-    "addr": "/o/",
-    "kind": "v",
-    "lineno": 34,
-    "origin": {
-      "!span": "617[33:4]-618[33:5]",
-      "!data": {
-        "isConstructor": false,
-        "type": "Object.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "id": "2fa5bd24-90cb-11e5-a9bf-1fd6e9bd6744",
-    "name": "prop1",
-    "addr": "/prop1/",
-    "kind": "v",
-    "type": "string",
-    "lineno": 36,
-    "namespace": "o",
-    "parent": "2fa5bd23-90cb-11e5-a9bf-1fd6e9bd6744",
-    "origin": {
-      "!span": "649[35:2]-654[35:7]",
-      "!type": "string",
-      "!data": {
-        "isConstructor": false,
-        "type": "String.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "id": "2fa5bd25-90cb-11e5-a9bf-1fd6e9bd6744",
-    "name": "prop2",
-    "addr": "/prop2/",
-    "kind": "f",
-    "type": "number function()",
-    "lineno": 39,
-    "namespace": "o",
-    "parent": "2fa5bd23-90cb-11e5-a9bf-1fd6e9bd6744",
-    "origin": {
-      "!span": "697[38:2]-702[38:7]",
-      "!type": "fn() -> number",
-      "!data": {
-        "isConstructor": false,
-        "type": "Function.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "id": "2fa5bd26-90cb-11e5-a9bf-1fd6e9bd6744",
-    "name": "prop3",
-    "addr": "/prop3/",
-    "kind": "f",
-    "type": "string function()",
-    "lineno": 43,
-    "namespace": "o",
-    "parent": "2fa5bd23-90cb-11e5-a9bf-1fd6e9bd6744",
-    "origin": {
-      "!span": "769[42:2]-774[42:7]",
-      "!type": "fn() -> string",
-      "!data": {
-        "isConstructor": false,
-        "type": "Function.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "id": "2fa5bd27-90cb-11e5-a9bf-1fd6e9bd6744",
-    "name": "closureArray",
-    "addr": "/closureArray/",
-    "kind": "v",
-    "type": "[string]",
-    "lineno": 50,
-    "origin": {
-      "!span": "925[49:4]-937[49:16]",
-      "!type": "[string]",
-      "!data": {
-        "isConstructor": false,
-        "type": "Array.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "id": "2fa5bd28-90cb-11e5-a9bf-1fd6e9bd6744",
-    "name": "closureMap",
-    "addr": "/closureMap/",
-    "kind": "v",
-    "lineno": 54,
-    "origin": {
-      "!span": "1028[53:4]-1038[53:14]",
-      "!data": {
-        "isConstructor": false,
-        "type": "Object.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "id": "2fa5bd2a-90cb-11e5-a9bf-1fd6e9bd6744",
-    "name": "takesOpt",
-    "addr": "/takesOpt/",
-    "kind": "f",
-    "type": "void function(number)",
-    "lineno": 58,
-    "origin": {
-      "!span": "1120[57:9]-1128[57:17]",
-      "!type": "fn(a?: number)",
-      "!data": {
-        "isConstructor": false,
-        "type": "Function.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "id": "2fa5bd2b-90cb-11e5-a9bf-1fd6e9bd6744",
-    "name": "a",
-    "addr": "/a/",
-    "kind": "v",
-    "type": "number",
-    "lineno": 58,
-    "namespace": "takesOpt",
-    "parent": "2fa5bd2a-90cb-11e5-a9bf-1fd6e9bd6744",
-    "origin": {
-      "!span": "1129[57:18]-1130[57:19]",
-      "!type": "number",
-      "!data": {
-        "isConstructor": false,
-        "scoped": true,
-        "isArg": true,
-        "type": "Number.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "id": "2fa5bd2c-90cb-11e5-a9bf-1fd6e9bd6744",
-    "name": "myBitset",
-    "addr": "/myBitset/",
-    "kind": "v",
-    "type": "[bool]",
-    "lineno": 73,
-    "origin": {
-      "!span": "1405[72:4]-1413[72:12]",
-      "!type": "[bool]",
-      "!data": {
-        "isConstructor": false,
-        "type": "Array.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "id": "2fa5bd2d-90cb-11e5-a9bf-1fd6e9bd6744",
-    "name": "myObj",
-    "addr": "/myObj/",
-    "kind": "v",
-    "lineno": 78,
-    "origin": {
-      "!span": "1479[77:4]-1484[77:9]",
-      "!data": {
-        "isConstructor": false,
-        "type": "Object.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "id": "2fa5bd30-90cb-11e5-a9bf-1fd6e9bd6744",
-    "name": "NonAscïį",
-    "addr": "/NonAscïį/",
+    "id": "06c2a210-7aef-11e6-a6d5-71028cd371ec",
+    "name": "Abc",
+    "addr": "/Abc/",
     "kind": "f",
     "type": "void function()",
-    "lineno": 84,
+    "lineno": 26,
     "origin": {
-      "!span": "1552[83:9]-1560[83:17]",
+      "!span": "452[25:4]-455[25:7]",
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
@@ -488,16 +270,124 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "2fa5bd31-90cb-11e5-a9bf-1fd6e9bd6744",
-    "name": "length",
-    "addr": "/length/",
+    "id": "06c2a211-7aef-11e6-a6d5-71028cd371ec",
+    "name": "AbcCls",
+    "addr": "/AbcCls/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 31,
+    "origin": {
+      "!span": "509[30:4]-515[30:10]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "id": "06c2a212-7aef-11e6-a6d5-71028cd371ec",
+    "name": "AbcCtor",
+    "addr": "/AbcCtor/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 36,
+    "origin": {
+      "!span": "578[35:4]-585[35:11]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "id": "06c2a213-7aef-11e6-a6d5-71028cd371ec",
+    "name": "bar",
+    "addr": "/bar/",
+    "kind": "f",
+    "type": "string function(number, number)",
+    "lineno": 45,
+    "origin": {
+      "!span": "704[44:4]-707[44:7]",
+      "!type": "fn(a: number, b: number) -> string",
+      "!data": {
+        "isConstructor": false,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "id": "06c2a215-7aef-11e6-a6d5-71028cd371ec",
+    "name": "b",
+    "addr": "/b/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 45,
+    "namespace": "bar",
+    "parent": "06c2a213-7aef-11e6-a6d5-71028cd371ec",
+    "origin": {
+      "!span": "722[44:22]-723[44:23]",
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "scoped": true,
+        "isArg": true,
+        "type": "Number.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "id": "06c2a214-7aef-11e6-a6d5-71028cd371ec",
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 45,
+    "namespace": "bar",
+    "parent": "06c2a213-7aef-11e6-a6d5-71028cd371ec",
+    "origin": {
+      "!span": "719[44:19]-720[44:20]",
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "scoped": true,
+        "isArg": true,
+        "type": "Number.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "id": "06c2a216-7aef-11e6-a6d5-71028cd371ec",
+    "name": "o",
+    "addr": "/o/",
+    "kind": "v",
+    "lineno": 49,
+    "origin": {
+      "!span": "811[48:4]-812[48:5]",
+      "!data": {
+        "isConstructor": false,
+        "type": "Object.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "id": "06c2c920-7aef-11e6-a6d5-71028cd371ec",
+    "name": "prop1",
+    "addr": "/prop1/",
     "kind": "v",
     "type": "string",
-    "lineno": 84,
-    "namespace": "NonAscïį",
-    "parent": "2fa5bd30-90cb-11e5-a9bf-1fd6e9bd6744",
+    "lineno": 51,
+    "namespace": "o",
+    "parent": "06c2a216-7aef-11e6-a6d5-71028cd371ec",
     "origin": {
-      "!span": "1570[83:27]-1576[83:33]",
+      "!span": "843[50:2]-848[50:7]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -507,78 +397,67 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "2fa5e430-90cb-11e5-a9bf-1fd6e9bd6744",
-    "name": "inst",
-    "addr": "/inst/",
-    "kind": "v",
-    "type": "NonAscïį",
-    "lineno": 87,
+    "id": "06c2c921-7aef-11e6-a6d5-71028cd371ec",
+    "name": "prop2",
+    "addr": "/prop2/",
+    "kind": "f",
+    "type": "number function()",
+    "lineno": 54,
+    "namespace": "o",
+    "parent": "06c2a216-7aef-11e6-a6d5-71028cd371ec",
     "origin": {
-      "!span": "1616[86:4]-1620[86:8]",
-      "!type": "+NonAscïį",
+      "!span": "891[53:2]-896[53:7]",
+      "!type": "fn() -> number",
       "!data": {
         "isConstructor": false,
-        "type": "NonAscïį.prototype"
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "2fa5bd2e-90cb-11e5-a9bf-1fd6e9bd6744",
-    "name": "one",
-    "kind": "v",
-    "type": "boolean",
-    "namespace": "myObj",
-    "parent": "2fa5bd2d-90cb-11e5-a9bf-1fd6e9bd6744",
+    "id": "06c2c922-7aef-11e6-a6d5-71028cd371ec",
+    "name": "prop3",
+    "addr": "/prop3/",
+    "kind": "f",
+    "type": "string function()",
+    "lineno": 58,
+    "namespace": "o",
+    "parent": "06c2a216-7aef-11e6-a6d5-71028cd371ec",
     "origin": {
-      "!type": "bool",
+      "!span": "963[57:2]-968[57:7]",
+      "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
-        "type": "Boolean.prototype"
+        "type": "Function.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "2fa5bd2f-90cb-11e5-a9bf-1fd6e9bd6744",
-    "name": "two",
+    "id": "06c2c923-7aef-11e6-a6d5-71028cd371ec",
+    "name": "closureArray",
+    "addr": "/closureArray/",
     "kind": "v",
-    "type": "number",
-    "namespace": "myObj",
-    "parent": "2fa5bd2d-90cb-11e5-a9bf-1fd6e9bd6744",
+    "type": "[string]",
+    "lineno": 65,
     "origin": {
-      "!type": "number",
+      "!span": "1119[64:4]-1131[64:16]",
+      "!type": "[string]",
       "!data": {
         "isConstructor": false,
-        "type": "Number.prototype"
+        "type": "Array.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "2fa5e438-90cb-11e5-a9bf-1fd6e9bd6744",
-    "name": "bogus",
-    "addr": "/bogus/",
-    "kind": "v",
-    "lineno": 92,
-    "parent": "2fa5e437-90cb-11e5-a9bf-1fd6e9bd6744",
-    "origin": {
-      "!span": "1678[91:4]-1683[91:9]",
-      "!data": {
-        "isConstructor": false,
-        "scoped": false,
-        "isArg": false
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "id": "2fa59611-90cb-11e5-a9bf-1fd6e9bd6744",
+    "id": "06c205d0-7aef-11e6-a6d5-71028cd371ec",
     "name": "x",
     "kind": "v",
     "type": "number",
     "namespace": "c",
-    "parent": "2fa59610-90cb-11e5-a9bf-1fd6e9bd6744",
+    "parent": "06c1dec0-7aef-11e6-a6d5-71028cd371ec",
     "origin": {
       "!type": "number",
       "!data": {
@@ -589,12 +468,12 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "2fa59612-90cb-11e5-a9bf-1fd6e9bd6744",
+    "id": "06c205d1-7aef-11e6-a6d5-71028cd371ec",
     "name": "y",
     "kind": "v",
     "type": "[string]",
     "namespace": "c",
-    "parent": "2fa59610-90cb-11e5-a9bf-1fd6e9bd6744",
+    "parent": "06c1dec0-7aef-11e6-a6d5-71028cd371ec",
     "origin": {
       "!type": "[string]",
       "!data": {
@@ -605,14 +484,13 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "2fa5e431-90cb-11e5-a9bf-1fd6e9bd6744",
-    "name": "again",
-    "addr": "/again/",
+    "id": "06c2c92b-7aef-11e6-a6d5-71028cd371ec",
+    "name": "two",
     "kind": "v",
     "type": "number",
-    "lineno": 97,
+    "namespace": "myObj",
+    "parent": "06c2c929-7aef-11e6-a6d5-71028cd371ec",
     "origin": {
-      "!span": "1756[96:4]-1761[96:9]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -622,14 +500,218 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "2fa5e432-90cb-11e5-a9bf-1fd6e9bd6744",
+    "id": "06c2c925-7aef-11e6-a6d5-71028cd371ec",
+    "name": "<i>",
+    "kind": "v",
+    "type": "boolean",
+    "namespace": "closureMap",
+    "parent": "06c2c924-7aef-11e6-a6d5-71028cd371ec",
+    "origin": {
+      "!type": "bool",
+      "!data": {
+        "isConstructor": false,
+        "type": "Boolean.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "id": "06c2c92a-7aef-11e6-a6d5-71028cd371ec",
+    "name": "one",
+    "kind": "v",
+    "type": "boolean",
+    "namespace": "myObj",
+    "parent": "06c2c929-7aef-11e6-a6d5-71028cd371ec",
+    "origin": {
+      "!type": "bool",
+      "!data": {
+        "isConstructor": false,
+        "type": "Boolean.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "id": "06c2c924-7aef-11e6-a6d5-71028cd371ec",
+    "name": "closureMap",
+    "addr": "/closureMap/",
+    "kind": "v",
+    "lineno": 69,
+    "origin": {
+      "!span": "1222[68:4]-1232[68:14]",
+      "!data": {
+        "isConstructor": false,
+        "type": "Object.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "id": "06c2c927-7aef-11e6-a6d5-71028cd371ec",
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 73,
+    "namespace": "takesOpt",
+    "parent": "06c2c926-7aef-11e6-a6d5-71028cd371ec",
+    "origin": {
+      "!span": "1323[72:18]-1324[72:19]",
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "scoped": true,
+        "isArg": true,
+        "type": "Number.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "id": "06c2c926-7aef-11e6-a6d5-71028cd371ec",
+    "name": "takesOpt",
+    "addr": "/takesOpt/",
+    "kind": "f",
+    "type": "void function(number)",
+    "lineno": 73,
+    "origin": {
+      "!span": "1314[72:9]-1322[72:17]",
+      "!type": "fn(a?: number)",
+      "!data": {
+        "isConstructor": false,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "id": "06c2c928-7aef-11e6-a6d5-71028cd371ec",
+    "name": "myBitset",
+    "addr": "/myBitset/",
+    "kind": "v",
+    "type": "[bool]",
+    "lineno": 88,
+    "origin": {
+      "!span": "1599[87:4]-1607[87:12]",
+      "!type": "[bool]",
+      "!data": {
+        "isConstructor": false,
+        "type": "Array.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "id": "06c2c929-7aef-11e6-a6d5-71028cd371ec",
+    "name": "myObj",
+    "addr": "/myObj/",
+    "kind": "v",
+    "lineno": 93,
+    "origin": {
+      "!span": "1673[92:4]-1678[92:9]",
+      "!data": {
+        "isConstructor": false,
+        "type": "Object.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "id": "06c2c92c-7aef-11e6-a6d5-71028cd371ec",
+    "name": "NonAscïį",
+    "addr": "/NonAscïį/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 99,
+    "origin": {
+      "!span": "1746[98:9]-1754[98:17]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "id": "06c2f030-7aef-11e6-a6d5-71028cd371ec",
+    "name": "length",
+    "addr": "/length/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 99,
+    "namespace": "NonAscïį",
+    "parent": "06c2c92c-7aef-11e6-a6d5-71028cd371ec",
+    "origin": {
+      "!span": "1764[98:27]-1770[98:33]",
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "type": "String.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "id": "06c2f031-7aef-11e6-a6d5-71028cd371ec",
+    "name": "inst",
+    "addr": "/inst/",
+    "kind": "v",
+    "type": "NonAscïį",
+    "lineno": 102,
+    "origin": {
+      "!span": "1810[101:4]-1814[101:8]",
+      "!type": "+NonAscïį",
+      "!data": {
+        "isConstructor": false,
+        "type": "NonAscïį.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "id": "06c31747-7aef-11e6-a6d5-71028cd371ec",
+    "name": "bogus",
+    "addr": "/bogus/",
+    "kind": "v",
+    "lineno": 107,
+    "parent": "06c31746-7aef-11e6-a6d5-71028cd371ec",
+    "origin": {
+      "!span": "1872[106:4]-1877[106:9]",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "id": "06c31740-7aef-11e6-a6d5-71028cd371ec",
+    "name": "again",
+    "addr": "/again/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 112,
+    "origin": {
+      "!span": "1950[111:4]-1955[111:9]",
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "type": "Number.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "id": "06c31741-7aef-11e6-a6d5-71028cd371ec",
     "name": "functionBogus",
     "addr": "/functionBogus/",
     "kind": "f",
     "type": "? function(?)",
-    "lineno": 105,
+    "lineno": 120,
     "origin": {
-      "!span": "1855[104:9]-1868[104:22]",
+      "!span": "2049[119:9]-2062[119:22]",
       "!type": "fn(a: ?) -> ?",
       "!data": {
         "isConstructor": false,
@@ -639,15 +721,15 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "2fa5e433-90cb-11e5-a9bf-1fd6e9bd6744",
+    "id": "06c31742-7aef-11e6-a6d5-71028cd371ec",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
-    "lineno": 105,
+    "lineno": 120,
     "namespace": "functionBogus",
-    "parent": "2fa5e432-90cb-11e5-a9bf-1fd6e9bd6744",
+    "parent": "06c31741-7aef-11e6-a6d5-71028cd371ec",
     "origin": {
-      "!span": "1869[104:23]-1870[104:24]",
+      "!span": "2063[119:23]-2064[119:24]",
       "!data": {
         "isConstructor": false,
         "scoped": true,
@@ -657,14 +739,14 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "2fa5e434-90cb-11e5-a9bf-1fd6e9bd6744",
+    "id": "06c31743-7aef-11e6-a6d5-71028cd371ec",
     "name": "unionFunction",
     "addr": "/unionFunction/",
     "kind": "f",
     "type": "[?|number] function(string)",
-    "lineno": 118,
+    "lineno": 133,
     "origin": {
-      "!span": "2107[117:9]-2120[117:22]",
+      "!span": "2301[132:9]-2314[132:22]",
       "!type": "fn(a: string) -> [?|number]",
       "!data": {
         "isConstructor": false,
@@ -674,16 +756,16 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "2fa5e435-90cb-11e5-a9bf-1fd6e9bd6744",
+    "id": "06c31744-7aef-11e6-a6d5-71028cd371ec",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "string",
-    "lineno": 118,
+    "lineno": 133,
     "namespace": "unionFunction",
-    "parent": "2fa5e434-90cb-11e5-a9bf-1fd6e9bd6744",
+    "parent": "06c31743-7aef-11e6-a6d5-71028cd371ec",
     "origin": {
-      "!span": "2121[117:23]-2122[117:24]",
+      "!span": "2315[132:23]-2316[132:24]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -695,34 +777,18 @@ ui(); //: string
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "id": "2fa5e436-90cb-11e5-a9bf-1fd6e9bd6744",
+    "id": "06c31745-7aef-11e6-a6d5-71028cd371ec",
     "name": "ui",
     "addr": "/ui/",
     "kind": "f",
     "type": "string function()",
-    "lineno": 125,
+    "lineno": 140,
     "origin": {
-      "!span": "2232[124:9]-2234[124:11]",
+      "!span": "2426[139:9]-2428[139:11]",
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
         "type": "Function.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "id": "2fa5bd29-90cb-11e5-a9bf-1fd6e9bd6744",
-    "name": "<i>",
-    "kind": "v",
-    "type": "boolean",
-    "namespace": "closureMap",
-    "parent": "2fa5bd28-90cb-11e5-a9bf-1fd6e9bd6744",
-    "origin": {
-      "!type": "bool",
-      "!data": {
-        "isConstructor": false,
-        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -732,36 +798,39 @@ ui(); //: string
 ```ctags
 a	__DIR__/jsdoc.js	/a/;"	v	lineno:2	type:Date
 c	__DIR__/jsdoc.js	/c/;"	v	lineno:8
-b	__DIR__/jsdoc.js	/b/;"	v	lineno:17	namespace:foo	type:string
 a	__DIR__/jsdoc.js	/a/;"	v	lineno:17	namespace:foo	type:number
 foo	__DIR__/jsdoc.js	/foo/;"	f	lineno:17	type:[number] function(number, string)
+b	__DIR__/jsdoc.js	/b/;"	v	lineno:17	namespace:foo	type:string
 abc	__DIR__/jsdoc.js	/abc/;"	f	lineno:21	type:void function()
-bar	__DIR__/jsdoc.js	/bar/;"	f	lineno:30	type:string function(number, number)
-a	__DIR__/jsdoc.js	/a/;"	v	lineno:30	namespace:bar	type:number
-b	__DIR__/jsdoc.js	/b/;"	v	lineno:30	namespace:bar	type:number
-o	__DIR__/jsdoc.js	/o/;"	v	lineno:34
-prop1	__DIR__/jsdoc.js	/prop1/;"	v	lineno:36	namespace:o	type:string
-prop2	__DIR__/jsdoc.js	/prop2/;"	f	lineno:39	namespace:o	type:number function()
-prop3	__DIR__/jsdoc.js	/prop3/;"	f	lineno:43	namespace:o	type:string function()
-closureArray	__DIR__/jsdoc.js	/closureArray/;"	v	lineno:50	type:[string]
-closureMap	__DIR__/jsdoc.js	/closureMap/;"	v	lineno:54
-takesOpt	__DIR__/jsdoc.js	/takesOpt/;"	f	lineno:58	type:void function(number)
-a	__DIR__/jsdoc.js	/a/;"	v	lineno:58	namespace:takesOpt	type:number
-myBitset	__DIR__/jsdoc.js	/myBitset/;"	v	lineno:73	type:[bool]
-myObj	__DIR__/jsdoc.js	/myObj/;"	v	lineno:78
-NonAscïį	__DIR__/jsdoc.js	/NonAscïį/;"	f	lineno:84	type:void function()
-length	__DIR__/jsdoc.js	/length/;"	v	lineno:84	namespace:NonAscïį	type:string
-inst	__DIR__/jsdoc.js	/inst/;"	v	lineno:87	type:NonAscïį
-one	__DIR__/jsdoc.js	//;"	v	namespace:myObj	type:boolean
-two	__DIR__/jsdoc.js	//;"	v	namespace:myObj	type:number
-bogus	__DIR__/jsdoc.js	/bogus/;"	v	lineno:92
+Abc	__DIR__/jsdoc.js	/Abc/;"	f	lineno:26	type:void function()
+AbcCls	__DIR__/jsdoc.js	/AbcCls/;"	f	lineno:31	type:void function()
+AbcCtor	__DIR__/jsdoc.js	/AbcCtor/;"	f	lineno:36	type:void function()
+bar	__DIR__/jsdoc.js	/bar/;"	f	lineno:45	type:string function(number, number)
+b	__DIR__/jsdoc.js	/b/;"	v	lineno:45	namespace:bar	type:number
+a	__DIR__/jsdoc.js	/a/;"	v	lineno:45	namespace:bar	type:number
+o	__DIR__/jsdoc.js	/o/;"	v	lineno:49
+prop1	__DIR__/jsdoc.js	/prop1/;"	v	lineno:51	namespace:o	type:string
+prop2	__DIR__/jsdoc.js	/prop2/;"	f	lineno:54	namespace:o	type:number function()
+prop3	__DIR__/jsdoc.js	/prop3/;"	f	lineno:58	namespace:o	type:string function()
+closureArray	__DIR__/jsdoc.js	/closureArray/;"	v	lineno:65	type:[string]
 x	__DIR__/jsdoc.js	//;"	v	namespace:c	type:number
 y	__DIR__/jsdoc.js	//;"	v	namespace:c	type:[string]
-again	__DIR__/jsdoc.js	/again/;"	v	lineno:97	type:number
-functionBogus	__DIR__/jsdoc.js	/functionBogus/;"	f	lineno:105	type:? function(?)
-a	__DIR__/jsdoc.js	/a/;"	v	lineno:105	namespace:functionBogus
-unionFunction	__DIR__/jsdoc.js	/unionFunction/;"	f	lineno:118	type:[?|number] function(string)
-a	__DIR__/jsdoc.js	/a/;"	v	lineno:118	namespace:unionFunction	type:string
-ui	__DIR__/jsdoc.js	/ui/;"	f	lineno:125	type:string function()
+two	__DIR__/jsdoc.js	//;"	v	namespace:myObj	type:number
 <i>	__DIR__/jsdoc.js	//;"	v	namespace:closureMap	type:boolean
+one	__DIR__/jsdoc.js	//;"	v	namespace:myObj	type:boolean
+closureMap	__DIR__/jsdoc.js	/closureMap/;"	v	lineno:69
+a	__DIR__/jsdoc.js	/a/;"	v	lineno:73	namespace:takesOpt	type:number
+takesOpt	__DIR__/jsdoc.js	/takesOpt/;"	f	lineno:73	type:void function(number)
+myBitset	__DIR__/jsdoc.js	/myBitset/;"	v	lineno:88	type:[bool]
+myObj	__DIR__/jsdoc.js	/myObj/;"	v	lineno:93
+NonAscïį	__DIR__/jsdoc.js	/NonAscïį/;"	f	lineno:99	type:void function()
+length	__DIR__/jsdoc.js	/length/;"	v	lineno:99	namespace:NonAscïį	type:string
+inst	__DIR__/jsdoc.js	/inst/;"	v	lineno:102	type:NonAscïį
+bogus	__DIR__/jsdoc.js	/bogus/;"	v	lineno:107
+again	__DIR__/jsdoc.js	/again/;"	v	lineno:112	type:number
+functionBogus	__DIR__/jsdoc.js	/functionBogus/;"	f	lineno:120	type:? function(?)
+a	__DIR__/jsdoc.js	/a/;"	v	lineno:120	namespace:functionBogus
+unionFunction	__DIR__/jsdoc.js	/unionFunction/;"	f	lineno:133	type:[?|number] function(string)
+a	__DIR__/jsdoc.js	/a/;"	v	lineno:133	namespace:unionFunction	type:string
+ui	__DIR__/jsdoc.js	/ui/;"	f	lineno:140	type:string function()
 ```

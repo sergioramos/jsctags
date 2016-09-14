@@ -284,7 +284,7 @@
     "lineno": 93,
     "namespace": "C",
     "origin": {
-      "!span": "1925[92:0]-2029[97:1]",
+      "!span": "1925[92:0]-2028[97:1]",
       "!data": {
         "isConstructor": false,
         "type": "Object.prototype"
@@ -333,7 +333,7 @@
     "lineno": 97,
     "namespace": "C.prototype",
     "origin": {
-      "!span": "2002[96:6]-2011[96:15]",
+      "!span": "2001[96:6]-2010[96:15]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -349,7 +349,7 @@
     "type": "C",
     "lineno": 100,
     "origin": {
-      "!span": "2035[99:4]-2036[99:5]",
+      "!span": "2034[99:4]-2035[99:5]",
       "!type": "+C",
       "!data": {
         "isConstructor": false,

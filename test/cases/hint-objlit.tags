@@ -27,5 +27,3 @@ b	__DIR__/hint-objlit.js	/b/;"	v	lineno:42	namespace:takes.example
 _2	__DIR__/hint-objlit.js	/_2/;"	v	lineno:43	namespace:takes.example	type:string
 bar	__DIR__/hint-objlit.js	/bar/;"	v	lineno:47	namespace:takes.example
 
-
-

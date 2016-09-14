@@ -17,7 +17,7 @@ g2().next().value //: bool
 ```json
 [
   {
-    "id": "2bb018f0-90cb-11e5-8328-6db5b389fcf7",
+    "id": "f9d6ae20-7aee-11e6-adf1-c5bb2f89db5f",
     "name": "foo",
     "addr": "/foo/",
     "kind": "f",
@@ -34,14 +34,14 @@ g2().next().value //: bool
     "tagfile": "__DIR__/generator.js"
   },
   {
-    "id": "2bb04000-90cb-11e5-8328-6db5b389fcf7",
+    "id": "f9d6fc40-7aee-11e6-adf1-c5bb2f89db5f",
     "name": "index",
     "addr": "/index/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "foo",
-    "parent": "2bb018f0-90cb-11e5-8328-6db5b389fcf7",
+    "parent": "f9d6ae20-7aee-11e6-adf1-c5bb2f89db5f",
     "origin": {
       "!span": "24[1:6]-29[1:11]",
       "!type": "number",
@@ -55,14 +55,14 @@ g2().next().value //: bool
     "tagfile": "__DIR__/generator.js"
   },
   {
-    "id": "2bb04001-90cb-11e5-8328-6db5b389fcf7",
+    "id": "f9d72350-7aee-11e6-adf1-c5bb2f89db5f",
     "name": "out",
     "addr": "/out/",
     "kind": "v",
     "type": "string",
     "lineno": 2,
     "namespace": "foo",
-    "parent": "2bb018f0-90cb-11e5-8328-6db5b389fcf7",
+    "parent": "f9d6ae20-7aee-11e6-adf1-c5bb2f89db5f",
     "origin": {
       "!span": "35[1:17]-38[1:20]",
       "!type": "string",
@@ -76,7 +76,7 @@ g2().next().value //: bool
     "tagfile": "__DIR__/generator.js"
   },
   {
-    "id": "2bb04002-90cb-11e5-8328-6db5b389fcf7",
+    "id": "f9d72351-7aee-11e6-adf1-c5bb2f89db5f",
     "name": "it",
     "addr": "/it/",
     "kind": "v",
@@ -91,12 +91,12 @@ g2().next().value //: bool
     "tagfile": "__DIR__/generator.js"
   },
   {
-    "id": "2bb04003-90cb-11e5-8328-6db5b389fcf7",
+    "id": "f9d72352-7aee-11e6-adf1-c5bb2f89db5f",
     "name": "next",
     "kind": "f",
     "type": "it.next.!ret function()",
     "namespace": "it",
-    "parent": "2bb04002-90cb-11e5-8328-6db5b389fcf7",
+    "parent": "f9d72351-7aee-11e6-adf1-c5bb2f89db5f",
     "origin": {
       "!type": "fn(string) -> it.next.!ret",
       "!data": {
@@ -107,7 +107,7 @@ g2().next().value //: bool
     "tagfile": "__DIR__/generator.js"
   },
   {
-    "id": "2bb04004-90cb-11e5-8328-6db5b389fcf7",
+    "id": "f9d72353-7aee-11e6-adf1-c5bb2f89db5f",
     "name": "g1",
     "addr": "/g1/",
     "kind": "f",
@@ -124,7 +124,7 @@ g2().next().value //: bool
     "tagfile": "__DIR__/generator.js"
   },
   {
-    "id": "2bb04005-90cb-11e5-8328-6db5b389fcf7",
+    "id": "f9d72354-7aee-11e6-adf1-c5bb2f89db5f",
     "name": "g2",
     "addr": "/g2/",
     "kind": "f",

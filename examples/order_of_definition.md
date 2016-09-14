@@ -18,7 +18,7 @@ foo.bar = {baz: baz};
 ```json
 [
   {
-    "id": "330aba10-90cb-11e5-b0aa-c74ca260aa3e",
+    "id": "1200e600-7aef-11e6-b143-85b63d498278",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
@@ -33,7 +33,7 @@ foo.bar = {baz: baz};
     "tagfile": "__DIR__/order_of_definition.js"
   },
   {
-    "id": "330b0830-90cb-11e5-b0aa-c74ca260aa3e",
+    "id": "1201a950-7aef-11e6-b143-85b63d498278",
     "name": "baz",
     "addr": "/baz/",
     "kind": "v",
@@ -48,14 +48,14 @@ foo.bar = {baz: baz};
     "tagfile": "__DIR__/order_of_definition.js"
   },
   {
-    "id": "330b0831-90cb-11e5-b0aa-c74ca260aa3e",
+    "id": "1201d060-7aef-11e6-b143-85b63d498278",
     "name": "bug",
     "addr": "/bug/",
     "kind": "f",
     "type": "void function(baz.bug.!0)",
     "lineno": 9,
     "namespace": "baz",
-    "parent": "330b0830-90cb-11e5-b0aa-c74ca260aa3e",
+    "parent": "1201a950-7aef-11e6-b143-85b63d498278",
     "origin": {
       "!span": "95[8:11]-98[8:14]",
       "!type": "fn(o: baz.bug.!0)",
@@ -67,14 +67,14 @@ foo.bar = {baz: baz};
     "tagfile": "__DIR__/order_of_definition.js"
   },
   {
-    "id": "330b0832-90cb-11e5-b0aa-c74ca260aa3e",
+    "id": "1201f770-7aef-11e6-b143-85b63d498278",
     "name": "x",
     "addr": "/x/",
     "kind": "f",
     "type": "void function()",
     "lineno": 10,
     "namespace": "baz.bug",
-    "parent": "330b0831-90cb-11e5-b0aa-c74ca260aa3e",
+    "parent": "1201d060-7aef-11e6-b143-85b63d498278",
     "origin": {
       "!span": "125[9:11]-126[9:12]",
       "!type": "fn()",
@@ -88,13 +88,13 @@ foo.bar = {baz: baz};
     "tagfile": "__DIR__/order_of_definition.js"
   },
   {
-    "id": "330ae120-90cb-11e5-b0aa-c74ca260aa3e",
+    "id": "12018240-7aef-11e6-b143-85b63d498278",
     "name": "bar",
     "addr": "/bar/",
     "kind": "v",
     "lineno": 15,
     "namespace": "foo",
-    "parent": "330aba10-90cb-11e5-b0aa-c74ca260aa3e",
+    "parent": "1200e600-7aef-11e6-b143-85b63d498278",
     "origin": {
       "!span": "192[14:4]-195[14:7]",
       "!data": {

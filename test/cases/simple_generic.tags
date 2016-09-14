@@ -6,5 +6,3 @@ f	__DIR__/simple_generic.js	/f/;"	f	lineno:6	namespace:map	type:boolean function
 res	__DIR__/simple_generic.js	/res/;"	v	lineno:7	namespace:map	type:[bool]
 i	__DIR__/simple_generic.js	/i/;"	v	lineno:8	namespace:map	type:number
 
-
-

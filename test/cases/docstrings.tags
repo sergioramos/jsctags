@@ -21,5 +21,3 @@ method	__DIR__/docstrings.js	/method/;"	f	lineno:95	namespace:C.prototype	type:n
 something	__DIR__/docstrings.js	/something/;"	v	lineno:97	namespace:C.prototype	type:number
 c	__DIR__/docstrings.js	/c/;"	v	lineno:100	type:C
 
-
-

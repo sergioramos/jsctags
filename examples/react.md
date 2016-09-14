@@ -45,7 +45,7 @@ var f = function() {
 ```json
 [
   {
-    "id": "38001b00-90cb-11e5-972f-691eb1148eac",
+    "id": "29502730-7aef-11e6-80b7-d14b8de28cbb",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
@@ -62,7 +62,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "3800de50-90cb-11e5-972f-691eb1148eac",
+    "id": "2950ea80-7aef-11e6-80b7-d14b8de28cbb",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
@@ -79,7 +79,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "38004210-90cb-11e5-972f-691eb1148eac",
+    "id": "29507550-7aef-11e6-80b7-d14b8de28cbb",
     "name": "e",
     "addr": "/e/",
     "kind": "v",
@@ -96,7 +96,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "3800de51-90cb-11e5-972f-691eb1148eac",
+    "id": "2950ea81-7aef-11e6-80b7-d14b8de28cbb",
     "name": "test",
     "addr": "/test/",
     "kind": "v",
@@ -113,7 +113,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "38004211-90cb-11e5-972f-691eb1148eac",
+    "id": "29507551-7aef-11e6-80b7-d14b8de28cbb",
     "name": "g",
     "addr": "/g/",
     "kind": "v",
@@ -130,7 +130,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "38004212-90cb-11e5-972f-691eb1148eac",
+    "id": "29507552-7aef-11e6-80b7-d14b8de28cbb",
     "name": "h",
     "addr": "/h/",
     "kind": "v",
@@ -147,7 +147,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "38004213-90cb-11e5-972f-691eb1148eac",
+    "id": "29507553-7aef-11e6-80b7-d14b8de28cbb",
     "name": "i",
     "addr": "/i/",
     "kind": "v",
@@ -164,7 +164,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "38004214-90cb-11e5-972f-691eb1148eac",
+    "id": "29507554-7aef-11e6-80b7-d14b8de28cbb",
     "name": "j",
     "addr": "/j/",
     "kind": "v",
@@ -181,7 +181,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "38004215-90cb-11e5-972f-691eb1148eac",
+    "id": "29507555-7aef-11e6-80b7-d14b8de28cbb",
     "name": "k",
     "addr": "/k/",
     "kind": "v",
@@ -198,7 +198,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "38004216-90cb-11e5-972f-691eb1148eac",
+    "id": "29507556-7aef-11e6-80b7-d14b8de28cbb",
     "name": "l",
     "addr": "/l/",
     "kind": "v",
@@ -215,7 +215,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "38004217-90cb-11e5-972f-691eb1148eac",
+    "id": "29507557-7aef-11e6-80b7-d14b8de28cbb",
     "name": "m",
     "addr": "/m/",
     "kind": "v",
@@ -232,7 +232,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "3800de52-90cb-11e5-972f-691eb1148eac",
+    "id": "2950ea82-7aef-11e6-80b7-d14b8de28cbb",
     "name": "left",
     "addr": "/left/",
     "kind": "v",
@@ -249,7 +249,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "38004218-90cb-11e5-972f-691eb1148eac",
+    "id": "29509c60-7aef-11e6-80b7-d14b8de28cbb",
     "name": "n",
     "addr": "/n/",
     "kind": "v",
@@ -266,7 +266,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "38004219-90cb-11e5-972f-691eb1148eac",
+    "id": "29509c61-7aef-11e6-80b7-d14b8de28cbb",
     "name": "o",
     "addr": "/o/",
     "kind": "v",
@@ -283,7 +283,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "3800421a-90cb-11e5-972f-691eb1148eac",
+    "id": "29509c62-7aef-11e6-80b7-d14b8de28cbb",
     "name": "p",
     "addr": "/p/",
     "kind": "v",
@@ -300,7 +300,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "3800421b-90cb-11e5-972f-691eb1148eac",
+    "id": "29509c63-7aef-11e6-80b7-d14b8de28cbb",
     "name": "q",
     "addr": "/q/",
     "kind": "v",
@@ -317,7 +317,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "3800421c-90cb-11e5-972f-691eb1148eac",
+    "id": "29509c64-7aef-11e6-80b7-d14b8de28cbb",
     "name": "r",
     "addr": "/r/",
     "kind": "v",
@@ -334,7 +334,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "3800de53-90cb-11e5-972f-691eb1148eac",
+    "id": "2950ea83-7aef-11e6-80b7-d14b8de28cbb",
     "name": "post",
     "addr": "/post/",
     "kind": "v",
@@ -351,7 +351,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "3800de55-90cb-11e5-972f-691eb1148eac",
+    "id": "2950ea85-7aef-11e6-80b7-d14b8de28cbb",
     "name": "pre2",
     "addr": "/pre2/",
     "kind": "v",
@@ -368,7 +368,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "3800de54-90cb-11e5-972f-691eb1148eac",
+    "id": "2950ea84-7aef-11e6-80b7-d14b8de28cbb",
     "name": "pre",
     "addr": "/pre/",
     "kind": "v",
@@ -385,7 +385,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "3800421d-90cb-11e5-972f-691eb1148eac",
+    "id": "29509c65-7aef-11e6-80b7-d14b8de28cbb",
     "name": "s",
     "addr": "/s/",
     "kind": "v",
@@ -402,7 +402,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "3800de56-90cb-11e5-972f-691eb1148eac",
+    "id": "2950ea86-7aef-11e6-80b7-d14b8de28cbb",
     "name": "aa",
     "addr": "/aa/",
     "kind": "v",
@@ -417,7 +417,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "3800de57-90cb-11e5-972f-691eb1148eac",
+    "id": "2950ea87-7aef-11e6-80b7-d14b8de28cbb",
     "name": "bb",
     "addr": "/bb/",
     "kind": "v",
@@ -434,7 +434,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "3800421e-90cb-11e5-972f-691eb1148eac",
+    "id": "29509c66-7aef-11e6-80b7-d14b8de28cbb",
     "name": "t",
     "addr": "/t/",
     "kind": "v",
@@ -451,7 +451,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "3800de58-90cb-11e5-972f-691eb1148eac",
+    "id": "2950ea88-7aef-11e6-80b7-d14b8de28cbb",
     "name": "href",
     "addr": "/href/",
     "kind": "v",
@@ -468,7 +468,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "3800421f-90cb-11e5-972f-691eb1148eac",
+    "id": "2950c370-7aef-11e6-80b7-d14b8de28cbb",
     "name": "u",
     "addr": "/u/",
     "kind": "v",
@@ -485,7 +485,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "38004220-90cb-11e5-972f-691eb1148eac",
+    "id": "2950c371-7aef-11e6-80b7-d14b8de28cbb",
     "name": "v",
     "addr": "/v/",
     "kind": "v",
@@ -502,7 +502,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "38004221-90cb-11e5-972f-691eb1148eac",
+    "id": "2950c372-7aef-11e6-80b7-d14b8de28cbb",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
@@ -519,7 +519,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "38006920-90cb-11e5-972f-691eb1148eac",
+    "id": "2950c373-7aef-11e6-80b7-d14b8de28cbb",
     "name": "w",
     "addr": "/w/",
     "kind": "v",
@@ -536,7 +536,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "38006921-90cb-11e5-972f-691eb1148eac",
+    "id": "2950c374-7aef-11e6-80b7-d14b8de28cbb",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
@@ -553,7 +553,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "3800b740-90cb-11e5-972f-691eb1148eac",
+    "id": "2950c375-7aef-11e6-80b7-d14b8de28cbb",
     "name": "z",
     "addr": "/z/",
     "kind": "v",
@@ -570,7 +570,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "3800b741-90cb-11e5-972f-691eb1148eac",
+    "id": "2950c376-7aef-11e6-80b7-d14b8de28cbb",
     "name": "ç",
     "addr": "/ç/",
     "kind": "v",
@@ -587,7 +587,7 @@ var f = function() {
     "tagfile": "__DIR__/react.jsx"
   },
   {
-    "id": "3800b742-90cb-11e5-972f-691eb1148eac",
+    "id": "2950c377-7aef-11e6-80b7-d14b8de28cbb",
     "name": "arr",
     "addr": "/arr/",
     "kind": "v",

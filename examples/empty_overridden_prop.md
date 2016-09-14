@@ -10,7 +10,7 @@ c.hello; //: string
 ```json
 [
   {
-    "id": "2909d820-90cb-11e5-9af3-db2828a275ea",
+    "id": "f1d65720-7aee-11e6-aa3b-490aef9fe91b",
     "name": "Class",
     "addr": "/Class/",
     "kind": "f",
@@ -27,14 +27,14 @@ c.hello; //: string
     "tagfile": "__DIR__/empty_overridden_prop.js"
   },
   {
-    "id": "2909ff31-90cb-11e5-9af3-db2828a275ea",
+    "id": "f1d6f361-7aee-11e6-aa3b-490aef9fe91b",
     "name": "hello",
     "addr": "/hello/",
     "kind": "v",
     "type": "string",
     "lineno": 2,
     "namespace": "Class.prototype",
-    "parent": "2909ff30-90cb-11e5-9af3-db2828a275ea",
+    "parent": "f1d6f360-7aee-11e6-aa3b-490aef9fe91b",
     "origin": {
       "!span": "36[1:16]-41[1:21]",
       "!type": "string",
@@ -46,7 +46,7 @@ c.hello; //: string
     "tagfile": "__DIR__/empty_overridden_prop.js"
   },
   {
-    "id": "290a2640-90cb-11e5-9af3-db2828a275ea",
+    "id": "f1d71a70-7aee-11e6-aa3b-490aef9fe91b",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
@@ -63,13 +63,13 @@ c.hello; //: string
     "tagfile": "__DIR__/empty_overridden_prop.js"
   },
   {
-    "id": "290a2641-90cb-11e5-9af3-db2828a275ea",
+    "id": "f1d71a71-7aee-11e6-aa3b-490aef9fe91b",
     "name": "hello",
     "addr": "/hello/",
     "kind": "v",
     "lineno": 5,
     "namespace": "c",
-    "parent": "290a2640-90cb-11e5-9af3-db2828a275ea",
+    "parent": "f1d71a70-7aee-11e6-aa3b-490aef9fe91b",
     "origin": {
       "!span": "76[4:2]-81[4:7]",
       "!data": {

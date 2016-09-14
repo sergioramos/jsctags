@@ -36,7 +36,7 @@ empty.prop1; //: string
 ```json
 [
   {
-    "id": "31f15ad0-90cb-11e5-9b83-e74c199b14f4",
+    "id": "0e16da90-7aef-11e6-a00b-d96533535713",
     "name": "base",
     "addr": "/base/",
     "kind": "v",
@@ -51,14 +51,14 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "31f181e1-90cb-11e5-9b83-e74c199b14f4",
+    "id": "0e186130-7aef-11e6-a00b-d96533535713",
     "name": "bar",
     "addr": "/bar/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "base",
-    "parent": "31f15ad0-90cb-11e5-9b83-e74c199b14f4",
+    "parent": "0e16da90-7aef-11e6-a00b-d96533535713",
     "origin": {
       "!span": "21[0:21]-24[0:24]",
       "!type": "number",
@@ -70,14 +70,14 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "31f181e0-90cb-11e5-9b83-e74c199b14f4",
+    "id": "0e183a20-7aef-11e6-a00b-d96533535713",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "base",
-    "parent": "31f15ad0-90cb-11e5-9b83-e74c199b14f4",
+    "parent": "0e16da90-7aef-11e6-a00b-d96533535713",
     "origin": {
       "!span": "12[0:12]-15[0:15]",
       "!type": "number",
@@ -89,7 +89,7 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "31f181e3-90cb-11e5-9b83-e74c199b14f4",
+    "id": "0e186132-7aef-11e6-a00b-d96533535713",
     "name": "gen1",
     "addr": "/gen1/",
     "kind": "v",
@@ -104,7 +104,7 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "31f181e5-90cb-11e5-9b83-e74c199b14f4",
+    "id": "0e186134-7aef-11e6-a00b-d96533535713",
     "name": "gen2",
     "addr": "/gen2/",
     "kind": "v",
@@ -118,12 +118,12 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "31f181e8-90cb-11e5-9b83-e74c199b14f4",
+    "id": "0e188841-7aef-11e6-a00b-d96533535713",
     "name": "prop1",
     "kind": "v",
     "type": "string",
     "namespace": "extend",
-    "parent": "31f181e7-90cb-11e5-9b83-e74c199b14f4",
+    "parent": "0e188840-7aef-11e6-a00b-d96533535713",
     "origin": {
       "!type": "string",
       "!data": {
@@ -134,14 +134,14 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "31f181e2-90cb-11e5-9b83-e74c199b14f4",
+    "id": "0e186131-7aef-11e6-a00b-d96533535713",
     "name": "baz",
     "addr": "/baz/",
     "kind": "v",
     "type": "number",
     "lineno": 5,
     "namespace": "base",
-    "parent": "31f15ad0-90cb-11e5-9b83-e74c199b14f4",
+    "parent": "0e16da90-7aef-11e6-a00b-d96533535713",
     "origin": {
       "!span": "101[4:5]-104[4:8]",
       "!type": "number",
@@ -153,14 +153,14 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "31f181e4-90cb-11e5-9b83-e74c199b14f4",
+    "id": "0e186133-7aef-11e6-a00b-d96533535713",
     "name": "quux",
     "addr": "/quux/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
     "namespace": "gen1",
-    "parent": "31f181e3-90cb-11e5-9b83-e74c199b14f4",
+    "parent": "0e186132-7aef-11e6-a00b-d96533535713",
     "origin": {
       "!span": "116[5:5]-120[5:9]",
       "!type": "number",
@@ -172,14 +172,14 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "31f181e6-90cb-11e5-9b83-e74c199b14f4",
+    "id": "0e186135-7aef-11e6-a00b-d96533535713",
     "name": "kaka",
     "addr": "/kaka/",
     "kind": "v",
     "type": "number",
     "lineno": 7,
     "namespace": "gen2",
-    "parent": "31f181e5-90cb-11e5-9b83-e74c199b14f4",
+    "parent": "0e186134-7aef-11e6-a00b-d96533535713",
     "origin": {
       "!span": "132[6:5]-136[6:9]",
       "!type": "number",
@@ -191,7 +191,7 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "31f181e7-90cb-11e5-9b83-e74c199b14f4",
+    "id": "0e188840-7aef-11e6-a00b-d96533535713",
     "name": "extend",
     "addr": "/extend/",
     "kind": "v",
@@ -206,7 +206,7 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "31f181e9-90cb-11e5-9b83-e74c199b14f4",
+    "id": "0e188842-7aef-11e6-a00b-d96533535713",
     "name": "empty",
     "addr": "/empty/",
     "kind": "v",
@@ -220,14 +220,14 @@ empty.prop1; //: string
     "tagfile": "__DIR__/object_create.js"
   },
   {
-    "id": "31f181ea-90cb-11e5-9b83-e74c199b14f4",
+    "id": "0e188843-7aef-11e6-a00b-d96533535713",
     "name": "prop1",
     "addr": "/prop1/",
     "kind": "v",
     "type": "string",
     "lineno": 30,
     "namespace": "empty",
-    "parent": "31f181e9-90cb-11e5-9b83-e74c199b14f4",
+    "parent": "0e188842-7aef-11e6-a00b-d96533535713",
     "origin": {
       "!span": "455[29:6]-460[29:11]",
       "!type": "string",

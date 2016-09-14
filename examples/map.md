@@ -29,7 +29,7 @@ map.forEach(function(val, key) {
 ```json
 [
   {
-    "id": "3006a1d0-90cb-11e5-9022-29f12edce5a4",
+    "id": "08184700-7aef-11e6-9ce4-9720acd65816",
     "name": "map",
     "addr": "/map/",
     "kind": "v",
@@ -46,7 +46,7 @@ map.forEach(function(val, key) {
     "tagfile": "__DIR__/map.js"
   },
   {
-    "id": "3006c8e0-90cb-11e5-9022-29f12edce5a4",
+    "id": "08189520-7aef-11e6-9ce4-9720acd65816",
     "name": "key",
     "addr": "/key/",
     "kind": "v",
@@ -63,7 +63,7 @@ map.forEach(function(val, key) {
     "tagfile": "__DIR__/map.js"
   },
   {
-    "id": "3006c8e1-90cb-11e5-9022-29f12edce5a4",
+    "id": "0818bc30-7aef-11e6-9ce4-9720acd65816",
     "name": "value",
     "addr": "/value/",
     "kind": "v",

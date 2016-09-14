@@ -14,7 +14,7 @@ otherMod.c //: number
 ```json
 [
   {
-    "id": "336a1820-90cb-11e5-aca8-0d780aea4eab",
+    "id": "138207c0-7aef-11e6-95b5-9d06a43968d4",
     "name": "mod",
     "addr": "/mod/",
     "kind": "v",
@@ -28,14 +28,14 @@ otherMod.c //: number
     "tagfile": "__DIR__/phantom_object.js"
   },
   {
-    "id": "336a3f30-90cb-11e5-aca8-0d780aea4eab",
+    "id": "138255e0-7aef-11e6-95b5-9d06a43968d4",
     "name": "func",
     "addr": "/func/",
     "kind": "f",
     "type": "number function()",
     "lineno": 3,
     "namespace": "mod",
-    "parent": "336a1820-90cb-11e5-aca8-0d780aea4eab",
+    "parent": "138207c0-7aef-11e6-95b5-9d06a43968d4",
     "origin": {
       "!span": "31[2:4]-35[2:8]",
       "!type": "fn() -> number",
@@ -47,7 +47,7 @@ otherMod.c //: number
     "tagfile": "__DIR__/phantom_object.js"
   },
   {
-    "id": "336a6640-90cb-11e5-aca8-0d780aea4eab",
+    "id": "13827cf0-7aef-11e6-95b5-9d06a43968d4",
     "name": "otherMod",
     "addr": "/otherMod/",
     "kind": "v",
@@ -61,14 +61,14 @@ otherMod.c //: number
     "tagfile": "__DIR__/phantom_object.js"
   },
   {
-    "id": "336a6641-90cb-11e5-aca8-0d780aea4eab",
+    "id": "13827cf1-7aef-11e6-95b5-9d06a43968d4",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
     "type": "number",
     "lineno": 9,
     "namespace": "otherMod",
-    "parent": "336a6640-90cb-11e5-aca8-0d780aea4eab",
+    "parent": "13827cf0-7aef-11e6-95b5-9d06a43968d4",
     "origin": {
       "!span": "148[8:9]-149[8:10]",
       "!type": "number",

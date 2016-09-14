@@ -6,5 +6,3 @@ hello	__DIR__/for_of.js	/hello/;"	v	lineno:11
 a	__DIR__/for_of.js	/a/;"	v	lineno:15	type:number
 b	__DIR__/for_of.js	/b/;"	v	lineno:15	type:boolean
 
-
-

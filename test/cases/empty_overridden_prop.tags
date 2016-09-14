@@ -3,5 +3,3 @@ hello	__DIR__/empty_overridden_prop.js	/hello/;"	v	lineno:2	namespace:Class.prot
 c	__DIR__/empty_overridden_prop.js	/c/;"	v	lineno:4	type:Class
 hello	__DIR__/empty_overridden_prop.js	/hello/;"	v	lineno:5	namespace:c
 
-
-

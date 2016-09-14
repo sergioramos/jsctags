@@ -12,7 +12,7 @@ new Ctor2(); //: Ctor2
 ```json
 [
   {
-    "id": "32aa71a0-90cb-11e5-959f-95e1074d3b8f",
+    "id": "108e6a40-7aef-11e6-a997-e73a4395a341",
     "name": "Ctor1",
     "addr": "/Ctor1/",
     "kind": "f",
@@ -29,13 +29,13 @@ new Ctor2(); //: Ctor2
     "tagfile": "__DIR__/objnames.js"
   },
   {
-    "id": "32aa98b0-90cb-11e5-959f-95e1074d3b8f",
+    "id": "108fc9d0-7aef-11e6-a997-e73a4395a341",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 2,
     "namespace": "Ctor1",
-    "parent": "32aa71a0-90cb-11e5-959f-95e1074d3b8f",
+    "parent": "108e6a40-7aef-11e6-a997-e73a4395a341",
     "origin": {
       "!span": "40[1:6]-49[1:15]",
       "!data": {
@@ -46,14 +46,14 @@ new Ctor2(); //: Ctor2
     "tagfile": "__DIR__/objnames.js"
   },
   {
-    "id": "32aa98b1-90cb-11e5-959f-95e1074d3b8f",
+    "id": "108fc9d1-7aef-11e6-a997-e73a4395a341",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 2,
     "namespace": "Ctor1.prototype",
-    "parent": "32aa98b0-90cb-11e5-959f-95e1074d3b8f",
+    "parent": "108fc9d0-7aef-11e6-a997-e73a4395a341",
     "origin": {
       "!span": "53[1:19]-54[1:20]",
       "!type": "number",
@@ -65,7 +65,7 @@ new Ctor2(); //: Ctor2
     "tagfile": "__DIR__/objnames.js"
   },
   {
-    "id": "32aa98b2-90cb-11e5-959f-95e1074d3b8f",
+    "id": "108ff0e0-7aef-11e6-a997-e73a4395a341",
     "name": "Ctor2",
     "addr": "/Ctor2/",
     "kind": "f",
@@ -82,7 +82,7 @@ new Ctor2(); //: Ctor2
     "tagfile": "__DIR__/objnames.js"
   },
   {
-    "id": "32aa98b3-90cb-11e5-959f-95e1074d3b8f",
+    "id": "108ff0e1-7aef-11e6-a997-e73a4395a341",
     "name": "singleton",
     "addr": "/singleton/",
     "kind": "v",
@@ -97,14 +97,14 @@ new Ctor2(); //: Ctor2
     "tagfile": "__DIR__/objnames.js"
   },
   {
-    "id": "32aa98b4-90cb-11e5-959f-95e1074d3b8f",
+    "id": "108ff0e2-7aef-11e6-a997-e73a4395a341",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
     "namespace": "singleton",
-    "parent": "32aa98b3-90cb-11e5-959f-95e1074d3b8f",
+    "parent": "108ff0e1-7aef-11e6-a997-e73a4395a341",
     "origin": {
       "!span": "99[5:17]-100[5:18]",
       "!type": "number",
@@ -116,14 +116,14 @@ new Ctor2(); //: Ctor2
     "tagfile": "__DIR__/objnames.js"
   },
   {
-    "id": "32aa98b5-90cb-11e5-959f-95e1074d3b8f",
+    "id": "108ff0e3-7aef-11e6-a997-e73a4395a341",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
     "namespace": "singleton",
-    "parent": "32aa98b3-90cb-11e5-959f-95e1074d3b8f",
+    "parent": "108ff0e1-7aef-11e6-a997-e73a4395a341",
     "origin": {
       "!span": "106[5:24]-107[5:25]",
       "!type": "number",

@@ -63,7 +63,7 @@ two.methodEleven; //: ?
 ```json
 [
   {
-    "id": "29cf4b00-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f446bae0-7aee-11e6-a435-cd551df332b6",
     "name": "__extends",
     "addr": "/__extends/",
     "kind": "f",
@@ -80,14 +80,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29cf7213-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f4492be2-7aee-11e6-a435-cd551df332b6",
     "name": "parent",
     "addr": "/parent/",
     "kind": "f",
     "type": "void function(bool)",
     "lineno": 3,
     "namespace": "__extends",
-    "parent": "29cf4b00-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f446bae0-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "93[2:32]-99[2:38]",
       "!type": "fn(arg: bool)",
@@ -101,14 +101,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29cf7210-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f4477e30-7aee-11e6-a435-cd551df332b6",
     "name": "child",
     "addr": "/child/",
     "kind": "f",
     "type": "void function(bool)",
     "lineno": 3,
     "namespace": "__extends",
-    "parent": "29cf4b00-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f446bae0-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "86[2:25]-91[2:30]",
       "!type": "fn(arg: bool)",
@@ -122,13 +122,13 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29cf7212-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f4492be1-7aee-11e6-a435-cd551df332b6",
     "name": "key",
     "addr": "/key/",
     "kind": "v",
     "lineno": 4,
     "namespace": "__extends",
-    "parent": "29cf4b00-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f446bae0-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "114[3:11]-117[3:14]",
       "!data": {
@@ -141,14 +141,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29cf7211-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f4492be0-7aee-11e6-a435-cd551df332b6",
     "name": "ctor",
     "addr": "/ctor/",
     "kind": "f",
     "type": "void function()",
     "lineno": 5,
     "namespace": "__extends",
-    "parent": "29cf4b00-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f446bae0-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "170[4:11]-174[4:15]",
       "!type": "fn()",
@@ -162,13 +162,13 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d08381-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44bc3f1-7aee-11e6-a435-cd551df332b6",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "SubTwo.prototype.constructor",
-    "parent": "29d08380-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44bc3f0-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "252[6:8]-261[6:17]",
       "!data": {
@@ -179,13 +179,13 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d0838a-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44e34f2-7aee-11e6-a435-cd551df332b6",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "SubEleven",
-    "parent": "29d08389-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44e34f1-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "252[6:8]-261[6:17]",
       "!data": {
@@ -196,13 +196,13 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d05c77-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44b9ce7-7aee-11e6-a435-cd551df332b6",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "SubTwo",
-    "parent": "29d05c76-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44b9ce6-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "252[6:8]-261[6:17]",
       "!data": {
@@ -213,13 +213,13 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29cf9924-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44952f0-7aee-11e6-a435-cd551df332b6",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "SubOne",
-    "parent": "29cf9923-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f4492be7-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "252[6:8]-261[6:17]",
       "!data": {
@@ -230,13 +230,13 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d0aa91-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44eaa20-7aee-11e6-a435-cd551df332b6",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "SubEleven.prototype.constructor",
-    "parent": "29d0aa90-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44e8310-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "252[6:8]-261[6:17]",
       "!data": {
@@ -247,13 +247,13 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d03561-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44b27b1-7aee-11e6-a435-cd551df332b6",
     "name": "prototype",
     "addr": "/prototype/",
     "kind": "v",
     "lineno": 7,
     "namespace": "SubOne.prototype.constructor",
-    "parent": "29d03560-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44b27b0-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "252[6:8]-261[6:17]",
       "!data": {
@@ -264,7 +264,7 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29cf7214-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f4492be3-7aee-11e6-a435-cd551df332b6",
     "name": "Top",
     "addr": "/Top/",
     "kind": "f",
@@ -281,14 +281,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29cf9921-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f4492be5-7aee-11e6-a435-cd551df332b6",
     "name": "topMethod",
     "addr": "/topMethod/",
     "kind": "f",
     "type": "string function()",
     "lineno": 12,
     "namespace": "Top.prototype",
-    "parent": "29cf9920-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f4492be4-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "340[11:16]-349[11:25]",
       "!type": "fn() -> string",
@@ -300,14 +300,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29cf9922-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f4492be6-7aee-11e6-a435-cd551df332b6",
     "name": "topStatic",
     "addr": "/topStatic/",
     "kind": "v",
     "type": "number",
     "lineno": 13,
     "namespace": "Top",
-    "parent": "29cf7214-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f4492be3-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "386[12:6]-395[12:15]",
       "!type": "number",
@@ -319,7 +319,7 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29cf9923-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f4492be7-7aee-11e6-a435-cd551df332b6",
     "name": "SubOne",
     "addr": "/SubOne/",
     "kind": "f",
@@ -336,14 +336,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d03560-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44b27b0-7aee-11e6-a435-cd551df332b6",
     "name": "constructor",
     "addr": "/SubOne/",
     "kind": "f",
     "type": "void function(bool)",
     "lineno": 17,
     "namespace": "SubOne.prototype",
-    "parent": "29cf9924-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44952f0-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "427[16:4]-433[16:10]",
       "!type": "fn(arg: bool)",
@@ -355,14 +355,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d05c75-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44b9ce5-7aee-11e6-a435-cd551df332b6",
     "name": "arg",
     "addr": "/arg/",
     "kind": "v",
     "type": "boolean",
     "lineno": 18,
     "namespace": "SubOne",
-    "parent": "29cf9923-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f4492be7-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "474[17:18]-477[17:21]",
       "!type": "bool",
@@ -376,14 +376,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d0d1a4-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f4527ab4-7aee-11e6-a435-cd551df332b6",
     "name": "argOne",
     "addr": "/argOne/",
     "kind": "v",
     "type": "boolean",
     "lineno": 18,
     "namespace": "SubEleven",
-    "parent": "29d08389-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44e34f1-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "486[17:30]-492[17:36]",
       "!type": "bool",
@@ -395,14 +395,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d05c74-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44b9ce4-7aee-11e6-a435-cd551df332b6",
     "name": "argOne",
     "addr": "/argOne/",
     "kind": "v",
     "type": "boolean",
     "lineno": 18,
     "namespace": "SubOne",
-    "parent": "29cf9923-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f4492be7-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "486[17:30]-492[17:36]",
       "!type": "bool",
@@ -414,14 +414,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d05c72-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44b9ce2-7aee-11e6-a435-cd551df332b6",
     "name": "arg",
     "addr": "/arg/",
     "kind": "v",
     "type": "boolean",
     "lineno": 18,
     "namespace": "SubOne.prototype.constructor",
-    "parent": "29d03560-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44b27b0-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "474[17:18]-477[17:21]",
       "!type": "bool",
@@ -435,14 +435,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d0d1a1-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f4527ab1-7aee-11e6-a435-cd551df332b6",
     "name": "argOne",
     "addr": "/argOne/",
     "kind": "v",
     "type": "boolean",
     "lineno": 18,
     "namespace": "SubEleven.prototype.constructor",
-    "parent": "29d0aa90-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44e8310-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "486[17:30]-492[17:36]",
       "!type": "bool",
@@ -454,14 +454,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d05c71-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44b9ce1-7aee-11e6-a435-cd551df332b6",
     "name": "argOne",
     "addr": "/argOne/",
     "kind": "v",
     "type": "boolean",
     "lineno": 18,
     "namespace": "SubOne.prototype.constructor",
-    "parent": "29d03560-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44b27b0-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "486[17:30]-492[17:36]",
       "!type": "bool",
@@ -473,14 +473,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29cf9925-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44952f1-7aee-11e6-a435-cd551df332b6",
     "name": "methodOne",
     "addr": "/methodOne/",
     "kind": "f",
     "type": "number function()",
     "lineno": 20,
     "namespace": "SubOne.prototype",
-    "parent": "29cf9924-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44952f0-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "550[19:19]-559[19:28]",
       "!type": "fn() -> number",
@@ -492,14 +492,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d03562-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44b27b2-7aee-11e6-a435-cd551df332b6",
     "name": "methodOne",
     "addr": "/methodOne/",
     "kind": "f",
     "type": "number function()",
     "lineno": 20,
     "namespace": "SubOne.prototype.constructor.prototype",
-    "parent": "29d03561-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44b27b1-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "550[19:19]-559[19:28]",
       "!type": "fn() -> number",
@@ -511,7 +511,7 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d05c76-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44b9ce6-7aee-11e6-a435-cd551df332b6",
     "name": "SubTwo",
     "addr": "/SubTwo/",
     "kind": "f",
@@ -528,12 +528,12 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d0d1a3-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f4527ab3-7aee-11e6-a435-cd551df332b6",
     "name": "topStatic",
     "kind": "v",
     "type": "number",
     "namespace": "SubEleven",
-    "parent": "29d08389-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44e34f1-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!type": "number",
       "!data": {
@@ -544,12 +544,12 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d08383-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44e0de0-7aee-11e6-a435-cd551df332b6",
     "name": "topStatic",
     "kind": "v",
     "type": "number",
     "namespace": "SubTwo.prototype.constructor",
-    "parent": "29d08380-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44bc3f0-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!type": "number",
       "!data": {
@@ -560,12 +560,12 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d05c73-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44b9ce3-7aee-11e6-a435-cd551df332b6",
     "name": "topStatic",
     "kind": "v",
     "type": "number",
     "namespace": "SubOne",
-    "parent": "29cf9923-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f4492be7-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!type": "number",
       "!data": {
@@ -576,12 +576,12 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d0d1a0-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f4527ab0-7aee-11e6-a435-cd551df332b6",
     "name": "topStatic",
     "kind": "v",
     "type": "number",
     "namespace": "SubEleven.prototype.constructor",
-    "parent": "29d0aa90-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44e8310-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!type": "number",
       "!data": {
@@ -592,12 +592,12 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d08386-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44e0de3-7aee-11e6-a435-cd551df332b6",
     "name": "topStatic",
     "kind": "v",
     "type": "number",
     "namespace": "SubTwo",
-    "parent": "29d05c76-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44b9ce6-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!type": "number",
       "!data": {
@@ -608,14 +608,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d08380-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44bc3f0-7aee-11e6-a435-cd551df332b6",
     "name": "constructor",
     "addr": "/SubTwo/",
     "kind": "f",
     "type": "void function(bool)",
     "lineno": 24,
     "namespace": "SubTwo.prototype",
-    "parent": "29d05c77-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44b9ce7-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "618[23:4]-624[23:10]",
       "!type": "fn(arg: bool)",
@@ -627,12 +627,12 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d05c70-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44b9ce0-7aee-11e6-a435-cd551df332b6",
     "name": "topStatic",
     "kind": "v",
     "type": "number",
     "namespace": "SubOne.prototype.constructor",
-    "parent": "29d03560-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44b27b0-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!type": "number",
       "!data": {
@@ -643,14 +643,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d08384-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44e0de1-7aee-11e6-a435-cd551df332b6",
     "name": "argTwo",
     "addr": "/argTwo/",
     "kind": "v",
     "type": "boolean",
     "lineno": 25,
     "namespace": "SubTwo.prototype.constructor",
-    "parent": "29d08380-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44bc3f0-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "677[24:30]-683[24:36]",
       "!type": "bool",
@@ -662,14 +662,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d08387-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44e0de4-7aee-11e6-a435-cd551df332b6",
     "name": "argTwo",
     "addr": "/argTwo/",
     "kind": "v",
     "type": "boolean",
     "lineno": 25,
     "namespace": "SubTwo",
-    "parent": "29d05c76-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44b9ce6-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "677[24:30]-683[24:36]",
       "!type": "bool",
@@ -681,14 +681,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d08385-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44e0de2-7aee-11e6-a435-cd551df332b6",
     "name": "arg",
     "addr": "/arg/",
     "kind": "v",
     "type": "boolean",
     "lineno": 25,
     "namespace": "SubTwo.prototype.constructor",
-    "parent": "29d08380-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44bc3f0-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "665[24:18]-668[24:21]",
       "!type": "bool",
@@ -702,14 +702,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d08388-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44e34f0-7aee-11e6-a435-cd551df332b6",
     "name": "arg",
     "addr": "/arg/",
     "kind": "v",
     "type": "boolean",
     "lineno": 25,
     "namespace": "SubTwo",
-    "parent": "29d05c76-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44b9ce6-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "665[24:18]-668[24:21]",
       "!type": "bool",
@@ -723,14 +723,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d05c78-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44b9ce8-7aee-11e6-a435-cd551df332b6",
     "name": "methodTwo",
     "addr": "/methodTwo/",
     "kind": "f",
     "type": "void function()",
     "lineno": 27,
     "namespace": "SubTwo.prototype",
-    "parent": "29d05c77-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44b9ce7-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "741[26:19]-750[26:28]",
       "!type": "fn()",
@@ -742,14 +742,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d08382-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44bc3f2-7aee-11e6-a435-cd551df332b6",
     "name": "methodTwo",
     "addr": "/methodTwo/",
     "kind": "f",
     "type": "void function()",
     "lineno": 27,
     "namespace": "SubTwo.prototype.constructor.prototype",
-    "parent": "29d08381-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44bc3f1-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "741[26:19]-750[26:28]",
       "!type": "fn()",
@@ -761,7 +761,7 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d08389-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44e34f1-7aee-11e6-a435-cd551df332b6",
     "name": "SubEleven",
     "addr": "/SubEleven/",
     "kind": "f",
@@ -778,14 +778,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d0aa90-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44e8310-7aee-11e6-a435-cd551df332b6",
     "name": "constructor",
     "addr": "/SubEleven/",
     "kind": "f",
     "type": "void function(bool)",
     "lineno": 31,
     "namespace": "SubEleven.prototype",
-    "parent": "29d0838a-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44e34f2-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "811[30:4]-820[30:13]",
       "!type": "fn(arg: bool)",
@@ -797,14 +797,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d0d1a2-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f4527ab2-7aee-11e6-a435-cd551df332b6",
     "name": "arg",
     "addr": "/arg/",
     "kind": "v",
     "type": "boolean",
     "lineno": 32,
     "namespace": "SubEleven.prototype.constructor",
-    "parent": "29d0aa90-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44e8310-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "864[31:21]-867[31:24]",
       "!type": "bool",
@@ -818,14 +818,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d0d1a5-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f4527ab5-7aee-11e6-a435-cd551df332b6",
     "name": "arg",
     "addr": "/arg/",
     "kind": "v",
     "type": "boolean",
     "lineno": 32,
     "namespace": "SubEleven",
-    "parent": "29d08389-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44e34f1-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "864[31:21]-867[31:24]",
       "!type": "bool",
@@ -839,14 +839,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d0aa92-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44eaa21-7aee-11e6-a435-cd551df332b6",
     "name": "methodEleven",
     "addr": "/methodEleven/",
     "kind": "f",
     "type": "string function()",
     "lineno": 34,
     "namespace": "SubEleven.prototype.constructor.prototype",
-    "parent": "29d0aa91-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44eaa20-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "951[33:22]-963[33:34]",
       "!type": "fn() -> string",
@@ -858,14 +858,14 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d0838b-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f44e5c00-7aee-11e6-a435-cd551df332b6",
     "name": "methodEleven",
     "addr": "/methodEleven/",
     "kind": "f",
     "type": "string function()",
     "lineno": 34,
     "namespace": "SubEleven.prototype",
-    "parent": "29d0838a-90cb-11e5-906b-b1bd9e3c318f",
+    "parent": "f44e34f2-7aee-11e6-a435-cd551df332b6",
     "origin": {
       "!span": "951[33:22]-963[33:34]",
       "!type": "fn() -> string",
@@ -877,7 +877,7 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d0d1a6-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f4527ab6-7aee-11e6-a435-cd551df332b6",
     "name": "one",
     "addr": "/one/",
     "kind": "v",
@@ -894,7 +894,7 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d0d1a7-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f4527ab7-7aee-11e6-a435-cd551df332b6",
     "name": "two",
     "addr": "/two/",
     "kind": "v",
@@ -911,7 +911,7 @@ two.methodEleven; //: ?
     "tagfile": "__DIR__/extends.js"
   },
   {
-    "id": "29d0d1a8-90cb-11e5-906b-b1bd9e3c318f",
+    "id": "f4527ab8-7aee-11e6-a435-cd551df332b6",
     "name": "elf",
     "addr": "/elf/",
     "kind": "v",

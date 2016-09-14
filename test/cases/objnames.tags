@@ -6,5 +6,3 @@ singleton	__DIR__/objnames.js	/singleton/;"	v	lineno:6
 a	__DIR__/objnames.js	/a/;"	v	lineno:6	namespace:singleton	type:number
 b	__DIR__/objnames.js	/b/;"	v	lineno:6	namespace:singleton	type:number
 
-
-

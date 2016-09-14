@@ -7,7 +7,7 @@ var tern = require('tern');
 var fs = require('fs');
 var once = require('once');
 
-require('tern-react');
+require('tern-jsx');
 require('./local-scope');
 
 var config = function(dir, file) {
@@ -20,8 +20,7 @@ var config = function(dir, file) {
   var confs = {
     jsx: {
       jsx: {}
-    },
-    js: {}
+    }
   };
 
   var plugins = {
@@ -30,7 +29,7 @@ var config = function(dir, file) {
   };
 
   return merge(JSON.parse(config), {
-    libs: ['browser', 'ecma5', 'ecma6'],
+    libs: ['browser', 'ecmascript'],
     loadEagerly: false,
     plugins: merge(plugins, confs[extname] || {})
   });

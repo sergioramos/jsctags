@@ -33,7 +33,7 @@ let [e1,,e3] = ["5", false, 6]
 ```json
 [
   {
-    "id": "296b5910-90cb-11e5-af4c-dd17d2935b3b",
+    "id": "f31edcb0-7aee-11e6-9fd8-8f26cc21c3c3",
     "name": "Foo",
     "addr": "/Foo/",
     "kind": "f",
@@ -50,13 +50,13 @@ let [e1,,e3] = ["5", false, 6]
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "296b8020-90cb-11e5-af4c-dd17d2935b3b",
+    "id": "f31f2ad0-7aee-11e6-9fd8-8f26cc21c3c3",
     "name": "prototype",
     "addr": "/class Foo \{/",
     "kind": "v",
     "lineno": 1,
     "namespace": "Foo",
-    "parent": "296b5910-90cb-11e5-af4c-dd17d2935b3b",
+    "parent": "f31edcb0-7aee-11e6-9fd8-8f26cc21c3c3",
     "origin": {
       "!span": "0[0:0]-158[9:1]",
       "!data": {
@@ -67,14 +67,14 @@ let [e1,,e3] = ["5", false, 6]
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "296b8021-90cb-11e5-af4c-dd17d2935b3b",
+    "id": "f31f51e0-7aee-11e6-9fd8-8f26cc21c3c3",
     "name": "method",
     "addr": "/method/",
     "kind": "f",
     "type": "void function()",
     "lineno": 7,
     "namespace": "Foo.prototype",
-    "parent": "296b8020-90cb-11e5-af4c-dd17d2935b3b",
+    "parent": "f31f2ad0-7aee-11e6-9fd8-8f26cc21c3c3",
     "origin": {
       "!span": "79[6:2]-85[6:8]",
       "!type": "fn()",
@@ -86,14 +86,14 @@ let [e1,,e3] = ["5", false, 6]
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "296b8022-90cb-11e5-af4c-dd17d2935b3b",
+    "id": "f31f51e1-7aee-11e6-9fd8-8f26cc21c3c3",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
     "type": "string",
     "lineno": 9,
     "namespace": "Foo.prototype",
-    "parent": "296b8020-90cb-11e5-af4c-dd17d2935b3b",
+    "parent": "f31f2ad0-7aee-11e6-9fd8-8f26cc21c3c3",
     "origin": {
       "!span": "122[8:6]-123[8:7]",
       "!type": "string",
@@ -105,7 +105,7 @@ let [e1,,e3] = ["5", false, 6]
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "296b8023-90cb-11e5-af4c-dd17d2935b3b",
+    "id": "f31f51e2-7aee-11e6-9fd8-8f26cc21c3c3",
     "name": "y",
     "addr": "/y/",
     "kind": "v",
@@ -120,14 +120,14 @@ let [e1,,e3] = ["5", false, 6]
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "296b8024-90cb-11e5-af4c-dd17d2935b3b",
+    "id": "f31f51e3-7aee-11e6-9fd8-8f26cc21c3c3",
     "name": "func",
     "addr": "/func/",
     "kind": "f",
     "type": "number function()",
     "lineno": 15,
     "namespace": "y",
-    "parent": "296b8023-90cb-11e5-af4c-dd17d2935b3b",
+    "parent": "f31f51e2-7aee-11e6-9fd8-8f26cc21c3c3",
     "origin": {
       "!span": "185[14:2]-189[14:6]",
       "!type": "fn() -> number",
@@ -139,14 +139,14 @@ let [e1,,e3] = ["5", false, 6]
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "296b8025-90cb-11e5-af4c-dd17d2935b3b",
+    "id": "f31f51e4-7aee-11e6-9fd8-8f26cc21c3c3",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "type": "boolean",
     "lineno": 16,
     "namespace": "y",
-    "parent": "296b8023-90cb-11e5-af4c-dd17d2935b3b",
+    "parent": "f31f51e2-7aee-11e6-9fd8-8f26cc21c3c3",
     "origin": {
       "!span": "213[15:6]-214[15:7]",
       "!type": "bool",
@@ -158,7 +158,7 @@ let [e1,,e3] = ["5", false, 6]
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "296b8026-90cb-11e5-af4c-dd17d2935b3b",
+    "id": "f31f51e5-7aee-11e6-9fd8-8f26cc21c3c3",
     "name": "it",
     "addr": "/it/",
     "kind": "f",
@@ -175,13 +175,13 @@ let [e1,,e3] = ["5", false, 6]
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "296b8027-90cb-11e5-af4c-dd17d2935b3b",
+    "id": "f31f51e6-7aee-11e6-9fd8-8f26cc21c3c3",
     "name": "n",
     "addr": "/n/",
     "kind": "v",
     "lineno": 20,
     "namespace": "it",
-    "parent": "296b8026-90cb-11e5-af4c-dd17d2935b3b",
+    "parent": "f31f51e5-7aee-11e6-9fd8-8f26cc21c3c3",
     "origin": {
       "!span": "280[19:19]-281[19:20]",
       "!data": {
@@ -194,7 +194,7 @@ let [e1,,e3] = ["5", false, 6]
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "296b8028-90cb-11e5-af4c-dd17d2935b3b",
+    "id": "f31f51e7-7aee-11e6-9fd8-8f26cc21c3c3",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
@@ -211,7 +211,7 @@ let [e1,,e3] = ["5", false, 6]
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "296b8029-90cb-11e5-af4c-dd17d2935b3b",
+    "id": "f31f51e8-7aee-11e6-9fd8-8f26cc21c3c3",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
@@ -228,7 +228,7 @@ let [e1,,e3] = ["5", false, 6]
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "296b802a-90cb-11e5-af4c-dd17d2935b3b",
+    "id": "f31f51e9-7aee-11e6-9fd8-8f26cc21c3c3",
     "name": "e1",
     "addr": "/e1/",
     "kind": "v",
@@ -245,7 +245,7 @@ let [e1,,e3] = ["5", false, 6]
     "tagfile": "__DIR__/es6-features.js"
   },
   {
-    "id": "296ba730-90cb-11e5-af4c-dd17d2935b3b",
+    "id": "f31f51ea-7aee-11e6-9fd8-8f26cc21c3c3",
     "name": "e3",
     "addr": "/e3/",
     "kind": "v",

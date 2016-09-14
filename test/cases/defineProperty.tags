@@ -5,5 +5,3 @@ o2	__DIR__/defineProperty.js	/o2/;"	v	lineno:17
 prop1	__DIR__/defineProperty.js	/\{/;"	v	lineno:19	namespace:o2	type:number
 prop2	__DIR__/defineProperty.js	/\{/;"	v	lineno:19	namespace:o2	type:boolean
 
-
-

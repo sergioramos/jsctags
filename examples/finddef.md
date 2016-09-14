@@ -26,11 +26,19 @@ function another(arg) {
   arg; // 23, 17
   local; //loc: 24, 6
 }
+
+class foo {
+  bar //<loc: 30,2
+  () {}
+}
+
+var fooObj = new foo();
+fooObj.bar; //loc: 30, 2
 ```
 ```json
 [
   {
-    "id": "2a340040-90cb-11e5-8e8c-2d8e079bbbe5",
+    "id": "f5a93110-7aee-11e6-b4c6-f7ea9a08a4cd",
     "name": "blah",
     "addr": "/blah/",
     "kind": "f",
@@ -47,7 +55,7 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
-    "id": "2a342750-90cb-11e5-8e8c-2d8e079bbbe5",
+    "id": "f5a97f30-7aee-11e6-b4c6-f7ea9a08a4cd",
     "name": "jaja",
     "addr": "/jaja/",
     "kind": "v",
@@ -64,7 +72,7 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
-    "id": "2a342751-90cb-11e5-8e8c-2d8e079bbbe5",
+    "id": "f5a9a640-7aee-11e6-b4c6-f7ea9a08a4cd",
     "name": "obj",
     "addr": "/obj/",
     "kind": "v",
@@ -79,14 +87,14 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
-    "id": "2a342752-90cb-11e5-8e8c-2d8e079bbbe5",
+    "id": "f5a9a641-7aee-11e6-b4c6-f7ea9a08a4cd",
     "name": "prop1",
     "addr": "/prop1/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
     "namespace": "obj",
-    "parent": "2a342751-90cb-11e5-8e8c-2d8e079bbbe5",
+    "parent": "f5a9a640-7aee-11e6-b4c6-f7ea9a08a4cd",
     "origin": {
       "!span": "50[5:2]-55[5:7]",
       "!type": "number",
@@ -98,14 +106,14 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
-    "id": "2a342753-90cb-11e5-8e8c-2d8e079bbbe5",
+    "id": "f5a9a642-7aee-11e6-b4c6-f7ea9a08a4cd",
     "name": "prop2",
     "addr": "/prop2/",
     "kind": "f",
     "type": "void function(?)",
     "lineno": 7,
     "namespace": "obj",
-    "parent": "2a342751-90cb-11e5-8e8c-2d8e079bbbe5",
+    "parent": "f5a9a640-7aee-11e6-b4c6-f7ea9a08a4cd",
     "origin": {
       "!span": "63[6:2]-68[6:7]",
       "!type": "fn(foo: ?)",
@@ -117,13 +125,13 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
-    "id": "2a342754-90cb-11e5-8e8c-2d8e079bbbe5",
+    "id": "f5a9a643-7aee-11e6-b4c6-f7ea9a08a4cd",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
     "lineno": 7,
     "namespace": "obj.prop2",
-    "parent": "2a342753-90cb-11e5-8e8c-2d8e079bbbe5",
+    "parent": "f5a9a642-7aee-11e6-b4c6-f7ea9a08a4cd",
     "origin": {
       "!span": "79[6:18]-82[6:21]",
       "!data": {
@@ -136,14 +144,14 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
-    "id": "2a342755-90cb-11e5-8e8c-2d8e079bbbe5",
+    "id": "f5a9a644-7aee-11e6-b4c6-f7ea9a08a4cd",
     "name": "prop3",
     "addr": "/prop3/",
     "kind": "v",
     "type": "string",
     "lineno": 10,
     "namespace": "obj",
-    "parent": "2a342751-90cb-11e5-8e8c-2d8e079bbbe5",
+    "parent": "f5a9a640-7aee-11e6-b4c6-f7ea9a08a4cd",
     "origin": {
       "!span": "95[9:4]-100[9:9]",
       "!type": "string",
@@ -155,7 +163,7 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
-    "id": "2a342756-90cb-11e5-8e8c-2d8e079bbbe5",
+    "id": "f5a9a645-7aee-11e6-b4c6-f7ea9a08a4cd",
     "name": "hide",
     "addr": "/hide/",
     "kind": "f",
@@ -172,7 +180,7 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
-    "id": "2a342757-90cb-11e5-8e8c-2d8e079bbbe5",
+    "id": "f5a9a646-7aee-11e6-b4c6-f7ea9a08a4cd",
     "name": "another",
     "addr": "/another/",
     "kind": "f",
@@ -189,13 +197,13 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
-    "id": "2a342758-90cb-11e5-8e8c-2d8e079bbbe5",
+    "id": "f5a9a647-7aee-11e6-b4c6-f7ea9a08a4cd",
     "name": "arg",
     "addr": "/arg/",
     "kind": "v",
     "lineno": 23,
     "namespace": "another",
-    "parent": "2a342757-90cb-11e5-8e8c-2d8e079bbbe5",
+    "parent": "f5a9a646-7aee-11e6-b4c6-f7ea9a08a4cd",
     "origin": {
       "!span": "311[22:17]-314[22:20]",
       "!data": {
@@ -208,14 +216,14 @@ function another(arg) {
     "tagfile": "__DIR__/finddef.js"
   },
   {
-    "id": "2a342759-90cb-11e5-8e8c-2d8e079bbbe5",
+    "id": "f5a9a648-7aee-11e6-b4c6-f7ea9a08a4cd",
     "name": "local",
     "addr": "/local/",
     "kind": "v",
     "type": "number",
     "lineno": 24,
     "namespace": "another",
-    "parent": "2a342757-90cb-11e5-8e8c-2d8e079bbbe5",
+    "parent": "f5a9a646-7aee-11e6-b4c6-f7ea9a08a4cd",
     "origin": {
       "!span": "324[23:6]-329[23:11]",
       "!type": "number",
@@ -224,6 +232,76 @@ function another(arg) {
         "scoped": false,
         "isArg": false,
         "type": "Number.prototype"
+      }
+    },
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "id": "f5a9a649-7aee-11e6-b4c6-f7ea9a08a4cd",
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 29,
+    "origin": {
+      "!span": "383[28:6]-386[28:9]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "id": "f5a9a64a-7aee-11e6-b4c6-f7ea9a08a4cd",
+    "name": "prototype",
+    "addr": "/class foo \{/",
+    "kind": "v",
+    "lineno": 29,
+    "namespace": "foo",
+    "parent": "f5a9a649-7aee-11e6-b4c6-f7ea9a08a4cd",
+    "origin": {
+      "!span": "377[28:0]-417[31:1]",
+      "!data": {
+        "isConstructor": false,
+        "type": "Object.prototype"
+      }
+    },
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "id": "f5a9cd50-7aee-11e6-b4c6-f7ea9a08a4cd",
+    "name": "bar",
+    "addr": "/bar/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 30,
+    "namespace": "foo.prototype",
+    "parent": "f5a9a64a-7aee-11e6-b4c6-f7ea9a08a4cd",
+    "origin": {
+      "!span": "391[29:2]-394[29:5]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": false,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "id": "f5a9cd51-7aee-11e6-b4c6-f7ea9a08a4cd",
+    "name": "fooObj",
+    "addr": "/fooObj/",
+    "kind": "v",
+    "type": "foo",
+    "lineno": 34,
+    "origin": {
+      "!span": "423[33:4]-429[33:10]",
+      "!type": "+foo",
+      "!data": {
+        "isConstructor": false,
+        "type": "foo.prototype"
       }
     },
     "tagfile": "__DIR__/finddef.js"
@@ -242,4 +320,8 @@ hide	__DIR__/finddef.js	/hide/;"	f	lineno:19	type:void function(?) function()
 another	__DIR__/finddef.js	/another/;"	f	lineno:23	type:void function(?)
 arg	__DIR__/finddef.js	/arg/;"	v	lineno:23	namespace:another
 local	__DIR__/finddef.js	/local/;"	v	lineno:24	namespace:another	type:number
+foo	__DIR__/finddef.js	/foo/;"	f	lineno:29	type:void function()
+prototype	__DIR__/finddef.js	/class foo \{/;"	v	lineno:29	namespace:foo
+bar	__DIR__/finddef.js	/bar/;"	f	lineno:30	namespace:foo.prototype	type:void function()
+fooObj	__DIR__/finddef.js	/fooObj/;"	v	lineno:34	type:foo
 ```

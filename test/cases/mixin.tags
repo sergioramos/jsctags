@@ -14,5 +14,3 @@ m4	__DIR__/mixin.js	/m4/;"	f	lineno:21	namespace:OtherClass.prototype	type:void 
 c	__DIR__/mixin.js	/c/;"	v	lineno:24	type:Class
 oc	__DIR__/mixin.js	/oc/;"	v	lineno:31	type:OtherClass
 
-
-

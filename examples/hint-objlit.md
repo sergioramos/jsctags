@@ -50,7 +50,7 @@ takes({
 ```json
 [
   {
-    "id": "2d3f1d60-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feabdce0-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "poison",
     "addr": "/poison/",
     "kind": "v",
@@ -65,14 +65,14 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f4470-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac03f0-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "focus",
     "addr": "/focus/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "poison",
-    "parent": "2d3f1d60-90cb-11e5-9e87-ab0ed1c67a1b",
+    "parent": "feabdce0-7aee-11e6-bbd7-f5a3cd6f65c2",
     "origin": {
       "!span": "14[0:14]-19[0:19]",
       "!type": "number",
@@ -84,14 +84,14 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f4472-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac2b01-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "nothing",
     "addr": "/nothing/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "poison",
-    "parent": "2d3f1d60-90cb-11e5-9e87-ab0ed1c67a1b",
+    "parent": "feabdce0-7aee-11e6-bbd7-f5a3cd6f65c2",
     "origin": {
       "!span": "33[0:33]-40[0:40]",
       "!type": "number",
@@ -103,14 +103,14 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f4471-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac2b00-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "blah",
     "addr": "/blah/",
     "kind": "v",
     "type": "number",
     "lineno": 1,
     "namespace": "poison",
-    "parent": "2d3f1d60-90cb-11e5-9e87-ab0ed1c67a1b",
+    "parent": "feabdce0-7aee-11e6-bbd7-f5a3cd6f65c2",
     "origin": {
       "!span": "24[0:24]-28[0:28]",
       "!type": "number",
@@ -122,14 +122,14 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f4474-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac2b03-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "name",
     "addr": "/name/",
     "kind": "v",
     "type": "string",
     "lineno": 3,
     "namespace": "person",
-    "parent": "2d3f4473-90cb-11e5-9e87-ab0ed1c67a1b",
+    "parent": "feac2b02-7aee-11e6-bbd7-f5a3cd6f65c2",
     "origin": {
       "!span": "61[2:14]-65[2:18]",
       "!type": "string",
@@ -141,7 +141,7 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f4473-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac2b02-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "person",
     "addr": "/person/",
     "kind": "v",
@@ -156,14 +156,14 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f4478-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac2b07-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "born",
     "addr": "/born/",
     "kind": "v",
     "type": "number",
     "lineno": 3,
     "namespace": "age.person",
-    "parent": "2d3f4477-90cb-11e5-9e87-ab0ed1c67a1b",
+    "parent": "feac2b06-7aee-11e6-bbd7-f5a3cd6f65c2",
     "origin": {
       "!span": "76[2:29]-80[2:33]",
       "!type": "number",
@@ -177,14 +177,14 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f6b80-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac2b08-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "name",
     "addr": "/name/",
     "kind": "v",
     "type": "string",
     "lineno": 3,
     "namespace": "age.person",
-    "parent": "2d3f4477-90cb-11e5-9e87-ab0ed1c67a1b",
+    "parent": "feac2b06-7aee-11e6-bbd7-f5a3cd6f65c2",
     "origin": {
       "!span": "61[2:14]-65[2:18]",
       "!type": "string",
@@ -198,14 +198,14 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f4475-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac2b04-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "born",
     "addr": "/born/",
     "kind": "v",
     "type": "number",
     "lineno": 3,
     "namespace": "person",
-    "parent": "2d3f4473-90cb-11e5-9e87-ab0ed1c67a1b",
+    "parent": "feac2b02-7aee-11e6-bbd7-f5a3cd6f65c2",
     "origin": {
       "!span": "76[2:29]-80[2:33]",
       "!type": "number",
@@ -217,7 +217,7 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f4476-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac2b05-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "age",
     "addr": "/age/",
     "kind": "f",
@@ -234,13 +234,13 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f4477-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac2b06-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "person",
     "addr": "/person/",
     "kind": "v",
     "lineno": 5,
     "namespace": "age",
-    "parent": "2d3f4476-90cb-11e5-9e87-ab0ed1c67a1b",
+    "parent": "feac2b05-7aee-11e6-bbd7-f5a3cd6f65c2",
     "origin": {
       "!span": "103[4:13]-109[4:19]",
       "!data": {
@@ -253,14 +253,14 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f6b84-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac5210-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "persons",
     "addr": "/persons/",
     "kind": "v",
     "type": "[person, person]|[ages.!0.<i>]",
     "lineno": 6,
     "namespace": "ages",
-    "parent": "2d3f6b83-90cb-11e5-9e87-ab0ed1c67a1b",
+    "parent": "feac2b0b-7aee-11e6-bbd7-f5a3cd6f65c2",
     "origin": {
       "!span": "155[5:14]-162[5:21]",
       "!type": "[person, person]|[ages.!0.<i>]",
@@ -274,7 +274,7 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f6b83-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac2b0b-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "ages",
     "addr": "/ages/",
     "kind": "f",
@@ -291,13 +291,13 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f6b81-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac2b09-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "n",
     "addr": "/n/",
     "kind": "v",
     "lineno": 11,
     "namespace": "age.person",
-    "parent": "2d3f4477-90cb-11e5-9e87-ab0ed1c67a1b",
+    "parent": "feac2b06-7aee-11e6-bbd7-f5a3cd6f65c2",
     "origin": {
       "!span": "235[10:5]-236[10:6]",
       "!data": {
@@ -310,13 +310,13 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f6b82-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac2b0a-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "lineno": 13,
     "namespace": "age.person",
-    "parent": "2d3f4477-90cb-11e5-9e87-ab0ed1c67a1b",
+    "parent": "feac2b06-7aee-11e6-bbd7-f5a3cd6f65c2",
     "origin": {
       "!span": "254[12:7]-255[12:8]",
       "!data": {
@@ -329,7 +329,7 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f6b85-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac5211-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "example",
     "addr": "/example/",
     "kind": "v",
@@ -344,14 +344,14 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f6b86-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac5212-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
     "type": "number",
     "lineno": 17,
     "namespace": "example",
-    "parent": "2d3f6b85-90cb-11e5-9e87-ab0ed1c67a1b",
+    "parent": "feac5211-7aee-11e6-bbd7-f5a3cd6f65c2",
     "origin": {
       "!span": "297[16:2]-300[16:5]",
       "!type": "number",
@@ -363,14 +363,14 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f6b87-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac5213-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "food",
     "addr": "/food/",
     "kind": "v",
     "type": "number",
     "lineno": 19,
     "namespace": "example",
-    "parent": "2d3f6b85-90cb-11e5-9e87-ab0ed1c67a1b",
+    "parent": "feac5211-7aee-11e6-bbd7-f5a3cd6f65c2",
     "origin": {
       "!span": "322[18:2]-326[18:6]",
       "!type": "number",
@@ -382,14 +382,14 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f6b88-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac5214-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "bar",
     "addr": "/bar/",
     "kind": "v",
     "type": "boolean",
     "lineno": 21,
     "namespace": "example",
-    "parent": "2d3f6b85-90cb-11e5-9e87-ab0ed1c67a1b",
+    "parent": "feac5211-7aee-11e6-bbd7-f5a3cd6f65c2",
     "origin": {
       "!span": "347[20:2]-350[20:5]",
       "!type": "bool",
@@ -401,7 +401,7 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f6b89-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac5215-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "takes",
     "addr": "/takes/",
     "kind": "f",
@@ -418,13 +418,13 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f6b8a-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac5216-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "example",
     "addr": "/example/",
     "kind": "v",
     "lineno": 24,
     "namespace": "takes",
-    "parent": "2d3f6b89-90cb-11e5-9e87-ab0ed1c67a1b",
+    "parent": "feac5215-7aee-11e6-bbd7-f5a3cd6f65c2",
     "origin": {
       "!span": "376[23:15]-383[23:22]",
       "!data": {
@@ -437,13 +437,13 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f6b8b-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac5217-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "fo",
     "addr": "/fo/",
     "kind": "v",
     "lineno": 28,
     "namespace": "takes.example",
-    "parent": "2d3f6b8a-90cb-11e5-9e87-ab0ed1c67a1b",
+    "parent": "feac5216-7aee-11e6-bbd7-f5a3cd6f65c2",
     "origin": {
       "!span": "432[27:2]-434[27:4]",
       "!data": {
@@ -456,13 +456,13 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f6b8f-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac521b-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "food",
     "addr": "/food/",
     "kind": "v",
     "lineno": 34,
     "namespace": "takes.example",
-    "parent": "2d3f6b8a-90cb-11e5-9e87-ab0ed1c67a1b",
+    "parent": "feac5216-7aee-11e6-bbd7-f5a3cd6f65c2",
     "origin": {
       "!span": "583[33:2]-587[33:6]",
       "!data": {
@@ -475,14 +475,14 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f6b8c-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac5218-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "_1",
     "addr": "/_1/",
     "kind": "v",
     "type": "string",
     "lineno": 40,
     "namespace": "takes.example",
-    "parent": "2d3f6b8a-90cb-11e5-9e87-ab0ed1c67a1b",
+    "parent": "feac5216-7aee-11e6-bbd7-f5a3cd6f65c2",
     "origin": {
       "!span": "739[39:2]-741[39:4]",
       "!type": "string",
@@ -496,14 +496,14 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f6b90-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac521c-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "noise",
     "addr": "/noise/",
     "kind": "v",
     "type": "number",
     "lineno": 41,
     "namespace": "takes.example",
-    "parent": "2d3f6b8a-90cb-11e5-9e87-ab0ed1c67a1b",
+    "parent": "feac5216-7aee-11e6-bbd7-f5a3cd6f65c2",
     "origin": {
       "!span": "845[40:2]-850[40:7]",
       "!type": "number",
@@ -517,13 +517,13 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f6b91-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac521d-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
     "lineno": 42,
     "namespace": "takes.example",
-    "parent": "2d3f6b8a-90cb-11e5-9e87-ab0ed1c67a1b",
+    "parent": "feac5216-7aee-11e6-bbd7-f5a3cd6f65c2",
     "origin": {
       "!span": "858[41:2]-859[41:3]",
       "!data": {
@@ -536,14 +536,14 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f6b8d-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac5219-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "_2",
     "addr": "/_2/",
     "kind": "v",
     "type": "string",
     "lineno": 43,
     "namespace": "takes.example",
-    "parent": "2d3f6b8a-90cb-11e5-9e87-ab0ed1c67a1b",
+    "parent": "feac5216-7aee-11e6-bbd7-f5a3cd6f65c2",
     "origin": {
       "!span": "870[42:2]-872[42:4]",
       "!type": "string",
@@ -557,13 +557,13 @@ takes({
     "tagfile": "__DIR__/hint-objlit.js"
   },
   {
-    "id": "2d3f6b8e-90cb-11e5-9e87-ab0ed1c67a1b",
+    "id": "feac521a-7aee-11e6-bbd7-f5a3cd6f65c2",
     "name": "bar",
     "addr": "/bar/",
     "kind": "v",
     "lineno": 47,
     "namespace": "takes.example",
-    "parent": "2d3f6b8a-90cb-11e5-9e87-ab0ed1c67a1b",
+    "parent": "feac5216-7aee-11e6-bbd7-f5a3cd6f65c2",
     "origin": {
       "!span": "988[46:2]-991[46:5]",
       "!data": {

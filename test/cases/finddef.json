@@ -180,5 +180,69 @@
       }
     },
     "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "foo",
+    "addr": "/foo/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 29,
+    "origin": {
+      "!span": "383[28:6]-386[28:9]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "prototype",
+    "addr": "/class foo \\{/",
+    "kind": "v",
+    "lineno": 29,
+    "namespace": "foo",
+    "origin": {
+      "!span": "377[28:0]-417[31:1]",
+      "!data": {
+        "isConstructor": false,
+        "type": "Object.prototype"
+      }
+    },
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "bar",
+    "addr": "/bar/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 30,
+    "namespace": "foo.prototype",
+    "origin": {
+      "!span": "391[29:2]-394[29:5]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": false,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/finddef.js"
+  },
+  {
+    "name": "fooObj",
+    "addr": "/fooObj/",
+    "kind": "v",
+    "type": "foo",
+    "lineno": 34,
+    "origin": {
+      "!span": "423[33:4]-429[33:10]",
+      "!type": "+foo",
+      "!data": {
+        "isConstructor": false,
+        "type": "foo.prototype"
+      }
+    },
+    "tagfile": "__DIR__/finddef.js"
   }
 ]

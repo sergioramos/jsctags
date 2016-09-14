@@ -9,7 +9,7 @@ Type.prototype.foo = "hi";
 ```json
 [
   {
-    "id": "355916e0-90cb-11e5-89a4-4baf2e21db4d",
+    "id": "1beb32b0-7aef-11e6-b872-ed8c7912c5f2",
     "name": "x",
     "addr": "/x/",
     "kind": "v",
@@ -26,7 +26,7 @@ Type.prototype.foo = "hi";
     "tagfile": "__DIR__/replace_bogus_prop.js"
   },
   {
-    "id": "35593df0-90cb-11e5-89a4-4baf2e21db4d",
+    "id": "1beb59c0-7aef-11e6-b872-ed8c7912c5f2",
     "name": "Type",
     "addr": "/Type/",
     "kind": "f",
@@ -43,14 +43,14 @@ Type.prototype.foo = "hi";
     "tagfile": "__DIR__/replace_bogus_prop.js"
   },
   {
-    "id": "35593df2-90cb-11e5-89a4-4baf2e21db4d",
+    "id": "1beba7e1-7aef-11e6-b872-ed8c7912c5f2",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
     "type": "string",
     "lineno": 6,
     "namespace": "Type.prototype",
-    "parent": "35593df1-90cb-11e5-89a4-4baf2e21db4d",
+    "parent": "1beba7e0-7aef-11e6-b872-ed8c7912c5f2",
     "origin": {
       "!span": "74[5:15]-77[5:18]",
       "!type": "string",

@@ -74,9 +74,9 @@
     "addr": "/Obj/",
     "kind": "f",
     "type": "void function()",
-    "lineno": 10,
+    "lineno": 11,
     "origin": {
-      "!span": "172[9:9]-175[9:12]",
+      "!span": "207[10:9]-210[10:12]",
       "!type": "fn()",
       "!data": {
         "isConstructor": true,
@@ -90,10 +90,10 @@
     "addr": "/map/",
     "kind": "f",
     "type": "[!this.x] function()",
-    "lineno": 13,
+    "lineno": 14,
     "namespace": "Obj.prototype",
     "origin": {
-      "!span": "212[12:14]-215[12:17]",
+      "!span": "247[13:14]-250[13:17]",
       "!type": "fn() -> [!this.x]",
       "!data": {
         "isConstructor": false,

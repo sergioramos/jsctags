@@ -15,7 +15,7 @@ d[0]; //: string
 ```json
 [
   {
-    "id": "31320270-90cb-11e5-ac85-7f744cf96ab4",
+    "id": "0bc26340-7aef-11e6-bba4-efb3eb172070",
     "name": "a",
     "addr": "/a/",
     "kind": "v",
@@ -32,7 +32,7 @@ d[0]; //: string
     "tagfile": "__DIR__/new_array.js"
   },
   {
-    "id": "31322980-90cb-11e5-ac85-7f744cf96ab4",
+    "id": "0bc2b160-7aef-11e6-bba4-efb3eb172070",
     "name": "b",
     "addr": "/b/",
     "kind": "v",
@@ -49,7 +49,7 @@ d[0]; //: string
     "tagfile": "__DIR__/new_array.js"
   },
   {
-    "id": "31322981-90cb-11e5-ac85-7f744cf96ab4",
+    "id": "0bc2b161-7aef-11e6-bba4-efb3eb172070",
     "name": "c",
     "addr": "/c/",
     "kind": "v",
@@ -66,7 +66,7 @@ d[0]; //: string
     "tagfile": "__DIR__/new_array.js"
   },
   {
-    "id": "31322982-90cb-11e5-ac85-7f744cf96ab4",
+    "id": "0bc2d870-7aef-11e6-bba4-efb3eb172070",
     "name": "d",
     "addr": "/d/",
     "kind": "v",

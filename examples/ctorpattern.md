@@ -13,7 +13,7 @@ foo; //: ?
 ```json
 [
   {
-    "id": "271c8710-90cb-11e5-8003-c1822242a7b2",
+    "id": "eafe0560-7aee-11e6-91f0-8ffe2684566e",
     "name": "Ctor",
     "addr": "/Ctor/",
     "kind": "f",
@@ -30,14 +30,14 @@ foo; //: ?
     "tagfile": "__DIR__/ctorpattern.js"
   },
   {
-    "id": "271cd530-90cb-11e5-8003-c1822242a7b2",
+    "id": "eafe7a90-7aee-11e6-91f0-8ffe2684566e",
     "name": "foo",
     "addr": "/foo/",
     "kind": "v",
     "type": "number",
     "lineno": 6,
     "namespace": "Ctor",
-    "parent": "271c8710-90cb-11e5-8003-c1822242a7b2",
+    "parent": "eafe0560-7aee-11e6-91f0-8ffe2684566e",
     "origin": {
       "!span": "178[5:7]-181[5:10]",
       "!type": "number",

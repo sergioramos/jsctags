@@ -30,25 +30,6 @@
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "name": "b",
-    "addr": "/b/",
-    "kind": "v",
-    "type": "string",
-    "lineno": 17,
-    "namespace": "foo",
-    "origin": {
-      "!span": "298[16:16]-299[16:17]",
-      "!type": "string",
-      "!data": {
-        "isConstructor": false,
-        "scoped": true,
-        "isArg": true,
-        "type": "String.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
     "name": "a",
     "addr": "/a/",
     "kind": "v",
@@ -84,6 +65,25 @@
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
+    "name": "b",
+    "addr": "/b/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 17,
+    "namespace": "foo",
+    "origin": {
+      "!span": "298[16:16]-299[16:17]",
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "scoped": true,
+        "isArg": true,
+        "type": "String.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
     "name": "abc",
     "addr": "/abc/",
     "kind": "f",
@@ -100,13 +100,61 @@
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
+    "name": "Abc",
+    "addr": "/Abc/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 26,
+    "origin": {
+      "!span": "452[25:4]-455[25:7]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "AbcCls",
+    "addr": "/AbcCls/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 31,
+    "origin": {
+      "!span": "509[30:4]-515[30:10]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "AbcCtor",
+    "addr": "/AbcCtor/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 36,
+    "origin": {
+      "!span": "578[35:4]-585[35:11]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
     "name": "bar",
     "addr": "/bar/",
     "kind": "f",
     "type": "string function(number, number)",
-    "lineno": 30,
+    "lineno": 45,
     "origin": {
-      "!span": "510[29:4]-513[29:7]",
+      "!span": "704[44:4]-707[44:7]",
       "!type": "fn(a: number, b: number) -> string",
       "!data": {
         "isConstructor": false,
@@ -116,14 +164,14 @@
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "name": "a",
-    "addr": "/a/",
+    "name": "b",
+    "addr": "/b/",
     "kind": "v",
     "type": "number",
-    "lineno": 30,
+    "lineno": 45,
     "namespace": "bar",
     "origin": {
-      "!span": "525[29:19]-526[29:20]",
+      "!span": "722[44:22]-723[44:23]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -135,14 +183,14 @@
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
-    "name": "b",
-    "addr": "/b/",
+    "name": "a",
+    "addr": "/a/",
     "kind": "v",
     "type": "number",
-    "lineno": 30,
+    "lineno": 45,
     "namespace": "bar",
     "origin": {
-      "!span": "528[29:22]-529[29:23]",
+      "!span": "719[44:19]-720[44:20]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -157,9 +205,9 @@
     "name": "o",
     "addr": "/o/",
     "kind": "v",
-    "lineno": 34,
+    "lineno": 49,
     "origin": {
-      "!span": "617[33:4]-618[33:5]",
+      "!span": "811[48:4]-812[48:5]",
       "!data": {
         "isConstructor": false,
         "type": "Object.prototype"
@@ -172,10 +220,10 @@
     "addr": "/prop1/",
     "kind": "v",
     "type": "string",
-    "lineno": 36,
+    "lineno": 51,
     "namespace": "o",
     "origin": {
-      "!span": "649[35:2]-654[35:7]",
+      "!span": "843[50:2]-848[50:7]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -189,10 +237,10 @@
     "addr": "/prop2/",
     "kind": "f",
     "type": "number function()",
-    "lineno": 39,
+    "lineno": 54,
     "namespace": "o",
     "origin": {
-      "!span": "697[38:2]-702[38:7]",
+      "!span": "891[53:2]-896[53:7]",
       "!type": "fn() -> number",
       "!data": {
         "isConstructor": false,
@@ -206,10 +254,10 @@
     "addr": "/prop3/",
     "kind": "f",
     "type": "string function()",
-    "lineno": 43,
+    "lineno": 58,
     "namespace": "o",
     "origin": {
-      "!span": "769[42:2]-774[42:7]",
+      "!span": "963[57:2]-968[57:7]",
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
@@ -223,184 +271,13 @@
     "addr": "/closureArray/",
     "kind": "v",
     "type": "[string]",
-    "lineno": 50,
+    "lineno": 65,
     "origin": {
-      "!span": "925[49:4]-937[49:16]",
+      "!span": "1119[64:4]-1131[64:16]",
       "!type": "[string]",
       "!data": {
         "isConstructor": false,
         "type": "Array.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "closureMap",
-    "addr": "/closureMap/",
-    "kind": "v",
-    "lineno": 54,
-    "origin": {
-      "!span": "1028[53:4]-1038[53:14]",
-      "!data": {
-        "isConstructor": false,
-        "type": "Object.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "takesOpt",
-    "addr": "/takesOpt/",
-    "kind": "f",
-    "type": "void function(number)",
-    "lineno": 58,
-    "origin": {
-      "!span": "1120[57:9]-1128[57:17]",
-      "!type": "fn(a?: number)",
-      "!data": {
-        "isConstructor": false,
-        "type": "Function.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "a",
-    "addr": "/a/",
-    "kind": "v",
-    "type": "number",
-    "lineno": 58,
-    "namespace": "takesOpt",
-    "origin": {
-      "!span": "1129[57:18]-1130[57:19]",
-      "!type": "number",
-      "!data": {
-        "isConstructor": false,
-        "scoped": true,
-        "isArg": true,
-        "type": "Number.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "myBitset",
-    "addr": "/myBitset/",
-    "kind": "v",
-    "type": "[bool]",
-    "lineno": 73,
-    "origin": {
-      "!span": "1405[72:4]-1413[72:12]",
-      "!type": "[bool]",
-      "!data": {
-        "isConstructor": false,
-        "type": "Array.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "myObj",
-    "addr": "/myObj/",
-    "kind": "v",
-    "lineno": 78,
-    "origin": {
-      "!span": "1479[77:4]-1484[77:9]",
-      "!data": {
-        "isConstructor": false,
-        "type": "Object.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "NonAscïį",
-    "addr": "/NonAscïį/",
-    "kind": "f",
-    "type": "void function()",
-    "lineno": 84,
-    "origin": {
-      "!span": "1552[83:9]-1560[83:17]",
-      "!type": "fn()",
-      "!data": {
-        "isConstructor": true,
-        "type": "Function.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "length",
-    "addr": "/length/",
-    "kind": "v",
-    "type": "string",
-    "lineno": 84,
-    "namespace": "NonAscïį",
-    "origin": {
-      "!span": "1570[83:27]-1576[83:33]",
-      "!type": "string",
-      "!data": {
-        "isConstructor": false,
-        "type": "String.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "inst",
-    "addr": "/inst/",
-    "kind": "v",
-    "type": "NonAscïį",
-    "lineno": 87,
-    "origin": {
-      "!span": "1616[86:4]-1620[86:8]",
-      "!type": "+NonAscïį",
-      "!data": {
-        "isConstructor": false,
-        "type": "NonAscïį.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "one",
-    "kind": "v",
-    "type": "boolean",
-    "namespace": "myObj",
-    "origin": {
-      "!type": "bool",
-      "!data": {
-        "isConstructor": false,
-        "type": "Boolean.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "two",
-    "kind": "v",
-    "type": "number",
-    "namespace": "myObj",
-    "origin": {
-      "!type": "number",
-      "!data": {
-        "isConstructor": false,
-        "type": "Number.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "bogus",
-    "addr": "/bogus/",
-    "kind": "v",
-    "lineno": 92,
-    "origin": {
-      "!span": "1678[91:4]-1683[91:9]",
-      "!data": {
-        "isConstructor": false,
-        "scoped": false,
-        "isArg": false
       }
     },
     "tagfile": "__DIR__/jsdoc.js"
@@ -434,13 +311,198 @@
     "tagfile": "__DIR__/jsdoc.js"
   },
   {
+    "name": "two",
+    "kind": "v",
+    "type": "number",
+    "namespace": "myObj",
+    "origin": {
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "type": "Number.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "<i>",
+    "kind": "v",
+    "type": "boolean",
+    "namespace": "closureMap",
+    "origin": {
+      "!type": "bool",
+      "!data": {
+        "isConstructor": false,
+        "type": "Boolean.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "one",
+    "kind": "v",
+    "type": "boolean",
+    "namespace": "myObj",
+    "origin": {
+      "!type": "bool",
+      "!data": {
+        "isConstructor": false,
+        "type": "Boolean.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "closureMap",
+    "addr": "/closureMap/",
+    "kind": "v",
+    "lineno": 69,
+    "origin": {
+      "!span": "1222[68:4]-1232[68:14]",
+      "!data": {
+        "isConstructor": false,
+        "type": "Object.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "a",
+    "addr": "/a/",
+    "kind": "v",
+    "type": "number",
+    "lineno": 73,
+    "namespace": "takesOpt",
+    "origin": {
+      "!span": "1323[72:18]-1324[72:19]",
+      "!type": "number",
+      "!data": {
+        "isConstructor": false,
+        "scoped": true,
+        "isArg": true,
+        "type": "Number.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "takesOpt",
+    "addr": "/takesOpt/",
+    "kind": "f",
+    "type": "void function(number)",
+    "lineno": 73,
+    "origin": {
+      "!span": "1314[72:9]-1322[72:17]",
+      "!type": "fn(a?: number)",
+      "!data": {
+        "isConstructor": false,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "myBitset",
+    "addr": "/myBitset/",
+    "kind": "v",
+    "type": "[bool]",
+    "lineno": 88,
+    "origin": {
+      "!span": "1599[87:4]-1607[87:12]",
+      "!type": "[bool]",
+      "!data": {
+        "isConstructor": false,
+        "type": "Array.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "myObj",
+    "addr": "/myObj/",
+    "kind": "v",
+    "lineno": 93,
+    "origin": {
+      "!span": "1673[92:4]-1678[92:9]",
+      "!data": {
+        "isConstructor": false,
+        "type": "Object.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "NonAscïį",
+    "addr": "/NonAscïį/",
+    "kind": "f",
+    "type": "void function()",
+    "lineno": 99,
+    "origin": {
+      "!span": "1746[98:9]-1754[98:17]",
+      "!type": "fn()",
+      "!data": {
+        "isConstructor": true,
+        "type": "Function.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "length",
+    "addr": "/length/",
+    "kind": "v",
+    "type": "string",
+    "lineno": 99,
+    "namespace": "NonAscïį",
+    "origin": {
+      "!span": "1764[98:27]-1770[98:33]",
+      "!type": "string",
+      "!data": {
+        "isConstructor": false,
+        "type": "String.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "inst",
+    "addr": "/inst/",
+    "kind": "v",
+    "type": "NonAscïį",
+    "lineno": 102,
+    "origin": {
+      "!span": "1810[101:4]-1814[101:8]",
+      "!type": "+NonAscïį",
+      "!data": {
+        "isConstructor": false,
+        "type": "NonAscïį.prototype"
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
+    "name": "bogus",
+    "addr": "/bogus/",
+    "kind": "v",
+    "lineno": 107,
+    "origin": {
+      "!span": "1872[106:4]-1877[106:9]",
+      "!data": {
+        "isConstructor": false,
+        "scoped": false,
+        "isArg": false
+      }
+    },
+    "tagfile": "__DIR__/jsdoc.js"
+  },
+  {
     "name": "again",
     "addr": "/again/",
     "kind": "v",
     "type": "number",
-    "lineno": 97,
+    "lineno": 112,
     "origin": {
-      "!span": "1756[96:4]-1761[96:9]",
+      "!span": "1950[111:4]-1955[111:9]",
       "!type": "number",
       "!data": {
         "isConstructor": false,
@@ -454,9 +516,9 @@
     "addr": "/functionBogus/",
     "kind": "f",
     "type": "? function(?)",
-    "lineno": 105,
+    "lineno": 120,
     "origin": {
-      "!span": "1855[104:9]-1868[104:22]",
+      "!span": "2049[119:9]-2062[119:22]",
       "!type": "fn(a: ?) -> ?",
       "!data": {
         "isConstructor": false,
@@ -469,10 +531,10 @@
     "name": "a",
     "addr": "/a/",
     "kind": "v",
-    "lineno": 105,
+    "lineno": 120,
     "namespace": "functionBogus",
     "origin": {
-      "!span": "1869[104:23]-1870[104:24]",
+      "!span": "2063[119:23]-2064[119:24]",
       "!data": {
         "isConstructor": false,
         "scoped": true,
@@ -486,9 +548,9 @@
     "addr": "/unionFunction/",
     "kind": "f",
     "type": "[?|number] function(string)",
-    "lineno": 118,
+    "lineno": 133,
     "origin": {
-      "!span": "2107[117:9]-2120[117:22]",
+      "!span": "2301[132:9]-2314[132:22]",
       "!type": "fn(a: string) -> [?|number]",
       "!data": {
         "isConstructor": false,
@@ -502,10 +564,10 @@
     "addr": "/a/",
     "kind": "v",
     "type": "string",
-    "lineno": 118,
+    "lineno": 133,
     "namespace": "unionFunction",
     "origin": {
-      "!span": "2121[117:23]-2122[117:24]",
+      "!span": "2315[132:23]-2316[132:24]",
       "!type": "string",
       "!data": {
         "isConstructor": false,
@@ -521,27 +583,13 @@
     "addr": "/ui/",
     "kind": "f",
     "type": "string function()",
-    "lineno": 125,
+    "lineno": 140,
     "origin": {
-      "!span": "2232[124:9]-2234[124:11]",
+      "!span": "2426[139:9]-2428[139:11]",
       "!type": "fn() -> string",
       "!data": {
         "isConstructor": false,
         "type": "Function.prototype"
-      }
-    },
-    "tagfile": "__DIR__/jsdoc.js"
-  },
-  {
-    "name": "<i>",
-    "kind": "v",
-    "type": "boolean",
-    "namespace": "closureMap",
-    "origin": {
-      "!type": "bool",
-      "!data": {
-        "isConstructor": false,
-        "type": "Boolean.prototype"
       }
     },
     "tagfile": "__DIR__/jsdoc.js"

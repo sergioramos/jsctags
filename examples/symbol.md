@@ -12,7 +12,7 @@ obj[Symbol.iterator] //: string
 ```json
 [
   {
-    "id": "373e51a0-90cb-11e5-b284-7d1b122bfc07",
+    "id": "25dde3d0-7aef-11e6-9cdb-1fd0e7c1a532",
     "name": "mySym",
     "addr": "/mySym/",
     "kind": "v",
@@ -27,7 +27,7 @@ obj[Symbol.iterator] //: string
     "tagfile": "__DIR__/symbol.js"
   },
   {
-    "id": "373e78b0-90cb-11e5-b284-7d1b122bfc07",
+    "id": "25de31f0-7aef-11e6-9cdb-1fd0e7c1a532",
     "name": "obj",
     "addr": "/obj/",
     "kind": "v",
@@ -42,14 +42,14 @@ obj[Symbol.iterator] //: string
     "tagfile": "__DIR__/symbol.js"
   },
   {
-    "id": "373e78b1-90cb-11e5-b284-7d1b122bfc07",
+    "id": "25de5900-7aef-11e6-9cdb-1fd0e7c1a532",
     "name": ":my_sym",
     "addr": "/mySym/",
     "kind": "v",
     "type": "number",
     "lineno": 4,
     "namespace": "obj",
-    "parent": "373e78b0-90cb-11e5-b284-7d1b122bfc07",
+    "parent": "25de31f0-7aef-11e6-9cdb-1fd0e7c1a532",
     "origin": {
       "!span": "45[3:3]-50[3:8]",
       "!type": "number",
@@ -61,14 +61,14 @@ obj[Symbol.iterator] //: string
     "tagfile": "__DIR__/symbol.js"
   },
   {
-    "id": "373e9fc0-90cb-11e5-b284-7d1b122bfc07",
+    "id": "25de5902-7aef-11e6-9cdb-1fd0e7c1a532",
     "name": "iterator",
     "addr": "/Symbol\.iterator/",
     "kind": "v",
     "type": "string",
     "lineno": 8,
     "namespace": "obj.:Symbol",
-    "parent": "373e78b2-90cb-11e5-b284-7d1b122bfc07",
+    "parent": "25de5901-7aef-11e6-9cdb-1fd0e7c1a532",
     "origin": {
       "!span": "85[7:4]-100[7:19]",
       "!type": "string",

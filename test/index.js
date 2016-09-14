@@ -4,6 +4,7 @@ var async = require('async');
 var format = require('util').format;
 var path = require('path');
 var glob = require('glob');
+var os = require('os');
 
 var bin = path.join(__dirname, '../bin/jsctags');
 var dir = path.join(__dirname, 'cases');
@@ -29,7 +30,7 @@ var files = [
   };
 });
 
-async.forEachSeries(files, function(f, fn) {
+async.forEachLimit(files, os.cpus().length, function(f, fn) {
   async.parallel([
     async.apply(run, {
       cmd: f.name,
@@ -64,7 +65,11 @@ async.forEachSeries(files, function(f, fn) {
       ext: '.tags'
     })
   ], fn);
-}, function() {
+}, function(err) {
+  if (err) {
+    throw err;
+  }
+
   var names = files.map(function(f) {
     return f.name;
   });
