@@ -10,8 +10,6 @@ engines:
     config:
       languages:
       - javascript
-  nodesecurity:
-    enabled: true
 exclude_paths:
 - test/cases
 - examples
