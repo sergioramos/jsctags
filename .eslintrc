@@ -5,6 +5,8 @@
   },
   "extends": "semistandard",
   "rules": {
+    "no-control-regex": 0,
+    "no-useless-escape": 0,
     "space-before-function-paren": [2, "never"]
   }
 }
