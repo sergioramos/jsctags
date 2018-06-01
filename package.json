@@ -1,8 +1,12 @@
 {
   "name": "jsctags",
-  "version": "5.2.0",
+  "version": "5.2.1",
   "description": "jsctags generator",
-  "keywords": ["ctags", "jsctags", "tern"],
+  "keywords": [
+    "ctags",
+    "jsctags",
+    "tern"
+  ],
   "homepage": "https://github.com/ramitos/jsctags",
   "bugs": {
     "url": "http://github.com/ramitos/jsctags/issues",
